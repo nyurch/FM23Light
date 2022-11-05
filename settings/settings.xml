@@ -1733,7 +1733,7 @@
 	<colour name="performance highlight positive" 			value="fg positive" />
 	<colour name="performance highlight negative" 			value="fg negative" />
 
-	<!--reserves availability poup-->
+	<!--Reserves availability poup-->
 	<colour name="reserve available 20 minutes" 					value="teal 800" />
 	<colour name="reserve available 45 minutes" 					value="teal 600" />
 	<colour name="reserve available 60 minutes" 					value="green 700" />
@@ -1803,7 +1803,7 @@
     <colour name="search filter active" 			value="bg purple darker"/>
     <colour name="search filter inactive" 				value="rgb(27,26,28)"/>
 
-    <!-- interaction summary notable highlights -->
+    <!-- Interaction summary notable highlights -->
     <colour name="interaction highlight very positive" 		value="positive"/>
     <colour name="interaction highlight positive" 			value="positive"/>
     <colour name="interaction highlight slightly positive"	value="positive"/>
@@ -1813,7 +1813,7 @@
     <colour name="interaction highlight negative" 			value="negative"/>
     <colour name="interaction highlight very negative" 		value="negative"/>
 
-	<!-- transfer deadline day colours -->
+	<!-- Transfer deadline day colours -->
 	<colour name="deadline day fg" 							value="rgb(247,212,0)"/>
 	<colour name="deadline day bg" 							value="rgb(0,0,0)"/>
 
@@ -1833,7 +1833,7 @@
 	<colour name="deadline day fg titles" 					value="rgb(246,83,29)"/>
 	<colour name="deadline day body text" 					value="rgb(2,2,2)"/>
 
-	<!-- transfer deadline day transfer offer status -->
+	<!-- Transfer deadline day transfer offer status -->
 	<colour name="player transfer status rumour" 			value="rgb(160,0,0)"/>
 	<colour name="player transfer status enquiry" 			value="rgb(70,0,170)"/>
 	<colour name="player transfer status offer made" 		value="rgb(0,0,0)"/>
@@ -1849,6 +1849,22 @@
 	<colour name="player transfer status future deal"		value="rgb(0,97,0)"/>
 	<colour name="player transfer status released"			value="negative"/>
 	<colour name="player transfer status contract renewed"	value="positive"/>
+
+	<!--UEFA Champions League colours-->
+	<colour name="ucl core blue" 							value="rgb(0,0,75)" />
+	<colour name="ucl bright blue" 							value="rgb(13,58,255)" />
+	<colour name="ucl cyan" 								value="rgb(10,190,160)" />
+	<colour name="ucl magenta" 								value="rgb(171,0,171)" />
+
+	<!--UEFA Europa & Europa Conference League colours-->
+	<colour name="uel orange" 								value="rgb(255,105,0)" />
+	<colour name="uel grey" 								value="rgb(43,43,43)" />
+	<colour name="uecl green" 								value="rgb(0,145,20)" />
+
+	<!--Super Cup colours-->
+	<colour name="super cup bg" 							value="rgb(18,37,93)" />
+	<colour name="super cup dark" 							value="rgb(2,9,57)" />
+	<colour name="super cup accent" 						value="rgb(0,150,180)" />
 
 	<!--FMFC colours-->
 	<colour name="coming soon tag"							value="rgb(255,28,107)"/>
