@@ -87,7 +87,7 @@
 						<list id="column_widget_properties">
 							<record indx="0" image_alignment="centre" />
 							<record indx="1" alignment="left,centre_y" />
-							<record indx="2" alignment="left,centre_y" />
+							<record indx="2" alignment="left,centre_y" colour="black"/>
 						</list>
 
 						<list id="column_table_properties">
