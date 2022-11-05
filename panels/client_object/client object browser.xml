@@ -1,17 +1,12 @@
 <!-- this file lists the global panels that should be installed -->
 <panel>
     <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-
     <container id="mai1">
         <layout class="stick_to_sides_attachment" alignment="all" inset="0" />
     </container>
 
     <!-- background picture - covers entire screen -->
     <widget class="background" file="backgrounds/default" id="bgnd">
-        <!-- Once everything is hooked up we'll use a get global attachment like below tied to the
-			     appropriate global setting to show/hide instead of the complex test multiple global
-				 setups for the various items we'll show/hide -->
-        <!--<attachment class="get_global_attachment" get_property="background_visible" set_property="Shwn" />-->
         <record id="object_property">
             <integer id="get_property" value="bgnd" />
             <integer id="set_property" value="file" />
@@ -25,9 +20,9 @@
             <integer id="set_property" value="hidn" />
         </attachment>
     </widget>
-	
-<!-- background support overlay needed as the sidebar is now transparent, to adjust strength alter transparency 0.0 is transparent, 1 is solid, 0.5 is 50% etc... -->
-	    <widget class="picture" file="boxes/bordered/solid/paper" red_replacement="bg"  transparency="0.0"> <!-- overlay -->
+
+    <!-- background support overlay needed as the sidebar is now transparent, to adjust strength alter transparency 0.0 is transparent, 1 is solid, 0.5 is 50% etc... -->
+        <widget class="picture" file="boxes/bordered/solid/paper" red_replacement="bg"  transparency="0.0">
         <layout class="stick_to_sides_attachment" alignment="all" inset="0" />
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
@@ -39,8 +34,8 @@
         </attachment>
     </widget>
 
-<!-- For Background support adjust transparency value. 0.0 is transparent, 1 is solid, 0.5 is 50% etc... This is the purple pattern mainly shown on sidebar -->
-    <widget class="picture" file="boxes/custom/interface/background pattern/paper" id="BgPa" transparency="0.0">	<!-- pattern -->
+    <!-- For Background support adjust transparency value. 0.0 is transparent, 1 is solid, 0.5 is 50% etc... This is the purple pattern mainly shown on sidebar -->
+    <widget class="picture" file="boxes/custom/interface/background pattern/paper" id="BgPa" transparency="0.0">
         <layout class="stick_to_sides_attachment" alignment="all" inset="0" />
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
@@ -53,7 +48,7 @@
     </widget>
 
 <!-- For Background support adjust transparency value. 0.0 is transparent, 1 is solid, 0.5 is 50% etc... This covers the main content area but not sidebar -->
-    <widget class="inner_contrast_box" appearance="boxes/custom/interface/content/paper" transparency="0.95">	<!-- content -->
+    <widget class="inner_contrast_box" appearance="boxes/custom/interface/content/paper" transparency="0.95">
         <layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="mai1"/>
         <layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="mai1"/>
         <layout class="stick_to_object_attachment" id="align_right" get_side="right" use_recursive_search="true" set_side="left" target="side"/>
@@ -70,7 +65,43 @@
         </attachment>
     </widget>
 
-    <!-- match background picture - covers entire screen -->
+    <!-- Team breefing -->
+    <widget class="picture" file="backgrounds/briefing" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="section" test_mode="equal" value="phBR" skip_if_null="false"/>
+                <record get_property="section" test_mode="equal" comparison_mode="or" value="paBR" skip_if_null="true" />
+                <record get_property="FS  " test_mode="equal" comparison_mode="and" value="true" skip_if_null="true" />
+            </list>
+            <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
+    <!-- Dressing room scene background -->
+    <widget class="picture" file="backgrounds/dressingroom" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="htmt" skip_if_null="false"/>
+                <record get_property="sect" test_mode="0" comparison_mode="1" value="atmt" skip_if_null="true" />
+            </list>
+            <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
+    <!-- Tunnel interview scene -->
+    <widget class="picture" file="backgrounds/tunnel" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="mpPh" skip_if_null="false"/>
+                <record get_property="sect" test_mode="0" comparison_mode="1" value="mpPa" skip_if_null="true" />
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
+  <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+    <!-- Match background picture -->
     <widget class="picture" id="Mbkg" scale_picture="true" keep_aspect_ratio="false">
         <record id="object_property">
             <integer id="get_property" value="bgnd" />
@@ -86,7 +117,7 @@
         </attachment>
     </widget>
 
-    <!-- custom background scene -->
+    <!-- Custom background scene -->
     <container id="cBsC">
         <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
@@ -96,16 +127,13 @@
     <container>
         <layout class="arrange_horizontal_attachment" alignment="left,extend" gap="0" offset="0" />
         <layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
-
         <!--when the screen size changes, so does the width of the sidebar - make sure we lay ourselves out correctly-->
         <attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1124" action_event="layD" disable_setting_name="force_small_sidebar"/>
-
-        <widget class="sidebar_menu_table" id="side" width="160">
+        <widget class="sidebar_menu_table" id="side" width="160" navigation_container="true">
             <record id="object_property">
                 <integer id="get_property" value="objt" />
                 <integer id="set_property" value="cotO" />
             </record>
-
             <attachment class="test_multiple_globals_attachment" default_value="true">
                 <list id="get_properties">
                     <record get_property="TTyp" test_mode="equal" value="1" skip_if_null="false" />
@@ -113,18 +141,14 @@
                 </list>
                 <integer id="set_property" value="FoHi" />
             </attachment>
-
             <attachment class="test_setting_attachment" get_setting="force_small_sidebar" value="true" skip_if_false="true" default_value="false" set_property="widt" true_value="45"/>
             <attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1200" set_property="widt" true_value="45" false_value="160" disable_setting_name="force_small_sidebar"/>
         </widget>
-
         <container>
             <layout class="arrange_vertical_attachment" alignment="bottom,extend" gap="-30" offset="0" />
             <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
-
             <container>
                 <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-
                 <!-- match - covers entire lower part of screen when looking at a match -->
                 <widget class="match_highlights_panel" id="full" pitch_unique_id="full">
                     <record id="object_property">
@@ -132,28 +156,22 @@
                         <integer id="set_property" value="objt" />
                     </record>
                 </widget>
-
                 <container>
                     <layout class="arrange_vertical_attachment" alignment="top,extend" gap="0" offset="0" />
                     <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
                     <animation class="translate_animation" start_value="0, -0.2" end_value="0, 0" duration="0.4" end_mode="hold_end" tween="ease_out" coord_mode="relative_to_screen" />
-
                     <!-- custom headers container -->
                     <container id="heaC">
                         <attachment class="get_global_attachment" get_property="hide_header" set_property="Shwn" />
                         <attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0"/>
-                        <!-- widgets get dynamically added there when browsing to a section that wants a custom header-->
                     </container>
-
                     <!-- header area at top of screen - with title, menus, etc -->
                     <container id="head" class="header_panel">
                         <attachment class="get_global_attachment" get_property="hide_header" set_property="hidn" />
                         <record id="object_property" get_property="objt"  set_property="objt"/>
                     </container>
-
                     <container id="main">
                         <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-
                         <!-- rest of the panels -->
                         <container class="container_with_mouse_events" propagate_mouse_events="false" DisW="false">
                             <!--when in a match and viewing highlights, we want the above container to allow mouse events to propagate to the match panel underneath it-->
@@ -164,7 +182,6 @@
                                 </list>
                                 <integer id="set_property" value="prme"/>
                             </attachment>
-
                             <attachment class="test_multiple_globals_attachment" default_value="false">
                                 <list id="get_properties">
                                     <record get_property="section" test_mode="equal" value="hilp" skip_if_null="false"/>
@@ -172,15 +189,12 @@
                                 </list>
                                 <integer id="set_property" value="pdow"/>
                             </attachment>
-
                             <layout class="arrange_vertical_attachment" alignment="top,extend" gap="0" offset="0" />
                             <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
-
                             <!--tab bar-->
                             <!-- @archie.buck The tutorial relies on this id not changing, if you need to adjust it please let me know -->
-                            <container height="36" id="tabz">
+                            <container height="40" id="tabz">
                                 <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-
                                 <!-- hide this panel in "navigation disabled" mode -->
                                 <attachment class="test_multiple_globals_attachment" default_value="true">
                                     <list id="get_properties">
@@ -190,40 +204,31 @@
                                     </list>
                                     <integer id="set_property" value="hidn" />
                                 </attachment>
-
                                 <!-- coloured actions bar image -->
                                 <widget class="main_box" id="ACTb" appearance="boxes/custom/interface/tab bar/paper" red_replacement="primary"/>
-
                                 <container>
                                     <layout class="arrange_horizontal_attachment" alignment="right,extend" gap="2" offset="14" />
                                     <layout class="stick_to_sides_attachment" alignment="vertical" inset="1" apply_to_children="true" />
-
                                     <!-- actions and sections bar -->
                                     <!-- please dont change the ID of this bar, if you really need to please notify Isaac as it will effect gamepad stuff :) -->
                                     <container navigation_container="true" id="tBAR" >
                                         <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
                                         <container class="sections_menu_strip" id="acse" />
                                     </container>
-
                                     <!--Match Options-->
                                     <widget class="match_tactics_toggle_button" />
-
                                     <!--Backroom Advice-->
                                     <widget class="backroom_advice_trigger_button" id="BaC1" />
-
                                     <!--Backroom Advice 'popup'-->
                                     <widget class="backroom_advice_trigger_button" id="BaC2" file="club/backroom advice trigger button popup panel" disable_layout_attachments_when_embedded="true" hidden="true" />
                                 </container>
                             </container>
-
                             <container class="inner_box_no_margin">
                                 <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-
                                 <!-- main area - contains sections/actions panel and content areas -->
                                 <container id="main">
                                     <layout class="arrange_horizontal_attachment" alignment="middle,extend" gap="0" offset="0"/>
                                     <layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
-
                                     <!-- screen content area -->
                                     <container id="scca" auto_size="horizontal">
                                         <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true">
@@ -236,12 +241,10 @@
                     </container>
                 </container>
             </container>
-
             <container id="Fpco">
                 <attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0"/>
             </container>
         </container>
-
         <!--replay controls-->
         <widget class="match_replay_controls_panel" id="mrcp" disable_layout_attachments_when_embedded="true">
             <layout class="stick_to_sides_attachment" alignment="horizontal,top" inset="40,0,0,222" />
