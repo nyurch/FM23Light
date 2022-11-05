@@ -1386,7 +1386,7 @@
 	<colour name="team_talk_positive" 						value="fg positive"/>
 
 	<!-- Map background colour -->
-	<colour name="map background" 							value="blue grey 700" />
+	<colour name="map background" 							value="blue grey 300" />
 
 	<colour name="region caribbean map mask colour" 		red="55" green="55" blue="10"/>
 	<colour name="region central america map mask colour"	red="0" green="255" blue="0"/>
@@ -1540,7 +1540,6 @@
 	<colour name="chemistry_happiness_slightly_bad_colour" 	value="bg grey lighter" />
 	<colour name="chemistry_happiness_bad_colour" 			value="bg negative" />
 
-	<!-- Knowledge (descending order)-->
 	<!-- Knowledge (descending order)-->
 	<colour name="knowledge colour complete" 				value="teal 900" />
 	<colour name="knowledge colour outstanding" 			value="teal 900" />
