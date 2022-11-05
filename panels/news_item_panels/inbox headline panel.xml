@@ -22,7 +22,7 @@
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 			<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true" />
 
-			<widget class="text" id="fwdm" auto_size="all" alignment="right,centre_y" font="capitals" colour="text" multiline="false" size="8"/>
+			<widget class="text" id="fwdm" auto_size="all" alignment="right,centre_y" font="capitals" colour="white" multiline="false" size="8"/>
 		</container>
 
 
