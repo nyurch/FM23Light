@@ -27,56 +27,41 @@
 	</container>
 
 	<!--name-->
-	<container class="bordered_box"  appearance="heffem/pbg">
-	
-    <record id="object_property" get_property="oPCL" set_property="rrep" />
+	<container class="bordered_box" appearance="boxes/custom/background/pbg">
+	<record id="object_property" get_property="oPCL" set_property="rrep" />
 		<layout class="arrange_vertical_attachment" alignment="top" offset="1" gap="0"/>
 		<layout class="fit_children_attachment" alignment="vertical,fill" offset="0" gap="1"/>
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="1" apply_to_children="true"/>
 
-    <widget class="person_button" format="[%person#1-initial_surname]" size="10" font="label" alignment="centre" auto_size="vertical" multiline="false">
-
-      <record id="object_property">
-        <list id="get_properties">
-          <record>
-            <integer id="get_property" value="oSCL" />
-            <integer id="set_property" value="colr" />
-          </record>
-          <record>
-            <integer id="get_property" value="objt" />
-            <integer id="set_property" value="valu" />
-          </record>
-        </list>
-      </record>
+		<widget class="person_button" format="[%person#1-initial_surname]" size="10" font="label" alignment="centre" auto_size="vertical" multiline="false">
+		<record id="object_property">
+		<list id="get_properties">
+		<record>
+			<integer id="get_property" value="oSCL" />
+			<integer id="set_property" value="colr" />
+		</record>
+		<record>
+			<integer id="get_property" value="objt" />
+			<integer id="set_property" value="valu" />
+		</record>
+		</list>
+		</record>
 		</widget>
-		
-    <widget class="team_button" id="pclb" icon_enabled="false" format="[%team#1-long]" size="7" alignment="centre" auto_size="vertical" multiline="false">
-    <layout class="stick_to_sides_attachment" alignment="horizontal"/>
-      <record id="object_property">
-        <list id="get_properties">
-          <record>
-            <integer id="get_property" value="oSCL" />
-            <integer id="set_property" value="colr" />
-          </record>
-          <record>
-            <integer id="get_property" value="Pcte" />
-            <integer id="set_property" value="valu" />
-          </record>
-        </list>
-      </record>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-    </widget>
+		<widget class="team_button" id="pclb" icon_enabled="false" font="title" format="[%team#1-short]" size="7" alignment="centre" auto_size="vertical" multiline="false">
+		<layout class="stick_to_sides_attachment" alignment="horizontal"/>
+		<record id="object_property">
+		<list id="get_properties">
+		<record>
+			<integer id="get_property" value="oSCL" />
+			<integer id="set_property" value="colr" />
+		</record>
+		<record>
+			<integer id="get_property" value="Pcte" />
+			<integer id="set_property" value="valu" />
+		</record>
+		</list>
+		</record>
+		</widget>
 	</container>
 
 </panel>
