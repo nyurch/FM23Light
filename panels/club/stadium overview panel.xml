@@ -159,6 +159,7 @@
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 			<!--pitch-->
 				<widget class="pitch_with_dimensions" id="Pitc">
+					<flags id="colour" value="white" /> <!-- add colour -->
 					<record id="object_property">
 						<integer id="get_property" value="objt"/>
 						<integer id="set_property" value="objt"/>
