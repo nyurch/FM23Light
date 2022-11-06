@@ -99,6 +99,16 @@
         </attachment>
     </widget>
 
+    <!-- Team news scene -->
+    <widget class="picture" file="backgrounds/teamnews" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="mptn" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
   <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
     <!-- Match background picture -->
