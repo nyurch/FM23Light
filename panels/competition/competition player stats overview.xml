@@ -13,7 +13,7 @@
 		</widget>
 	</container>
 
-	<container class="main_contrast_box" height="480" red_replacement="blue 100" colour="white" navigation_container="true">
+	<container class="main_contrast_box" height="480" red_replacement="green 100" colour="white" navigation_container="true">
 		<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_offset="0" horizontal_gap="1" vertical_inset="0"/>
 
 		<!-- Large box with single selectable stats and a list displaying more when one is highlighted -->
@@ -24,7 +24,7 @@
 			<container embed_in_frame="true">
 				<attachment_group class="title_embedded_panel_left"/>
 
-				<widget class="view_menu_label" id="labl" colour="white">
+				<widget class="view_menu_label" id="labl" colour="black">
 					<translation id="text" translation_id="392261" type="use" value="Player Stats Overview[COMMENT: FR 8873; Competition player stats overview; panel title]" />
 				</widget>
 
@@ -33,7 +33,7 @@
 			</container>
 
 			<!-- Background pitch-->
-			<widget class="pitch" vertical="true" pitch_alignment="centre" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="false" pitch_line_colour="faded white" pitch_touchline_width_percentage="1" pitch_perspective="0.15" line_width="1.4" />
+			<widget class="pitch" vertical="true" pitch_alignment="centre" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="false" pitch_line_colour="faded black" pitch_touchline_width_percentage="1" pitch_perspective="0.15" line_width="1.4" />
 
 			<!-- Single stats items. This container or one above it must have this id to make the radio buttons work -->
 			<container class="vertical_arrange_container" id="radC" alignment="fill" offset="30" gap="30" inset="0">
@@ -130,7 +130,7 @@
 		<!-- Stats panel showing the highlighted stat -->
 		<container class="competition_player_stats_panel" id="selP" maximum_items="8" type="2">
 			<!-- Header with stat type string and stat selector button -->
-			<widget class="link_button_title" id="stit" font="title" colour="white" embed_in_frame="true" red_replacement="white">
+			<widget class="link_button_title" id="stit" font="title" colour="black" embed_in_frame="true" red_replacement="black">
 				<layout class="stick_to_sides_attachment" alignment="left,top" inset="0" embed_in_frame="true" />
 			</widget>
 		</container>
