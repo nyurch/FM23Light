@@ -1,0 +1,18 @@
+﻿<panel>
+	<attachment_group class="horizontal_arrange" horizontal_layout="-2,-3" horizontal_offset="0" horizontal_gap="10" vertical_inset="0" />
+
+	<container>
+		<attachment_group class="vertical_arrange" vertical_layout="-1,-8,-1" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+
+		<widget class="spacer" />
+		<widget class="pie_chart" id="piCH"/>
+		<widget class="spacer" />
+	</container>
+
+	<container>
+		<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+
+		<widget class="table" msov="itSL" msex="itUL" id="txtG" layout="-1" row_height="32" row_spacing="2" auto_size="vertical" auto_size_maximum_height="170"/>
+	</container>
+
+</panel>
