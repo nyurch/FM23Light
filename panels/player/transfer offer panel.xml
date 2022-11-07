@@ -8,7 +8,7 @@
     <widget class="transfer_offer_impossible_transfer_panel" id="impo"/>
     <container file="player/transfer offer board taken over panel" id="bord"/>
 
-    <container id="main" class="horizontal_arrange_container" layout="-6,-10" offset="0" inset="0" >
+    <container id="main" class="horizontal_arrange_container" layout="-6,-12" offset="0" inset="0" >
         <global id="gap" name="ui.main_contrast_box_gap"/>
 
         <container class="main_subtle_box" id="pbio" navigation_container="true">
@@ -31,7 +31,7 @@
                 <container id="cltc" >
                     <attachment_group class="vertical_arrange_autosize" vertical_offset="6"/>
 
-                    <widget class="text" id="clmt" auto_size="vertical" colour="text"/>
+                    <widget class="text" id="clmt" auto_size="vertical" colour="white"/>
                 </container>
             </container>
 
@@ -59,8 +59,6 @@
             <layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4"/>
 
             <widget class="tab_strip" id="cpof" selection="coff" height="30" auto_size="horizontal" select_event="slcp" appearance="tabs/subsection" use_alt_end_tab_appearances="false" navigation_container="true">
-                <string id="remove_if" value="ui.is_fmt_controller_skin" />
-
                 <list id="items">
                     <record>
                         <translation id="name" translation_id="308455" type="use" value="Current Offer"/>
