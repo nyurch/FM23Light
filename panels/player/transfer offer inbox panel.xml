@@ -24,7 +24,7 @@
 							<attachment_group class="vertical_arrange_autosize" />
 
 							<!-- messages from selling clubs -->
-							<container id="clmc" class="main_subtle_box" red_replacement="black">
+							<container id="clmc" class="main_transparent_box">
 								<!-- <layout class="show_medium_vertical" min_value="820"/> -->
 
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="30,-1" />
