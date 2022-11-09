@@ -1,0 +1,25 @@
+﻿<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+
+	<boolean id="show_background" value="true"/>
+	<boolean id="show_label_instead_of_portrait" value="true"/>
+
+	<!-- background -->
+	<widget class="picture" id="obbk" file="boxes/custom/feed/profiles/default/paper" scale_picture="true" keep_aspect_ratio="true">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+	  <attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
+	</widget>
+
+	<container>
+		<layout class="arrange_vertical_attachment" layout="-1, -2, -1" offset="0" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
+
+		<widget class="spacer" />
+
+		<!-- label -->
+		<widget class="client_object_label" id="oblw" format="[%person#1-initials]" alignment="centre,auto_fit" colour="white" font="bold"/>
+
+		<widget class="spacer" />
+	</container>
+
+</panel>
