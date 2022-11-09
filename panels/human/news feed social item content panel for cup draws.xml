@@ -1,0 +1,77 @@
+﻿<panel width="260">
+	<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="40,-1" horizontal_gap="6" vertical_inset="0"/>
+
+
+	<container>
+		<layout class="fit_children_attachment" alignment="vertical" offset="2" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" inset="0, 0, 0, 0"/>
+
+		<!-- tweeter image -->
+		<widget class="object_portrait_picture_with_label_and_background" id="obji" height="40" request_facegen_data="false" file="widgets/object portrait picture news feed fan cup draw">
+    
+		</widget>
+	  
+	</container>
+
+	<container id="main" class="inner_subtle_box_no_margin" >
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="4" horizontal_alignment="horizontal" horizontal_inset="8" vertical_gap="6"/>
+
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_gap="0" />
+
+			<!-- news subject object / date sent -->
+			<widget class="client_object_label" id="nmtx" colour="white" style="bold"  multiline="true" auto_size="vertical"/>
+			<widget class="text" id="dttx" colour="faded white" size="small"  multiline="false" auto_size="vertical"/>
+
+		</container>
+
+		<container>
+			<layout class="fit_children_attachment" alignment="vertical" gap="0" offset="0"/>
+			<layout class="arrange_horizontal_attachment" alignment="right,extend" gap="0" offset="0"/>
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
+
+			<container id="SCnt">
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+				<!-- tweet -->
+				<widget class="text" id="sttx" colour="white" multiline="true" auto_size="vertical" size="10">
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
+				</widget>
+
+				<!-- link to popup match player -->
+				<widget class="text_button" id="lnkb" size="small" style="bold" colour="faded white" multiline="true" auto_size="vertical" click_event="shnp" alignment="left,centre_y">
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
+				</widget>
+
+				<!-- likes -->
+				<container height="24">
+					<layout class="arrange_horizontal_attachment" alignment="left" offset="0" gap="6" />
+					<layout class="fit_children_attachment" alignment="horizontal,fill" offset="0" gap="6" />
+					<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+					<!-- Thumbs Up -->
+					<widget class="icon_button" show_button_appearance="false" width="11" icon="icons/16px/thumbs up" icon_alignment="centre" navigation_focus_target="false">
+						<record id="primary_icon_properties" red_replacement="white" />
+					</widget>
+
+					<!-- Likes Count -->
+					<widget class="text" id="like" auto_size="horizontal" size="10.5" alignment="left,centre_y" colour="faded white"/>
+
+				</container>
+			</container>
+
+			<container>
+				<layout class="arrange_vertical_attachment" alignment="top" gap="0" offset="0"/>
+				<layout class="fit_children_attachment" alignment="vertical,fill" gap="0" offset="0"/>
+				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
+				<layout class="fit_children_attachment" alignment="horizontal,fill" gap="0" offset="0"/>
+
+				<container id="PCdi" height="133" width="222" hidden="true">
+					<layout class="arrange_vertical_attachment" alignment="top" offset="0"/>
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+				</container>
+			</container>
+		</container>
+	</container>
+
+</panel>
