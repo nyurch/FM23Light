@@ -1,0 +1,38 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="12" vertical_offset="0" horizontal_inset="0"/>
+	
+
+	<container id="potC" height="40">
+		<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
+		<container class="main_box">
+			<attachment_group class="vertical_arrange_horizontal_autosize_centre" vertical_alignment="top,extend"/>
+			<attachment class="get_global_attachment" get_property="CDra" set_property="appearance"/>
+
+			<widget class="text" id="potl" auto_size="horizontal" alignment="centre" colour="white">
+				<record id="object_property" get_property="text"/>
+				<attachment class="get_global_attachment" get_property="CDfn" set_property="font"/>
+			</widget>
+		</container>
+
+	</container>
+
+	<container>
+		<attachment_group class="horizontal_arrange" horizontal_alignment="fill"/>
+		<container class="main_box">
+			<attachment class="get_global_attachment" get_property="CDra" />
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="4"/>
+			<!-- teams left to draw for a cup stage -->
+
+			<container class="scrolling_box" >
+				<!-- teams left to draw for a cup stage -->
+				<widget class="simple_data_list" id="titi" set_property="prop" gap="8" alignment="left" wrap="true">
+					<record id="widget_properties" class="container" width="216" file="widgets/competition team to draw team and nation"/>
+					<record id="object_property" get_property="itms" set_property="value"/>
+				</widget>
+				<record id="default_properties" auto_size="vertical" />
+			</container>
+
+		</container>
+	</container>
+
+</panel>
