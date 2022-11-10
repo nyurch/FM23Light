@@ -1,0 +1,175 @@
+﻿<record>
+	<record id="clea">
+		<string id="comp_draw_background_colour" value="ucl bright blue"/>
+		<string id="comp_draw_dark_background_colour" value="ucl core blue"/>
+		<string id="comp_draw_text_colour" value="ucl cyan"/>
+		<string id="comp_draw_font" value="champions bold"/>
+		<string id="comp_draw_title_font" value="champions bold"/>
+		<string id="comp_draw_background_splash_image" value="backgrounds/uefa/ucl start screen"/>
+		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/ucl cup draw"/>
+		<string id="comp_draw_background_image" value="backgrounds/uefa/ucl base"/>
+		<string id="comp_draw_use_uefa_layout" value="true"/>
+		<string id="comp_draw_dialog_image" value="backgrounds/uefa/ucl dialog box"/>
+		<boolean id="comp_draw_use_trophy" value="false"/>
+		<boolean id="comp_draw_news_item_use_trophy" value="true"/>
+		<record id="comp_draw_group_title_props">
+			<string id="font" value="champions"/>
+			<string id="colour" value="ucl cyan"/>
+		</record>
+		<string id="comp_draw_group_row_apperance" value="boxes/custom/uefa/cup draws/slots/ucl/default/paper"/>
+		<string id="comp_draw_team_button_active" value="boxes/custom/uefa/cup draws/slots/ucl/active/paper"/>
+		<string id="comp_draw_team_button_disabled" value="boxes/custom/uefa/cup draws/slots/ucl/disabled/paper"/>
+		<string id="comp_draw_team_button_default" value="boxes/custom/uefa/cup draws/slots/ucl/default/paper"/>
+		<string id="comp_draw_theme_song" value="audio/sounds/ucl_15s"/>
+		<float id="comp_draw_theme_song_volume" value="0.4"/>
+		<record id="comp_draw_news_item_appearance">
+			<flags id="appearance" value="tabs/custom/cup draws/ucl" />
+			<flags id="tab_alignment" value="centre"/>
+			<flags id="top_level_tab_focus" value="true" />
+			<string id="red_replacement" value="ucl core blue" />
+		</record>
+		<string id="comp_draw_speech_bubble_appearance" value="boxes/custom/uefa/cup draws/speech bubble/ucl/paper"/>
+		<string id="comp_draw_live_reaction_appearance" value="boxes/custom/uefa/cup draws/live reaction/ucl/paper"/>
+		<record id="comp_draw_group_button_properties">
+			<string id="appearance" value="boxes/custom/uefa/cup draws/groups/ucl/default/paper"/>
+			<string id="colour" value="ucl core blue" />
+		</record>
+		<record id="comp_draw_group_button_active_properties">
+			<string id="appearance" value="boxes/custom/uefa/cup draws/groups/ucl/active/paper"/>
+			<string id="colour" value="ucl core blue" />
+		</record>
+		<string id="comp_draw_group_button_font_colour" value="white"/>
+		<string id="comp_draw_advance_button_appearance" value=""/>
+		<string id="comp_draw_advance_popup_button_appearance" value=""/>
+	</record>
+	<record id="eule">
+		<string id="comp_draw_background_colour" value="uel orange"/>
+		<string id="comp_draw_dark_background_colour" value="black"/>
+		<string id="comp_draw_text_colour" value="uel orange"/>
+		<string id="comp_draw_font" value="europa bold"/>
+		<string id="comp_draw_title_font" value="europa"/>
+		<string id="comp_draw_background_splash_image" value="backgrounds/uefa/uel start screen"/>
+		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/uel cup draw"/>
+		<string id="comp_draw_background_image" value="backgrounds/uefa/uel base"/>
+		<string id="comp_draw_use_uefa_layout" value="true"/>
+		<string id="comp_draw_dialog_image" value="backgrounds/uefa/uel dialog box"/>
+		<boolean id="comp_draw_use_trophy" value="false"/>
+		<boolean id="comp_draw_news_item_use_trophy" value="true"/>
+		<record id="comp_draw_group_title_props">
+			<string id="font" value="europa"/>
+			<string id="colour" value="uel orange"/>
+		</record>
+		<string id="comp_draw_group_row_apperance" value="boxes/custom/uefa/europa/paper"/>
+		<string id="comp_draw_team_button_active" value="boxes/custom/uefa/cup draws/slots/uel/active/paper"/>
+		<string id="comp_draw_team_button_disabled" value="boxes/custom/uefa/cup draws/slots/uel/disabled/paper"/>
+		<string id="comp_draw_team_button_default" value="boxes/custom/uefa/cup draws/slots/uel/default/paper"/>
+		<string id="comp_draw_theme_song" value="audio/sounds/uel_uecl_15s"/>
+		<float id="comp_draw_theme_song_volume" value="0.15"/>
+		<record id="comp_draw_news_item_appearance">
+			<flags id="appearance" value="tabs/custom/cup draws/uel" />
+			<flags id="tab_alignment" value="centre"/>
+			<flags id="top_level_tab_focus" value="true" />
+			<string id="red_replacement" value="uel orange" />
+		</record>
+		<string id="comp_draw_speech_bubble_appearance" value="boxes/custom/uefa/cup draws/speech bubble/uel/paper"/>
+		<string id="comp_draw_live_reaction_appearance" value="boxes/custom/uefa/cup draws/live reaction/uel/paper"/>
+		<string id="comp_draw_group_button_font_colour" value="white"/>
+		<record id="comp_draw_group_button_properties">
+			<string id="appearance" value="boxes/custom/uefa/cup draws/groups/uel/default/paper"/>
+			<string id="font" value="europa bold" />
+			<string id="colour" value="black" />
+		</record>
+		<record id="comp_draw_group_button_active_properties">
+			<string id="appearance" value="boxes/custom/uefa/cup draws/groups/uel/active/paper"/>
+			<string id="colour" value="black" />
+		</record>
+		<string id="comp_draw_advance_button_appearance" value=""/>
+		<string id="comp_draw_advance_popup_button_appearance" value=""/>
+	</record>
+	<record id="ecle">
+		<string id="comp_draw_background_colour" value="uecl green"/>
+		<string id="comp_draw_dark_background_colour" value="black"/>
+		<string id="comp_draw_text_colour" value="uecl green"/>
+		<string id="comp_draw_font" value="europa bold"/>
+		<string id="comp_draw_title_font" value="europa"/>
+		<string id="comp_draw_background_splash_image" value="backgrounds/uefa/uecl start screen"/>
+		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/uecl cup draw"/>
+		<string id="comp_draw_background_image" value="backgrounds/uefa/uecl base"/>
+		<string id="comp_draw_use_uefa_layout" value="true"/>
+		<string id="comp_draw_dialog_image" value="backgrounds/uefa/uecl dialog box"/>
+		<boolean id="comp_draw_use_trophy" value="false"/>
+		<boolean id="comp_draw_news_item_use_trophy" value="true"/>
+		<record id="comp_draw_group_title_props">
+			<string id="font" value="europa"/>
+			<string id="colour" value="uecl green"/>
+		</record>
+		<string id="comp_draw_group_row_apperance" value="boxes/custom/uefa/europa conference/paper"/>
+		<string id="comp_draw_team_button_active" value="boxes/custom/uefa/cup draws/slots/uecl/active/paper"/>
+		<string id="comp_draw_team_button_disabled" value="boxes/custom/uefa/cup draws/slots/uecl/disabled/paper"/>
+		<string id="comp_draw_team_button_default" value="boxes/custom/uefa/cup draws/slots/uecl/default/paper"/>
+		<string id="comp_draw_theme_song" value="audio/sounds/uel_uecl_15s"/>
+		<float id="comp_draw_theme_song_volume" value="0.15"/>
+		<record id="comp_draw_news_item_appearance">
+			<flags id="appearance" value="tabs/custom/cup draws/uecl" />
+			<flags id="tab_alignment" value="centre"/>
+			<flags id="top_level_tab_focus" value="true" />
+			<string id="red_replacement" value="uecl green" />
+		</record>
+		<string id="comp_draw_speech_bubble_appearance" value="boxes/custom/uefa/cup draws/speech bubble/uecl/paper"/>
+		<string id="comp_draw_live_reaction_appearance" value="boxes/custom/uefa/cup draws/live reaction/uecl/paper"/>
+		<string id="comp_draw_group_button_font_colour" value="white"/>
+		<record id="comp_draw_group_button_properties">
+			<string id="appearance" value="boxes/custom/uefa/cup draws/groups/uecl/default/paper"/>
+			<string id="font" value="europa bold" />
+			<string id="colour" value="black" />
+		</record>
+		<record id="comp_draw_group_button_active_properties">
+			<string id="appearance" value="boxes/custom/uefa/cup draws/groups/uecl/active/paper"/>
+			<string id="colour" value="black" />
+		</record>
+		<string id="comp_draw_advance_button_appearance" value=""/>
+		<string id="comp_draw_advance_popup_button_appearance" value=""/>
+	</record>
+	<record id="defa">
+		<string id="comp_draw_background_colour" value="primary_button"/>
+		<string id="comp_draw_dark_background_colour" value="bg"/>
+		<string id="comp_draw_text_colour" value="text"/>
+		<string id="comp_draw_font" value="title"/>
+		<string id="comp_draw_title_font" value="title"/>
+		<string id="comp_draw_background_splash_image" value="backgrounds/dark overlay"/>
+		<string id="comp_draw_news_item_background_image" value="photos/dynamic/draw/bg"/>
+		<string id="comp_draw_background_image" value="backgrounds/dark overlay"/>
+		<string id="comp_draw_use_uefa_layout" value="false"/>
+		<string id="comp_draw_dialog_image" value="boxes/custom/cup draws/dialog/paper"/>
+		<boolean id="comp_draw_use_trophy" value="true"/>
+		<boolean id="comp_draw_news_item_use_trophy" value="false"/>
+		<record id="comp_draw_group_title_props">
+			<string id="font" value="title"/>
+			<string id="colour" value="text"/>
+		</record>
+		<string id="comp_draw_group_row_apperance" value="boxes/custom/cup draws/team slots/default/paper"/>
+		<string id="comp_draw_team_button_active" value="boxes/custom/cup draws/team slots/active/paper"/>
+		<string id="comp_draw_team_button_disabled" value="boxes/custom/cup draws/team slots/disabled/paper"/>
+		<string id="comp_draw_team_button_default" value="boxes/custom/cup draws/team slots/active tab/paper"/>
+		<string id="comp_draw_theme_song" value=""/>
+		<float id="comp_draw_theme_song_volume" value="0.4"/>
+		<record id="comp_draw_news_item_appearance">
+			<flags id="appearance" value="tabs/custom/cup draws/default" />
+			<flags id="tab_alignment" value="centre"/>
+			<flags id="top_level_tab_focus" value="true" />
+		</record>
+		<string id="comp_draw_speech_bubble_appearance" value="boxes/custom/uefa/cup draws/speech bubble/default/paper"/>
+		<string id="comp_draw_live_reaction_appearance" value="boxes/custom/uefa/cup draws/live reaction/default/paper"/>
+		<string id="comp_draw_group_button_font_colour" value="white"/>
+		<record id="comp_draw_group_button_properties">
+			<string id="appearance" value="boxes/custom/uefa/cup draws/groups/default/default/paper"/>
+			<string id="colour" value="faded text" />
+		</record>
+		<record id="comp_draw_group_button_active_properties">
+			<string id="appearance" value="boxes/custom/uefa/cup draws/groups/default/active/paper"/>
+			<string id="colour" value="fg" />
+		</record>
+		<string id="comp_draw_advance_button_appearance" value=""/>
+		<string id="comp_draw_advance_popup_button_appearance" value=""/>
+	</record>
+</record>
