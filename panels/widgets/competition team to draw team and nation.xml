@@ -1,0 +1,35 @@
+﻿<panel height="40">
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+	
+	<list id="properties_to_forward">
+		<record get_property="Ttea" set_property="objt" target="toto"/>
+		<record get_property="prSN" set_property="Shwn" target="natw"/>
+		<record get_property="prSC" set_property="Shwn" target="comW"/>
+	</list>
+
+	<container class="client_object_viewer_xml_panel" id="toto">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+		
+		<container class="main_box">
+			<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="4"/>
+			<attachment class="get_global_attachment" get_property="CDra" set_property="appearance"/>
+
+
+			<widget class="team_button" enable_icon_for_nations="true" colour="white">
+				<record id="object_property" get_property="objt" set_property="value"/>
+				<attachment class="get_global_attachment" get_property="comp_draw_title_font" set_property="font"/>
+			</widget>
+
+			<widget class="object_portrait_picture" id="natw" width="20" height="30" keep_aspect_ratio="true" scale_picture="true" image_alignment="centre">
+				<record id="object_property" get_property="Tnat" set_property="value"/>
+			</widget>
+
+			<widget class="object_portrait_picture" id="comW" width="20" height="30" keep_aspect_ratio="true" scale_picture="true" image_alignment="centre">
+				<record id="object_property" get_property="Tdiv" set_property="value"/>
+			</widget>
+		</container>
+
+	</container>
+	
+
+</panel>
