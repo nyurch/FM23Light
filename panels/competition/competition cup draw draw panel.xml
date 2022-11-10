@@ -23,7 +23,6 @@
 
 		<container class="client_object_viewer_xml_panel" id="liUP">
 			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
-						<flags id="colour" value="white" />
 			<translation id="title" translation_id="557719" type="use" value="Live Updates[COMMENT: Competition Information; NOTE: Live score and event updates]" />
 
 			<container height="90">
@@ -31,7 +30,7 @@
 
 				<widget class="spacer" height="10" />
 
-				<container class="main_subtle_box" appearance="boxes/custom/cup draws/team slots/default/paper" height="80" transparency=".8">
+				<container class="main_subtle_box" appearance="boxes/custom/cup draws/team slots/default/paper" height="80" transparency=".9" red_replacement="white">
 					<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="middle, extend" vertical_inset="2" horizontal_offset="10" horizontal_gap="20" />
 
 					<widget class="client_object_viewer_xml_panel" id="mper" width="170">
@@ -42,7 +41,7 @@
 						</widget>
 						<container>
 							<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" horizontal_alignment="horizontal" vertical_offset="5" />
-							<widget class="person_button" info_popup_enabled="true" auto_size="vertical" colour="black" style="bold" Pcjo="0">
+							<widget class="person_button" info_popup_enabled="true" auto_size="vertical" style="bold" colour="black" Pcjo="0">
 								<record id="object_property" get_property="objt" set_property="valu" />
 							</widget>
 							<widget class="text" auto_size="vertical" size="regular" colour="faded text" value="test">
@@ -52,9 +51,9 @@
 
 					</widget>
 
-                <container class="interaction_speech_bubble_panel" id="comM" width="650" show_minimise_icon="false" speech_bubble_appearance_override="boxes/custom/quick chat/ai_quick_chat_speech">
-					<flags id="colour" value="white" />
-                </container>
+					<container class="interaction_speech_bubble_panel" id="comM" width="650" size="large" red_replacement="">
+						<attachment class="get_global_attachment" get_property="cdsb" set_property="speech_bubble_appearance_override" />
+					</container>
 
 				</container>
 			</container>
