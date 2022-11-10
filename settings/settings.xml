@@ -1900,5 +1900,32 @@
 	<colour name="from_development_squad"					value="fg teal" />
 	<colour name="projection_for_start_of_season" value="rgb(163, 7, 33)" />
 
+	<!--UEFA Champions League colours-->
+	<colour name="ucl core blue" 							value="rgb(90,90,255)" />
+	<colour name="ucl bright blue" 							value="rgb(120,120,255)" />
+	<colour name="ucl cyan" 								value="rgb(90,247,220)" />
+	<colour name="ucl magenta" 								value="rgb(255,22,255)" />
+
+	<!--UEFA Europa & Europa Conference League colours-->
+	<colour name="uel orange" 								value="rgb(255,105,0)" />
+	<colour name="uel grey" 								value="rgb(43,43,43)" />
+	<colour name="uecl green" 								value="rgb(0,190,20)" />
+
+	<!--Super Cup colours-->
+	<colour name="super cup bg" 							value="rgb(18,37,93)" />
+	<colour name="super cup dark" 							value="rgb(2,9,57)" />
+	<colour name="super cup darkest" 						value="rgb(1,2,3)" />
+	<colour name="super cup accent" 						value="rgb(0,188,228)" />
+
+	<!--EFL colours-->
+	<colour name="efl blue" 								value="rgb(6,22,132)" />
+
+	<!--Bundesliga colours-->
+	<colour name="bundesliga red" 							value="rgb(209,5,20)" />
+
+	<!--Cup Draws colours-->
+	<colour name="groups default"                                 value="rgb(50,50,50)" />
+	<colour name="groups active"                                 value="rgb(37,36,38)" />
+
 
 </properties>
