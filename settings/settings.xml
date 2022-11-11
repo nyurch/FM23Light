@@ -1901,8 +1901,8 @@
 	<colour name="projection_for_start_of_season" value="rgb(163, 7, 33)" />
 
 	<!--UEFA Champions League colours-->
-	<colour name="ucl core blue" 							value="rgb(90,90,255)" />
-	<colour name="ucl bright blue" 							value="rgb(120,120,255)" />
+	<colour name="ucl core blue" 							value="rgb(0,0,75)" />
+	<colour name="ucl bright blue" 							value="rgb(13,58,255)" />
 	<colour name="ucl cyan" 								value="rgb(90,247,220)" />
 	<colour name="ucl magenta" 								value="rgb(255,22,255)" />
 
@@ -1924,8 +1924,8 @@
 	<colour name="bundesliga red" 							value="rgb(209,5,20)" />
 
 	<!--Cup Draws colours-->
-	<colour name="groups default"                                 value="rgb(50,50,50)" />
-	<colour name="groups active"                                 value="rgb(37,36,38)" />
+	<colour name="groups default"                                 value="rgb(250,250,250)" />
+	<colour name="groups active"                                 value="rgb(237,236,238)" />
 
 
 </properties>
