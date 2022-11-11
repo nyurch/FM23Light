@@ -14,7 +14,7 @@
         <container class="plain_box" appearance="boxes/custom/transfer deadline day/logo/transfer/paper">
             <attachment_group class="horizontal_arrange_autosize_all_centre" horizontal_alignment="left, extend" horizontal_offset="4"/>
 
-            <widget class="text" id="DDtt" auto_size="all" alignment="left, centre_y" multiline="false" font="title" size="medium" colour="yellow"/>
+            <widget class="text" id="DDtt" auto_size="all" alignment="left, centre_y" multiline="false" font="title" size="medium" colour="black"/>
         </container>
     </container>
 
@@ -32,7 +32,7 @@
         <container class="plain_box" appearance="boxes/custom/transfer deadline day/logo/day/paper" height="25">
             <attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left, extend"/>
 
-            <widget class="text" id="DDrt" auto_size="all" alignment="left, centre_y" multiline="false" font="title" size="xlarge" colour="yellow"/>
+            <widget class="text" id="DDrt" auto_size="all" alignment="left, centre_y" multiline="false" font="title" size="xlarge" colour="black"/>
         </container>
     </container>
 </panel>
