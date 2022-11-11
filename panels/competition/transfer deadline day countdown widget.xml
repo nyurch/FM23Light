@@ -6,7 +6,7 @@
     <container class="main_box" id="CtDn" appearance="boxes/custom/transfer deadline day/clock/countdown/paper">
         <attachment_group class="vertical_arrange" vertical_alignment="fill" vertical_gap="0" vertical_offset="-1"/>
 
-        <widget class="text" auto_size="none" alignment="centre, centre_y, can_scale" font="title" size="small" style="bold" colour="bg">
+        <widget class="text" auto_size="none" alignment="centre, centre_y, can_scale" font="title" size="small" style="bold" colour="deadline day fg">
             <translation id="text" translation_id="342607" type="use" value="Countdown[COMMENT: Game status screen; idle column showing seconds left/current match for each user]" />
         </widget>
         
