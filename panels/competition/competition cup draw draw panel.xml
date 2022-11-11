@@ -51,8 +51,8 @@
 
 					</widget>
 
-					<container class="interaction_speech_bubble_panel" id="comM" width="650" size="large" red_replacement="">
-						<attachment class="get_global_attachment" get_property="cdsb" set_property="speech_bubble_appearance_override" />
+					<container class="interaction_speech_bubble_panel" id="comM" width="650" size="large" red_replacement="white">
+						<attachment class="get_global_attachment" />
 					</container>
 
 				</container>
