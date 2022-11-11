@@ -1813,11 +1813,11 @@
     <colour name="interaction highlight very negative" 		value="negative"/>
 
 	<!-- Transfer deadline day colours -->
-	<colour name="deadline day fg" 							value="rgb(247,212,0)"/>
-	<colour name="deadline day bg" 							value="rgb(0,0,0)"/>
+	<colour name="deadline day fg" 							value="rgb(7,7,7)"/>
+	<colour name="deadline day bg" 							value="rgb(220,220,220)"/>
 
 	<colour name="deadline day bg lighter" 					value="rgb(250,250,250)"/>
-	<colour name="deadline day bg darker" 					value="rgb(2,2,2)"/>
+	<colour name="deadline day bg darker" 					value="rgb(222,222,222)"/>
 	<colour name="deadline day bg colour" 					value="rgb(255,255,255)"/>
 	<colour name="deadline day bg alpha" 					value="rgb(255,255,255)"/>
 	<colour name="deadline day bg tertiary" 				value="rgb(250,250,250)"/>
