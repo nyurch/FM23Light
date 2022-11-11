@@ -7,7 +7,7 @@
 		<string id="comp_draw_title_font" value="champions bold"/>
 		<string id="comp_draw_background_splash_image" value="backgrounds/uefa/ucl start screen"/>
 		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/ucl cup draw"/>
-		<string id="comp_draw_background_image" value="backgrounds/uefa/ucl base"/>
+		<string id="comp_draw_background_image" value="backgrounds/uefa/ucl"/>
 		<string id="comp_draw_use_uefa_layout" value="true"/>
 		<string id="comp_draw_dialog_image" value="backgrounds/default"/>
 		<boolean id="comp_draw_use_trophy" value="false"/>
