@@ -23,8 +23,21 @@
 			</container>
 
 			<container class="inner_box">
-				<layout class="arrange_vertical_attachment" layout="40,40,100" offset="3" gap="5" />
+				<layout class="arrange_vertical_attachment" layout="40,40,40,40,100" offset="3" gap="5" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+			<!-- Name -->
+			<container>
+				<layout class="arrange_vertical_attachment" layout="-1,-1" offset="0" gap="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+				<widget class="text" colour="title" size="large" alignment="left,centre">
+					<translation id="text" translation_id="227765" type="use" auto_size="vertical" value="Name[comment - Person Name]" />
+				</widget>
+				<widget class="person_button" id="name" alignment="left,centre,can_scale" size="large" colour="black" display_format="2">
+					<record id="object_property">
+					<integer id="get_property" value="dref"/>
+					</record>
+				</widget>
+			</container>
 			<!-- Age in years -->
 			<container>
 				<layout class="arrange_vertical_attachment" layout="-1,-1" offset="0" gap="0" />
@@ -35,6 +48,19 @@
 				<widget class="dob_label" id="ages" alignment="left,centre,can_scale" size="large" display_format="2">
 					<record id="object_property">
 					<integer id="get_property" value="Pdob"/>
+					</record>
+				</widget>
+			</container>
+			<!-- Prefered foot -->
+			<container>
+				<layout class="arrange_vertical_attachment" layout="-1,-1" offset="0" gap="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+				<widget class="text" colour="title" size="large" alignment="left,centre">
+					<translation id="text" translation_id="227955" type="use" auto_size="vertical" value="Preferred Foot" />
+				</widget>
+				<widget class="foot_label" id="foot" alignment="left,centre,can_scale" size="large" display_format="2">
+					<record id="object_property">
+					<integer id="get_property" value="Pfot"/>
 					</record>
 				</widget>
 			</container>
