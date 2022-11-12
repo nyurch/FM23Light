@@ -142,7 +142,7 @@
 
 					<container class="horizontal_adaptive_container" default_height="-1" minimum_height="126" priority="1" gap="15">
 
-						<record id="default_properties" file="competition/competition overview player stats panel" maximum_items="3" default_width="-1" minimum_width="250" />
+						<record id="default_properties" file="competition/competition overview player stats panel" maximum_items="5" default_width="-1" minimum_width="250" />
 
 						<!-- CPS_GOALS-->
 						<container class="competition_player_stats_panel" type="2" priority="1" navigation_container="true">
@@ -159,7 +159,7 @@
 					</container>
 
 					<container class="horizontal_adaptive_container" default_height="-1" minimum_height="126" priority="3" >
-						<record id="default_properties" file="competition/competition overview player stats panel" maximum_items="3" default_width="-1" minimum_width="220" />
+						<record id="default_properties" file="competition/competition overview player stats panel" maximum_items="5" default_width="-1" minimum_width="220" />
 
 						<!-- CPS_MAN_OF_MATCH -->
 						<container class="competition_player_stats_panel" type="12" priority="1" navigation_container="true">
