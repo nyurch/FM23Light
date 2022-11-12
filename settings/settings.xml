@@ -1881,9 +1881,9 @@
 	<colour name="card fg lighter" 														value="rgb(250,250,250)"/>
 	<colour name="card fg" 																value="rgb(100,100,100)"/>
 	<colour name="card fg darker" 														value="rgb(50,50,50)"/>
-	<colour name="card bg lighter" 														value="rgb(122,122,122)"/>
+	<colour name="card bg lighter" 														value="rgb(250,250,250)"/>
 	<colour name="card bg" 																value="rgb(240,240,240)"/> <!-- inbox card -->
-	<colour name="card bg darker" 														value="rgb(250,250,250)"/>
+	<colour name="card bg darker" 														value="rgb(220,220,220)"/>
 	<colour name="shadow" 																value="rgb(0,0,0)" />
 	<colour name="xg01"																	value="bg range1" />
 	<colour name="xg02"																	value="bg range3" />
