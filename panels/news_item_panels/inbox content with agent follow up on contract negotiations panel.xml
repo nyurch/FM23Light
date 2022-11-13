@@ -1,0 +1,159 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="12" />
+
+	<string id="skin_style" value="subtle box" />
+
+	<!-- main body text -->
+	<widget class="inbox_body_text" id="bdtx" />
+
+	<widget class="text" auto_size="vertical" font="title" size="medium">
+		<translation id="text" translation_id="557807" type="use" value="Contract negotiations[COMMENT: AREA: Inbox; SUB-AREA: Agent follow up on contract negotiations item; FR-BN: FM-4328; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: Title for contract negotiations area]" />
+	</widget>
+
+	<container class="main_subtle_box">
+		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="300,-1,-1,-1" horizontal_offset="0" horizontal_gap="6" vertical_offset="0" />
+
+		<!--player information-->
+		<widget class="client_object_viewer_xml_panel" file="widgets/player picture name nationality and description">
+			<record id="object_property">
+				<list id="get_properties">
+					<record>
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</list>
+			</record>
+		</widget>
+
+		<!--wages label-->
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="8" />
+
+			<widget class="text" auto_size="vertical" font="label">
+				<translation id="text" translation_id="242353" type="use" value="Wages" />
+			</widget>
+
+			<widget class="text" id="wgex" section="Pcnr" auto_size="vertical" />
+		</container>
+
+		<!--morale label-->
+		<widget class="client_object_property_labelled_panel" property="Pmor" height="50">
+			<record id="label_widget_properties" />
+			<record id="value_widget_properties" auto_size="horizontal" alignment="left, centre_y" />
+			<record id="object_property">
+				<list id="get_properties">
+					<record>
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</list>
+			</record>
+		</widget>
+
+		<!--current ability label-->
+		<widget class="client_object_property_labelled_panel" property="Pcab" height="50">
+			<record id="label_widget_properties" />
+			<record id="value_widget_properties" auto_size="horizontal" alignment="left, centre_y" />
+			<record id="object_property">
+				<list id="get_properties">
+					<record>
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</list>
+			</record>
+		</widget>
+	</container>
+
+	<container>
+		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="290,-2" horizontal_offset="8" horizontal_gap="16" vertical_offset="0" />
+
+		<!--agent information-->
+		<container class="client_object_viewer_xml_panel">
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,extend" horizontal_gap="8" />
+
+			<record id="object_property">
+				<list id="get_properties">
+					<record>
+						<integer id="get_property" value="Pagn" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</list>
+			</record>
+
+			<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x" height="45" width="45">
+				<record id="object_property">
+					<list id="get_properties">
+						<!--Facegen data request-->
+						<record get_property="fcgn" />
+						<!--Fake name request-->
+						<record get_property="Pfke" />
+						<record get_property="prpc" set_property="valu" />
+					</list>
+				</record>
+			</widget>
+
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_gap="1" />
+
+				<widget class="person_button" auto_size="all" size="large" colour="black" info_popup_enabled="true" icon_enabled="true">
+					<record id="object_property" get_property="objt" set_property="valu" />
+				</widget>
+
+				<widget class="agent_scope_label" auto_size="vertical" colour="faded text">
+					<record id="object_property">
+						<list id="get_properties">
+							<record>
+								<integer id="get_property" value="Ascp" />
+								<integer id="set_property" value="valu" />
+							</record>
+						</list>
+					</record>
+				</widget>
+
+				<widget class="relationship_label" auto_size="vertical" display_format="3">
+					<record id="object_property">
+						<list id="get_properties">
+							<record>
+								<integer id="get_property" value="ARel" />
+								<integer id="set_property" value="valu" />
+							</record>
+						</list>
+					</record>
+				</widget>
+
+			</container>
+
+		</container>
+
+
+
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="12" />
+
+			<widget class="text" auto_size="vertical" font="title" colour="white" size="medium">
+				<translation id="text" translation_id="539642" type="use" value="Agent Feedback[COMMENT: AREA: Transfers; SUB-AREA: Loan Back Offer; FR-BN: 32237; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: title for loan back offer news item, the agent's feedback on the player]" />
+			</widget>
+
+			<!--agent feedback overview-->
+			<widget class="text" id="AgFb" auto_size="vertical" />
+
+			<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="6" />
+
+			<!--player demands as supplied by agent-->
+			<widget class="player_demands_icon_list" id="PlEx" auto_size="vertical" apd_string_mode="news_item">
+				<record id="object_property">
+					<list id="get_properties">
+						<record>
+							<integer id="get_property" value="objt" />
+							<integer id="set_property" value="objt" />
+						</record>
+					</list>
+				</record>
+			</widget>
+		</container>
+		</container>
+	</container>
+
+</panel>
