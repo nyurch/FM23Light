@@ -1,0 +1,19 @@
+﻿<panel height="50">
+    <layout class="arrange_vertical_attachment" alignment="fill" offset="0" gap="0"/>
+    <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
+
+    <!-- variation of player picture name and team widget where the team is explicity set by the property Ttea instead of retreiving the current player's contract team -->
+
+    <flags id="child_for_sort" value="PnmP"/>
+
+    <list id="properties_to_forward">
+        <record get_property="Ttea" target="temb" set_property="value"/>
+        <record get_property="text" target="temb" set_property="text"/>
+    </list>
+
+    <widget class="person_button" id="PnmP" info_popup_enabled="true" style="bold" colour="black" navigation_focus_target="true">
+        <record id="object_property" get_property="PnmP" set_property="valu"/>
+    </widget>
+
+    <widget class="team_button" id="temb" alignment="left, centre_y" size="small" colour="faded text" auto_size="none" multiline="false"/>
+</panel>
