@@ -1,0 +1,48 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="8" />
+
+	<string id="skin_style" value="subtle box" />
+
+	<!-- main body text -->
+	<widget class="inbox_body_text" id="bdtx" />
+
+	<widget class="text" auto_size="vertical" font="title" size="12">
+		<translation id="text" translation_id="557808" type="use" value="Player enquiry[COMMENT: AREA: Inbox; SUB-AREA: Agent follow up on player enquiry news item; FR-BN: FM-4311; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: Title for player enquiry area]" />
+	</widget>
+
+	<container class="main_subtle_box">
+		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1,-1,-1" horizontal_offset="0" horizontal_gap="0" vertical_offset="0" />
+
+		<!--player information-->
+		<widget class="client_object_viewer_xml_panel" id="PlIn" file="widgets/player picture name nationality and description" />
+
+		<!--club label-->
+		<widget class="client_object_property_labelled_panel" id="Pclb" property="Pclb" height="60">
+			<record id="label_widget_properties" />
+			<record id="value_widget_properties" auto_size="horizontal" alignment="left, centre_y" />
+		</widget>
+
+		<!--value label-->
+		<widget class="client_object_property_labelled_panel" id="Pdva" property="Pdva" height="60">
+			<record id="label_widget_properties" />
+			<record id="value_widget_properties" auto_size="horizontal" alignment="left, centre_y" />
+		</widget>
+		
+		<!--value label-->
+		<widget class="client_object_property_labelled_panel" id="Pscr" property="PsRK" height="60">
+			<record id="label_widget_properties" />
+			<record id="value_widget_properties" auto_size="horizontal" auto_size_minimum_width="60" height="60" alignment="left, centre_y" />
+		</widget>
+	</container>
+
+	<widget class="text" auto_size="vertical" font="title" colour="white" size="12">
+		<translation id="text" translation_id="539642" type="use" value="Agent Feedback[COMMENT: AREA: Transfers; SUB-AREA: Loan Back Offer; FR-BN: 32237; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: title for loan back offer news item, the agent's feedback on the player]" />
+	</widget>
+
+	<!--agent feedback overview-->
+	<widget class="text" id="AgFb" auto_size="vertical" />
+
+	<!--player demands as supplied by agent-->
+	<widget class="player_demands_icon_list" id="PlEx" auto_size="vertical" apd_string_mode="news_item" />
+
+</panel>
