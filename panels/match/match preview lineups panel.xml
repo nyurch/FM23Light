@@ -129,7 +129,7 @@
 								<layout class="arrange_vertical_attachment" layout="-1,25" offset="0" gap="0" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
-								<widget class="pitch_with_tactics" id="hpwt" vertical="true" icon_flags="disable_name_colour,dont_colour_number, show_name,show_number,colour_names_for_team,show_captain,dont_fade_icons,dont_show_team_names,show_preview_info_popup,drop_initial_if_possible" player_icon_file="tactics/tactics icon preview info panel" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="false" pitch_line_colour="transparent" pitch_perspective="0.25" pitch_draw_lines="false" pitch_touchline_width_percentage="40">
+								<widget class="pitch_with_tactics" id="hpwt" vertical="true" icon_flags="show_name, show_number, show_captain, dont_show_tactical_info, dont_colour_number, drop_initial_if_possible, can_have_multiple_top_icons" player_icon_file="tactics/tactics icon welcome to team panel" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="false" pitch_line_colour="transparent" pitch_perspective="0.25" pitch_draw_lines="false" pitch_touchline_width_percentage="40">
 
 									<integer id="tactics_creator_index" value="2" />
 									<boolean id="pitch_dont_draw_indicators" value="true" />
@@ -346,7 +346,7 @@
 								<layout class="arrange_vertical_attachment" layout="-1,25" offset="0" gap="0" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
-								<widget class="pitch_with_tactics" id="apwt" vertical="true" icon_flags="disable_name_colour,dont_colour_number, show_name,show_number,colour_names_for_team,show_captain,dont_fade_icons,dont_show_team_names,show_preview_info_popup,drop_initial_if_possible" player_icon_file="tactics/tactics icon preview info panel" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="false" pitch_line_colour="transparent" pitch_perspective="0.25" pitch_draw_lines="false" pitch_touchline_width_percentage="40">
+								<widget class="pitch_with_tactics" id="apwt" vertical="true" icon_flags="show_name, show_number, show_captain, dont_show_tactical_info, dont_colour_number, drop_initial_if_possible, can_have_multiple_top_icons" player_icon_file="tactics/tactics icon welcome to team panel" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="false" pitch_line_colour="transparent" pitch_perspective="0.25" pitch_draw_lines="false" pitch_touchline_width_percentage="40">
 
 									<integer id="tactics_creator_index" value="2" />
 									<boolean id="pitch_dont_draw_indicators" value="true" />
