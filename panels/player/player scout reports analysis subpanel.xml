@@ -161,7 +161,7 @@
 			</layout>
 			<layout class="stick_to_sides_attachment" alignment="left" apply_to_children="true" inset="0" />
 
-			<container id="mtFC" class="recruitment_focus_widget" width="250" hide_container_title="false" enable_linking="true">
+			<container id="mtFC" class="recruitment_focus_widget" width="280" hide_container_title="false" enable_linking="true">
 				<record id="object_property" get_property="PFrM" set_property="valu" />
 				<translation id="text" translation_id="557838" type="use" value="Recruitment Focus Matches[COMMENT: AREA: Scouting; SUB-AREA: Scouting card; FR-BN: FM-4003; NOTE: Title above recruitment focus widget shown on scouting card]" />
 			</container>
