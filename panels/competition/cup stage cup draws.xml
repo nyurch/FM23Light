@@ -8,8 +8,7 @@
 
 		<widget class="label" id="date" colour="disabled" auto_size="vertical" />
 
-		<widget class="text" id="fxti" auto_size="vertical" alignment="centre" size="12">
-			<attachment class="get_global_attachment" get_property="CDtc" set_property="colour" />
+		<widget class="text" id="fxti" auto_size="vertical" colour="white" alignment="centre" size="12">
 			<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
 		</widget>
         
