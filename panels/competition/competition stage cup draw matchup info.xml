@@ -1,0 +1,372 @@
+﻿<panel width="1000">
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+	<boolean id="is_live_cup_draw_panel" value="true" />
+
+
+	<container class="main_box" id="mnCO">
+		<attachment class="get_global_attachment" get_property="comp_draw_dialog_image" set_property="appearance" />
+		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="15" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="15" />
+
+		<list id="properties_to_forward">
+			<record get_property="Ttea" set_property="objt" target="hmTC" />
+			<record get_property="Ttea" set_property="objt" target="man1" />
+			<record get_property="Ttea" set_property="objt" target="cap1" />
+			<record get_property="Ttea" set_property="objt" target="str1" />
+			<record get_property="Ttea" set_property="objt" target="clp1" />
+			<record get_property="ottm" set_property="objt" target="awTC" />
+			<record get_property="ottm" set_property="objt" target="man2" />
+			<record get_property="ottm" set_property="objt" target="cap2" />
+			<record get_property="ottm" set_property="objt" target="str2" />
+			<record get_property="ottm" set_property="objt" target="clp2" />
+		</list>
+
+		<widget class="text" size="xlarge" colour="black" auto_size="all">
+			<string id="remove_if" value="is_fmt" />
+			<attachment class="get_global_attachment" get_property="comp_draw_title_font" set_property="font" />
+			<translation id="text" translation_id="557725" type="use" value="Matchup Info[COMMENT: AREA: Cup Draw; SUB-AREA:; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title for matchup info dialog]" />
+		</widget>
+
+		<widget class="spacer" height="16">
+			<string id="remove_if" value="is_fmt" />
+		</widget>
+
+		<container height="200" width="600">
+			<attachment_group class="horizontal_arrange" horizontal_layout="-2,2,-1" horizontal_gap="14" vertical_alignment="vertical" />
+			<container>
+				<attachment_group class="vertical_arrange" />
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1, 20, -1" vertical_alignment="vertical" />
+					
+					<container class="client_object_viewer_xml_panel" id="hmTC">
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend" vertical_alignment="vertical" />
+						<widget class="nation_button" id="natb" label_disabled="true" auto_size="all">
+							<record id="object_property" get_property="Nnat" set_property="objt" />
+							
+						</widget>
+
+						<container>
+							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right, extend" vertical_alignment="vertical" horizontal_gap="12" />
+
+							<widget class="team_button" size="xlarge" auto_size="vertical" alignment="right, centre_y" icon_enabled="false">
+								<record id="object_property" get_property="objt" set_property="valu" />
+								<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+							</widget>
+
+							<widget class="object_portrait_picture" height="36" width="36" scale_picture="true" keep_aspect_ratio="true">
+								<record id="object_property" get_property="objt" set_property="valu" />
+							</widget>
+							
+							
+						</container>
+						
+					</container>
+
+					<widget class="text" value="V" style="bold" alignment="centre" auto_size="all" colour="text">
+						<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+					</widget>
+
+					<container class="client_object_viewer_xml_panel" id="awTC">
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right, extend" vertical_alignment="vertical" />
+						<container>
+							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend" vertical_alignment="vertical" horizontal_gap="12"/>
+
+							<widget class="object_portrait_picture" height="36" width="36" scale_picture="true" keep_aspect_ratio="true">
+								<record id="object_property" get_property="objt" set_property="valu" />
+							</widget>
+							
+							<widget class="team_button" size="xlarge" font="title" auto_size="vertical" alignment="left, centre_y" icon_enabled="false">
+								<record id="object_property" get_property="objt" set_property="valu" />
+								<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+							</widget>
+							
+						</container>
+						
+						<widget class="nation_button" id="natb" label_disabled="true" auto_size="all">
+							<record id="object_property" get_property="Nnat" set_property="objt" />
+						</widget>
+					</container>
+
+				</container>
+
+				<widget class="spacer" height="8" />
+				<widget class="horizontal_divider" />
+				<widget class="spacer" height="8" />
+
+				<widget class="text" colour="text" auto_size="vertical" alignment="centre">
+					<translation id="text" translation_id="557726" type="use" value="Head-to-Head[COMMENT: AREA: Cup Draw; SUB-AREA:; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title for matchup info dialog section]" />
+					<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+				</widget>
+				
+				<widget class="spacer" height="2" />
+
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" horizontal_gap="8"/>
+
+					<container class="plain_box" appearance="boxes/main/subtle/paper" width="100">
+						<attachment_group class="vertical_arrange_autosize" />
+						<widget class="text" auto_size="vertical" alignment="centre_x" size="9" font="title" colour="text">
+							<translation id="text" translation_id="249367 " type="use" value="Won[(games won)]" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						<widget class="text" id="gwTX" auto_size="vertical" alignment="centre_x" size="xlarge" font="title" colour="text" value="1">
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+					</container>
+					<container class="plain_box" appearance="boxes/main/subtle/paper" width="100">
+						<attachment_group class="vertical_arrange_autosize" />
+						<widget class="text" auto_size="vertical" alignment="centre_x" size="9" font="title" colour="text">
+							<translation id="text" translation_id="310141 " type="use" value="Draws[COMMENT: matches drawn, heading]" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						<widget class="text" id="gdTX" auto_size="vertical" alignment="centre_x" size="xlarge" font="title" colour="text" value="1">
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+					</container>
+					<container class="plain_box" appearance="boxes/main/subtle/paper" width="100">
+						<attachment_group class="vertical_arrange_autosize" />
+						<widget class="text" auto_size="vertical" alignment="centre_x" size="9" font="title" colour="text">
+							<translation id="text" translation_id="249367 " type="use" value="Won[(games won)]" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						<widget class="text" id="glTX" auto_size="vertical" alignment="centre_x" size="xlarge" font="title" colour="text" value="1">
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+					</container>
+				</container>
+
+				<widget class="spacer" height="8" />
+				<widget class="horizontal_divider" />
+				<widget class="spacer" height="8" />
+
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,100,-1" vertical_alignment="vertical" />
+
+					<container class="client_object_viewer_xml_panel" id="man1">
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,extend" vertical_alignment="vertical" />
+						<widget class="object_portrait_picture" width="40" height="40" scale_picture="true">
+							<record id="object_property" get_property="TMnR" set_property="valu" />
+						</widget>
+						<widget class="person_button" alignment="left,centre_y" size="large" colour="text">
+							<record id="object_property" get_property="TMnR" set_property="valu" />
+							<boolean id="info_popup_enabled" value="true" />
+							<flags id="info_popup_alignment" value="left,centre_y" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						
+					</container>
+					<container>
+						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
+
+						<widget class="picture" file="icons/26px/manager respo" auto_size="vertical" red_replacement="accent" image_alignment="centre" />
+						<widget class="text" auto_size="vertical" alignment="centre_x" size="8" font="title" colour="text">
+							<translation id="text" translation_id="336479" type="use" value="Manager[COMMENT - Hall of fame column heading]" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+					</container>
+					<container class="client_object_viewer_xml_panel" id="man2">
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend" vertical_alignment="vertical" />
+						<widget class="person_button" alignment="right,centre_y" size="large" colour="text">
+							<record id="object_property" get_property="TMnR" set_property="valu" />
+							<boolean id="info_popup_enabled" value="true" />
+							<flags id="info_popup_alignment" value="left,centre_y" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						<widget class="object_portrait_picture" width="40" height="40" scale_picture="true">
+							<record id="object_property" get_property="TMnR" set_property="valu" />
+						</widget>
+						
+					</container>
+					
+				</container>
+
+				<widget class="spacer" height="8" />
+
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,100,-1" vertical_alignment="vertical" />
+
+					<container class="client_object_viewer_xml_panel" id="cap1">
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,extend" vertical_alignment="vertical" />
+						<widget class="object_portrait_picture" width="40" height="40" scale_picture="true">
+							<record id="object_property" get_property="TCap" set_property="valu" />
+						</widget>
+						<widget class="person_button" alignment="left,centre_y" size="large" colour="text">
+							<record id="object_property" get_property="TCap" set_property="valu" />
+							<boolean id="info_popup_enabled" value="true" />
+							<flags id="info_popup_alignment" value="left,centre_y" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+
+					</container>
+					<container>
+						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
+
+						<widget class="picture" file="icons/custom/player stats/captain" height="26" scale_picture="true" red_replacement="blue" image_alignment="centre" />
+						<widget class="text" auto_size="vertical" alignment="centre_x" size="8" font="title" colour="text">
+							<translation id="text" translation_id="258290" type="use" value="Captain[COMMENT: heading; team_information_panel; club/nation captain]" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+					</container>
+					<container class="client_object_viewer_xml_panel" id="cap2">
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend" vertical_alignment="vertical" />
+						<widget class="person_button" alignment="right,centre_y" size="large" colour="text">
+							<record id="object_property" get_property="TCap" set_property="valu" />
+							<boolean id="info_popup_enabled" value="true" />
+							<flags id="info_popup_alignment" value="left,centre_y" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						<widget class="object_portrait_picture" width="40" height="40" scale_picture="true">
+							<record id="object_property" get_property="TCap" set_property="valu" />
+						</widget>
+
+					</container>
+
+				</container>
+				
+				<widget class="spacer" height="8" />
+
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,100,-1" vertical_alignment="vertical" />
+
+					<container class="client_object_viewer_xml_panel" id="str1">
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,extend" vertical_alignment="vertical" />
+						<widget class="object_portrait_picture" width="40" height="40" scale_picture="true">
+							<record id="object_property" get_property="TKpL" set_property="valu" />
+						</widget>
+						<widget class="person_button" alignment="left,centre_y" size="large" colour="text">
+							<record id="object_property" get_property="TKpL" set_property="valu" />
+							<boolean id="info_popup_enabled" value="true" />
+							<flags id="info_popup_alignment" value="left,centre_y" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+
+					</container>
+					<container>
+						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
+
+						<widget class="picture" file="icons/custom/star rating/senior/unknown" height="26" scale_picture="true" red_replacement="red" image_alignment="centre" />
+						<widget class="text" auto_size="vertical" alignment="centre_x" size="8" font="title" colour="text">
+							<translation id="text" translation_id="359661" type="use" value="Star Player[COMMENT: stars label hint]" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+					</container>
+					<container class="client_object_viewer_xml_panel" id="str2">
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend" vertical_alignment="vertical" />
+						<widget class="person_button" alignment="right,centre_y" size="large" colour="text">
+							<record id="object_property" get_property="TKpL" set_property="valu" />
+							<boolean id="info_popup_enabled" value="true" />
+							<flags id="info_popup_alignment" value="left,centre_y" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						<widget class="object_portrait_picture" width="40" height="40" scale_picture="true">
+							<record id="object_property" get_property="TKpL" set_property="valu" />
+						</widget>
+
+					</container>
+
+				</container>
+				
+				<widget class="spacer" height="8" />
+				<widget class="horizontal_divider" />
+				<widget class="spacer" height="8" />
+
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" vertical_alignment="vertical" />
+					<widget class="text" id="hmBR" auto_size="all" alignment="left" colour="text" value="Placeholder">
+						<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+					</widget>
+					<widget class="text" auto_size="all" alignment="centre" size="8" font="title" colour="text" value="Placeholder">
+						<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						<translation id="text" translation_id="557727" type="use" value="Significant History[COMMENT: AREA: Cup Draw; SUB-AREA:; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Comparison against 2 teams for who has the best record in comp]" />
+					</widget>
+					<widget class="text" id="awBR" auto_size="all" alignment="right" colour="text" value="Placeholder">
+						<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+					</widget>
+				</container>
+
+				<widget class="spacer" height="8" />
+
+				<container id="PrSc">
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" vertical_alignment="vertical" />
+					<widget class="text" id="hmPS" auto_size="all" alignment="left" colour="text" value="Placeholder">
+						<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+					</widget>
+					<widget class="text" auto_size="vertical" alignment="centre" size="8" font="title" colour="text" value="Placeholder">
+						<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						<translation id="text" translation_id="557728" type="use" value="Previous Season[COMMENT: AREA: Cup Draw; SUB-AREA:; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Comparison against 2 teams for who has the best record in comp]" />
+					</widget>
+					<widget class="text" id="awPS" auto_size="all" alignment="right" size="Regular" colour="text" value="Placeholder">
+						<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+					</widget>
+				</container>
+
+				<widget class="spacer" height="8" />
+
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" vertical_alignment="vertical" />
+					<container class="client_object_viewer_xml_panel" id="clp1">
+						<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" vertical_alignment="vertical" />
+						
+						<widget class="formatted_label" auto_size="horizontal" alignment="left,centre_y" colour="text">
+							<string id="format" value="[%comp#1-short]" />
+							<record id="object_property" get_property="Tdiv" set_property="valu" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						<widget class="formatted_label" auto_size="horizontal" alignment="left,centre_y" colour="text">
+							<string id="format" value="([%number#1-nth])" />
+							<record id="object_property" get_property="TpoN" set_property="valu" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+					</container>
+					<widget class="text" auto_size="vertical" alignment="centre" size="8" font="title" colour="text" value="Placeholder">
+						<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						<translation id="text" translation_id="557729" type="use" value="Current League Position[COMMENT: AREA: Cup Draw; SUB-AREA:; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Comparison against 2 teams for who has the best record in comp]" />
+					</widget>
+					<container class="client_object_viewer_xml_panel" id="clp2">
+						<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" vertical_alignment="vertical" />
+						<widget class="formatted_label" auto_size="horizontal" alignment="right,centre_y" colour="text">
+							<string id="format" value="[%comp#1-short]" />
+							<record id="object_property" get_property="Tdiv" set_property="valu" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						<widget class="formatted_label" auto_size="horizontal" alignment="right,centre_y" colour="text">
+							<string id="format" value="([%number#1-nth])" />
+							<record id="object_property" get_property="TpoN" set_property="valu" />
+							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+						</widget>
+						
+					</container>
+				</container>
+				
+			</container>
+
+			<widget class="vertical_divider" />
+			<container>
+				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
+				<widget class="text" font="title" colour="text" auto_size="vertical">
+					<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
+					<translation id="text" translation_id="509183" type="use" value="Notable Reactions[COMMENT: AREA: Pre-match briefing; SUB-AREA: title for a section; FR-BN: 30879; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: The section is showing noteable reactions to the confirmed tactics for the match]" />
+				</widget>
+				<widget class="news_feed_panel" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws matchup info">
+					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+					<integer id="number_of_items_to_display" value="2" />
+
+					<!-- Note that the id is important so that the league selector panels have their popups display correctly -->
+					<container id="Pnlf">
+						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="4" />
+
+						<container id="nwsl">
+							<attachment_group class="vertical_arrange_autosize" horizontal_gap="50" />
+
+							<!-- items added in code here -->
+						</container>
+
+
+					</container>
+
+				</widget>
+			</container>
+		</container>
+	</container>
+
+</panel>
