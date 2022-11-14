@@ -652,6 +652,9 @@
 					<record id="widget_properties">
 						<integer id="mode" value="0"/>
 					</record>
+					<record id="secondary_icon_properties">
+						<string id="red_replacement" value="black"/>
+					</record>
 					<translation id="text" translation_id="553518" type="use" value="Any[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Dialog; FN: FM-4459; NOTE: Default string on the scout picker popup on the recruitment focus dialog; Signifies there is no specific scout assigned to the given focus]" />
 					<layout class="stick_to_object_attachment" id="align_top" offset="5" get_side="bottom" set_side="top" move_side="true" target="at0e"/>
 					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main"/>
@@ -662,6 +665,9 @@
 					<string id="widget_type" value="scout_analyst_picker_popup"/>
 					<record id="widget_properties">
 						<integer id="mode" value="1"/>
+					</record>
+					<record id="secondary_icon_properties">
+						<string id="red_replacement" value="black"/>
 					</record>
 					<translation id="text" translation_id="553519" type="use" value="Any[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Dialog; FN: FM-4459; NOTE: Default string on the analyst picker popup on the recruitment focus dialog; Signifies there is no specific analyst assigned to the given focus]" />
 					<layout class="stick_to_object_attachment" id="align_top" offset="5" get_side="bottom" set_side="top" move_side="true" target="at0f"/>
