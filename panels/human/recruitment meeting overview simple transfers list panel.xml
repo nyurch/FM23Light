@@ -1,0 +1,41 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange" vertical_alignment="top, extend" horizontal_alignment="horizontal" horizontal_inset="0" vertical_offset="0"/>
+
+	<container>
+		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend"/>
+
+		<widget class="picture" id="TrIc" image_alignment="centre" scale_picture="true" height="16" width="16"/>
+		<widget class="text" id="Trti" font="title" alignment="left, centre_y" auto_size="all"/>
+	</container>
+
+	<widget class="table" id="tran" layout="-1, -1, -1" mode="fill_rows, stripe_rows, printable, keyboard" auto_size_rows="false" row_height="32" auto_size="none" save_session_state="true" navigation_container="true">
+		<list id="headings">
+			<record index="0">
+				<translation id="text" translation_id="229350" type="use" value="Person"/>
+			</record>
+			<record index="1">
+				<translation id="text" translation_id="242854" type="use" value="From"/>
+			</record>
+			<record index="2">
+				<translation id="text" translation_id="230121" type="use" value="Fee"/>
+			</record>
+		</list>
+
+		<list id="column_table_properties">
+			<record index="0" id="pers">
+				<record id="widget_info" class="person_button" colour="black" alignment="left, centre_y"/>
+			</record>
+			<record index="1" id="tofr">
+				<record id="widget_info" class="team_button" alignment="left, centre_y"/>
+			</record>
+			<record index="2" id="feec">
+				<record id="widget_info" class="text" colour="text" alignment="left, centre_y"/>
+			</record>
+		</list>
+	</widget>
+
+	<widget class="text" id="notr" alignment="centre" hidden="true">
+		<layout class="stick_to_sides_attachment" value="all" inset="0"/>
+		<translation id="text" translation_id="315038" type="use" value="No transfers to display[COMMENT - transfer centre; used when there are no impending transfers to display]" />
+	</widget>
+</panel>
