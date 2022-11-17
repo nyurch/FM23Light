@@ -15,7 +15,7 @@
 	<!-- the image will only slice in the directions slicing values are provided for-->
 	<record id="image_slices" left="12" right="12" top="12" bottom="12"/>
 
-	<colour id="red_replacement" name="fg tertiary"/>
+	<colour id="red_replacement" name="bg accent"/>
 
 	<!-- title insets -->
 	<!-- these determine how many pixels the title is inset from the top/bottom/left/right of the box -->
@@ -26,7 +26,8 @@
 
 	<!-- title properties -->
 	<record id="font_spec">
-		<flags id="colour" value="white" />
+		<flags id="font" value="title"/> 
+		<colour id="colr" name="title"/> 
 		<flags id="size" value="normal"/> 
 	</record>
 	
