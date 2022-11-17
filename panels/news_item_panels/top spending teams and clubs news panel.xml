@@ -26,7 +26,7 @@
 
 				<record id="object_property" get_property="tit2" set_property="titl"/>
 
-				<widget class="horizontal_bar_chart" bar_appearance="boxes/main/contrast/paper" colour="black" bar_label_alignment="right" alignment="left" bar_size="30" height="160" minimum_bar_size="180">
+				<widget class="horizontal_bar_chart" bar_appearance="boxes/inbox/spenders" colour="black" bar_label_alignment="right" alignment="left" bar_size="30" height="160" minimum_bar_size="180">
 					<record id="object_property" get_property="bar2" set_property="itms"/>
 				</widget>
 			</container>
@@ -39,7 +39,7 @@
 				<record id="object_property" get_property="tit1" set_property="titl"/>
 
 				<!-- Widget height should be 'size * 5 + 5 * gap' gap default is 2-->
-				<widget class="horizontal_bar_chart" bar_appearance="boxes/main/contrast/paper" colour="black" bar_label_alignment="right" alignment="left" bar_size="30" height="160" minimum_bar_size="180">
+				<widget class="horizontal_bar_chart" bar_appearance="boxes/inbox/spenders" colour="black" bar_label_alignment="right" alignment="left" bar_size="30" height="160" minimum_bar_size="180">
 					<record id="object_property" get_property="bar1" set_property="itms"/>
 				</widget>
 			</container>
