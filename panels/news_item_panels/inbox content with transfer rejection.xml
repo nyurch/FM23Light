@@ -23,10 +23,10 @@
         <container class="main_contrast_box" id="AgFb" red_replacement="primary_button">
             <attachment_group class="vertical_arrange_autosize" vertical_offset="0"/>
 
-            <widget class="text" font="label" auto_size="all">
+            <widget class="text" font="label" colour="white" auto_size="all">
                 <translation id="text" translation_id="466494" type="use" value="Agent Feedback:[COMMENT: FR 22718; transfer offer panel; button label to initiate conversation to persuade player to leave club]"/>
             </widget>
-            <widget class="text" id="agnt" auto_size="vertical"/>
+            <widget class="text" id="agnt" colour="faded white"  auto_size="vertical"/>
         </container>
 
         <widget class="horizontal_divider"/>
