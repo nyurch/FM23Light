@@ -148,7 +148,7 @@
 
 							<list id="column_widget_properties">
 								<record indx="0" alignment="left, centre_y" />
-								<record indx="1" id="Pers" alignment="left, centre_y" appearance="labels/custom/draggable/label" />
+								<record indx="1" id="Pers" alignment="left, centre_y" colour="black" appearance="labels/custom/draggable/label" />
 								<record indx="2" alignment="left, centre_y" />
 								<record indx="3" alignment="left, centre_y" />
 								<record indx="4" alignment="left, centre_y" />
@@ -236,7 +236,7 @@
 							</list>
 
 							<list id="column_widget_properties">
-								<record indx="0" alignment="left, centre_y" />
+								<record indx="0" alignment="left, centre_y" colour="black"/>
 								<record indx="1" navigation_focus_target="false" />
 								<record indx="5" navigation_focus_target="true" />
 							</list>
