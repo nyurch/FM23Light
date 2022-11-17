@@ -150,6 +150,10 @@
 						<record index="7" auto_hide_priority="80"/>
 					</list>
 
+					<list id="column_widget_properties">
+						<record indx="0" alignment="left, centre_y" colour="black"/>
+					</list>
+
 					<record id="default_properties" alignment="left,centre_y" colour="black"/>
 
 				</widget>
