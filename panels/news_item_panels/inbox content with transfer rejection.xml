@@ -87,8 +87,8 @@
                 <container>
                     <attachment_group class="horizontal_arrange_autosize_all_centre" horizontal_alignment="left" vertical_alignment="vertical"/>
 
-                    <widget class="picture" id="cats" file="icons/26px/transfer" width="30" height="30" image_alignment="centre" red_replacement="fg"/>
-                    <widget class="text" alignment="centre_y, left" auto_size="all">
+                    <widget class="picture" id="cats" file="icons/26px/transfer" width="30" height="30" image_alignment="centre" red_replacement="white"/>
+                    <widget class="text" alignment="centre_y, left" colour="white" auto_size="all">
                         <translation id="text" translation_id="256851" type="use" value="Rejected[COMMENT: transfer centre screen; label text for rejected transfer]"/>
                     </widget>
                 </container>
