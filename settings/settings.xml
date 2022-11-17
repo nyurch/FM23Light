@@ -1927,5 +1927,7 @@
 	<colour name="groups default"                                 value="rgb(250,250,250)" />
 	<colour name="groups active"                                 value="rgb(237,236,238)" />
 
+	<!--Custom colours-->
+	<colour name="top spenders"                                 value="rgb(0,176,255)" />
 
 </properties>
