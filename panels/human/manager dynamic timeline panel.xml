@@ -15,7 +15,7 @@
 
 	</container>
 
-	<container class="main_subtle_box" background_colour="secondary" height="70">
+	<container class="main_subtle_box" background_colour="green 300" height="70">
         <animation class="fade_animation" start_value="0" end_value="1" duration=".5" end_mode="hold_end" tween="ease_in" />
         <animation class="translate_animation" start_value="0, 0.5" end_value="0, 0" duration=".5" end_mode="hold_end" tween="ease_in" coord_mode="relative_to_target" />
         
@@ -23,13 +23,13 @@
 
 			<container id="fmft" hidden="false" disabled="true">
 				<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" />
-				<widget class="popup_button" id="ssls" appearance="buttons/subtle/flex/button" select_event="tiSe" font="title" fixed="true" auto_size="horizontal">
+				<widget class="popup_button" id="ssls" appearance="buttons/subtle/flex/button" select_event="tiSe" font="title" colour="white" secondary_icon_colour="white" fixed="true" auto_size="horizontal">
 					<translation id="text" translation_id="551829" type="use" value="Go To[COMMENT: AREA: Dynamic Timeline; SUB-AREA:; BN: 28738; TONE: Formal; CHARLIMIT:None; REF-ID: n/a; NOTE:Dropdown Button to go to a particular date on the timeline]" />
 				</widget>
 
-				<widget class="icon_button" appearance="buttons/subtle/flex/button" click_event="left" icon="icons/16px/left" icon_alignment="centre" width="35" />
-				<widget class="icon_button" icon="icons/16px/play alt" id="plyB" icon_alignment="centre" appearance="buttons/subtle/flex/button" click_event="plyS" width="35" />
-				<widget class="icon_button" appearance="buttons/subtle/flex/button" click_event="rght" icon="icons/16px/right" icon_alignment="centre" width="35" />
+				<widget class="icon_button" appearance="buttons/subtle/flex/button" icon_colour="white" click_event="left" icon="icons/16px/left" icon_alignment="centre" width="35" />
+				<widget class="icon_button" icon="icons/16px/play alt" id="plyB" icon_colour="white" icon_alignment="centre" appearance="buttons/subtle/flex/button" click_event="plyS" width="35" />
+				<widget class="icon_button" appearance="buttons/subtle/flex/button" icon_colour="white" click_event="rght" icon="icons/16px/right" icon_alignment="centre" width="35" />
                 <widget class="spacer" width="10" />
 				<widget class="vertical_divider" />
 			</container>
@@ -91,7 +91,7 @@
 					</widget>
 				</container>
 				<widget class="vertical_divider" />
-				<widget class="picture" file="icons/custom/milestones/awards" scale_picture="true" keep_aspect_ratio="true" width="20" image_alignment="centre" colour="red" />
+				<widget class="picture" file="icons/custom/milestones/awards" scale_picture="true" keep_aspect_ratio="true" width="20" image_alignment="centre" red_replacement="red" colour="white" />
 				<container>
 					<attachment_group class="horizontal_arrange_autosize" horizontal_gap="4" />
 					<widget class="formatted_label" id="awan" auto_size="horizontal" alignment="left, centre_y" spec="text">
