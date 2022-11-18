@@ -1,4 +1,4 @@
-﻿<panel navigation_container="true" circle_marker_line_offset="22" flat_marker_line_offset="8">
+﻿<panel navigation_container="true" circle_marker_line_offset="19" flat_marker_line_offset="8">
 
 	<record id="timestamp_props" class="button" appearance="buttons/custom/interface/notification/button" auto_size="vertical" width="80" red_replacement="fg lighter" blue_replacement="fg lighter" text_colour="bg" />
 	
@@ -15,7 +15,7 @@
 
 	</container>
 
-	<container height="35">
+	<container class="main_subtle_box" background_colour="secondary" height="70">
         <animation class="fade_animation" start_value="0" end_value="1" duration=".5" end_mode="hold_end" tween="ease_in" />
         <animation class="translate_animation" start_value="0, 0.5" end_value="0, 0" duration=".5" end_mode="hold_end" tween="ease_in" coord_mode="relative_to_target" />
         
@@ -91,7 +91,7 @@
 					</widget>
 				</container>
 				<widget class="vertical_divider" />
-				<widget class="picture" file="icons/custom/milestones/awards" scale_picture="true" keep_aspect_ratio="true" width="20" image_alignment="centre" colour="white" />
+				<widget class="picture" file="icons/custom/milestones/awards" scale_picture="true" keep_aspect_ratio="true" width="20" image_alignment="centre" colour="red" />
 				<container>
 					<attachment_group class="horizontal_arrange_autosize" horizontal_gap="4" />
 					<widget class="formatted_label" id="awan" auto_size="horizontal" alignment="left, centre_y" spec="text">
