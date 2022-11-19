@@ -1934,7 +1934,7 @@
 	<colour name="cup draw team slots active redrepl"                 value="rgb(217,27,96)"/>
 	<colour name="cup draw team slots active bluerepl"                 value="rgb(255,255,0)"/>
 	<colour name="cup draw team slots active greenrepl"                 value="rgb(255,214,0)"/>
-	<colour name="cup draw react"                 value="rgb(96,125,139)"/>
-	<colour name="cup draw react bgnd"                 value="rgb(96,99,100)"/>
+	<colour name="cup draw react bgnd"                 value="rgb(0,0,75)"/>
+	<colour name="cup draw react "                 value="rgb(13,58,255)"/>
 
 </properties>
