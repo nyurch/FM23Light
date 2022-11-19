@@ -59,7 +59,7 @@
 
 		</container>
 
-		<container class="main_subtle_box" height="240">
+		<container background_colour="cup draw react bgnd" height="240">
         <animation class="translate_animation" start_value="0,50" end_value="0,0" coord_mode="absolute_to_target" duration=".7" tween="ease_out" />
         <animation class="fade_animation" start_value="0" end_value="1" duration=".6" tween="linear" />
         <attachment_group class="vertical_arrange" vertical_alignment="top,extend" horizontal_alignment="horizontal" />
@@ -67,7 +67,7 @@
 		  
 		  <attachment_group class="vertical_arrange" />
 			<widget class="text" auto_size="all" size="large" colour="white">
-			  <attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
+			  <attachment class="get_global_attachment" get_property="CDfn" set_property="font"/>
 				<translation id="text" translation_id="557721" type="use" value="Live Reaction[COMMENT: AREA: Cup Draw; SUB-AREA: Splash screen; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the commentary section of the live cup draw]" />
 			</widget>
 
