@@ -69,7 +69,7 @@
 					</record>
 				</widget>
 
-				<container class="main_subtle_box" appearance="boxes/custom/cup draws/team slots/default/paper">
+				<container background_colour="cup draw react bgnd">
 					<animation class="translate_animation" start_value="0,50" end_value="0,0" coord_mode="absolute_to_target" duration=".7" tween="ease_out" />
 					<animation class="fade_animation" start_value="0" end_value="1" duration=".6" tween="linear" />
 					<string id="remove_if" value="ui.is_fmt_controller_skin, is_fmt" />
@@ -81,7 +81,7 @@
 						<translation id="text" translation_id="557721" type="use" value="Live Reaction[COMMENT: AREA: Cup Draw; SUB-AREA: Splash screen; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the commentary section of the live cup draw]" />
 					</widget>
 
-					<widget class="news_feed_panel" height="150" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
+					<widget class="news_feed_panel" height="190" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
 						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="4" />
 
 						<integer id="number_of_items_to_display" value="12" />
@@ -130,7 +130,7 @@
 						<container class="collapsable_box" id="clBX" ddcw="true" collapsed="true" appearance="">
 							<attachment_group class="vertical_arrange_autosize" />
 
-							<widget class="news_feed_panel" height="160" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
+							<widget class="news_feed_panel" height="200" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
 								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 								<integer id="number_of_items_to_display" value="12" />
