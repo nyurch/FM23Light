@@ -50,7 +50,7 @@
 		<string id="comp_draw_title_font" value="europa"/>
 		<string id="comp_draw_background_splash_image" value="backgrounds/uefa/uel start screen"/>
 		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/uel cup draw"/>
-		<string id="comp_draw_background_image" value="backgrounds/uefa/uel base"/>
+		<string id="comp_draw_background_image" value="backgrounds/uefa/uel start screen"/>
 		<string id="comp_draw_use_uefa_layout" value="true"/>
 		<string id="comp_draw_dialog_image" value="backgrounds/uefa/uel dialog box"/>
 		<boolean id="comp_draw_use_trophy" value="false"/>
