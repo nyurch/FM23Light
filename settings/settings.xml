@@ -1929,5 +1929,10 @@
 
 	<!--Custom colours-->
 	<colour name="top spenders"                                 value="rgb(0,176,255)" />
+	<colour name="cup draw team slots redrepl"                  value="rgb(0,188,212)"/>
+	<colour name="cup draw team slots bluerepl"                 value="rgb(255,235,39)"/>
+	<colour name="cup draw team slots active redrepl"                 value="rgb(217,27,96)"/>
+	<colour name="cup draw team slots active bluerepl"                 value="rgb(255,255,0)"/>
+	<colour name="cup draw team slots active greenrepl"                 value="rgb(255,214,0)"/>
 
 </properties>
