@@ -52,7 +52,6 @@
 				<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="10" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-
 				<container class="bordered_box" height="45" appearance="boxes/custom/solid/rounded/paper" red_replacement="positive dark">
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="6" />
 
@@ -62,9 +61,12 @@
 				</container>
 
 				<widget class="table" id="tpro" layout="-1" inset="0" fixed_size_rows="false" auto_size_rows="true" default_sort_column="0">
-
+                    <list id="column_table_properties">
+                        <record index="0" sort_ascending="false"/>
+                    </list>
 				</widget>
 
+				<widget class="text" id="nPro" auto_size="vertical" colour="faded text" multiline="true" hidden="true" />
 			</container>
 
 			<container class="bordered_box">
@@ -80,13 +82,14 @@
 				</container>
 
 				<widget class="table" id="tcon" layout="-1" inset="0" fixed_size_rows="false" auto_size_rows="true" default_sort_column="0">
-
+                    <list id="column_table_properties">
+                        <record index="0" sort_ascending="false"/>
+                    </list>
 				</widget>
 
+				<widget class="text" id="nCon" auto_size="vertical" colour="faded text" multiline="true" hidden="true" />
 			</container>
-
 		</container>
-
 	</container>
 
 	<container class="bordered_box" appearance="boxes/bordered/transparent/paper" id="SMbx">
