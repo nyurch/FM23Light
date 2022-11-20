@@ -13,15 +13,15 @@
 	  
 	</container>
 
-	<container id="main" class="inner_subtle_box_no_margin" background_colour="cup draw react">
+	<container id="main"  background_colour="bg darker" >
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="4" horizontal_alignment="horizontal" horizontal_inset="8" vertical_gap="6"/>
 
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_gap="0" />
 
 			<!-- news subject object / date sent -->
-			<widget class="client_object_label" id="nmtx" colour="white" style="bold"  multiline="true" auto_size="vertical"/>
-			<widget class="text" id="dttx" colour="faded white" size="small"  multiline="false" auto_size="vertical"/>
+			<widget class="client_object_label" id="nmtx" style="bold"  multiline="true" auto_size="vertical"/>
+			<widget class="text" id="dttx" colour="faded text" size="small"  multiline="false" auto_size="vertical"/>
 
 		</container>
 
@@ -34,12 +34,12 @@
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 				<!-- tweet -->
-				<widget class="text" id="sttx" colour="white" multiline="true" auto_size="vertical" size="10">
+				<widget class="text" id="sttx" multiline="true" auto_size="vertical" size="10">
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
 				</widget>
 
 				<!-- link to popup match player -->
-				<widget class="text_button" id="lnkb" size="small" style="bold" colour="faded white" multiline="true" auto_size="vertical" click_event="shnp" alignment="left,centre_y">
+				<widget class="text_button" id="lnkb" size="small" style="bold" colour="faded text" multiline="true" auto_size="vertical" click_event="shnp" alignment="left,centre_y">
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
 				</widget>
 
@@ -51,11 +51,11 @@
 
 					<!-- Thumbs Up -->
 					<widget class="icon_button" show_button_appearance="false" width="11" icon="icons/16px/thumbs up" icon_alignment="centre" navigation_focus_target="false">
-						<record id="primary_icon_properties" red_replacement="white" />
+						<record id="primary_icon_properties" red_replacement="text" />
 					</widget>
 
 					<!-- Likes Count -->
-					<widget class="text" id="like" auto_size="horizontal" size="10.5" alignment="left,centre_y" colour="faded white"/>
+					<widget class="text" id="like" auto_size="horizontal" size="10.5" alignment="left,centre_y" colour="faded text"/>
 
 				</container>
 			</container>
