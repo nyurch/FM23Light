@@ -120,7 +120,7 @@
     </widget>
 
     <!-- Boardroom scenes -->
-<!--    <widget class="picture" file="backgrounds/briefing" scale_picture="true" keep_aspect_ratio="false">
+    <widget class="picture" file="backgrounds/briefing" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="vPRO" skip_if_null="false"/>
@@ -151,7 +151,7 @@
             </list>
            <integer id="set_property" value="Shwn"/>
         </attachment>
-    </widget>-->
+    </widget>
     <widget class="picture" file="backgrounds/briefing" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
