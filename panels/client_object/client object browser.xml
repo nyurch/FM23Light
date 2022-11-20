@@ -109,6 +109,24 @@
         </attachment>
     </widget>
 
+    <!-- Team meeting scene -->
+    <widget class="picture" file="backgrounds/preseason" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="TeMt" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+    <widget class="picture" file="backgrounds/preseason" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="TeMS" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
     <!-- Cup draw scene -->
     <widget class="picture" file="backgrounds/draw" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
