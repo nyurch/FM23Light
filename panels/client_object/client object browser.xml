@@ -161,6 +161,7 @@
         </attachment>
     </widget>
 
+    <!-- Manager room scenes -->
     <widget class="picture" file="backgrounds/office" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
