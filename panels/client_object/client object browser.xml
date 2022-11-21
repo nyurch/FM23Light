@@ -65,19 +65,40 @@
         </attachment>
     </widget>
 
-    <!-- Team breefing -->
+    <!-- Team breefing +++-->
     <widget class="picture" file="backgrounds/briefing" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
-                <record get_property="section" test_mode="equal" value="phBR" skip_if_null="false"/>
-                <record get_property="section" test_mode="equal" comparison_mode="or" value="paBR" skip_if_null="true" />
-                <record get_property="FS  " test_mode="equal" comparison_mode="and" value="true" skip_if_null="true" />
+                <record get_property="sect" test_mode="0" value="phBR" skip_if_null="false"/>
+                <record get_property="sect" test_mode="0" comparison_mode="1" value="paBR" skip_if_null="true" />
             </list>
             <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
-    <!-- Dressing room scene background -->
+    <!-- Team prematch meeting +++-->
+    <widget class="picture" file="backgrounds/briefing" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="phTA" skip_if_null="false"/>
+                <record get_property="sect" test_mode="0" comparison_mode="1" value="paTA" skip_if_null="true" />
+            </list>
+            <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
+    <!-- Team prematch submit numbers +++-->
+    <widget class="picture" file="backgrounds/dressingroom" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="phsn" skip_if_null="false"/>
+                <record get_property="sect" test_mode="0" comparison_mode="1" value="pasn" skip_if_null="true" />
+            </list>
+            <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
+    <!-- Dressing room scene background +++-->
     <widget class="picture" file="backgrounds/dressingroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
@@ -88,7 +109,7 @@
         </attachment>
     </widget>
 
-    <!-- Tunnel interview scene -->
+    <!-- Tunnel interview scene +++-->
     <widget class="picture" file="backgrounds/tunnel" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
@@ -99,7 +120,18 @@
         </attachment>
     </widget>
 
-    <!-- Team news scene -->
+
+    <!-- Press conference prematch scene +++-->
+    <widget class="picture" file="backgrounds/pressconf" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="PprC" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
+    <!-- Team news scene +++-->
     <widget class="picture" file="backgrounds/teamnews" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
@@ -184,6 +216,16 @@
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="PctO" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
+    <!-- Recruitment meeting -->
+    <widget class="picture" file="backgrounds/office" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="PrMD" skip_if_null="false"/>
             </list>
            <integer id="set_property" value="Shwn"/>
         </attachment>
