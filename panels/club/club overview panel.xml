@@ -52,10 +52,10 @@
 					</widget>
 					<!-- Media Prediction -->
 					<widget class="label" row="4" col="0">
-						<record id="object_property" get_property="CmeD" name="true"/>
+						<record id="object_property" get_property="Crcs" name="true"/>
 					</widget>
-					<widget class="media_expectation_text" row="4" col="1">
-						<record id="object_property" get_property="CmeD"/>
+					<widget class="youth_recruitment_status_label" row="4" col="1">
+						<record id="object_property" get_property="Crcs"/>
 					</widget>
 					<!-- Youth Facilities -->
 					<widget class="label" row="5" col="0">
