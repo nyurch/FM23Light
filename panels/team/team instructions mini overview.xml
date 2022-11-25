@@ -44,6 +44,13 @@
           <flags id="disabled_colour" value="faded white" />
         </widget>
 
+				<widget class="popup_button" id="menP" hidden="true" select_event="SeMe" auto_size="vertical" height="150" vertical_offset="0" focus_appearance="buttons/subtle/flex/button_controller">
+					<flags id="appearance" value="buttons/custom/tactics/style bar/button" />
+					<flags id="alignment" value="centre" />
+					<flags id="icon_alignment" value="centre" />
+					<flags id="colour" value="white" />
+					<flags id="disabled_colour" value="faded white" />
+				</widget>
       </container>
     </container>
 
