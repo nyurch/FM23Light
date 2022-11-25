@@ -32,10 +32,12 @@
 		<container height="35">
 			<layout class="arrange_horizontal_attachment" layout="-1,35" offset="0" gap="2" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
-			<widget class="player_picker_button" id="PLPi" hidden="true" colour="white"/>
-			<widget class="player_picker_button" id="MLPi" widget_type="match_team_squad_player_selection_panel" colour="white" >
-			</widget>
 
+			<container background_colour="white">
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+				<widget class="player_picker_button" id="PLPi" hidden="true" colour="white"/>
+				<widget class="player_picker_button" id="MLPi" widget_type="match_team_squad_player_selection_panel" hidden="true" colour="white"/>
+			</container>
 
 		</container>
 
