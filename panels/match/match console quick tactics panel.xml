@@ -21,13 +21,15 @@
 			</widget>
 
 			<container class="inner_box" appearance="boxes/contrast/no margin/top right/paper" red_replacement="bg" height="30">
-				<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" horizontal_offset="0" horizontal_gap="2" />
+				<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" horizontal_gap="2">
+					<global id="horizontal_offset" name="ui.safe_area_left"/>
+				</attachment_group>
 
 				<container>
 					<attachment_group class="horizontal_arrange_autosize" horizontal_gap="12" horizontal_offset="4" vertical_inset="2" />
 
                     <!--keep this id for the match tutorial-->
-					<widget class="icon_button" id="tact" auto_size="horizontal" secondary_icon="icons/16px/maximise" secondary_icon_enabled="true" icon="icons/16px/tactics" appearance="buttons/custom/over state only/button" click_event="EsFT" controller_button="start_button" default_focus="true" font="title" colour="text" size="small" auto_size_maximum_width="160">
+					<widget class="icon_button" id="TaSu" auto_size="horizontal" secondary_icon="icons/16px/maximise" secondary_icon_enabled="true" icon="icons/16px/tactics" appearance="buttons/custom/over state only/button" click_event="EsFT" controller_button="start_button" default_focus="true" font="title" colour="text" size="small" auto_size_maximum_width="160">
 						<translation id="text" translation_id="516460" type="use" value="Tactics &amp; Subs[COMMENT: AREA; match UI; SUB-AREA: heading; NOTE: text for section allowing user to make tactics changes and/or subs]" />
 					</widget>
 
@@ -47,7 +49,9 @@
 
 			<container navigation_container="true">
 
-				<attachment_group class="horizontal_arrange_autosize" horizontal_gap="0" />
+				<attachment_group class="horizontal_arrange_autosize" horizontal_gap="0">
+					<global id="horizontal_offset" name="ui.safe_area_left"/>
+				</attachment_group>
 
 				<container class="inner_box" appearance="boxes/contrast/no margin/top left/paper" red_replacement="bg lighter">
 					<attachment_group class="horizontal_arrange_autosize_vertical_centre" horizontal_gap="0" horizontal_offset="2" />
@@ -81,7 +85,9 @@
 
 	<container class="main_box_no_margin" height="117" background_colour="bg darker" id="mBar">
 
-		<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="0" />
+		<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="0">
+			<global id="horizontal_offset" name="ui.safe_area_left"/>
+		</attachment_group>
 
 		<container width="8">
 			<layout class="show_medium_horizontal" min_value="1366" />
@@ -162,6 +168,13 @@
 							<translation id="hint" translation_id="348297" type="use" value="Select your match mentality[COMMENT: team instructions: match mentality hint]" />
 						</widget>
 
+						<widget class="popup_button" id="menP" hidden="true" fixed="true" select_event="SeMe" secondary_icon_enabled="false" controller_button="x_button" gamepad_icon_alignment="centre" alignment="centre" icon_alignment="centre" appearance="buttons/custom/match/bottom bar/split/middle/button" font="title" colour="text" opened_event="mnPI" navigation_focus_target="false">
+							<translation id="hint" translation_id="348297" type="use" value="Select your match mentality[COMMENT: team instructions: match mentality hint]" />
+							<record id="closed_event">
+								<flags id="event_id" value="mnPD" />
+								<flags id="event_target" value="prnt" />
+							</record>
+						</widget>
 					</container>
 
 				</container>
