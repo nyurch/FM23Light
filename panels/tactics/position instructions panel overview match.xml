@@ -5,8 +5,8 @@
 	<symbol id="inst" value="instructions not used" />
 	<boolean id="sspa" value="true" />
 
-	<colour id="selected_colour" red="24" green="220" blue="106" alpha="255" />
-	<colour id="preselected_colour" red="11" green="210" blue="45" alpha="170" />
+	<colour id="selected_colour" name="selected instruction" />
+	<colour id="preselected_colour" name="preselected instruction" />
 
 	<layout class="arrange_vertical_attachment" alignment="top,extend" offset="5" gap="0" />
 	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="5" apply_to_children="true" />
