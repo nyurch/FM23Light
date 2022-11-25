@@ -1340,10 +1340,10 @@
 	<colour name="staff overview sports scientist colour" 						value="pink 600"/>
 	<colour name="staff empty slot colour" 										value="blue grey 300"/>
 
-	<colour name="star rating senior" 						value="rgb(244,188,0)"/>
-	<colour name="star rating youth" 						value="rgb(91,188,247)"/>
-	<colour name="star rating empty" 						value="rgb(202,202,202)"/>
-	<colour name="star rating unknown" 						value="rgb(247,247,247)"/>
+	<colour name="star rating senior" 						value="rgb(244,0,0)"/>
+	<colour name="star rating youth" 						value="rgb(190,0,190)"/>
+	<colour name="star rating empty" 						value="rgb(50,50,50)"/>
+	<colour name="star rating unknown" 						value="rgb(247,145,145)"/>
 
 	<colour name="eye colour 1" 							value="rgb(0,0,0)"/>
 	<colour name="eye colour 2" 							value="rgb(71,48,32)"/>
