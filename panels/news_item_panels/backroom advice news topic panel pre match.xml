@@ -1,7 +1,7 @@
 ﻿<!-- A panel used on the inbox backroom advice panel to show a summary of backroom advice on a particular topic --><panel navigation_container="true" width="465" height="240">
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
-	<container class="inner_subtle_box">
+	<container class="inner_subtle_box" background_colour="bg darker">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 		<container id="cNtn">
