@@ -6,7 +6,7 @@
 		<record get_property="titl" set_property="valu" target="titl"/>
 	</list>
 
-	<container class="inner_box" size="xlarge" colour="text" width="300">
+	<container class="inner_box" size="xlarge" colour="text"  background_colour="green 100" width="300">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="12" vertical_gap="0" horizontal_inset="0"/>
 		<translation id="title" translation_id="376487" type="use" value="In Attendance[COMMENT: FR 7884 - in attendance label; team meeting introduction box; team meeting, list of players who are in attendance]"/>
 
