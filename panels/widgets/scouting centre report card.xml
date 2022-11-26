@@ -364,6 +364,17 @@
 
 					</container>
 
+					<container id="posi">
+						<translation id="title" translation_id="312896" type="use" value="Player Positions" />
+						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+						<container class="plain_box" appearance="FME/tabbed pane/subtle/paper">
+							<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+							<widget class="player_positions_indicator_panel" file="player/FME/player positions indicator">
+								<record id="object_property" get_property="Pers" set_property="objt" />
+							</widget>
+						</container>
+					</container>
+
 					<container id="pacn">
 						<translation id="title" translation_id="447607" type="use" value="Analyst Report[COMMENT: Panel title for when viewing analyst report]" />
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
@@ -505,16 +516,12 @@
 					<container id="medi">
 						<translation id="title" translation_id="422164" type="use" value="Medical[COMMENT:Job Centre- Medical team sub-section]" />
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-
 						<container class="plain_box" appearance="FME/tabbed pane/subtle/paper">
 							<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-
 							<widget class="player_injury_panel" file="player/FME/tabs/medical report/player medical report" late_loading="true">
 								<record id="object_property" get_property="Pers" set_property="objt" />
 							</widget>
-
 						</container>
-
 					</container>
 
 				</container>
