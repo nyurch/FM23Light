@@ -77,23 +77,22 @@
 					<integer value="FxCt" />
 				</list>
 
-				<string id="default_view" value="myLight"/>
+				<string id="default_view" value="lght"/>
 				<list id="views">
-					<record id="myLight">
+					<record id="lght">
 						<translation id="text" value="MYLight" type="use"/>
 						<record id="view">
-							<string id="fxdt" value=""/>
-							<string id="fxMn" value=""/>
-							<string id="FXTm" value=""/>
-							<string id="fopt" value=""/>
-							<string id="FxWe" value=""/>
-							<string id="stad" value=""/>
-							<string id="FxAt" value=""/>
-							<string id="FxTV" value=""/>
-							<string id="FxVn" value=""/>
-							<string id="FxRT" value=""/>
-							<record id="FxRs"/>
-							<string id="FxNm" value=""/>
+							<string id="fxdt" width="100"/>
+							<string id="FXTm" width="50"/>
+							<string id="fopt" width="150"/>
+							<string id="FxWe" width="150"/>
+							<string id="stad" width="250"/>
+							<string id="FxAt" width="50"/>
+							<string id="FxTV" width="10"/>
+							<string id="FxVn" width="30"/>
+							<string id="FxRT" width="10"/>
+							<record id="FxRs" width="50"/>
+							<string id="FxNm" width=""/>
 						</record>
 					</record>
 					<record id="gene">
