@@ -161,12 +161,7 @@
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" />
 
-
-				<widget class="picture" id="hpic" default_path="boxes/custom/match/lineup pitch/" file="boxes/custom/match/lineup pitch/circles" image_alignment="centre"  scale_picture="true" keep_aspect_ratio="true" >
-					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
-				</widget>
-
-				<widget class="pitch_with_tactics" player_icon_file="tactics/tactics icon info panel end of season" id="tacP" height="1200" icon_flags="show_name,use_player_kits_back,show_number,dont_fade_icons,show_extra_details" pitch_draw_grass="false" pitch_line_colour="transparent" pitch_perspective="0.25" pitch_draw_lines="false" pitch_touchline_width_percentage="40">
+				<widget class="pitch_with_tactics" player_icon_file="tactics/tactics icon welcome to team panel" id="tacP" height="1200" whidt="500" icon_flags="show_name, show_number, show_captain, dont_show_tactical_info, dont_colour_number, drop_initial_if_possible, can_have_multiple_top_iconss" pitch_draw_grass="true" pitch_line_colour="white" pitch_perspective="0" pitch_draw_lines="true" pitch_touchline_width_percentage="50">
 					<boolean id="vertical" value="true" />
 					<boolean id="pitch_is_read_only" value="true" />
 				</widget>
