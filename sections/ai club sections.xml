@@ -1,0 +1,305 @@
+<!--
+this file contains a list of all of the sections in the game
+-->
+<properties>
+	<string id="text" value="Club" />
+	<list id="items">
+
+		<record id="Novw">
+			<translation id="text" translation_id="297341" type="use" value="Overview[COMMENT: title for a panel displaying an overview of a nation]" />
+			<list id="items">
+				<!--profile-->
+				<record id="tciz" />
+				<!-- competitions overview -->
+				<record id="comp" human_object_type="HOTt">
+					<translation id="text" translation_id="227741" type="use" value="Competitions" />
+					<list id="items" />
+				</record>
+				<!--general-->
+				<record id="csiz" />
+				<!-- supporters overview -->
+				<record id="Supp">
+					<translation id="text" translation_id="447646" type="use" value="Supporters[COMMENT:Team Dynamics: header for the supporters' take on the manager's level of support within the squad]" />
+					<list id="items">
+						<!--Supporter Profile-->
+						<record id="supp" human_object_type="HOTt" />
+						<!--Global Supporters-->
+						<record id="gsup" human_object_type="HOTt" />
+					</list>
+				</record>
+				<record id="sppo" human_object_type="HOTc"/>
+				<!--facilities-->
+				<record id="tcfz" />
+				<!--affiliated clubs-->
+				<record id="tafi" />
+				<!--boardroom for job interviews-->
+				<record id="breq" />
+				<record id="----" />
+				<!--actions-->
+				<!--apply for job-->
+				<record id="TCpJ" item_type="ACTT" />
+				<!--declare interest-->
+				<record id="TCdI" item_type="ACTT" />
+				<record id="SUBS" item_type="ACTT" />
+				<record id="USUB" item_type="ACTT" />
+			</list>
+		</record>
+
+		<!--headlines-->
+		<record id="clnw" />
+
+		<record id="tcPL">
+			<translation id="text" translation_id="336580" type="use" value="Players[COMMENT:club/nation section for all scouting pages]" />
+			<list id="items">
+				<!--all players-->
+				<record id="Capl" type="15" />
+				<record id="----" />
+				<!--actions-->
+				<!--go to affiliated club-->
+				<record id="CAfC" item_type="ACTT" />
+				<!--export for versus mode-->
+				<record id="TCEx" item_type="ACTT" />
+			</list>
+		</record>
+
+		<record id="tcNU">
+			<translation id="text" translation_id="336510" type="use" value="Numbers" />
+			<list id="items">
+			</list>
+		</record>
+
+		<record id="tcRE">
+			<translation id="text" translation_id="336614" type="use" value="Registration[COMMENT - squad selection section on team screen]" />
+			<list id="items">
+			</list>
+		</record>
+
+    <record id="tHie" section="tHie">
+      <translation id="text" translation_id="447669" type="use" value="Dynamics[COMMENT: Manager Main/Top Menu; link to Dynamics screen showcasing a representation of interpersonal relationships at the club]" />
+      <list id="items">
+      </list>
+    </record>
+
+		<record id="tcTC">
+			<translation id="text" translation_id="230056" type="use" value="Tactics" />
+			<list id="items">
+			</list>
+		</record>
+
+		<record id="trng" section="trng">
+			<translation id="text" translation_id="300976" type="use" value="Training[COMMENT - training schedule sub menu on person actions menu]" />
+			<list id="items">
+				<!--overview-->
+				<record id="TeOv" />
+				<!--calendar-->
+				<record id="ttcP" />
+				<!--Schedule-->
+				<record id="TtSh" />
+				<!--Units-->
+				<record id="TeUn" />
+				<!--Mentoring-->
+				<record id="TeMn" />
+				<!--individual-->
+				<record id="TeTi" />
+				<!--rest-->
+				<record id="TeTR" />
+				<!--coaches-->
+				<record id="TeTc" />
+			</list>
+		</record>
+
+		<record id="Injy" section="Injy">
+			<translation id="text" translation_id="450760" type="use" value="Medical Centre[COMMENT: Panel title for when viewing medical report, was ID 447586 but we've since been asked to change it to Medical Centre]" />
+			<list id="items">
+			</list>
+		</record>
+
+		<record id="tcSC">
+			<translation id="text" translation_id="242285" type="use" value="Schedule" />
+			<list id="items">
+				<record id="----" />
+				<!--actions-->
+				<!--propose friendly-->
+				<record id="TCFr" item_type="ACTT" />
+			</list>
+		</record>
+
+		<record id="tcTR">
+			<translation id="text" translation_id="339905" type="use" value="Team Reports[COMMENT: news subscription info; label text for a news subscription type, indicating what sort of news the user will get if they subscribe to this feed]" />
+			<list id="items">
+				<record id="----" />
+				<!--actions-->
+				<!--scout team-->
+				<record id="STAi" item_type="ACTT" />
+			</list>
+		</record>
+
+		<record id="tcST">
+			<translation id="text" translation_id="229528" type="use" value="Staff" />
+			<list id="items">
+				<!--members-->
+				<record id="bmsc" />
+				<record id="tcsp" />
+				<!--<record id="tcsS"/>
+        <record id="tcsr"/>
+        <record id="tcsy"/>-->
+			</list>
+		</record>
+
+		<record id="tctr">
+			<translation id="text" translation_id="227743" type="use" value="Transfers" />
+			<list id="items">
+				<!--transfer centre-->
+				<record id="trcn" />
+				<!--transfer history-->
+				<record id="tctp" />
+				<!--trade-->
+				<record id="mlsT" />
+				<!--loans-->
+				<record id="plol" />
+				<!--draft allocations-->
+				<record id="tdra" />
+				<!--clauses-->
+				<record id="tcft" />
+				<record id="----" />
+				<!--actions-->
+				<!--mls trade link-->
+				<record id="CMTr" item_type="ACTT" />
+				<!--mls trade enquiry link-->
+				<record id="CMTE" item_type="ACTT" />
+
+				<!-- debug Transfers -->
+				<record id="cdtr" human_object_type="HOTc" />
+			</list>
+		</record>
+
+		<record id="tbrd">
+			<translation id="text" translation_id="308506" type="use" value="Boardroom[COMMENT: Manager main/top menu: board confidence link when team name is not displayed]" />
+			<list id="items">
+				<!--finances-->
+				<record id="fina">
+					<translation id="text" translation_id="229821" type="use" value="Finances" />
+					<list id="items">
+						<!--overview-->
+						<record id="tfin" human_object_type="HOTc" />
+						<!--income-->
+						<record id="tFii" human_object_type="HOTc" />
+						<!--expenditure-->
+						<record id="tFie" human_object_type="HOTc" />
+						<!--salary-->
+						<record id="tFis" human_object_type="HOTc" />
+						<!--financial fair play-->
+						<record id="tFfp" human_object_type="HOTc" />
+						<!--debt and Loans-->
+						<record id="tFid" human_object_type="HOTc" />
+						<!--sponsors-->
+						<record id="tFiS" human_object_type="HOTc" />
+						<!--code of conduct-->
+						<record id="cFin" human_object_type="HOTc" />
+						<!--projection-->
+						<record id="tFip" human_object_type="HOTc" />
+						<!--league specific-->
+						<record id="tFls" human_object_type="HOTc" />
+					</list>
+				</record>
+				<!-- club vision -->
+                <record id="tcbr" human_object_type="HOTc"/>
+				<!-- board profile -->
+				<record id="BoPr" human_object_type="HOTc"/>
+				<!-- performance -->
+				<record id="Cono">
+					<translation id="text" translation_id="491844" type="use" value="Performance[COMMENT: AREA: Boardroom; SUB-AREA: Appraisal of Performance; FR-BN: n/a; TONE: Formal; CHARLIMIT: Short, one word; REF-ID: n/a; NOTE: this is replacing Confidence as the singular term relating to the Boardroom and the evaluation of managerial performance]" />
+					<list id="items">
+						<!-- club confidence -->
+						<record id="tcon" human_object_type="HOTc" />
+						<!-- nation confidence -->
+						<record id="ncon" human_object_type="HOTc" />
+						<!-- nation competition performance -->
+						<record id="tccp" human_object_type="HOTc" />
+						<!-- club match performance -->
+						<record id="tcma" human_object_type="HOTc" />
+						<!-- nation match performance -->
+						<record id="ncma" human_object_type="HOTc" />
+						<!-- club transfer activity -->
+						<record id="tctc" human_object_type="HOTc" />
+						<!-- club tactics performance -->
+						<record id="tacc" human_object_type="HOTc" />
+						<!-- nation tactics performance -->
+						<record id="nacc" human_object_type="HOTc" />
+						<!-- club squad performance -->
+						<record id="tsqc" human_object_type="HOTc" />
+					</list>
+				</record>
+				
+				<record id="cdam" />
+				<record id="----" />
+				<!--actions-->
+				<!--talk to board-->
+				<record id="Cboa" item_type="ACTT" />
+				<!--adjust budget-->
+				<record id="CBud" item_type="ACTT" />
+			</list>
+		</record>
+
+		<record id="csrc">
+			<translation id="text" translation_id="229719" type="use" value="History" />
+			<list id="items">
+				<!--overview-->
+				<record id="troz" />
+				<!--competitions-->
+				<record id="cmpz" />
+				<!--landmarks-->
+				<record id="ldmz" />
+				<!--managers-->
+				<record id="mhiz" />
+				<!--records-->
+				<record id="Recz" />
+				<!--best eleven-->
+				<record id="trbz" />
+				<!--Past players-->
+				<record id="hipz" />
+				<!--notes-->
+				<record id="Tnot" />
+				<record id="----" />
+				<!--actions-->
+				<record id="CRNO" item_type="ACTT" />
+			</list>
+		</record>
+
+		<record id="tcDB">
+			<string id="text" value="Debug" />
+			<list id="items">
+				<!--debug kits-->
+				<record id="tcdk" />
+				<!--debug panel-->
+				<record id="tcdp" />
+				<!--shortlist debug-->
+				<record id="cshd" />
+				<!--target debug-->
+				<record id="tctd" />
+				<!--debug transfer value-->
+				<record id="tctv" />
+        <!--finances debug-->
+        <record id="tcfd"/>
+				<record id="----" />
+				<!--actions-->
+				<!--debug-->
+				<record id="ClDb" item_type="ACTT" />
+			</list>
+		</record>
+
+		<record id="----" />
+		<!--actions-->
+		<!--take control-->
+		<record id="TCkC" item_type="ACTT" />
+		<!--pick as favourite-->
+		<record id="CPFv" item_type="ACTT" />
+		<!--pick for friendly-->
+		<record id="TCFF" item_type="ACTT" />
+		<!--select as feeder-->
+		<record id="CSlF" item_type="ACTT" />
+		<!--add extra dp slot-->
+		<record id="Cxdp" item_type="ACTT" />
+	</list>
+
+</properties>
