@@ -215,14 +215,6 @@
     <widget class="picture" file="backgrounds/office" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
-                <record get_property="sect" test_mode="0" value="PctO" skip_if_null="false"/>
-            </list>
-           <integer id="set_property" value="Shwn"/>
-        </attachment>
-    </widget>
-    <widget class="picture" file="backgrounds/office" scale_picture="true" keep_aspect_ratio="false">
-        <attachment class="test_multiple_globals_attachment" default_value="false">
-            <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="ConV" skip_if_null="false"/>
             </list>
            <integer id="set_property" value="Shwn"/>
@@ -232,6 +224,16 @@
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="ConS" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+
+    <!-- Contract offer scenes -->
+    <widget class="picture" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="PctO" skip_if_null="false"/>
             </list>
            <integer id="set_property" value="Shwn"/>
         </attachment>
