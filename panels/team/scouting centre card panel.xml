@@ -1,9 +1,9 @@
-﻿<!-- changed colours for checkbox's -->
-<panel>
+﻿<panel>
 	<list id="properties_to_forward">
-		<record get_property="is_in_inbox" set_property="is_in_inbox" target="toto"/>
 		<record get_property="is_in_inbox" set_property="hidden" target="clAL"/>
-	</list>							  
+		<record get_property="is_in_recruitment_meeting" set_property="is_in_recruitment_meeting" target="nRec"/>
+	</list>
+
 	<boolean id="should_force_refresh" value="true" />
 
 	<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="2" />
@@ -50,57 +50,45 @@
 				<widget id="assc" class="property_list_viewer_xml_panel" file="widgets/scouting centre assignment card"/>
 				<widget id="cmpc" class="property_list_viewer_xml_panel" file="widgets/scouting centre comp suggestion card"/>
 				<widget id="mesc" class="property_list_viewer_xml_panel" file="widgets/scouting centre message card"/>
+				<widget id="fcrc" class="property_list_viewer_xml_panel" file="widgets/scouting centre focus review card"/>
 
 			</container>
 
 			<container height="6" />
 			
 			<container id="atnC" height="30">
-				<layout class="arrange_horizontal_attachment" alignment="middle" offset="80" gap="5" />
+				<layout class="arrange_horizontal_attachment" alignment="middle" offset="8" gap="5" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
-				<container class="main_box_no_margin" id="clAL" height="26" width="130">
-					<layout class="arrange_horizontal_attachment" alignment="middle" offset="0" gap="-10" />
-					<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
-					<widget class="primary_button" id="rrnb" click_event="Clea" auto_size="all" red_replacement="bg" colour="fg" style="bold">
+				<container class="main_box_no_margin" height="26" width="30">
+					<layout class="centre_in_parent_attachment" alignment="horizontal" apply_to_children="true"/>
+					<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true"/>
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+					<widget class="icon_button" click_event="Clea" auto_size="all" red_replacement="bg" icon="icons/custom/add manager/colour unpicked">
 						<translation id="hint" translation_id="451325" type="use" value="Clear All[COMMENT: button text to clear all previously given touchline shouts]" />
 					</widget>
 
-					<widget class="icon_button" appearance="none" click_event="Clea" auto_size="all" alignment="centre" icon="icons/16px/cross" red_replacement="bg" colour="fg">
-						<translation id="hint" translation_id="451325" type="use" value="Clear All[COMMENT: button text to clear all previously given touchline shouts]" />
-						<layout class="stick_to_sides_attachment" alignment="vertical"/>
-					</widget>
+					<widget class="text" id="rrnb" auto_size="all" font="bold" wants_mouse_events="false" colour="bg"/>
 				</container>
 
-				<!-- colours here control the checkbox colours for some stupid reason! -->
-				<widget class="player_scouting_centre_actions_panel" id="toto" colour="text" disabled_colour="faded text" navigation_container="true">
+				<widget class="text" id="clAL" auto_size="all" font="bold" colour="fg">
+					<layout class="centre_in_parent_attachment" alignment="vertical"/>
+					<translation id="text" translation_id="363718" type="use" value="Remaining[COMMENT: FR 8138, scouting assignment list; gives an indication of how much time remains on a particular scouting assignment]" />
+				</widget>
+
+				<widget class="player_scouting_centre_actions_panel" id="toto" colour="black" disabled_colour="faded text" navigation_container="true">
 					<boolean id="save_immediate_state" value="true" />
 					<record id="object_property">
 						<list id="get_properties">
 							<record>
-								<integer id="get_property" value="hpla" />
-								<integer id="set_property" value="hidn" />
-							</record>
-							<record>
-								<integer id="get_property" value="Ttea" />
-								<integer id="set_property" value="Ttea" />
-							</record>
-							<record>
-								<integer id="get_property" value="SCei" />
-								<integer id="set_property" value="SCei" />
-							</record>
-							<record>
 								<integer id="get_property" value="fSCe" />
 								<integer id="set_property" value="fSCe" />
-							</record>
-							<record>
-								<integer id="get_property" value="Hhum" />
-								<integer id="set_property" value="Hhum" />
 							</record>
 						</list>
 					</record>
 				</widget>
-
+				
 			</container>
 		</container>
 	</container>
