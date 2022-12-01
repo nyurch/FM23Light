@@ -21,11 +21,11 @@
 			<flags id="icon_colour" value="white" />
 		</record>
 
-		<widget class="check_box" id="shtl" colour="black">
+		<widget class="check_box" id="shtl" icon_colour="green" colour="black">
 			<!--!Add/remove to/from shortlist-->
 		</widget>
 
-		<widget class="check_box" id="pool" colour="black">
+		<widget class="check_box" id="pool" icon_colour="green" colour="black">
 			<!--!Add/remove to/from national pool-->
 		</widget>
 
