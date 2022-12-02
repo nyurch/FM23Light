@@ -1,0 +1,66 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange" vertical_layout="22,-1"/>
+ 
+	<container class="contrast_box_no_margin" id="vsBk" width="285" >
+ 
+		<list id="properties_to_forward">
+			<record get_property="text_colour" set_property="colour" target="attn"/>
+			<record get_property="text_colour" set_property="colour" target="pbtn"/>
+			<record get_property="text_colour" set_property="colour" target="typT"/>
+			<record get_property="text_colour" set_property="colour" target="timT"/>
+			<record get_property="text_colour" set_property="colour" target="SDes"/>
+		</list>
+		
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+		<layout class="centre_in_parent_attachment" alignment="horizontal" offset="0"/>
+ 
+		<container>
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+			
+			<container id="lDes">
+				<animation class="slide_in_top_animation"/>
+				<layout class="arrange_horizontal_attachment" alignment="middle" gap="4" offset="0"/>
+				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true"/>
+ 
+				<widget class="number_label" id="attn" style="semi_bold" auto_size="horizontal" alignment="right,centre_y"/>
+				<widget class="person_button" id="pbtn" format="[%person#1-initial_surname]" style="semi_bold" enforce_style="true" auto_size="horizontal" alignment="right,centre_y"/>
+				<widget class="text" id="typT" auto_size="horizontal" colour="faded text" alignment="left,centre_y"/>
+				<!--widget class="text" id="timT" auto_size="horizontal" colour="faded text" enforce_style="true" alignment="left,centre_y"/>-->
+			</container>
+		</container>
+ 
+ 
+		<widget class="text" id="SDes" style="bold" auto_size="none" alignment="centre">
+			<animation class="slide_in_bottom_animation"/>
+		</widget>
+	</container>
+ 
+	<container>
+ 
+		<attachment_group class="horizontal_arrange" horizontal_layout="22,-1,22" horizontal_gap="6"/>
+ 
+		<!--logo-->
+		<widget class="match_team_logo_picture" id="hmLo" team_index="0" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
+ 
+			<record id="object_property">
+				<integer id="get_property" value="objt" />
+				<integer id="set_property" value="objt" />
+			</record>
+		</widget>
+ 
+ 
+		<widget class="chalkboard_pitch" id="Cpit" select_event="slic" hide_linked_events="true" pitch_draw_arrows="false" pitch_keep_selected_icons="false" pitch_draw_grass="true" pitch_player_icon_text_font="match pitch players" wants_mouse_events="true" pitch_draw_dugout="false" enable_popup="true" line_width="1" pitch_line_colour="white" pitch_touchline_width_percentage="40">
+		</widget>
+ 
+		<!--logo-->
+		<widget class="match_team_logo_picture" id="amLo" team_index="1" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
+ 
+			<record id="object_property">
+				<integer id="get_property" value="objt" />
+				<integer id="set_property" value="objt" />
+			</record>
+		</widget>
+ 
+	</container>
+ 
+</panel>

@@ -45,7 +45,7 @@
 			</record>
 		</widget>
  
-		<widget class="focus_of_attacks_pitch" id="fcat"  vertical="false" fixed="true"  auto_tick_exclusive="true" font_colour="black" alignment="centre" pitch_draw_grass="true" line_width="1" pitch_line_colour="text" pitch_touchline_width_percentage="5"/>
+		<widget class="focus_of_attacks_pitch" id="fcat"  vertical="false" fixed="true"  auto_tick_exclusive="true" font_colour="black" alignment="centre" pitch_draw_grass="true" line_width="1" pitch_line_colour="white" pitch_touchline_width_percentage="5"/>
  
   		<!--logo-->
 		<widget class="match_team_logo_picture" id="amLo" team_index="1" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
