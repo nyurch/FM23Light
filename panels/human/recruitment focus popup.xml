@@ -197,21 +197,21 @@
 			<layout class="stick_to_object_attachment" id="align_top" offset="8" get_side="bottom" set_side="top" move_side="true" target="at0@"/>
 			<layout class="stick_to_object_attachment" id="align_left" offset="190" get_side="left" set_side="left" move_side="true" target="main"/>
 		</widget>
-		<widget class="picture" entity_layout_id="at0N" file="boxes/custom/match/lineup pitch/recruitment focus pitch" id="tacP" scale_picture="true" keep_aspect_ratio="false" width="430" height="352" name="tactic pitch">
+		<widget class="pitch_with_squad_depth" entity_layout_id="at0N" id="tacP" scale_picture="true" keep_aspect_ratio="false" width="430" height="352" name="tactic pitch">
 			<string id="default_path" value="boxes/custom/match/lineup pitch/"/>
 			<string id="red_replacement" value="fg"/>
 			<string id="blue_replacement" value="fg"/>
 			<string id="image_alignment" value="centre"/>
-			<string id="pitch_line_colour" value="faded text"/>
+			<string id="pitch_line_colour" value="faded white"/>
 			<string id="navigation_container" value="true"/>
 			<string id="player_icon_file" value="tactics/tactics icon basic recruitment meeting"/>
 			<boolean id="vertical" value="true"/>
-			<boolean id="pitch_draw_grass" value="false"/>
+			<boolean id="pitch_draw_grass" value="true"/>
 			<boolean id="draw_analysis_overlay" value="false"/>
 			<boolean id="pitch_is_read_only" value="true"/>
 			<string id="pitch_alignment" value="can_scale"/>
 			<string id="icon_flags" value="show_name, use_player_kits_back, drop_initial_if_possible, show_selection_image, show_number, show_role_duty_labels, dont_fade_icons"/>
-			<float id="pitch_perspective" value="0.200000"/>
+			<float id="pitch_perspective" value="0"/>
 			<layout class="stick_to_object_attachment" id="align_top" offset="56" get_side="top" set_side="top" move_side="true" target="main"/>
 			<layout class="stick_to_object_attachment" id="align_left" offset="4" get_side="left" set_side="left" move_side="true" target="main"/>
 		</widget>
