@@ -94,9 +94,7 @@
 						<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" inset="140,0,0,0"/>
 						<layout class="stick_to_sides_attachment" alignment="vertical"/>
 							
-						<widget class="picture" height="335" default_path="boxes/custom/match/lineup pitch/" file="boxes/custom/match/lineup pitch/recruitment focus pitch" red_replacement="fg" blue_replacement="fg" image_alignment="centre" scale_picture="true" keep_aspect_ratio="false"/>
-
-						<widget class="pitch_with_squad_depth" id="pitc" height="360" display_centre_side_positions="true" vertical="true" pitch_alignment="centre_x,top" pitch_draw_goals="false" pitch_draw_markings="false" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="false" pitch_line_colour="transparent" pitch_touchline_width_percentage="10" pitch_perspective="0.2" pitch_override_icon_size="2" line_width="1.5" pitch_vertical_padding="16" disable_animations="true">
+						<widget class="pitch_with_squad_depth" id="pitc" height="500" display_centre_side_positions="true" vertical="true" pitch_alignment="centre_x,top" pitch_draw_goals="false" pitch_draw_markings="false" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="true" pitch_line_colour="white" pitch_override_icon_size="2" line_width="1.5" pitch_vertical_padding="16" disable_animations="true" pitch_touchline_width_percentage="0">
 						<string id="pitch_kit_icon" value="pitch/icons/dots" />
 						</widget>
 					</container>
