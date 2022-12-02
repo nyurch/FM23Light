@@ -4,4 +4,6 @@
 	<real id="font_size_normal" value="12" />
 	<real id="font_size_large" value="14" />
 
+	<flags id="colour" value="fg"/>
+
 </record>
