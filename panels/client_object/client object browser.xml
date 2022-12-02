@@ -238,7 +238,7 @@
     </widget>
 
     <!-- Contract offer scenes -->
-    <widget class="picture" scale_picture="true" keep_aspect_ratio="false">
+    <widget class="picture" file="backgrounds/default" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="PctO" skip_if_null="false"/>
@@ -274,13 +274,6 @@
             <integer id="set_property" value="hidn" />
         </attachment>
     </widget>
-
-    <!-- Custom background scene -->
-    <container id="cBsC">
-        <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-
-        <!--widgets added in code here-->
-    </container>
 
     <container>
         <layout class="arrange_horizontal_attachment" alignment="left,extend" gap="0" offset="0" />
