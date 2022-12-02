@@ -10,7 +10,10 @@
 
   <real id="extra_height" value="2" /> 
 
-  <flags id="colour" value="fg"/> 
+  <integer id="fill_colour_red" value="10" />
+  <integer id="fill_colour_green" value="10" />
+  <integer id="fill_colour_blue" value="10" />
+  <integer id="fill_colour_alpha" value="255" />
 
   <!-- styles -->
   <list id="styles">
@@ -74,9 +77,9 @@
           <integer id="x_offset" value="0"/>
           <integer id="y_offset" value="0"/>
           <integer id="blur_radius" value="3"/>
-          <integer id="colour_red" value="255"/>
-          <integer id="colour_green" value="255"/>
-          <integer id="colour_blue" value="255"/>
+          <integer id="colour_red" value="10"/>
+          <integer id="colour_green" value="10"/>
+          <integer id="colour_blue" value="10"/>
           <integer id="colour_alpha" value="255"/>
         </record>
       </list>
