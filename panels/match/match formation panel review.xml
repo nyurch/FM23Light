@@ -6,7 +6,7 @@
 		<boolean id="pitch_dont_draw_indicators" value="true"/>
 		<boolean id="pitch_draw_grass" value="true"/>
 		<flags id="pitch_alignment" value="can_scale"/>
-		<string id="pitch_line_colour" value="faded text" />
+		<string id="pitch_line_colour" value="faded white" />
 		<integer id="pitch_touchline_width_percentage" value="10" />
 		<string id="player_icon_file" value="tactics/tactics icon info panel review" />
 		<boolean id="allow_y_score_adjustment_for_roles" value="false" />
