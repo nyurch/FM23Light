@@ -257,6 +257,13 @@
         </attachment>
     </widget>
 
+    <!-- Custom background scene -->
+    <container id="cBsC">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+        <!--widgets added in code here-->
+    </container>
+
   <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
     <!-- Match background picture -->
