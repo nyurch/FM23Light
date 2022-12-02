@@ -1,20 +1,16 @@
-﻿<panel vertical="true" force_left_to_right_events="true" >
+﻿<panel vertical="true">
 
 	<attachment_group class="horizontal_arrange" horizontal_layout="-1,250" />
 
-	<container class="plain_box" appearance="boxes/custom/solid/rounded/paper" red_replacement="pitch_box_background">
+	<container>
 		<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" />
-		<widget class="chalkboard_pitch" id="Cpit" select_event="slic" vertical="true" force_left_to_right_events="true"  hide_linked_events="true" pitch_draw_arrows="true" pitch_keep_selected_icons="true" pitch_draw_grass="false" pitch_player_icon_text_font="match pitch players" wants_mouse_events="true" pitch_draw_dugout="false" enable_popup="true" line_width="1" pitch_line_colour="text" pitch_touchline_width_percentage="40"/>
-		<container id="horC" height="40">
-			<layout class="arrange_horizontal_attachment" alignment="middle" gap="8"/>
-			<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true"/>
-
-		</container>
+		<widget class="chalkboard_pitch" id="Cpit" select_event="slic" vertical="true" hide_linked_events="true" pitch_draw_arrows="true" pitch_keep_selected_icons="false" pitch_draw_grass="false" pitch_player_icon_text_font="match pitch players" wants_mouse_events="true" pitch_draw_dugout="false" enable_popup="true" line_width="1" pitch_line_colour="white" pitch_touchline_width_percentage="60" />
+		<container class="horizontal_arrange_container" id="horC" height="80" alignment="middle" wrap="true" gap="8" />
 	</container>
 	<container>
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 		<!-- main table -->
-		<widget class="table" id="plrT" select_event="ePsl"  navigation_container="true" default_focus="true">
+		<widget class="table" id="plrT" select_event="ePsl" navigation_container="true" default_focus="true">
 
 			<flags id="layout" value="60, -13" />
 			<flags id="mode" value="show_bullets,select_rows, select_multiple, fill_rows, keyboard" />
@@ -24,7 +20,7 @@
 			<list id="headings">
 				<record alignment="centre">
 					<translation id="text" translation_id="247480" type="use" value="No.[COMMENT - squad number column on team squad panel]" />
-					<translation id="hint" translation_id="229797" type="use" value="Squad Number" />
+					<translation id="hint" translation_id="542715" type="use" value="Squad Number (Icon will appear larger the more passes attempted)[COMMENT: AREA: Data Hub; SUB-AREA: Pass Map; FR-BN: BN 48843; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: Squad number is shown in column ontop of a circular icon which appears larger the more passes attempted by player]" />
 				</record>
 				<record alignment="left,centre_y">
 					<translation id="text" translation_id="298220" type="use" value="Player[COMMENT: transfer list, player column, header]" />
@@ -35,14 +31,12 @@
 				<record index="0" id="icon" column_alignment="centre" />
 				<record index="1" id="name" />
 			</list>
-
 			<list id="column_widget_properties">
 				<record>
 				<integer id="index" value="1" />
 				<string id="colour" value="text" />
 				</record>
 			</list>
-
 		</widget>
 	</container>
 
