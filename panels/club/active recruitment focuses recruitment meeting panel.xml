@@ -54,7 +54,7 @@
 	<widget class="horizontal_divider" />
 
 	<container navigation_container="true">
-		<attachment_group class="horizontal_arrange" horizontal_layout="250, -2" horizontal_offset="0" horizontal_gap="0" vertical_alignment="vertical" vertical_inset="0" />
+		<attachment_group class="horizontal_arrange" horizontal_layout="400, -2" horizontal_offset="0" horizontal_gap="0" vertical_alignment="vertical" vertical_inset="0" />
 
 		<!--LHS container-->
 		<container class="main_subtle_box" id="lhsc">
@@ -71,7 +71,7 @@
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 			</widget>
 
-			<widget class="tab_strip" id="fTBS" select_event="eACT" appearance="tabs/subsection" height="28" width="250">
+			<widget class="tab_strip" id="fTBS" select_event="eACT" appearance="tabs/subsection" height="28" width="400">
 				<list id="items">
 					<record id="a_button">
 						<translation id="text" translation_id="557609" type="use" value="Active[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Section; FR-BN: FM-4023; NOTE: Title of tab, showing the active recruitment focuses that the team has]" />
