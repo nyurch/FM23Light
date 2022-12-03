@@ -9,7 +9,7 @@
     <widget class="label" auto_size="vertical" size="small" row="0" col="0">
       <translation id="text" translation_id="232109" type="use" value="League Positions" />
     </widget>
-    <container class="league_positions_panel" id="lpos" file="team/team competitions overview past positions panel" row="1" col="0" column_span="2" height="40" />
+    <container class="league_positions_panel" id="lpos" file="team/team competitions overview past positions panel" row="1" col="0" column_span="2" height="140" />
   </widget>
 
   <widget class="opponents_league_table" id="olta"/>
