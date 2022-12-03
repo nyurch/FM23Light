@@ -1,0 +1,22 @@
+<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+
+	<!-- attributes graph -->
+	<widget class="graph" id="grph" inset="20, 0, 0, 20" 
+			axis_in_front_of_series="true"
+			show_instant_hint="false">
+		<!--can be overriden by panels containing this class-->
+		<record id="instant_hint" file="generic/graph instant hint finances small" alignment="right,top"/>
+		<record id="x_axis">
+			<record id="label_font" colour="faded text"/>
+			<record id="gap" value="0"/>
+			<record id="consistent_label_width" boolean="true"/>
+		</record>
+		<record id="y_axis">
+			<record id="label_font" colour="faded text"/>
+		</record>
+	</widget>
+	<widget class="label" id="nodt" alignment="centre" hidden="true">
+		<translation id="text" translation_id="402382" type="use" value="No data to show[COMMENT: FR 14193; could be more specific to this panel or completely generic and reusable]" />
+	</widget>
+</panel>
