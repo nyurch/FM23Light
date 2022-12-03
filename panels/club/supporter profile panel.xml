@@ -274,7 +274,7 @@
 					<list id="column_widget_properties">
 						<record alignment="centre_y,left">
 							<integer id="index" value="0" />
-							<flags id="colour" value="text" />
+							<flags id="colour" value="black" />
 						</record>
 						<record alignment="centre_y,left">
 							<integer id="index" value="1" />
