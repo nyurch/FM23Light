@@ -1,5 +1,5 @@
 ﻿<panel>
-	<record id="goal_icon_props" class="container" icon="icons/custom/player stats/top goalscorer" file="widgets/centred icon with label" image_alignment="centre" red_replacement="title" scale_picture="true" keep_aspect_ratio="true" height="15" width="15" size="large" style="bold" highlighted_text_colour="black" />
+	<record id="goal_icon_props" class="container" icon="icons/custom/player stats/top goalscorer" file="widgets/centred icon with label" image_alignment="centre" red_replacement="black" scale_picture="true" keep_aspect_ratio="true" height="15" width="15" size="large" style="bold" highlighted_text_colour="black" />
 
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 	<container class="main_subtle_box">
