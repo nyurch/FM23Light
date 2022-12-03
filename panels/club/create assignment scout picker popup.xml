@@ -1,0 +1,217 @@
+<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<container class="standard_popup_box">
+		<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" />
+		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+		<container>
+			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+			<container id="scom">
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="4" />
+				<layout class="arrange_horizontal_attachment" layout="-3,-4" offset="10" gap="10" />
+
+				<widget class="table" mode="fill_rows, select_rows, dont_allow_empty_selection" layout="-1,30,30,30" select_event="scts" id="tabl" navigation_container="true">
+					<list id="headings">
+						<record alignment="left,centre_y" indx="0">
+							<translation id="text" translation_id="227987" type="use" value="Scout" />
+						</record>
+						<record alignment="left,centre_y" indx="1">
+							<translation id="text" translation_id="248617" type="use" value="JPt" />
+							<translation id="hint" translation_id="227945" type="use" value="Judging Player Ability" />
+						</record>
+						<record alignment="left,centre_y" indx="2">
+							<translation id="text" translation_id="248616" type="use" value="Jud" />
+							<translation id="hint" translation_id="227947" type="use" value="Judging Player Potential" />
+						</record>
+						<record alignment="left,centre_y" indx="3">
+							<translation id="text" translation_id="251956" type="use" value="Assignments[COMMENT - team screen section; Scouting; title; current assignments]" />
+						</record>
+
+					</list>
+
+					<list id="column_table_properties">
+						<record indx="0" alignment="left,centre_y" />
+						<record indx="1" alignment="centre" />
+						<record indx="2" alignment="centre" />
+						<record indx="3" alignment="centre" />
+					</list>
+				</widget>
+
+				<container>
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+					<container class="client_object_viewer_xml_panel" id="dtls" hidden="true" navigation_container="true">
+						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+						<layout class="arrange_vertical_attachment" layout="140,10,-1,-1" offset="10" gap="0" />
+
+						<container>
+							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+							<layout class="arrange_vertical_attachment" layout="80,2,20,38" offset="0" gap="0" />
+
+							<container>
+								<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="4" />
+								<layout class="arrange_horizontal_attachment" layout="80,-1" offset="0" />
+
+								<widget class="object_portrait_picture" id="spic" scale_picture="true" image_alignment="top">
+									<record id="object_property">
+										<integer id="get_property" value="objt" />
+										<integer id="set_property" value="objt" />
+									</record>
+								</widget>
+
+								<widget class="person_button" id="snam" colour="black" style="semi_bold" size="12">
+									<record id="object_property">
+										<integer id="get_property" value="objt" />
+										<integer id="set_property" value="valu" />
+									</record>
+								</widget>
+
+							</container>
+
+							<widget class="horizontal_divider" />
+
+							<container>
+								<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+								<layout class="arrange_horizontal_attachment" layout="-1,-1" offset="0" />
+
+								<widget class="label" id="NjaL">
+									<record id="object_property">
+										<integer id="get_property" value="Npja" />
+										<boolean id="name" value="true" />
+										<integer id="set_property" value="valu" />
+									</record>
+								</widget>
+
+								<widget class="label" id="NjpL">
+									<record id="object_property">
+										<integer id="get_property" value="Npjp" />
+										<boolean id="name" value="true" />
+										<integer id="set_property" value="valu" />
+									</record>
+								</widget>
+
+							</container>
+
+							<container>
+								<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+								<layout class="arrange_horizontal_attachment" layout="-1,-1" offset="0" />
+
+								<widget class="attribute_label" id="NjaV" size="18">
+									<record id="object_property">
+										<integer id="get_property" value="Npja" />
+										<integer id="set_property" value="valu" />
+									</record>
+								</widget>
+
+								<widget class="attribute_label" id="NjpV" size="18">
+									<record id="object_property">
+										<integer id="get_property" value="Npjp" />
+										<integer id="set_property" value="valu" />
+									</record>
+								</widget>
+							</container>
+
+
+
+						</container>
+
+						<widget class="horizontal_divider" />
+
+						<widget class="non_player_knowledge_panel" id="npkp" file="none">
+							<attachment_group class="vertical_arrange" vertical_alignment="top,extend"/>
+
+							<widget class="text" alignment="left,centre_y" font="title" auto_size="all" size="medium">
+								<translation id="text" translation_id="327250" type="use" value="Scouting Knowledge[COMMENT: non player profile panel; title of panel showing scouting knowledge]"/>
+							</widget>
+
+							<container height="140">
+								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+								<layout class="arrange_vertical_attachment" layout="-1" offset="0" gap="2" />
+
+								<widget class="team_scouting_knowledge_map" id="npMp" />
+
+							</container>
+						</widget>
+
+						<widget class="assignment_list_widget" id="npap" file="widgets/assignment list widget small">
+
+						</widget>
+
+					</container>
+
+					<container id="reco">
+						<layout class="stick_to_sides_attachment" alignment="all" inset="8" apply_to_children="true" />
+
+						<widget class="manager_text" alignment="left,top">
+							<translation id="text" translation_id="450714" type="use" value="[%person#1-You] can select a specific scout to carry out the assignment or alternatively leave it to be assigned to a member of the scouting pool.[COMMENT: how to system; help string]" />
+						</widget>
+
+					</container>
+
+				</container>
+
+
+
+
+			</container>
+
+			<container id="anlm" hidden="true">
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="4" />
+
+				<widget class="table" mode="fill_rows, select_rows, dont_allow_empty_selection" layout="-1,50,50,50,50" select_event="scts" id="atab">
+					<list id="headings">
+						<record alignment="left,centre_y" indx="0">
+							<translation id="text" translation_id="515008" type="use" value="Analyst[COMMENT: AREA: Staff job roles; SUB-AREA: job role title; FR-BN: 28060; TONE: Formal; CHARLIMIT: None; REF-ID: None; NOTE: Term used to refer to either performance or recruitment analyst]" />
+						</record>
+						<record alignment="left,centre_y" indx="1">
+							<translation id="text" translation_id="443808" type="use" value="Jud PD[COMMENT - Fr 21119 Judging Player Data; Data Analyst Attribute]" />
+							<translation id="hint" translation_id="443805" type="use" value="Judging Player Data[COMMENT - Fr 21119 Judging Player Data; Data Analyst Attribute]" />
+						</record>
+						<record alignment="left,centre_y" indx="2">
+							<translation id="text" translation_id="443809" type="use" value="Jud TD[COMMENT - Fr 21119 Judging Team Data; Data Analyst Attribute]" />
+							<translation id="hint" translation_id="443806" type="use" value="Judging Team Data[COMMENT - Fr 21119 Judging Team Data; Data Analyst Attribute]" />
+						</record>
+						<record alignment="left,centre_y" indx="3">
+							<translation id="text" translation_id="443810" type="use" value="Prs D[COMMENT - Fr 21119 Presenting Data Data; Analyst Attribute]" />
+							<translation id="hint" translation_id="443807" type="use" value="Presenting Data[COMMENT - Fr 21119 Presenting Data; Data Analyst Attribute]" />
+						</record>
+						<record alignment="left,centre_y" indx="4">
+							<translation id="text" translation_id="334022" type="use" value="Reports[COMMENT: scout table; column header for Reports]" />
+						</record>
+
+					</list>
+
+					<list id="column_table_properties">
+						<record indx="0" alignment="left,centre_y" />
+						<record indx="1" alignment="centre" />
+						<record indx="2" alignment="centre" />
+						<record indx="3" alignment="centre" />
+						<record indx="4" alignment="centre" />
+					</list>
+				</widget>
+
+			</container>
+		</container>
+
+
+		<widget class="horizontal_divider" />
+
+		<container navigation_container="true" default_focus="true">
+			<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" inset="0" />
+			<layout class="fit_children_attachment" alignment="vertical" offset="0" />
+			<layout class="arrange_horizontal_attachment" alignment="right" offset="0" gap="5" />
+
+			<widget class="primary_icon_tick_button" id="infb" click_event="espk" controller_button="y_button">
+				<translation id="text" translation_id="229918" type="use" value="Confirm" />
+			</widget>
+
+		</container>
+
+
+	</container>
+
+
+
+</panel>
