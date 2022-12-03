@@ -57,6 +57,6 @@
 		<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
-		<widget class="focus_of_attacks_pitch" id="fcat" vertical="false" fixed="true" auto_tick_exclusive="true" font_colour="black" pitch_line_colour="faded white" alignment="centre" pitch_draw_grass="true" />
+		<widget class="focus_of_attacks_pitch" id="fcat" vertical="false" fixed="true" auto_tick_exclusive="true" font_colour="black" pitch_line_colour="white" alignment="centre" pitch_draw_grass="true" />
 	</container>
 </panel>
