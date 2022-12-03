@@ -1,0 +1,62 @@
+<panel save_default_state="true">
+	<layout class="arrange_vertical_attachment" alignment="fill" offset="0" />
+	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+	<container class="main_transparent_box" force_title_borders="true"  navigation_container="true">
+		<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+		<container embed_in_frame="true">
+			<attachment_group class="title_embedded_panel_left" horizontal_offset="4"/>
+
+			<widget class="view_menu_label">
+				<translation id="text" translation_id="247327" type="use" value="Action Zones" />
+			</widget>
+			<widget class="view_menu_popup" id="axvp" save_session_state="true" select_event="chpr">
+				<list id="items">
+					<record>
+						<translation id="name" translation_id="232839" type="use" value="Last 5 Mins" />
+						<integer id="id" value="0" />
+					</record>
+					<record>
+						<translation id="name" translation_id="232840" type="use" value="First Half" />
+						<integer id="id" value="1" />
+					</record>
+					<record>
+						<translation id="name" translation_id="232841" type="use" value="Second Half" />
+						<integer id="id" value="2" />
+					</record>
+					<record>
+						<translation id="name" translation_id="232842" type="use" value="Extra Time" />
+						<integer id="id" value="3" />
+					</record>
+					<record>
+						<translation id="name" translation_id="232843" type="use" value="Overall" />
+						<integer id="id" value="4" />
+					</record>
+				</list>
+			</widget>
+
+		</container>
+
+		<!-- prozone logo area -->
+		<container id="btna" embed_in_frame="true" height="30">
+			<layout class="arrange_horizontal_attachment" alignment="right" embed_in_frame="true" gap="4" offset="0" />
+			<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true" embed_in_frame="true" />
+			<layout class="stick_to_sides_attachment" alignment="right,top" embed_in_frame="true" inset="4" />
+			<layout class="fit_children_attachment" alignment="horizontal,fill" embed_in_frame="true" offset="0" />
+			<!-- TODO:: Matt W 26/09/2019 - Bug 13328 removed prozone branding, revisit when known what replacement is-->
+			<widget class="picture" width="90" height="30" image_alignment="right,top" file=""  scale_picture="true" keep_aspect_ratio="true" embed_in_frame="true" />
+		</container>
+
+		<widget class="pitch_action_zones" id="azpt" vertical="false" fixed="true" auto_tick_exclusive="true" font_colour="black" pitch_line_colour="faded white" alignment="centre" pitch_draw_grass="true" hide_team_names="true" />
+	</container>
+
+	<container class="main_transparent_box">
+		<translation id="title" translation_id="420657" type="use" value="Focus of Attacks[COMMENT: match action zones label, indicates the main focuses of team attacking moves]" />
+		<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+		<widget class="focus_of_attacks_pitch" id="fcat" vertical="false" fixed="true" auto_tick_exclusive="true" font_colour="black" pitch_line_colour="faded white" alignment="centre" pitch_draw_grass="true" />
+	</container>
+</panel>
