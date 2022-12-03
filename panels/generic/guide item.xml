@@ -1,0 +1,20 @@
+<panel>
+	<!-- This guide item is used for the pie charts -->
+	<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0"/>
+	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
+
+	<container width="26">
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+
+		<!-- The circle image used for recolouring and matching with the pie chart item -->
+		<widget class="picture" id="piGU" file="icons/26px/circle" image_alignment="centre">
+		</widget>
+
+		<!-- The text/number used inside the circle -->
+		<widget class="pie_chart_number_text" font="training_pie_chart_number" colour="white" id="tiGN" size="small" alignment="centre" auto_size="none" multiline="false" />
+	</container>
+
+	<!-- The text describing what the slice of the pie chart is -->
+	<widget class="text" id="txGI" auto_size="none" alignment="left,centre_y" size="small" colour="text" multiline="false"/>
+
+</panel>
