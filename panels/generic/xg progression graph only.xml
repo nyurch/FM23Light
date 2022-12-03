@@ -1,0 +1,47 @@
+﻿<panel>
+	
+	<record id="goal_icon_props" class="container" file="generic/xg progress story goal icon" scale_picture="true" keep_aspect_ratio="true" height="30" width="50" image_alignment="centre" />
+	
+	<attachment_group class="vertical_arrange" vertical_layout="-1" />
+	<container>
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+		<widget class="graph" id="grph" axis_in_front_of_series="true" draw_shadows="true" shadow_offset="1,2" draw_label="false">
+			<record id="instant_hint" file="" />
+			<record id="default_series_properties" line_width="5" point_radius="6" type="line">
+				<record id="point_outline_style" line_width="2"/>
+			</record>
+			<record id="x_axis" interval="15" format="[%fraction#1-2.0]" line_colour="fg alpha" round_min_max="true" mark_size="0" adapt_labels="true" only_labelled_marks="true">
+				<record id="label_font" font="bold" colour="faded black" draw_label="false"/>
+			</record>
+			<record id="y_axis" interval="1.00" format="[%fraction#1-2.2]" force_label_inset="false" inset="8" line_colour="fg alpha" font="title" round_min_max="true" mark_size="0">
+				<record id="label_font" font="bold" colour="faded black" draw_label="false"/>
+				<list id="labels">
+					<record>
+						<string id="text" value=" "/>
+						<integer id="value" value="0.00"/>
+					</record>
+					<record>
+						<string id="text" value="1.00"/>
+						<integer id="value" value="1.00"/>
+					</record>
+					<record>
+						<string id="text" value="2.00"/>
+						<integer id="value" value="2.00"/>
+					</record>
+					<record>
+						<string id="text" value="3.00"/>
+						<integer id="value" value="3.00"/>
+					</record>
+					<record>
+						<string id="text" value="4.00"/>
+						<integer id="value" value="4.00"/>
+					</record>
+				</list>
+			</record>
+			<list id="graph_series">
+				<record id="lin1"/>
+				<record id="lin2"/>
+			</list>
+		</widget>
+	</container>
+</panel>
