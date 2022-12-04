@@ -1,0 +1,29 @@
+﻿<panel>
+	<!-- look in widgets/xg shot map properties.xml for xg shot map properties -->
+
+	<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="0" horizontal_gap="4" />
+
+	<container>
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+		<container class="main_subtle_box" />
+
+
+		<widget class="graph" id="grph">
+			<record id="y_axis"  consistent_label_width="false" auto_size="true">
+				<record id="title_font" style="vertical,semi_bold" font="title" size="large" colour="text" inset="4"/>
+				<record id="label_font" colour="faded black"/>
+			</record>
+			<record id="x_axis" gap="8">
+				<record id="title_font" style="semi_bold" font="title" size="large" colour="text"/>
+				<record id="label_font" colour="faded black"/>
+			</record>
+			<record id="instant_hint" format="[%string#1]"/>
+		</widget>
+	</container>
+
+	<container class="titled_box" id="tbCn" width="200" hidden="true">
+
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+		<widget class="client_object_list_table" id="scaT" select_event="trSL" mode="fill_rows, hide_headings, stripe_rows, select_rows, printable, show_bullets" navigation_container="true" />
+	</container>
+</panel>

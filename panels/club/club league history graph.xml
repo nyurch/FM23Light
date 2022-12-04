@@ -1,0 +1,91 @@
+<panel>
+
+	<!--only certain symbols can used when using the special colours (accent, dark accent, primary and secondary)-->
+	<colour id="colour" name="accent" />
+	<colour id="graph_line_colour_other_club" name="orange" />
+	<colour id="graph_promotion_colour" name="positive" />
+	<colour id="graph_relegation_colour" name="negative" />
+
+	<string id="stage_button_appearance" value="tabs/subsection/normal/top/button"  />
+	<string id="stage_button_selected_appearance" value="tabs/subsection/selected/top/button" />
+
+	<layout class="arrange_vertical_attachment" layout="-1,55" offset="0" gap="0" />
+	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+	<container>
+		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
+		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+		<container id="dfST" height="30">
+			<layout class="arrange_horizontal_attachment" layout="-1,-1" offset="0" gap="0" />
+			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+
+			<widget class="button" id="opSB" auto_size="none" >
+				<event id="click_event">
+					<flags id="event_id" value="chMD" />
+					<flags id="mode" value="1" />
+				</event>
+				<translation id="text" translation_id="376538" type="use" value="Opening Stage[COMMENT:graph options; showing just the league history of opening stages in cases like the south american team have different ones]" />
+			</widget>
+
+			<widget class="button" id="clSB" auto_size="none">
+				<event id="click_event">
+					<flags id="event_id" value="chMD" />
+					<flags id="mode" value="2" />
+				</event>
+				<translation id="text" translation_id="376433" type="use" value="Closing Stage[COMMENT:graph options; showing just the league history of closing stages in cases like the south american team have different ones]" />
+			</widget>
+		</container>
+		<container>
+			<widget class="graph" id="grph" click_event="vwyr">
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+
+				<record id="instant_hint" file="generic/graph instant hint leagues" alignment="right,bottom"/>
+				<record id="default_series_properties" line_width="2"/>
+				<list id="grid_line_styles">
+					<record colour="graph row"/>
+					<record colour="graph row"/>
+				</list>
+				<record id="x_axis" gap="6" consistent_label_width="true">
+					<record id="label_font" colour="faded black"/>
+				</record>
+				<record id="y_axis">
+					<record id="label_font" colour="faded black"/>
+				</record>
+			</widget>
+
+			<widget class="label" id="NoGD" auto_size="all">
+				<translation id="text" translation_id="338017" type="use" value="No league history data available[COMMENT: Label on the club league history graph displayed when no league history is available]" />
+				<layout class="centre_in_parent_attachment" alignment="all" />
+			</widget>
+		</container>
+
+	</container>
+
+	<container>
+		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="2"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+		<widget class="text" auto_size="vertical" alignment="left,centre_y">
+			<translation id="text" translation_id="364261" type="use" value="Compare With:[COMMENT: club league history graph;comparing team on the league history graph]" />
+		</widget>
+
+		<container>
+			<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true"/>
+
+			<widget class="popup_button" id="lhcw" sele="lhcw" auto_tick_exclusive="true" auto_size="all">
+				<layout class="stick_to_sides_attachment" alignment="left" inset="0" />
+			</widget>
+
+			<widget class="link_appearance_button" id="vpst">
+				<layout class="stick_to_sides_attachment" alignment="right" inset="0" />
+				<translation id="text" translation_id="319444" type="use" value="View History[COMMENT: club league history graph; button which when clicked takes you to the full club history]" />
+			</widget>
+
+		</container>
+
+
+
+	</container>
+
+</panel>

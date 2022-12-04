@@ -11,17 +11,23 @@
 			</list>
 		</record>
 
-		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+		<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_offset="2" vertical_gap="0" horizontal_inset="0"/>
 		<widget class="graph" id="grph">
 			<list id="graph_series">
 				<record id="bar1" type="bar" inset="2" show_instant_hint="false" />
 				<record id="segs" type="line" colour="transparent" show_instant_hint="false" />
 			</list>
-			<record id="x_axis" consistent_label_width="false" only_labelled_marks="true" />
+			<record id="x_axis" consistent_label_width="false" only_labelled_marks="true">
+				<record id="label_font" colour="faded black"/>
+			</record>
 			<record id="y_axis" show_labels="false" inset="2" hidden="false" line_width="0">
 				<record id="title_font" style="vertical,semi_bold" font="title" size="large" colour="text" inset="4" />
+				<record id="label_font" colour="faded black"/>
 				<translation id="title" translation_id="540249" type="use" value="Danger of Possession[COMMENT: AREA: Data Hub; SUB-AREA: data hub visualisation ; BUG: 50803; TONE: Formal; CHARLIMIT: None; NOTE: Momentum chart graph axis title - How dangerous the teams possession is in terms of carrying an attacking threat]" />
 			</record>
 		</widget>
+		<container class="horizontal_arrange_container" height="25" alignment="fill" gap="10" id="legC">
+			<record id="default_properties" colour="text" />
+		</container>
 	</container>
 </panel>

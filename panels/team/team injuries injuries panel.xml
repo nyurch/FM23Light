@@ -70,7 +70,9 @@
 			<widget class="graph" id="grph" show_instant_hint="true" height="70" inset="0, 0, 0, 0">
 				<record id="instant_hint" format="[%string#1]"/>
 				<record id="y_axis" min_value="0" hidden="true"/>
-				<record id="x_axis" min_value="0" max_value="12" mark_size="0" line_colour="grey" inset="0" label_font="xsmall" gap="0"/>
+				<record id="x_axis" min_value="0" max_value="12" mark_size="0" line_colour="grey" inset="0" label_font="xsmall" gap="0">
+					<record id="label_font" colour="faded black"/>
+				</record>
 				<flags id="graph_this_season_line_colour" value="grey1"/>
 				<flags id="graph_last_season_line_colour" value="text"/>
 				<list id="graph_series">
