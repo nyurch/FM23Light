@@ -154,9 +154,9 @@
 			<!--Pundit quote-->
 			<container class="main_box">
 				<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="0" horizontal_inset="0" />
-				<widget class="text" id="sumD" auto_size="vertical" font="title" wrap="true" colour="white" alignment="centre" />
+				<widget class="text" id="sumD" auto_size="vertical" font="title" wrap="true" colour="black" alignment="centre" />
 				<widget class="text" id="auth" auto_size="vertical" colour="faded text" alignment="right" />
-				<widget class="client_object_label" id="auth" font="capitals" colour="faded white" multiline="false" size="8" alignment="right" auto_size="vertical" />
+				<widget class="client_object_label" id="auth" font="capitals" colour="faded black" multiline="false" size="8" alignment="right" auto_size="vertical" />
 					
 			</container>
 
