@@ -407,7 +407,7 @@
 			</container>
 
 			<!-- recommendation box-->
-			<container class="main_contrast_box" id="SMbx" height="60">
+			<container class="main_subtle_box" red_replacement="bg darker" id="SMbx" height="60">
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 				<widget class="text" id="SMtx" spec="text" size="large" alignment="centre" colour="white" multiline="true" />

@@ -350,7 +350,7 @@
 			</container>
 
 			<!-- recommendation box-->
-			<container class="main_box" id="SMbx" height="80">
+			<container class="main_subtle_box" red_replacement="bg darker" id="SMbx" height="80">
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
 
 				<widget class="text" id="SMtx" spec="text" size="12" height="100" colour="white" multiline="true"/>

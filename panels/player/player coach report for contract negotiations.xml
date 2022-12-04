@@ -92,7 +92,7 @@
 		</container>
 	</container>
 
-	<container class="bordered_box" appearance="boxes/bordered/transparent/paper" id="SMbx">
+	<container class="main_subtle_box" red_replacement="bg darker" id="SMbx">
 		<attachment_group class="vertical_arrange_autosize"/>
 
 		<container>

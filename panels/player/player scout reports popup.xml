@@ -199,7 +199,7 @@
 			<layout class="arrange_horizontal_attachment" layout="-1" gap="2" offset="0" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" inset="4" apply_to_children="true" />
 
-			<container class="main_contrast_box" id="SMbx">
+			<container class="main_subtle_box" red_replacement="bg darker" id="SMbx">
 				<layout class="arrange_horizontal_attachment" layout="50,-1" gap="2" offset="4" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
