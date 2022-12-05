@@ -5,7 +5,7 @@
 	<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="200,-1" horizontal_offset="0" vertical_inset="0" />
 
 	<!-- Left Container -->
-	<container>
+	<container class="main_subtle_box" red_replacement="black">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 		<container class="inner_subtle_box" height="387">
@@ -84,13 +84,13 @@
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 		<!-- Top Container -->
-		<container class="inner_subtle_box" height="330">
+		<container class="main_subtle_box" red_replacement="black" height="330">
 			<attachment_group class="vertical_arrange" vertical_layout="270,30" vertical_gap="0"/>
 
 			<!-- main body text -->
 
 
-			<container class="main_box" red_replacement="primary">
+			<container>
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 				<widget class="team_container_honours_panel" id="honp" file="team/team container honours panel for news"/>
 			</container>
@@ -107,7 +107,7 @@
 			</container>
 		</container>
 
-		<container class="inner_subtle_box" height="87" >
+		<container height="87" class="main_subtle_box" red_replacement="black">
 			<translation id="title" translation_id="251298" type="use" value="Fierce Rivals[COMMENT: heading; team_information_panel; list of fierce rival teams to current club]"/>
 
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
@@ -116,7 +116,7 @@
 		</container>
 
 		<!-- Bottom Container -->
-		<container height="128">
+		<container height="128" class="main_subtle_box" red_replacement="black">
 			<attachment_group class="horizontal_arrange" horizontal_alignment="fill" horizontal_offset="0" vertical_inset="0" />
 
 			<container class="inner_subtle_box">
