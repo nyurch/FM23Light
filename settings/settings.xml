@@ -1046,16 +1046,16 @@
 	<colour name="team_form_loss" 							value="fg range1"/>
 
 	<!-- player stats donut chart colour -->
-	<colour name="shots on target colour" 					value="rgb(98,164,92)"/>
-	<colour name="shots goal colour" 						value="rgb(0,255,120)"/>
-	<colour name="shots non goal colour" 					value="rgba(185,215,197,0.3)" />
-	<colour name="passes succeeded colour" 					value="rgb(104,138,160)"/>
-	<colour name="key passes colour" 						value="rgb(54,219,219)"/>
-	<colour name="normal passes colour" 					value="rgba(204,223,236,0.3)" />
-	<colour name="tackles won colour" 						value="rgb(181,105,103)"/>
-	<colour name="key tackles colour" 						value="rgb(255,65,65)"/>
-	<colour name="normal tackles colour" 					value="rgba(229,174,174,0.3)" />
-	<colour name="stats filler colour" 						value="rgb(187,191,199)"/>
+	<colour name="shots on target colour" 					value="rgb(64,117,59)"/>
+	<colour name="shots goal colour" 						value="rgb(2,194,59)"/>
+	<colour name="shots non goal colour" 					value="rgb(50,50,50)" />
+	<colour name="passes succeeded colour" 					value="rgb(2,100,163)"/>
+	<colour name="key passes colour" 						value="rgb(44,159,232)"/>
+	<colour name="normal passes colour" 					value="rgb(50,50,50)" />
+	<colour name="tackles won colour" 						value="rgb(186,16,17)"/>
+	<colour name="key tackles colour" 						value="rgb(242,46,41)"/>
+	<colour name="normal tackles colour" 					value="rgba(50,50,50)" />
+	<colour name="stats filler colour" 						value="rgb(150,150,150)"/>
 
 	<!-- match shot analysis colours -->
 	<colour name="shot analysis goal" 						value="rgb(65,128,62)"/>
