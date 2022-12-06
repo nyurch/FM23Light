@@ -1849,22 +1849,6 @@
 	<colour name="player transfer status released"			value="negative"/>
 	<colour name="player transfer status contract renewed"	value="positive"/>
 
-	<!--UEFA Champions League colours-->
-	<colour name="ucl core blue" 							value="rgb(0,0,75)" />
-	<colour name="ucl bright blue" 							value="rgb(5,40,190)" />
-	<colour name="ucl cyan" 								value="rgb(10,190,160)" />
-	<colour name="ucl magenta" 								value="rgb(171,0,171)" />
-
-	<!--UEFA Europa & Europa Conference League colours-->
-	<colour name="uel orange" 								value="rgb(255,105,0)" />
-	<colour name="uel grey" 								value="rgb(43,43,43)" />
-	<colour name="uecl green" 								value="rgb(0,145,20)" />
-
-	<!--Super Cup colours-->
-	<colour name="super cup bg" 							value="rgb(18,37,93)" />
-	<colour name="super cup dark" 							value="rgb(2,9,57)" />
-	<colour name="super cup accent" 						value="rgb(0,150,180)" />
-
 	<!--FMFC colours-->
 	<colour name="coming soon tag"							value="rgb(255,28,107)"/>
 
@@ -1902,20 +1886,20 @@
 
 	<!--UEFA Champions League colours-->
 	<colour name="ucl core blue" 							value="rgb(0,0,75)" />
-	<colour name="ucl bright blue" 							value="rgb(13,58,255)" />
-	<colour name="ucl cyan" 								value="rgb(90,247,220)" />
-	<colour name="ucl magenta" 								value="rgb(255,22,255)" />
+	<colour name="ucl bright blue" 							value="rgb(5,40,190)" />
+	<colour name="ucl cyan" 								value="rgb(10,190,160)" />
+	<colour name="ucl magenta" 								value="rgb(171,0,171)" />
 
 	<!--UEFA Europa & Europa Conference League colours-->
 	<colour name="uel orange" 								value="rgb(255,105,0)" />
 	<colour name="uel grey" 								value="rgb(43,43,43)" />
-	<colour name="uecl green" 								value="rgb(0,190,20)" />
+	<colour name="uecl green" 								value="rgb(0,145,20)" />
 
 	<!--Super Cup colours-->
 	<colour name="super cup bg" 							value="rgb(18,37,93)" />
 	<colour name="super cup dark" 							value="rgb(2,9,57)" />
+	<colour name="super cup accent" 						value="rgb(0,150,180)" />
 	<colour name="super cup darkest" 						value="rgb(1,2,3)" />
-	<colour name="super cup accent" 						value="rgb(0,188,228)" />
 
 	<!--EFL colours-->
 	<colour name="efl blue" 								value="rgb(6,22,132)" />
