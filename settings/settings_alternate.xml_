@@ -228,7 +228,7 @@
 	<colour name="fg range20" 																value="rgb(0,168,63)" />
 
  	<colour name="fg positive" 																			value="fg range20"/>
-	<colour name="fg alert" 																			value="fg range10"/>
+	<colour name="fg alert" 																			value="fg range3"/>
 	<colour name="fg negative" 																			value="fg range1"/>
 
 	<colour name="fg red lighter" 														    value="red 600" />
@@ -274,7 +274,7 @@
 	<colour name="bg large alpha" 																		value="rgba(230,230,230,0.5)"/>
 	<colour name="bg info" 																				value="rgb(39,103,192)"/>
 	<colour name="bg positive" 																			value="rgb(16,165,68)"/>
-	<colour name="bg alert" 																			value="rgb(0,129,138)"/>
+	<colour name="bg alert" 																			value="rgb(223,126,0)"/>
 	<colour name="bg accent" 																			value="rgb(0,129,138)"/>
 	<colour name="bg tertiary" 																			value="rgb(246,248,252)"/>
 	<colour name="bg negative" 																			value="rgb(182,40,40)"/>
@@ -361,7 +361,7 @@
 	<colour name="faded white" 																			value="rgba(255,255,255,0.5)"/>
 	<colour name="faded black" 																			value="rgba(0,0,0,0.5)"/>
 	<colour name="dark text" 																			value="rgb(55,64,71)"/>
-	<colour name="hint" 																				value="fg"/>
+	<colour name="hint" 																				value="bg"/>
 	<colour name="title" 																				value="rgb(0,129,138)" />
 	<colour name="standard_button_text" 																value="fg"/>
 	<colour name="searchbox text" 																		value="fg"/>
@@ -410,7 +410,7 @@
 	<colour name="popup_box_background" 																value="bg lighter"/>
 	<colour name="light_box_background" 																value="bg lighter"/>
 	<colour name="box_background" 																		value="bg"/>
-	<colour name="hint_background" 																		value="bg lighter"/>
+	<colour name="hint_background" 																		value="rgb(0,128,128)"/>
 	<colour name="alpha_box_background" 																value="rgb(241,243,250)"/>
 	<colour name="dark_box_background" 																	value="bg darker"/>
 	<colour name="contrast_box_background" 																value="bg accent"/>
