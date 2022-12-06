@@ -29,12 +29,12 @@
 			<attachment_group class="vertical_arrange_autosize" horizontal_alignment="right" />
 			<layout class="stick_to_sides_attachment" alignment="right" inset="10" />
 
-			<widget class="label" font="label" id="khtx" colour="fg" auto_size="all" size="medium" />
+			<widget class="icon_button" id="khtx" appearance="" icon="icons/16px/scouting" font="label" colour="white" auto_size="all" size="medium" />
 			<widget class="label" id="rdtx" colour="disabled" auto_size="all" size="medium" />
 
-			<container>
+			<container hidden="true">
 				<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="right" horizontal_offset="0" vertical_offset="0" vertical_gap="0" />
-				<widget class="button" font="text" colour="faded text" size="medium" appearance="none" id="ytab" auto_size="all" mouse_entered_event="ytin" mouse_exited_event="ytou" />
+				<widget class="button" font="text" colour="faded white" size="medium" appearance="none" id="ytab" auto_size="all" mouse_entered_event="ytin" mouse_exited_event="ytou" />
 			</container>
 		</container>
 	</container>
@@ -330,7 +330,7 @@
 					<widget class="table" id="calL" mode="fill_rows,stripe_rows" layout="26,-5,-3,-3" sort_disabled="true">
 						<list id="column_widget_properties">
 							<record indx="0" alignment="left,centre_y" colour="faded text" />
-							<record indx="1" alignment="left,centre_y" />
+							<record indx="1" alignment="left,centre_y" colour="black" />
 							<record indx="2" alignment="left,centre_y" navigation_focus_target="false" />
 							<record indx="3" alignment="left,centre_y" navigation_focus_target="false" />
 						</list>
