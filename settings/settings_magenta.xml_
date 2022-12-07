@@ -223,8 +223,8 @@
 	<colour name="match_box_background" 					value="bg"/>
 	<colour name="match_background" 						value="bg"/>
 	<colour name="subtle_box_background" 					value="rgb(250,250,250)"/>
-	<colour name="hint_background" 							value="rgb(0,128,128)"/>
-	<colour name="hint_border" 								value="rgb(0,128,128)"/>
+	<colour name="hint_background" 							value="rgb(177,28,63)"/>
+	<colour name="hint_border" 								value="rgb(177,28,63)"/>
 	<colour name="calendar_cell_border" 					value="fg"/>
 	<colour name="edit_box_background" 						value="fg"/>
 	<colour name="pitch_box_background" 					value="rgb(0,125,63)"/>
