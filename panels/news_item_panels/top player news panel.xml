@@ -1,4 +1,4 @@
-﻿<panel width="210">
+﻿<panel width="230">
     <attachment_group class="vertical_arrange_autosize" vertical_offset="4" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0"/>
 
     <list id="properties_to_forward">
