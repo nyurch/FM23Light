@@ -68,11 +68,11 @@
 				</list>
 
 				<!--default view from the view list-->
-				<flags id="default_view" value="lght" />
+				<flags id="default_view" value="gene" />
 
 				<!--list of all available views-->
 				<list id="viws">
-					<record id="lght">
+					<record id="gene">
 						<translation id="text" value="MYLight" type="use"/>
 						<record id="view">
 							<string id="fxdt" value=""/>
@@ -89,7 +89,7 @@
 							<string id="FxNm" value=""/>
 						</record>
 					</record>
-					<record id="gene">
+					<record id="gene1">
 						<translation id="text" translation_id="242258" type="use" value="Fixtures" />
 						<record id="view">
 							<record id="fxdt" hidden="true" />
