@@ -73,7 +73,7 @@
 	<colour name="bg info" 																	value="rgb(39,103,192)"/>
 	<colour name="bg positive" 																value="rgb(16,165,68)"/>
 	<colour name="bg alert" 																value="rgb(223,126,0)"/>
-	<colour name="bg accent" 																value="rgb(20,141,154)"/>
+	<colour name="bg accent" 																value="rgb(187,38,73)"/>
 	<colour name="bg tertiary" 																value="rgb(205,222,232)"/>
 	<colour name="bg tertiary darker" 														value="rgb(195,212,222)"/>
 	<colour name="bg negative" 																value="rgb(182,40,40)"/>
