@@ -33,7 +33,9 @@
 
 			<!-- Other players -->
 			<widget class="table" id="ptbl" mode="fill_rows,stripe_rows,hide_headings" layout="-1, 50" auto_size="none">
-			<record id="default_properties" alignment="left,centre_y" colour="black"/>
+				<list id="column_widget_properties">
+					<record indx="0" colour="black" secondary_icon_colour="black" />
+				</list> 
 			</widget>
 		</container>
 		<widget class="text" id="noBD" alignment="centre" hidden="true">
