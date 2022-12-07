@@ -1,0 +1,78 @@
+<panel navigation_container="true">
+	
+	<container class="scrolling_box">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0"/>
+
+			<string id="skin_style" value="subtle box"/>
+
+			<widget class="inbox_body_text" id="bdtx"/>
+
+			<container>
+				<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0"/>
+				<layout class="arrange_horizontal_attachment" layout="-1,250" offset="0" gap="12"/>
+				<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" inset="0"/>
+				<container>
+					<attachment_group class="vertical_arrange_autosize" vertical_offset="10" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="10"/>
+
+					<widget class="label" id="name" font="title" size="12" colour="fg" auto_size="vertical"/>
+					<widget class="client_object_list_table" id="gptb" mode="fill_rows, stripe_rows" layout="-1, -1, -1" fixed_size_rows="true" row_height="32" auto_size="vertical">
+						<list id="column_widget_properties">
+							<record indx="0" enable_icon_for_nations="true"/>
+						</list>
+					</widget>
+				</container>
+				<container>
+					<attachment_group class="vertical_arrange_autosize" vertical_offset="12" vertical_gap="8" horizontal_alignment="horizontal" horizontal_inset="0"/>
+
+					<!-- comp -->
+					<container class="inner_subtle_box" height="130">
+						<layout class="arrange_vertical_attachment" alignment="bottom,extend" gap="0"/>
+						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+
+						<widget class="object_portrait_picture" id="clog" scale_picture="true" image_alignment="centre"/>
+
+						<container height="10"/>
+
+						<widget class="client_object_label" id="cnam" auto_size="vertical" spec="text" size="regular" colour="text" font="value" alignment="bottom"/>
+
+						<widget class="comp_reputation_stars_label" id="crep" alignment="centre">
+							<record id="object_property">
+								<integer id="get_property" value="crps"/>
+							</record>
+						</widget>
+						
+					</container>
+					
+
+					<!-- comp dates -->
+					<container class="inner_subtle_box" height="60">
+						<layout class="arrange_vertical_attachment" alignment="top,extend" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+
+						<widget class="text" id="rfma" auto_size="vertical" spec="text" alignment="centre_x" font="label">
+							<translation id="text" translation_id="249504" type="use" value="Dates[COMMENT - competition stage rules panel, dates heading]"/>
+						</widget>
+
+						<widget class="text" id="cmdt" spec="text" alignment="centre_x" font="value"/>
+					</container>
+
+					<!-- hosts and holders -->
+					<container class="inner_subtle_box" id="hshl" height="100">
+						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_inset="0"/>
+
+						<widget class="object_portrait_picture" id="hslg" height="32" scale_picture="true" image_alignment="centre"/>
+						<container height="6"/>
+
+						<widget class="text" id="hsnm" auto_size="vertical" spec="text" size="large" colour="text" alignment="bottom"/>
+						<widget class="text" id="hldr" auto_size="vertical" spec="text" size="large" colour="text" alignment="centre"/>
+					</container>
+
+				</container>
+
+
+			</container>
+		</container>
+	</container>
+</panel>
