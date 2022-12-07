@@ -1,0 +1,11 @@
+<panel inset="3,20,3,3" show_instant_hint="false">
+	<list id="graph_series">
+		<record id="bar1" type="bar" maximum_width="160" label_alignment="centre_x,bottom, can_scale"/>
+		<record id="bar2" type="bar" maximum_width="170" appearance="charts/bar/custom/top line/thick"/>
+		<record id="mark" type="marker" line_width="3" label_alignment="top"/>
+	</list>
+	<record id="x_axis" auto_size="false" size="46">
+		<record id="label_font" colour="faded black"/>
+	</record>
+	<record id="y_axis" round_min_max="false" hidden="true"/>
+</panel>
