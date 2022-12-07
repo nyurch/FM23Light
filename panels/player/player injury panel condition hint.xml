@@ -1,0 +1,60 @@
+﻿<panel draw_horizontal_dividers="true">
+	<attachment_group class="vertical_arrange_autosize" horizontal_inset="8" vertical_gap="15"/>
+
+	<boolean id="should_force_refresh" value="true"/>
+	<string id="skin_style" value="title link"/>
+
+	<!-- overall status -->
+	<container id="OAct" red_replacement="injury_body_colour_injured">
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="0"/>
+
+		<widget class="label" id="OAtl" font="label" auto_size="vertical" colour="fg"/>
+		<widget class="label" id="OAnm" font="value" auto_size="vertical" colour="green 600"/>
+		<widget class="label" id="OAlb" auto_size="vertical" colour="green 800"/>
+	</container>
+
+	<container >
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="0"/>
+
+		<widget class="text" auto_size="all" font="label" colour="fg">
+			<translation id="text" translation_id="450783" type="use" value="Match Load[COMMENT: FR 20159; team injury risk assessment; table column header for player's recent match workload]"/>
+		</widget>
+
+		<widget class="client_object_viewer_xml_panel" file="player/player risk assessment match load widget" id="MLdw" auto_size="vertical"/>
+	</container>
+
+	<container >
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="0"/>
+
+		<widget class="text" auto_size="all" font="label" colour="fg">
+			<translation id="text" translation_id="450784" type="use" value="Training Load[COMMENT: FR 20159; team injury risk assessment; table column header for player's recent training workload]"/>
+		</widget>
+
+		<widget class="client_object_viewer_xml_panel" file="player/player risk assessment training load widget" id="TLdw" auto_size="vertical"/>
+	</container>
+
+	<container  id="IPBx">
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="0"/>
+
+		<widget class="text" auto_size="all" font="label" colour="fg">
+			<translation id="text" translation_id="450785" type="use" value="Injury Susceptibility[COMMENT: FR 20159; player injury panel; table column header for player's susceptibility to injury]"/>
+		</widget>
+
+		<widget class="client_object_viewer_xml_panel" file="player/player risk assessment injury proneness widget" id="IPrw" auto_size="vertical"/>
+	</container>
+
+	<container >
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="0"/>
+
+		<widget class="text" auto_size="all" font="label" colour="fg">
+			<translation id="text" translation_id="508747" type="use" value="Fatigue[COMMENT: AREA: Fitness and Injuries; SUB-AREA: player property column name; FR-BN: 23722; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: table column header for player's current fatigue status]" />
+		</widget>
+
+			<widget class="player_jadedness_widget" height="40">
+			<record id="object_property" get_property="Pjad" set_property="valu" />
+			<boolean id="look_like_label" value="false" />
+			<boolean id="hide_detail_text" value="false" />
+		</widget>
+	</container>
+
+</panel>
