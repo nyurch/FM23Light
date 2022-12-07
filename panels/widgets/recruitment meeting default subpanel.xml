@@ -22,7 +22,7 @@
            	
            		<container>
            		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-           		<widget class="picture" default_path="boxes/custom/match/lineup pitch/" file="boxes/custom/match/lineup pitch/inbox item pitch" red_replacement="fg" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true">
+           		<widget class="picture" default_path="NYCustom/" file="NYCustom/report" image_alignment="top" scale_picture="true" keep_aspect_ratio="true">
 				</widget>
 			</container>
 
