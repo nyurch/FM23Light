@@ -1,0 +1,197 @@
+<panel width="275">
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" />
+
+	<container class="standard_popup_box">
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="10" horizontal_inset="10" />
+
+		<!--mugshot/name-->
+		<container>
+			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left,extend" horizontal_offset="0" horizontal_gap="10" vertical_offset="0" />
+
+			<!-- profile picture -->
+			<widget class="object_portrait_picture" id="prop" width="75" height="75">
+				<boolean id="scale_picture" value="true" />
+				<boolean id="keep_aspect_ratio" value="true" />
+				<flags id="image_alignment" value="centre_x,top" />
+
+				<attachment class="test_setting_attachment" get_setting="show_portraits" default_value="true" set_property="hidn">
+					<list id="value">
+						<boolean value="false" />
+					</list>
+				</attachment>
+
+				<record id="object_property">
+					<integer id="get_property" value="objt" />
+					<integer id="set_property" value="objt" />
+				</record>
+			</widget>
+
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="5" horizontal_inset="0" />
+
+				<record id="default_properties" auto_size="vertical" />
+				
+				<!--name-->
+				<widget class="person_button" id="name" info_popup_enabled="false" disable_link="true" size="large" style="bold" colour="black">
+					<record id="object_property">
+						<integer id="get_property" value="Pers" />
+						<integer id="set_property" value="valu" />
+					</record>
+				</widget>
+
+				<!--top rated-->
+				<widget class="icon_button" id="PTrt" icon="icons/16px/key player" show_button_appearance="false" primary_use_icon_app_rep_colour="false" hidden="true" colour="text">
+					<translation id="text" translation_id="232096" type="use" value="Highest Average Rating" />
+					<record id="object_property">
+						<integer id="get_property" value="PTrt" />
+						<integer id="set_property" value="Shwn" />
+					</record>
+				</widget>
+
+				<!--top goalscorer-->
+				<widget class="icon_button" id="PTgs" icon="icons/16px/goal" show_button_appearance="false" hidden="true" colour="text">
+					<translation id="text" translation_id="232092" type="use" value="Top Goalscorer" />
+					<record id="object_property">
+						<integer id="get_property" value="PTgs" />
+						<integer id="set_property" value="Shwn" />
+					</record>
+				</widget>
+
+				<!--top assister-->
+				<widget class="icon_button" id="PTas" icon="icons/16px/assist" show_button_appearance="false" hidden="true" colour="text">
+					<translation id="text" translation_id="232095" type="use" value="Most Assists" />
+					<record id="object_property">
+						<integer id="get_property" value="PTas" />
+						<integer id="set_property" value="Shwn" />
+					</record>
+				</widget>
+
+				<!--making debut-->
+				<widget class="icon_button" id="PHNO" icon="icons/16px/debut" show_button_appearance="false" hidden="true" colour="fg positive" icon_colour="fg positive">
+					<translation id="text" translation_id="344199" type="use" value="Making Debut[COMMENT: icon text for an icon showing that a player is about to make their debut]" />
+					<record id="object_property">
+						<integer id="get_property" value="PHNO" />
+						<integer id="set_property" value="Shwn" />
+					</record>
+				</widget>
+
+				<!--nearly banned-->
+				<widget class="icon_button" id="PNba" icon="icons/16px/yellow card" colour="fg yellow" show_button_appearance="false" primary_use_icon_app_rep_colour="false" hidden="true">
+					<translation id="text" translation_id="344325" type="use" value="Nearly Banned[COMMENT: icon text for an icon showing that a player is one yellow card away from a ban]" />
+					<record id="object_property">
+						<integer id="get_property" value="PNba" />
+						<integer id="set_property" value="Shwn" />
+					</record>
+				</widget>
+
+			</container>
+		</container>
+
+		<!--playing stats-->
+		<container class="main_box">
+			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="fill" horizontal_offset="0" horizontal_gap="6" vertical_offset="0" />
+
+			<!--appearances-->
+			<container class="vertical_label_value_pair" value_widget="appV" label_widget="appL">
+
+				<widget class="label" id="appL">
+					<record id="object_property">
+						<integer id="get_property" value="Poap" />
+						<boolean id="name" value="true" />
+						<boolean id="abbt" value="true" />
+					</record>
+				</widget>
+
+				<widget class="appearances_label" id="appV">
+					<record id="object_property">
+						<integer id="get_property" value="Poap" />
+						<integer id="set_property" value="valu" />
+					</record>
+				</widget>
+			</container>
+
+			<!--goals-->
+			<container id="GoaC" class="vertical_label_value_pair" value_widget="golV" label_widget="golL">
+
+				<record id="object_property" get_property="Pigo" set_property="hidn"/>
+
+				<widget class="label" id="golL">
+					<record id="object_property">
+						<integer id="get_property" value="Pogl" />
+						<boolean id="name" value="true" />
+						<boolean id="abbt" value="true" />
+					</record>
+				</widget>
+
+				<widget class="dashed_number_label" id="golV">
+					<record id="object_property">
+						<integer id="get_property" value="Pogl" />
+						<integer id="set_property" value="valu" />
+					</record>
+				</widget>
+			</container>
+
+			<!--goals conceded-->
+			<container id="GcoC" class="vertical_label_value_pair" value_widget="gcoV" label_widget="gcoL">
+
+				<record id="object_property" get_property="Pigo" set_property="Shwn"/>
+
+				<widget class="label" id="gcoL">
+					<record id="object_property">
+						<integer id="get_property" value="Poco" />
+						<boolean id="name" value="true" />
+						<boolean id="abbt" value="true" />
+					</record>
+				</widget>
+
+				<widget class="dashed_number_label" id="gcoV">
+					<record id="object_property">
+						<integer id="get_property" value="Poco" />
+						<integer id="set_property" value="valu" />
+					</record>
+				</widget>
+			</container>
+
+			<!--assists-->
+			<container id="AssC" class="vertical_label_value_pair" value_widget="assV" label_widget="assL">
+
+				<record id="object_property" get_property="Pigo" set_property="hidn"/>
+
+				<widget class="label" id="assL">
+					<record id="object_property">
+						<integer id="get_property" value="Poas" />
+						<boolean id="name" value="true" />
+						<boolean id="abbt" value="true" />
+					</record>
+				</widget>
+
+				<widget class="dashed_number_label" id="assV">
+					<record id="object_property">
+						<integer id="get_property" value="Poas" />
+						<integer id="set_property" value="valu" />
+					</record>
+				</widget>
+			</container>
+
+			<!--rating-->
+			<container class="vertical_label_value_pair" value_widget="ratV" label_widget="ratL">
+
+				<widget class="label" id="ratL">
+					<record id="object_property">
+						<integer id="get_property" value="Poav" />
+						<boolean id="name" value="true" />
+						<boolean id="abbt" value="true" />
+					</record>
+				</widget>
+
+				<widget class="dashed_number_label" id="ratV">
+					<record id="object_property">
+						<integer id="get_property" value="Poav" />
+						<integer id="set_property" value="valu" />
+					</record>
+				</widget>
+			</container>
+		</container>
+	</container>
+
+</panel>
