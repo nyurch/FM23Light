@@ -22,11 +22,11 @@
 			</container>
 		</container>
 
-		<container default_height="-1" minimum_height="120" priority="10000">
+		<container default_height="-1" minimum_height="130" priority="10000">
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 			<container id="nomP">
-				<layout class="arrange_vertical_attachment" layout="-1,-1" offset="0" gap="4" />
+				<layout class="arrange_vertical_attachment" layout="-1,-1" offset="0" gap="0" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 				<!--best training performance-->
 				<container class="inner_subtle_box" id="best" red_replacement="green">
