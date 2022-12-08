@@ -34,7 +34,7 @@
 							<record id="column_widget_properties"/>
 						</record>
 						<record width="-3" minimum_width="100" column_heading="Name">
-							<record id="column_widget_properties" alignment="left,centre_y" colour="black"  size="normal">
+							<record id="column_widget_properties" alignment="left,centre_y" colour="sidebar text"  size="normal">
 								<record id="secondary_text_properties" alignment="left,top"  size="normal"/>
 							</record>
 						</record>
@@ -47,8 +47,8 @@
 							<record id="column_widget_properties"/>
 						</record>
 						<record width="-3" minimum_width="100" column_heading="Name">
-							<record id="column_widget_properties" alignment="left,centre_y" colour="faded black" font="title" size="small" gap="0" >
-								<record id="secondary_text_properties" alignment="left,top" size="normal" colour="black"/>
+							<record id="column_widget_properties" alignment="left,centre_y" colour="sidebar text" font="title" size="small" gap="0" >
+								<record id="secondary_text_properties" alignment="left,top" size="normal" colour="bg"/>
 							</record>
 						</record>
 					</list>
@@ -67,7 +67,7 @@
 							<record id="column_widget_properties"/>
 						</record>
 						<record width="-3" minimum_width="100" column_heading="Name">
-							<record id="column_widget_properties" alignment="left,centre_y" colour="black"  size="normal"/>
+							<record id="column_widget_properties" alignment="left,centre_y" colour="sidebar text"  size="normal"/>
 						</record>
 					</list>
 				</widget>
@@ -78,8 +78,8 @@
 							<record id="column_widget_properties"/>
 						</record>
 						<record width="-3" minimum_width="100" column_heading="Name">
-							<record id="column_widget_properties" alignment="left,centre_y" colour="faded black" font="title" size="small" gap="0" >
-								<record id="secondary_text_properties" alignment="left,top" size="normal" colour="black"/>
+							<record id="column_widget_properties" alignment="left,centre_y" colour="sidebar text" font="title" size="small" gap="0" >
+								<record id="secondary_text_properties" alignment="left,top" size="normal" colour="bg"/>
 							</record>
 						</record>
 					</list>
@@ -98,7 +98,7 @@
 						<record id="column_widget_properties"/>
 					</record>
 					<record width="-3" minimum_width="100" column_heading="Name">
-						<record id="column_widget_properties" alignment="left,centre_y" colour="black"  size="normal"/>
+						<record id="column_widget_properties" alignment="left,centre_y" colour="sidebar text"  size="normal"/>
 					</record>
 				</list>
 			</widget>
@@ -109,8 +109,8 @@
 						<record id="column_widget_properties"/>
 					</record>
 					<record width="-3" minimum_width="100" column_heading="Name">
-						<record id="column_widget_properties" alignment="left,centre_y" colour="faded black" font="title" size="small" gap="0" >
-							<record id="secondary_text_properties" alignment="left,top" size="normal" colour="black"/>
+						<record id="column_widget_properties" alignment="left,centre_y" colour="sidebar text" font="title" size="small" gap="0" >
+							<record id="secondary_text_properties" alignment="left,top" size="normal" colour="bg"/>
 						</record>
 					</record>
 				</list>
