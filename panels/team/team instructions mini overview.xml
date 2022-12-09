@@ -39,7 +39,6 @@
           <flags id="appearance" value="buttons/custom/tactics/style bar/button" />
           <flags id="alignment" value="left,centre" />
           <flags id="icon_alignment" value="left" />
-          <flags id="icon_colour" value="red" />
           <flags id="colour" value="white" />
           <flags id="disabled_colour" value="faded white" />
         </widget>
