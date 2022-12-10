@@ -170,30 +170,16 @@
     </widget>
 
     <!-- Boardroom scenes -->
+	<!-- Welcome to team scenes -->
     <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
-                <record get_property="sect" test_mode="0" value="vPRO" skip_if_null="false"/>
+                <record get_property="sect" test_mode="0" value="Twtc" skip_if_null="false"/>
             </list>
            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
-    <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
-        <attachment class="test_multiple_globals_attachment" default_value="false">
-            <list id="get_properties">
-                <record get_property="sect" test_mode="0" value="PrMD" skip_if_null="false"/>
-            </list>
-           <integer id="set_property" value="Shwn"/>
-        </attachment>
-    </widget>
-    <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
-        <attachment class="test_multiple_globals_attachment" default_value="false">
-            <list id="get_properties">
-                <record get_property="sect" test_mode="0" value="PBAm" skip_if_null="false"/>
-            </list>
-           <integer id="set_property" value="Shwn"/>
-        </attachment>
-    </widget>
+	<!-- Club vision meeting scenes -->
     <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
@@ -202,6 +188,7 @@
            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
+	<!-- Board meeting scenes -->
     <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
@@ -218,7 +205,34 @@
            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
+	<!-- Staff meeting scenes -->
+    <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="PBAm" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+	<!-- Recruitment meeting scenes -->
+    <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="PrMD" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
 
+ <!--   <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="vPRO" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
+-->
     <!-- Manager room scenes -->
     <widget class="picture" file="backgrounds/office" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
