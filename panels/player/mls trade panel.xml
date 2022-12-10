@@ -1,0 +1,358 @@
+<!-- This is the xml for the MLS trade offer panel. It is divided into 2 vertical halves with offered items on the left and wanted items on the right --><!-- Original mockup can be found in feature 3139 --><panel>
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+	<container class="main_box">
+		<translation id="title" translation_id="348445" type="use" value="Trade Offer[COMMENT: mls trade panel; main title]" />
+		<layout class="arrange_vertical_attachment" alignment="top,extend" />
+		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+		<!-- Header with MLS icon and text describing the current stae of negotiation -->
+		<container>
+			<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true" offset="0" />
+			<layout class="fit_children_attachment" alignment="vertical" offset="0" />
+			<layout class="arrange_horizontal_attachment" layout="70, -1" gap="6" />
+
+			<widget class="picture" scale_picture="true" file="pictures/logos/normal/comps/usa/mls" image_alignment="centre" height="100" />
+			<container class="main_box">
+				<layout class="fit_children_attachment" alignment="vertical" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" inset="0" />
+
+				<widget class="text" id="nTxt" alignment="left,top" auto_size="vertical" />
+			</container>
+		</container>
+		
+		<!-- DoF container -->
+		<container class="main_subtle_box" id="dofC" height="100" navigation_container="true">
+			<attachment_group class="horizontal_arrange" horizontal_layout="-1, -2, 340" horizontal_offset="10" horizontal_gap="10" vertical_inset="0" />
+
+			<container class="client_object_viewer_xml_panel" id="dofP">
+				<attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" horizontal_offset="0" horizontal_gap="" vertical_inset="0" />
+				
+				<!-- DoF portrait -->
+				<widget class="object_portrait_picture" width="60" id="dofp" image_alignment="centre" scale_picture="true">
+					<record id="object_property">
+						<list id="get_properties">
+							<record>
+								<integer id="get_property" value="objt" />
+								<integer id="set_property" value="objt" />
+							</record>
+						</list>
+					</record>
+				</widget>
+
+				<!-- DoF Info -->
+				<container width="200">
+					<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="0" horizontal_alignment="horizontal" />
+
+					<widget class="job_label" alignment="left,centre_y" colour="faded text" auto_size="vertical">
+						<record id="object_property">
+							<list id="get_properties">
+								<record>
+									<integer id="get_property" value="Pcjo" />
+									<integer id="set_property" value="valu" />
+								</record>
+							</list>
+						</record>
+					</widget>
+
+					<widget class="person_button" auto_size="vertical">
+						<record id="object_property">
+							<list id="get_properties" colour="black">
+								<record>
+									<integer id="get_property" value="objt" />
+									<integer id="set_property" value="valu" />
+								</record>
+							</list>
+						</record>
+					</widget>
+
+					<widget class="global_reputation_stars_label" alignment="left" auto_size="vertical" navigation_focus_target="false">
+						<record id="object_property">
+							<list id="get_properties">
+								<record>
+									<integer id="get_property" value="NrSr" />
+									<integer id="set_property" value="valu" />
+								</record>
+							</list>
+						</record>
+					</widget>
+
+				</container>
+			</container>
+
+			<widget class="text" id="dofE" multiline="true" size="10" alignment="left,centre_y" />
+						
+			<container>
+				<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="0" horizontal_alignment="horizontal" />
+
+				<widget class="label" font="label">
+					<translation id="text" translation_id="483628" type="use" value="Request DoF Suggestion[COMMENT: AREA: Director of Football; SUB-AREA: Transfer Targets to the right of DoF description; FR: 27629; TONE: Formal; CHARLIMIT: None;]" />
+				</widget>
+				
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right, extend" horizontal_offset="0" horizontal_gap="4" vertical_inset="0" />
+
+					<widget class="cash_selection_list" id="dofM" spec="text" cash_round_style="4" cash_min_value="0" cash_max_value="100000000" auto_size="vertical" />
+					
+					<widget class="icon_button" click_event="tpDS" auto_size="all" icon="icons/16px/tick" appearance="buttons/primary/normal/button" default_focus="true">
+						<translation id="text" translation_id="515093" type="use" value="Do it[COMMENT: AREA: Pre-match tactical advice; SUB-AREA: sub section showing adviced team selection changes; FR: 30872; TONE: Formal; CHARLIMIT: None;]" />
+					</widget>
+				</container>
+			</container>
+		</container>
+
+		<container>
+			<layout class="arrange_vertical_attachment" alignment="bottom,extend" gap="4" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+			<!-- Lower section with offered / wanted items -->
+			<container>
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+				
+				<container class="main_box">
+					<layout class="arrange_horizontal_attachment" layout="-1, -1" gap="0" />
+					<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+					<!-- Left - Offered -->
+					<container id="left">
+						<layout class="arrange_vertical_attachment" alignment="top,extend" gap="4" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+						<!-- Team info -->
+						<container height="70">
+							<layout class="arrange_horizontal_attachment" layout="70, -1" offset="4" gap="8" />
+							<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="4" />
+
+							<!-- Team badge -->
+							<widget class="object_portrait_picture" id="tmP1" scale_picture="true" image_alignment="centre" />
+
+							<!-- Team name -->
+							<container>
+								<layout class="arrange_vertical_attachment" layout="29,-1" offset="0" />
+								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+								<widget class="club_button" id="tmN1" icon_enabled="false" spec="text" style="bold" size="12" alignment="left,bottom" />
+								<widget class="manager_text" id="htx1" alignment="left,top">
+									<translation id="text" translation_id="347952" type="use" value="Add items [%person#1-you] wish to offer in this trade[COMMENT: MLS trade panel; text instruction the user how to offer items for trade]" />
+								</widget>
+							</container>
+						</container>
+
+						<!-- Items -->
+						<container class="main_box">
+							<layout class="arrange_vertical_attachment" alignment="top,extend" gap="0" />
+							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+							<!-- Add items button -->
+							<container>
+								<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true" />
+								<layout class="fit_children_attachment" alignment="vertical" gap="0" />
+								<layout class="arrange_horizontal_attachment" alignment="right,extend" gap="0" />
+
+								<widget class="label" size="12" colour="disabled" alignment="left,centre_y" auto_size="vertical">
+									<translation id="text" translation_id="348164" type="use" value="Items Offered[COMMENT: mls trade panel; heading for section containing offered items]" />
+								</widget>
+								<widget class="popup_button" id="add1" fixed="true" alignment="left,centre_y" auto_size="all">
+									<translation id="text" translation_id="229715" type="use" value="Add" />
+								</widget>
+							</container>
+
+							<!-- Item container -->
+							<container class="scrolling_box">
+								<container id="itm1">
+									<attachment_group class="vertical_arrange_autosize" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+									<!-- Items added dynamically, see "team container mls trade item panel.xml" for layout -->
+								</container>
+							</container>
+						</container>
+					</container>
+
+					<!-- Right - Wanted -->
+					<container id="rght">
+						<layout class="arrange_vertical_attachment" alignment="top,extend" gap="4" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+						<!-- Team info -->
+						<container height="70">
+							<layout class="arrange_horizontal_attachment" layout="70, -1" offset="4" gap="8" />
+							<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="4" />
+
+							<!-- Team badge -->
+							<widget class="object_portrait_picture" id="tmP2" scale_picture="true" image_alignment="centre" />
+
+							<!-- Team name -->
+							<container>
+								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+								<layout class="arrange_vertical_attachment" layout="28,-1" offset="0" />
+
+								<container>
+									<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+									<layout class="arrange_horizontal_attachment" alignment="middle,extend" gap="2" />
+
+									<!-- Team badge -->
+									<widget class="club_button" id="tmN2" icon_enabled="false" spec="text" style="bold" size="12" alignment="left,bottom" auto_size="horizontal" />
+
+									<widget class="text" id="nest" colour="black" alignment="right,centre_y">
+										<translation id="text" translation_id="363692" type="use" value="Negotiated[COMMENT: mls trade panel; info text indicating a trade deal has been or is in the process of being negotiated]" />
+									</widget>
+
+									<widget class="value_based_picture" id="nbck" auto_size="horizontal">
+
+										<list id="value_list">
+											<!-- NS_NOT_SET -->
+											<record value="0" file="boxes/custom/speech bubble/mls/trade negotiated/paper" alignment="centre_y" />
+											<!-- NS_MAKE_AN_INITIAL_OFFER -->
+											<record value="1" file="boxes/custom/speech bubble/mls/trade negotiated/paper" alignment="centre_y" />
+											<!-- NS_RESPOND_TO_INITIAL_OFFER -->
+											<record value="2" file="boxes/custom/speech bubble/mls/trade negotiated/paper" alignment="centre_y" />
+											<!-- NS_OFFER_ACCEPTABLE -->
+											<record value="3" file="boxes/custom/speech bubble/mls/trade accepted/paper" alignment="centre_y" />
+											<!-- NS_OFFER_REJECTED -->
+											<record value="4" file="boxes/custom/speech bubble/mls/trade rejected/paper" alignment="centre_y" />
+											<!-- NS_OFFER_NEGOTIATED -->
+											<record value="5" file="boxes/custom/speech bubble/mls/trade negotiated/paper" alignment="centre_y" />
+											<!-- NS_OFFER_REJECTED_TOO_MANY_NEGOTIATIONS -->
+											<record value="6" file="boxes/custom/speech bubble/mls/trade rejected/paper" />
+											<!-- NS_OFFER_DECISION_DELAYED -->
+											<record value="7" file="boxes/custom/speech bubble/mls/trade delayed/paper" />
+											<!-- NS_OFFER_WITHDRAWN -->
+											<record value="8" file="boxes/custom/speech bubble/mls/trade rejected/paper" />
+										</list>
+									</widget>
+								</container>
+
+								<widget class="manager_text" id="htx2" alignment="left,top">
+									<translation id="text" translation_id="347953" type="use" value="Add items [%person#1-you] wish to receive in this trade[COMMENT: MLS trade panel; text instruction the user how to ask for items in a trade]" />
+								</widget>
+							</container>
+						</container>
+
+						<!-- Items -->
+						<container class="main_box">
+							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+							<layout class="arrange_vertical_attachment" alignment="top,extend" gap="0" />
+
+							<!-- Add items button -->
+							<container>
+								<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true" />
+								<layout class="fit_children_attachment" alignment="vertical" gap="0" />
+								<layout class="arrange_horizontal_attachment" alignment="right,extend" gap="0" />
+
+								<widget class="text" size="12" colour="disabled" alignment="left,centre_y" auto_size="vertical">
+									<translation id="text" translation_id="348165" type="use" value="Items to be Received[COMMENT: mls trade panel; heading for section containing wanted items]" />
+								</widget>
+								<widget class="popup_button" id="add2" fixed="true" alignment="left,centre_y" auto_size="all">
+									<translation id="text" translation_id="229715" type="use" value="Add" />
+								</widget>
+							</container>
+
+							<!-- Item container -->
+							<container class="scrolling_box">
+								<container id="itm2">
+									<attachment_group class="vertical_arrange_autosize" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+									<!-- Items added dynamically, see "team container mls trade item panel.xml" for layout -->
+								</container>
+							</container>
+						</container>
+					</container>
+
+					<!-- Right - Offer to MLS club value demand -->
+					<container class="main_box" id="clbv" hidden="true">
+						<layout class="arrange_vertical_attachment" alignment="top,extend" gap="0" offset="82" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+						<!-- Team info -->
+
+						<!-- Add items button -->
+						<container height="38" id="3333">
+							<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true" />
+							<layout class="arrange_horizontal_attachment" alignment="left" gap="0" />
+
+							<widget class="label" size="12" colour="disabled" alignment="left,centre_y" auto_size="all">
+								<translation id="text" translation_id="336009" type="use" value="Minimum Acceptable Amount[COMMENT: transfers unwanted list; column header, mimimum bid to sell for if delegated to a member of staff]" />
+							</widget>
+						</container>
+						<container>
+							<layout class="arrange_vertical_attachment" alignment="top" offset="13" />
+							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="20" />
+
+							<widget class="text" auto_size="vertical">
+								<translation id="text" translation_id="395273" type="use" value="Minimum value of offers from other clubs[COMMENT: FR 9738; label for widget for choosing how much the user wants in return for what they are offering]" />
+							</widget>
+							<widget class="cash_selection_list" id="askp" cash_round_style="4" cash_min_value="0" cash_max_value="100000000" select_event="cask" />
+						</container>
+					</container>
+		
+				</container>
+				<container>
+					<layout class="stick_to_sides_attachment" alignment="bottom, left" apply_to_children="true" inset="0" />
+
+					<widget class="check_box" id="dofT" auto_size="horizontal" alignment="left,centre_y" click_event="tpDT" hidden="false" selected="false">
+						<translation id="text" translation_id="539020" type="use" value="Ask for DoF opinion before offer[COMMENT: AREA: MLS Tade panel; SUB-AREA: n/a ; FR: n/a; TONE: Formal; CHARLIMIT: None; NOTE: Ask for director of footballs opinion on the selected trade toggle]" />
+					</widget>
+				</container>
+			</container>
+
+			<!-- Form buttons-->
+			<container>
+				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend" horizontal_offset="0" horizontal_gap="" vertical_inset="0" />
+				
+				<container height="30">
+					<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="right" horizontal_offset="0" vertical_inset="0">
+						<global id="horizontal_gap" name="ui.split_button_row_gap" />
+					</attachment_group>
+
+					<widget class="button" id="undo" click_event="UNDO" auto_size="horizontal" appearance="buttons/subtle/split/left/button" height="30">
+						<translation id="text" translation_id="230251" type="use" value="Undo" />
+					</widget>
+
+					<widget class="popup_button" id="rvrd" select_event="rvrd" fixed="true" width="38" appearance="buttons/subtle/split/right/button" height="30">
+						<list id="items">
+							<record id="REDO">
+								<translation id="text" translation_id="329043" type="use" value="Redo" />
+							</record>
+							<record id="revt">
+								<translation id="text" translation_id="344717" type="use" value="Revert" />
+							</record>
+						</list>
+					</widget>
+				</container>
+
+				<!-- Flexibility -->
+				<widget class="icon_button" id="negw" click_event="trtc" auto_size="horizontal" icon="switches/lock/button_off" appearance="buttons/subtle/normal/button" height="30" />
+
+				<!-- Decision Deadline -->
+				<widget class="subtle_popup_button" id="ddlw" select_event="ddle" auto_size="horizontal" height="30">
+					<list id="itms">
+						<record id="-1">
+							<translation id="name" translation_id="350881" type="use" value="No Deadline[COMMENT: Deadline option on transfer offer screen]" />
+						</record>
+						<record id="0">
+							<translation id="name" translation_id="330706" type="use" value="Today[COMMENT: Deadline option on transfer offer screen]" />
+						</record>
+						<record id="1">
+							<translation id="name" translation_id="330709" type="use" value="Tomorrow[COMMENT: Deadline option on transfer offer screen]" />
+						</record>
+					</list>
+				</widget>
+
+				<container>
+					<attachment_group class="button_arrangement_right" />
+
+					<widget class="primary_icon_tick_button" id="set " click_event="set ">
+						<translation id="text" translation_id="291468" type="use" value="Make Offer[COMMENT: transfer centre screen; button for viewing a transfer offer]" />
+					</widget>
+
+					<widget class="primary_icon_tick_button" id="sgtm" click_event="StST">
+						<translation id="text" translation_id="308462" type="use" value="Suggest Terms" />
+						<translation id="hint" translation_id="357281" type="use" value="Suggest the amended terms for an immediate response[COMMENT: hint text explaining 'Suggest Terms' on transfer negotiation news]" />
+					</widget>
+
+					<widget class="button" id="disc" click_event="disc" auto_size="horizontal" height="30">
+						<translation id="text" translation_id="247979" type="use" value="Withdraw Offer" />
+					</widget>
+				</container>
+			</container>
+		</container>
+	</container>
+</panel>
