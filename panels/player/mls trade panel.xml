@@ -57,7 +57,7 @@
 
 					<widget class="person_button" auto_size="vertical">
 						<record id="object_property">
-							<list id="get_properties" colour="black">
+							<list id="get_properties">
 								<record>
 									<integer id="get_property" value="objt" />
 									<integer id="set_property" value="valu" />
