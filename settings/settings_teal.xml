@@ -166,7 +166,7 @@
 	<colour name="continue text" 							value="bg" />
 	<colour name="continue text match" 						value="bg" />
 	<colour name="sidebar text" 							value="white"/>
-	<colour name="sidebar" 									value="rgb(38,50,56)"/>
+	<colour name="sidebar" 									value="rgb(69,90,100)"/>
 	<colour name="news ticker" 								value="fg alert" />
 	<colour name="accent button text" 						value="fg" />
 
