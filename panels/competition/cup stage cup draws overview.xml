@@ -25,6 +25,7 @@
 							<flags id="alignment" value="right,centre_y" />
 							<flags id="spec" value="text" />
 							<flags id="navigation_focus_target" value="false" />
+							<colour id="colour" name="white" />
 						</record>
 						<record indx="2">
 							<flags id="alignment" value="centre" />
