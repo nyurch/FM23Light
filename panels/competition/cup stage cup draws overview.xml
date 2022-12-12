@@ -69,7 +69,9 @@
 						</record>
 						<record indx="10">
 							<flags id="alignment" value="right,centre_y" />
-							<colour id="colour" name="competition" />
+							<flags id="icon_colour" value="white" />
+							<flags id="red_replacement" value="white" />
+							<colour id="colour" name="white" />
 						</record>
 					</list>
 
