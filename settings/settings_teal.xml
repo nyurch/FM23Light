@@ -1888,7 +1888,7 @@
 	<colour name="ucl core blue" 							value="rgb(0,0,75)" />
 	<colour name="ucl bright blue" 							value="rgb(5,40,190)" />
 	<colour name="ucl cyan" 								value="rgb(10,190,160)" />
-	<colour name="ucl magenta" 								value="rgb(171,0,171)" />
+	<colour name="ucl magenta" 								value="rgb(187, 38, 73)" />
 
 	<!--UEFA Europa & Europa Conference League colours-->
 	<colour name="uel orange" 								value="rgb(255,105,0)" />
