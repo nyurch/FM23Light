@@ -187,7 +187,7 @@
 						pitch_draw_grass="false"
 						pitch_line_colour="disabled"
 						pitch_touchline_width_percentage="1"
-						pitch_perspective="0.10"
+						pitch_perspective="0"
 						pitch_override_icon_size="2"
 						line_width="1.4"
 						pitch_vertical_padding="10">

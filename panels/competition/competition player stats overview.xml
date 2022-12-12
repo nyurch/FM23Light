@@ -33,7 +33,7 @@
 			</container>
 
 			<!-- Background pitch-->
-			<widget class="pitch" vertical="true" pitch_alignment="centre" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="false" pitch_line_colour="faded black" pitch_touchline_width_percentage="1" pitch_perspective="0.15" line_width="1.4" />
+			<widget class="pitch" vertical="true" pitch_alignment="centre" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="false" pitch_line_colour="faded black" pitch_touchline_width_percentage="1" pitch_perspective="0" line_width="1.4" />
 
 			<!-- Single stats items. This container or one above it must have this id to make the radio buttons work -->
 			<container class="vertical_arrange_container" id="radC" alignment="fill" offset="30" gap="30" inset="0">
