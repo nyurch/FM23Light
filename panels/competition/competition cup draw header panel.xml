@@ -1,4 +1,5 @@
-﻿<!-- header panel to be used during the end of season review --><panel height="50">
+﻿<!-- header panel to be used during the end of season review -->
+<panel height="50">
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 	<boolean id="should_force_refresh" value="true" />
@@ -20,14 +21,32 @@
 					<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
 					<widget class="game_formatted_label" id="wlms" auto_size="horizontal" alignment="left,centre_y" size="large" style="bold" add_embedded_data="false" colour="white">
-					  <attachment class="get_global_attachment" get_property="CDtf" set_property="font" />
-					  <translation id="format" translation_id="557722" type="use" value="[%comp#1] - Live Draw[COMMENT: AREA: Cup Draw; SUB-AREA: header panel; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the header section of the live cup draw]" />
+						<attachment class="get_global_attachment" get_property="CDtf" set_property="font" />
+						<translation id="format" translation_id="557722" type="use" value="[%comp#1] - Live Draw[COMMENT: AREA: Cup Draw; SUB-AREA: header panel; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the header section of the live cup draw]" />
 						<record id="object_property" get_property="objt" set_property="var1" />
 					</widget>
 				</container>
 
 				<container>
 					<attachment_group class="horizontal_arrange_autosize_vertical_centre" horizontal_gap="0" />
+
+					<widget class="popup_button" id="spPB" icon="icons/16px/time" colour="white" icon_colour="white" secondary_icon_colour="white" red_replacement="white" selection="1" auto_size="all" hidden="true" fixed="true" fixed_icon="true" >
+						<translation id="text" translation_id="348320" type="use" value="Speed[COMMENT: replay speed control on match screen]" />
+						<record id="select_event" event_id="spSE" event_target="lvCD" />
+						<list id="items">
+							<record id="1">
+								<string id="text" value="1.0x" />
+							</record>
+							<record id="2">
+								<string id="text" value="2.0x" />
+							</record>
+							<record id="3">
+								<string id="text" value="3.0x" />
+							</record>
+						</list>
+					</widget>
+
+					<widget class="spacer" width="5" />
 
 					<widget class="button" id="plEx" auto_size="all" colour="white" appearance="buttons/text/button">
 						<record id="click_event" event_id="audr" event_target="lvCD" state="true" />
@@ -44,22 +63,22 @@
 
 					</container>
 
-					<widget class="icon_button" id="satb" colour="white" auto_size="horizontal" icon="icons/26px/club" icon_colour="white" secondary_icon_enabled="true" secondary_icon_colour="white" secondary_icon="icons/16px/maximise" controller_button="y_button" appearance="buttons/subtle/normal/button">
+					<widget class="icon_button" id="satb" auto_size="horizontal" icon="icons/26px/club" colour="white" icon_colour="white" secondary_icon_colour="white" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" controller_button="y_button" appearance="buttons/subtle/normal/button">
 						<record id="click_event" event_id="saCK" event_target="lvCD" />
 					</widget>
-                    
-                    
-                    <widget class="spacer" width="5" />
+
+
+					<widget class="spacer" width="5" />
 
 					<!-- continue button -->
-					<widget class="icon_button" id="nxbt" appearance="chrome/buttons/continue/button" controller_button="right_trigger" alignment="centre" secondary_icon_enabled="true" secondary_icon="icons/16px/reduce" secondary_icon_alignment="centre_right, centre_y" secondary_icon_colour="white" font="title" colour="white" width="210" height="48" default_focus="true" multiline="true">
-					  <attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
-					  <attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
-					  <record id="secondary_icon_properties" red_replacement="white" />
+					<widget class="icon_button" id="nxbt" appearance="chrome/buttons/continue/button" controller_button="right_trigger" alignment="centre" secondary_icon_enabled="true" secondary_icon="icons/16px/reduce" secondary_icon_alignment="centre_right, centre_y" font="title" colour="white" width="210" height="48" default_focus="true" multiline="true">
+						<attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
+						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
+						<record id="secondary_icon_properties" red_replacement="white" />
 						<record id="click_event" event_id="nxCK" event_target="lvCD" />
 						<translation id="text" translation_id="555203" type="use" value="Start Draw[COMMENT: AREA: Live Cup Draw; SUB-AREA: Live Cup Draw Splash Screen FR-BN:; NOTE: Panel title for Cup Draws]" />
 					</widget>
-                    
+
 					<widget class="icon_button" id="nxPB" width="170" height="48" controller_button="right_trigger" hidden="true" alignment="centre" appearance="buttons/custom/cup draws/advance/left/button" colour="white">
 						<attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
 						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
@@ -70,18 +89,18 @@
 						<attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
 						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
 						<record id="icon_properties" red_replacement="white" />
-                        <record id="secondary_icon_properties" red_replacement="white" />
+						<record id="secondary_icon_properties" red_replacement="white" />
 						<record id="select_event" event_id="pbCK" event_target="lvCD" />
 					</widget>
 				</container>
 			</container>
 		</container>
-	
+
 		<!-- skip end of season review  -->
 		<container>
 
 
 		</container>
-		
+
 	</container>
 </panel>

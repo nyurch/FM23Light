@@ -23,7 +23,7 @@
 			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="4"/>
 			<!-- teams left to draw for a cup stage -->
 
-			<container class="scrolling_box" >
+			<container class="scrolling_box" navigation_focus_target="true" default_focus="true">
 				<!-- teams left to draw for a cup stage -->
 				<widget class="simple_data_list" id="titi" set_property="prop" gap="8" alignment="left" wrap="true">
 					<record id="widget_properties" class="container" width="216" file="widgets/competition team to draw team and nation"/>

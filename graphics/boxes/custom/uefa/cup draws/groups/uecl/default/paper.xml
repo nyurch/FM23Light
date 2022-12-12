@@ -4,12 +4,10 @@
 	<!-- image borders -->
 	<!-- these determine how many pixels any content is inset from each side of the image -->
 	<!-- (for example, in the case of a button, the content would be the text label) -->
-	<record id="image_borders" left="8" right="8" top="10" bottom="10" border_colour="red" borders_colour="red"/>
+	<record id="image_borders" left="12" right="12" top="8" bottom="10"/>
 
 	<!-- image slices determine the points at which the image will be sliced to enable scaling -->
 	<!-- the image will only slice in the directions slicing values are provided for-->
-	<record id="image_slices" left="2" right="2" top="2" bottom="2"/>
+	<record id="image_slices" left="20" right="20" top="15" bottom="15"/>
 
-	<colour id="red_replacement" name="bg"/>
-	<colour id="blue_replacement" name="ucl core blue"/>
 </properties>

@@ -11,5 +11,5 @@
 	<record id="image_slices" left="2" right="2" top="2" bottom="2"/>
 
 	<colour id="red_replacement" name="bg"/>
-	<colour id="blue_replacement" name="ucl core blue"/>
+	<colour id="blue_replacement" name="uel orange"/>
 </properties>

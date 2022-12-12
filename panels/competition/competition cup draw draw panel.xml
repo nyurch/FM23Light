@@ -69,26 +69,29 @@
 					</record>
 				</widget>
 
-				<container background_colour="bg">
+				<container class="main_subtle_box" >
 					<animation class="translate_animation" start_value="0,50" end_value="0,0" coord_mode="absolute_to_target" duration=".7" tween="ease_out" />
 					<animation class="fade_animation" start_value="0" end_value="1" duration=".6" tween="linear" />
 					<string id="remove_if" value="ui.is_fmt_controller_skin, is_fmt" />
-					<attachment class="get_global_attachment" get_property="CDdb" set_property="red_replacement" />
 					<attachment_group class="vertical_arrange_autosize" />
+					<attachment class="get_global_attachment" get_property="cdlr" set_property="appearance" />
 
-					<widget class="news_feed_panel" height="190" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
+					<widget class="text" auto_size="all" size="large" colour="black">
+						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
+						<translation id="text" translation_id="557721" type="use" value="Live Reaction[COMMENT: AREA: Cup Draw; SUB-AREA: Splash screen; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the commentary section of the live cup draw]" />
+					</widget>
+
+					<widget class="news_feed_panel" height="200" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
 						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="4" />
-
 						<integer id="number_of_items_to_display" value="12" />
 
-						<!-- Note that the id is important so that the league selector panels have their popups display correctly -->
-						<container id="Pnlf">
+						<container>
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="4" />
 
-							<container id="nwsl">
-								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="16" />
-
-								<!-- items added in code here -->
+							<container class="scrolling_box" fit_content_horizontal="true">
+								<container id="nwsl">
+									<attachment_group class="horizontal_arrange_autosize_all" horizontal_gap="16" />
+								</container>
 							</container>
 						</container>
 					</widget>
@@ -100,9 +103,21 @@
 					<string id="create_if" value="ui.is_fmt_controller_skin, is_fmt" />
 					<attachment_group class="vertical_arrange_autosize" vertical_gap="0" vertical_inset="0" />
 					<container class="plain_box">
-						<string id="remove_if" value="platform_is_switch" />
 						<attachment class="get_global_attachment" get_property="cdlr" set_property="appearance" />
 						<attachment_group class="vertical_arrange_autosize" vertical_gap="0" vertical_inset="0" />
+
+						<attachment class="test_screen_size_attachment">
+							<list id="properties">
+								<record>
+									<flags id="alignment" value="vertical" />
+									<integer id="min_value" value="0" />
+									<integer id="max_value" value="767" />
+									<symbol id="set_property" value="hidden" />
+									<boolean id="true_value" value="true" />
+									<boolean id="false_value" value="false" />
+								</record>
+							</list>
+						</attachment>
 
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend" />
@@ -125,22 +140,21 @@
 						<container class="collapsable_box" id="clBX" ddcw="true" collapsed="true" appearance="">
 							<attachment_group class="vertical_arrange_autosize" />
 
-							<widget class="news_feed_panel" height="200" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
+							<container height="160">
 								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-
-								<integer id="number_of_items_to_display" value="12" />
-
-								<!-- Note that the id is important so that the league selector panels have their popups display correctly -->
-								<container id="Pnlf">
+								<widget class="news_feed_panel" height="160" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
 									<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+									<integer id="number_of_items_to_display" value="12" />
 
-									<container id="nwsl">
-										<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="16" />
+									<container class="scrolling_box" fit_content_horizontal="true">
+										<container id="nwsl">
+											<attachment_group class="horizontal_arrange_autosize_all" horizontal_gap="16" />
 
-										<!-- items added in code here -->
+											<!-- items added in code here -->
+										</container>
 									</container>
-								</container>
-							</widget>
+								</widget>
+							</container>
 						</container>
 
 
