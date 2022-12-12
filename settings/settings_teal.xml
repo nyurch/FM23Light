@@ -1882,7 +1882,7 @@
 	<!-- Squad Planner -->
 	<colour name="scouts_opinion"							value="rgb(3, 83, 148)" />
 	<colour name="from_development_squad"					value="fg teal" />
-	<colour name="projection_for_start_of_season" value="rgb(163, 7, 33)" />
+	<colour name="projection_for_start_of_season"			value="rgb(163, 7, 33)" />
 
 	<!--UEFA Champions League colours-->
 	<colour name="ucl core blue" 							value="rgb(0,0,75)" />
