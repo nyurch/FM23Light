@@ -35,21 +35,15 @@
           <translation id="text" translation_id="348204" type="use" value="Mentality[Comment: prefix used before mentality type text on quick tactical instruction button during match]" />
         </widget>
 
-        <widget class="mentality_table_popup_button" id="ment" auto_size="vertical" height="150" vertical_offset="0" focus_appearance="buttons/subtle/flex/button_controller" red_replacement="white">
+        <widget class="mentality_table_popup_button" id="ment" auto_size="vertical" height="150" vertical_offset="0" focus_appearance="buttons/subtle/flex/button_controller">
           <flags id="appearance" value="buttons/custom/tactics/style bar/button" />
           <flags id="alignment" value="left,centre" />
-          <flags id="icon_alignment" value="left" />
+          <flags id="icon_alignment" value="centre" />
           <flags id="colour" value="white" />
+          <flags id="font" value="title" />
           <flags id="disabled_colour" value="faded white" />
         </widget>
 
-				<widget class="popup_button" id="menP" hidden="true" select_event="SeMe" auto_size="vertical" height="150" vertical_offset="0" focus_appearance="buttons/subtle/flex/button_controller">
-					<flags id="appearance" value="buttons/custom/tactics/style bar/button" />
-					<flags id="alignment" value="centre" />
-					<flags id="icon_alignment" value="centre" />
-					<flags id="colour" value="white" />
-					<flags id="disabled_colour" value="faded white" />
-				</widget>
       </container>
     </container>
 
