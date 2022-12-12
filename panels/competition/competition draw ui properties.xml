@@ -42,9 +42,9 @@
 	<record id="eule">
 		<string id="comp_draw_background_colour" value="uel orange"/>
 		<string id="comp_draw_dark_background_colour" value="uel orange"/>
-		<string id="comp_draw_text_colour" value="uel orange"/>
-		<string id="comp_draw_font" value="champions bold"/>
-		<string id="comp_draw_title_font" value="champions bold"/>
+		<string id="comp_draw_text_colour" value="uel grey"/>
+		<string id="comp_draw_font" value="europa bold"/>
+		<string id="comp_draw_title_font" value="europa bold"/>
 		<string id="comp_draw_background_splash_image" value="backgrounds/uefa/uel start screen"/>
 		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/uel cup draw"/>
 		<string id="comp_draw_background_image" value="backgrounds/uefa/uel start screen"/>
@@ -53,8 +53,8 @@
 		<boolean id="comp_draw_use_trophy" value="false"/>
 		<boolean id="comp_draw_news_item_use_trophy" value="true"/>
 		<record id="comp_draw_group_title_props">
-			<string id="font" value="champions"/>
-			<string id="colour" value="uel grey"/>
+			<string id="font" value="europa"/>
+			<string id="colour" value="white"/>
 			<string id="style" value="bold"/>
 		</record>
 		<string id="comp_draw_group_row_apperance" value="boxes/custom/uefa/cup draws/slots/uel/default/paper"/>
@@ -82,9 +82,9 @@
 	<record id="ecle">
 		<string id="comp_draw_background_colour" value="uecl green"/>
 		<string id="comp_draw_dark_background_colour" value="uecl green"/>
-		<string id="comp_draw_text_colour" value="uecl green"/>
-		<string id="comp_draw_font" value="champions bold"/>
-		<string id="comp_draw_title_font" value="champions bold"/>
+		<string id="comp_draw_text_colour" value="uel grey"/>
+		<string id="comp_draw_font" value="europa bold"/>
+		<string id="comp_draw_title_font" value="europa bold"/>
 		<string id="comp_draw_background_splash_image" value="backgrounds/uefa/uecl start screen"/>
 		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/uecl cup draw"/>
 		<string id="comp_draw_background_image" value="backgrounds/uefa/uecl start screen"/>
@@ -93,8 +93,8 @@
 		<boolean id="comp_draw_use_trophy" value="false"/>
 		<boolean id="comp_draw_news_item_use_trophy" value="true"/>
 		<record id="comp_draw_group_title_props">
-			<string id="font" value="champions"/>
-			<string id="colour" value="uel grey"/>
+			<string id="font" value="europa"/>
+			<string id="colour" value="white"/>
 			<string id="style" value="bold"/>
 		</record>
 		<string id="comp_draw_group_row_apperance" value="boxes/custom/uefa/cup draws/slots/uecl/default/paper"/>
