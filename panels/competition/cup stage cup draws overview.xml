@@ -1,0 +1,118 @@
+﻿<panel>
+	<attachment_group class="horizontal_arrange" horizontal_alignment="middle" />
+	<boolean id="is_live_cup_draw_panel" value="true" />
+	<boolean id="is_live_cup_draw_overview_panel" value="true" />
+	<container width="880">
+		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
+
+
+		<widget class="label" id="date" colour="disabled" auto_size="vertical"/>
+
+		<container class="scrolling_box" navigation_container="true">
+			<container>
+				<layout class="fit_children_attachment" alignment="vertical" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" inset="0" />
+				<widget class="table" id="tabl" layout="85, -1, 2, 2, 2, 20, 2, 2, 2, -1, 40" mode="fill_custom_rows, fill_rows, keyboard" auto_size="vertical" row_height="50" row_spacing="10" fixed_size_rows="true" save_session_state="true">
+					<translation id="title" translation_id="247184" type="use" value="Cup Stage Panel" />
+					<flags id="row_appearance" value="" />
+					<!-- default properties for various columns -->
+					<list id="column_widget_properties">
+						<record indx="0">
+							<flags id="alignment" value="left,centre_y" />
+							<colour id="colour" name="white" />
+						</record>
+						<record indx="1">
+							<flags id="alignment" value="right,centre_y" />
+							<flags id="spec" value="text" />
+							<flags id="navigation_focus_target" value="false" />
+						</record>
+						<record indx="2">
+							<flags id="alignment" value="centre" />
+							<colour id="colour" name="fixture outcome" />
+						</record>
+						<record indx="3">
+							<flags id="alignment" value="centre" />
+							<colour id="colour" name="result aggregate" />
+							<flags id="navigation_focus_target" value="false" />
+						</record>
+						<record indx="4">
+							<flags id="alignment" value="centre" />
+							<flags id="spec" value="text" />
+							<colour id="colour" name="result score" />
+							<flags id="navigation_focus_target" value="false" />
+						</record>
+						<record indx="5">
+							<flags id="alignment" value="centre" />
+							<colour id="colour" name="fixture score separator" />
+						</record>
+						<record indx="6">
+							<flags id="alignment" value="centre" />
+							<flags id="spec" value="text" />
+							<colour id="colour" name="result score" />
+							<flags id="navigation_focus_target" value="false" />
+						</record>
+						<record indx="7">
+							<flags id="alignment" value="centre" />
+							<colour id="colour" name="result aggregate" />
+							<flags id="navigation_focus_target" value="false" />
+						</record>
+						<record indx="8">
+							<flags id="alignment" value="centre" />
+							<colour id="colour" name="fixture outcome" />
+						</record>
+						<record indx="9">
+							<flags id="alignment" value="left,centre_y" />
+							<flags id="spec" value="text" />
+							<flags id="navigation_focus_target" value="false" />
+							<colour id="colour" name="white" />
+						</record>
+						<record indx="10">
+							<flags id="alignment" value="right,centre_y" />
+							<colour id="colour" name="competition" />
+						</record>
+					</list>
+
+					<!-- column display properties -->
+					<list id="column_table_properties">
+						<record indx="0">
+							<flags id="id" value="hinf" />
+							<integer id="left" value="4" />
+						</record>
+						<record indx="1">
+							<flags id="id" value="htea" />
+						</record>
+						<record indx="2">
+							<flags id="id" value="hres" />
+						</record>
+						<record indx="4">
+							<flags id="id" value="hsco" />
+						</record>
+						<record indx="3">
+							<flags id="id" value="hagg" />
+						</record>
+						<record indx="5">
+							<flags id="id" value="midc" />
+						</record>
+						<record indx="7">
+							<flags id="id" value="aagg" />
+						</record>
+						<record indx="6">
+							<flags id="id" value="asco" />
+						</record>
+						<record indx="8">
+							<flags id="id" value="ares" />
+						</record>
+						<record indx="9">
+							<flags id="id" value="atea" />
+						</record>
+						<record indx="10">
+							<flags id="id" value="ainf" />
+							<integer id="rght" value="4" />
+						</record>
+					</list>
+				</widget>
+			</container>
+		</container>
+	</container>
+</panel>
+<!-- cup stage panel -->
