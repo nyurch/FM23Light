@@ -49,7 +49,7 @@
 						<widget class="text" alignment="centre" multiline="true" colour="faded text" auto_size="vertical">
 							<translation id="text" translation_id="538864" type="use" value="Players by preferred positions[COMMENT: AREA: dev centre; SUB-AREA: youth intake; NOTE: provides a breakdown of players in your youth intake by position]" />
 						</widget>
-						<widget class="pitch_squad_depth" id="pitc" vertical="true" pitch_length_multiplier="1.02" pitch_draw_grass="false" select_event="slic" pitch_line_colour="faded black" pitch_keep_selected_icons="true" pitch_touchline_width_percentage="30" line_width="1">
+						<widget class="pitch_squad_depth" id="pitc" vertical="true" pitch_length_multiplier="1.02" pitch_draw_grass="true" select_event="slic" pitch_line_colour="faded white" pitch_keep_selected_icons="true" pitch_touchline_width_percentage="30" line_width="1">
 							<boolean id="pitch_draw_goals" value="false" />
 							<boolean id="pitch_draw_markings" value="true" />
 							<boolean id="pitch_allow_player_selection" value="false" />
