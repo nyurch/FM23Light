@@ -15,7 +15,7 @@
 	<boolean id="should_force_refresh" value="true" />
 
 	<!--colours for left hand pitch icon-->
-	<colour id="position_icon_disabled_colour" name="bg darker" />
+	<colour id="position_icon_disabled_colour" name="bg blue" />
 
 	<!--colours for birdseye pitch icon-->
 	<colour id="birds_eye_position_icon_colour" name="bg darker" />
