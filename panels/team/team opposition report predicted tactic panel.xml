@@ -1,0 +1,192 @@
+﻿<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+	<container class="main_box" red_replacement="pitch_box_background">
+		<layout class="arrange_horizontal_attachment" layout="-3, -2" offset="0" />
+		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="5" />
+
+		<container>
+			<layout class="arrange_vertical_attachment" layout="30,30, -1" offset="0" gap="0" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+			<container>
+				<layout class="arrange_horizontal_attachment" alignment="left" gap="0" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+				<widget class="label" alignment="left,centre_y" font="title" size="large" auto_size="horizontal" colour="white">
+					<layout class="stick_to_sides_attachment" alignment="left" inset="3" />
+					<translation id="text" translation_id="447657" type="use" value="Expected Tactic[COMMENT: oppositon team report; heading]" />
+				</widget>
+			</container>
+
+			<container>
+				<layout class="arrange_horizontal_attachment" alignment="middle" gap="-9" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+				<widget class="radio_toggle_switch_left" auto_size="horizontal" selected="true" click_event="shop">
+					<translation id="text" translation_id="447658" type="use" value="Line-up[COMMENT: oppositon team report; button to view lineup]" />
+				</widget>
+
+				<widget class="radio_toggle_switch_right" auto_size="horizontal" click_event="shcl">
+					<translation id="text" translation_id="447659" type="use" value="Line-up Comparison[COMMENT: oppositon team report; button to compare team line ups]" />
+				</widget>
+			</container>
+
+			<container>
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+				<widget class="pitch_with_tactics" id="otpc" pitch_vertical_padding="20" pitch_alignment="centre,can_scale" vertical="true" draw_analysis_overlay="true" player_icon_file="tactics/tactics icon opposition predicted team" icon_flags="show_name,show_number,show_role_duty_labels,dont_colour_names,dont_fade_icons,show_preview_info_popup" pitch_draw_grass="true" pitch_line_colour="faded white"/>
+				<widget class="pitch_with_both_tactics" id="tcpi" hidden="true" file="widgets/pitch with both tactics vertical" vertical="true" pitch_alignment="centre,can_scale" icon_flags="show_name,dont_colour_names,dont_fade_icons" allow_y_score_adjustment_for_roles="false" player_icon_file="tactics/tactics icon opposition comparison" pitch_draw_grass="false" />
+			</container>
+
+		</container>
+
+		<container class="inner_subtle_box">
+			<layout class="arrange_vertical_attachment" layout="30, -1" offset="0" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="5" />
+
+			<container>
+				<layout class="arrange_horizontal_attachment" alignment="middle" gap="-9" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+				<widget class="radio_toggle_switch_left" auto_size="horizontal" selected="true" click_event="shoa">
+					<translation id="text" translation_id="296334" type="use" value="Analysis[COMMENT: match screen; analysis panel]" />
+				</widget>
+
+				<widget class="radio_toggle_switch_right" auto_size="horizontal" click_event="shsm">
+					<translation id="text" translation_id="447660" type="use" value="Mentality and Shape[COMMENT: oppositon team report; button to view defensive positons]" />
+				</widget>
+			</container>
+
+			<container>
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+				<container id="ancn">
+					<layout class="arrange_vertical_attachment" layout="-5, -3, -3, -3, -3, -2" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+					<container>
+						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+						<widget class="label" auto_size="vertical" font="label">
+							<translation id="text" translation_id="298104" type="use" value="Formation" />
+						</widget>
+
+						<widget class="text" id="frmd" />
+					</container>
+
+					<container>
+						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+						<widget class="horizontal_divider" />
+
+						<widget class="label" id="pslb" auto_size="vertical" font="label">
+						</widget>
+
+						<widget class="text" id="pstx">
+						</widget>
+					</container>
+
+					<container>
+						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+						<widget class="horizontal_divider" />
+
+						<widget class="label" auto_size="vertical" font="label">
+							<translation id="text" translation_id="227839" type="use" value="Morale" />
+						</widget>
+
+						<widget class="text" id="morl">
+						</widget>
+					</container>
+
+					<container>
+						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+						<widget class="horizontal_divider" />
+
+						<widget class="label" auto_size="vertical" font="label">
+							<translation id="text" translation_id="395152" type="use" value="Build-Up[COMMENT: FR 11046 - team strategies - header for adjusting strategies used during build up play]" />
+						</widget>
+
+						<widget class="text" id="bdup">
+						</widget>
+					</container>
+
+					<container>
+						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+						<widget class="horizontal_divider" />
+
+						<widget class="label" auto_size="vertical" font="label">
+							<translation id="text" translation_id="242534" type="use" value="Pressing Style" />
+						</widget>
+
+						<widget class="text" id="pres" auto_size="none" />
+					</container>
+
+					<container>
+						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+						<widget class="horizontal_divider" />
+
+						<widget class="label" auto_size="vertical" font="label">
+							<translation id="text" translation_id="242547" type="use" value="Marking Style" />
+						</widget>
+
+						<widget class="text" id="mark">
+						</widget>
+					</container>
+				</container>
+
+				<container class="scrolling_box" id="tscn" hidden="true">
+					<container>
+						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_inset="0" />
+						
+						<widget class="horizontal_divider" />
+
+						<container>
+							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,as_needed" horizontal_offset="0" vertical_alignment="vertical" vertical_inset="0" />
+
+							<widget class="icon_button" auto_size="all" icon="icons/16px/mentality" appearance="none" font="title" colour="white" alignment="right,centre_y" icon_alignment="left">
+								<record id="primary_icon_properties" red_replacement="white" />
+								<translation id="text" translation_id="348204" type="use" value="Mentality[Comment: prefix used before mentality type text on quick tactical instruction button during match]" />
+							</widget>
+
+							<widget class="mentality_label" id="ment" auto_size="all" alignment="left,centre_y" icon_alignment="left" />
+						</container>
+
+						<widget class="text" auto_size="vertical" id="mend" />
+
+						<widget class="horizontal_divider" />
+
+						<container>
+							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,as_needed" horizontal_offset="0" vertical_alignment="vertical" vertical_inset="0" />
+
+							<widget class="icon_button" auto_size="all" icon="icons/16px/team shape" appearance="none" font="title" colour="white" alignment="right,centre_y" icon_alignment="left">
+								<record id="primary_icon_properties" red_replacement="white" />
+								<translation id="text" translation_id="465563" type="use" value="Team Fluidity[COMMENT: team tactical instruction, reference ID 364787, team shape is now team fluidity]" />
+							</widget>
+
+							<widget class="fluidity_label" id="flui" auto_size="all" alignment="left,centre_y" icon_alignment="left" />
+
+						</container>
+
+						<widget class="text" auto_size="vertical" id="flud" />
+					</container>
+
+				</container>
+
+			</container>
+
+		</container>
+
+	</container>
+
+</panel>
