@@ -89,15 +89,13 @@
 				<string id="select_event" value="slic" />
 				<string id="hide_linked_events" value="true" />
 				<string id="pitch_draw_grass" value="true" />
-				<string id="pitch_base_appearance" value="" />
-				<string id="pitch_pattern" value="ui circles" />
 				<string id="animate_size_and_position" value="false" />
 				<string id="pitch_draw_arrows" value="true" />
 				<string id="pitch_keep_selected_icons" value="false" />
 				<string id="pitch_player_icon_text_font" value="match pitch players" />
 				<string id="pitch_draw_dugout" value="false" />
 				<string id="pitch_draw_markings" value="true" />
-				<string id="pitch_line_colour" value="faded text" />
+				<string id="pitch_line_colour" value="faded white" />
 				<integer id="pitch_touchline_width_percentage" value="80" />
 				<string id="vertical" value="true" />
 				<string id="force_left_to_right_events" value="true" />
