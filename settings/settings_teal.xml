@@ -1902,7 +1902,7 @@
 	<colour name="super cup darkest" 						value="rgb(1,2,3)" />
 
 	<!--EFL colours-->
-	<colour name="efl blue" 								value="rgb(6,22,132)" />
+	<colour name="efl blue" 								value="rgb(70,100,240)" />
 
 	<!--Bundesliga colours-->
 	<colour name="bundesliga red" 							value="rgb(209,5,20)" />
