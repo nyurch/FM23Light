@@ -66,7 +66,7 @@
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 					<!--home team info-->
-					<container class="contrast_box" id="tHmC" appearance="boxes/custom/match/tv captions/si tv/teams/header/paper">
+					<container class="contrast_box" id="tHmC" appearance="boxes/custom/solid/paper">
 
 						<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="middle" />
 
@@ -107,22 +107,22 @@
 				</container>
 
 				<container>
-					<layout class="stick_to_sides_attachment" alignment="all" inset="0,12,0,19" apply_to_children="true" />
+					<layout class="stick_to_sides_attachment" alignment="all" inset="10,10,10,10" apply_to_children="true" />
 
 					<animation class="scale_animation" start_value="1, 0" end_value="1, 1" duration="0.6" delay="1" end_mode="hold_auto_reverse" tween="ease_out_4" coord_mode="relative_to_target" trigger_id="hidden" trigger_start="false" trigger_end="true" centre_point="top" no_clipping="true" />
 					<animation class="fade_animation" start_value="0" end_value="1" duration="0.6" delay="1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 
 					<container id="htbx" class="main_box" appearance="boxes/custom/darken/no margin/paper">
 						<layout class="arrange_horizontal_attachment" layout="-1,250" offset="0" gap="8" />
-						<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 						<!-- Home Team Line Up -->
 						<container id="hpco">
-							<layout class="stick_to_sides_attachment" alignment="all" inset="0,0,15,0" apply_to_children="true" />
+							<layout class="stick_to_sides_attachment" alignment="all" inset="10,10,10,10" apply_to_children="true" />
 
 							<container>
 								<layout class="arrange_vertical_attachment" layout="-1,25" offset="0" gap="0" />
-								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+								<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 								<widget class="pitch_with_tactics" id="hpwt" vertical="true" icon_flags="show_name, show_number, show_captain, dont_show_tactical_info, dont_colour_number, drop_initial_if_possible, can_have_multiple_top_icons" player_icon_file="tactics/tactics icon welcome to team panel" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="true" pitch_line_colour="white" pitch_perspective="0" pitch_draw_lines="true" pitch_touchline_width_percentage="40">
 
@@ -214,7 +214,7 @@
 				</container>
 			</container>
 
-			<container class="contrast_box" appearance="boxes/custom/match/tv captions/si tv/teams/footer/paper" height="32" red_replacement="bg lighter">
+			<container class="contrast_box" appearance="boxes/custom/solid/paper" height="40" red_replacement="bg lighter">
 
 				<animation class="translate_animation" start_value="1, 0" end_value="0, 0" duration="1" delay="0" end_mode="hold_auto_reverse" tween="ease_in_out_4" coord_mode="relative_to_screen" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true" />
 				<animation class="fade_animation" start_value="0" end_value="1" duration="0.8" delay="0.2" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
@@ -281,7 +281,7 @@
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 					<!--away team info-->
-					<container class="contrast_box" id="tAmC" appearance="boxes/custom/match/tv captions/si tv/teams/header/paper">
+					<container class="contrast_box" id="tAmC" appearance="boxes/custom/solid/paper">
 
 						<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="middle" />
 
@@ -320,7 +320,7 @@
 				</container>
 
 				<container>
-					<layout class="stick_to_sides_attachment" alignment="all" inset="0,12,0,19" apply_to_children="true" />
+					<layout class="stick_to_sides_attachment" alignment="all" inset="10,10,10,10" apply_to_children="true" />
 
 					<animation class="scale_animation" start_value="1, 0" end_value="1, 1" duration="0.6" delay="1" end_mode="hold_auto_reverse" tween="ease_out_4" coord_mode="relative_to_target" trigger_id="hidden" trigger_start="false" trigger_end="true" centre_point="top" no_clipping="true" />
 					<animation class="fade_animation" start_value="0" end_value="1" duration="0.6" delay="1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
@@ -330,11 +330,11 @@
 						<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
 						<container id="apco">
-							<layout class="stick_to_sides_attachment" alignment="all" inset="0,0,15,0" apply_to_children="true" />
+							<layout class="stick_to_sides_attachment" alignment="all" inset="10,10,10,10" apply_to_children="true" />
 
 							<container>
 								<layout class="arrange_vertical_attachment" layout="-1,25" offset="0" gap="0" />
-								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+								<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 								<widget class="pitch_with_tactics" id="apwt" vertical="true" icon_flags="show_name, show_number, show_captain, dont_show_tactical_info, dont_colour_number, drop_initial_if_possible, can_have_multiple_top_icons" player_icon_file="tactics/tactics icon welcome to team panel" pitch_draw_goals="false" pitch_draw_markings="false" pitch_draw_grass="true" pitch_line_colour="white" pitch_perspective="0" pitch_draw_lines="true" pitch_touchline_width_percentage="40">
 
@@ -424,7 +424,7 @@
 				</container>
 			</container>
 
-			<container class="contrast_box" appearance="boxes/custom/match/tv captions/si tv/teams/footer/paper" height="32" red_replacement="bg lighter">
+			<container class="contrast_box" appearance="boxes/custom/solid/paper" height="40" red_replacement="bg lighter">
 
 				<animation class="translate_animation" start_value="1, 0" end_value="0, 0" duration="1" delay="0" end_mode="hold_auto_reverse" tween="ease_in_out_4" coord_mode="relative_to_screen" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true" />
 				<animation class="fade_animation" start_value="0" end_value="1" duration="0.8" delay="0.2" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
