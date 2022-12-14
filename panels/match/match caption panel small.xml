@@ -52,7 +52,7 @@
 						<integer id="set_property" value="red_replacement" />
 					</record>
 					<widget class="team_button" mode="1" alignment="left, centre_y" auto_size="horizontal">
-						<string id="font" value="title" />
+						<string id="font" value="bundesliga-condensed" />
 						<string id="size" value="xxlarge" />
 						<string id="icon_enabled" value="false" />
 						<record id="object_property">
@@ -74,13 +74,13 @@
 				<attachment_group class="horizontal_arrange" horizontal_offset="15" />
 				<widget class="text" alignment="centre_y,left" auto_size="all" id="PlTn">
 					<string id="size" value="xlarge" />
-					<string id="font" value="title" />
+					<string id="font" value="bundesliga-condensed" />
 					<string id="multiline" value="true" />
 					<string id="colour" value="fg" />
 				</widget>
 				<widget class="text" alignment="centre_y,left" id="PlTx" auto_size="all">
 					<string id="size" value="xlarge" />
-					<string id="font" value="title" />
+					<string id="font" value="bundesliga-condensed" />
 					<string id="multiline" value="true" />
 					<string id="colour" value="fg" />
 				</widget>
@@ -89,12 +89,12 @@
 				<attachment_group class="horizontal_arrange" horizontal_offset="15" horizontal_alignment="left,extend" />
 				<widget class="text" alignment="centre_y,left" auto_size="all" id="AcTx">
 					<string id="size" value="large" />
-					<string id="font" value="title" />
+					<string id="font" value="bundesliga-condensed" />
 					<string id="multiline" value="true" />
 				</widget>
 				<widget class="text" alignment="centre_y,left" id="AcTs" auto_size="all">
 					<string id="size" value="large" />
-					<string id="font" value="title" />
+					<string id="font" value="bundesliga-condensed" />
 					<string id="multiline" value="true" />
 				</widget>
 				<widget class="picture" id="crdP" hidden="true" scale_picture="true" height="30">
