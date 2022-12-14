@@ -7,7 +7,7 @@
 	<container>
 		<attachment_group class="vertical_arrange_autosize" vertical_gap="0"/>
 
-		<container class="main_box_no_margin" red_replacement="white" appearance="boxes/custom/solid/paper" >
+		<container class="main_box_no_margin" red_replacement="primary" appearance="boxes/custom/match/tv captions/si tv/teams/header/paper" >
 
 			<attachment class="test_screen_size_attachment" skip_if_false="true">
 				<list id="properties">
@@ -44,7 +44,7 @@
 
 	</container>
 
-	<container class="contrast_box" appearance="boxes/custom/solid/paper" red_replacement="bg lighter">
+	<container class="contrast_box" appearance="boxes/custom/match/tv captions/si tv/teams/footer/paper" red_replacement="bg lighter">
 
 		<list id="properties">
 			<record>
