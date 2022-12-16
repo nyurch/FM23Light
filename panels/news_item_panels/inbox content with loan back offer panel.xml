@@ -1,0 +1,175 @@
+﻿<panel save_session_state="true" draw_horizontal_dividers="true">
+	<attachment_group class="vertical_arrange_autosize" />
+
+	<!-- content area -->
+	<container>
+		<attachment_group class="vertical_arrange_autosize" />
+		<container>
+			<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" />
+
+			<widget class="inbox_body_text" id="bdtx" colour="inbox_text" />
+		</container>
+
+		<container class="inner_subtle_box" appearance="boxes/custom/inbox attachment/personal/paper">
+			<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" />
+
+			<attachment_group class="vertical_arrange_autosize">
+				<global id="vertical_gap" name="ui.inner_box_gap" />
+			</attachment_group>
+
+			<boolean id="should_force_refresh" value="true" />
+
+			<container class="inner_box">
+				<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
+
+				<widget class="text" font="title" auto_size="vertical">
+					<translation id="text" translation_id="538999" type="use" value="Loan Back Offer[COMMENT: AREA: Contracts; SUB-AREA: Contract Negotiations; FR-BN: 32237; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: title for loan back offer news item, when either the buyer or seller is interested in a loan back offer once a deal is accepted]" />
+				</widget>
+
+				<widget class="text" id="itxt" size="large" style="bold" auto_size="vertical" multiline="true" />
+			</container>
+
+			<!--Name age position and nationality -->
+			<container height="84" class="inner_subtle_box">
+				<attachment_group class="horizontal_arrange" horizontal_layout="64, 64, -1, 260" horizontal_offset="0" vertical_inset="0" />
+
+				<widget class="object_portrait_picture" id="logo" scale_picture="true" keep_aspect_ratio="true">
+					<record id="object_property" get_property="Pclb" set_property="objt" />
+				</widget>
+
+				<widget class="object_portrait_picture" id="face" scale_picture="true" keep_aspect_ratio="true">
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
+
+				<container class="inbox_mini_profile_player_details_panel" id="pdts" file="">
+					<string id="skin_style" value="subtle box" />
+					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+					<container id="psbt">
+						<layout class="arrange_vertical_attachment" alignment="middle" offset="0" gap="0" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+						<!-- person name -->
+						<widget class="person_button" id="pnam" info_popup_enabled="true" person_is_player="true" auto_size="vertical" spec="text" style="bold" alignment="left, centre_y" size="12">
+							<layout class="centre_in_parent_attachment" alignment="horizontal" />
+						</widget>
+
+						<!-- person description -->
+						<widget class="text" id="ppos" auto_size="vertical" colour="faded text" alignment="left" size="10" multiline="true">
+							<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+						</widget>
+
+						<!-- person nationality -->
+						<widget class="nation_button" id="natn" format="[%nation#1-nationality]" colour="faded text" alignment="left,centre_y" size="10">
+							<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+							<record id="object_property" get_property="PNat" set_property="objt" />
+						</widget>
+
+					</container>
+				</container>
+
+				<string id="skin_style" value="subtle box" />
+
+				<!--transfer status icon-->
+				<container>
+					<container class="inner_box" id="tsic" appearance="labels/standard/label" red_replacement="green" hidden="false">
+
+						<attachment_group class="horizontal_arrange_autosize_all_centre_centered_in_parent" horizontal_alignment="middle" />
+
+						<widget class="picture" id="tsci" file="icons/26px/transfer" auto_size="all" red_replacement="white" />
+						<widget class="label" id="tslb" alignment="left,centre_y" size="large" auto_size="all" />
+					</container>
+				</container>
+			</container>
+
+			<!-- Loan Details -->
+			<container height="84" class="inner_box">
+				<attachment_group class="horizontal_arrange" horizontal_layout="-1,-1,-1" horizontal_offset="4" vertical_inset="4" />
+
+				<!-- Wage Contribution -->
+				<container>
+					<attachment_group class="vertical_arrange_autosize" />
+
+					<widget class="label" auto_size="vertical" spec="text" font="label" alignment="left">
+						<translation id="text" translation_id="262835" type="use" value="Wage Contribution[COMMENT: person list table; heading for loan wage contribution column]" />
+					</widget>
+
+					<widget class="text" id="wCon" size="large" style="bold" auto_size="vertical" alignment="left" />
+				</container>
+
+				<!-- Loan Duration -->
+				<container>
+					<attachment_group class="vertical_arrange_autosize" />
+
+					<widget class="label" auto_size="vertical" spec="text" font="label" alignment="left">
+						<translation id="text" translation_id="230113" type="use" value="Duration" />
+					</widget>
+
+					<widget class="text" size="large" style="bold" auto_size="vertical" alignment="left">
+						<translation id="text" translation_id="400616" type="use" value="Loan Until End Of Season[COMMENT: player exchange panel, user can set to add a player in exchange on loan until the end of the season]" />
+					</widget>
+				</container>
+
+				<!-- Playing Time -->
+				<container>
+					<attachment_group class="vertical_arrange_autosize" />
+
+					<widget class="label" auto_size="vertical" spec="text" font="label" alignment="left">
+						<translation id="text" translation_id="539000" type="use" value="Playing Time[COMMENT: loan back offer news item; heading for playing time column]" />
+					</widget>
+
+					<widget class="playing_time_label" id="Ptva" size="large" style="bold" alignment="left,centre_y" auto_size="vertical" />
+				</container>
+
+			</container>
+
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
+				<string id="remove_if" value="is_fmt" />
+
+				<widget class="horizontal_divider" />
+
+				<container class="inner_box">
+					<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
+
+					<widget class="text" id="fdbk" font="title" auto_size="vertical" />
+
+					<widget class="text" id="itxt" size="large" style="bold" auto_size="vertical" multiline="true" />
+				</container>
+
+				<!-- Agent feedback -->
+				<container class="client_object_viewer_xml_panel" id="Agen" height="68">
+					<record id="object_property" get_property="Pagn" set_property="objt" />
+					<attachment_group class="horizontal_arrange" horizontal_layout="-2,-5" horizontal_offset="4" />
+
+					<container>
+						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
+						<!-- Agent name -->
+						<widget class="person_button" id="anam" info_popup_enabled="true" person_is_player="false" auto_size="vertical" colour="black" spec="text" style="bold" alignment="left, centre_y" size="12">
+							<layout class="centre_in_parent_attachment" alignment="horizontal" />
+							<record id="object_property" get_property="objt" set_property="valu" />
+						</widget>
+
+						<!-- Agent scope -->
+						<widget class="text" id="atyp" auto_size="vertical" alignment="left, centre_y" size="10" colour="faded text" multiline="true" />
+
+					</container>
+
+					<!-- Agent feedback -->
+					<container class="inner_box" appearance="boxes/custom/speech bubble/left/paper" red_replacement="bg accent">
+						<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" apply_to_children="true" inset="0" />
+						<widget class="text" id="afbs" alignment="left, centre_y" colour="white" size="10" multiline="true" />
+					</container>
+				</container>
+
+				<!-- Player feedback -->
+				<container class="inner_box" id="PlFb" height="50">
+					<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" apply_to_children="true" inset="0" />
+					<widget class="text" id="PlFt" alignment="left, centre_y" colour="white" size="10" multiline="true" />
+				</container>
+			</container>
+
+		</container>
+	</container>
+
+</panel>
