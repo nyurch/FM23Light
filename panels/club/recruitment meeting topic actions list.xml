@@ -1,0 +1,9 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize"/>
+
+	<widget class="table" id="topt" layout="-1" auto_size="vertical" auto_size_rows="true" fixed_size_rows="false" row_spacing="0">
+		<list id="column_widget_properties">
+			<record index="0" alignment="left, centre_y" multiline="true" colour="faded black"/>
+		</list>
+	</widget>
+</panel>
