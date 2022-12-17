@@ -1,0 +1,48 @@
+﻿<panel>
+	<list id="properties_to_forward">
+		<record get_property="text" set_property="text" target="txtL"/>
+		<record get_property="titl" set_property="text" target="hdrL"/>
+		<record get_property="icon" set_property="shown" target="rgtI"/>
+		<record get_property="objt" set_property="objt" target="pict"/>
+		<record get_property="unem" set_property="hidden" target="pict"/>
+		<record get_property="unem" set_property="shown" target="empT"/>
+		<record get_property="subt" set_property="text" target="emTX"/>
+		<record get_property="click_event" set_property="click_event" target="butN"/>
+		<record get_property="itms" set_property="itms" target="popU"/>
+		<record get_property="sele" set_property="sele" target="popU"/>
+		<record get_property="ispo" set_property="hidn" target="butN"/>
+		<record get_property="ispo" set_property="shown" target="popU"/>
+	</list>
+	
+	<attachment_group class="horizontal_arrange_autosize"  horizontal_alignment="right" horizontal_offset="0" horizontal_gap="4"/>
+	<container>
+		<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" horizontal_offset="0" horizontal_gap="0"/>
+		<container>
+			<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" horizontal_offset="4" horizontal_gap="8"/>
+			<container width="40">
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+				<widget class="object_portrait_picture" id="pict" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" />
+
+				<container id="empT" hidden="true">
+					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+					<widget class="picture" file="icons/custom/dynamic manager timeline/footer club" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" colour="white"/>
+					<widget class="text" id="emTX" size="large" font="title" alignment="centre" colour="black" />
+				</container>
+			</container>
+			<container>
+				<attachment_group class="vertical_arrange_horizontal_autosize" vertical_alignment="top,extend" vertical_gap="" vertical_offset="0"/>
+				<widget class="text" id="hdrL" auto_size="horizontal" height="18" font="title" auto_size_maximum_width="85" wrap="false" colour="white"/>
+				<widget class="text" id="txtL" auto_size="horizontal" wrap="false" />
+			</container>
+			<widget class="button" id="butN" ignore_sizing="true" show_button_appearance="false">
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+			</widget>
+			<widget class="popup_button" id="popU" ignore_sizing="true" fixed="true" text="" icon_enabled="false" hidden="true" secondary_icon_enabled="false" show_button_appearance="false" >
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+			</widget>
+		</container>
+		
+	</container>
+	<!--icon to point to next in timeline-->
+	<widget class="picture" id="rgtI" width="20" file="icons/16px/right" colour="white"  image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"  />
+</panel>
