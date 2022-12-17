@@ -33,14 +33,11 @@
 			<string id="icon_flags" value="show_name,use_player_kits_back,show_selection_image,show_number"/>
 			<string id="show_extra_details_buttons" value="true"/>
 			<string id="pitch_draw_grass" value="true"/>
-			<string id="pitch_base_appearance" value=""/>
-			<string id="pitch_pattern" value=""/>
 			<integer id="pitch_vertical_padding" value="0"/>
 			<string id="vertical" value="true"/>
-
 			<string id="pitch_alignment" value="can_scale"/>
 			<real id="maximum_player_size" value="0.220000"/>
-			<string id="pitch_line_colour" value="text"/>
+			<string id="pitch_line_colour" value="white"/>
 			<string id="3958779584" value="tactics normal run"/>
 			<string id="3958779616" value="tactics darkened run"/>
 			<string id="3958779648" value="tactics dragged run"/>
