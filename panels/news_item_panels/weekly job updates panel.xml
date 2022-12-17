@@ -1,0 +1,146 @@
+﻿<panel>
+	<layout class="fit_children_attachment" alignment="vertical" offset="0" />
+	<list id="draw_order">
+		<record entity_layout_id="at00" />
+		<record entity_layout_id="at06" />
+		<record entity_layout_id="at08" />
+		<record entity_layout_id="at01" />
+		<record entity_layout_id="at02" />
+		<record entity_layout_id="at05" />
+		<record entity_layout_id="at07" />
+		<record entity_layout_id="at09" />
+		<record entity_layout_id="at03" />
+		<record entity_layout_id="at04" />
+		<record entity_layout_id="at10" />
+	</list>
+	<widget class="spacer" id="main">
+		<boolean id="exclude_from_find" value="true" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+	</widget>
+	<widget class="spacer" id="fmin" embed_in_frame="true">
+		<boolean id="exclude_from_find" value="true" />
+		<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+	</widget>
+	<container class="client_object_viewer_xml_panel" entity_layout_id="at00" id="data" auto_size="vertical" name="main data panel">
+		<layout class="stick_to_object_attachment" id="align_top" offset="1" get_side="top" set_side="top" move_side="true" target="main" />
+		<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+		<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+		<layout class="stick_to_object_attachment" id="group_align_bottom" get_side="bottom" set_side="bottom" use_own_content_rectangle="true" use_children_to_size="true" target="at06" />
+		<widget class="spacer" id="main">
+			<boolean id="exclude_from_find" value="true" />
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		</widget>
+		<widget class="spacer" id="fmin" embed_in_frame="true">
+			<boolean id="exclude_from_find" value="true" />
+			<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+		</widget>
+		<container entity_layout_id="at06" id="njCt" height="400" name="non jobs container">
+			<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main" />
+			<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+			<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+			<widget class="spacer" id="main">
+				<boolean id="exclude_from_find" value="true" />
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+			</widget>
+			<widget class="spacer" id="fmin" embed_in_frame="true">
+				<boolean id="exclude_from_find" value="true" />
+				<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+			</widget>
+			<container class="titled_box" entity_layout_id="at01" id="at01" height="85" name="available jobs cont">
+				<translation id="title" translation_id="491984" type="use" value="Recommended Available Jobs[COMMENT: AREA: Inbox; SUB-AREA: Jobs; FR-BN: ?; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: title for recommended jobs while unemployed]" />
+				<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main" />
+				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				<widget class="spacer" id="main">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+				</widget>
+				<widget class="spacer" id="fmin" embed_in_frame="true">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+				</widget>
+				<container class="inner_subtle_box" entity_layout_id="at03" id="at03">
+					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+					<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+					<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+					<widget class="spacer" id="main">
+						<boolean id="exclude_from_find" value="true" />
+						<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+					</widget>
+					<widget class="spacer" id="fmin" embed_in_frame="true">
+						<boolean id="exclude_from_find" value="true" />
+						<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+					</widget>
+					<widget class="text" entity_layout_id="at04" alignment="centre_y,left" id="at04">
+						<translation id="text" translation_id="491985" type="use" value="There are currently no recommended jobs.[COMMENT: AREA: Inbox; SUB-AREA: Jobs; FR-BN: ?; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: string for recommended jobs while unemployed]" />
+						<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+						<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+						<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+						<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+					</widget>
+				</container>
+			</container>
+			<container class="titled_box" entity_layout_id="at02" id="at02" name="job security cont">
+				<translation id="title" translation_id="247319" type="use" value="Job Security" />
+				<layout class="stick_to_object_attachment" id="align_top" get_side="bottom" set_side="top" target="at01" />
+				<layout class="stick_to_object_attachment" id="align_bottom" offset="-35" get_side="bottom" set_side="bottom" target="main" />
+				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				<widget class="spacer" id="main">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+				</widget>
+				<widget class="spacer" id="fmin" embed_in_frame="true">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+				</widget>
+				<container class="client_object_list_table" entity_layout_id="at05" id="mnTb" name="manager table" navigation_container="true">
+					<string id="select_event" value="Jsls" />
+					<string id="layout" value="-1, -1, -1, -1, -1, -1, -1" />
+					<string id="auto_size_rows" value="true" />
+					<integer id="row_height" value="25" />
+					<integer id="database_table_type" value="3" />
+					<string id="mode" value="fill_rows, stripe_rows, show_bullets, printable, drop_on_rows, select_multiple, select_rows" />
+					<list id="default_sort_column" />
+					<record id="viewed_property_ids">
+						<record id="TMnR" width="-2" auto_hide_priority="10" colour="black"/>
+						<record id="CRfN" width="-2" auto_hide_priority="10" />
+						<record id="Cnat" width="-1" auto_hide_priority="10" />
+						<record id="Cdiv" width="-3" auto_hide_priority="10" />
+						<record id="MSta" width="-2" auto_hide_priority="10" />
+					</record>
+					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+					<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+					<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				</container>
+			</container>
+			<container entity_layout_id="at07" id="at07" navigation_container="true">
+				<layout class="stick_to_object_attachment" id="align_top" get_side="bottom" set_side="top" target="at02" />
+				<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				<widget class="spacer" id="main">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+				</widget>
+				<widget class="spacer" id="fmin" embed_in_frame="true">
+					<boolean id="exclude_from_find" value="true" />
+					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+				</widget>
+				<widget class="icon_button" entity_layout_id="at09" id="IntB" auto_size="all"  controller_button="y_button">
+					<translation id="text" value="Declare Interest In Job" translation_id="235158" type="use" />
+					<string id="click_event" value="DIJb" />
+					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+					<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+					<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" move_side="true" target="main" />
+				</widget>
+			</container>
+		</container>
+	</container>
+	<container class="vertical_arrange_container" entity_layout_id="at08" id="JbCt" auto_size="vertical" inset="10" gap="12" name="jobs container">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		<widget class="text" id="jbTt" size="12" style="bold" colour="accent" auto_size="vertical" multiline="false" />
+	</container>
+</panel>
