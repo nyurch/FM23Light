@@ -1,0 +1,31 @@
+<panel>
+	<!-- This panel is designed to be used as a CLIENT_OBJECT_VIEWER_XML_PANEL (or a child of one) -->
+	<!-- When given a team object we display it's name, a larger badge and the division (if appropriate) of the team -->
+	<layout class="arrange_horizontal_attachment" layout="85, -1" offset="0" gap="2"/>
+	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="4"/>
+
+	<widget class="object_portrait_picture" scale_picture="true" id="pict" width="85" image_alignment="centre">
+		<record id="object_property">
+			<integer id="get_property" value="objt"/>
+			<integer id="set_property" value="objt"/>
+		</record>
+	</widget>
+
+	<container>
+		<layout class="arrange_vertical_attachment" layout="-7,-4" offset="0" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
+
+		<widget class="team_button" id="team" icon_enabled="false" mode="1" colour="black" alignment="left,bottom" style="bold, shadowed" size="12" multiline="false">
+			<record id="object_property">
+				<integer id="get_property" value="objt"/>
+				<integer id="set_property" value="valu"/>
+			</record>
+		</widget>
+		<widget class="comp_button" id="divi" icon_enabled="false" colour="faded black" alignment="left,top" style="bold, shadowed" size="9" multiline="false">
+			<record id="object_property">
+				<integer id="get_property" value="Tdiv"/>
+				<integer id="set_property" value="valu"/>
+			</record>
+		</widget>
+	</container>
+</panel>
