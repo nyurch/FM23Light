@@ -1,0 +1,57 @@
+﻿<panel width="700" height="400">
+
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<container class="standard_popup_box">
+		
+		<attachment_group class="vertical_arrange" vertical_layout="40,40,-1,30" vertical_offset="8" vertical_gap="15" />
+
+		<container class="inner_subtle_box">
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+			<widget class="icon_button" id="toLo" icon="icons/16px/thumbs up" colour="fg positive" icon_colour="fg positive" appearance="" />
+		</container>
+
+		<container>
+			<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="left" horizontal_offset="12" vertical_inset="0" horizontal_gap="10" />
+			
+			<widget class="text" font="title" size="medium" auto_size="all" alignment="centre_x,centre_y">
+				<translation id="text" translation_id="560935" type="use" value="Areas[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Dialog; FR-BN: FM-12648; NOTE: Search option for which locations to send a scout]" />
+			</widget>
+
+			<widget class="popup_button" id="lcPP" width="165" select_event="lcIS" fixed="true" fixed_icon="true">
+				<translation id="text" translation_id="560951" type="use" value="Choose an area[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Dialog; FR-BN: FM-9093; NOTE: button text for location picking drop-down in Scout Location picker popup]" />
+			</widget>
+		</container>
+
+		<container>
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" />
+
+			<container class="table" id="selL" layout="-1,30" mode="stripe_rows">
+				<list id="column_widget_properties">
+					<record index="0" alignment="centre_y,left" />
+					<record index="1" alignment="centre_y,left" />
+				</list>
+			</container>
+
+			<widget class="text" id="noSL" alignment="centre_x,centre_y" colour="faded text" hidden="true">
+				<translation id="text" translation_id="560952" type="use" value="No areas available[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Section; FR-BN: FM-4023; NOTE: Fallback text shown, when there are no location to select from in the recruitment focus location picker dialog]" />
+			</widget>
+		</container>
+
+		<container>
+			<attachment_group class="horizontal_arrange" horizontal_alignment="right" horizontal_offset="12" vertical_inset="0" horizontal_gap="10" />
+
+			<widget class="button" auto_size="all" alignment="right, centre_y" click_event="canc">
+				<translation id="text" translation_id="229828" type="use" value="Cancel" />
+			</widget>
+
+			<widget class="primary_icon_button" auto_size="horizontal" alignment="centre_y, centre_x" height="30" click_event="ok  ">
+				<record id="primary_icon_properties" file="icons/16px/tick" red_replacement="white" />
+				<translation id="text" translation_id="229918" type="use" value="Confirm" />
+			</widget>
+		</container>
+
+	</container>
+	
+</panel>
