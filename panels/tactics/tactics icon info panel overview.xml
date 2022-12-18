@@ -1,101 +1,102 @@
 <panel use_hit_mask="true" navigation_focus_target="true">
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
-
 	<flags id="appearance" value="boxes/custom/tactics kit/paper"/>
 	<boolean id="should_force_refresh" value="true"/>
 
-	<container class="plain_box" id="bssl" appearance="boxes/custom/tactics kit/selected/paper" hidden="true"></container>
+	<container class="plain_box" id="bssl" appearance="boxes/custom/tactics kit/selected/paper" hidden="true"/>
 
 	<container>
-		<layout class="stick_to_sides_attachment" alignment="top,left" inset="0" apply_to_children="true"/>
-
+		<layout class="stick_to_sides_attachment" alignment="top,right" inset="0" apply_to_children="true"/>
 		<!--injury/red/yellow card -->
 		<container class="inner_box_no_margin" id="inji" height="16" width="16">
 		</container>
 	</container>
 
+	<!--main area-->
 	<container class="main_box" id="nmcN" appearance="boxes/custom/tactics kit/paper">
 		<layout class="arrange_vertical_attachment" alignment="bottom" offset="0"/>
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0,0,0,0" apply_to_children="true"/>
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 
-		<container class="main_contrast_box_no_margin" id="" red_replacement="teal 900" height="50" >
+		<container class="main_contrast_box_no_margin" id="bcIM" height="38" >
 			<layout class="arrange_vertical_attachment" alignment="fill" offset="0" gap="0"/>
-			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="4" apply_to_children="true"/>
+			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 
 			<container>
 				<container id="OUTE" >
 					<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0"/>
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
-
 					<!-- Extra container level to make the animations work -->
 					<container height="25">
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
-
 						<!--role/duty-->
-						<widget class="role_duty_popup_button_mini" id="rodu" size="xsmall" auto_size="none" secondary_icon="icons/custom/misc/small down" alignment="centre" disabled_colour="faded white">
-							<animation class="scale_animation" animation_id="extd" duration="0.15" trigger_id="hidden" trigger_value="false" start_value="1.0,0.0" end_value="1.0,1.0" centre_point="0.0, 0.0" delay_widget_hide="false" />
+						<widget class="role_duty_popup_button_mini" id="rodu" size="7" font="tadu" secondary_icon="icons/custom/misc/small down" alignment="top" disabled_colour="faded white">
+							<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
 						</widget>
-
 						<!--info (morale, rating, condition)-->
 						<container id="info" hidden="true">
-							<layout class="arrange_horizontal_attachment" layout="12,-1,20" offset="4" gap="2"/>
+							<layout class="arrange_horizontal_attachment" layout="12,-1,12,12" offset="4" gap="2"/>
 							<layout class="stick_to_sides_attachment" alignment="vertical" inset="1" apply_to_children="true"/>
-
-							<animation class="scale_animation" animation_id="extd" duration="0.15" trigger_id="hidden" trigger_value="false" start_value="1.0,0.0" end_value="1.0,1.0" centre_point="0.0, 1.0" delay_widget_hide="false" />
-
 							<!--morale-->
 							<widget class="morale_label" id="Mora"  width="12" height="12" colour="faded white" smpc="true" ShTx="false" scale_picture="true" />
-
 							<!--rating and position share a slot - show one or the other-->
 							<container>
 								<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
-
-								<widget class="dashed_number_label" id="avra" alignment="centre" size="small" colour="white" wants_mouse_events="false"/>
+								<widget class="dashed_number_label" id="avra" alignment="centre" font="tadu" size="8" colour="white" wants_mouse_events="false"/>
 								<widget class="position_label" id="Ppos" alignment="centre" colour="faded white" size="6.4" wants_mouse_events="false"/>
 							</container>
-
 							<!--condition-->
-							<widget class="player_condition_icon_widget" id="cond" >
-								<flags id="appearance" value="" />
-								<boolean id="label_disabled" value="true" />
+							<widget class="client_object_property_panel" property="PcOI" width="12" navigation_focus_target="false" id="PcOI" scale_picture="true">
+								<record id="object_property" get_property="objt" set_property="objt" />
+								<record id="widget_properties">
+									<boolean id="label_disabled" value="true" />
+									<boolean id="show_hover_popup" value="false" />
+									<integer id="width" value="12" />
+									<flags id="icon_alignment" value="centre"/>
+								</record>
+							</widget>
+							<widget class="client_object_property_panel" property="PftI" width="12" navigation_focus_target="false" id="PftI" scale_picture="true">
+								<record id="object_property" get_property="objt" set_property="objt" />
+								<record id="widget_properties">
+									<boolean id="label_disabled" value="true" />
+									<boolean id="show_hover_popup" value="false" />
+									<integer id="width" value="12" />
+									<flags id="icon_alignment" value="centre"/>
+								</record>
 							</widget>
 						</container>
-
 						<!--familiarity container-->
 						<container id="fmiL">
 							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 							<widget class="player_tactical_familiarity_bar" id="fmBR" auto_hidden="false">
-								<animation class="scale_animation" animation_id="extd" duration="0.15" trigger_id="hidden" trigger_value="false" start_value="1.0,0.0" end_value="1.0,1.0" centre_point="0.0, 0.0" delay_widget_hide="false" />
 							</widget>
-
 						</container>
-
 						<!--playing time container-->
 						<container id="play">
 							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 							<widget class="reserves_recommended_playing_time_popup" id="ptBR" select_event="eRSP" appearance="buttons/custom/tactics/role picker mini/button" red_replacement="black" alignment="centre">
-								<animation class="scale_animation" animation_id="extd" duration="0.15" trigger_id="hidden" trigger_value="false" start_value="1.0,0.0" end_value="1.0,1.0" centre_point="0.0, 0.0" />
 							</widget>
-
 						</container>
-
 					</container>
-
-
 				</container>
 			</container>
 
 			<container>
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
-
 				<container>
+				<layout class="arrange_horizontal_attachment" layout="20, -1" offset="0" gap="0"/>
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
-					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
-
+					<!--nation button -->
+					<widget class="nation_button" id="natF" alignment="centre" icon_alignment="centre" dspf="4">
+						<layout class="stick_to_sides_attachment" alignment="left" inset="3"/>
+						<record id="object_property">
+							<integer id="get_property" value="Pnat" />
+							<integer id="set_property" value="valu" />
+						</record>
+					</widget> 
 					<!--name-->
-					<widget class="player_picker_button" entity_layout_id="it02" id="plPB" file="widgets/player selection button tactics" editor_group_id="it10" navigation_focus_target="true">
+					<widget class="player_picker_button" entity_layout_id="it02" file="widgets/player selection button tactics" id="plPB" editor_group_id="it10" navigation_focus_target="true">
 						<string id="draggable" value="false"/>
 					</widget>
 				</container>
@@ -103,37 +104,98 @@
 		</container>
 	</container>
 
+	<!--kit-->
 	<container>
-		<layout class="arrange_vertical_attachment" layout="-1, 42" offset="0" gap="2"/>
+		<layout class="arrange_vertical_attachment" layout="-1, 35" offset="0" gap="0"/>
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="1" apply_to_children="true"/>
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
-
-		<widget class="tactics_kit_picture" id="kitp" keep_aspect_ratio="true" alignment="centre" scale_picture="true" number_inset_right="0" number_inset_top="0" number_height="50">
+		<widget class="tactics_kit_picture" id="kitp" keep_aspect_ratio="true" alignment="centre" scale_picture="true" number_inset_right="0" number_inset_top="0" number_height="55">
 		</widget>
-
 		<container class="spacer" id="kitS"/>
 	</container>
 
-	<container id="gpIN">
-		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
-
-		<widget class="picture" file="icons/custom/player instruction/player pitch" id="PInI" image_alignment="bottom,left" scale_picture="false">
-			<layout class="stick_to_sides_attachment" alignment="all" inset="0,0,45,0" />
-		</widget>
-	</container>
-	
+	<!--portrait-->
 	<container>
-		<layout class="stick_to_sides_attachment" alignment="all" inset="24" apply_to_children="true"/>
-
-		<!-- PLAYER PICTURE -->
-		<widget class="object_portrait_picture" id="pict" scale_picture="true" wants_mouse_events="false" >
-			<layout class="stick_to_sides_attachment" alignment="right" inset="-10" />
-			<layout class="stick_to_sides_attachment" alignment="bottom" inset="49" />
+	<layout class="arrange_vertical_attachment" layout="-1, 38" offset="0" gap="0"/>
+	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		<widget class="object_portrait_picture" id="prop" wants_mouse_events="false">
+			<boolean id="scale_picture" value="true" />
+			<boolean id="keep_aspect_ratio" value="true" />
+			<flags id="image_alignment" value="right,top" />
+			<attachment class="test_setting_attachment" get_setting="show_portraits" default_value="true" set_property="hidn">
+				<list id="value">
+					<boolean value="false" />
+				</list>
+			</attachment>
 			<record id="object_property">
-				<integer id="get_property" value="objt"/>
-				<integer id="set_property" value="objt"/>
+				<integer id="get_property" value="objt" />
+				<integer id="set_property" value="objt" />
 			</record>
 		</widget>
+		<container class="spacer" id="kizS"/>
+	</container>
+
+	<!--suitability pie-->
+	<container>
+		<layout class="arrange_vertical_attachment" layout="-1, 2" offset="0" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		<container>
+			<widget class="position_role_duty_suitability_pie" id="prdF" width="12" height="12" scale_picture="true">
+				<layout class="stick_to_sides_attachment" alignment="left" inset="3"/>
+				<layout class="stick_to_sides_attachment" alignment="bottom" inset="20"/>
+			</widget>
+		</container>
+		<container class="spacer" id="kizS"/>
+	</container>
+
+	<!--foot-->
+	<container>
+		<layout class="arrange_vertical_attachment" layout="-1, 2" offset="0" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		<container>
+			<widget class="value_based_picture" id="vbp1" width="16" height="16" scale_picture="true" transparency="1">
+				<layout class="stick_to_sides_attachment" alignment="left" inset="3"/>
+				<layout class="stick_to_sides_attachment" alignment="bottom" inset="38"/>
+					<list id="value_list">
+						<record min_value="1" max_value="4" file="icons/custom/opposition instructions/foot left" red_replacement="fg range1" />
+						<record min_value="5" max_value="8" file="icons/custom/opposition instructions/foot left" red_replacement="fg range5" />
+						<record min_value="9" max_value="11" file="icons/custom/opposition instructions/foot left" red_replacement="fg range8" />
+						<record min_value="12" max_value="14" file="icons/custom/opposition instructions/foot left" red_replacement="fg range12" />
+						<record min_value="15" max_value="17" file="icons/custom/opposition instructions/foot left" red_replacement="fg range15" />
+						<record min_value="18" max_value="20" file="icons/custom/opposition instructions/foot left" red_replacement="fg range20" />
+					</list>
+					<record id="object_property">
+						<integer id="get_property" value="Plft" />
+					</record>
+			</widget>
+		</container>
+		<container class="spacer" id="kizS"/>
+	</container>
+	<container>
+		<layout class="arrange_vertical_attachment" layout="-1, 2" offset="0" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		<container>
+			<widget class="value_based_picture" id="vbp3" width="16" height="16" scale_picture="true" transparency="1">
+				<layout class="stick_to_sides_attachment" alignment="left" inset="20"/>
+				<layout class="stick_to_sides_attachment" alignment="bottom" inset="38"/>
+					<list id="value_list">
+						<record min_value="1" max_value="4" file="icons/custom/opposition instructions/foot right" red_replacement="fg range1" />
+						<record min_value="5" max_value="8" file="icons/custom/opposition instructions/foot right" red_replacement="fg range5" />
+						<record min_value="9" max_value="11" file="icons/custom/opposition instructions/foot right" red_replacement="fg range8" />
+						<record min_value="12" max_value="14" file="icons/custom/opposition instructions/foot right" red_replacement="fg range12" />
+						<record min_value="15" max_value="17" file="icons/custom/opposition instructions/foot right" red_replacement="fg range15" />
+						<record min_value="18" max_value="20" file="icons/custom/opposition instructions/foot right" red_replacement="fg range20" />
+					</list>
+					<record id="object_property">
+						<integer id="get_property" value="Prft" />
+					</record>
+			</widget>
+		</container>
+		<container class="spacer" id="kizS"/>
 	</container>
 
 </panel>
