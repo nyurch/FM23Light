@@ -18,8 +18,8 @@
 	<colour id="position_icon_disabled_colour" name="bg blue" />
 
 	<!--colours for birdseye pitch icon-->
-	<colour id="birds_eye_position_icon_colour" name="bg darker" />
-	<colour id="birds_eye_position_icon_disabled_colour" name="bg" />
+	<colour id="birds_eye_position_icon_colour" name="card bg darker" />
+	<colour id="birds_eye_position_icon_disabled_colour" name="card bg lighter" />
 
 
 	<!--general props for birds eyev view pitch columns-->
