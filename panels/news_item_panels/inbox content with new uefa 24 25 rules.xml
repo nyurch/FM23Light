@@ -1,0 +1,79 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top, extend" vertical_offset="0" />
+
+	<string id="skin_style" value="subtle box" />
+
+	<widget class="inbox_body_text" id="bdtx" colour="inbox_text" />
+
+	<container class="bordered_box" appearance="boxes/custom/inbox attachment/personal/paper">
+		<attachment_group class="vertical_arrange_autosize" vertical_alignment="middle, extend" horizontal_inset="0" vertical_gap="10" />
+
+		<widget class="text" id="cmTT" font="title" size="12" colour="accent" auto_size="vertical"/>
+
+		<widget class="table" id="lfxT" layout="80, 50, 50, -1, 100" auto_size_rows="true" mode="stripe_rows" auto_size="vertical">
+			<list id="column_table_properties">
+				<record index="0">
+					<record id="widget_info">
+						<symbol id="class" value="date_cell" />
+					</record>
+					<record id="column_heading">
+						<translation id="text" translation_id="289998" type="use" value="Date[COMMENT:team screen; history section; heading for history table - date of event]" />
+					</record>
+				</record>
+				<record index="1">
+					<record id="widget_info">
+						<symbol id="class" value="text" />
+					</record>
+					<record id="column_heading">
+						<translation id="text" translation_id="316799" type="use" value="Time[COMMENT: date of a fixture]"/>
+					</record>
+				</record>
+				<record index="2">
+					<record id="widget_info">
+						<symbol id="class" value="text" />
+					</record>
+					<record id="column_heading">
+						<translation id="text" translation_id="317024" type="use" value="Venue[COMMENT: editor; type of competition stage]" />
+					</record>
+				</record>
+				<record index="3">
+					<record id="widget_info">
+						<symbol id="class" value="team_button" />
+					</record>
+					<record id="column_heading">
+						<translation id="text" translation_id="316801" type="use" value="Opposition[COMMENT: team that the current team is playing in a fixture]"/>
+					</record>
+				</record>
+				<record index="4">
+					<record id="widget_info">
+						<symbol id="class" value="club_reputation_stars_label" />
+					</record>
+					<record id="column_heading">
+						<translation id="text" translation_id="509709" type="use" value="Club Reputation[COMMENT: AREA: End of Season Review; SUB-AREA: Financial; FR-BN: ?; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title for end of season club reputation changes summary]" />
+					</record>
+				</record>
+			</list>
+
+			<list id="column_widget_properties">
+				<record index="0" alignment="left,centre_y" />
+				<record index="1" alignment="left,centre_y" />
+				<record index="2" alignment="left,centre_y" />
+				<record index="3" alignment="left,centre_y" />
+				<record index="4" alignment="left,centre_y" />
+			</list>
+
+		</widget>
+
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" horizontal_inset="0" />
+
+			<widget class="text" font="title" size="12" colour="accent" auto_size="vertical" value="Rules"/>
+			<widget class="spacer" height="5"/>
+			<widget class="simple_data_list" id="cmRL" set_property="text" gap="4" auto_size="vertical">
+				<record id="widget_properties" class="bulletpoint" />
+			</widget>
+		</container>
+
+	</container>
+
+</panel>
