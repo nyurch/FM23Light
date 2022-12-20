@@ -9,7 +9,7 @@
 		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/ucl cup draw"/>
 		<string id="comp_draw_background_image" value="backgrounds/uefa/ucl start screen"/>
 		<string id="comp_draw_use_uefa_layout" value="true"/>
-		<string id="comp_draw_dialog_image" value="backgrounds/default"/>
+		<string id="comp_draw_dialog_image" value="backgrounds/uefa/default"/>
 		<boolean id="comp_draw_use_trophy" value="false"/>
 		<boolean id="comp_draw_news_item_use_trophy" value="true"/>
 		<record id="comp_draw_group_title_props">
@@ -49,7 +49,7 @@
 		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/uel cup draw"/>
 		<string id="comp_draw_background_image" value="backgrounds/uefa/uel start screen"/>
 		<string id="comp_draw_use_uefa_layout" value="true"/>
-		<string id="comp_draw_dialog_image" value="backgrounds/default"/>
+		<string id="comp_draw_dialog_image" value="backgrounds/uefa/default"/>
 		<boolean id="comp_draw_use_trophy" value="false"/>
 		<boolean id="comp_draw_news_item_use_trophy" value="true"/>
 		<record id="comp_draw_group_title_props">
@@ -89,7 +89,7 @@
 		<string id="comp_draw_news_item_background_image" value="photos/dynamic/uefa/cup draw/uecl cup draw"/>
 		<string id="comp_draw_background_image" value="backgrounds/uefa/uecl start screen"/>
 		<string id="comp_draw_use_uefa_layout" value="true"/>
-		<string id="comp_draw_dialog_image" value="backgrounds/default"/>
+		<string id="comp_draw_dialog_image" value="backgrounds/uefa/default"/>
 		<boolean id="comp_draw_use_trophy" value="false"/>
 		<boolean id="comp_draw_news_item_use_trophy" value="true"/>
 		<record id="comp_draw_group_title_props">
