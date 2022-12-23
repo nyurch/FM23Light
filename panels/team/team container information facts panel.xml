@@ -1,0 +1,433 @@
+<panel>
+	<boolean id="should_force_refresh" value="true" />
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<container class="main_box" id="genr">
+		<translation id="title" translation_id="316678" type="use" value="Facts[COMMENT: top level menu title for team information screens]" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+		<!-- state saving information (all widgets inside this container inherit these state saving properties) -->
+		<boolean id="save_session_state" value="true" />
+		<boolean id="sdst" value="true" />
+
+
+
+		<!-- the contents of the following container should change depending on the option selected in the embedded popup button -->
+		<widget class="table" id="sftb" name="General Info"  navigation_container="true" default_focus="true">
+			<flags id="layout" value="-4, -6, -6" />
+			<record id="object_property">
+				<integer id="set_property" value="objt" />
+				<integer id="get_property" value="objt" />
+			</record>
+			<flags id="mode" value="fill_rows, stripe_rows,printable" />
+			<integer id="row_spacing" value="0" />
+			<boolean id="auto_size_rows" value="true" />
+			<boolean id="fixed_size_rows" value="false" />
+			<boolean id="save_session_state" value="true" />
+
+			<list id="headings">
+				<record alignment="left,centre_y">
+					<translation id="text" translation_id="284306" type="use" value="Fact[COMMENT: team information panel; column heading]" />
+				</record>
+				<record alignment="left,centre_y" />
+				<record alignment="left,centre_y" />
+			</list>
+
+			<!-- default properties adopted by every item in table -->
+			<record id="defp">
+				<flags id="algn" value="left,centre_y" />
+			</record>
+
+			<list id="column_widget_properties">
+				<record indx="1">
+					<colour id="colour" name="selection" />
+					<flags id="auto_size" value="vertical" />
+				</record>
+				<record indx="2">
+					<colour id="colour" name="selection" />
+					<flags id="auto_size" value="vertical" />
+				</record>
+			</list>
+
+			<!-- small inset from sides of table -->
+			<list id="column_table_properties">
+				<record indx="0">
+					<integer id="left" value="4" />
+					<boolean id="sort_disabled" value="true" />
+				</record>
+				<record indx="1">
+					<boolean id="sort_disabled" value="true" />
+					<integer id="left" value="4" />
+					<integer id="top" value="2" />
+					<integer id="bottom" value="2" />
+					<flags id="alignment" value="left,centre_y" />
+				</record>
+				<record indx="2">
+					<boolean id="sort_disabled" value="true" />
+					<integer id="left" value="4" />
+					<integer id="top" value="2" />
+					<integer id="bottom" value="2" />
+					<flags id="alignment" value="left,centre_y" />
+				</record>
+			</list>
+
+			<widget class="label" col="0" row="0">
+				<translation id="text" translation_id="284307" type="use" value="Youngest Player[COMMENT: heading; team_information_panel; the youngest player]" />
+			</widget>
+			<!-- team value -->
+			<widget class="team_container_fact_text" id="Tyop" property="ynpl" col="1" row="0" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="ynpl" />
+				</record>
+			</widget>
+			<!-- division value -->
+			<widget class="team_container_fact_text" id="Dyop" property="Ynpl" col="2" row="0" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Ynpl" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="1">
+				<translation id="text" translation_id="284308" type="use" value="Oldest Player[COMMENT: heading; team_information_panel; the oldest player]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tolp" property="olpl" col="1" row="1" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="olpl" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dolp" property="Olpl" col="2" row="1" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Olpl" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="2">
+				<translation id="text" translation_id="284309" type="use" value="Average Age[COMMENT: heading; team_information_panel; average age of squad]" />
+			</widget>
+			<widget class="team_container_fact_text" id="T_aa" property="Cvag" col="1" row="2" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Cvag" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="D_aa" property="Avag" col="2" row="2" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Avag" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="3">
+				<translation id="text" translation_id="284310" type="use" value="Shortest Player[COMMENT: heading; team_information_panel; the shortest player]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tshp" property="shpl" col="1" row="3" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="shpl" />
+				</record>
+
+			</widget>
+			<widget class="team_container_fact_text" id="Dshp" property="Shpl" col="2" row="3" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Shpl" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="4">
+				<translation id="text" translation_id="284311" type="use" value="Tallest Player[COMMENT: heading; team_information_panel; the tallest player]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Ttap" property="tlpl" col="1" row="4" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="tlpl" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dtap" property="Tlpl" col="2" row="4" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Tlpl" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="5">
+				<translation id="text" translation_id="284312" type="use" value="Average Height[COMMENT: heading; team_information_panel; average height]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tahe" property="avhe" col="1" row="5" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="avhe" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dahe" property="Avhe" col="2" row="5" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Avhe" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="6">
+				<translation id="text" translation_id="284313" type="use" value="Lightest Player[COMMENT: heading; team_information_panel; the lightest player]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tlip" property="ltwe" col="1" row="6" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="ltwe" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dlip" property="Ltwe" col="2" row="6" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Ltwe" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="7">
+				<translation id="text" translation_id="284314" type="use" value="Heaviest Player[COMMENT: heading; team_information_panel; the heaviest player]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Thep" property="hvwe" col="1" row="7" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="hvwe" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dhep" property="Hvwe" col="2" row="7" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Hvwe" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="8">
+				<translation id="text" translation_id="284315" type="use" value="Average Weight[COMMENT: heading; team_information_panel; average weight]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tavw" property="avwe" col="1" row="8" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="avwe" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Davw" property="Avwe" col="2" row="8" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Avwe" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="9">
+				<translation id="text" translation_id="284316" type="use" value="Top Earner[COMMENT: heading; team_information_panel; the top earner]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Ttoe" property="tpea" col="1" row="9" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="tpea" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dtoe" property="Tpea" col="2" row="9" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Tpea" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="10">
+				<translation id="text" translation_id="284317" type="use" value="Lowest Earner[COMMENT: heading; team_information_panel; the lowest earner]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tloe" property="lwea" col="1" row="10" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="lwea" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dloe" property="Lwea" col="2" row="10" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Lwea" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="11">
+				<translation id="text" translation_id="284318" type="use" value="Average Wage[COMMENT: heading; team_information_panel; average wage]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tawa" property="avwg" col="1" row="11" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="avwg" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dawa" property="Avwg" col="2" row="11" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Avwg" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="12">
+				<translation id="text" translation_id="284319" type="use" value="Highest Caps[COMMENT: heading; team_information_panel; highest caps]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Thca" property="hgcp" col="1" row="12" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="hgcp" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dhca" property="Hgcp" col="2" row="12" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Hgcp" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="13">
+				<translation id="text" translation_id="284320" type="use" value="Average Caps[COMMENT: heading; team_information_panel; average caps]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Taca" property="avcp" col="1" row="13" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="avcp" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Daca" property="Avcp" col="2" row="13" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Avcp" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="14">
+				<translation id="text" translation_id="284321" type="use" value="Domestic Player Bias[COMMENT: heading; team_information_panel; percentage of players who are native to a team or competition]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tdpb" property="dmpb" col="1" row="14" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="dmpb" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Ddpb" property="Dmpb" col="2" row="14" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Dmpb" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="15">
+				<translation id="text" translation_id="284322" type="use" value="Nationalities Represented[COMMENT: heading; team_information_panel; number of nationalities represented in a team or competition]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tndn" property="Tndn" col="1" row="15" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Tndn" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dndn" property="Dndn" col="2" row="15" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Dndn" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="16">
+				<translation id="text" translation_id="284323" type="use" value="Current Internationals[COMMENT: heading; team_information_panel; current internationals]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tcin" property="crin" col="1" row="16" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="crin" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="Dcin" property="Crin" col="2" row="16" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Crin" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="17">
+				<translation id="text" translation_id="284324" type="use" value="Current U23 Internationals[COMMENT: heading; team_information_panel; current under23 internationals]" />
+			</widget>
+			<widget class="team_container_fact_text" id="T23i" property="cu23" col="1" row="17" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="cu23" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="D23i" property="Cu23" col="2" row="17" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Cu23" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="18">
+				<translation id="text" translation_id="284325" type="use" value="Current U21 Internationals[COMMENT: heading; team_information_panel; current under21 internationals]" />
+			</widget>
+			<widget class="team_container_fact_text" id="T21i" property="cu21" col="1" row="18" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="cu21" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="D21i" property="Cu21" col="2" row="18" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Cu21" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="19">
+				<translation id="text" translation_id="284326" type="use" value="Current U20 Internationals[COMMENT: heading; team_information_panel; current under20 internationals]" />
+			</widget>
+			<widget class="team_container_fact_text" id="T20i" property="cu20" col="1" row="19" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="cu20" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="D20i" property="Cu20" col="2" row="19" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Cu20" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="20">
+				<translation id="text" translation_id="284327" type="use" value="Current U19 Internationals[COMMENT: heading; team_information_panel; current under19 internationals]" />
+			</widget>
+			<widget class="team_container_fact_text" id="T19i" property="cu19" col="1" row="20" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="cu19" />
+				</record>
+			</widget>
+			<widget class="team_container_fact_text" id="D19i" property="Cu19" col="2" row="20" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Cu19" />
+				</record>
+			</widget>
+
+			<widget class="label" col="0" row="21">
+				<translation id="text" translation_id="316679" type="use" value="Manager Tenure[COMMENT: heading; team_information_panel; average caps]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Tmgt" property="Tmat" col="1" row="21" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="Tmat" />
+				</record>
+			</widget>
+			<container col="2" row="21">
+				<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />
+				<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true" />
+
+				<widget class="text" colour="selection" auto_size="all">
+					<translation id="text" translation_id="376514" type="use" value="Longest: [COMMENT: Team - Report - Facts]" />
+				</widget>
+				<widget class="team_container_fact_text" id="Lmgt" property="Dmlt" spec="text" auto_size="vertical" colour="selection" multiline="true"/>
+			</container>
+			<container col="2" row="22">
+				<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />
+				<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true" />
+
+				<widget class="text" colour="selection" auto_size="all">
+					<translation id="text" translation_id="376421" type="use" value="Average: [COMMENT: Team - Report - Facts]" />
+				</widget>
+				<widget class="team_container_fact_text" id="Dmgt" property="Dmat" spec="text" auto_size="vertical" colour="selection" />
+			</container>
+
+			<widget class="label" col="0" row="23">
+				<translation id="text" translation_id="395292" type="use" value="Players Used (League)[COMMENT: heading; team_information_panel; number players used in league this season]" />
+			</widget>
+			<widget class="team_container_fact_text" id="Cplu" property="TPus" col="1" row="23" spec="text">
+				<record id="object_property">
+					<integer id="get_property" value="TPus" />
+				</record>
+			</widget>
+
+			<container col="2" row="23">
+				<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />
+				<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true" />
+
+				<widget class="text" colour="selection" auto_size="all">
+					<translation id="text" translation_id="395275" type="use" value="Most: [COMMENT: Team - Report - Facts, this label is followed by the highest statistical achiever]" />
+				</widget>
+				<widget class="team_container_fact_text" id="Dmpw" property="Dmpu" spec="text" auto_size="all" colour="selection" />
+			</container>
+
+			<container col="2" row="24">
+				<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />
+				<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true" />
+
+				<widget class="text" colour="selection" auto_size="all">
+					<translation id="text" translation_id="400478" type="use" value="Fewest: [COMMENT: Team - Report - Facts, this label is followed by the lowest statistical achiever]" />
+				</widget>
+				<widget class="team_container_fact_text" id="Dlpw" property="Dlpu" spec="text" auto_size="all" colour="selection" />
+			</container>
+		</widget>
+
+	</container>
+</panel>
