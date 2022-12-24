@@ -14,7 +14,7 @@
 			<global id="vertical_gap" name="ui.main_contrast_box_gap" />
 		</attachment_group>
 
-		<container class="main_transparent_box" navigation_container="false">
+		<container class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg" navigation_container="false" id="agnI">
 			<attachment_group class="vertical_arrange" vertical_alignment="top,extend"/>
 
 			<container class="client_object_viewer_xml_panel" id="agmi">
@@ -121,7 +121,7 @@
 				<global id="vertical_gap" name="ui.main_box_gap" />
 			</attachment_group>
 
-			<container class="main_transparent_box" id="plds" navigation_container="true">
+			<container class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg" id="plds" navigation_container="true">
 				<attachment class="hide_medium_horizontal" />
 				<string id="remove_if" value="ui.is_fmt_controller_skin" />
 				<list id="properties_to_forward">
@@ -136,7 +136,7 @@
 
 			</container>
 
-			<container id="incn" class="main_transparent_box">
+			<container id="incn" class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg">
 				<attachment_group class="vertical_arrange_autosize" vertical_alignment="top,extend" />
 
 				<container>
@@ -176,7 +176,7 @@
 
 			</container>
 
-			<container id="aprc" class="main_transparent_box">
+			<container id="aprc" class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg">
 				<attachment class="show_medium_vertical" id="smv1" disabled="true" />
 
 				<attachment class="test_global_attachment" mode="equal" get_property="CNsp" value="1" set_property="hidden" skip_if_false="true" />
@@ -219,7 +219,7 @@
 
 			</container>
 
-			<container id="tstb" class="main_transparent_box" navigation_container="true">
+			<container id="tstb" class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg" navigation_container="true">
 
 				<attachment_group class="vertical_arrange_autosize" />
 
@@ -228,7 +228,7 @@
 
 			</container>
 
-			<container id="tptc" class="main_transparent_box">
+			<container id="tptc" class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg">
 				<attachment class="test_screen_size_attachment" id="smv2">
 					<list id="properties">
 						<record>
@@ -305,7 +305,7 @@
 				<global id="vertical_gap" name="ui.main_contrast_box_gap" />
 			</attachment_group>
 
-			<container class="main_transparent_box">
+			<container class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg">
 				<attachment_group class="vertical_arrange_autosize" vertical_gap="0" />
 				<container height="55">
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="8" />
@@ -392,7 +392,7 @@
 
 			</container>
 
-			<container class="main_transparent_box" navigation_container="true">
+			<container class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg" navigation_container="true">
 				<string id="remove_if" value="ui.is_fmt_controller_skin" />
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="10" />
 
