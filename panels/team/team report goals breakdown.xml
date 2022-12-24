@@ -1,0 +1,29 @@
+<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<container class="main_box" id="main">
+
+		<attachment_group class="horizontal_arrange" horizontal_alignment="fill"/>
+
+		<widget class="pitch_with_tactics" height="200" id="pitc" vertical="true" icon_flags="dont_fade_icons, dont_use_player_instructions_menu" pitch_is_read_only="true" pitch_draw_grass="true" allow_y_score_adjustment_for_roles="false" pitch_override_icon_size="3" pitch_dont_draw_indicators="true" pitch_alignment="left" navigation_focus_target="false">
+			<integer id="line_width" value="1" />
+			<string id="pitch_line_colour" value="white" />
+		</widget>
+
+		<container>
+			<attachment_group class="vertical_arrange" vertical_alignment="top, extend" />
+
+			<widget class="text" font="title" auto_size="vertical" colour="text">
+				<translation id="text" translation_id="466539" type="use" value="Chances For/Against[COMMENT: tactics analysis panel, overall difference in chances between the user's team and the opposition team in chances created]" />
+				<translation id="hint" translation_id="466540" type="use" value="The overall difference between chances created in attack and chances conceded in defence while using this tactic.[COMMENT: tactics analysis panel, overall difference in chances between the user's team and the opposition team in chances created]" />
+			</widget>
+
+			<widget class="text" size="18" style="bold" id="ChDi" auto_size="vertical" />
+
+			<widget class="text" id="CCre" auto_size="vertical" />
+			<widget class="text" id="CCon" auto_size="vertical" />
+			<widget class="text" id="MinU" />
+		</container>
+
+	</container>
+</panel>
