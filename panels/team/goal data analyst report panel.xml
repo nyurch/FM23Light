@@ -23,11 +23,11 @@
 			<widget class="pitch_goals_areas" id="gpic" height="280" pitch_half_pitch="top"  vertical="true">
 				<integer id="pitch_touchline_width_percentage" value="20" />
 				<flags id="pitch_alignment" value="centre" />
-				<boolean id="pitch_draw_goals" value="false" />
+				<boolean id="pitch_draw_goals" value="true" />
 				<boolean id="show_goals_text" value="true" />
 				<boolean id="pitch_draw_markings" value="true" />
-				<boolean id="pitch_draw_grass" value="false" />
-				<string id="pitch_line_colour" value="text" />
+				<boolean id="pitch_draw_grass" value="true" />
+				<string id="pitch_line_colour" value="white" />
 			</widget>
 			<container>
 				<layout class="stick_to_sides_attachment" alignment="top, horizontal" apply_to_children="true" />
@@ -97,8 +97,8 @@
 				<boolean id="pitch_draw_goals" value="false" />
 				<boolean id="show_assist_text" value="true" />
 				<boolean id="pitch_draw_markings" value="true" />
-				<boolean id="pitch_draw_grass" value="false" />
-				<string id="pitch_line_colour" value="text" />
+				<boolean id="pitch_draw_grass" value="true" />
+				<string id="pitch_line_colour" value="white" />
 			</widget>
 
 			<container class="titled_box">
@@ -137,7 +137,7 @@
 			</container>
 
 
-			<widget class="pitch_squad_depth" id="piSD" vertical="true" pitch_draw_grass="false" select_event="slic" pitch_line_colour="faded white" pitch_keep_selected_icons="true" pitch_touchline_width_percentage="1" line_width="1.5" >
+			<widget class="pitch_squad_depth" id="piSD" vertical="true" pitch_draw_grass="true" select_event="slic" pitch_line_colour="white" pitch_keep_selected_icons="true" pitch_touchline_width_percentage="1" line_width="1.5" >
 				<boolean id="pitch_draw_goals" value="false"/>
 				<boolean id="pitch_draw_markings" value="true"/>
 			</widget>
