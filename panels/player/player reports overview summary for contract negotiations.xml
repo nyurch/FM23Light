@@ -1,0 +1,117 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize"/>
+
+	<container class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg">
+		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="-1,-1"/>
+
+		<container>
+			<attachment_group class="vertical_arrange_autosize"/>
+
+			<widget class="text" font="title" colour="faded text" auto_size="vertical">
+				<translation id="text" translation_id="335037" type="use" value="Estimated Cost[COMMENT: scout report panel label]" />
+			</widget>
+
+			<widget class="text" id="cosw" size="large" style="semi_bold" auto_size="vertical" multiline="false">
+
+			</widget>
+
+			<widget class="text" id="valw" auto_size="vertical">
+
+			</widget>
+
+		</container>
+
+		<container>
+			<attachment_group class="vertical_arrange_autosize"/>
+
+			<widget class="text" font="title" colour="faded text" auto_size="vertical">
+				<translation id="text" translation_id="450789" type="use" value="Estimated Wage[COMMENT: FR 21116, scout report panel label]" />
+			</widget>
+
+			<widget class="text" id="ewaw" size="large" style="semi_bold" auto_size="vertical" multiline="false">
+
+			</widget>
+
+			<widget class="text" id="wagw" auto_size="vertical">
+
+			</widget>
+
+		</container>
+		
+	</container>
+
+	
+	
+	<container class="bordered_box" appearance="boxes/custom/scouting/recommendation/paper" id="SMbx">
+		<attachment_group class="vertical_arrange_autosize"/>
+
+		
+		
+		<container height="25">
+			<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true" offset="0" />
+			<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="0" gap="4" />
+
+			<widget class="text" font="title" colour="fg" auto_size="vertical" alignment="left,centre_y">
+				<translation id="text" translation_id="361263" type="use" value="Recommendation[COMMENT: FR 8316]" />
+			</widget>
+
+			<widget class="text" id="knot" auto_size="all" size="11" style="semi_bold">
+			</widget>
+
+
+		</container>
+
+		<container>
+			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left,extend"/>
+			
+			<widget class="player_scout_recommendation_widget" width="60" height="60" show_knowledge_bar="false" >
+				<record id="object_property" get_property="Psrk" set_property="objt" />
+			</widget>
+
+			<widget class="text" id="recw" alignment="left,centre_y" multiline="true" auto_size="vertical"/>
+
+		</container>
+
+		<container class="bordered_box" appearance="boxes/inner/no margin/paper" height="35">
+			<layout class="arrange_horizontal_attachment" layout="-1,1,-1" offset="8" gap="8" />
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+			<container>
+				<layout class="arrange_horizontal_attachment" layout="-1,-1" offset="0" gap="0" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+				<widget class="text" colour="text" alignment="left,centre_y">
+					<translation id="text" translation_id="251893" type="use" value="Current Ability[COMMENT: scout report panel box heading]" />
+				</widget>
+
+				<widget class="scout_stars_label" id="cawi" alignment="right,centre_y" mode="1">
+
+				</widget>
+
+			</container>
+
+
+			<widget class="vertical_divider"/>
+
+
+			<container>
+				<layout class="arrange_horizontal_attachment" layout="-1,-1" offset="0" gap="0" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+				<widget class="text" colour="text" alignment="left,centre_y">
+					<translation id="text" translation_id="251894" type="use" value="Potential Ability[COMMENT: scout report panel box heading]" />
+				</widget>
+
+				<widget class="scout_stars_label" id="pawi" alignment="right,centre_y" mode="2">
+
+				</widget>
+
+			</container>
+
+		</container>
+
+
+
+	</container>
+
+</panel>
