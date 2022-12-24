@@ -426,7 +426,7 @@
 			<container>
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
 				
-				<widget class="pitch_with_squad_depth" id="birP" display_centre_side_positions="true" pitch_length_percentage="150" pitch_width_percentage="115" vertical="false" max_icon_width="0.18" max_icon_height="0.18" pitch_alignment="centre" pitch_draw_goals="true" pitch_draw_markings="true" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="false" pitch_line_colour="black" pitch_touchline_width_percentage="0" pitch_perspective="0.0" pitch_override_icon_size="2" line_width="1.4" pitch_vertical_padding="0" disable_animations="true">
+				<widget class="pitch_with_squad_depth" id="birP" display_centre_side_positions="true" pitch_length_percentage="150" pitch_width_percentage="115" vertical="false" max_icon_width="0.18" max_icon_height="0.18" pitch_alignment="centre" pitch_draw_goals="true" pitch_draw_markings="true" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="true" pitch_line_colour="white" pitch_touchline_width_percentage="0" pitch_perspective="0.0" pitch_override_icon_size="2" line_width="1.4" pitch_vertical_padding="0" disable_animations="true">
 					<string id="pitch_kit_icon" value="pitch/icons/dots"/>
 				</widget>
 			</container>
