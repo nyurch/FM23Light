@@ -66,16 +66,16 @@
 	<colour name="fg grey darker" 															value="grey 800" />
 
 	<!-- Background colours - used for background, boxes etc -->
-	<colour name="bg lighter" 																value="rgb(250,250,250)"/>
-	<colour name="bg" 																		value="rgb(240,240,240)"/>
-	<colour name="bg darker" 																value="rgb(220,220,220)"/>
-	<colour name="bg alpha" 																value="rgba(255,255,255,0.8)"/>
+	<colour name="bg lighter" 																value="rgb(247,250,251)"/>
+	<colour name="bg" 																		value="rgb(240,245,248)"/>
+	<colour name="bg darker" 																value="rgb(233,238,241)"/>
+	<colour name="bg alpha" 																value="rgba(244,250,253,0.8)"/>
 	<colour name="bg info" 																	value="rgb(39,103,192)"/>
 	<colour name="bg positive" 																value="rgb(16,165,68)"/>
 	<colour name="bg alert" 																value="rgb(223,126,0)"/>
 	<colour name="bg accent" 																value="rgb(20,141,154)"/>
-	<colour name="bg tertiary" 																value="rgb(255,255,255)"/>
-	<colour name="bg tertiary darker" 														value="rgb(183,170,194)"/>
+	<colour name="bg tertiary" 																value="rgb(235,240,243)"/><!--inbox panel, media card-->
+	<colour name="bg tertiary darker" 														value="rgb(225,230,233)"/>
 	<colour name="bg negative" 																value="rgb(182,40,40)"/>
 	<colour name="bg range1" 																value="rgb(255,84,84)" />
 	<colour name="bg range2" 																value="rgb(255,92,78)" />
@@ -143,7 +143,7 @@
 	<colour name="default accent" 							value="fg tertiary" />
 	<colour name="default dark accent" 						value="bg accent" />
 	<colour name="default primary" 							value="rgb(20,141,154)"/>
-	<colour name="default secondary" 						value="white" />
+	<colour name="default secondary" 						value="rgb(240,245,248)" />
 	<colour name="match accent" 							value="fg tertiary" />
 
 	<!-- Base text colours -->
@@ -165,8 +165,8 @@
 	<colour name="searchbox text" 							value="fg"/>
 	<colour name="continue text" 							value="bg" />
 	<colour name="continue text match" 						value="bg" />
-	<colour name="sidebar text" 							value="fg"/>
-	<colour name="sidebar" 									value="bg"/>
+	<colour name="sidebar text" 							value="white"/>
+	<colour name="sidebar" 									value="rgb(69,90,100)"/>
 	<colour name="news ticker" 								value="fg alert" />
 	<colour name="accent button text" 						value="fg" />
 
@@ -223,8 +223,8 @@
 	<colour name="match_box_background" 					value="bg"/>
 	<colour name="match_background" 						value="bg"/>
 	<colour name="subtle_box_background" 					value="rgb(250,250,250)"/>
-	<colour name="hint_background" 							value="rgb(0,128,128)"/>
-	<colour name="hint_border" 								value="rgb(0,128,128)"/>
+	<colour name="hint_background" 							value="rgb(20,141,154)"/>
+	<colour name="hint_border" 								value="rgb(20,141,154)"/>
 	<colour name="calendar_cell_border" 					value="fg"/>
 	<colour name="edit_box_background" 						value="fg"/>
 	<colour name="pitch_box_background" 					value="rgb(0,125,63)"/>
@@ -1882,13 +1882,13 @@
 	<!-- Squad Planner -->
 	<colour name="scouts_opinion"							value="rgb(3, 83, 148)" />
 	<colour name="from_development_squad"					value="fg teal" />
-	<colour name="projection_for_start_of_season" value="rgb(163, 7, 33)" />
+	<colour name="projection_for_start_of_season"			value="rgb(163, 7, 33)" />
 
 	<!--UEFA Champions League colours-->
 	<colour name="ucl core blue" 							value="rgb(0,0,75)" />
 	<colour name="ucl bright blue" 							value="rgb(5,40,190)" />
 	<colour name="ucl cyan" 								value="rgb(10,190,160)" />
-	<colour name="ucl magenta" 								value="rgb(171,0,171)" />
+	<colour name="ucl magenta" 								value="rgb(187, 38, 73)" />
 
 	<!--UEFA Europa & Europa Conference League colours-->
 	<colour name="uel orange" 								value="rgb(255,105,0)" />
@@ -1902,7 +1902,7 @@
 	<colour name="super cup darkest" 						value="rgb(1,2,3)" />
 
 	<!--EFL colours-->
-	<colour name="efl blue" 								value="rgb(6,22,132)" />
+	<colour name="efl blue" 								value="rgb(70,100,240)" />
 
 	<!--Bundesliga colours-->
 	<colour name="bundesliga red" 							value="rgb(209,5,20)" />
