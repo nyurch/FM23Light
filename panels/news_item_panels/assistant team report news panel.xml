@@ -1,47 +1,109 @@
 <panel>
 	<string id="skin_style" value="subtle box" />
-	<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="320,-1,-1" horizontal_alignment="fill" horizontal_offset="0" vertical_inset="0" />
+	<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="220,-1,-1" horizontal_alignment="fill" horizontal_offset="0" vertical_inset="0" />
 
-	<container class="inner_subtle_box" >
-		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="200,100" />
+	<!--Team-->
+	<container>
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" vertical_gap="10"/>
 		<!-- profile picture -->
-		<widget class="object_portrait_picture" id="prop" height="200">
-			<boolean id="scale_picture" value="true" />
-			<boolean id="keep_aspect_ratio" value="true" />
-			<flags id="image_alignment" value="centre" />
-			<attachment class="test_setting_attachment" get_setting="show_portraits" default_value="true" set_property="hidn">
-				<list id="value">
-					<boolean value="false" />
-				</list>
-			</attachment>
-			<record id="object_property">
-				<list id="get_properties">
-					<record>
-						<integer id="get_property" value="objt" />
-						<integer id="set_property" value="objt" />
-					</record>
-				</list>
-			</record>
-		</widget>
 		<container>
-			<attachment_group class="vertical_arrange_autosize_all" horizontal_inset="0" vertical_offset="12" vertical_gap="0" />
-			<record id="default_properties" auto_size="all" />
-			<widget class="club_button" id="ClNa" style="semi_bold" size="large" icon_enabled="false">
+		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
+			<!--logo-->
+			<widget class="object_portrait_picture" id="pict" height="200" scale_picture="true">
+				<boolean id="keep_aspect_ratio" value="true" />
+				<flags id="image_alignment" value="centre" />
+
 				<record id="object_property">
 					<integer id="get_property" value="objt" />
+					<integer id="set_property" value="objt" />
 				</record>
 			</widget>
-			<!-- Nationality -->
-			<widget class="nation_button" id="natp" colour="text">
+		</container>
+		<widget class="horizontal_divider" red_replacement="" height="1" />
+		<!-- division -->
+		<container>
+		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
+			<!--division logo-->
+			<widget class="object_portrait_picture" id="lepi" height="36">
+				<boolean id="scale_picture" value="true"/>
+				<boolean id="keep_aspect_ratio" value="true"/>
+				<flags id="image_alignment" value="centre"/>
 				<record id="object_property">
-					<integer id="get_property" value="Cnat" />
+					<integer id="get_property" value="Cdiv"/>
+					<integer id="set_property" value="objt" />
 				</record>
 			</widget>
-			<!-- Division -->
-			<widget class="comp_button" id="inst" colour="faded text" size="small" icon_enabled="false" comp_display_type="1">
+			<!--division name-->
+			<widget class="comp_button" id="comp" icon_enabled="false" comp_display_type="1" size="medium" alignment="centre">
 				<record id="object_property">
-					<integer id="get_property" value="Cdiv" />
-					<boolean id="dont_set_hint" value="true" />
+					<integer id="get_property" value="Cdiv"/>
+				</record>
+			</widget>
+		</container>
+		<!--country-->
+		<container>
+		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
+		<!--country logo-->
+			<widget class="object_portrait_picture" id="cnpi" height="26">
+				<boolean id="scale_picture" value="true"/>
+				<boolean id="keep_aspect_ratio" value="true"/>
+				<flags id="image_alignment" value="centre"/>
+
+				<record id="object_property">
+					<integer id="get_property" value="Cnat"/>
+					<integer id="set_property" value="objt" />
+				</record>
+			</widget>
+			<!--country name-->
+			<widget class="nation_button" id="nati" icon_enabled="false" size="large" alignment="centre" font="fonts/letterpressed">
+				<record id="object_property">
+					<integer id="get_property" value="Cnat"/>
+				</record>
+			</widget>
+		</container>
+		<!--professional status-->
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+			<widget class="label" id="proL" spec="text" size="small" alignment="centre_x,top" auto_size="vertical" font="label" colour="faded black">
+				<record id="object_property">
+					<integer id="get_property" value="Cprs" />
+					<boolean id="name" value="true"/>
+				</record>
+			</widget>
+			<widget class="professional_status_label" spec="text" style="bold" id="pros" size="13" alignment="centre_x,bottom" auto_size="vertical" font="value">
+				<record id="object_property">
+					<integer id="get_property" value="Cprs" />
+				</record>
+			</widget>
+		</container>
+		<!--finances-->
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+			<widget class="label" id="cfiL" spec="text" size="small" alignment="centre_x,top" auto_size="vertical" font="label" colour="faded black">
+				<record id="object_property">
+					<integer id="get_property" value="Csfs" />
+					<boolean id="name" value="true"/>
+				</record>
+			</widget>
+			<widget class="financial_status_label" spec="text" style="bold" id="Csfs" size="13" alignment="centre_x,bottom" auto_size="vertical" font="value">
+				<record id="object_property">
+					<integer id="get_property" value="Csfs" />
+				</record>
+			</widget>
+		</container>
+		<!--reputation-->
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+			<widget class="label" id="creL" spec="text" size="small" alignment="centre_x,top" auto_size="vertical" font="label" colour="faded black">
+				<record id="object_property">
+					<integer id="get_property" value="Crsc" />
+					<boolean id="name" value="true"/>
+				</record>
+			</widget>
+			<widget class="club_reputation_stars_label" id="crep" mode="1" alignment="centre" auto_size="all" navigation_focus_target="false">
+				<layout class="centre_in_parent_attachment" alignment="horizontal" />
+				<record id="object_property">
+					<integer id="get_property" value="Csta" />
 				</record>
 			</widget>
 		</container>
