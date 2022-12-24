@@ -3,12 +3,12 @@
 	<string id="skin_style" value="subtle box"/>
 
 	<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0"/>
-	<layout class="arrange_horizontal_attachment" layout="-1, -1"  offset="0"/>
+	<layout class="arrange_horizontal_attachment" layout="200, -1, 200"  offset="0"/>
 	<layout class="stick_to_sides_attachment" alignment="top"  apply_to_children="true" inset="0"/>
 
-	<container class="vertical_arrange_container"  background_colour="grey 100" id="infc" auto_size="vertical"  gap="1" inset="0" offset="0">
+	<container class="vertical_arrange_container" id="infc" auto_size="vertical"  gap="1" inset="0" offset="0">
 
-		<container class="inner_subtle_box" id="psdt" height="220">
+		<container class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg" id="psdt" height="220">
 			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 
@@ -35,9 +35,39 @@
 
 	</container>
 
+
+	<container class="vertical_arrange_container" auto_size="vertical"  gap="1" inset="0" offset="0">
+
+		<container class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg" id="psdt" height="220">
+			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0"/>
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
+
+		<widget class="player_additional_stats_panel" id="pcsp" file="player/player additional stats small">
+			<record id="object_property">
+				<list id="get_properties">
+					<record id="object_property" get_property="objt" set_property="objt"/>
+					<record id="object_property" get_property="Pila" set_property="hidn"/>
+				</list>
+			</record>
+		</widget>
+		<widget class="player_stats_panel" id="pssp" file="player/player stats small">
+			<record id="object_property">
+				<list id="get_properties">
+					<record id="object_property" get_property="Pila" set_property="Shwn"/>
+					<record id="object_property" get_property="objt" set_property="objt"/>
+				</list>
+			</record>
+		</widget>
+
+
+		</container>
+
+	</container>
+
+
 	<container class="vertical_arrange_container" id="infc" auto_size="vertical" gap="10" offset="0" inset="0">
 
-		<container class="inner_subtle_box" id="psdt" height="220">
+		<container class="main_subtle_box" appearance="boxes/main/subtle/paper" red_replacement="fg" id="psdt" height="220">
 			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 
