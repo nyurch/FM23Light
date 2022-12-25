@@ -46,7 +46,7 @@
 				<!--spacer-->
 				<container height="5" />
 				<!--comp-->
-				<widget class="fixture_name_text" id="FxNm" font="title" colour="accent" size="14" alignment="centre_x" auto_size="vertical">
+				<widget class="fixture_name_text" id="FxNm" font="title" colour="accent" size="12" alignment="centre" auto_size="all">
 					<record id="object_property">
 						<integer id="get_property" value="FxNm" />
 					</record>
@@ -60,6 +60,7 @@
 						<integer id="get_property" value="fxdt" />
 					</record>
 				</widget>
+				<widget class="horizontal_subtle_divider" />
 					<!--big badge display-->
 					<container height="90" id="resB">
 						<widget class="client_object_viewer_xml_panel" id="badg" file="team/team upcoming fixture badges no versus">
