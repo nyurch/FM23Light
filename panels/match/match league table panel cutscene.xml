@@ -53,11 +53,11 @@
 				<integer id="min_value" value="0" />
 				<integer id="max_value" value="601" />
 				<symbol id="set_property" value="height" />
-				<integer id="true_value" value="25" />
-				<integer id="false_value" value="25" />
+				<integer id="true_value" value="32" />
+				<integer id="false_value" value="32" />
 			</record>
-			<record min_value="601" max_value="720" true_value="28" />
-			<record min_value="720" max_value="10000" true_value="32" />
+			<record min_value="601" max_value="720" true_value="40" />
+			<record min_value="720" max_value="10000" true_value="45" />
 		</list>
 
 		<animation class="translate_animation" start_value="1, 0" end_value="0, 0" duration="1" delay="0" end_mode="hold_auto_reverse" tween="ease_in_out_4" coord_mode="relative_to_screen" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true" />
@@ -65,7 +65,7 @@
 
 		<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="middle" />
 
-		<widget class="picture" file="icons/custom/match/logos/si tv full" height="16" auto_size="horizontal" scale_picture="true" red_replacement="white">
+		<widget class="picture" file="icons/custom/match/logos/si tv full" height="30" auto_size="horizontal" scale_picture="true" red_replacement="white">
 			<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 		</widget>
 	</container>
