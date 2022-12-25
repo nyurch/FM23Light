@@ -214,14 +214,14 @@
 				</container>
 			</container>
 
-			<container class="contrast_box" appearance="boxes/custom/solid/paper" height="40" red_replacement="bg lighter">
+			<container class="contrast_box" appearance="boxes/custom/solid/paper" height="57" red_replacement="bg lighter">
 
 				<animation class="translate_animation" start_value="1, 0" end_value="0, 0" duration="1" delay="0" end_mode="hold_auto_reverse" tween="ease_in_out_4" coord_mode="relative_to_screen" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true" />
 				<animation class="fade_animation" start_value="0" end_value="1" duration="0.8" delay="0.2" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 
 				<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="middle" />
 
-				<widget class="picture" file="icons/custom/match/logos/si tv full" height="16" auto_size="horizontal" scale_picture="true" red_replacement="red">
+				<widget class="picture" file="icons/custom/match/logos/si tv full" height="48" auto_size="horizontal" scale_picture="true" red_replacement="red">
 					<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 				</widget>
 
@@ -424,14 +424,14 @@
 				</container>
 			</container>
 
-			<container class="contrast_box" appearance="boxes/custom/solid/paper" height="40" red_replacement="bg lighter">
+			<container class="contrast_box" appearance="boxes/custom/solid/paper" height="57" red_replacement="bg lighter">
 
 				<animation class="translate_animation" start_value="1, 0" end_value="0, 0" duration="1" delay="0" end_mode="hold_auto_reverse" tween="ease_in_out_4" coord_mode="relative_to_screen" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true" />
 				<animation class="fade_animation" start_value="0" end_value="1" duration="0.8" delay="0.2" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 
 				<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="middle" />
 
-				<widget class="picture" file="icons/custom/match/logos/si tv full" height="16" auto_size="horizontal" scale_picture="true" red_replacement="red">
+				<widget class="picture" file="icons/custom/match/logos/si tv full" height="48" auto_size="horizontal" scale_picture="true" red_replacement="red">
 					<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 				</widget>
 			</container>
