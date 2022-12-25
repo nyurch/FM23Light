@@ -1,0 +1,37 @@
+<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<container class="scrolling_box">
+		<!-- content area -->
+		<container id="ctbx">
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="270, -1" horizontal_gap="15"/>
+			<!-- comp performance and review -->
+			<container>
+					<attachment_group class="vertical_arrange_autosize" />
+				<!--dynamic image here please-->
+				<container id="ICdi" height="150">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+				</container>
+				<widget class="competition_stage_panel" id="lspn" file="team/team competitions overview competition stage panel" height="500"/>
+			</container>
+
+			<!-- media summary -->
+			<container>
+				<attachment_group class="vertical_arrange_autosize" />
+				<widget class="text" id="bdtx" alignment="left" size="large" auto_size="vertical" />
+				<container>
+					<attachment_group class="vertical_arrange_autosize" vertical_offset="10"/>
+						<widget class="label" id="hons" alignment="left" size="large" auto_size="vertical" font="title">
+						</widget>
+					<widget class="client_object_list_table" id="hoTB" database_table_type="25"  auto_size="vertical">
+						<flags id="mode" value="fill_rows, stripe_rows, hide_headings" />
+						<record id="viewed_property_ids">
+							<record id="cnam" />
+						</record>
+					</widget>
+				</container>
+			</container>
+		</container>
+	</container>
+
+</panel>
