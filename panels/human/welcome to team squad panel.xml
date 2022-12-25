@@ -36,7 +36,7 @@
 	<container class="main_transparent_box">
 		<translation id="title" translation_id="491942" type="use" value="Team Report - Best XI[COMMENT: AREA: Welcome to team; SUB-AREA: team report step; FR-BN: 22765; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string of the best eleven sub-panel of the team report step of the welcome pack, XI is 11 in roman numerals and is somewhat common to use in this way in English, replace it in your language if it's not]" />
 
-		<widget class="pitch_with_tactics" id="attp" allow_y_score_adjustment_for_roles="false" maximum_player_height="0.15" disable_link="true" icon_flags="show_name, show_number, show_captain, dont_show_tactical_info, dont_colour_number, drop_initial_if_possible, can_have_multiple_top_icons" player_icon_file="tactics/tactics icon welcome to team panel" vertical="true" pitch_is_read_only="true" pitch_alignment="centre, can_scale" pitch_draw_grass="false" pitch_line_colour="faded text" pitch_vertical_padding="0" pitch_horizontal_padding="0" pitch_touchline_width_percentage="50">
+		<widget class="pitch_with_tactics" id="attp" allow_y_score_adjustment_for_roles="false" maximum_player_height="0.15" disable_link="true" icon_flags="show_name, show_number, show_captain, dont_show_tactical_info, dont_colour_number, drop_initial_if_possible, can_have_multiple_top_icons" player_icon_file="tactics/tactics icon welcome to team panel" vertical="true" pitch_is_read_only="true" pitch_alignment="centre, can_scale" pitch_draw_grass="true" pitch_line_colour="white" pitch_vertical_padding="0" pitch_horizontal_padding="0" pitch_touchline_width_percentage="50">
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 		</widget>
 
