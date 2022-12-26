@@ -92,7 +92,7 @@
 						<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />
 						<layout class="arrange_horizontal_attachment" layout="-1,25,-1" offset="0"/>
 						<!--home scorers-->
-						<widget class="fixture_goalscorers_text" id="HMsc" team_index="0" auto_size="vertical" alignment="right, top" separate_lines="true" show_none_if_nothing_happened="false">
+						<widget class="fixture_goalscorers_text" id="HMsc" colour="black" team_index="0" auto_size="vertical" alignment="right, top" separate_lines="true" show_none_if_nothing_happened="false">
 							<record id="object_property">
 								<integer id="get_property" value="FxCG" />
 							</record>
@@ -100,7 +100,7 @@
 						<!--spacer-->
 						<container/>
 						<!--away scorers-->
-						<widget class="fixture_goalscorers_text" id="AWsc" team_index="1" auto_size="vertical" alignment="left, top" separate_lines="true" show_none_if_nothing_happened="false">
+						<widget class="fixture_goalscorers_text" id="AWsc" team_index="1" colour="black" auto_size="vertical" alignment="left, top" separate_lines="true" show_none_if_nothing_happened="false">
 							<record id="object_property">
 								<integer id="get_property" value="FxCG" />
 							</record>
