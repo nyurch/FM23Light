@@ -201,8 +201,8 @@
 	<colour name="primary_button" 							value="fg accent"/>
 	<colour name="primary_button_text" 						value="bg"/>
 	<colour name="view_button" 								value="fg"/>
-	<colour name="link_button" 								value="rgb(30,178,255)"/>
-	<colour name="link_button_inbox" 						value="blue 900"/>
+	<colour name="link_button" 								value="rgb(48,79,254)"/>
+	<colour name="link_button_inbox" 						value="rgb(48,79,254)"/>
 	<colour name="conversation_statement_button" 			value="fg"/>
 	<colour name="conversation_statement_selected_button" 	value="fg cyan"/>
 	<colour name="standard_label" 							value="bg info"/>
