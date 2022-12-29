@@ -1,0 +1,89 @@
+﻿<panel height="500" width="900">
+	<list id="draw_order">
+		<record entity_layout_id="at00" />
+		<record entity_layout_id="at02" />
+		<record entity_layout_id="at01" />
+		<record entity_layout_id="at03" />
+	</list>
+	<widget class="spacer" id="main">
+		<boolean id="exclude_from_find" value="true" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+	</widget>
+	<widget class="spacer" id="fmin" embed_in_frame="true">
+		<boolean id="exclude_from_find" value="true" />
+		<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+	</widget>
+	<container class="main_box" appearance="boxes/popup/standard/paper" entity_layout_id="at00" id="at00" sub_group_id="0" navigation_container="true" >
+		<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+		<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+		<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+		<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+		<widget class="spacer" id="main">
+			<boolean id="exclude_from_find" value="true" />
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		</widget>
+		<widget class="spacer" id="fmin" embed_in_frame="true">
+			<boolean id="exclude_from_find" value="true" />
+			<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+		</widget>
+		<widget class="icon_button" entity_layout_id="at02" id="adBU" name="add player button" height="40" controller_button="y_button" navigation_focus_target="true">
+			<string id="icon" value="icons/16px/plus" />
+			<string id="click_event" value="aPLS" />
+			<translation id="text" translation_id="395006" type="use" value="Add Player[COMMENT: FR 8517 button text for adding a specific player to a fantasy club]" />
+			<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" move_side="true" target="main" />
+			<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+			<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+		</widget>
+		<container entity_layout_id="at01" id="at01" sub_group_id="0" name="table container">
+			<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+			<layout class="stick_to_object_attachment" id="align_bottom" get_side="top" set_side="bottom" target="at02" />
+			<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+			<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+			<widget class="spacer" id="main">
+				<boolean id="exclude_from_find" value="true" />
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+			</widget>
+			<widget class="spacer" id="fmin" embed_in_frame="true">
+				<boolean id="exclude_from_find" value="true" />
+				<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
+			</widget>
+			<container class="client_object_list_table" entity_layout_id="at03" id="adpl" save_session_state="true" save_default_state="true" name="player table" navigation_focus_target="true">
+				<string id="customisation_context" value="play" />
+				<string id="select_event" value="desc" />
+				<integer id="database_table_type" value="1" />
+				<string id="mode" value="fill_rows, stripe_rows, printable, keyboard, select_rows, select_multiple, show_bullets, always_multi_select, highlight_on_scroll" />
+				<integer id="row_spacing" value="2" />
+				<integer id="row_height" value="28" />
+				<string id="contextual_handler_column_id" value="Pnms" />
+				<boolean id="should_force_refresh" value="true" />
+				<list id="default_sort_column" />
+				<string id="default_view" value="role" />
+				<list id="views">
+					<record id="role">
+						<translation id="name" translation_id="298050" type="use" value="Role" />
+						<record id="view">
+							<flags id="Pnfo"/>
+							<flags id="Pnat"/>
+							<flags id="Page"/>
+							<record id="Pnms" navigation_focus_target="false" />
+							<record id="player_position_combined" />
+							<record id="PSag" />
+							<record id="PPst" />
+							<record id="Pdet">
+								<record id="widget_info" class="attribute_label"  alignment="centre,can_scale" colour="white" size="11" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+							</record>
+							<record id="Pwkr">
+								<record id="widget_info" class="attribute_label"  alignment="centre,can_scale" colour="white" size="11" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+							</record>
+							<flags id="THic"/>
+						</record>
+					</record>
+				</list>
+				<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+				<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
+				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+			</container>
+		</container>
+	</container>
+</panel>
