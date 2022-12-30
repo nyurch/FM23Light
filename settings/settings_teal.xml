@@ -241,7 +241,7 @@
 	<colour name="standard_menu_shadow" 					value="shadow"/>
 	<colour name="menu_highlight" 							value="fg accent"/>
 	<!-- Used for _over appearances and separator -->
-	<colour name="menu selected" 							value="white"/> <!-- or black? -->
+	<colour name="menu selected" 							value="white"/>
 
 	<!-- Slider-->
 	<colour name="slider_body" 								value="fg"/>
