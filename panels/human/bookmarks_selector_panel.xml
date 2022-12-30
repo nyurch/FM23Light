@@ -1,0 +1,10 @@
+<panel>
+	<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
+
+	<container class="scrolling_box">
+		<container class="tree_menu" id="bkmk">
+			<layout class="fit_children_attachment" alignment="vertical,fill"/>
+		</container>
+	</container>
+
+</panel>
