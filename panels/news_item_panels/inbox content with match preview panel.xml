@@ -196,7 +196,7 @@
 						</record>
 					</widget>
 					<!---results-->
-					<widget class="competition_fixtures_panel" id="resp" file="competition/competition fixtures match preview">
+					<widget class="competition_fixtures_panel" id="resp" file="competition/competition fixtures match preview"  height="300">
 						<record id="object_property">
 							<integer id="get_property" value="objt" />
 							<integer id="set_property" value="objt" />
