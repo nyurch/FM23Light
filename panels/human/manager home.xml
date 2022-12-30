@@ -52,7 +52,7 @@
 			<container class="horizontal_adaptive_container" mode="distribute_equally" inset="0" offset="0" minimum_height="300" default_height="-1" priority="1" gap="16" draw_vertical_dividers="true">
 				<!-- BOTTOM LEFT -->
 				<container class="client_object_viewer_selector_panel" id="cos44" file="human/manager home selector panel"  minimum_width="300" default_width="-1" priority="1">
-					<integer id="default_for_club_teams" value="tsco"/>
+					<integer id="default_for_club_teams" value="Mpro"/>
 					<integer id="default_for_international_teams" value="comp"/>
 					<integer id="default_for_international_youth_teams" value="comp"/>
 					<integer id="default_for_pre_match" value="CTPP"/>
@@ -72,11 +72,11 @@
 			</container>
 		</container>
 
-		<!-- HORIZONTAL RIGHT -->
+		<!-- HORIZONTAL RIGHT 1 -->
 		<container class="vertical_adaptive_container" layout="-1, -1" inset="0" offset="0" minimum_width="300" default_width="-1" priority="1" gap="16" draw_horizontal_dividers="true">
 			<!-- RIGHT TOP -->
 			<container class="client_object_viewer_selector_panel" id="cos66" file="human/manager home selector panel"  minimum_width="300" default_width="-1" priority="1">
-				<integer id="default_for_club_teams" value="mngp"/>
+				<integer id="default_for_club_teams" value="tsco"/>
 				<integer id="default_for_international_teams" value="comp"/>
 				<integer id="default_for_international_youth_teams" value="comp"/>
 				<integer id="default_for_pre_match" value="CTPP"/>
@@ -88,6 +88,32 @@
 			<!-- RIGHT BOTTOM -->
 			<container class="client_object_viewer_selector_panel" id="cos77" file="human/manager home selector panel"  minimum_width="300" default_width="-1" priority="1">
 				<integer id="default_for_club_teams" value="sssn"/>
+				<integer id="default_for_international_teams" value="comp"/>
+				<integer id="default_for_international_youth_teams" value="comp"/>
+				<integer id="default_for_pre_match" value="CTPP"/>
+				<integer id="default_for_post_match" value="MedC"/>
+				<integer id="default_for_off_season" value="bcsn"/>
+				<integer id="default_for_pre_season" value="tsin"/>
+				<integer id="default_for_transfer_window" value="bcsn"/>
+			</container>
+		</container>
+
+		<!-- HORIZONTAL RIGHT 2 -->
+		<container class="vertical_adaptive_container" layout="-1, -1" inset="0" offset="0" minimum_width="300" default_width="-1" priority="1" gap="16" draw_horizontal_dividers="true">
+			<!-- RIGHT TOP -->
+			<container class="client_object_viewer_selector_panel" id="cos88" file="human/manager home selector panel"  minimum_width="300" default_width="-1" priority="1">
+				<integer id="default_for_club_teams" value="book"/>
+				<integer id="default_for_international_teams" value="book"/>
+				<integer id="default_for_international_youth_teams" value="book"/>
+				<integer id="default_for_pre_match" value="book"/>
+				<integer id="default_for_post_match" value="book"/>
+				<integer id="default_for_off_season" value="book"/>
+				<integer id="default_for_pre_season" value="book"/>
+				<integer id="default_for_transfer_window" value="book"/>
+			</container>
+			<!-- RIGHT BOTTOM -->
+			<container class="client_object_viewer_selector_panel" id="cos99" file="human/manager home selector panel"  minimum_width="300" default_width="-1" priority="1">
+				<integer id="default_for_club_teams" value="tsBr"/>
 				<integer id="default_for_international_teams" value="comp"/>
 				<integer id="default_for_international_youth_teams" value="comp"/>
 				<integer id="default_for_pre_match" value="CTPP"/>
