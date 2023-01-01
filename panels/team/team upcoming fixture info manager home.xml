@@ -7,7 +7,7 @@
 		<!-- Comp name, stadium details and weather-->
 		<container>
 
-			<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="140" />
+			<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="250" />
 
 			<container>
 				<attachment_group class="vertical_arrange_autosize" vertical_alignment="middle" vertical_offset="0" vertical_gap="3" horizontal_inset="0" />
