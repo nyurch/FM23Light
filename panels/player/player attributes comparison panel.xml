@@ -15,6 +15,7 @@
 			<!-- Attribute value -->
 			<record index="1" id="val " sort_disabled="true" column_alignment="centre" right="8">
 				<record id="widget_info" class="attribute_label" alignment="right,centre_y" style="semi_bold" multiline="false"/>
+                <record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
 			</record>
 			<!-- Attribute comparison as a bar -->
 			<record index="2" id="cbar" sort_disabled="true" left="2" right="2" top="2" bottom="2">
