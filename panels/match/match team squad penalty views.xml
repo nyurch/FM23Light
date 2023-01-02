@@ -1,0 +1,74 @@
+<panel>
+	<boolean id='include_starting_subs' value='false'/>
+	<boolean id="restrict_to_pitch_xi_if_in_shootout" value="true" />
+	
+	<!-- Starting XI Styles -->
+	<flags id="stxi" value="tables/standard/normal" />
+
+	<!-- Subs Styles -->
+	<flags id="subs" value="tables/custom/squad/row/substitutes/row" />
+
+	<!-- Sent off Styles -->
+	<flags id="soff" value="tables/custom/cards/red/row" />
+
+	<!-- Not in squad Styles -->
+	<flags id="nisq" value="tables/custom/squad/row/outside squad/row" />
+	
+	<list id="properties_to_forward">
+		<record get_property="tbSF" set_property="tbSF" target="pltb"/>
+	</list>
+	
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<!-- main area -->
+	<container class="main_transparent_box" id="TitL" force_title_borders="true">
+		<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="0" gap="10" />
+		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+		<container force_title_borders="true"  alignment="left">
+			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+			<container id="ptct">
+				<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="4" />
+
+				<widget class="tactic_player_list_table" id="pltb" database_table_type="1" mode="fill_rows, show_bullets, drag_rows" row_height="40" fixed_row_height="25">
+
+					<!-- default sort by pen taking -->
+					<list id="default_sort_column">
+						<integer value="Ppen" />
+					</list>
+
+					<record id="viewed_property_ids">
+						<!-- picked position info -->
+						<record id="Pshp" width="65">
+							<boolean id="disable_tactic_button_hint" value="true"/>
+						</record>
+						<!-- person name -->
+						<record id="PlSM">
+							<boolean id="add_person_index_to_widget" value="true"/>
+							<boolean id="ShPS" value="true"/>
+						</record>
+						<!-- body language -->
+						<record id="Pmtc" />
+						<!-- penalty taking -->
+						<record id="Pfin" width="40">
+					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="10" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				</record>
+						<!-- composure -->
+						<record id="Pcmp" width="40">
+					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="10" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				</record>
+						<!-- penalty taking -->
+						<record id="Ppen" width="40">
+					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="10" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				</record>
+					</record>
+
+				</widget>
+
+			</container>
+		</container>
+	</container>
+</panel>
