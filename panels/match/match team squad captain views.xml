@@ -73,8 +73,12 @@
                 <flags id="Pcar" /><!-- status info -->
                 <record id="Pnam" person_is_player="true" colour="black"/><!-- person name -->
                 <flags id="PSag" /><!-- age -->
-                <flags id="Pinf" /><!-- influence -->
-                <flags id="Ptwr" /><!-- (m) teamwork -->
+                <record id="Pinf">
+					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				</record><!-- influence -->
+                <record id="Ptwr">
+					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				</record><!-- (m) teamwork -->
               </record>
             </record>
 
