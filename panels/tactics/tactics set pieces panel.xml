@@ -305,7 +305,9 @@
 								<integer id="row_height" value="20" />
 								<list id="column_widget_properties">
 									<record indx="0" alignment="left,centre_y" spec="text" size="small" />
-									<record indx="1" alignment="right,centre_y" spec="text" size="small" style="semi_bold" />
+									<record indx="1" alignment="right,centre_y" spec="text" size="small" style="semi_bold">
+										<record id="widget_info" class="attribute_label" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+									</record>
 								</list>
 							</record>
 
