@@ -1,0 +1,39 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="-8, 0" vertical_gap="10" horizontal_alignment="horizontal" horizontal_inset="30" />
+
+	<widget id="mttl" class="label" auto_size="vertical" alignment="centre_x,centre_y" font="title" size="30" colour="fg accent">
+		<translation id="text" translation_id="541495" type="use" value="Get Rewarded[COMMENT: AREA: FMFC Dialog; SUB-AREA: splash screen panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Subtitle to give an idea of what the positives are of becoming an FMFC member]" />
+	</widget>
+
+	<widget class="label" auto_size="vertical" colour="white" alignment="centre_x,centre_y" multiline="true" size="11">
+		<translation id="text" translation_id="541496" type="use" value="Signing for FMFC is your first chance to get feature drops and game info before anybody else, as well as content more relevant to your game preferences plus member-only rewards and incentives.[COMMENT: AREA: FMFC Dialog; SUB-AREA: splash screen panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Description of some of the benefits of becoming an FMFC member, cannot feminise]" />
+	</widget>
+
+	<widget class="label" auto_size="vertical" colour="white" alignment="centre_x,centre_y" multiline="true" size="11">
+		<!-- <translation id="text" translation_id="541497" type="use" value="Sign up now for a chance to win an FMFC shirt every week until the end of the season.[COMMENT: AREA: FMFC Dialog; SUB-AREA: splash screen panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Description of the FMFC shirt giveaway]" /> -->
+		<translation id="text" translation_id="542450" type="use" value="Sign up now for access to Versus Mode available exclusively for FMFC members.[COMMENT: AREA: FMFC Dialog; SUB-AREA: splash screen panel; BN: 57705; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: FMFC benefit description]" />
+	</widget>
+
+	<!-- Buttons -->
+	<container id="btns">
+		<attachment_group class="vertical_arrange_autosize_horizontal_centre" vertical_offset="10" />
+
+		<widget class="primary_icon_button" click_event="shsu" auto_size="horizontal">
+			<translation id="text" translation_id="541498" type="use" value="Sign Up Now[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Button text go to the FMFC sign up page]" />
+		</widget>
+
+		<container height="30">
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" vertical_inset="10" horizontal_gap="10" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+
+			<widget class="label" auto_size="horizontal" colour="white" alignment="centre_x,centre_y" height="30">
+				<translation id="text" translation_id="541494" type="use" value="Already a member?[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign up panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label to suggest that a user may want to sign into an existing account instead creating a new one]" />
+			</widget>
+
+			<widget class="button" click_event="shsi" colour="white" auto_size="all" appearance="buttons/subtle/normal/button">
+				<translation id="text" translation_id="541479" type="use" value="Sign in now[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Button text go to the FMFC sign in page]" />
+			</widget>
+		</container>
+
+	</container>
+</panel>
