@@ -1,0 +1,64 @@
+<panel>
+
+	<string id="skin_style" value="subtle box"/>
+
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+	<!-- rules -->
+	<container class="inner_box" id="titl">
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+		<!--rules and current status-->
+		<container>
+			<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0"/>
+			<layout class="arrange_horizontal_attachment" alignment="fill" offset="10" gap="10"/>
+			<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" inset="0"/>
+
+			<!--rules-->
+			<widget class="inbox_body_text" id="ruls" size="normal"/>
+
+			<!--current status-->
+			<container class="inner_subtle_box">
+				<translation id="text" translation_id="298528" type="use" value="First Team Squad[COMMENT: backroom advice, button link]" />
+
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+				<container class="table" id="rlcm" layout="34,-1,60" row_height="28" fixed_size_rows="true" auto_size="vertical">
+					<list id="column_widget_properties">
+						<record index="0" alignment="centre"/>
+						<record index="1" alignment="left,centre_y"/>
+						<record index="2" alignment="right,centre_y" style="semi_bold" colour="black"/>
+					</list>
+
+				</container>
+
+			</container>
+		</container>
+
+		<!--list of home grown players
+        <widget class="link_button" id="hgpl" alignment="right,centre_y" auto_size="all">
+          <translation id="text" type="new" value="Home Grown Players[COMMENT: FR13749 - title for a panel showing a list of home grown players]" />
+          <layout class="stick_to_sides_attachment" alignment="right" />
+        </widget>-->
+
+		<widget class="client_object_list_table" id="pltb" database_table_type="1" mode="fill_rows, stripe_rows, printable, keyboard, dont_ask_for_focus" row_height="28" auto_size="vertical">
+			<!--available views-->
+			<record id="viewed_property_ids">
+				<record id="PnfS" />
+				<!-- player status/info -->
+				<record id="Pnms" />
+				<!-- person name -->
+				<record id="PSag" auto_hide_priority="3" />
+				<!-- person age -->
+				<record id="Pnat" auto_hide_priority="1" />
+				<!-- person nationality -->
+				<record id="Phgs" auto_hide_priority="2" />
+				<!-- home grown status -->
+				<record id="Phdd" auto_hide_priority="4" />
+				<!-- home grown due date-->
+			</record>
+		</widget>
+	</container>
+
+
+</panel>
