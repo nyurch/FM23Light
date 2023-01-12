@@ -1676,7 +1676,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -1704,7 +1704,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230003" type="use" value="Physical" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -1863,7 +1863,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -1891,7 +1891,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230003" type="use" value="Physical" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -1919,7 +1919,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -2669,7 +2669,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230003" type="use" value="Physical" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -2697,7 +2697,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -5528,7 +5528,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -5556,7 +5556,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -5907,7 +5907,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -5935,7 +5935,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6323,7 +6323,7 @@
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="700" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6351,7 +6351,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6379,7 +6379,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6562,7 +6562,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6591,7 +6591,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="550" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6620,7 +6620,7 @@
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="550" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6698,7 +6698,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6727,7 +6727,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="750" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6884,7 +6884,7 @@
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="700" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6912,7 +6912,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230003" type="use" value="Physical" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6941,7 +6941,7 @@
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="450" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6970,7 +6970,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="600" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -6998,7 +6998,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11434,7 +11434,7 @@
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="450" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11462,7 +11462,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11491,7 +11491,7 @@
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="700" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11520,7 +11520,7 @@
 			<translation id="subcategory" translation_id="230003" type="use" value="Physical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="900" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11549,7 +11549,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="800" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11578,7 +11578,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="550" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11606,7 +11606,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11633,7 +11633,7 @@
 			<flags id="customisation_context" value="play" />
 			<translation id="category" translation_id="348857" type="use" value="Hidden[COMMENT: steam workshop publishing panel; user can set the level of publicity for their steam workshop content]" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11660,7 +11660,7 @@
 			<flags id="customisation_context" value="play" />
 			<translation id="category" translation_id="348857" type="use" value="Hidden[COMMENT: steam workshop publishing panel; user can set the level of publicity for their steam workshop content]" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11687,7 +11687,7 @@
 			<flags id="customisation_context" value="play" />
 			<translation id="category" translation_id="348857" type="use" value="Hidden[COMMENT: steam workshop publishing panel; user can set the level of publicity for their steam workshop content]" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11714,7 +11714,7 @@
 			<flags id="customisation_context" value="play" />
 			<translation id="category" translation_id="348857" type="use" value="Hidden[COMMENT: steam workshop publishing panel; user can set the level of publicity for their steam workshop content]" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11741,7 +11741,7 @@
 			<flags id="customisation_context" value="play" />
 			<translation id="category" translation_id="348857" type="use" value="Hidden[COMMENT: steam workshop publishing panel; user can set the level of publicity for their steam workshop content]" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11878,7 +11878,7 @@
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="600" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11907,7 +11907,7 @@
 			<translation id="subcategory" translation_id="230003" type="use" value="Physical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="350" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11936,7 +11936,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="600" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -11965,7 +11965,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="800" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -12130,7 +12130,7 @@
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="350" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -12159,7 +12159,7 @@
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="450" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -12188,7 +12188,7 @@
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="500" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -12217,7 +12217,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="700" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -12246,7 +12246,7 @@
 			<translation id="subcategory" translation_id="230003" type="use" value="Physical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="400" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -13696,7 +13696,7 @@
 			<translation id="subcategory" translation_id="230003" type="use" value="Physical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="400" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -13725,7 +13725,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="400" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -13754,7 +13754,7 @@
 			<translation id="subcategory" translation_id="229413" type="use" value="Technical" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="800" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -13783,7 +13783,7 @@
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="500" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -13812,7 +13812,7 @@
 			<translation id="subcategory" translation_id="230024" type="use" value="Goalkeeping" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="500" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -13841,7 +13841,7 @@
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="750" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -13870,7 +13870,7 @@
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="900" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14631,7 +14631,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14659,7 +14659,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14687,7 +14687,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14715,7 +14715,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14743,7 +14743,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14771,7 +14771,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14799,7 +14799,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14827,7 +14827,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14855,7 +14855,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14883,7 +14883,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14911,7 +14911,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14939,7 +14939,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14967,7 +14967,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230043" type="use" value="Coaching" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -14995,7 +14995,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15023,7 +15023,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15130,7 +15130,7 @@
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
 			<integer id="auto_hide_priority" value="700" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15158,7 +15158,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15186,7 +15186,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15213,7 +15213,7 @@
 			<translation id="name" translation_id="247535" type="use" value="Judge A[comment - Judging Player Ability]" />
 			<flags id="customisation_context" value="none" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15237,7 +15237,7 @@
 			<translation id="name" translation_id="247536" type="use" value="Judge P[comment - Judging Player Potential]" />
 			<flags id="customisation_context" value="none" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15262,7 +15262,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15290,7 +15290,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15318,7 +15318,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15345,7 +15345,7 @@
 			<flags id="customisation_context" value="none" />
 			<translation id="category" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15364,7 +15364,7 @@
 			<flags id="customisation_context" value="none" />
 			<translation id="category" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15421,7 +15421,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -15449,7 +15449,7 @@
 			<translation id="category" translation_id="229822" type="use" value="Attributes" />
 			<translation id="subcategory" translation_id="230106" type="use" value="Mental" />
 			<boolean id="sort_ascending" value="false" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -16553,7 +16553,7 @@
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
 			</record>
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -16579,7 +16579,7 @@
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
 			</record>
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -16605,7 +16605,7 @@
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
 			</record>
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -16631,7 +16631,7 @@
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
 			</record>
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -16657,7 +16657,7 @@
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
 			</record>
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -16683,7 +16683,7 @@
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
 			</record>
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -16709,7 +16709,7 @@
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
 			</record>
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -16735,10 +16735,10 @@
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
 			</record>
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="widget_edit_info">
@@ -20785,7 +20785,7 @@
 			<translation id="name" translation_id="346733" type="use" value="Likelihood of Touting Players[COMMENT: the willingness for an agent to tout his players' services]" />
 			<flags id="customisation_context" value="none" />
 			<translation id="category" translation_id="447540" type="use" value="Agents[COMMENT: filter option to show only agents in a list of people it is possible to have relationships with]" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="column_widget_properties">
@@ -20808,7 +20808,7 @@
 			<translation id="name" translation_id="346562" type="use" value="Agent Fee Demand[COMMENT: how likely the agent is to put his fee up]" />
 			<flags id="customisation_context" value="none" />
 			<translation id="category" translation_id="447540" type="use" value="Agents[COMMENT: filter option to show only agents in a list of people it is possible to have relationships with]" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="column_widget_properties">
@@ -20831,7 +20831,7 @@
 			<translation id="name" translation_id="308644" type="use" value="Patience[COMMENT: his patience in negotiation]" />
 			<flags id="customisation_context" value="none" />
 			<translation id="category" translation_id="447540" type="use" value="Agents[COMMENT: filter option to show only agents in a list of people it is possible to have relationships with]" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="column_widget_properties">
@@ -20854,7 +20854,7 @@
 			<translation id="name" translation_id="447688" type="use" value="Size of Agency[COMMENT: bug 162123, agent's size of agency]" />
 			<flags id="customisation_context" value="none" />
 			<translation id="category" translation_id="447540" type="use" value="Agents[COMMENT: filter option to show only agents in a list of people it is possible to have relationships with]" />
-			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
+			<record id="widget_info" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper">
 				<symbol id="class" value="attribute_label" />
 			</record>
 			<record id="column_widget_properties">
