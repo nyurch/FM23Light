@@ -18,6 +18,9 @@
 				<record id="label_font" colour="faded black"/>
 			</record>
 			<record id="instant_hint" format="[%string#1]"/>
+			<record id="default_series_properties" colour="black" type="line">
+				<record id="point_outline_style" line_width="1"/>
+			</record>
 		</widget>
 	</container>
 
