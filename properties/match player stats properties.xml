@@ -1,5 +1,4 @@
-﻿<!-- added colour to picked colour -->
-<record>
+﻿<record>
 	<list id="column_table_properties">
 
 		<!-- shirt position -->
@@ -76,7 +75,6 @@
 		<!-- Match Body Language Comment -->
 		<record>
 			<integer id="id" value="Pmtc" />
-			<flags id="mode" value="invalid_for_fmc" />
 			<integer id="width" value="-1" />
 			<integer id="minimum_width" value="150" />
 			<translation id="name" translation_id="331837" type="use" value="Body Language[COMMENT - what kind of mood the player appears to be in, formerly titled 'motivation']" />
@@ -379,6 +377,28 @@
 			</record>
 		</record>
 
+		<!-- Clearances -->
+		<record>
+			<integer id="id" value="MPCl" />
+			<integer id="width" value="20" />
+			<flags id="customisation_context" value="none" />
+			<translation id="text" translation_id="539021" type="use" value="Clearances[COMMENT: AREA: Player Stats; BN: 38379; TONE: Informal; NOTE; Clearances Stat]" />
+			<record id="widget_info">
+				<symbol id="class" value="dashed_number_label" />
+			</record>
+
+			<record id="column_widget_properties">
+				<flags id="alignment" value="centre" />
+			</record>
+
+			<record id="column_heading">
+				<flags id="alignment" value="centre" />
+				<translation id="super_heading" translation_id="227902" type="use" value="Tackling" />
+				<translation id="hint" translation_id="539021" type="use" value="Clearances[COMMENT: AREA: Player Stats; BN: 38379; TONE: Informal; NOTE; Clearances Stat]" />
+				<translation id="text" translation_id="539022" type="use" value="Clear[COMMENT: AREA: Player Stats; BN: 38379; TONE: Informal; NOTE; Clearances Stat]" />
+			</record>
+		</record>
+		
 		<!-- Interceptions -->
 		<record>
 			<integer id="id" value="MPic" />
@@ -501,8 +521,8 @@
 
 			<record id="column_heading">
 				<flags id="alignment" value="centre" />
-				<translation id="text" translation_id="227854" type="use" value="Drb[COMMENT dribbles made per game]" />
-				<translation id="hint" translation_id="249449" type="use" value="Dribbles made" />
+				<translation id="text" translation_id="542443" type="use" value="Drb[COMMENT: AREA: Match Player Stats; SUB-AREA: Properties; FR-BN: BN 53664; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: short chars label for dribbles per 90 mins]" />
+				<translation id="hint" translation_id="542444" type="use" value="Dribbles[COMMENT: AREA: Match Player Stats; SUB-AREA: Properties; FR-BN: BN 53664; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: dribbles made (per 90 mins) hint]" />
 			</record>
 		</record>
 
@@ -785,8 +805,73 @@
 				<translation id="text" translation_id="514224" type="use" value="xG[COMMENT: AREA: Team Stat; SUB-AREA: Expected goals stats FR: 32708; TONE: Formal; CHARLIMIT: None NOTE: expected goals short string]" />
 				<translation id="hint" translation_id="515112" type="use" value="Expected Goals[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
 			</record>
-		</record>
+		</record>	
 		
+		<!-- xA -->
+		<record>
+			<integer id="id" value="MPXa" />
+			<integer id="width" value="35" />
+			<flags id="customisation_context" value="none" />
+			<translation id="name" translation_id="552426" type="use" value="xA[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: 19995; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
+			<record id="widget_info">
+				<symbol id="class" value="formatted_label" />
+				<string id="format" value="[%fraction#1-2.1]" />
+			</record>
+
+			<record id="column_widget_properties">
+				<flags id="alignment" value="centre" />
+			</record>
+
+			<record id="column_heading">
+				<flags id="alignment" value="centre" />
+				<translation id="text" translation_id="552426" type="use" value="xA[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: 19995; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
+				<translation id="hint" translation_id="513484" type="use" value="Expected Assists[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: 19995; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
+			</record>
+		</record>			
+		<!-- Progressive Passes -->
+		<record>
+			<integer id="id" value="MPpp" />
+			<integer id="width" value="26" />
+			<flags id="customisation_context" value="none" />
+			<translation id="name" translation_id="554489" type="use" value="Pr Passes[COMMENT:AREA: Competition Stats; SUB - AREA: Player Overview; FR - BN: 19995; TONE: Formal; CHARLIMIT: None; REF - ID: n / a; NOTE: Short stat description - Progressive Passes ]" />
+			<record id="widget_info">
+			<symbol id="class" value="dashed_number_label" />
+			</record>
+
+			<record id="column_widget_properties">
+				<flags id="alignment" value="centre" />
+			</record>
+
+			<record id="column_heading">
+				<flags id="alignment" value="centre" />
+				<translation id="super_heading" translation_id="227881" type="use" value="Passing" />
+				<translation id="text" translation_id="554489" type="use" value="Pr Passes[COMMENT:AREA: Competition Stats; SUB - AREA: Player Overview; FR - BN: 19995; TONE: Formal; CHARLIMIT: None; REF - ID: n / a; NOTE: Short stat description - Progressive Passes ]" />
+				<translation id="hint" translation_id="554490" type="use" value="Progressive Passes[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: 19995; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
+			</record>
+		</record>		
+		
+		<!-- Pressures Completed-->
+		<record>
+			<integer id="id" value="MPPC" />
+			<integer id="width" value="26" />
+			<flags id="customisation_context" value="none" />
+			<translation id="name" translation_id="554495" type="use" value="Pres C[COMMENT:AREA: Competition Stats; SUB - AREA: Player Overview; FR - BN: 19995; TONE: Formal; CHARLIMIT: None; REF - ID: n / a; NOTE: Short stat description - Pressures Completed ]" />
+			<record id="widget_info">
+			<symbol id="class" value="dashed_number_label" />
+			</record>
+
+			<record id="column_widget_properties">
+				<flags id="alignment" value="centre" />
+			</record>
+
+			<record id="column_heading">
+				<flags id="alignment" value="centre" />
+				<translation id="super_heading" translation_id="338005" type="use" value="Misc[COMMENT: club screen - title for a miscellaneous activities submenu]" />
+				<translation id="name" translation_id="554495" type="use" value="Pres C[COMMENT:AREA: Competition Stats; SUB - AREA: Player Overview; FR - BN: 19995; TONE: Formal; CHARLIMIT: None; REF - ID: n / a; NOTE: Short stat description - Pressures Completed ]" />
+				<translation id="hint" translation_id="554496" type="use" value="Pressures Completed[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: 19995; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
+			</record>
+		</record>
+
 		<!-- Goals -->
 		<record>
 			<integer id="id" value="MPgl" />
@@ -910,7 +995,7 @@
 			<record id="column_heading">
 				<flags id="alignment" value="centre" />
 				<translation id="super_heading" translation_id="338005" type="use" value="Misc[COMMENT: club screen - title for a miscellaneous activities submenu]" />
-				<translation id="text" translation_id="227854" type="use" value="Drb[COMMENT dribbles made per game]" />
+				<translation id="text" translation_id="542443" type="use" value="Drb[COMMENT: AREA: Match Player Stats; SUB-AREA: Properties; FR-BN: BN 53664; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: short chars label for dribbles per 90 mins]" />
 				<translation id="hint" translation_id="249422" type="use" value="Dribbles[COMMENT: player stat: dribbles (per game) table label]" />
 			</record>
 		</record>
