@@ -236,6 +236,107 @@
 			</record>
 		</record>
 
+		<!-- Nationality info -->
+		<record>
+			<integer id="id" value="ntin" />
+			<integer id="width" value="130" />
+			<integer id="minimum_width" value="60" />
+			<translation id="name" translation_id="510208" type="use" value="Nationality Info[COMMENT: AREA: Editor; SUB-AREA: information on a nationality for a player; FR: 30062 n/a; TONE: Formal; CHARLIMIT: None]" />
+
+			<record id="widget_edit_info">
+				<symbol id="class" value="popup_button" />
+				<record id="popup_updated_event" event_id="CDBd" event_flags="2" />
+				<list id="items">
+					<record id="0">
+						<translation id="text" translation_id="510209" type="use" value="No info[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of nationality relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="85">
+						<translation id="text" translation_id="510210" type="use" value="Born In Nation[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of nationality relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="84">
+						<translation id="text" translation_id="510211" type="use" value="Relative Born In Nation[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of nationality relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="80">
+						<translation id="text" translation_id="510212" type="use" value="Eligible For Nation[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of nationality relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="86">
+						<translation id="text" translation_id="510213" type="use" value="Not Eligible For Nation[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of nationality relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="81">
+						<translation id="text" translation_id="510214" type="use" value="Has Played For Nation[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="87">
+						<translation id="text" translation_id="510215" type="use" value="Gained Citizenship Through Relative[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="88">
+						<translation id="text" translation_id="510216" type="use" value="Gained Citizenship But Not Eligible For Nation Yet[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="82">
+						<translation id="text" translation_id="510217" type="use" value="Gained Citizenship But Treated As Foreign[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="89">
+						<translation id="text" translation_id="516062" type="use" value="Gained Citizenship And Declared For Nation[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+					<record id="90">
+						<translation id="text" translation_id="516706" type="use" value="Gained Citizenship Through Relative But Not Eligible For Nation Yet[COMMENT: AREA: Editor; SUB-AREA: Person nationality list, type of relationship; FR: 30062; TONE: Formal;]" />
+					</record>
+				</list>
+			</record>
+
+			<record id="column_heading">
+				<flags id="alignment" value="left,centre_y" />
+				<translation id="text" translation_id="510208" type="use" value="Nationality Info[COMMENT: AREA: Editor; SUB-AREA: information on a nationality for a player; FR: 30062 n/a; TONE: Formal; CHARLIMIT: None]" />
+			</record>
+		</record>
+
+		<!-- Caps -->
+		<record>
+			<integer id="id" value="caps" />
+			<integer id="width" value="50" />
+			<translation id="name" translation_id="227819" type="use" value="Caps" />
+			
+			<record id="widget_info">
+				<symbol id="class" value="number_label" />
+				<flags id="alignment" value="left,centre_y" />
+			</record>
+
+			<record id="widget_edit_info">
+				<symbol id="class" value="number_edit_box" />
+				<record id="edit_event" event_id="CDBd" event_flags="2" />
+				<integer id="min_value" value="1" />
+				<integer id="max_value" value="200" />
+			</record>
+
+			<record id="column_heading">
+				<flags id="alignment" value="left,centre_y" />
+				<translation id="text" translation_id="227819" type="use" value="Caps" />
+			</record>
+		</record>
+
+		<!-- Goals -->
+		<record>
+			<integer id="id" value="goal" />
+			<integer id="width" value="50" />
+			<translation id="name" translation_id="227857" type="use" value="Goals" />
+
+			<record id="widget_info">
+				<symbol id="class" value="number_label" />
+				<flags id="alignment" value="left,centre_y" />
+			</record>
+
+			<record id="widget_edit_info">
+				<symbol id="class" value="number_edit_box" />
+				<record id="edit_event" event_id="CDBd" event_flags="2" />
+				<integer id="min_value" value="1" />
+				<integer id="max_value" value="127" />
+			</record>
+
+			<record id="column_heading">
+				<flags id="alignment" value="left,centre_y" />
+				<translation id="text" translation_id="227857" type="use" value="Goals" />
+			</record>
+		</record>
+
 	</list>
 	<!-- column display properties -->
 
