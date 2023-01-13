@@ -18,7 +18,7 @@
       <widget class="view_menu_popup" id="plvi" embed_in_frame="true" />
     </container>
 
-    <widget class="client_object_list_table" id="pltb" database_table_type="1" customisation_context="staf" mode="fill_rows, stripe_rows, printable, store_sort_state, drag_rows, drop_on_rows, select_rows, select_multiple" column_mode="resize_columns, move_columns, custom_views" auto_size_rows="true" fixed_size_rows="false" row_spacing="-4">
+    <widget class="client_object_list_table" id="pltb" database_table_type="1" customisation_context="staf" mode="fill_rows, stripe_rows, printable, store_sort_state, drag_rows, drop_on_rows, select_rows, select_multiple" column_mode="resize_columns, move_columns, custom_views" auto_size_rows="true" fixed_size_rows="false" row_spacing="1">
 
       <boolean id="save_session_state" value="true" />
       <boolean id="save_default_state" value="true" />
