@@ -1,0 +1,46 @@
+﻿<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<container>
+		<attachment_group class="vertical_arrange" vertical_layout="-1">
+			<global id="vertical_gap" name="ui.main_contrast_box_gap"/>
+		</attachment_group>
+
+		<!--top bit with mugshot, rating and some blurb-->
+		<container class="main_subtle_box" navigation_container="true">
+			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="50,130,-1,400" vertical_offset="0" horizontal_gap="20"/>
+
+			<container class="object_portrait_picture" id="trpc" height="50" name="picture">
+				<string id="image_alignment" value="centre" />
+				<string id="scale_picture" value="true" />
+				<string id="keep_aspect_ratio" value="true" />
+				<record id="object_property">
+					<string id="get_property" value="objt" />
+					<string id="set_property" value="objt" />
+				</record>
+			</container>
+
+			<container class="inner_box" id="rtbx" height="50" appearance="boxes/custom/training/rating big/paper">
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" vertical_alignment="top" horizontal_inset="0" />
+				<widget class="text" alignment="centre_y,centre_x"	auto_size="vertical">
+					<string id="font" value="label" />
+					<boolean id="multiline" value="false" />
+					<translation id="value" translation_id="466504" type="use" value="Training Rating[COMMENT: a rating of how well the player is getting on in training]" />
+				</widget>
+				<widget class="property_list_viewer_xml_panel" file="widgets/training rating with change icon" abcd="centre" should_colour="true" id="plci"  auto_size="navigation"  navigation_focus_target="false">
+					<record id="object_property">
+						<string id="get_property" value="PtWC" />
+						<string id="set_property" value="valu" />
+					</record>
+				</widget>
+			</container>
+			<widget class="text" alignment="centre_y,left" id="crat" auto_size="vertical">
+				<boolean id="multiline" value="true" />
+			</widget>
+			<widget class="popup_button" id="vcoa" auto_tick_exclusive="true" width="50" select_event="view" save_session_state="true" />
+
+		</container>
+
+	</container>
+
+</panel>
