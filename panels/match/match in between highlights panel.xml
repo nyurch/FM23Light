@@ -1,13 +1,10 @@
 <panel>
-
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 	<!-- these are defaults tablet sizes-->
 	<integer id="TbWs" value="300"/>
 	<integer id="TbWm" value="650"/>
 	<integer id="TbWl" value="1070"/>
-
-
 	<list id="properties_to_forward">
 		<record get_property="HNEp" target="NEvp" set_property="hidn" />
 		<record get_property="HFep" target="FEEP" set_property="hidn" />
@@ -19,50 +16,102 @@
 		<record get_property="ASMt" target="TTab" set_property="ASMt" />
 	</list>
  
-	<container>
+	<container><!-- all space -->
 		<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="0" vertical_inset="0" horizontal_gap="8" />
-		
-		<container>
- 
-			<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="8"/>
- 
-			<container width="370">
-				<layout class="stick_to_sides_attachment" alignment="all" inset="20" apply_to_children="true" />
-				<container id="NEvp">
+		<container><!-- left and dugout -->
+ 			<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" vertical_inset="10" horizontal_gap="8"/>
+ 			<container width="370"  id="NEvp">
+				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
+				<container class="main_transparent_box" red_replacement="grey 100">
+					<attachment_group class="vertical_arrange_autosize" />
+					<container height="193"  >
+						<layout class="stick_to_sides_attachment" apply_to_children="true" />
+						<widget class="stadium_picture" id="STAp" file="none">
+							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="-50"/>
+							<record id="object_property" get_property="objt" set_property="objt"/>
+							<record id="default_properties" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"/>
+							<widget class="picture" file="pictures/stadiums/stadium_bg" />
+							<widget class="picture" id="bkgd" file="pictures/stadiums/none_base" hidden="true"/>
+							<widget class="picture" id="STPC"/>
+						</widget>
+						<widget class="match_info_panel" id="bmin" file="file" >
+							<record id="object_property" get_property="objt" set_property="objt"/>
+							<layout class="horizontal_arrange" horizontal_layout="-1,24,-1" />
+							<!--  home incidents panel -->
+							<widget class="home_match_incidents_panel" id="hmip" small_version="false" file="none">
+								<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right" >
+									<layout class="stick_to_sides_attachment" inset="36,8,8,8"/>
+								</widget>
+							</widget>
+							<widget class="text" alignment="centre" >
+								<translation id="text" type="use" value="V" />
+							</widget>
+							<!--  home incidents panel -->
+							<widget class="away_match_incidents_panel" id="amip" small_version="false" file="none">
+								<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right" >
+									<layout class="stick_to_sides_attachment" inset="36,8,8,8"/>
+								</widget>
+							</widget>
+						</widget>
+					</container>
+					<!-- weather forecast -->
+					<widget class="weather_indicator_panel_centred" id="FxWe" file="none" height="24">
+						<layout class="centre_in_parent_attachment" alignment="horizontal" apply_to_children="true" />
+						<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
+						<record id="object_property" get_property="FxWe"/>
+						<container>
+							<layout class="fit_children_attachment" alignment="horizontal,fill" offset="0" gap="4"/>
+							<layout class="arrange_horizontal_attachment" alignment="left" offset="0" gap="4"/>
+							<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
+							<widget class="picture" id="icon" image_alignment="left" width="24" scale_picture="true" keep_aspect_ratio="true" />
+							<widget class="label" id="desc" alignment="left,centre_y" auto_size="horizontal" />
+						</container>
+					</widget>
+					<!-- referee -->
+					<container>
+						<global id="hidden" name="game_mode_is_console_mode" />
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
+						<widget class="label" auto_size="all" size="small">
+							<translation id="text" translation_id="227993" type="use" value="Referee" />
+						</widget>
+						<widget class="person_button" colour="black" auto_size="all" >
+							<record id="object_property" get_property="FRef" dont_set_hint="true" />
+						</widget>
+					</container>
+					<!-- attendance -->
+					<container>
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
+						<widget class="label" auto_size="all" size="small" >
+							<translation id="text" translation_id="247242" type="use" value="Attendance" />
+						</widget>
+						<widget class="number_label" auto_size="all">
+							<record id="object_property" get_property="FxEA" dont_set_hint="true" />
+						</widget>
+					</container>
+				</container>
+				<!-- notable events -->
+				<container>
 					<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" />
- 
 					<container class="main_transparent_box" red_replacement="grey 100">
-						<animation class="scale_animation" start_value="1, 0" end_value="1, 1" duration="0.3" delay="1.4" end_mode="hold_end" tween="ease_out" coord_mode="relative_to_target" centre_point="top" />
-						<animation class="scale_animation" start_value="1, 0" end_value="1, 1" duration="0.3" delay="0.2" end_mode="hold_end" tween="ease_out" coord_mode="relative_to_target" centre_point="top" trigger_id="hidden" trigger_value="false" />
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-						
 						<attachment class="match_ball_fade_attachment"/>
- 
 						<widget class="match_notable_events_panel">
-							
-							<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1.6" end_mode="hold_end" />
-							<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="0.4" end_mode="hold_end" trigger_id="hidden" trigger_start="false" trigger_end="true" />
-						
 							<record id="object_property">
 								<integer id="get_property" value="objt" />
 								<integer id="set_property" value="objt" />
 							</record>
 						</widget>
- 
- 
 					</container>
- 
-					<widget class="spacer" height="47" />
 				</container>
- 
 			</container>
 
+			<!-- dugout -->
 			<container>
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-
 				<container id="FEEP">
 					<attachment_group class="vertical_arrange" vertical_alignment="middle,extend" vertical_offset="0" vertical_gap="0" />
-					
 					<container>
 						<attachment class="test_screen_size_attachment" skip_if_false="true">
 							<list id="properties">
@@ -93,16 +142,10 @@
 							</list>
 						</attachment>
 					</container>
-
 					<container>
-
 						<attachment_group class="vertical_arrange_horizontal_centre" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" />
-
 						<animation class="fade_animation" start_value="0" end_value="1" duration="0.6" delay="1.4" end_mode="hold_end" />
-
-
 						<container class="main_transparent_box">
-
 							<attachment class="test_screen_size_attachment" skip_if_false="true">
 								<list id="properties">
 									<record>
@@ -133,7 +176,6 @@
 									<record min_value="1280" max_value="10000" true_value="950"/>
 								</list>
 							</attachment>
-
 							<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="8" />
 							<container>
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" horizontal_offset="0" vertical_inset="0" />
@@ -141,31 +183,20 @@
 									<translation id="text" translation_id="516207" type="use" value="The Dugout[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: section title to show the manager instructions that can be given from the dugout/managerial area - subs, tactics etc]" />
 								</widget>
 							</container>
-
 							<!--match feed-->
 							<widget class="match_feed_panel" id="feed" file="match/match feed panel expanded" navigation_container="true">
-
 								<record id="object_property" get_property="objt" set_property="objt" />
-
 							</widget>
-
 						</container>
-
 					</container>
-
 					<container height="52" />
 				</container>
-				
 			</container>
- 
-			
- 
 		</container>
  
-		<!--match information-->
+		<!-- right side -->
 		<container>
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-			
 			<attachment class="test_screen_size_attachment" skip_if_false="true">
 				<list id="properties">
 					<record>
@@ -194,19 +225,13 @@
 					</record>
 				</list>
 			</attachment>
-	
- 
 			<container class="client_object_viewer_xml_panel" file="match/match touchline tablet panel" id="TTab" >
- 
-				<record id="object_property">
+ 				<record id="object_property">
 					<integer id="get_property" value="objt" />
 					<integer id="set_property" value="objt" />
 				</record>
- 
-			</container>
+ 			</container>
 		</container>
  
- 
 	</container>
- 
 </panel>
