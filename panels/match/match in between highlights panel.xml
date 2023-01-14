@@ -26,12 +26,12 @@
  
 			<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="8"/>
  
-			<container width="342">
-				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+			<container width="370">
+				<layout class="stick_to_sides_attachment" alignment="all" inset="20" apply_to_children="true" />
 				<container id="NEvp">
 					<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" />
  
-					<container class="main_transparent_box" appearance="boxes/custom/match/timeline stats/paper" red_replacement="grey 100">
+					<container class="main_transparent_box" red_replacement="grey 100">
 						<animation class="scale_animation" start_value="1, 0" end_value="1, 1" duration="0.3" delay="1.4" end_mode="hold_end" tween="ease_out" coord_mode="relative_to_target" centre_point="top" />
 						<animation class="scale_animation" start_value="1, 0" end_value="1, 1" duration="0.3" delay="0.2" end_mode="hold_end" tween="ease_out" coord_mode="relative_to_target" centre_point="top" trigger_id="hidden" trigger_value="false" />
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
