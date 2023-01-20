@@ -6237,31 +6237,31 @@
 				<symbol id="class" value="formatted_label" />
 				<!--THis mirrores code in db::CONTRACT::get_contract_offer_status_string, please update both when making changes-->
 				<list id="format">
-					<record value="1" colour="white">
+					<record value="1">
 						<translation id="format" type="use" translation_id="394517" value="Offered[COMMENT: FR 7486, contract offer status]" />
 					</record>
-					<record value="2" colour="white">
+					<record value="2">
 						<translation id="format" type="use" translation_id="242867" value="Accepted[COMMENT - team future transfers panel; label in table showing that an offer has been accepted]" />
 					</record>
-					<record value="3" colour="white">
+					<record value="3">
 						<translation id="format" type="use" translation_id="256851" value="Rejected[COMMENT: transfer centre screen; label text for rejected transfer]" />
 					</record>
-					<record value="4" colour="white">
+					<record value="4">
 						<translation id="format" type="use" translation_id="394342" value="Blocked[COMMENT: FR 7486, contract offer status]" />
 					</record>
-					<record value="5" colour="white">
+					<record value="5">
 						<translation id="format" type="use" translation_id="394385" value="Delayed[COMMENT: FR 7486, contract offer status]" />
 					</record>
-					<record value="6" colour="white">
+					<record value="6">
 						<translation id="format" type="use" translation_id="394385" value="Delayed[COMMENT: FR 7486, contract offer status]" />
 					</record>
-					<record value="8" colour="white">
+					<record value="8">
 						<translation id="format" type="use" translation_id="394385" value="Delayed[COMMENT: FR 7486, contract offer status]" />
 					</record>
-					<record value="7" colour="white">
+					<record value="7">
 						<translation id="format" type="use" translation_id="394384" value="Delay Rejected[COMMENT: FR 7486, contract offer status]" />
 					</record>
-					<record value="9" colour="white">
+					<record value="9">
 						<translation id="format" type="use" translation_id="394405" value="Extension Triggered[COMMENT: FR 7486, contract offer status]" />
 					</record>
 					<record default_value="true">
