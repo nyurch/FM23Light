@@ -79,8 +79,8 @@
 							<integer id="min_value" value="0" />
 							<integer id="max_value" value="3000" />
 							<symbol id="set_property" value="width" />
-							<integer id="true_value" value="310" />
-							<integer id="false_value" value="310" />
+							<integer id="true_value" value="450" />
+							<integer id="false_value" value="450" />
 						</record>
 						<record min_value="3000" max_value="30000" true_value="620"/>
 					</list>
