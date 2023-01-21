@@ -1508,9 +1508,9 @@
 	<colour name="store_colour" 							value="bg"/>
 	<colour name="store_background" 						value="bg darker" />
 	<colour name="store_foreground" 						value="bg lighter" />
-	<colour name="store_dialog_text" 						value="white" />
-	<colour name="store_dialog_faded_text" 					value="faded white" />
-	<colour name="store_button" 							value="rgb(15,15,15)" />
+	<colour name="store_dialog_text" 						value="black" />
+	<colour name="store_dialog_faded_text" 					value="faded black" />
+	<colour name="store_button" 							value="rgb(215,215,215)" />
 	<colour name="store_button_border" 						value="black" />
 	<colour name="fmt_downloads_colour" 					value="fg accent" />
 	<colour name="wallet_colour" 							value="rgb(136,120,191)" />
