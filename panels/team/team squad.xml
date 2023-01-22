@@ -72,6 +72,42 @@
 			</container>
 		</container>
 
+		<!-- moded container made by tyburn -->
+		<container height="40">
+			<layout class="arrange_horizontal_attachment" layout="-1,0" offset="0" gap="0"/>
+			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+			<!-- squad personality widget -->
+			<container class="main_box_no_margin">
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+				<container class="club_overview_panel" file="club/facts">
+					<record id="object_property" get_property="Csca" set_property="Csca"/>
+				</container>
+			</container>
+			<!-- division/country -->
+			<container class="plain_box">
+				<attachment_group class="horizontal_arrange_vertical_centre" horizontal_gap="10" horizontal_layout="-1" vertical_offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="right" inset="0" apply_to_children="true" />
+					<container>
+						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_gap="0" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="5" />
+						<!--division-->
+						<widget class="comp_button" id="Tdiv" icon_enabled="false" comp_display_type="1" alignment="right, centre_y" font="value" auto_size="vertical" colour="black" size="10">
+							<record id="object_property">
+								<integer id="get_property" value="Tdiv"/>
+								<integer id="set_property" value="valu" />
+								<boolean id="dont_set_hint" value="true"/>
+							</record>
+						</widget>
+						<!--country-->
+						<widget class="nation_button" id="nati" auto_size="vertical" alignment="right, centre_y" colour="faded black">
+							<record id="object_property">
+								<integer id="get_property" value="Tnat"/>
+								<integer id="set_property" value="objt"/>
+							</record>
+						</widget>
+					</container>
+			</container>
+		</container>
+
 		<widget class="picking_panel" id="pkpn" navigation_container="true"/>
 
 		<container id="ptct">
