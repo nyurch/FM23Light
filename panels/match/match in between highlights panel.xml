@@ -80,6 +80,17 @@
 							<record id="object_property" get_property="FRef" dont_set_hint="true" />
 						</widget>
 					</container>
+					<!-- stadium name -->
+					<container>
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
+						<widget class="stadium_button" id="stad" auto_size="all" >
+							<layout class="centre_in_parent_attachment" alignment="all" />
+							<translation id="no_object_text" translation_id="227505" type="use" value="Unknown Stadium"/>
+							<record id="object_property">
+								<integer id="get_property" value="stad" />
+							</record>
+						</widget>
+					</container>
 					<!-- attendance -->
 					<container>
 						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
