@@ -1,0 +1,28 @@
+<panel>
+
+	<!--This panel is for the mini overview stats we get on the match overview page-->
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<list id="preset_stats_list">
+		<record id="m_sg" />
+		<record id="m_on" />
+		<record id="m_xg" />
+		<record id="m_cr" />
+		<record id="m_fl" />
+		<record id="m_pc" />
+		<record id="m_ps" />
+	</list>
+
+	<widget class="table" id="mstn" layout="-1, -1, -1" mode="fill_rows, printable" auto_size_rows="true" fixed_size_rows="false"  row_spacing="0">
+
+		<record id="default_properties" alignment="centre" />
+
+		<list id="column_table_properties">
+			<record indx="0" id="home" sort_disabled="true" />
+			<record indx="1" id="labl" sort_disabled="true" />
+			<record indx="2" id="away" sort_disabled="true" />
+		</list>
+
+	</widget>
+
+</panel>
