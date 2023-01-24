@@ -167,12 +167,6 @@
 							<!-- contract expiry -->
 							<flags id="Pdva" />
 							<!-- value -->
-							<record id="PcOI" auto_hide_priority="2000" />
-							<!-- player condition-->
-							<record id="PftI" auto_hide_priority="2000" />
-							<!-- player sharpness -->
-							<record id="Pmor" auto_hide_priority="3000" />
-							<!-- player morale -->
 							<record id="Poap" auto_hide_priority="3000" />
 							<!-- overall appearances -->
 							<record id="Pogl" auto_hide_priority="4000" />
