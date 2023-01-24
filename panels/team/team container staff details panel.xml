@@ -1,0 +1,172 @@
+<panel>
+
+	<boolean id="save_session_state" value="true" />
+
+
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+	<widget class="main_box" id="plti" force_title_borders="true" alignment="left" >
+		<layout class="arrange_vertical_attachment" alignment="fill" offset="0" />
+		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+		<container embed_in_frame="true" navigation_container="true">
+			<attachment_group class="title_embedded_panel_left"/>
+
+			<widget class="view_menu_label" id="titl" navigation_focus_target="false">
+				<translation id="text" translation_id="229528" type="use" value="Staff" />
+			</widget>
+			<widget class="view_menu_popup" id="plvi" />
+
+		</container>
+
+		<widget class="client_object_list_table" id="pltb" database_table_type="1" customisation_context="staf" mode="fill_rows, stripe_rows, printable, store_sort_state, drag_rows, drop_on_rows, show_bullets, select_rows, select_multiple" column_mode="resize_columns, move_columns, custom_views" auto_size_rows="true" fixed_size_rows="false" navigation_container="true" default_focus="true">
+
+			<boolean id="save_session_state" value="true" />
+			<boolean id="save_default_state" value="true" />
+			<integer id="contextual_handler_column_id" value="Psnm" />
+
+			<!-- default sort by team, job (primary) then name -->
+			<list id="default_sort_column">
+				<integer value="PcnT" />
+				<integer value="PcjN"/>
+			</list>
+
+			<!--default view-->
+			<flags id="default_view" value="ctrc" />
+
+			<list id="viws">
+
+				<record id="ctrc">
+					<translation id="text" translation_id="230163" type="use" value="Contract" />
+					<record id="view">
+						<flags id="PcnT"/>
+						<flags id="PcjN"/>
+						<!-- short job text -->
+						<flags id="Ppfj"/>
+						<!-- role desired -->
+						<flags id="PScj"/>
+						<record id="Psnm" />
+						<!-- person name -->
+						<record id="Pnat" />
+						<!-- nationality -->
+						<record id="PSag" />
+						<!-- person age -->
+						<record id="PPst" />
+						<!-- personality -->
+						<record id="Prsa" />
+						<!-- reputation -->
+						<flags id="Pcif" />
+						<!-- full time or part-time contract -->
+						<flags id="Pcty" />
+						<!-- contact type -->
+						<flags id="Pcww" />
+						<!-- weekly wage -->
+						<flags id="Pced" />
+						<!-- end date -->
+						<record id="Pcqu" navigation_focus_target="false" />
+						<!-- coaching badge -->
+					</record>
+				</record>
+
+				<record id="coat">
+					<translation id="text" translation_id="230027" type="use" value="Coaching Attributes" />
+
+					<!-- Define attributes/properties to view in this view type on the panel.
+							 Any properties not defined here will be hidden for this view. -->
+					<record id="view">
+						<flags id="PcnT"/>
+						<flags id="PcjN" />
+						<flags id="PScj"/>
+						<!-- short job text -->
+						<flags id="Psnm" />
+						<!-- person name -->
+						<flags id="Npgd"/>
+						<!-- goalkeeper coaching distribution -->
+						<flags id="Npgh"/>
+						<!-- goalkeeper coaching handling -->
+						<flags id="Npgs"/>
+						<!-- goalkeeper coaching shot stopping -->
+						<flags id="Ncha" />
+						<!-- coaching attacking-->
+						<flags id="Nchd" />
+						<!-- coaching defending-->
+						<flags id="Nchf" />
+						<!-- fitness coaching -->
+						<flags id="Nchm" />
+						<!-- mental coaching-->
+						<flags id="Ncte" />
+						<!-- technical coaching-->
+						<flags id="Ncta" />
+						<!-- tactical coaching-->
+						<flags id="Npmm" />
+						<!-- man management -->
+						<flags id="Npwy" />
+						<!-- working with youngsters -->
+					</record>
+				</record>
+
+				<record id="meat">
+					<translation id="text" translation_id="230062" type="use" value="Mental Attributes" />
+
+					<!-- Define attributes/properties to view in this view type on the panel.
+							 Any properties not defined here will be hidden for this view. -->
+					<record id="view">
+						<flags id="PcnT"/>
+						<flags id="PcjN" />
+						<flags id="PScj"/>
+						<!-- short job text -->
+						<flags id="Psnm" />
+						<!-- person name -->
+						<flags id="Npad" />
+						<!-- adaptability -->
+						<flags id="Npde" />
+						<!-- determination -->
+						<flags id="Npja" />
+						<!-- judging ability -->
+						<flags id="Npjp" />
+						<!-- judging potential -->
+            <flags id="Npjs" />
+            <!-- judging staff ability -->
+						<flags id="Npjd"/>
+						<!-- analysing data -->
+						<flags id="Npld" />
+						<!-- level of discipline -->
+						<flags id="Npph" />
+						<!-- physiotherapy -->
+						<flags id="NpIM" />
+						<!-- injury management -->
+						<flags id="Npmo" />
+						<!-- motivating -->
+						<flags id="Nptk" />
+						<!-- tactical knowledge -->
+					</record>
+				</record>
+
+				<record id="----" />
+
+				<record id="debg">
+					<translation id="name" translation_id="247109" type="use" value="Debug" />
+					<!-- Define attributes/properties to view in this view type on the panel.
+									Any properties not defined here will be hidden for this view. -->
+					<record id="view">
+						<flags id="PcJj" />
+						<flags id="Psjb"/>
+						<!-- short job text -->
+						<flags id="Psnm" />
+						<!-- person name -->
+						<flags id="PSag" />
+						<!-- person age -->
+						<flags id="Ncra" />
+						<flags id="Npta" />
+						<flags id="Nwrr" />
+						<flags id="Ncrr" />
+						<flags id="Nhmr" />
+					</record>
+				</record>
+			</list>
+
+		</widget>
+
+	</widget>
+
+</panel>
