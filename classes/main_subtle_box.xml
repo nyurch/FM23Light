@@ -1,0 +1,4 @@
+﻿<class class="main_subtle_box" parent="main_box">
+	<flags id="appearance" value="boxes/main/subtle/paper"/>
+	<flags id="red_replacement" value="fg"/>
+</class>
