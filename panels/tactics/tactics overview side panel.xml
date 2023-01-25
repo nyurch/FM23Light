@@ -181,7 +181,7 @@
 				<layout class="stick_to_object_attachment" id="align_left" offset="60" get_side="left" set_side="left" move_side="true" target="main"/>
 			</widget>
 			<container class="tactics_recent_match_analysis_panel" entity_layout_id="it22" id="anLy" name="analysis">
-        <attachment class="show_medium_vertical" min_value="900" />
+				<attachment class="show_medium_vertical" min_value="900" />
 				<layout class="stick_to_object_attachment" id="align_top" offset="620" get_side="top" set_side="top" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_bottom" offset="-2" get_side="bottom" set_side="bottom" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_left" offset="2" get_side="left" set_side="left" target="main"/>
