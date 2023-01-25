@@ -19,7 +19,7 @@
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 				<!--pro item container-->
 				<container class="scrolling_box" navigation_focus_target="true">
-					<container id="pItc" >
+					<container class="main_contrast_box" red_replacement="green 500" id="pItc" >
 						<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="3" horizontal_alignment="horizontal" horizontal_inset="0" />
 					</container>
 				</container>
@@ -29,7 +29,7 @@
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 				<!--con item container-->
 				<container class="scrolling_box" navigation_focus_target="true">
-					<container id="cItc">
+					<container class="main_contrast_box" red_replacement="red 500" id="cItc">
 						<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="3" horizontal_alignment="horizontal" horizontal_inset="0" />
 					</container>
 				</container>
