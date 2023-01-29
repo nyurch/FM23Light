@@ -44,7 +44,7 @@
 			<container class="club_overview_stadium_panel" file="none">
 				<attachment class="vertical_arrange" vertical_layout="30,-1,30" vertical_gap="0"/>
 				<record id="object_property" get_property="Tsre" set_property="objt" dont_set_hint="true"/>
-			    <container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="primary">
+			    <container class="plain_box" appearance="boxes/contrast/no margin/top/paper" red_replacement="primary">
 					<layout class="stick_to_sides_attachment" apply_to_children="true" inset="2"/>
                 <widget class="client_object_label" id="namV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
                     <record id="object_property">
