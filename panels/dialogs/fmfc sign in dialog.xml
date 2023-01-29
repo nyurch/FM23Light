@@ -1,0 +1,74 @@
+﻿<panel class="inner_subtle_box">
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="10" horizontal_alignment="horizontal" horizontal_inset="30" />
+	
+	<container class="inner_subtle_box">
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="12" horizontal_alignment="horizontal" horizontal_inset="0" />		
+		
+		<!-- Email -->
+		<container>
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1" horizontal_gap="10" horizontal_offset="2" vertical_alignment="top" vertical_inset="0" />
+
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+				<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="white" font="title">
+					<translation id="text" translation_id="541480" type="use" value="Email*[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label for the email address field, asterisk to dentoe that it is a required field]" />
+				</widget>
+				
+				<widget class="edit_box" id="ema1" alignment="left,centre_y" return_event="susi" disable_profanity_check="true"/>
+			</container>				
+		</container>	
+		
+		<!-- Password -->
+		<container>
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />		
+
+			<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="white" font="title">
+				<translation id="text" translation_id="541485" type="use" value="Password*[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label for the password field, asterisk to dentoe that it is a required field]" />
+			</widget>			
+			
+				<widget class="edit_box" hide_text="true" id="pswd" alignment="left,centre_y" return_event="susi" disable_profanity_check="true" />
+		</container>	
+
+		<container>
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right, extend" vertical_offset="10" />
+			
+			<container>		
+				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" vertical_offset="0" />
+			
+				<widget class="primary_icon_button" click_event="shpr" auto_size="all">
+					<translation id="text" translation_id="541486" type="use" value="Forgot your password?[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Button text that takes the player to a panel where they can reset their password, cannot feminise]" />
+				</widget>
+			</container>
+
+			
+			<widget class="primary_icon_button" click_event="mcan" auto_size="horizontal">
+				<translation id="text" translation_id="229828" type="use" value="Cancel" />
+			</widget>	
+			
+			<widget class="primary_icon_button" click_event="susi" auto_size="horizontal" icon="icons/16px/tick">
+				<translation id="text" translation_id="541487" type="use" value="Sign in[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Button text to confirm the sign in form]" />
+			</widget>
+		</container>
+		
+	</container>
+	
+	<!-- Error Messages -->
+	<container class="contrast_box" id="eroM" red_replacement="bg negative" height="35" hidden="true">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+	
+	</container>
+	
+	<container height="30">
+		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" vertical_inset="10" horizontal_gap="10" />
+
+		<widget class="label" colour="white" auto_size="horizontal" alignment="centre_x,centre_y" height="30">
+			<translation id="text" translation_id="541482" type="use" value="Not a member?[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label to suggest that a user may want to sign up for a new account instead of signing in]" />
+		</widget>
+
+		<widget class="primary_icon_button" click_event="shsu" auto_size="all">
+			<translation id="text" translation_id="541488" type="use" value="Sign up now[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Button text go to the FMFC account registration page]" />
+		</widget>
+	</container>
+
+</panel>
