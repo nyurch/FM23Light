@@ -94,7 +94,7 @@
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right" vertical_offset="10" />
 
-			<widget class="icon_button" click_event="mcan" auto_size="horizontal">
+			<widget class="primary_icon_button" click_event="mcan" auto_size="horizontal">
 				<translation id="text" translation_id="229828" type="use" value="Cancel" />
 			</widget>
 
@@ -119,7 +119,7 @@
 			<translation id="text" translation_id="541494" type="use" value="Already a member?[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign up panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label to suggest that a user may want to sign into an existing account instead creating a new one]" />
 		</widget>
 
-		<widget class="button" click_event="shsi" auto_size="all" appearance="buttons/subtle/normal/button">
+		<widget class="primary_icon_button" click_event="shsi" auto_size="all">
 			<translation id="text" translation_id="541479" type="use" value="Sign in now[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Button text go to the FMFC sign in page]" />
 		</widget>
 	</container>
