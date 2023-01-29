@@ -6,7 +6,7 @@
 		<container id="MCon" class="main_box">
 
 			<attachment_group class="horizontal_arrange" vertical_offset="20" horizontal_layout="-1,280" />
-			<container class="scrolling_box">
+			<container class="scrolling_box" navigation_container="true" navigation_container_allow_empty="true">
 				<container id="tale">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" />
 
@@ -71,7 +71,7 @@
 							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 						</container>
 
-						<widget class="client_object_viewer_xml_panel" id="ScBG" navigation_focus_target="true">
+						<widget class="client_object_viewer_xml_panel" id="ScBG">
 							<attachment_group class="vertical_arrange_horizontal_centre" vertical_alignment="middle" vertical_offset="0" horizontal_inset="0" />
 							<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
