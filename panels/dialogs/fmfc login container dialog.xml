@@ -1,0 +1,58 @@
+﻿<panel dialog_appearance="boxes/custom/fmfc/dialog/paper">
+	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_gap="0" />
+	
+	<container>
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="0" />
+		
+		<container height="175">
+			<attachment_group class="vertical_arrange" vertical_layout="60, 100" vertical_gap="0" />
+			
+			<container>
+			
+				<!-- Cancel Button -->
+				<widget class="icon_button" click_event="mcan" auto_size="all" icon="icons/16px/cross" icon_colour="white" icon_alignment="centre" appearance="buttons/primary/normal/button" red_replacement="accent">
+					<layout class="stick_to_sides_attachment" alignment="right,top" inset="10" />
+				</widget>
+			</container>
+			
+			<widget class="spacer"/>
+			
+		</container>
+		
+		<!-- Title -->
+		<container height="45">
+			<attachment_group class="vertical_arrange" vertical_layout="-1" vertical_gap="0" />
+
+			<widget id="mttl" class="label" alignment="centre_x,centre_y" font="title" size="30" colour="white"/>
+		</container>			
+		
+		<!-- Content -->
+		<container id="cont">
+			<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_gap="0" />
+			
+			<!-- ! @Note These are the files that we use for the various steps in this dialog, added in code -->
+			<!-- <container file="dialogs/fmfc splash screen dialog"/> -->
+			<!-- <container file="dialogs/fmfc sign up dialog"/> -->
+			<!-- <container file="dialogs/fmfc sign in dialog"/> -->
+			<!-- <container file="dialogs/fmfc needs verification dialog"/> -->
+			<!-- <container file="dialogs/fmfc signed in dialog"/> -->
+			<!-- <container file="dialogs/fmfc password reset dialog"/> -->
+			<!-- <container file="dialogs/fmfc password reset complete dialog"/> -->
+			<!-- <container file="dialogs/fmfc sign out dialog"/> -->
+	
+		</container>
+
+		<container id="dsAG" height="30" hidden="true">
+			<attachment_group class="horizontal_arrange" horizontal_alignment="middle" />
+
+			<widget class="check_box" auto_size="all" alignment="centre" click_event="dsaS">
+				<translation id="text" translation_id="301057" type="use" value="Don't show this message again.[COMMENT: The title of a checkbox displayed in a dialog, which allows the user to request that the dialog isn't displayed again.]"/>
+			</widget>
+		</container>
+		
+		<!-- Spacer -->
+		<container height="30"/>
+		
+	</container>
+
+</panel>
