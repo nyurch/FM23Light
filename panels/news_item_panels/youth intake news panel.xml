@@ -1,0 +1,5 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+	<container height="700" file="club/youth development youth candidate squad list panel">
+	</container>
+</panel>
