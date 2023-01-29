@@ -1,23 +1,25 @@
 <panel>
-<string id="skin_style" value="edit_box" />
+	<string id="skin_style" value="edit_box" />
 	<layout class="arrange_horizontal_attachment" alignment="middle" gap="0" offset="0" />
 	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
 	<container width="950">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 		<container class="client_object_viewer_xml_panel" id="fCFI">
-			<layout class="arrange_vertical_attachment" layout="60,-1" gap="5" offset="10" />
+			<layout class="arrange_vertical_attachment" layout="60,-1" gap="0" offset="10" />
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-			<container>
+			<container create_animations_if="ui.is_fmt_controller_skin">
+				<animation class="translate_animation" start_value="-1, 0" end_value="0, 0" duration="0.8" delay="0" end_mode="hold_auto_reverse" tween="ease_out_4" coord_mode="relative_to_screen" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true" />
+				<animation class="fade_animation" start_value="0" end_value="1" duration="0.8" delay="0.1" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
 				<container class="main_contrast_box" id="errM" red_replacement="bg negative" >
-					<animation class="fade_on_hide_animation" duration="0.3" />
 					<layout class="arrange_horizontal_attachment" layout="26,-1" offset="0" gap="10" />
 					<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-					<widget class="picture" file="icons/26px/urgent" width="26" colour="fg negative" image_alignment="centre" />
-					<widget class="label" alignment="left,centre_y" colour="fg negative">
+					<widget class="picture" file="icons/26px/urgent" width="26" colour="white" image_alignment="centre" />
+					<widget class="label" alignment="left,centre_y" colour="white">
 						<translation id="text" translation_id="395983" type="use" value="Choose a name, city and stadium for the club. The name cannot match that of a real life club.[COMMENT:create a club, message to tell the user they need to choose a club name and city before continuing]" />
 					</widget>
 
@@ -25,14 +27,16 @@
 
 			</container>
 
-			<container draw_vertical_dividers="true">
+			<container draw_vertical_dividers="true" create_animations_if="ui.is_fmt_controller_skin">
+				<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1.2" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
+
 				<layout class="arrange_horizontal_attachment" layout="-2,-3" offset="0">
 					<global id="gap" name="ui.main_box_gap" />
 				</layout>
 				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
 				<container class="main_box" navigation_container="true" default_focus="true">
-					<layout class="arrange_vertical_attachment" alignment="top,extend" gap="10" offset="0" />
+					<layout class="arrange_vertical_attachment" alignment="top,extend" gap="0" offset="0" />
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 					<widget id="pPbu" class="popup_button" appearance="buttons/subtle/normal/button" />
@@ -53,6 +57,7 @@
 
 							<!-- container showing left, number, right widgets -->
 							<container id="iccn">
+                                
 								<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" inset="0" />
 								<layout class="fit_children_attachment" alignment="vertical" />
 								<layout class="arrange_horizontal_attachment" alignment="middle,extend" offset="0" />
@@ -67,11 +72,11 @@
 						</container>
 
 						<container>
+                            
 							<layout class="arrange_vertical_attachment" layout="-1,-1,20,30" gap="2" offset="0" />
 							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 							<widget class="radio_button" id="alL2" auto_size="vertical" secondary_icon="icons/16px/squad">
-								<global id="hidden" name="platform_is_stadia" />
 								<translation id="text" translation_id="395050" type="use" value="Use game-generated logo[COMMENT: create a club, option to use a default unlicenced logo for the team]" />
 								<record id="click_event">
 									<integer id="event_id" value="loRo" />
@@ -79,7 +84,6 @@
 								</record>
 							</widget>
 							<widget class="radio_button" id="alL3" auto_size="vertical">
-								<global id="hidden" name="platform_is_stadia" />
 								<translation id="text" translation_id="395023" type="use" value="Import your own logo[COMMENT: create a club, option to use an already imported custom logo]" />
 								<record id="click_event">
 									<integer id="event_id" value="loRo" />
@@ -87,8 +91,7 @@
 								</record>
 							</widget>
 							<widget class="spacer" />
-							<widget class="icon_button" icon="icons/16px/import" click_event="imLG" auto_size="vertical">
-								<global id="hidden" name="platform_is_stadia" />
+							<widget class="icon_button" id="alL4" icon="icons/16px/import" click_event="imLG" auto_size="vertical">
 								<translation id="text" translation_id="496365" type="use" value="Import a logo...[COMMENT: AREA: Create a Club; SUB-AREA: Club Creation Details; FR-BN: XXXXXX; TONE: Formal; CHARLIMIT: None; REF-ID: XXXXXX; NOTE; button text for importing a logo for create a club team]" />
 							</widget>
 
@@ -96,6 +99,7 @@
 					</container>
 
 					<container height="160">
+                        
 						<layout class="arrange_vertical_attachment" layout="40,40, 40, 40" gap="0" offset="0" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
@@ -194,7 +198,7 @@
 								<translation id="text" translation_id="248129" type="use" value="*" />
 							</widget>
 
-							<widget class="city_picker_popup_button" id="city" colour="text" >
+							<widget class="city_picker_popup_button" id="city">
 								<flags id="appearance" value="buttons/subtle/normal/button"/>
 								<flags id="select_on_focus" value="true" />
 								<boolean id="validate_string" value="true" />
@@ -248,8 +252,10 @@
 
 				</container>
 
-				<container draw_horizontal_dividers="true">
-					<layout class="arrange_vertical_attachment" layout="-7, -3, -6" offset="0">
+				<container draw_horizontal_dividers="true" create_animations_if="ui.is_fmt_controller_skin">
+					<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1.5" end_mode="hold_auto_reverse" trigger_id="hidden" trigger_start="false" trigger_end="true" />
+
+					<layout class="arrange_vertical_attachment" layout="-1, -1, -1" offset="0">
 						<global id="gap" name="ui.main_box_gap" />
 					</layout>
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
@@ -263,10 +269,9 @@
 
 						<!--Kits pictures-->
 						<widget class="club_overview_kits_panel" id="gsts" />
-
 						<container>
-							<layout class="stick_to_sides_attachment" alignment="right" apply_to_children="true" inset="0" />
-							<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+							<layout class="stick_to_sides_attachment" alignment="bottom,left" apply_to_children="true" inset="0" />
+							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 							<widget class="icon_button" icon="icons/16px/kit" auto_size="all">
 								<translation id="text" translation_id="395020" type="use" value="Edit Kit and Colours[COMMENT:button text inside Fantasy Club panel; giving the ability to the user to change the kit details of the selected club]" />
 								<record id="click_event">
@@ -290,7 +295,7 @@
 
 							<!--Bank Balance-->
 							<container>
-								<layout class="arrange_vertical_attachment" layout="-1,-1" gap="0" offset="0" />
+								<layout class="arrange_vertical_attachment" layout="-1,-4" gap="0" offset="0" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 								<widget class="text" id="fsda" alignment="centre_x,bottom" font="label" colour="faded text">
@@ -312,7 +317,7 @@
 
 							<!--Transfer Budget-->
 							<container>
-								<layout class="arrange_vertical_attachment" layout="-1,-1" gap="0" offset="0" />
+								<layout class="arrange_vertical_attachment" layout="-1,-4" gap="0" offset="0" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 								<widget class="text" id="fit2" alignment="centre_x,bottom" font="label" colour="faded text">
@@ -334,7 +339,7 @@
 
 							<!--Wage Budget-->
 							<container>
-								<layout class="arrange_vertical_attachment" layout="-1,-1" gap="0" offset="0" />
+								<layout class="arrange_vertical_attachment" layout="-1,-4" gap="0" offset="0" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 								<widget class="text" id="fit3" alignment="centre_x,bottom" font="label" colour="faded text">
@@ -435,7 +440,6 @@
 							</widget>
 
 						</container>
-
 					</container>
 
 				</container>

@@ -1,27 +1,28 @@
 <panel wants_mouse_events="true">
-	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
 	<string id="skin_style" value="edit_box" />
+	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
+	
 	<record id="shown_event">
 		<flags id="event_id" value="wzPc" />
 		<flags id="index" value="1" />
 		<flags id="event_target" value="self" />
 	</record>
 
-	<container class="inner_box" width="580">
+	<container class="main_transparent_box" width="580">
 		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="-1" horizontal_offset="0" horizontal_gap="0" vertical_offset="0" />
 
 		<!-- box containing personal details form -->
 		<container id="pdpa">
-				<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="10" horizontal_inset="6" />
+				<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="0" horizontal_inset="6" />
 
 			<container>
-				<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="10" horizontal_inset="6" />
+				<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="0" horizontal_inset="0" />
 				<container>
-					<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="10" horizontal_inset="6" />
+					<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="5" horizontal_inset="6" />
 					
 					<!-- Names -->
 					<container class="inner_subtle_box" navigation_container="true" default_focus="true">
-						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="4" vertical_gap="2" horizontal_inset="6" />
+						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
 
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" horizontal_offset="0" vertical_inset="0" />
@@ -79,16 +80,46 @@
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
 
 							<widget class="widget_popup_button" Jcol="text" colour="disabled" secondary_icon="icons/16px/edit" appearance="" auto_size="all" id="mNam" popup_alignment="left,bottom" widget_type="container">
-								<global id="hidden" name="is_fmt" />
 								<record id="widget_properties" file="human/add manager name information dialog" width="500" />
 								<record id="modal_popup_properties" file="modal popup panel auto sized" propagate_mouse_events="false" />
 							</widget>
 						</container>
 					</container>
 					
+					<!-- Gender -->
+					<container class="inner_subtle_box" navigation_container="true">
+						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
+
+						<container>
+							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right, extend" horizontal_offset="0" horizontal_gap="5" vertical_inset="0" />
+							
+							<widget class="label" font="title" size="large" alignment="left,centre_y" auto_size="horizontal" colour="text">
+								<translation id="text" translation_id="281350" type="use" value="Gender[COMMENT: add_manager_panel; select gender; define manager's sex]" />
+							</widget>
+							
+							<widget class="radio_button" id="genm" auto_size="all" selected="true" group="genG">
+								<translation id="text" translation_id="278121" type="use" value="Male[COMMENT: add_manager_panel; choosing your manager's gender when starting a new game]" />
+								<record id="click_event">
+									<flags id="event_id" value="chge" />
+									<!-- The PROP_GENDER for this event needs to match the facegen FGG_MALE/FEMALE values: -1 = MALE, 1 = FEMALE -->
+									<flags id="mgen" value="-1" />
+								</record>
+							</widget>
+							
+							<widget class="radio_button" id="genf" auto_size="all" selected="false" group="genG">
+								<translation id="text" translation_id="278120" type="use" value="Female[COMMENT: add_manager_panel; choosing your manager's gender when starting a new game]" />
+								<record id="click_event">
+									<flags id="event_id" value="chge" />
+									<!-- The PROP_GENDER for this event needs to match the facegen FGG_MALE/FEMALE values: -1 = MALE, 1 = FEMALE -->
+									<flags id="mgen" value="1" />
+								</record>
+							</widget>
+						</container>
+					</container>
+					
 					<!-- Nationality -->
 					<container class="inner_subtle_box" navigation_container="true">
-						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="4" vertical_gap="2" horizontal_inset="6" />
+						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
 
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" horizontal_offset="0" vertical_inset="0" />
@@ -107,8 +138,6 @@
 							</container>
 							
 							<container>
-								<global id="hidden" name="is_fmt" />
-
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
 								
 								<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="text" font="title" size="large">
@@ -126,30 +155,18 @@
 									<global id="horizontal_gap" name="ui.split_button_row_gap" />
 								</attachment_group>
 								
-								<!-- Regular skin -->
+								<!-- NOTE: Shares an ID with FMT's version of this widget which is a different widget class -->
 								<widget class="filter_edit_box" id="natn" appearance="edit boxes/custom/selection/box" alignment="left,centre_y">
-									<string id="remove_if" value="ui.is_fmt_controller_skin, platform_is_handheld" />
 									<flags id="changed_event" value="natn" />
 									<flags id="select_on_focus" value="true" />
 									<boolean id="validate_string" value="true" />
 								</widget>
 
 								<widget class="icon_button" click_event="napu" id="napu" appearance="buttons/subtle/split/right/button" icon="icons/16px/down" auto_size="horizontal">
-									<string id="remove_if" value="ui.is_fmt_controller_skin, platform_is_handheld" />
-								</widget>
-								
-								<!-- Controller skin -->
-								<widget class="subtle_popup_button" id="natn" alignment="left,centre_y">
-									<string id="create_if" value="ui.is_fmt_controller_skin, platform_is_handheld" />
-									<flags id="select_event" value="natn" />
-									<flags id="select_on_focus" value="true" />
-									<boolean id="validate_string" value="true" />
 								</widget>
 							</container>
 							
 							<container>
-								<global id="hidden" name="is_fmt" />
-
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend">
 									<global id="horizontal_gap" name="ui.split_button_row_gap" />
 								</attachment_group>
@@ -167,7 +184,6 @@
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
 
 							<widget class="widget_popup_button" Jcol="text" colour="disabled" secondary_icon="icons/16px/edit" appearance="" auto_size="all" id="mLan" popup_alignment="left,bottom" widget_type="container">
-								<global id="hidden" name="is_fmt" />
 								<translation id="text" translation_id="420653" type="use" value="Other Languages Spoken[COMMENT: add manager profile panel, section for displaying and choosing additional spoken languages]" />
 								<record id="widget_properties" file="human/add manager language information dialog" width="500" />
 								<record id="modal_popup_properties" file="modal popup panel auto sized" propagate_mouse_events="false" />
@@ -177,7 +193,7 @@
 					
 					<!-- DOB -->
 					<container class="inner_subtle_box" navigation_container="true">
-						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="4" vertical_gap="2" horizontal_inset="6" />
+						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
 						
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
@@ -253,9 +269,7 @@
 					
 					<!-- Favourite Team -->
 					<container class="inner_subtle_box" navigation_container="true">
-						<global id="hidden" name="is_fmt" />
-
-						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="4" vertical_gap="2" horizontal_inset="6" />
+						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
 						
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
@@ -276,7 +290,7 @@
 								<boolean id="validate_string" value="true" />
 							</widget>
 
-							<widget class="icon_button" click_event="fapu" id="fapu" appearance="buttons/subtle/split/right/button" icon="icons/16px/down" auto_size="horizontal" />
+							<widget class="icon_button" click_event="fapu" id="fapu" appearance="buttons/subtle/split/right/button" icon="icons/16px/down" auto_size="horizontal"/>		
 						</container>
 						
 						<container>
@@ -292,7 +306,8 @@
 					
 					<!-- Experience Level -->
 					<container class="inner_subtle_box" navigation_container="true">
-						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="6" vertical_gap="2" horizontal_inset="6" />
+						<string id="remove_if" value="tutorials_disabled"/>
+						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
 						
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-3,-4" horizontal_offset="0" vertical_inset="0" />
@@ -309,7 +324,7 @@
 						</container>
 						
 						<container>
-							<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="6" vertical_gap="4" horizontal_inset="6" />
+							<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
 
 							<widget class="text" id="expT" alignment="left,centre_y" colour="faded text" multiline="true" auto_size="vertical" hidden="true">
 								<translation id="text" translation_id="466440" type="use" value="Experienced managers will be assigned the majority of Staff Responsibilities, whilst staff welcomes and introductions will be kept to a minimum.[COMMENT: toggle for responsibilities relating to Tutorial mode; asks the user if they consider themselves experienced, this is the explanatory tool-tip]" />

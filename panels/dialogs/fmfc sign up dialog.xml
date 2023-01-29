@@ -1,0 +1,127 @@
+﻿<panel class="inner_subtle_box">
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="10" horizontal_alignment="horizontal" horizontal_inset="30" />
+
+	<widget class="label" alignment="centre_x,centre_y" auto_size="horizontal" colour="white" font="title" size="12">
+		<translation id="text" translation_id="541490" type="use" value="Step One[COMMENT: AREA: FMFC Dialog; SUB-AREA: sign up panel FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Subtitle for the first step in becoming an FMFC member]" />
+
+	</widget>
+
+	<container class="inner_subtle_box">
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+		<!-- Name(s) -->
+		<container>
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" horizontal_gap="10" horizontal_offset="2" vertical_alignment="top" vertical_inset="0" />
+
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_gap="0" horizontal_offset="0" vertical_alignment="top" vertical_inset="0" />
+
+					<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="white" font="title">
+						<translation id="text" translation_id="298759" type="use" value="First Name[comment first name of a new untitled user]" />
+					</widget>
+
+					<widget class="label" value="*" alignment="left,centre_y" auto_size="horizontal" colour="white" font="title"/>
+
+
+				</container>
+				<widget class="edit_box" id="fiNa" alignment="left,centre_y" return_event="susu" disable_profanity_check="true"/>
+			</container>
+
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+				<container>
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_gap="0" horizontal_offset="0" vertical_alignment="top" vertical_inset="0" />
+
+					<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="white" font="title">
+						<translation id="text" translation_id="298760" type="use" value="Last Name[comment: last name of a new untitled user]" />
+					</widget>
+
+					<widget class="label" value="*" alignment="left,centre_y" auto_size="horizontal" colour="white" font="title"/>
+
+
+				</container>
+				<widget class="edit_box" id="laNa" alignment="left,centre_y" return_event="susu" disable_profanity_check="true" />
+			</container>
+
+		</container>
+
+		<!-- Email -->
+		<container>
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1, 16" horizontal_gap="10" horizontal_offset="2" vertical_alignment="top" vertical_inset="10" />
+
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+				<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="white" font="title">
+					<translation id="text" translation_id="541480" type="use" value="Email*[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label for the email address field, asterisk to dentoe that it is a required field]" />
+				</widget>
+
+				<widget class="edit_box" id="ema1" alignment="left,centre_y" return_event="susu" disable_profanity_check="true"/>
+			</container>
+
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+				<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="white" font="title">
+					<translation id="text" translation_id="541491" type="use" value="Confirm email*[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label for a second email address field, asterisk to dentoe that it is a required field]" />
+				</widget>
+
+				<widget class="edit_box" id="ema2" alignment="left,centre_y" return_event="susu" disable_profanity_check="true"/>
+			</container>
+
+			<widget class="button" click_event="shpp" alignment="left,centre_y" appearance="icons/custom/more/button" width="16" height="16" red_replacement="text" navigation_focus_target="false">
+				<layout class="stick_to_sides_attachment" alignment="bottom" inset="0,0,16,0" />
+			</widget>
+
+		</container>
+
+		<!-- Password -->
+		<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="white" font="title">
+			<translation id="text" translation_id="541485" type="use" value="Password*[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label for the password field, asterisk to dentoe that it is a required field]" />
+		</widget>
+
+		<widget class="edit_box" hide_text="true" id="pswd" alignment="left,centre_y" return_event="susu" disable_profanity_check="true"/>
+
+
+		<widget class="label" alignment="left,centre_y" auto_size="vertical" colour="white" multiline="true" auto_size_minimum_height="50">
+			<translation id="text" translation_id="541492" type="use" value="Password must be between 8 and 16 characters with at least one upper case and one lower case character.[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign up panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label to explain the requirements of an FMFC account password]" />
+		</widget>
+
+		<container>
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right" vertical_offset="10" />
+
+			<widget class="icon_button" click_event="mcan" auto_size="horizontal">
+				<translation id="text" translation_id="229828" type="use" value="Cancel" />
+			</widget>
+
+			<widget class="primary_icon_button" click_event="susu" auto_size="horizontal" icon="icons/16px/tick">
+				<translation id="text" translation_id="541493" type="use" value="Submit[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign up panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Button text for submitting the new account form]" />
+			</widget>
+		</container>
+
+	</container>
+
+	<!-- Error Messages -->
+	<container class="contrast_box" id="eroM" red_replacement="bg negative" height="35" hidden="true">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	</container>
+
+	<!-- Buttons -->
+	<container height="30">
+		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" vertical_inset="10" horizontal_gap="10" />
+
+		<widget class="label" auto_size="horizontal" alignment="centre_x,centre_y" height="30">
+			<translation id="text" translation_id="541494" type="use" value="Already a member?[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign up panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Label to suggest that a user may want to sign into an existing account instead creating a new one]" />
+		</widget>
+
+		<widget class="button" click_event="shsi" auto_size="all" appearance="buttons/subtle/normal/button">
+			<translation id="text" translation_id="541479" type="use" value="Sign in now[COMMENT: AREA: FMFC Dialog; SUB-AREA: Sign in panel; FR-BN: 36526; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Button text go to the FMFC sign in page]" />
+		</widget>
+	</container>
+
+</panel>
