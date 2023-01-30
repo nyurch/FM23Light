@@ -1,42 +1,32 @@
 ﻿<panel height="700" draw_horizontal_dividers="true">
 	<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" horizontal_inset="0" vertical_gap="12" />
-
 	<container>
 		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left,extend" horizontal_layout="270,200,-1" />
-
 		<container class="client_object_viewer_xml_panel">
-
 			<record id="object_property">
 				<integer id="get_property" value="objt" />
 				<integer id="set_property" value="objt" />
 			</record>
-
 			<attachment_group class="horizontal_arrange_autosize_all_centre" horizontal_alignment="left" horizontal_offset="0" />
-
 			<widget class="object_portrait_picture" height="120" width="120" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
 				<record id="object_property">
 					<integer id="get_property" value="objt" />
 				</record>
 			</widget>
-
 			<container>
 				<attachment_group class="vertical_arrange_autosize_all" vertical_alignment="top" vertical_offset="0" vertical_gap="0" />
-
 				<widget class="team_button" icon_enabled="false" mode="1" auto_size="all" style="semi_bold" alignment="left,centre_y" navigation_focus_target="true">
 					<record id="object_property">
 						<integer id="get_property" value="objt" />
 					</record>
 				</widget>
-
 				<widget class="division_position_button" display_format="1" size="8" auto_size="all" alignment="left,centre_y" colour="faded text">
 					<record id="object_property">
 						<integer id="get_property" value="Tpos" />
 					</record>
 				</widget>
 			</container>
-
 		</container>
-
 		<container class="main_subtle_box_no_margin" height="200" >
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 			<container class="main_subtle_box_no_margin">
@@ -44,44 +34,42 @@
 			<container class="club_overview_stadium_panel" file="none">
 				<attachment class="vertical_arrange" vertical_layout="30,-1,30" vertical_gap="0"/>
 				<record id="object_property" get_property="Tsre" set_property="objt" dont_set_hint="true"/>
-			    <container class="plain_box" appearance="boxes/contrast/no margin/top/paper" red_replacement="primary">
+				<container class="plain_box" appearance="boxes/contrast/no margin/top/paper" red_replacement="primary">
 					<layout class="stick_to_sides_attachment" apply_to_children="true" inset="2"/>
-                <widget class="client_object_label" id="namV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
-                    <record id="object_property">
-                        <integer id="get_property" value="objt"/>
-                    </record>
+				<widget class="client_object_label" id="namV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
+					<record id="object_property">
+						<integer id="get_property" value="objt"/>
+					</record>
 				</widget>
-                </container>
-            <container>
-                <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-                <widget class="stadium_picture" file="none" scale_picture="true" keep_aspect_ratio="true">
-                    <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="-50"/>
-                    <record id="object_property" get_property="objt" set_property="objt"/>
-                    <widget class="picture" file="pictures/stadiums/stadium_bg" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x"/>
-                    <widget class="picture" id="STPC" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x">
-                        <layout class="centre_in_parent_attachment" alignment="all"/>
-                        <record id="object_property">
-                            <integer id="get_property" value="text"/>
-                            <string id="set_property" value="hint"/>
-                        </record>
-                    </widget>
-                </widget>
-            </container>
-            <container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="primary">
-                <layout class="stick_to_sides_attachment" apply_to_children="true" inset="2"/>
+				</container>
+			<container>
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+				<widget class="stadium_picture" file="none" scale_picture="true" keep_aspect_ratio="true">
+					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="-50"/>
+					<record id="object_property" get_property="objt" set_property="objt"/>
+					<widget class="picture" file="pictures/stadiums/stadium_bg" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x"/>
+					<widget class="picture" id="STPC" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x">
+						<layout class="centre_in_parent_attachment" alignment="all"/>
+						<record id="object_property">
+							<integer id="get_property" value="text"/>
+							<string id="set_property" value="hint"/>
+						</record>
+					</widget>
+				</widget>
+			</container>
+			<container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="primary">
+				<layout class="stick_to_sides_attachment" apply_to_children="true" inset="2"/>
 					<widget class="dashed_number_label" id="ScpV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
 						<record id="object_property">
 							<integer id="get_property" value="Scpy"/>
 						</record>
 					</widget>
-            </container>
+			</container>
 			</container>
 			</container>
 		</container>
-
 		<container class="client_object_viewer_xml_panel" id="fbin">
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right" horizontal_offset="0" vertical_alignment="vertical" />
-
 			<container width="400">
 				<attachment_group class="vertical_arrange" vertical_alignment="top" offset="5" gap="5" />
 				<widget class="text" auto_size="all" alignment="all" colour="accent" style="bold" font="title">
@@ -95,9 +83,7 @@
 					</record>
 				</widget>
 			</container>
-
 			<widget class="vertical_divider" />
-
 			<container width="170">
 				<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" offset="5" gap="5" />
 				<widget class="text" auto_size="all" alignment="all" colour="accent" style="bold" font="title">
@@ -121,56 +107,39 @@
 					</record>
 				</widget>
 			</container>
-
 			<widget class="vertical_divider" />
-
 			<widget class="weather_indicator_panel_centred" id="FxWe" width="170">
 				<record id="object_property">
 					<integer id="get_property" value="FxWe" />
 				</record>
 			</widget>
-
 		</container>
-
 	</container>
-
 	<container>
 		<attachment_group class="horizontal_arrange" horizontal_layout="820,-1" horizontal_offset="0" vertical_inset="0" horizontal_gap="8" />
-
 		<container class="inner_contrast_box_no_margin" red_replacement="pitch_box_background">
 			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="4" vertical_gap="-4" horizontal_inset="0" />
-
 			<container>
 				<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="fill" horizontal_offset="0" />
-
 				<container>
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="2" horizontal_alignment="horizontal" horizontal_inset="4" />
-
 					<widget class="text" auto_size="vertical" font="label" colour="faded white">
 						<translation id="text" translation_id="348204" type="use" value="Mentality[Comment: prefix used before mentality type text on quick tactical instruction button during match]" />
 					</widget>
-
 					<widget class="mentality_label" id="ment" auto_size="vertical" font="semibold" colour="white" navigation_focus_target="false">
 						<record id="primary_icon_properties" red_replacement="white" />
 					</widget>
-
 				</container>
-
 				<container>
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="2" horizontal_alignment="horizontal" horizontal_inset="4" />
-
 					<widget class="text" auto_size="vertical" font="label" colour="faded white">
 						<translation id="text" translation_id="465563" type="use" value="Team Fluidity[COMMENT: team tactical instruction, reference ID 364787, team shape is now team fluidity]" />
 					</widget>
-
 					<widget class="fluidity_label" id="flui" auto_size="vertical" font="semibold" colour="white" navigation_focus_target="false">
 						<record id="primary_icon_properties" red_replacement="white" />
 					</widget>
-
 				</container>
-
 			</container>
-
 			<widget class="pitch_with_tactics" id="ptpc" height="300" player_icon_file="tactics/tactics icon info panel news item" icon_flags="show_name,use_player_kits_front,show_preview_info_popup">
 				<integer id="pitch_horizontal_padding" value="40" />
 				<integer id="pitch_vertical_padding" value="25" />
@@ -180,54 +149,55 @@
 				<integer id="pitch_kit_height" value="42" />
 			</widget>
 		</container>
-
 		<container>
-			<attachment_group class="vertical_arrange" vertical_layout="-5,-2" vertical_offset="0" horizontal_inset="0" />
-
-			<container class="inner_box">
-				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="4" />
-
-				<container>
-					<attachment_group class="horizontal_arrange_vertical_autosize" />
-
-
-					<widget class="link_button_title" id="scln" auto_size="all" alignment="left,centre_y">
-						<translation id="text" translation_id="491981" type="use" value="View Full Scout Report[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scout Report; FR-BN: 26109; TONE: Formal; CHARLIMIT: Short; REF-ID: n/a; NOTE: title text to view the full and comprehensive opposition scout report inbox item]" />
+			<!--background-->
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+			<widget class="background" file="backgrounds" id="bgnd">
+				<layout class="stick_to_sides_attachment" alignment="top" inset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+				<layout class="stick_to_sides_attachment" alignment="left" offset="0" gap="0" />
+				<record id="object_property">
+				<integer id="get_property" value="bgnd" />
+				<integer id="set_property" value="file" />
+				</record>
+			</widget>
+			<!--overlay-->
+			<widget class="picture" file="boxes/custom/nyurch/paper" scale_picture="true">
+				<boolean id="keep_aspect_ratio" value="false" />
+			</widget>
+			<container>
+				<attachment_group class="vertical_arrange" vertical_layout="-5,-2" vertical_offset="0" horizontal_inset="0" />
+				<container class="inner_box">
+					<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="4" />
+					<container>
+						<attachment_group class="horizontal_arrange_vertical_autosize" />
+						<widget class="link_button_title" id="scln" auto_size="all" alignment="left,centre_y">
+							<translation id="text" translation_id="491981" type="use" value="View Full Scout Report[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scout Report; FR-BN: 26109; TONE: Formal; CHARLIMIT: Short; REF-ID: n/a; NOTE: title text to view the full and comprehensive opposition scout report inbox item]" />
+						</widget>
+					</container>
+					<widget class="team_pro_con_summary_panel">
+						<record id="object_property">
+							<integer id="get_property" value="objt" />
+							<integer id="set_property" value="objt" />
+						</record>
 					</widget>
-
 				</container>
-
-				<widget class="team_pro_con_summary_panel">
-					<record id="object_property">
-						<integer id="get_property" value="objt" />
-						<integer id="set_property" value="objt" />
-					</record>
-				</widget>
-
-			</container>
-
-			<container class="inner_subtle_box" id="mpcn">
-				<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" />
-				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
-
-				<string id="skin_style" value="title link" />
-
-				<widget class="link_button" id="mpln" section="TeOv" auto_size="all" alignment="left,centre_y" embed_in_frame="true">
-					<translation id="text" translation_id="308600" type="use" value="Match Preparation[COMMENT - team screen section for match preparation]" />
-					<layout class="stick_to_sides_attachment" alignment="left" embed_in_frame="true" inset="10" />
-					<layout class="stick_to_sides_attachment" alignment="top" embed_in_frame="true" inset="8" />
-				</widget>
-
-				<container class="scrolling_box">
-					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
-					<widget class="text" id="mpds" auto_size="vertical" />
+				<container class="inner_subtle_box" id="mpcn">
+					<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+					<string id="skin_style" value="title link" />
+					<widget class="link_button" id="mpln" section="TeOv" auto_size="all" alignment="left,centre_y" embed_in_frame="true">
+						<translation id="text" translation_id="308600" type="use" value="Match Preparation[COMMENT - team screen section for match preparation]" />
+						<layout class="stick_to_sides_attachment" alignment="left" embed_in_frame="true" inset="10" />
+						<layout class="stick_to_sides_attachment" alignment="top" embed_in_frame="true" inset="8" />
+					</widget>
+					<container class="scrolling_box">
+						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+						<widget class="text" id="mpds" auto_size="vertical" />
+					</container>
+					<widget class="match_training_focus_popup_button" id="mppo" height="30" />
 				</container>
-
-				<widget class="match_training_focus_popup_button" id="mppo" height="30" />
-
 			</container>
-
 		</container>
 	</container>
-
 </panel>
