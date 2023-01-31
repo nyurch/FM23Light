@@ -1,23 +1,5 @@
-<panel height="680">
+<panel>
 
-	<string id="skin_style" value="subtle box" />
-	<!--background-->
-	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-	<widget class="background" file="backgrounds" id="bgnd">
-		<layout class="stick_to_sides_attachment" alignment="top" inset="0" />
-		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
-		<layout class="stick_to_sides_attachment" alignment="left" offset="0" gap="0" />
-		<record id="object_property">
-		<integer id="get_property" value="bgnd" />
-		<integer id="set_property" value="file" />
-		</record>
-	</widget>
-	<!--overlay-->
-	<widget class="picture" file="boxes/custom/nyurch/paper" scale_picture="true">
-		<boolean id="keep_aspect_ratio" value="false" />
-	</widget>
-
-	<container>
 	<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="220,1,-1,-1" horizontal_alignment="fill" horizontal_offset="0" vertical_inset="0" />
 	<!--Team-->
 	<container class="main_subtle_box">
@@ -149,7 +131,6 @@
 			</widget>
 		</container>
 		<widget class="table" mode="fill_rows" id="weak" layout="-1" inset="0" auto_size="vertical" fixed_size_rows="false" row_height="20" row_spacing="10" auto_size_rows="true" />
-	</container>
 	</container>
 
 </panel>
