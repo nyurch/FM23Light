@@ -4,13 +4,13 @@
         <attachment class="vertical_arrange" vertical_layout="-2,-5,-2" vertical_gap="5" vertical_offset="10"/>
         <container>
             <attachment class="vertical_arrange" vertical_layout="-1,-1" vertical_gap="0"/>
-            <widget class="fixture_opponent_team_button" icon_enabled="false" show_button_appearance="false" size="8" font="lcsb" alignment="centre_x,bottom,can_scale" colour="text">
+            <widget class="fixture_opponent_team_button" icon_enabled="false" show_button_appearance="false" size="8" font="title" alignment="centre_x,bottom,can_scale" colour="text">
                 <record id="object_property" dont_set_hint="true">
                     <integer id="get_property" value="fopt"/>
                     <integer id="set_property" value="valu"/>
                 </record>
             </widget>
-            <widget class="fixture_venue_label" format="1" colour="title" font="lcsb" size="8" alignment="centre_x,top,can_scale">
+            <widget class="fixture_venue_label" format="1" colour="title" font="title" size="8" alignment="centre_x,top,can_scale">
                 <record id="object_property" dont_set_hint="true">
                     <integer id="get_property" value="FxVn"/>
                     <integer id="set_property" value="valu"/>
@@ -34,10 +34,10 @@
             </record>
         </widget>
         <container><attachment class="vertical_arrange" vertical_layout="-1,-1" vertical_gap="0"/>
-            <widget class="game_formatted_label" format="([%comp#1-3letter])" colour="title" font="lcsb" size="8" alignment="centre_x,top,can_scale">
+            <widget class="game_formatted_label" format="([%comp#1-3letter])" colour="title" font="title" size="8" alignment="centre_x,top,can_scale">
                 <record id="object_property" get_property="fxCo" set_property="var1"/>
             </widget>
-            <widget class="text" id="time" size="8" font="lcsb" alignment="centre_x,top" colour="text"/>
+            <widget class="text" id="time" size="8" font="title" alignment="centre_x,top" colour="text"/>
         </container>
     </container>
 </panel>
