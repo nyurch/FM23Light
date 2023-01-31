@@ -40,7 +40,7 @@
 		<container>
 		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
 			<!--division logo-->
-			<widget class="object_portrait_picture" id="lepi" height="36">
+			<widget class="object_portrait_picture" id="lepi" height="80">
 				<boolean id="scale_picture" value="true"/>
 				<boolean id="keep_aspect_ratio" value="true"/>
 				<flags id="image_alignment" value="centre"/>
@@ -60,7 +60,7 @@
 		<container>
 		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
 		<!--country logo-->
-			<widget class="object_portrait_picture" id="cnpi" height="26">
+			<widget class="object_portrait_picture" id="cnpi" height="80">
 				<boolean id="scale_picture" value="true"/>
 				<boolean id="keep_aspect_ratio" value="true"/>
 				<flags id="image_alignment" value="centre"/>
