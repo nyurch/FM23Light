@@ -66,7 +66,7 @@
 	<colour name="fg grey darker" 															value="grey 800" />
 
 	<!-- Background colours - used for background, boxes etc -->
-	<colour name="bg lighter" 																value="rgb(247,250,251)"/>
+	<colour name="bg lighter" 																value="rgb(245,248,250)"/>
 	<colour name="bg" 																		value="rgb(240,245,248)"/>
 	<colour name="bg darker" 																value="rgb(233,238,241)"/>
 	<colour name="bg alpha" 																value="rgba(244,250,253,0.8)"/>
@@ -201,8 +201,8 @@
 	<colour name="primary_button" 							value="fg accent"/>
 	<colour name="primary_button_text" 						value="bg"/>
 	<colour name="view_button" 								value="fg"/>
-	<colour name="link_button" 								value="rgb(48,79,254)"/>
-	<colour name="link_button_inbox" 						value="rgb(48,79,254)"/>
+	<colour name="link_button" 								value="rgb(20,141,154)"/>
+	<colour name="link_button_inbox" 						value="rgb(20,141,154)"/>
 	<colour name="conversation_statement_button" 			value="fg"/>
 	<colour name="conversation_statement_selected_button" 	value="fg cyan"/>
 	<colour name="standard_label" 							value="bg info"/>
@@ -241,7 +241,7 @@
 	<colour name="standard_menu_shadow" 					value="shadow"/>
 	<colour name="menu_highlight" 							value="fg accent"/>
 	<!-- Used for _over appearances and separator -->
-	<colour name="menu selected" 							value="white"/> <!-- or black? -->
+	<colour name="menu selected" 							value="white"/>
 
 	<!-- Slider-->
 	<colour name="slider_body" 								value="fg"/>
@@ -1508,9 +1508,9 @@
 	<colour name="store_colour" 							value="bg"/>
 	<colour name="store_background" 						value="bg darker" />
 	<colour name="store_foreground" 						value="bg lighter" />
-	<colour name="store_dialog_text" 						value="white" />
-	<colour name="store_dialog_faded_text" 					value="faded white" />
-	<colour name="store_button" 							value="rgb(15,15,15)" />
+	<colour name="store_dialog_text" 						value="black" />
+	<colour name="store_dialog_faded_text" 					value="faded black" />
+	<colour name="store_button" 							value="rgb(215,215,215)" />
 	<colour name="store_button_border" 						value="black" />
 	<colour name="fmt_downloads_colour" 					value="fg accent" />
 	<colour name="wallet_colour" 							value="rgb(136,120,191)" />
