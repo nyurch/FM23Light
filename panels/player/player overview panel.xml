@@ -109,7 +109,7 @@
 								</container>
 								<container priority="1">
 								<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0"/>
-									<widget class="age_label" size="13" font="lcsb" colour="text" alignment="middle,bottom" multiline="false">
+									<widget class="age_label" size="13" font="title" colour="text" alignment="middle,bottom" multiline="false">
 										<record id="object_property" get_property="PSag" />
 									</widget>
 									<widget class="label" size="8" alignment="middle,top" font="title" colour="title" multiline="false">
@@ -118,7 +118,7 @@
 								</container>
 								<container priority="2">
 									<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0" multiline="false"/>
-									<widget class="wage_label" format="2" size="13" font="lcsb" colour="text" alignment="middle,bottom">
+									<widget class="wage_label" format="2" size="13" font="title" colour="text" alignment="middle,bottom">
 										<record id="object_property" get_property="Pcwg" />
 									</widget>
 									<widget class="label" size="8" alignment="middle,top" font="title" colour="title" multiline="false">
@@ -127,7 +127,7 @@
 								</container>
 								<container priority="4">
 								<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0"/>
-									<widget class="contract_expiry_button" size="13" font="lcsb" colour="text" alignment="middle,bottom" multiline="false">
+									<widget class="contract_expiry_button" size="13" font="title" colour="text" alignment="middle,bottom" multiline="false">
 										<record id="object_property" get_property="Pcex" />
 									</widget>
 									<widget class="label" size="8" alignment="middle,top" font="title" colour="title" multiline="false">
@@ -146,7 +146,7 @@
 								</container>
 								<container priority="3">
 								<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0"/>
-									<widget class="scout_stars_label" size="13" font="lcsb" colour="text" alignment="centre_x,centre_y" hint_if_no_value="-" multiline="false">
+									<widget class="scout_stars_label" size="13" font="title" colour="text" alignment="centre_x,centre_y" hint_if_no_value="-" multiline="false">
 										<layout class="stick_to_sides_attachment" alignment="bottom" inset="31"/>
 										<record id="object_property" get_property="Pcab" />
 									</widget>
@@ -156,7 +156,7 @@
 								</container>
 								<container priority="4">
 								<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0"/>
-									<widget class="scout_stars_label" size="13" font="lcsb" colour="text" alignment="centre_x,centre_y" hint_if_no_value="-" multiline="false">
+									<widget class="scout_stars_label" size="13" font="title" colour="text" alignment="centre_x,centre_y" hint_if_no_value="-" multiline="false">
 										<layout class="stick_to_sides_attachment" alignment="bottom" inset="31"/>
 										<record id="object_property" get_property="Ppab" />
 									</widget>
