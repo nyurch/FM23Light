@@ -1434,11 +1434,11 @@
 	<!-- Processing -->
 	<colour name="world_news_background" 					value="teal 900"/>
 	<!-- World news background colour - red_replacement -->
-	<colour name="processing_box_background" 				value="rgb(240,242,246)"/>
+	<colour name="processing_box_background" 				value="rgb(202,219,239)"/>
 	<!-- Processing panel hints background - red_replacement -->
 	<colour name="processing_hints_background" 				value="rgb(44,44,44)"/>
 	<!-- Processing box background colour - red_replacement -->
-	<colour name="processing_box_border" 					value="bg"/>
+	<colour name="processing_box_border" 					value="fg"/>
 	<!-- Processing box border - blue_replacement -->
 	<colour name="processing_box_shadow" 					value="shadow"/>
 	<!-- Processing box shadow colour - green_replacement -->
