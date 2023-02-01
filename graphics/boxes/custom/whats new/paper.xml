@@ -1,0 +1,13 @@
+﻿<!-- image properties -->
+<properties>
+
+	<!-- image borders -->
+	<!-- these determine how many pixels any content is inset from each side of the image -->
+	<!-- (for example, in the case of a button, the content would be the text label) -->
+	<record id="image_borders" left="25" right="25" top="25" bottom="50"/>
+
+	<record id="image_slices" left="335" right="360" />
+
+	<boolean id="blurred" value="false"/>
+	
+</properties>
