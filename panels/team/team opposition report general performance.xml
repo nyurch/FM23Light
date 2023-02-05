@@ -2,7 +2,7 @@
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 	<container class="main_box">
-		<layout class="arrange_vertical_attachment" layout="30, -1" offset="0" gap="0"/>
+		<layout class="arrange_vertical_attachment" layout="50, -1" offset="0" gap="0"/>
 		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 		<widget class="subtle_popup_button" id="pfdd" auto_size="all" alignment="left,centre_y" select_event="slpf" fixed="false" />
@@ -11,19 +11,20 @@
 			<layout class="arrange_vertical_attachment" layout="-1, 30, -1" offset="0" gap="0" />
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-			<container class="tabbed_container" id="tabC" default_item="LiUp">
+			<container class="tabbed" id="tabC" default="LiUp">
 
 				<container id="LiUp">
 					<translation id="title" translation_id="247239" type="use" value="Line Up" />
 
-					<attachment_group class="vertical_arrange" vertical_layout="100,-1" />
+					<attachment_group class="vertical_arrange" vertical_layout="150,-1" />
 					<container class="client_object_viewer_xml_panel" file="team/team opposition report previous result score panel" id="opmr" />
 
-					<widget class="pitch_with_tactics" id="plin" pitch_alignment="centre,can_scale" vertical="true" player_icon_file="tactics/tactics icon info panel match stats" icon_flags="show_name,use_player_kits_front,show_team_name,show_selection_image,show_name_highlight,show_extra_details" pitch_vertical_padding="0" pitch_draw_grass="true" pitch_line_colour="faded text"/>
-					
+					<widget class="pitch_with_tactics" id="plin" pitch_alignment="centre,can_scale" vertical="true" player_icon_file="tactics/tactics icon welcome to team panel" icon_flags="show_name,show_number,show_extra_details,dont_colour_names,dont_fade_icons" pitch_vertical_padding="40" pitch_draw_grass="true" pitch_draw_goals="true" pitch_line_colour="white"/>
 				</container>
 
-				<container id="HeMa" class="main_contrast_box" red_replacement="bg blue 100">
+
+
+				<container id="HeMa" class="main_box" red_replacement="">
 					<translation id="title" translation_id="420623" type="use" value="Heat Map[COMMENT: match analysis, graphic to display the frequency of activity and touches in each area of the pitch]" />
 
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
@@ -41,12 +42,6 @@
 					<translation id="title" translation_id="242528" type="use" value="Passing[COMMENT non-player favourite playing style]" />
 
 					<attachment_group class="horizontal_arrange" horizontal_alignment="fill" />
-					<widget class="preselected_match_chalkboard_panel" vertical="true" force_left_to_right_events="true" id="pChk" enable_popup="false">
-						<list id="chalkboard_events_to_display">
-							<!-- Pass Combinations -->
-								<integer value="63"/>
-						</list>
-					</widget>
 
 					<container>
 						<attachment_group class="vertical_arrange" vertical_alignment="fill" />
@@ -89,7 +84,7 @@
 					</container>
 				</container>
 
-				<container id="KeyM" class="main_contrast_box" red_replacement="bg blue 100">
+				<container id="KeyM" class="main_box" red_replacement="">
 					<translation id="title" translation_id="483633" type="use" value="Key Moments[COMMENT: Refers to events within a match that were critical to the match result]" />
 
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
@@ -106,6 +101,10 @@
 						</list>
 					</widget>
 				</container>
+
+
+				
+
 			</container>
 		</container>
 	</container>
