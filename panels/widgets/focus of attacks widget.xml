@@ -1,0 +1,29 @@
+﻿<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<widget class="graph" id="grph" show_instant_hint="false">
+		<record id="x_axis">
+			<record id="label_font" font="label" colour="faded black"/>
+			<record id="line_width" value="0" />
+			<list id="labels">
+				<record value="0">
+					<translation id="text" translation_id="229418" type="use" value="Left" />
+				</record>
+				<record value="1">
+					<translation id="text" translation_id="447665" type="use" value="Middle[COMMENT: Focus of attack down middle of the pitch]" />
+				</record>
+				<record value="2">
+					<translation id="text" translation_id="229419" type="use" value="Right" />
+				</record>
+			</list>
+		</record>
+
+		<record id="y_axis" hidden="true" />
+
+		<list id="graph_series">
+			<record id="bar1" type="bar" inset="15" colour="focus_of_attack_bar_colour" />
+		</list>
+
+	</widget>
+
+</panel>
