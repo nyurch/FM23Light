@@ -264,6 +264,14 @@
 					</container>
 				</container>
 			</container>
+			<!-- past meetings -->
+			<container id="pmit" class="team_next_match_past_meetings_panel" file="team/team next match past meetings">
+				<translation id="title" translation_id="308590" type="use" value="Past Meetings[COMMENT: Text on match preparation fixture tab]" />
+				<record id="object_property">
+					<integer id="get_property" value="objt" />
+					<integer id="set_property" value="objt" />
+				</record>
+			</container>
 			<!-- past positions -->
 			<container id="ppos">
 				<translation id="title" translation_id="243284" type="use" value="Past Positions" />
