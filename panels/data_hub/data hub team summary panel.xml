@@ -1,0 +1,179 @@
+﻿<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<container id="mnCN" hidden="true">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+		<container class="horizontal_adaptive_container" id="sort" hidden="true">
+			<!-- formations faced/used -->
+			<container class="main_subtle_box" default_width="450" priority="1">
+				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="4" horizontal_inset="4" />
+					<container class="tabbed" id="gcox" default_item="Fuse" save_session_state="true">
+						<container class="formations_data_analyst_report_panel" id="Fuse" type="0">
+							<record id="object_property" get_property="objt" set_property="objt" />
+							<translation id="title" translation_id="492038" type="use" value="Formations Used[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+						</container>
+						<container class="formations_data_analyst_report_panel" id="FFac" type="1">
+							<record id="object_property" get_property="objt" set_property="objt" />
+							<translation id="title" translation_id="492039" type="use" value="Formations Faced[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+						</container>
+					</container>
+			</container>
+			<!-- team report, xg table, individual match -->
+			<container class="main_subtle_box" minimum_width="500" default_width="-12" priority="1">
+				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="4" horizontal_inset="4" />
+				<container class="tabbed" id="gcop" default_item="asas" save_session_state="true">
+					<!-- team report -->
+					<container minimum_width="500" default_width="-12" id="asas" priority="1">
+						<translation id="title" translation_id="321152" type="use" value="Team Report[COMMENT: Manager Main/Top Menu; link to team report screen]" />
+						<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="4" horizontal_inset="4" />
+							<container>
+								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend" horizontal_offset="0" horizontal_gap ="10" />
+								<widget class="text" id="tmRp" alignment="centre_y,left" auto_size="all" font="title" size="20">
+									<translation id="text" translation_id="321152" type="use" value="Team Report[COMMENT: Manager Main/Top Menu; link to team report screen]" />
+								</widget>
+								<widget class="text" alignment="centre_y,left" auto_size="all" id="cmpT" colour="faded text" />
+								<container>
+									<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right" horizontal_gap="8" />
+									<container class="data_analyst_club_level_widget" id="anLv" />
+								</container>
+							</container>
+							<container height="400">
+								<attachment_group class="horizontal_arrange" horizontal_layout="400,-1" horizontal_gap="8" />
+								<widget class="data_analyst_visualisation_widget" id="xgsh" show_mini_visualisation_text="false" visualisation_type="polygon" data_type="team" category="team_general" file="widgets/data analyst visualisation mini" default_focus="true">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+								<container class="titled_box" auto_size="vertical">
+									<translation id="title" translation_id="331967" type="use" value="Summary[COMMENT: MLS draft panel; summary panel title]" />
+									<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
+									<widget class="text" id="tmSx" auto_size="vertical" />
+								</container>
+							</container>
+							<container navigation_container="true">
+								<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_gap="8" horizontal_inset="4" />
+								<container class="data_analyst_key_findings_widget" id="kfwg">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</container>
+								<container navigation_container="true">
+									<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right" horizontal_gap="8" />
+									<widget class="widget_popup_button" id="staR" auto_size="all" appearance="buttons/subtle/normal/button">
+										<translation id="text" translation_id="335274" type="use" value="Responsibilities[COMMENT: Manager main/top menu: national team options when team name is not visible]" />
+										<string id="popup_alignment" value="centre_x, top" />
+										<string id="widget_type" value="group_responsibility_list_widget" />
+										<record id="widget_properties" file="team/staff responsibility summary popup panel" width="800" height="520" />
+										<layout class="stick_to_sides_attachment" alignment="left,vertical" inset="0" />
+									</widget>
+									<widget class="link_button" section="DHtA" alignment="left,centre_y" auto_size="all">
+										<string id="remove_if" value="ui.is_fmt_controller_skin" />
+										<translation id="text" translation_id="497193" type="use" value="Team Performance[COMMENT: AREA: Achievements; SUB-AREA: In-game achievement names and descriptions; FR-BN: n/a; TONE: Formal; CHARLIMIT: 40; REF-ID: n/a; NOTE: these appear through the Steam client and other platform pop-up notifications when achievements have been hit, cannot be feminised, Achievement is Team Performance]" />
+										<record id="object_property" get_property="objt" />
+									</widget>
+									<widget class="link_button" section="DHpA" alignment="left,centre_y" auto_size="all">
+										<string id="remove_if" value="ui.is_fmt_controller_skin" />
+										<translation id="text" translation_id="538903" type="use" value="Player Performance[COMMENT: AREA: Data Hub; SUB-AREA: Overview; FR-BN: n/a; TONE: Formal; CHARLIMIT: ; REF-ID: n/a; NOTE: Link text to Player Performance panel]" />
+										<record id="object_property" get_property="objt" />
+									</widget>
+								</container>
+							</container>
+						</container>
+						<!-- xg table -->
+						<widget class="client_object_viewer_xml_panel" id="xgtabl"  visualisation_type="9" data_type="1"  category="0" file="generic/analyst xG table">
+							<record id="object_property" get_property="objt" set_property="objt" />
+							<translation id="title" type="use" value="xG Table" />
+						</widget>
+						<!-- individual match -->
+						 <widget class="team_opposition_report_previous_match_analysis_panel" id="eeff" hidden="true" file="team/team opposition report general performance">
+							<translation id="title" translation_id="450807" type="use" value="Individual Match Analysis[COMMENT: Match Analysis Tab Title - Single Match analysis]" />
+							<record id="object_property" get_property="objt" set_property="objt" />
+						</widget>
+				</container>
+			</container>
+			<!-- pitch zone, shooting, creating, defensive -->
+			<container class="main_subtle_box" minimum_width="300" default_width="450" priority="100">
+				<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="8 " />
+					<container class="tabbed" id="gcoi" default_item="dhta" save_session_state="true">
+						<container id="dhta"  appearance="" >
+							<translation id="title" type="use" value="Pitch Zones" />
+							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+								<container>
+									<attachment_group class="vertical_arrange" vertical_alignment="top" vertical_gap="8" />
+									<widget class="data_analyst_visualisation_widget" id="asda" height="250" visualisation_type="zone_map" data_type="team" category="possession_gain" file="widgets/data analyst visualisation mini">
+										<record id="object_property" get_property="objt" set_property="objt" />
+									</widget>
+									<widget class="data_analyst_visualisation_widget" id="asdb" height="250" visualisation_type="zone_map" data_type="team" category="pass_attempts" file="widgets/data analyst visualisation mini">
+										<record id="object_property" get_property="objt" set_property="objt" />
+									</widget>
+									<widget class="data_analyst_visualisation_widget" id="asdc" height="250" visualisation_type="zone_map" data_type="team" category="defensive_actions" file="widgets/data analyst visualisation mini">
+										<record id="object_property" get_property="objt" set_property="objt" />
+									</widget>
+								</container>
+						</container>
+						<container id="dhtb"  appearance="" >
+							<translation id="title" type="use" value="Shooting" />
+							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+							<container>
+								<attachment_group class="vertical_arrange" vertical_alignment="top" vertical_gap="8" />
+								<widget class="data_analyst_visualisation_widget" id="asdd" height="250" visualisation_type="scatter_graph" data_type="team" category="scoring" file="widgets/data analyst visualisation mini">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+								<widget class="data_analyst_visualisation_widget" id="asde" height="250" visualisation_type="scatter_graph" data_type="team" category="shooting" file="widgets/data analyst visualisation mini">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+								<widget class="data_analyst_visualisation_widget" id="asdf" height="250" visualisation_type="scatter_graph" data_type="team" category="output" file="widgets/data analyst visualisation mini">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+							</container>
+						</container>
+						<container id="dhtd"  appearance="" >
+							<translation id="title" type="use" value="Creating" />
+							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+							<container>
+								<attachment_group class="vertical_arrange" vertical_alignment="top" vertical_gap="8" />
+								<widget class="data_analyst_visualisation_widget" id="asdk" height="250" visualisation_type="scatter_graph" data_type="team" category="possession" file="widgets/data analyst visualisation mini">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+								<widget class="data_analyst_visualisation_widget" id="asdl" height="250" visualisation_type="scatter_graph" data_type="team" category="movement" file="widgets/data analyst visualisation mini">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+								<widget class="data_analyst_visualisation_widget" id="asdm" height="250" visualisation_type="scatter_graph" data_type="team" category="passing" file="widgets/data analyst visualisation mini">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+							</container>
+						</container>
+						<container id="dhtc"  appearance="" >
+							<translation id="title" type="use" value="Defensive" />
+							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+							<container>
+								<attachment_group class="vertical_arrange" vertical_alignment="top" vertical_gap="8" />
+								<widget class="data_analyst_visualisation_widget" id="asdg" height="250" visualisation_type="scatter_graph" data_type="team" category="tackling" file="widgets/data analyst visualisation mini">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+								<widget class="data_analyst_visualisation_widget" id="asdh" height="250" visualisation_type="scatter_graph" data_type="team" category="defending" file="widgets/data analyst visualisation mini">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+								<widget class="data_analyst_visualisation_widget" id="asdi" height="250" visualisation_type="scatter_graph" data_type="team" category="aerial" file="widgets/data analyst visualisation mini">
+									<record id="object_property" get_property="objt" set_property="objt" />
+								</widget>
+							</container>
+						</container>
+					</container>
+			</container>
+		</container>
+		<!-- last reports -->
+		<container class="main_subtle_box" id="nort">
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+			<container class="team_report_request_report_panel">
+				<record id="object_property">
+					<string id="get_property" value="objt" />
+					<string id="set_property" value="objt" />
+				</record>
+			</container>
+		</container>
+	</container>
+	<container class="main_subtle_box" id="noTm">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+		<widget class="text" alignment="centre_x,centre_y" id="notT" colour="accent" font="title" size="large">
+			<translation id="text" translation_id="538896" type="use" value="No report to display[COMMENT: AREA: Data Hub; SUB-AREA: Team report overview; FR: 31585; TONE: Formal; CHARLIMIT: None NOTES: Team report hasn't been geenrated]" />
+		</widget>
+	</container>
+
+</panel>
