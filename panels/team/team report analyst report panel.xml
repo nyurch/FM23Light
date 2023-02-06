@@ -1,0 +1,32 @@
+<panel>
+	<layout class="horizontal_arrange" horizontal_layout="400,-1,-1"  />
+	<boolean id="should_force_refresh" value="true"/>
+
+	<container>
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
+		<container class="tabs" id="FtbC" default_item="Fuse" save_session_state="true" save_default_state="true">
+			<container class="formations_data_analyst_report_panel" id="Fuse" type="0">
+				<record id="object_property" get_property="objt" set_property="objt" />
+				<translation id="title" translation_id="492038" type="use" value="Formations Used[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+			</container>
+			<container class="formations_data_analyst_report_panel" id="FFac" type="1">
+				<record id="object_property" get_property="objt" set_property="objt" />
+				<translation id="title" translation_id="492039" type="use" value="Formations Faced[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+			</container>
+		</container>
+	</container>
+
+	<container>
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
+		<container class="goal_data_analyst_report_panel" id="scor" type="0" >
+			<record id="object_property" get_property="objt" set_property="objt" />
+		</container>
+	</container>
+
+	<container>
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
+		<container class="goal_data_analyst_report_panel" id="conc" type="1" >
+			<record id="object_property" get_property="objt" set_property="objt" />
+		</container>
+	</container>
+</panel>
