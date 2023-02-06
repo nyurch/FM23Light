@@ -7,7 +7,7 @@
 			<!-- team report, xg table, individual match -->
 			<container class="main_subtle_box" minimum_width="500" default_width="-1" priority="1">
 				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="4" horizontal_inset="4" />
-				<container class="tabbed" id="gcop" default_item="asas" save_session_state="true">
+				<container class="tabs" id="gcop" default_item="asas" save_session_state="true">
 					<!-- team report -->
 					<container minimum_width="500" default_width="-1" id="asas" priority="1">
 						<translation id="title" translation_id="321152" type="use" value="Team Report[COMMENT: Manager Main/Top Menu; link to team report screen]" />
@@ -76,7 +76,7 @@
 			<!-- formations faced/used -->
 			<container class="main_subtle_box" default_width="400" priority="1">
 				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="4" horizontal_inset="4" />
-					<container class="tabbed" id="gcox" default_item="Fuse" save_session_state="true">
+					<container class="tabs" id="gcox" default_item="Fuse" save_session_state="true">
 						<container class="formations_data_analyst_report_panel" id="Fuse" type="0">
 							<record id="object_property" get_property="objt" set_property="objt" />
 							<translation id="title" translation_id="492038" type="use" value="Formations Used[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
@@ -90,7 +90,7 @@
 			<!-- pitch zone, shooting, creating, defensive -->
 			<container class="main_subtle_box" minimum_width="300" default_width="400" priority="100">
 				<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="8 " />
-					<container class="tabbed" id="gcoi" default_item="dhta" save_session_state="true">
+					<container class="tabs" id="gcoi" default_item="dhta" save_session_state="true">
 						<container id="dhta"  appearance="" >
 							<translation id="title" type="use" value="Pitch Zones" />
 							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
