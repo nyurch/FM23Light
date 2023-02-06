@@ -3,7 +3,7 @@
 	<boolean id="save_default_state" value="true" />
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 
-	<container class="tabbed_container" id="tabC" default_item="goal">
+	<container class="tabs" id="tabC" default_item="goal">
 
 		<container  id="goal" hidden="true">
 			<translation id="title" translation_id="227857" type="use" value="Goals" />
