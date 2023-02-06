@@ -42,33 +42,34 @@
 	<!-- text summary -->
 	<container class="main_subtle_box">
 		<layout class="horizontal_arrange" horizontal_layout="-1,-1,-1,-1" offset="10"/>
-		<container class="horizontal_adaptive_container" id="FUbu">
-			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+		<container class="main_box" id="FUbu">
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
 			<translation id="title" translation_id="247328" type="use" value="Formations[COMMENT - match screen; formations panel title]" />
 			<container id="txCo">
 				<attachment_group class="vertical_arrange" vertical_alignment="vertical" />
+			<translation id="title" translation_id="247328" type="use" value="Formations[COMMENT - match screen; formations panel title]" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
 			</container>
 		</container>
-		<container class="horizontal_adaptive_container" id="SCbu">
-			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
-			<translation id="title" translation_id="492036" type="use" value="Scoring[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+		<container class="main_box" id="SCbu">
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
+			<translation id="title" translation_id="492036" colour="accent" type="use" value="Scoring[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
 			<container id="txCo">
 				<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
 			</container>
 		</container>
-		<container class="horizontal_adaptive_container" id="CObu">
-			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
-			<translation id="title" translation_id="492037" type="use" value="Conceding[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+		<container class="main_box" id="CObu">
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
+			<translation id="title" translation_id="492037" colour="accent" type="use" value="Conceding[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
 			<container id="txCo">
 				<attachment_group class="vertical_arrange" vertical_alignment="all" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
 			</container>
 		</container>
-		<container class="horizontal_adaptive_container" id="SPbu" hidden="true">
-			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
-			<translation id="title" translation_id="252468" type="use" value="Set Pieces[COMMENT: strengths field scout report list]" />
+		<container class="main_box" id="SPbu" hidden="true">
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
+			<translation id="title" translation_id="252468" colour="accent" type="use" value="Set Pieces[COMMENT: strengths field scout report list]" />
 			<container id="txCo">
 				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
