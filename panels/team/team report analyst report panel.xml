@@ -1,32 +1,79 @@
-<panel>
-	<layout class="horizontal_arrange" horizontal_layout="400,-1,-1"  />
+﻿<panel>
+	<layout class="vertical_arrange" vertical_layout="-1,200"  />
 	<boolean id="should_force_refresh" value="true"/>
 
 	<container>
-		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
-		<container class="tabs" id="FtbC" default_item="Fuse" save_session_state="true" save_default_state="true">
-			<container class="formations_data_analyst_report_panel" id="Fuse" type="0">
-				<record id="object_property" get_property="objt" set_property="objt" />
-				<translation id="title" translation_id="492038" type="use" value="Formations Used[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+		<layout class="horizontal_arrange" horizontal_layout="400,-1,-1" />
+		<!-- formations analysis -->
+		<container class="horizontal_adaptive_container" vertical_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
+			<container class="tabs" id="FtbC" default_item="Fuse" save_session_state="true" save_default_state="true">
+				<container class="formations_data_analyst_report_panel" id="Fuse" type="0">
+					<record id="object_property" get_property="objt" set_property="objt" />
+					<translation id="title" translation_id="492038" type="use" value="Formations Used[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+				</container>
+				<container class="formations_data_analyst_report_panel" id="FFac" type="1">
+					<record id="object_property" get_property="objt" set_property="objt" />
+					<translation id="title" translation_id="492039" type="use" value="Formations Faced[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+				</container>
 			</container>
-			<container class="formations_data_analyst_report_panel" id="FFac" type="1">
+		</container>
+		<!-- scoring goals analysis -->
+		<container class="horizontal_adaptive_container" vertical_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+			<container class="goal_data_analyst_report_panel" id="scor" type="0" >
 				<record id="object_property" get_property="objt" set_property="objt" />
-				<translation id="title" translation_id="492039" type="use" value="Formations Faced[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+			</container>
+			<container class="vertical_adaptive_container" horizontal_alignment="centre">
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			</container>
+		</container>
+		<!-- conceding goals analysis -->
+		<container class="horizontal_adaptive_container" vertical_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+			<container class="goal_data_analyst_report_panel" id="conc" type="1" >
+				<record id="object_property" get_property="objt" set_property="objt" />
+			</container>
+			<container class="vertical_adaptive_container" horizontal_alignment="centre">
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			</container>
+		</container>
+	</container>
+	<!-- text summary -->
+	<container class="main_subtle_box">
+		<layout class="horizontal_arrange" horizontal_layout="-1,-1,-1,-1" offset="10"/>
+		<container class="horizontal_adaptive_container" id="FUbu">
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+			<translation id="title" translation_id="247328" type="use" value="Formations[COMMENT - match screen; formations panel title]" />
+			<container id="txCo">
+				<attachment_group class="vertical_arrange" vertical_alignment="vertical" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			</container>
+		</container>
+		<container class="horizontal_adaptive_container" id="SCbu">
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+			<translation id="title" translation_id="492036" type="use" value="Scoring[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+			<container id="txCo">
+				<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			</container>
+		</container>
+		<container class="horizontal_adaptive_container" id="CObu">
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+			<translation id="title" translation_id="492037" type="use" value="Conceding[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
+			<container id="txCo">
+				<attachment_group class="vertical_arrange" vertical_alignment="all" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			</container>
+		</container>
+		<container class="horizontal_adaptive_container" id="SPbu" hidden="true">
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+			<translation id="title" translation_id="252468" type="use" value="Set Pieces[COMMENT: strengths field scout report list]" />
+			<container id="txCo">
+				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
 			</container>
 		</container>
 	</container>
 
-	<container>
-		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
-		<container class="goal_data_analyst_report_panel" id="scor" type="0" >
-			<record id="object_property" get_property="objt" set_property="objt" />
-		</container>
-	</container>
-
-	<container>
-		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
-		<container class="goal_data_analyst_report_panel" id="conc" type="1" >
-			<record id="object_property" get_property="objt" set_property="objt" />
-		</container>
-	</container>
 </panel>
