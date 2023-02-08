@@ -5,7 +5,8 @@
 	<container>
 		<layout class="horizontal_arrange" horizontal_layout="400,-1,-1" />
 		<!-- formations analysis -->
-		<container class="horizontal_adaptive_container" vertical_alignment="centre">
+		<container class="main_box" vertical_alignment="centre">
+			<translation id="title" translation_id="247328" colour="accent" type="use" value="Formations" />
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 			<container class="tabs" id="FtbC" default_item="Fuse" save_session_state="true" save_default_state="true">
 				<container class="formations_data_analyst_report_panel" id="Fuse" type="0">
@@ -19,23 +20,19 @@
 			</container>
 		</container>
 		<!-- scoring goals analysis -->
-		<container class="horizontal_adaptive_container" vertical_alignment="centre">
-			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+		<container class="main_box" vertical_alignment="centre">
+			<translation id="title" translation_id="247588" colour="accent" type="use" value="Goals Scored" />
+			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
 			<container class="goal_data_analyst_report_panel" id="scor" type="0" >
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</container>
-			<container class="vertical_adaptive_container" horizontal_alignment="centre">
-				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
-			</container>
 		</container>
 		<!-- conceding goals analysis -->
-		<container class="horizontal_adaptive_container" vertical_alignment="centre">
-			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
+		<container class="main_box" vertical_alignment="centre">
+			<translation id="title" translation_id="247589" colour="accent" type="use" value="Goals Conceded" />
+			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
 			<container class="goal_data_analyst_report_panel" id="conc" type="1" >
 				<record id="object_property" get_property="objt" set_property="objt" />
-			</container>
-			<container class="vertical_adaptive_container" horizontal_alignment="centre">
-				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
 			</container>
 		</container>
 	</container>
