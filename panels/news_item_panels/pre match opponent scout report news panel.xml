@@ -194,6 +194,7 @@
 					</widget>
 				</container>
 				<widget class="team_pro_con_summary_panel">
+					<integer id="num_pro_cons_to_show" value="25" />
 					<record id="object_property">
 						<integer id="get_property" value="objt" />
 						<integer id="set_property" value="objt" />
