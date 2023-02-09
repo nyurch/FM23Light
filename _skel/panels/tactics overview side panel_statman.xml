@@ -20,7 +20,7 @@
 			<container class="tactic_slot_tab_container" entity_layout_id="it08" file="tactics/tactic slot tab container picker" id="tacw" auto_size="horizontal" needs_width="true" height="30" name="active tactic">
 				<integer id="slot_popup_maximum_width" value="120"/>
 				<layout class="stick_to_object_attachment" id="align_top" offset="5" get_side="top" set_side="top" move_side="true" target="main"/>
-				<layout class="stick_to_object_attachment" id="align_left" offset="-70" get_side="right" set_side="left" move_side="true" target="at03"/>
+				<layout class="stick_to_object_attachment" id="align_left" offset="-50" get_side="right" set_side="left" move_side="true" target="at03"/>
 			</container>
 			<!-- familiarity/intensity -->
 			<container class="main_box" height="100" id="infa">
@@ -154,7 +154,7 @@
 
 	<!-- pitch whith tactics -->
 	<container class="main_contrast_box" red_replacement="teal 900">
-		<layout class="arrange_vertical_attachment" layout="700,-1" offset="0" gap="2" />
+		<layout class="arrange_vertical_attachment" layout="700,50,-1" offset="0" gap="2" />
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 			<container class="pitch_with_tactics" id="pitc" name="pitch">
 				<string id="icon_flags" value="show_name,show_extra_details,use_overview_icons,drop_initial_if_possible,show_position_role_duty_suitability,show_selection_image,show_number,show_role_duty_labels,show_familiarity" />
@@ -172,8 +172,11 @@
 				<integer id="pitch_touchline_width_percentage" value="20" />
 				<integer id="line_width" value="2" />
 			</container>
-
+			<container class="team_instructions_panel" entity_layout_id="at07" id="flTM" file="team/team instructions fluidity" name="fluidity">
+				<layout class="stick_to_sides_attachment" alignment="bottom,left" inset="15,15,220,15" />
+			</container>
 			<container class="tactics_recent_match_analysis_panel" entity_layout_id="it22" id="anLy" name="analysis">
+				<layout class="stick_to_sides_attachment" alignment="bottom,left" inset="0,0,40,0" />
 			</container>
 	</container>
 
