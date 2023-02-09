@@ -260,6 +260,7 @@
 				<container class="plain_box" appearance="FME/tabbed pane/subtle/paper">
 					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 					<container class="team_pro_con_summary_panel" file="team/team pro con summary panel">
+						<integer id="num_pro_cons_to_show" value="3" />
 						<record id="object_property" get_property="objt" set_property="objt" />
 					</container>
 				</container>
