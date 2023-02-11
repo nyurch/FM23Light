@@ -1,0 +1,17 @@
+<panel height="44" width="130">
+  <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+
+	<container>
+		<layout class="arrange_vertical_attachment" alignment="middle" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="16" apply_to_children="true"/>
+
+		<widget class="text" id="dytm" auto_size="vertical" font="text" style="bold" size="small" alignment="left" colour="white" disabled_colour="faded white"/>
+		<widget class="text" id="dtam" auto_size="vertical" font="text" style="bold" size="medium" alignment="left" colour="white" disabled_colour="faded white"/>
+
+	</container>
+
+  <widget class="button" appearance="chrome/buttons/date/fm23/button" id="actn" click_event="opcl" height="42"  focus_appearance="chrome/buttons/date/button_controller"/>
+
+
+
+</panel>
