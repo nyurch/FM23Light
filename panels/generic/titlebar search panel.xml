@@ -1,8 +1,6 @@
 <panel>
 	<layout class="stick_to_sides_attachment" alignment="all" inset="4" apply_to_children="true"/>
 
-
-
 	<!--search box-->
 	<widget class="db_record_search_box" id="srcB" file="widgets/search box titlebar" hidden="true"/>
 
@@ -18,14 +16,14 @@
 			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true"/>
 
 			<!-- search icon -->
-			<widget class="button" id="srch" appearance="icons/26px/search" red_replacement="fg" hidden="true" width="30"/>
+			<widget class="button" id="srch" appearance="icons/26px/search" red_replacement="white" hidden="true" width="30"/>
 
 			<container>
 				<layout class="arrange_vertical_attachment" alignment="top" gap="0" offset="35" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" apply_to_children="true"/>
 
 				<!-- title area -->
-				<widget class="text" id="sect" font="title" alignment="left,bottom" size="13" style="semi_bold" multiline="false" auto_size="vertical" wants_mouse_events="false" colour="fg">
+				<widget class="text" id="sect" font="title" alignment="left,bottom" size="13" style="semi_bold" multiline="false" auto_size="vertical" wants_mouse_events="false" colour="white">
 					<record id="object_property">
 						<list id="get_properties">
 							<record>
@@ -37,7 +35,7 @@
 				</widget>
 
 				<!-- description -->
-				<widget class="text" id="subs" size="xsmall" alignment="left,top" multiline="false" auto_size="vertical" colour="fg alpha">
+				<widget class="text" id="subs" size="xsmall" alignment="left,top" multiline="false" auto_size="vertical" colour="white">
 					<record id="object_property">
 						<list id="get_properties">
 							<record>
@@ -50,18 +48,11 @@
 								<integer id="set_property" value="text" />
 								<boolean id="dont_set_hint" value="true" />
 							</record>
-							<!--<record>
-                    <integer id="get_property" value="ttcl" />
-                    <integer id="set_property" value="colr" />
-                  </record>-->
 						</list>
 					</record>
 				</widget>
 			</container>
-
 		</container>
-
-
 	</container>
 
 </panel>
