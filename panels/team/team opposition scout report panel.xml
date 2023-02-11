@@ -11,6 +11,7 @@
 			<container class="client_object_viewer_xml_panel" entity_layout_id="at44" id="opmi" vertical_alignment="centre">
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
 				<container class="non_player_profile_panel" entity_layout_id="at43" id="nPpP" file="none">
+					<layout class="vertical_arrange" vertical_layout="360,-1" />
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 					<record id="dbrp">
 						<string id="get_property" value="TMnR" />
@@ -114,6 +115,21 @@
 							<widget class="label" row="10" col="1" id="coaq" alignment="left,centre" >
 								<string id="font" value="value" />
 							</widget>
+						</widget>
+					</container>
+					<!-- staff history -->
+					<container class="main_box" >
+						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+						<translation id="text" type="use" translation_id="319515" value="Staff History" />
+						<widget class="non_player_history_summary_panel" id="nphs" default_height="-1">
+							<record id="object_property">
+								<list id="get_properties">
+									<record>
+										<integer id="get_property" value="objt" />
+										<integer id="set_property" value="objt" />
+									</record>
+								</list>
+							</record>
 						</widget>
 					</container>
 				</container>
