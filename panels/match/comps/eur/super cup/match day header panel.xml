@@ -7,13 +7,13 @@
 
 	<boolean id="should_force_refresh" value="true" />
 
-	<container class="bordered_box" appearance="boxes/custom/full screen header/paper">
+	<container class="bordered_box" appearance="boxes/custom/full screen header/paper" red_replacement="sidebar">
 		<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="15" vertical_alignment="top" />
 
 		<!-- Back Button -->
 		<widget class="screen_history_button" id="back" fixed="true" width="50" height="50" appearance="buttons/custom/interface/navigation bar/button" icon="icons/26px/back" icon_alignment="centre" controller_button="b_button">
 			<attachment class="get_global_attachment" get_property="hnpt" set_property="itms" />
-			<record id="primary_icon_properties" red_replacement="text" />
+			<record id="primary_icon_properties" red_replacement="white" />
 			<record id="click_event" event_id="GOTO" event_target="brow" scin="-3" />
 
 			<attachment class="test_global_attachment" get_property="MnuS" mode="1" value="true" set_property="hidn" skip_if_null="true" />
@@ -27,7 +27,7 @@
 			<attachment class="get_global_attachment" get_property="usMF" set_property="objt" />
 			<attachment class="get_global_attachment" get_property="hide_match_score" set_property="hidn" />
 			<!--Alternate UI mode-->
-			<integer id="alSM" value="6" />
+			<integer id="alSM" value="2" />
 		</container>
 
 		<widget class="spacer"/>
@@ -36,28 +36,28 @@
 			<attachment_group class="vertical_arrange_horizontal_autosize" vertical_alignment="middle" vertical_gap="0" />
 
 			<!-- title area -->
-			<widget class="text" id="sect" font="title" alignment="left,centre_y" size="large" multiline="false" auto_size="all" colour="black" />
+			<widget class="text" id="sect" font="title" alignment="left,centre_y" size="large" multiline="false" auto_size="all" colour="white" />
 
 			<!-- subtitle area -->
 			<container>
 				<attachment class="get_global_attachment" get_property="hide_pre_match_details" set_property="hidn" />
 				<attachment_group class="horizontal_arrange_autosize_all" horizontal_gap="4" />
 
-				<widget class="team_button" alignment="left, centre_y" height="20" multiline="false" auto_size="horizontal" colour="faded text" icon_enabled="false" mode="1">
+				<widget class="team_button" alignment="left, centre_y" height="20" multiline="false" auto_size="horizontal" colour="faded white" icon_enabled="false" mode="1">
 					<record id="object_property" get_property="home" set_property="valu" />
 				</widget>
 
-				<widget class="text" alignment="left, centre_y" height="20" auto_size="horizontal" colour="faded text">
+				<widget class="text" alignment="left, centre_y" height="20" auto_size="horizontal" colour="faded white">
 					<translation id="text" translation_id="516206" type="use" value="vs[COMMENT: AREA: Prematch Header Panels; SUB-AREA: subtitle text; BN: 35843; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: short for versus, eg Team1 vs Team2]" />
 				</widget>
 
-				<widget class="team_button" alignment="left, centre_y" height="20" auto_size="horizontal" colour="faded text" icon_enabled="false" mode="1">
+				<widget class="team_button" alignment="left, centre_y" height="20" auto_size="horizontal" colour="faded white" icon_enabled="false" mode="1">
 					<record id="object_property" get_property="away" set_property="valu" />
 				</widget>
 
-				<widget class="text" alignment="left, centre_y" height="20" auto_size="horizontal" colour="faded text" value="-" />
+				<widget class="text" alignment="left, centre_y" height="20" auto_size="horizontal" colour="faded white" value="-" />
 
-				<widget class="comp_button" alignment="left, centre_y" height="20" auto_size="horizontal" colour="faded text" icon_enabled="false">
+				<widget class="comp_button" alignment="left, centre_y" height="20" auto_size="horizontal" colour="faded white" icon_enabled="false">
 					<record id="object_property" get_property="fxCo" set_property="valu" />
 				</widget>
 			</container>
@@ -85,7 +85,7 @@
 				<attachment class="get_global_attachment" get_property="TItq" set_property="max_value"/>
 			</widget>
 
-			<widget class="text" font="label" colour="faded text" alignment="left, centre_y" width="80" size="small" multiline="true">
+			<widget class="text" font="label" colour="faded white" alignment="left, centre_y" width="80" size="small" multiline="true">
 				<translation id="text" translation_id="515704" type="use" value="Questions\nRemaining[COMMENT: AREA: Press Conference; SUB-AREA: Header panel; FR-BN: 32571; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: number of questions remaining in the press conference, same as translation id 466453 with additional line break between words]"/>
 			</widget>
 		</container>
@@ -101,7 +101,7 @@
 				</attachment_group>
 
 				<!-- FM button -->
-				<widget class="popup_button" id="fmst" fixed="true" appearance="chrome/buttons/items/button" icon="icons/26px/fm" width="58" height="39" disable_wheel="true" secondary_icon_enabled="false" icon_alignment="centre_left" controller_button="select_button" gamepad_icon_alignment="centre_right">
+				<widget class="popup_button" id="fmst" fixed="true" appearance="chrome/buttons/items/button" icon="icons/26px/fm" icon_colour="white" width="58" height="39" disable_wheel="true" secondary_icon_enabled="false" icon_alignment="centre_left" controller_button="select_button" gamepad_icon_alignment="centre_right">
 					<event id="click_notification_event" event_id="FM" item="NULL" />
 					<event id="menu_layout_notification_event" event_id="mlne" event_target="fmst" />
 					<record id="items" file="menus/game" />
