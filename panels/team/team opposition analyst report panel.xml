@@ -1,0 +1,23 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" horizontal_inset="0" />
+	<container>
+		<layout class="arrange_horizontal_attachment" layout="-15, -8" offset="0" />
+		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+		<container class="tabs" id="tabs" default="tpma">
+			<container class="inner_box" id="rctM">
+				<translation id="title" translation_id="535397" type="use" value="Last 5 Matches[COMMENT: AREA: Visualisation Header; SUB-AREA: visualisation scope FR: 32932; TONE: Formal; CHARLIMIT: None; NOTE: Last 5 matches only time frame scope]" />
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+				<container class="team_recent_matches_analysis_panel" id="trcM" />
+			</container>
+			<widget class="team_opposition_report_previous_match_analysis_panel" id="tpma">
+				<translation id="title" translation_id="346746" type="use" value="Match Details[COMMENT: title for a box showing information about the upcoming match]" />
+			</widget>
+		</container>
+		<container>
+			<layout class="arrange_vertical_attachment" layout="-1, -1" offset="0" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+			<widget class="team_goal_analysis_summary_panel" id="tgas"/>
+			<widget class="team_tactic_analysis_summary_panel" id="ttas" file="team/team tactic analysis summary panel with heading"/>
+		</container>
+	</container>
+</panel>
