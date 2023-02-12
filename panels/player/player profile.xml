@@ -5,13 +5,13 @@
 	<container class="main_box" />
 
 	<container class="main_box">
-		<layout class="arrange_horizontal_attachment" offset="0" layout="-1,1401,-1">
+		<layout class="arrange_horizontal_attachment" offset="0" layout="-1,1601,-1">
 			<global id="gap" name="ui.main_contrast_box_gap"/>
 		</layout>
 		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 	<container class="main_box" />
 	<container class="main_subtle_box">
-		<layout class="arrange_horizontal_attachment" offset="0" layout="300,1,1100">
+		<layout class="arrange_horizontal_attachment" offset="0" layout="300,1,1300">
 			<global id="gap" name="ui.main_contrast_box_gap"/>
 		</layout>
 		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
