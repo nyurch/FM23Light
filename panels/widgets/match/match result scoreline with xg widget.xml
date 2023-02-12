@@ -8,7 +8,7 @@
 		<container>
 			<attachment_group class="vertical_arrange_horizontal_autosize" vertical_alignment="middle" vertical_offset="0" horizontal_alignment="right" horizontal_inset="0" />
 
-			<widget class="client_object_label" auto_size="all" spec="text" font="title" size="xlarge" colour="text" alignment="right, centre_y">
+			<widget class="client_object_label" auto_size="all" spec="text" font="title" size="large" colour="text" alignment="right, centre_y">
 				<record id="object_property" get_property="home" set_property="valu" />
 			</widget>
 
@@ -50,7 +50,7 @@
 		<container>
 			<attachment_group class="vertical_arrange_horizontal_autosize" vertical_alignment="middle" vertical_offset="0" horizontal_alignment="left" horizontal_inset="0" />
 
-			<widget class="client_object_label" auto_size="all" spec="text" font="title" size="xlarge" colour="text" alignment="left, centre_y">
+			<widget class="client_object_label" auto_size="all" spec="text" font="title" size="large" colour="text" alignment="left, centre_y">
 				<record id="object_property" get_property="away" set_property="valu" />
 			</widget>
 
