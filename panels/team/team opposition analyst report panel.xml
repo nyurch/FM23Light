@@ -13,7 +13,7 @@
 				<translation id="title" translation_id="346746" type="use" value="Match Details[COMMENT: title for a box showing information about the upcoming match]" />
 			</widget>
 		</container>
-		<container>
+		<container class="main_subtle_box">
 			<layout class="arrange_vertical_attachment" layout="-1, -1" offset="0" />
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 			<widget class="team_goal_analysis_summary_panel" id="tgas"/>
