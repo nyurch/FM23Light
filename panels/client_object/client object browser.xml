@@ -120,6 +120,15 @@
         </attachment>
     </widget>
 
+    <!-- Data hub, last match summary scene +++-->
+    <widget class="picture" file="backgrounds/tunnel" scale_picture="true" keep_aspect_ratio="false">
+        <attachment class="test_multiple_globals_attachment" default_value="false">
+            <list id="get_properties">
+                <record get_property="sect" test_mode="0" value="mpst" skip_if_null="false"/>
+            </list>
+           <integer id="set_property" value="Shwn"/>
+        </attachment>
+    </widget>
 
     <!-- Press conference prematch scene +++-->
     <widget class="picture" file="backgrounds/pressconf" scale_picture="true" keep_aspect_ratio="false">
