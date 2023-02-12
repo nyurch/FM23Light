@@ -1,0 +1,120 @@
+<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+	<boolean id="should_force_refresh" value="true" />
+
+	<container class="inner_box">
+		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" vertical_gap="4" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+		<!-- portrait -->
+		<container height="135">
+			<attachment_group class="horizontal_arrange" horizontal_layout="-1,-1" horizontal_offset="0" horizontal_gap="0" vertical_alignment="vertical" vertical_inset="0" />
+			<container>
+				<!-- Club badge image -->
+				<widget class="object_portrait_picture" id="pclB" image_alignment="centre" scale_picture="true" wants_mouse_events="true">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="20,0,40,40" />
+					<record id="object_property" dont_set_hint="true" get_property="Pclb" set_property="objt" />
+				</widget>
+				<!-- profile picture -->
+				<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x,bottom">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="40,40,0,0" />
+					<!-- only show the picture if we should show portraits -->
+					<attachment class="test_setting_attachment" get_setting="show_portraits" default_value="true" set_property="hidn">
+						<boolean id="value" value="false" />
+					</attachment>
+					<record id="object_property">
+						<list id="get_properties">
+							<!-- facegen data request -->
+							<record get_property="fcgn" />
+							<!-- fake name request -->
+							<record get_property="Pfke" />
+							<record get_property="prpc" set_property="valu" />
+						</list>
+					</record>
+				</widget>
+			</container>
+		</container>
+
+		<container>
+			<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="0" />
+			<!-- player extra details (e.g. onloan at...) -->
+			<container class="inner_subtle_box_no_margin" height="25">
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+				<widget class="player_extra_details_text" font="title" alignment="centre" multiline="false">
+					<record id="object_property" get_property="PExD" />
+				</widget>
+			</container>
+
+			<container height="6"/>
+
+			<!-- d.o.b / age -->
+			<widget class="label" font="label" height="14">
+				<translation id="text" translation_id="458477" type="use" value="D.O.B.[COMMENT: player profile, personal details; Abbreviation for 'Date of Birth']" />
+			</widget>
+			<container height="20">
+				<attachment_group class="horizontal_arrange" horizontal_alignment="left" horizontal_offset="0" horizontal_gap="10" vertical_alignment="top" vertical_inset="0" />
+				<!-- age -->
+				<widget class="editable_client_object_property_panel" id="age " auto_size="all" font="value">
+					<record id="widget_info" class="formatted_label" alignment="left,centre_y" height="22" auto_size="all">
+						<translation id="format" translation_id="242551" type="use" value="[%number#1] years old" />
+					</record>
+					<record id="widget_edit_info" width="0" height="0" />
+					<record id="object_property" get_property="Page" />
+				</widget>
+				<!-- dob -->
+				<widget class="editable_client_object_property_panel" id="dobl" auto_size="all" font="value">
+					<record id="widget_info" class="game_formatted_label" alignment="left,centre_y" auto_size="all" auto_size_minimum_height="20" format="([%date#1-short])" colour="faded text" />
+					<record id="widget_properties" height="24" />
+					<record id="object_property" get_property="Pdob" />
+				</widget>
+			</container>
+
+			<container height="6"/>
+
+			<!-- nationality -->
+			<widget class="label" font="label" height="14">
+				<translation id="text" translation_id="248033" type="use" value="Nationality[COMMENT - Hall of fame section]" />
+			</widget>
+			<container height="20">
+				<attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" horizontal_offset="0" horizontal_gap="10" vertical_alignment="top" vertical_inset="0" />
+				<widget class="editable_client_object_property_panel" id="intc" height="20" font="value">
+					<record id="widget_info" class="nation_button" auto_size="vertical" format="[%nation#1-nationality]" />
+					<record id="widget_properties" auto_size="vertical" />
+					<record id="object_property" dont_set_hint="true" get_property="PNat" />
+				</widget>
+			</container>
+			<!-- int caps -->
+			<widget class="international_appearances_label" size="small" auto_size="vertical" >
+				<record id="object_property" dont_set_hint="true" get_property="Pist" />
+			</widget>
+
+			<container height="6"/>
+
+			<!-- value -->
+			<widget class="label" font="label" height="14">
+				<translation id="text" translation_id="292633" type="use" value="Estimated Value[COMMENT: player profile; value label]" />
+			</widget>
+			<widget class="transfer_value_label" id="valu" auto_size="all" font="value">
+				<record id="object_property" get_property="Pdva" dont_set_hint="true" />
+			</widget>
+
+			<container height="6"/>
+
+			<!-- wage/expiry date -->
+			<widget class="label" font="label" height="14">
+				<translation id="text" translation_id="257347" type="use" value="Contract[COMMENT - transfer status filter text; offers at contract stage]" />
+			</widget>
+			<container height="20" id="wged">
+				<layout class="arrange_horizontal_attachment" alignment="fill" offset="0" gap="0" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+				<widget class="editable_client_object_property_panel" id="Pcww" font="value" colour="text">
+					<record id="object_property" get_property="Pcww" />
+				</widget>
+				<widget class="editable_client_object_property_panel" id="Pcex" font="value" colour="text">
+					<record id="object_property" get_property="Pcex" />
+				</widget>
+			</container>
+			<widget class="link_text" id="wgex" section="Pcnr" auto_size="vertical" font="value"/>
+		</container>
+	</container>
+</panel>
