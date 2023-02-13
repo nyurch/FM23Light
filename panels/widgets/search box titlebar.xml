@@ -1,6 +1,4 @@
-<!-- added skin style to recolour from white -->
 <panel>
-<string id="skin_style" value="edit_box" />	<!-- added to recolour text -->
   <!--edit box-->
   <widget id="find" class="edit_box" appearance="edit boxes/custom/interface/search/box" spec="text" size="xlarge" event_delay="100" style="semi_bold" escape_event="cloe" allow_context_menu="false" clear_text_event="DELE" show_clear_text_icon="true">
     <attachment class="max_length_attachment" length="130"/>
