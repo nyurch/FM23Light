@@ -202,7 +202,9 @@
                 <widget class="text" id="fepT" font="label" auto_size="all">
                     <translation id="text" translation_id="396639" type="use" value="Max. Monthly Fee[COMMENT: Transfer Target List panel; bug 122290]"/>
                 </widget>
-                <widget class="cash_selection_list" id="maca" select_event="ofvc" width="250" auto_size="vertical"/>
+                <widget class="cash_selection_list" id="maca" select_event="ofvc" width="250" auto_size="vertical">
+					<record id="default_properties" alignment="right,centre_y" colour="black"/>
+				</widget>
             </container>
 
             <container id="stWc">
@@ -211,7 +213,9 @@
                 <widget class="text" id="wagT" font="label" auto_size="all">
                     <translation id="text" translation_id="348991" type="use" value="Max. Wage Amount[COMMENT: transfers target list; column header]"/>
                 </widget>
-                <widget class="cash_selection_list" id="SmxW" select_event="Lwag" width="250" auto_size="vertical"/>
+                <widget class="cash_selection_list" id="SmxW" select_event="Lwag" width="250" auto_size="vertical">
+					<record id="default_properties" alignment="right,centre_y" colour="black"/>
+				</widget>
             </container>
 
             <container>
