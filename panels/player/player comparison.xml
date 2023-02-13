@@ -58,7 +58,7 @@
 					<container>
 						<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
 
-						<container class="inner_subtle_box" >
+						<container class="main_contrast_box" red_replacement="sidebar">
 							<attachment_group class="vertical_arrange_autosize_all_centre"/>
 
 							<!--Value-->
@@ -68,10 +68,10 @@
 							</widget>
 
 							<!--Wage / Expiry date-->
-							<widget class="link_text" id="wgex" section="Pcnr" auto_size="all" alignment="centre" style="bold" colour="alt text" navigation_focus_target="true"/>
+							<widget class="link_text" id="wgex" section="Pcnr" auto_size="all" alignment="centre" style="bold" colour="white" navigation_focus_target="true"/>
 
 							<!-- Agreed playing time-->
-							<widget class="playing_time_label" id="sqst" auto_size="all" alignment="centre" style="bold" colour="faded alt text">
+							<widget class="playing_time_label" id="sqst" auto_size="all" alignment="centre" style="bold" colour="white">
 								<record id="object_property" get_property="Pcpt" />
 							</widget>
 						</container>
@@ -91,7 +91,7 @@
 						<container id="p2id">
 							<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
 
-							<container class="inner_subtle_box">
+							<container class="main_contrast_box" red_replacement="sidebar">
                                 <attachment_group class="vertical_arrange_autosize_all_centre"/>
 
 								<!--Value-->
@@ -100,10 +100,10 @@
 								</widget>
 
 								<!--Wage / Expiry date-->
-								<widget class="link_text" id="wgx2" section="Pcnr" auto_size="all" alignment="centre" style="bold" colour="alt text" />
+								<widget class="link_text" id="wgx2" section="Pcnr" auto_size="all" alignment="centre" style="bold" colour="white" />
 
 								<!-- Playing time -->
-								<widget class="playing_time_label" id="sqs2" auto_size="all" alignment="centre" style="bold" colour="faded alt text" />
+								<widget class="playing_time_label" id="sqs2" auto_size="all" alignment="centre" style="bold" colour="white" />
 							</container>
 						</container>
 
