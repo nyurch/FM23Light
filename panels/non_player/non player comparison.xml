@@ -24,7 +24,7 @@
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
 				<!-- Person 1 -->
-				<container id="p1tp" class="main_box" red_replacement="comp person 1">
+				<container id="p1tp" class="main_subtle_box">
 					<!--Horizontal stack, table expanded to fill space-->
 					<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 					<layout class="arrange_horizontal_attachment" layout="105, -4, -3" gap="0" offset="0" />
@@ -49,10 +49,10 @@
 					</container>
 
 					<!--Person 1 additional info box-->
-					<container>
+					<container class="main_contrast_box" red_replacement="sidebar">
 						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 
-						<container class="main_box" appearance="boxes/custom/pitch selection/paper" red_replacement="black" height="100">
+						<container height="100">
 							<layout class="arrange_vertical_attachment" alignment="middle" />
 							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" />
 
@@ -66,7 +66,7 @@
 				</container>
 
 				<!-- Person 2 -->
-				<container id="p2dt" class="main_box" red_replacement="comp person 2">
+				<container id="p2dt" class="main_subtle_box">
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 					<container id="p2tp">
@@ -75,10 +75,10 @@
 						<layout class="arrange_horizontal_attachment" layout="-3, -4, 105" gap="0" offset="0" />
 
 						<!--Person 2 additional info box-->
-						<container id="p2id">
+						<container class="main_contrast_box" red_replacement="sidebar" id="p2id">
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 
-							<container class="main_box" appearance="boxes/custom/pitch selection/paper" red_replacement="black" height="100">
+							<container height="100">
 								<layout class="arrange_vertical_attachment" alignment="middle"  />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" />
 
