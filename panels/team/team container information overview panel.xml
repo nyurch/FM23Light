@@ -1,0 +1,117 @@
+<panel>
+
+	<attachment_group class="vertical_arrange" vertical_layout="-1, 500, 300, -1" vertical_alignment="middle,extend"/>
+
+	<container class="main_box" />
+
+	<container class="main_box">
+		<layout class="arrange_horizontal_attachment" offset="0" layout="-1,1000,-1">
+			<global id="gap" name="ui.main_contrast_box_gap"/>
+		</layout>
+		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+	<container class="main_box" />
+	<container class="main_subtle_box" id="genr">
+		<translation id="title" translation_id="319620" type="use" value="General[COMMENT: team information panel; general section]" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+		<!-- state saving information (all widgets inside this container inherit these state saving properties) -->
+		<boolean id="save_session_state" value="true" />
+		<boolean id="sdst" value="true" />
+
+		<!-- the contents of the following container should change depending on the option selected in the embedded popup button -->
+		<widget class="client_object_label_value_table" id="infp">
+
+			<!--this record contains any properties you want to pass on to the table-->
+			<record id="table_properties">
+				<flags id="mode" value="fill_rows, stripe_rows, printable" />
+				<boolean id="auto_size_rows" value="true" />
+				<boolean id="fixed_size_rows" value="false" />
+
+				<string id="layout" value="-4,-10" />
+				<integer id="row_spacing" value="0" />
+
+				<!-- default properties adopted by every item in table -->
+				<list id="column_widget_properties">
+					<record index="1" spec="text">
+						<colour id="colour" name="selection" />
+						<boolean id="enforce_style" value="true"/>
+						<flags id="auto_size" value="vertical" />
+						<flags id="alignment" value="left,centre_y" />
+					</record>
+				</list>
+
+				<!-- small inset from sides of table -->
+				<list id="column_table_properties">
+					<record index="0">
+						<integer id="left" value="4" />
+						<boolean id="sort_disabled" value="true" />
+					</record>
+					<record index="1">
+						<integer id="top" value="0" />
+						<boolean id="sort_disabled" value="true" />
+						<flags id="alignment" value="left,centre_y" />
+					</record>
+				</list>
+			</record>
+
+			<!--this list contains the property ids you want to display in the table - if you omit it, the table will attempt to display all properties in the supplied object-->
+			<list id="viewed_property_ids">
+				<integer value="Cyfn" />
+				<integer value="Cprs" />
+				<integer value="TCnn" />
+				<integer value="Nffr" />
+				<integer value="Nlan" />
+				<integer value="CStT" />
+				<integer value="Cned" />
+				<integer value="CmpM" />
+				<integer value="TLeg" />
+				<integer value="Csvp" />
+				<integer value="Cfap" />
+				<integer value="TDer" />
+				<integer value="Cfmr" />
+				<integer value="Cfrt" />
+				<integer value="Nriv" />
+				<integer value="CfiD" />
+				<integer value="Ctpr" />
+				<integer value="Cstp" />
+				<integer value="Csth" />
+				<integer value="Ccon" />
+				<integer value="CmeD" />
+				<integer value="Csca" />
+				<!--<integer value="Ncac" />-->
+				<integer value="NrgR" />
+				<integer value="Ncni" />
+				<integer value="Nafy" />
+				<integer value="Nfay" />
+				<integer value="Nfdy" />
+				<integer value="TCap" />
+				<integer value="TVca" />
+			</list>
+		</widget>
+	</container>
+	<container class="main_box" />
+	</container>
+
+	<container class="main_box">
+		<layout class="arrange_horizontal_attachment" offset="0" layout="-1,600,-1">
+			<global id="gap" name="ui.main_contrast_box_gap"/>
+		</layout>
+		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+	<container class="main_box" />
+	<!--kits-->
+	<container class="main_subtle_box" height="200" priority="2">
+		<translation id="title" translation_id="319448" type="use" value="Kits[COMMENT: title for the club kits the club overview panel]" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+		<widget class="club_overview_kits_panel" id="cloK">
+			<record id="object_property">
+				<integer id="get_property" value="objt" />
+				<integer id="set_property" value="objt" />
+			</record>
+		</widget>
+	</container>
+	<container class="main_box" />
+	</container>
+
+	<container class="main_box" />
+
+</panel>
