@@ -527,7 +527,6 @@
 	<!-- INJURY -->
 	<container class="main_subtle_box">
 	<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0"/>
-		<translation id="title" translation_id="450787" type="use" value="Injury History" />
 		<widget class="player_history_injury_panel" id="phis" file="player/player history injury" late_loading="true">
 			<record id="object_property" get_property="objt" set_property="objt"/>
 		</widget>
