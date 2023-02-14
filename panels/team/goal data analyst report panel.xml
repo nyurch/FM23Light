@@ -5,6 +5,17 @@
 
 	<container class="tabs" id="tabC" default_item="goal">
 
+		<container  id="ptch" hidden="true">
+			<translation id="title" translation_id="247381" type="use" value="Shots" />
+			<attachment_group class="vertical_arrange" vertical_layout="-1,-1" />
+			<widget class="data_analyst_visualisation_widget" id="xgsh" visualisation_type="polygon" data_type="team" category="team_general" file="widgets/data analyst visualisation mini">
+				<record id="object_property" get_property="objt" set_property="objt" />
+			</widget>
+			<widget class="data_analyst_visualisation_widget" id="visu" visualisation_type="scatter_graph" data_type="team" category="attacking_efficiency"  file="widgets/data analyst visualisation mini">
+				<record id="object_property" get_property="objt" set_property="objt" />
+			</widget>
+		</container>
+
 		<container  id="goal" hidden="true">
 			<translation id="title" translation_id="227857" type="use" value="Goals" />
 			<attachment_group class="vertical_arrange" vertical_offset="8" vertical_alignment="top,extend" />
