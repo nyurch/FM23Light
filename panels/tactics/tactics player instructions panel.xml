@@ -139,6 +139,7 @@
 				<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 			</widget>
 			<container class="match_preparation_slot_selector" entity_layout_id="at09" id="mpss" auto_size="vertical" colour="white" height="40">
+				<widget class="view_menu_popup" id="popu" colour="white" icon_colour="white" secondary_icon_colour="white" embed_in_frame="false" auto_size="vertical"/>
 				<global id="hidden" name="ui.is_fmt_controller_skin"/>
 				<boolean id="navigation_container" value="true"/>
 				<translation id="text" translation_id="316746" type="use" value="Tactic[COMMENT:team report, tactic name]" />
@@ -236,13 +237,15 @@
 								<string id="click_event" value="AddP" />
 								<string id="icon" value="icons/16px/plus" />
 								<string id="colour" value="white" />
+								<string id="icon_colour" value="white" />
+								<string id="red_replacement" value="white" />
 								<translation id="text" translation_id="374667" type="use" value="Add Player(s)[COMMENT: button text for adding a specific player's tactic position instructions, can be multiple players, use top ten matches]" />
 								<layout class="stick_to_object_attachment" id="alPt" get_side="top" set_side="top" target="main" />
 								<layout class="stick_to_object_attachment" id="alPb" get_side="bottom" set_side="bottom" target="main" />
 								<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left" move_side="true" target="main" />
 							</widget>
-							<widget class="subtle_popup_button" entity_layout_id="at16" id="rcpu" icon_alignment="centre_x,centre_y" auto_size="all" red_replacement="black" appearance="buttons/subtle/split/right/button">
-								<string id="colour" value="white" />
+							<widget class="subtle_popup_button" entity_layout_id="at16" id="rcpu" icon_alignment="centre_x,centre_y" auto_size="all" red_replacement="white" appearance="buttons/subtle/split/right/button">
+								<string id="secondary_icon_colour" value="white" />
 								<layout class="stick_to_object_attachment" id="alPt" get_side="top" set_side="top" target="main" />
 								<layout class="stick_to_object_attachment" id="alPb" get_side="bottom" set_side="bottom" target="main" />
 								<layout class="stick_to_object_attachment" id="alPl" get_side="right" set_side="left" target="at15">
