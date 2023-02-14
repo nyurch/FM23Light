@@ -307,9 +307,9 @@
 	<colour name="back set piece pitch" 					value="bg negative" />
 
 	<!-- (additional) stats colours. used on scout, confidence bars -->
-	<colour name="low stat" 								value="fg range4" />
-	<colour name="medium stat" 								value="fg accent" />
-	<colour name="good stat" 								value="fg accent" />
+	<colour name="low stat" 								value="fg range1" />
+	<colour name="medium stat" 								value="fg range10" />
+	<colour name="good stat" 								value="fg range15" />
 	<colour name="excellent stat" 							value="fg range20" />
 
 	<colour name="low stat colourblind" 					value="rgb(140,140,140)" />
@@ -1766,7 +1766,7 @@
 	<!-- Press Conference Revamp -->
 	<colour name="avoid talking point subject" 			value="orange 300" />
 
-	<colour name="end of season moments success gold"		value="rgb(212,175,55)" />
+	<colour name="end of season moments success gold"		value="rgb(255,215,0)" />
 	<colour name="end of season moments scoreline normal"	value="fg accent" />
 	<colour name="end of season positive background"	value="bg positive" />
 	<colour name="end of season negative background"	value="bg negative" />
@@ -1795,9 +1795,9 @@
 	<colour name="body language mixed bg" 				value="white"/>
 
 	<!-- Analysis and Stats revamp-->
-    <colour name="scattergraph quadrant poor" 				value="red 600"/>
-    <colour name="scattergraph quadrant average" 			value="orange 300"/>
-    <colour name="scattergraph quadrant good" 				value="green 300"/>
+    <colour name="scattergraph quadrant poor" 				value="red 900"/>
+    <colour name="scattergraph quadrant average" 			value="orange 900"/>
+    <colour name="scattergraph quadrant good" 				value="green 900"/>
 
     <colour name="search filter active" 			value="bg purple darker"/>
     <colour name="search filter inactive" 				value="rgb(27,26,28)"/>
