@@ -115,7 +115,6 @@
 
 				</container>
 
-
 				<!-- Current role container -->
 				<container class="inner_box" id="crFc">
 					<translation id="title" translation_id="316816" type="use" value="Role[COMMENT - person list view column heading]" />
@@ -225,7 +224,7 @@
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 					<!-- Attributes Container -->
-					<container class="main_box" >
+					<container class="main_subtle_box" >
 						<translation id="title" translation_id="316628" type="use" value="Important Attributes[COMMENT:title for attributes panel showing which attributes are important for a tactical role]" />
 
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
@@ -234,7 +233,7 @@
 					</container>
 
 					<!--player PPMs-->
-					<container class="main_box" id="ppmc">
+					<container class="main_subtle_box" id="ppmc">
 
     					<string id="remove_if" value="ui.is_fmt_controller_skin" />
 
@@ -248,11 +247,10 @@
 					</container>
 
 					<!--statistics-->
-					<container class="main_box" id="poSt">
+					<container class="main_subtle_box" id="poSt">
 
-    					<string id="remove_if" value="ui.is_fmt_controller_skin" />
+						<string id="remove_if" value="ui.is_fmt_controller_skin" />
 
-					
 						<layout class="test_screen_size_attachment">
 							<string id="alignment" value="vertical"/>
 							<integer id="min_value" value="740"/>
@@ -335,7 +333,6 @@
 						</widget>
 					</container>
 
-
 				</container>
 
 				<container class="main_box" id="sLco" navigation_container="true">
@@ -367,8 +364,6 @@
 									<record id="CcoR" abbt="true" />
 								</record>
 							</record>
-
-
 
 						</list>
 
