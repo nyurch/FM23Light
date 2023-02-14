@@ -117,7 +117,7 @@
 	<container id="sort">
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
-			<container class="tabbed_container" id="gcon" default_item="gene" save_session_state="true" navigation_container="true" default_focus="true">
+			<container class="tabs" id="gcon" default_item="gene" save_session_state="true" navigation_container="true" default_focus="true">
 
 				<var name="graph_container">
 					<set_var name="container_id">
