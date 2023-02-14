@@ -1,0 +1,216 @@
+<panel>
+	<layout class="arrange_horizontal_attachment" layout="-9, -12" offset="0" />
+	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+	<container class="main_box" red_replacement="dark_box_background" navigation_container="true">
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+		<!--  main box containing tables  -->
+		<container class="tabs" id="cstm" default_item="lbBT" save_session_state="true">
+
+			<container id="lbBT">
+				<translation id="title" translation_id="232843" type="use" value="Overall" />
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+				<widget class="table" id="ltBT" layout="-1, -1" select_event="slBT" save_session_state="true" dont_restore_selection="true" auto_size_rows="false" row_height="30" row_spacing="2">
+					<flags id="mode" value="fill_rows, stripe_rows, show_bullets, select_rows, dont_allow_empty_selection" />
+
+					<list id="column_table_properties">
+						<record indx="0" sort_disabled="true" left="4" />
+					</list>
+
+					<list id="column_widget_properties">
+						<record index="0" alignment="left,centre_y" />
+					</list>
+
+					<list id="row_properties">
+						<record indx="0" initial_id="allT" />
+					</list>
+
+					<widget class="text" row="0" col="0">
+						<translation id="text" translation_id="336169" type="use" value="All Time[COMMENT: leaderboard panel column header, points scored in all modes]" />
+					</widget>
+
+				</widget>
+			</container>
+			<container id="lbFM">
+				<translation id="title" translation_id="336275" type="use" value="FM[COMMENT: leaderboard panel; tabbed container header for leaderboards that are for FM only]" />
+				<translation id="hint" translation_id="248034" type="use" value="Football Manager" />
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+				<widget class="table" id="ltFM" layout="-1, -1" select_event="slFM" save_session_state="true" dont_restore_selection="false" auto_size_rows="false" row_spacing="2" row_height="30" navigation_container="true">
+					<flags id="mode" value="fill_rows, stripe_rows, show_bullets, select_rows, dont_allow_empty_selection" />
+
+					<list id="column_table_properties">
+						<record indx="0" sort_disabled="true" left="4" />
+					</list>
+
+
+					<list id="column_widget_properties">
+						<record index="0" alignment="left,centre_y" />
+					</list>
+
+					<list id="row_properties">
+						<record indx="0" initial_id="allT" />
+						<record indx="1" initial_id="snGM" />
+						<record indx="2" initial_id="snSS" />
+						<record indx="3" initial_id="ntNL" >
+							<global id="shown" name="distribution_is_steam"/>
+						</record>
+						<record indx="4" initial_id="dvSL">
+							<global id="shown" name="distribution_is_steam"/>
+						</record>
+					</list>
+
+					<widget class="text" row="0" col="0">
+						<translation id="text" translation_id="336169" type="use" value="All Time[COMMENT: leaderboard panel column header, points scored in all modes]" />
+					</widget>
+					<widget class="text" row="1" col="0">
+						<translation id="text" translation_id="336657" type="use" value="Single Game[COMMENT: leaderboard panel column header, points scored in a single standalone saved game]" />
+					</widget>
+					<widget class="text" row="2" col="0">
+						<translation id="text" translation_id="339891" type="use" value="Single Season[COMMENT: leaderboard panel; scores from a single season]" />
+					</widget>
+					<widget class="text" row="3" col="0">
+						<translation id="text" translation_id="339890" type="use" value="Single Season in Nation[COMMENT: leaderboard panel; scores from a single season in a country]" />
+					</widget>
+					<widget class="popup_button" id="lFMn" auto_size="horizontal" row="3" col="1" select_event="sFMn" save_session_state="true">
+						<translation id="text" translation_id="229390" type="use" value="Nation" />
+					</widget>
+					<widget class="text" row="4" col="0">
+						<translation id="text" translation_id="339889" type="use" value="Single Season in Division[COMMENT: leaderboard panel; scores from a single season in one league]" />
+					</widget>
+					<widget class="popup_button" id="lFMd" row="4" col="1" select_event="sFMd" save_session_state="true">
+						<translation id="text" translation_id="229392" type="use" value="Division" />
+					</widget>
+
+				</widget>
+			</container>
+			<container id="lFcc">
+				<translation id="title" translation_id="396484" type="use" value="FM CC[COMMENT: leaderboard panel; tabbed container header for leaderboards that are for FM Create a club only]" />
+				<translation id="hint" translation_id="396025" type="use" value="Football Manager Create-a-Club[COMMENT: FR 8517 intro panel, game mode title, check with Woodg if this should stay unchanged in your language (it more than likely will)]" />
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+				<widget class="table" id="tfCC" layout="-1, -1" select_event="sFcc" save_session_state="true" dont_restore_selection="false" auto_size_rows="false" row_spacing="2" row_height="30">
+					<flags id="mode" value="fill_rows, stripe_rows, show_bullets, select_rows, dont_allow_empty_selection" />
+
+					<list id="column_table_properties">
+						<record indx="0" sort_disabled="true" left="4" />
+					</list>
+
+
+					<list id="column_widget_properties">
+						<record index="0" alignment="left,centre_y" />
+					</list>
+
+					<list id="row_properties">
+						<record indx="0" initial_id="allT" />
+						<record indx="1" initial_id="snGM" />
+						<record indx="2" initial_id="snSS" />
+						<record indx="3" initial_id="ntNL" >
+							<global id="shown" name="distribution_is_steam"/>
+						</record>
+						<record indx="4" initial_id="dvSL" >
+							<global id="shown" name="distribution_is_steam"/>
+						</record>
+					</list>
+
+					<widget class="text" row="0" col="0">
+						<translation id="text" translation_id="336169" type="use" value="All Time[COMMENT: leaderboard panel column header, points scored in all modes]" />
+					</widget>
+					<widget class="text" row="1" col="0">
+						<translation id="text" translation_id="336657" type="use" value="Single Game[COMMENT: leaderboard panel column header, points scored in a single standalone saved game]" />
+					</widget>
+					<widget class="text" row="2" col="0">
+						<translation id="text" translation_id="339891" type="use" value="Single Season[COMMENT: leaderboard panel; scores from a single season]" />
+					</widget>
+					<widget class="text" row="3" col="0">
+						<translation id="text" translation_id="339890" type="use" value="Single Season in Nation[COMMENT: leaderboard panel; scores from a single season in a country]" />
+					</widget>
+					<widget class="popup_button" id="FCCn" auto_size="horizontal" row="3" col="1" select_event="sCCn" save_session_state="true">
+						<translation id="text" translation_id="229390" type="use" value="Nation" />
+					</widget>
+					<widget class="text" row="4" col="0">
+						<translation id="text" translation_id="339889" type="use" value="Single Season in Division[COMMENT: leaderboard panel; scores from a single season in one league]" />
+					</widget>
+					<widget class="popup_button" id="FCCd" row="4" col="1" select_event="sCCd" save_session_state="true">
+						<translation id="text" translation_id="229392" type="use" value="Division" />
+					</widget>
+
+				</widget>
+			</container>
+			<container id="lFfd">
+				<translation id="title" translation_id="437028" type="use" value="Fantasy Draft[COMMENT: leaderboard panel; tabbed container header for leaderboards that are fantasy drafts]" />
+				<translation id="hint" translation_id="437029" type="use" value="Fantasy Draft Online Matches[COMMENT: leaderboard panel, hint for fantasy draft tab]" />
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+				<widget class="table" id="tfFD" layout="-1, -1" select_event="sFfd" save_session_state="true" dont_restore_selection="false" auto_size_rows="false" row_spacing="2" row_height="30">
+					<flags id="mode" value="fill_rows, stripe_rows, show_bullets, select_rows, dont_allow_empty_selection" />
+
+					<list id="column_table_properties">
+						<record indx="0" sort_disabled="true" left="4" />
+					</list>
+
+					<list id="column_widget_properties">
+						<record index="0" alignment="left,centre_y" />
+					</list>
+
+					<list id="row_properties">
+						<record indx="0" initial_id="FDpo" />
+						<record indx="1" initial_id="FDmw" />
+						<record indx="2" initial_id="FDmp" />
+						<record indx="3" initial_id="FDcw" />
+						<record indx="4" initial_id="FDlw" />
+					</list>
+
+					<widget class="text" row="0" col="0">
+						<translation id="text" translation_id="443655" type="use" value="Match Points[COMMENT: leaderboard panel; total points from matches played]" />
+					</widget>
+					<widget class="text" row="1" col="0">
+						<translation id="text" translation_id="315357" type="use" value="Matches Won" />
+					</widget>
+					<widget class="text" row="2" col="0">
+						<translation id="text" translation_id="437030" type="use" value="Matches Played[COMMENT: leaderboard panel; total of matches played]" />
+					</widget>
+					<widget class="text" row="3" col="0">
+						<translation id="text" translation_id="443656" type="use" value="Knockout Cup Champions Points[COMMENT: leaderboard panel; points from knockout cup wins]" />
+					</widget>
+					<widget class="text" row="4" col="0">
+						<translation id="text" translation_id="443657" type="use" value="League Champions Points[COMMENT: leaderboard panel; points from league wins]" />
+					</widget>
+
+				</widget>
+			</container>
+			<container id="lFvs">
+				<translation id="titl" translation_id="339240" type="use" value="Versus[COMMENT: intro panel button text for Versus Competition online mode, a custom competition for human users]" />
+
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+				<widget class="table" id="tfVS" layout="-1, -1" select_event="sFvs" save_session_state="true" dont_restore_selection="false" auto_size_rows="false" row_spacing="2" row_height="30">
+					<flags id="mode" value="fill_rows, stripe_rows, show_bullets, select_rows, dont_allow_empty_selection" />
+
+					<list id="column_table_properties">
+						<record indx="0" sort_disabled="true" left="4" />
+					</list>
+
+					<list id="column_widget_properties">
+						<record index="0" alignment="left,centre_y" />
+					</list>
+
+					<list id="row_properties">
+						<record indx="0" initial_id="VSsc" />
+					</list>
+
+					<widget class="text" row="0" col="0">
+						<translation id="text" translation_id="247299" type="use" value="Score[COMMENT - Hall of fame score column heading]" />
+					</widget>
+				</widget>
+			</container>
+
+
+		</container>
+	</container>
+
+	<widget class="leaderboard_display_panel" id="lbDP" />
+
+</panel>

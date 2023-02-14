@@ -1,0 +1,43 @@
+<panel>
+
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+	<container class="main_box">
+		<translation id="text" translation_id="243323" type="use" value="Records" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+
+		<container class="tabs" id="main" default_item="recs" save_session_state="true" navigation_container="true">
+
+			<record id="default_properties" late_loading="true">
+				<record id="object_property">
+					<integer id="get_property" value="objt" />
+					<integer id="set_property" value="objt" />
+				</record>
+
+			</record>
+
+			<widget class="team_container_records_summary_panel" id="recs">
+				<translation id="title" translation_id="247414" type="use" value="Overview" />
+			</widget>
+			<widget class="team_container_records_panel" id="ttra">
+				<translation id="title" translation_id="234067" type="use" value="Rankings" />
+			</widget>
+			<widget class="team_container_records_panel" id="atts">
+				<translation id="title" translation_id="232110" type="use" value="Attendances" />
+			</widget>
+			<widget class="team_container_records_panel" id="resu">
+				<translation id="title" translation_id="232111" type="use" value="Results" />
+			</widget>
+			<widget class="team_container_records_panel" id="seqs">
+				<translation id="title" translation_id="232112" type="use" value="Sequences" />
+			</widget>
+			<widget class="team_container_records_panel" id="plrs">
+				<translation id="title" translation_id="232113" type="use" value="Players" />
+			</widget>
+			<widget class="team_container_records_panel" id="trns">
+				<translation id="title" translation_id="227743" type="use" value="Transfers" />
+			</widget>
+		</container>
+	</container>
+</panel>

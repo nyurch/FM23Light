@@ -63,7 +63,7 @@
 			</layout>
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-			<container class="tabbed_container" appearance="boxes/main/standard/paper" id="mult" default_item="ttar" save_session_state="true" save_default_state="true" navigation_container="true">
+			<container class="tabs" appearance="boxes/main/standard/paper" id="mult" default_item="ttar" save_session_state="true" save_default_state="true" navigation_container="true">
 
 				<container class="inner_box_no_margin" id="ttar">
 					<translation id="title" translation_id="336873" type="use" value="Transfer Targets[COMMENT: target list.xml; list name for shortlist of players you're interested in buying]" />

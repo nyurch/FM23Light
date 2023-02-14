@@ -7,7 +7,7 @@
 	<container width="310" class="main_box">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-		<container class="tabbed_container" id="trls" default_item="altc" save_session_state="true" inset="0" offset="0" navigation_container="true" default_focus="true">
+		<container class="tabs" id="trls" default_item="altc" save_session_state="true" inset="0" offset="0" navigation_container="true" default_focus="true">
 
 			<!--Bug fix 60333-->
 			<flags id="save_default_state" value="false" />

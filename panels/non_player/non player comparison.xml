@@ -120,7 +120,7 @@
 		<!-- In-depth comparison panels -->
 		<container class="bordered_box_no_margin">
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-			<container class="tabbed_container" id="mcbc" default_item="attR" changed_event="dese" save_session_state="true">
+			<container class="tabs" id="mcbc" default_item="attR" changed_event="dese" save_session_state="true">
 				<!--Attributes and Roles"-->
 				<container id="attR">
 					<translation id="title" translation_id="420711" type="use" value="Attributes &amp; Roles[COMMENT: Non-Player comparison type header, feel free to use an alternative to an ampersand if it's not your convention but please use appropriate character references as done here]" />

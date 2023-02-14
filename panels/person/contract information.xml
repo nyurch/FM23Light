@@ -418,7 +418,7 @@
 			<container class="main_transparent_box" red_replacement="dark_box_background" navigation_container="true">
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-				<container class="tabbed_container" id="tabs" default_item="agre" save_session_state="true" save_default_state="true">
+				<container class="tabs" id="tabs" default_item="agre" save_session_state="true" save_default_state="true">
 					<container id="agre">
 						<translation id="title" translation_id="308669" type="use" value="Agreements[COMMENT: section title; panel shows list of agreements between nations]" />
 						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />

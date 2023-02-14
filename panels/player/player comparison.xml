@@ -140,7 +140,7 @@
 			<layout class="stick_to_sides_attachment" alignment="all" inset="2,8,8,8" apply_to_children="true" />
 			<!-- No second player label -->
 			<widget class="text" id="nopt" hidden="true" auto_size="none" alignment="centre" />
-			<container class="tabbed_container" id="mcbc" appearance="" default_item="OvrC" changed_event="dese"  save_session_state="true" height="40" navigation_container="true">
+			<container class="tabs" id="mcbc" appearance="" default_item="OvrC" changed_event="dese"  save_session_state="true" height="40" navigation_container="true">
 
 				<!-- The overview panel is an xml file only and doesn't do anything clever except contain some more panels -->
 				<container id="OvrC">

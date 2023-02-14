@@ -1,7 +1,7 @@
 <panel>
 	<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0"/>
 
-	<container class="main_box">
+	<container class="main_subtle_box">
 		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" />
 		<!-- name - a widget will be created in this container based on the type of the object -->
 		<container id="name">

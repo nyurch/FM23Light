@@ -1,0 +1,45 @@
+<panel>
+
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<container class="main_box">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+		<container class="tabs" id="main" default_item="mpts" save_session_state="true">
+
+			<container id="mpts" class="team_next_match_panel">
+				<translation id="title" translation_id="308589" type="use" value="Next Match[COMMENT: Text on match preparation fixture tab]" />
+				<record id="object_property">
+					<integer id="get_property" value="objt" />
+					<integer id="set_property" value="objt" />
+				</record>
+			</container>
+			<container id="mppm" class="team_next_match_past_meetings_panel">
+				<translation id="title" translation_id="308590" type="use" value="Past Meetings[COMMENT: Text on match preparation fixture tab]" />
+				<record id="object_property">
+					<integer id="get_property" value="objt" />
+					<integer id="set_property" value="objt" />
+				</record>
+			</container>
+			<container id="Mpsr">
+				<translation id="title" translation_id="338086" type="use" value="Report[COMMENT: Text on match preparation fixture tab]" />
+
+				<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" gap="4" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+				<container id="mpsr" class="team_report_summary_panel" hidden="true" file="team/team report summary panel tactics" >
+				</container>
+
+				<container>
+					<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />
+					<layout class="stick_to_sides_attachment" alignment="right,top" inset="0,0,0,4" apply_to_children="true" />
+
+					<widget class="link_button" id="TRlk" auto_size="all" section="TRsm">
+						<translation id="text" translation_id="334198" type="use" value="View Reports[COMMENT: heading; scouting assignments; button to view reports]" />
+					</widget>
+				</container>
+			</container>
+		</container>
+	</container>
+
+</panel>
