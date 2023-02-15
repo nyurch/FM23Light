@@ -1,0 +1,20 @@
+<panel navigation_container="true">
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+	<container class="title_link_box" force_title_borders="true" id="SUBP" />
+
+	<widget class="team_opposition_report_predicted_tactical_style_panel" file="team/team opposition report predicted tactical style panel" id="awet" section="TeOv" late_loading="true" valid_for_international_teams="false" valid_for_international_youth_teams="false" valid_for_unemployed_manager="false" >
+		<translation id="title" translation_id="447656" type="use" value="Opposition Overview[COMMENT: Panel title for when viewing opposition report]"/>
+	</widget>
+
+	<!--
+	<widget class="team_opposition_report_previous_match_analysis_panel" id="tpma">
+		<translation id="title" translation_id="346746" type="use" value="Match Details[COMMENT: title for a box showing information about the upcoming match]" />
+	</widget>
+	-->
+
+	<widget class="team_opposition_scout_report_panel" file="team/team opposition manager for human home" id="tosr">
+		<translation id="title" type="use" value="Opposition Manager" />
+	</widget>
+
+</panel>
