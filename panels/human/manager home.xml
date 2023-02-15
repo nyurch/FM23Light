@@ -1,4 +1,11 @@
 <panel>
+
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+	<container class="tabs" default_item="tab1">
+
+	<container id="tab1">
+	<translation id="title" translation_id="247671" type="use" value="Default"/>
 	<layout class="arrange_vertical_attachment" layout="200, 1 , -1" offset="0" gap="8"/>
 	<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
@@ -12,7 +19,7 @@
 		<global id="gap" name="ui.main_box_gap"/>
 
 		<!-- HORIZONTAL LEFT -->
-		<container class="client_object_viewer_selector_panel" id="cos1" file="human/manager home selector panel" default_width="-1" minimum_width="300" priority="1" default_focus="true">
+		<container class="client_object_viewer_selector_panel" id="cos11" file="human/manager home selector panel" default_width="-1" minimum_width="300" priority="1" default_focus="true">
 			<integer id="default_for_club_teams" value="tlta"/>
 			<integer id="default_for_international_teams" value="pssu"/>
 			<integer id="default_for_international_youth_teams" value="pssu"/>
@@ -99,21 +106,21 @@
 		</container>
 
 		<!-- HORIZONTAL RIGHT 2 -->
-		<container class="vertical_adaptive_container" layout="-1, -1" inset="0" offset="0" minimum_width="300" default_width="-1" priority="1" gap="16" draw_horizontal_dividers="true">
+		<container class="vertical_adaptive_container" layout="-2, -1" inset="0" offset="0" minimum_width="300" default_width="-1" priority="1" gap="16" draw_horizontal_dividers="true">
 			<!-- RIGHT TOP -->
 			<container class="client_object_viewer_selector_panel" id="cos88" file="human/manager home selector panel"  minimum_width="300" default_width="-1" priority="1">
-				<integer id="default_for_club_teams" value="book"/>
-				<integer id="default_for_international_teams" value="book"/>
-				<integer id="default_for_international_youth_teams" value="book"/>
-				<integer id="default_for_pre_match" value="book"/>
-				<integer id="default_for_post_match" value="book"/>
-				<integer id="default_for_off_season" value="book"/>
-				<integer id="default_for_pre_season" value="book"/>
-				<integer id="default_for_transfer_window" value="book"/>
+				<integer id="default_for_club_teams" value="tstr"/>
+				<integer id="default_for_international_teams" value="tstr"/>
+				<integer id="default_for_international_youth_teams" value="tstr"/>
+				<integer id="default_for_pre_match" value="tstr"/>
+				<integer id="default_for_post_match" value="tstr"/>
+				<integer id="default_for_off_season" value="tstr"/>
+				<integer id="default_for_pre_season" value="tstr"/>
+				<integer id="default_for_transfer_window" value="tstr"/>
 			</container>
 			<!-- RIGHT BOTTOM -->
 			<container class="client_object_viewer_selector_panel" id="cos99" file="human/manager home selector panel"  minimum_width="300" default_width="-1" priority="1">
-				<integer id="default_for_club_teams" value="tstr"/>
+				<integer id="default_for_club_teams" value="book"/>
 				<integer id="default_for_international_teams" value="comp"/>
 				<integer id="default_for_international_youth_teams" value="comp"/>
 				<integer id="default_for_pre_match" value="CTPP"/>
@@ -123,6 +130,25 @@
 				<integer id="default_for_transfer_window" value="bcsn"/>
 			</container>
 		</container>
+	</container>
+	</container>
+
+	<container id="tab2" >
+	<translation id="title" translation_id="308589" type="use" value="Next Match[COMMENT: Text on match preparation fixture tab]"/>
+	<layout class="arrange_horizontal_attachment" layout="560,-1" offset="0" gap="8"/>
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+		<!-- HORIZONTAL LEFT -->
+		<container class="client_object_viewer_selector_panel" id="tab11" file="human/manager home selector tabs panel" default_width="-1" minimum_width="300" priority="1" default_focus="true">
+				<integer id="default_for_club_teams" value="tosr"/>
+		</container>
+		<!-- HORIZONTAL RIGHT -->
+		<container class="client_object_viewer_selector_panel" id="tab22" file="human/manager home selector tabs panel" default_width="-1" minimum_width="300" priority="1" default_focus="true">
+				<integer id="default_for_club_teams" value="awet"/>
+		</container>
+
+	</container>
+
 
 	</container>
 </panel>
