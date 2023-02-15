@@ -1,0 +1,204 @@
+<properties version="1.0">
+	<!--  
+	 ============================================================
+	 Default Settings Modified By This Skin
+	 The definitions below will override the defaults contained
+	 in the parent skins, or in the various global and application
+	 settings files.
+	 ============================================================
+	 -->
+
+	<!-- global settings -->
+	<set_global name="ui.main_box_gap" >
+		<integer value="12"/>
+	</set_global>
+	<set_global name="ui.main_contrast_box_gap" >
+		<integer value="8"/>
+	</set_global>
+	<set_global name="ui.inner_box_gap" >
+		<integer value="20"/>
+	</set_global>
+	<set_global name="ui.main_content_margin" >
+		<integer value="10" />
+	</set_global>
+	<set_global name="ui.button_row_gap" >
+		<integer value="4"/>
+	</set_global>
+	<set_global name="ui.split_button_row_gap" >
+		<integer value="1"/>
+	</set_global>
+
+	<!-- This allows us to set a global font adjustment value for given languages this 
+		 is required because we map to a different font set for russian and greek which
+		 ends up with a larger vertical size then the base font which causes cut offs, so now we
+		 can adjust it to fit closer to the original size -->
+	<list id="language_font_scaling_list">
+		<record name="russian">
+			<coordinate id="value" x="0.9" y="0.9" />
+		</record>
+		<record name="greek">
+			<coordinate id="value" x="0.9" y="0.9" />
+		</record>
+		<record name="default">
+			<coordinate id="value" x="1.0" y="1.0" />
+		</record>
+	</list>
+
+	<!-- resolution dependant global settings -->
+	<list id="resolution_settings">
+		<!-- gap used between main box appearance -->
+		<record >
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1" />
+			<integer id="resolution_maximum" value="1366" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.main_box_gap" />
+					<integer id="value" value="12" />
+				</record>
+			</list>
+		</record>
+		<record>
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1367" />
+			<integer id="resolution_maximum" value="1919" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.main_box_gap" />
+					<integer id="value" value="18" />
+				</record>
+			</list>
+		</record>
+		<record>
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1920" />
+			<integer id="resolution_maximum" value="100000" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.main_box_gap" />
+					<integer id="value" value="24" />
+				</record>
+			</list>
+		</record>
+
+		<!-- gap used between boxes that have a visible appearance -->
+		<record >
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1" />
+			<integer id="resolution_maximum" value="1366" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.main_contrast_box_gap" />
+					<integer id="value" value="8" />
+				</record>
+			</list>
+		</record>
+		<record>
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1367" />
+			<integer id="resolution_maximum" value="1919" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.main_contrast_box_gap" />
+					<integer id="value" value="12" />
+				</record>
+			</list>
+		</record>
+		<record>
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1920" />
+			<integer id="resolution_maximum" value="100000" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.main_contrast_box_gap" />
+					<integer id="value" value="16" />
+				</record>
+			</list>
+		</record>
+
+		<!-- gap used between a collection of inner_box -->
+		<record >
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1" />
+			<integer id="resolution_maximum" value="1366" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.inner_box_gap" />
+					<integer id="value" value="28" />
+				</record>
+			</list>
+		</record>
+		<record>
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1367" />
+			<integer id="resolution_maximum" value="1919" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.inner_box_gap" />
+					<integer id="value" value="36" />
+				</record>
+			</list>
+		</record>
+		<record>
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1920" />
+			<integer id="resolution_maximum" value="100000" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.inner_box_gap" />
+					<integer id="value" value="48" />
+				</record>
+			</list>
+		</record>
+
+		<!-- gap used around main content area -->
+		<record >
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1" />
+			<integer id="resolution_maximum" value="1366" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.main_content_margin" />
+					<integer id="value" value="10" />
+				</record>
+			</list>
+		</record>
+		<record>
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1367" />
+			<integer id="resolution_maximum" value="1919" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.main_content_margin" />
+					<integer id="value" value="10" />
+				</record>
+			</list>
+		</record>
+		<record>
+			<flags id="resolution_orientation" value="horizontal" />
+			<integer id="resolution_minimum" value="1920" />
+			<integer id="resolution_maximum" value="100000" />
+			<list id="value">
+				<record>
+					<string id="name" value="ui.main_content_margin" />
+					<integer id="value" value="10" />
+				</record>
+			</list>
+		</record>
+	</list>
+
+	<!-- misc properties -->
+	<real id="background_opacity" value="1.0" />
+	<integer id="dcht" value="30" comment="default control height"/>
+  	<real id="default_control_inset" value="0" />
+  	<real id="default_control_offset" value="0" />
+  	<real id="default_control_gap" value="4" />
+	<real id="default_table_column_spacing" value="4" />
+	<real id="default_table_row_spacing" value="0" />
+
+	<boolean id="disable_accent_colour" value="true" />
+	<boolean id="disable_dark_accent_colour" value="false" />
+	<boolean id="disable_primary_colour" value="false" />
+	<boolean id="disable_secondary_colour" value="false" />
+
+</properties>
