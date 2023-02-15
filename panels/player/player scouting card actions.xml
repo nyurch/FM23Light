@@ -73,11 +73,11 @@
 			</widget>
 		</container>
 		
-		<widget class="icon_tick_button" id="call" red_replacement="solid_button" blue_replacement="solid_button">
+		<widget class="icon_tick_button" id="call" red_replacement="solid_button" icon_colour="black" colour="black" blue_replacement="solid_button">
 			<!--call up to national squad-->
 		</widget>
 
-		<widget class="icon_tick_button" id="RmSq" red_replacement="solid_button" blue_replacement="solid_button">
+		<widget class="icon_tick_button" id="RmSq" red_replacement="solid_button" icon_colour="black" colour="black" blue_replacement="solid_button">
 			<!--remove from national squad-->
 		</widget>
 
