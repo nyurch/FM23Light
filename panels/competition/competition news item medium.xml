@@ -12,7 +12,7 @@
 			<widget class="text" id="brif" font="title" size="small" style="bold" multiline="true" auto_size="vertical" colour="website faded text"/>
 
 			<container>
-				<layout class="arrange_horizontal_attachment" layout="86,-1" offset="0" gap="8"/>
+				<layout class="arrange_horizontal_attachment" layout="120,-1" offset="0" gap="8"/>
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
 				<container>
