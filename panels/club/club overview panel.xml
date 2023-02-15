@@ -109,7 +109,7 @@
 			</widget>
 		</container>
 		<!-- TROPHIES INFO-->
-		<container>
+		<container class="main_subtle_box">
 			<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0"/>
 			<widget class="team_container_honours_panel" honour_subpanel_filename="club/club overview panels/trophy info" file="club/club overview panels/trophies" default_width="-2" priority="4">
 				<record id="object_property" get_property="objt" set_property="objt" /> 
