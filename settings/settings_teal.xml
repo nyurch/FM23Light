@@ -1919,6 +1919,8 @@
 	<colour name="cup draw team slots active bluerepl"                 value="rgb(255,255,0)"/>
 	<colour name="cup draw team slots active greenrepl"                 value="rgb(255,214,0)"/>
 	<colour name="cup draw react bgnd"                 value="rgb(0,0,75)"/>
-	<colour name="cup draw react "                 value="rgb(13,58,255)"/>
+	<colour name="cup draw react"                 value="rgb(13,58,255)"/>
+	<colour name="top news"                 value="rgb(51,71,78)"/>
+	<colour name="top news related"                 value="rgb(88,109,121)"/>
 
 </properties>

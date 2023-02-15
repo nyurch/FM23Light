@@ -5,12 +5,12 @@
 	<container>
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-		<widget class="text" id="prcn" alignment="left,centre_y" colour="faded text" >
+		<widget class="text" id="prcn" alignment="left,centre_y" colour="white" >
 			<record id="object_property" get_property="comp" set_property="text"/>
 		</widget>
 	</container>
 	<!-- Stat text -->
-	<widget class="text" id="proz" alignment="centre" colour="text">
+	<widget class="text" id="proz" alignment="centre" colour="white">
 		<record id="object_property" get_property="text" set_property="text"/>
 	</widget>
 </panel>
