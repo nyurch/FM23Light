@@ -1922,5 +1922,5 @@
 	<colour name="cup draw react"                 value="rgb(13,58,255)"/>
 	<colour name="top news"                 value="rgb(51,71,78)"/>
 	<colour name="top news related"                 value="rgb(88,109,121)"/>
-
+	<colour name="topbar menu"                 value="rgb(120,144,156)"/>
 </properties>

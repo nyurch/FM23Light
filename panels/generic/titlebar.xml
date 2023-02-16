@@ -1,7 +1,7 @@
 <!-- normal header container used on all screens except the match screen -->
 <panel>
 	<container class="main_contrast_box" red_replacement="sidebar" navigation_container="true" >
-		<layout class="stick_to_sides_attachment" alignment="all" inset="2"/>
+		<layout class="stick_to_sides_attachment" alignment="all" inset="-2"/>
 		<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_gap="0"/>
 
 		<container>
