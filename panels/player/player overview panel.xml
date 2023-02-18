@@ -8,7 +8,7 @@
 		<!-- PLAYER INFO -->
 		<container class="main_subtle_box">
 		<attachment class="horizontal_arrange" horizontal_layout="300,-1" vertical_gap="10"/>
-			<container class="main_subtle_box_no_margin">
+			<container class="main_box_no_margin">
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
 				<layout class="arrange_vertical_attachment" layout="180,40" gap="0"/>
 					<container>
@@ -22,7 +22,7 @@
 							<layout class="stick_to_sides_attachment" alignment="right" inset="12"/>
 							<record id="object_property" get_property="Pnfa"/>
 						</widget>
-						<container class="main_subtle_box" width="101">
+						<container class="main_box" width="101">
 							<layout class="stick_to_sides_attachment" alignment="vertical" inset="-20"/>
 							<layout class="stick_to_sides_attachment" alignment="left" inset="12"/>
 						</container>
