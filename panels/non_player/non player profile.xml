@@ -227,13 +227,13 @@
 					<widget class="non_player_roles_panel" id="nprp"/>
 
 					<container>
-						<layout class="arrange_vertical_attachment" offset="0" alignment="bottom,extend" gap="0" />
+						<layout class="arrange_vertical_attachment" offset="0" alignment="bottom,extend" gap="5" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 						<container>
-							<layout class="arrange_horizontal_attachment" offset="0" layout="-2,-1" gap="0" />
+							<layout class="arrange_horizontal_attachment" offset="0" layout="-2,-1" gap="5" />
 							<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-							<container>
+							<container class="main_subtle_box">
 								<layout class="arrange_vertical_attachment" offset="0" layout="40,-1" gap="0" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
@@ -255,7 +255,7 @@
 											<flags id="mode" value="2" />
 										</event>
 									</widget>
-									<widget class="radio_button" id="SctW" auto_size="horizontal" appearance="tabs/subsection/normal/top/button" icon_enabled="false" show_button_appearance="true" secondary_icon_enabled="true" secondary_icon="icons/16px/scouting" secondary_icon_alignment="left">
+									<widget class="tabs" id="SctW" auto_size="horizontal" appearance="tabs/subsection/normal/top/button" icon_enabled="false" show_button_appearance="true" secondary_icon_enabled="true" secondary_icon="icons/16px/scouting" secondary_icon_alignment="left">
 										<translation id="text" translation_id="248356" type="use" value="Scouting" />
 										<event id="click_event">
 											<flags id="event_id" value="eAtH" />
@@ -273,7 +273,7 @@
 								<container class="non_player_attributes_panel" id="patp" />
 							</container>
 
-							<container>
+							<container class="main_subtle_box">
 								<layout class="arrange_vertical_attachment" offset="0" alignment="top,extend" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="6" />
 
@@ -285,8 +285,6 @@
 								<widget class="personality_label" auto_size="vertical">
 									<record id="object_property" dont_set_hint="true" get_property="PPst" />
 								</widget>
-
-								<widget class="horizontal_divider"/>
 
 								<container>
 									<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
@@ -350,7 +348,7 @@
 							</container>
 						</container>
 
-						<container height="60">
+						<container class="main_subtle_box" height="80">
 							<translation id="title" translation_id="230056" type="use" value="Tactics" />
 							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
@@ -370,7 +368,7 @@
 				</container>
 			</container>
 
-			<container class="main_box" minimum_width="300" default_width="-1" priority="2" red_replacement="light_box_background">
+			<container class="main_subtle_box" minimum_width="300" default_width="-1" priority="2">
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 				<container class="person_history_biography_panel" file="person/person history biography no title" id="biog" navigation_container="true">
@@ -382,10 +380,11 @@
 			</container>
 		</container>
 
-		<container id="cskr" class="horizontal_adaptive_container" offset="0" inset="0" >
+		<container id="cskr">
+		<attachment_group class="horizontal_arrange" horizontal_layout="-1,-1,-1" horizontal_offset="0" horizontal_gap="5" vertical_offset="0" />
 
-			<container class="main_box" minimum_width="300" default_width="-1" priority="1">
-				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+			<container class="main_subtle_box">
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
 
 				<widget class="player_history_achievements_panel" id="pac1" file="non_player/non player history" navigation_container="true">
 					<record id="object_property">
@@ -399,25 +398,22 @@
 				</widget>
 			</container>
 
-			<!-- Happiness -->
-			<container class="main_box" id="phhp" minimum_width="300" default_width="-1" priority="2" navigation_container="true">
-				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-
-				<widget class="person_happiness_panel" file="person/person happiness profile">
-					<record id="object_property">
-						<list id="get_properties">
-							<record>
-								<integer id="get_property" value="objt" />
-								<integer id="set_property" value="objt" />
-							</record>
-						</list>
-					</record>
-				</widget>
-			</container>
+			<!-- Awards -->
+		<container class="main_subtle_box">
+			<translation id="title" translation_id="229368" type="use" value="Awards" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4" />
+			<widget class="client_object_viewer_xml_panel" file="person/person achievements summary" id="pacs" auto_size="vertical" default_height="181" priority="4">
+				<record id="object_property">
+					<integer id="get_property" value="objt" />
+					<integer id="set_property" value="objt" />
+				</record>
+			</widget>
+		</container>
 
 			<!-- Plans -->
-			<container class="main_box" minimum_width="300" default_width="-1" priority="3" navigation_container="true">
-				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+			<container class="main_subtle_box" navigation_container="true">
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
 
 				<widget class="person_happiness_panel" id="phap" file="person/person happiness profile plans">
 					<record id="object_property">
