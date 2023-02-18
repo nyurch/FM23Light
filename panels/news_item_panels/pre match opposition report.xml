@@ -72,7 +72,7 @@
 	<!--TABS-->
 	<container height="500">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="7" />
-		<container class="tabs" default_item="find" save_session_state="true" save_default_state="true" inset="" offset="0" id="tabc">
+		<container class="tabs" default_item="phto" save_session_state="true" save_default_state="true" inset="" offset="0" id="tabc">
 			<!-- general info -->
 			<container id="gene">
 				<translation id="title" translation_id="258721" type="use" value="General" />
