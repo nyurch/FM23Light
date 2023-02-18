@@ -534,7 +534,7 @@
 </container>
 <!-- FOOTER CONTAINER -->
 <container>
-<layout class="horizontal_arrange" horizontal_layout="500,500,-1" />
+<layout class="horizontal_arrange" horizontal_layout="450,330,200,-1" />
 	<container>
 	<layout class="vertical_arrange" vertical_layout="-1,-1" />
 		<!-- BANS -->
@@ -572,6 +572,108 @@
 					<record id="object_property" get_property="objt" set_property="objt"/>
 				</widget>
 		</container>
+	</container>
+	<!-- LAST MATCH -->
+	<container class="main_subtle_box">
+		<translation id="title" translation_id="316854" type="use" value="Last Match" />
+		<attachment class="vertical_arrange" vertical_layout="-1,-2" vertical_gap="0"/>
+			<container>
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+				<widget class="object_portrait_picture" id="PCop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
+						<record id="object_property" dont_set_hint="true" get_property="PCop" set_property="objt" />
+				</widget>
+			</container>
+			<container>
+				<layout class="arrange_vertical_attachment" layout="20,20,1,-1,-1"/>
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+				<widget class="date_cell" alignment="centre_x,top" id="Pghm" size="xlarge" colour="faded text">
+					<record id="object_property" get_property="PCfd" />
+				</widget>
+				<container>
+					<layout class="arrange_horizontal_attachment" layout="-3,-1" offset="0" gap="10"/>
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+					<widget class="team_button" alignment="left,centre_y" icon_enabled="false" font="title" size="xlarge" format="[%team#1-short]" id="Pghm">
+						<record id="object_property" get_property="PCop" />
+					</widget>
+					<widget class="fixture_full_result_text" alignment="right,centre_y" size="xlarge" format="[%scoreline#1-home_away]" id="Pghm">
+						<record id="object_property" get_property="PCsc" />
+					</widget>
+				</container>
+				<widget class="horizontal_divider" />
+				<container>
+					<layout class="arrange_vertical_attachment" layout="-1,-1,-1,-1,-1"/>
+					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+					<container>
+						<layout class="arrange_horizontal_attachment" layout="30,-1,-1" offset="0" gap="10"/>
+						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+						<widget class="picture" file="icons/26px/formation" red_replacement="green 900" alignment="left,centre_y" scale_picture="true">
+							<layout class="stick_to_sides_attachment" alignment="left,centre_y"/>
+						</widget>
+						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
+							<translation id="text" type="use" translation_id="227884" value="Position" />
+						</widget>
+						<widget class="position_label" size="large" id="Pdes" colour="fg" alignment="left,centre_y">
+							<record id="object_property" get_property="PCps" />
+						</widget>
+					</container>
+					<container>
+						<layout class="arrange_horizontal_attachment" layout="30,-1,-1" offset="0" gap="10"/>
+						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+						<widget class="picture" file="icons/26px/time"  red_replacement="green 900" scale_picture="true">
+							<layout class="stick_to_sides_attachment" alignment="left,centre_y"/>
+						</widget>
+						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
+							<translation id="text" type="use" translation_id="249451" value="Minutes" />
+						</widget>
+						<widget class="number_label" id="Pghm" size="large" colour="fg" alignment="left,centre_y">
+							<record id="object_property" get_property="PCmp" />
+						</widget>
+					</container>
+					<container>
+						<record id="object_property" get_property="Pigo" set_property="hidn"/>
+						<layout class="arrange_horizontal_attachment" layout="30,-1,-1" offset="0" gap="10"/>
+						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+						<widget class="picture" file="icons/26px/ball" red_replacement="green 900" scale_picture="true">
+							<layout class="stick_to_sides_attachment" alignment="left,centre_y" />
+						</widget>
+						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
+							<translation id="text" type="use" translation_id="227851" value="Goals" />
+						</widget>
+						<widget class="number_label" id="Pghm" size="large" colour="fg" alignment="left,centre_y">
+							<record id="object_property" get_property="PCgo" />
+						</widget>
+					</container>
+					<container>
+						<layout class="arrange_horizontal_attachment" layout="30,-1,-1" offset="0" gap="10"/>
+						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+						<widget class="picture" file="icons/26px/assist" red_replacement="green 900" scale_picture="true">
+							<layout class="stick_to_sides_attachment" alignment="left,centre_y"/>
+						</widget>
+						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
+							<translation id="text" type="use" translation_id="227847" value="Assists" />
+						</widget>
+						<widget class="number_label" id="Pghm" size="large" colour="fg" alignment="left,centre_y">
+							<record id="object_property" get_property="PCas" />
+						</widget>
+					</container>
+					<container>
+						<layout class="arrange_horizontal_attachment" layout="30,-1,-1" offset="0" gap="10"/>
+						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+						<widget class="picture" file="icons/26px/star" white_replacement="green 900" scale_picture="true">
+							<layout class="stick_to_sides_attachment" alignment="left,centre_y"/>
+						</widget>
+						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
+							<translation id="text" type="use" translation_id="227849" value="Rating" />
+						</widget>
+						<widget class="dashed_number_label" size="large" colour="fg" format="[%fraction#1-3.2]" id="Pghm" alignment="left,centre_y">
+							<record id="object_property" get_property="PCra" />
+						</widget>
+					</container>
+					<container>
+						<record id="object_property" get_property="Pigo" set_property="Shwn"/>
+					</container>
+				</container>
+			</container>
 	</container>
 	<!-- STATS -->
 	<container class="main_subtle_box">
