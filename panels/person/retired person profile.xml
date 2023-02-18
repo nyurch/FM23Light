@@ -1,0 +1,74 @@
+<panel>
+
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+
+	<!--main panel-->
+	<container id="rpmp" draw_vertical_dividers="true">
+		<layout class="arrange_horizontal_attachment" layout="-3,-4,-3" offset="0" />
+		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+		<!-- Data on whether we have non player and/or player info -->
+		<record id="object_property">
+			<list id="get_properties">
+				<record>
+					<integer id="get_property" value="RHph" />
+				</record>
+				<record>
+					<integer id="get_property" value="RpHn" />
+				</record>
+			</list>
+		</record>
+
+		<!--left panel (personal details/achievements summary)-->
+		<container class="main_subtle_box" draw_horizontal_dividers="true">
+			<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+			<widget class="client_object_viewer_xml_panel" id="rpdp" file="person/retired personal details panel">
+				<record id="object_property">
+					<integer id="get_property" value="objt" />
+					<integer id="set_property" value="objt" />
+				</record>
+			</widget>
+
+
+			<container class="main_box">
+				<translation id="title" translation_id="435775" type="use" value="Career Milestones[COMMENT: was previously ID 329749 Career Achievements, rewording as it's a better term for the content on the screen]" />
+				<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal,top" inset="0" apply_to_children="true" />
+
+				<widget class="client_object_viewer_xml_panel" file="person/person achievements summary" id="pacs" auto_size="vertical" default_height="181" priority="4">
+					<record id="object_property">
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</widget>
+			</container>
+		</container>
+
+		<!--middle container (biography/landmarks)-->
+		<container class="client_object_viewer_selector_panel" id="Cos1">
+			<widget class="person_history_biography_panel" id="phbp" file="person/retired person history biography" default_item="true">
+				<translation id="title" translation_id="295868" type="use" value="Biography[COMMENT: player history panel; title of biography titled box]" />
+			</widget>
+			<widget class="person_achievements_list_panel" id="palp">
+				<translation id="title" translation_id="248354" type="use" value="Landmarks" />
+			</widget>
+		</container>
+
+		<!--right container <history summary/history/non-player history)-->
+		<container class="client_object_viewer_selector_panel" id="Cos2">
+			<widget class="playing_history_summary_panel" id="plsp" file="person/retired person history summary" default_item="true" RHph="false">
+				<translation id="title" translation_id="319514" type="use" value="History Summary[COMMENT: retired person profile; header text on panel which summarises their career history in the form of a condensed career history list]" />
+			</widget>
+			<widget class="player_history_stats_panel" id="phsp" file="person/retired player history stats" RHph="false">
+				<translation id="title" translation_id="229719" type="use" value="History" />
+			</widget>
+			<widget class="non_player_history_summary_panel" id="nphs" RpHn="false" dfnp="true">
+				<translation id="title" translation_id="319515" type="use" value="Staff History[COMMENT: retired person profile; dropdown text option allowing the user to switch to view the retired person's staff history if it exists]" />
+			</widget>
+		</container>
+
+	</container>
+</panel>
