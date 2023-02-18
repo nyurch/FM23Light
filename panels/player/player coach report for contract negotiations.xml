@@ -108,7 +108,7 @@
 		<widget class="text" id="SMtx" alignment="left,centre_y" spec="text" auto_size="vertical" colour="white" multiline="true">
 		</widget>
 
-		<container class="inner_subtle_box_no_margin" height="35">
+		<container class="main_contrast_box" red_replacement="magenta" height="35">
 			<layout class="arrange_horizontal_attachment" layout="-1,1,-1" offset="4" gap="6" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
