@@ -255,7 +255,7 @@
 											<flags id="mode" value="2" />
 										</event>
 									</widget>
-									<widget class="tabs" id="SctW" auto_size="horizontal" appearance="tabs/subsection/normal/top/button" icon_enabled="false" show_button_appearance="true" secondary_icon_enabled="true" secondary_icon="icons/16px/scouting" secondary_icon_alignment="left">
+									<widget class="radio_button" id="SctW" auto_size="horizontal" appearance="tabs/subsection/normal/top/button" icon_enabled="false" show_button_appearance="true" secondary_icon_enabled="true" secondary_icon="icons/16px/scouting" secondary_icon_alignment="left">
 										<translation id="text" translation_id="248356" type="use" value="Scouting" />
 										<event id="click_event">
 											<flags id="event_id" value="eAtH" />
