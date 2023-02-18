@@ -1,6 +1,6 @@
 <panel>
     <layout class="stick_to_sides_attachment" apply_to_children="true"/>
-    <container class="main_subtle_box">
+    <container class="main_box">
         <layout class="arrange_vertical_attachment" layout="-3,-1" offset="0" gap="10" />
         <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
         <widget class="object_portrait_picture" id="mbdg" image_alignment="centre_x,centre_y" scale_picture="true" keep_aspect_ratio="true">
