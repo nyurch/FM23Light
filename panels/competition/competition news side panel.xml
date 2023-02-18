@@ -90,7 +90,7 @@
 
 						<container background_colour="black" height="34">
 							<layout class="stick_to_sides_attachment" alignment="right,top" apply_to_children="true" inset="0" />
-							<widget class="picture" width="90" height="34" image_alignment="centre" file="icons/custom/prozone/logo" scale_picture="true" keep_aspect_ratio="true" />
+							<widget class="picture" width="75" height="34" image_alignment="centre" file="icons/custom/prozone/logo" scale_picture="true" keep_aspect_ratio="true" />
 						</container>
 					</container>
 
