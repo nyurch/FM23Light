@@ -24,7 +24,7 @@
 	<animation class="fade_animation" start_value="0" end_value="1" duration="0.3" end_mode="hold_end" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 
 
-	<container background_colour="faded white" id="off" navigation_container="true" default_focus="true">
+	<container class="white" id="off" navigation_container="true" default_focus="true">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 		<record id="default_properties" hidden="true" />
@@ -395,7 +395,7 @@
 		<container width="400" id="huco" hidden="true">
 			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
 
-			<container class="main_transparent_box">
+			<container class="main_subtle_box">
 				<attachment_group class="vertical_arrange_autosize" />
 
 				<!-- multiple offers popup -->
@@ -415,7 +415,7 @@
 			</container>
 
 			<!-- main contract offer area -->
-			<container class="main_transparent_box" red_replacement="dark_box_background" navigation_container="true">
+			<container class="main_subtle_box" red_replacement="dark_box_background" navigation_container="true">
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 				<container class="tabs" id="tabs" default_item="agre" save_session_state="true" save_default_state="true">
@@ -547,7 +547,7 @@
 				<global id="horizontal_gap" name="ui.main_contrast_box_gap" />
 			</attachment_group>
 
-			<container class="main_transparent_box">
+			<container class="main_subtle_box">
 				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" horizontal_inset="0" />
 
 				<container navigation_container="true">
@@ -630,7 +630,7 @@
 			</container>
 
 
-			<container class="main_transparent_box" id="pldl" width="450" navigation_container="true">
+			<container class="main_subtle_box" id="pldl" width="450" navigation_container="true">
 				<attachment class="show_large_horizontal" id="PDla" />
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 				<list id="properties_to_forward">
