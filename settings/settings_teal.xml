@@ -1766,7 +1766,7 @@
 	<!-- Press Conference Revamp -->
 	<colour name="avoid talking point subject" 			value="orange 300" />
 
-	<colour name="end of season moments success gold"		value="rgb(255,215,0)" />
+	<colour name="end of season moments success gold"		value="orange 900" />
 	<colour name="end of season moments scoreline normal"	value="fg accent" />
 	<colour name="end of season positive background"	value="bg positive" />
 	<colour name="end of season negative background"	value="bg negative" />
