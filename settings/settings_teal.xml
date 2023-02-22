@@ -1908,19 +1908,20 @@
 	<colour name="bundesliga red" 							value="rgb(209,5,20)" />
 
 	<!--Cup Draws colours-->
-	<colour name="groups default"                                 value="rgb(250,250,250)" />
-	<colour name="groups active"                                 value="rgb(237,236,238)" />
+	<colour name="groups default"								value="rgb(250,250,250)" />
+	<colour name="groups active"								value="rgb(237,236,238)" />
 
 	<!--Custom colours-->
-	<colour name="top spenders"                                 value="rgb(0,176,255)" />
-	<colour name="cup draw team slots redrepl"                  value="rgb(0,188,212)"/>
-	<colour name="cup draw team slots bluerepl"                 value="rgb(255,235,39)"/>
-	<colour name="cup draw team slots active redrepl"                 value="rgb(217,27,96)"/>
-	<colour name="cup draw team slots active bluerepl"                 value="rgb(255,255,0)"/>
-	<colour name="cup draw team slots active greenrepl"                 value="rgb(255,214,0)"/>
-	<colour name="cup draw react bgnd"                 value="rgb(0,0,75)"/>
-	<colour name="cup draw react"                 value="rgb(13,58,255)"/>
-	<colour name="top news"                 value="rgb(51,71,78)"/>
-	<colour name="top news related"                 value="rgb(88,109,121)"/>
-	<colour name="topbar menu"                 value="rgb(120,144,156)"/>
+	<colour name="top spenders"									value="rgb(0,176,255)" />
+	<colour name="cup draw team slots redrepl"					value="rgb(0,188,212)"/>
+	<colour name="cup draw team slots bluerepl"					value="rgb(255,235,39)"/>
+	<colour name="cup draw team slots active redrepl"			value="rgb(217,27,96)"/>
+	<colour name="cup draw team slots active bluerepl"			value="rgb(255,255,0)"/>
+	<colour name="cup draw team slots active greenrepl"			value="rgb(255,214,0)"/>
+	<colour name="cup draw react bgnd"							value="rgb(0,0,75)"/>
+	<colour name="cup draw react"								value="rgb(13,58,255)"/>
+	<colour name="top news"										value="rgb(51,71,78)"/>
+	<colour name="top news related"								value="rgb(88,109,121)"/>
+	<colour name="topbar menu"									value="rgb(120,144,156)"/>
+	<colour name="fg magenta"									value="rgb(187,38,73)"/>
 </properties>
