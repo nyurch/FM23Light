@@ -344,6 +344,23 @@ this file contains a list of all of the sections in the game
 				<record id="tacW" />
 				<!--opposition instructions-->
 				<record id="tacI" human_object_type="HOTt" />
+				<record id="next">
+					<translation id="text" translation_id="336506" type="use" value="Next Opponent[COMMENT: sections.xml, sub section of the Fixtures page, displays the team's next opponent]" />
+					<list id="items">
+						<!--opposition overview-->
+						<record id="Tpor" human_object_type="HOTt" />
+						<!--Opposotion Analytics-->
+						<record id="DHoA" human_object_type="HOTt" />
+						<!--scout report-->
+						<record id="tpsr" human_object_type="HOTt" />
+						<!--analyst report-->
+						<record id="tPha" human_object_type="HOTt" />
+						<!--stats pack-->
+						<record id="tSTP" human_object_type="HOTt" />
+						<!--Past Meetings-->
+						<record id="TePM" human_object_type="HOTt" />
+					</list>
+				</record>
 				<!--debug team selector-->
 				<record id="tTaD" human_object_type="HOTt" />
 				<record id="TacD" human_object_type="HOTt" />
