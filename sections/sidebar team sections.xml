@@ -1,0 +1,163 @@
+<!--
+this file contains a list of all of the sections in the game
+-->
+<properties>
+	<string id="text" value="Team" />
+	<list id="items">
+		<record id="squd">
+			<translation id="text" translation_id="316849" type="use" value="Squad[COMMENT: team section tree menu]" />
+			<list id="items">
+				<!--players-->
+				<record id="TeSq" />
+				<!--numbers-->
+				<record id="TeSN" />
+				<!--registration-->
+				<record id="*ssl" />
+			</list>
+		</record>
+
+		<record id="dyna">
+			<translation id="text" translation_id="447669" type="use" value="Dynamics[COMMENT: Manager Main/Top Menu; link to Dynamics screen showcasing a representation of interpersonal relationships at the club]" />
+			<list id="items">
+				<!--Dressing Room Overview needs to be in there otherwise it asserts somehow-->
+				<record id="tHOv" human_object_type="HOTt" />
+				<!--hierarchy-->
+				<record id="tHie" />
+				<!--social groups-->
+				<record id="tHSg" />
+			</list>
+		</record>
+
+		<record id="tact">
+			<translation id="text" translation_id="230056" type="use" value="Tactics" />
+			<list id="items">
+				<!--overview-->
+				<record id="tacO" />
+				<!--team-->
+				<record id="tacT" />
+				<!--player-->
+				<record id="tacP" />
+				<!--takers-->
+				<record id="tacS" />
+				<!--corners-->
+				<record id="tacR" />
+				<!--free kicks-->
+				<record id="tacK" />
+				<!--throw ins-->
+				<record id="tacH" />
+				<!--penalties-->
+				<record id="tacN" />
+				<!--captains-->
+				<record id="tacC" />
+				<!--opposition instructions-->
+				<record id="tacI" />
+				<!--match plans-->
+				<record id="tacW" />
+				<!--debug team selector-->
+				<record id="tTaD" />
+				<record id="TacD" />
+			</list>
+		</record>
+
+		<record id="trng" section="trng">
+			<translation id="text" translation_id="300976" type="use" value="Training[COMMENT - training schedule sub menu on person actions menu]" />
+			<list id="items">
+				<!--overview-->
+				<record id="TeOv" />
+				<!--Calendar-->
+				<record id="ttcP" />
+				<!--Schedule-->
+				<record id="TtSh" />
+				<!--Units-->
+				<record id="TeUn" />
+        <!--Mentoring-->
+        <record id="TeMn" />
+				<!--individual-->
+				<record id="TeTi" />
+				<!--rest-->
+				<record id="TeTR" />
+				<!--coaches-->
+				<record id="TeTc" />
+			</list>
+		</record>
+
+		<record id="Injy" section="Injy">
+			<translation id="text" translation_id="450760" type="use" value="Medical Centre[COMMENT: Panel title for when viewing medical report, was ID 447586 but we've since been asked to change it to Medical Centre]" />
+			<list id="items">
+				<!--overview-->
+				<record id="InOv" />
+				<!--risk assessment-->
+				<record id="InRA" />
+				<!-- current injuries -->
+				<record id="InCI" />
+				<!--historical injuries -->
+				<record id="InIn" />
+				<!--season summary-->
+				<record id="InSS" />
+			</list>
+		</record>
+
+		<record id="intr">
+			<translation id="text" translation_id="336416" type="use" value="Interaction[COMMENT: team section tree menu]" />
+			<list id="items">
+				<!--team meeting-->
+				<record id="TeMt" />
+                <!-- team meeting summary -->
+                <record id="TeMS"/>
+				<record id="----" />
+				<!--actions-->
+				<!--talk to squad-->
+				<record id="TMee" item_type="ACTT" />
+				<!--declare interest-->
+				<record id="TDeI" item_type="ACTT" />
+			</list>
+		</record>
+
+		<record id="rprt">
+			<translation id="text" translation_id="336619" type="use" value="Report[COMMENT: team section tree menu]" />
+			<list id="items">
+				<!--summary-->
+				<record id="TRsm" />
+				<!--analyst report-->
+				<record id="TrAr" />
+				<!--assistant manager report-->
+				<record id="TrAM"  />
+				<!--squad depth-->
+				<record id="sddh" />
+				<!--tactics-->
+				<record id="tAsF" />
+				<!--analysis-->
+				<record id="TeRM" />
+				<!--shots-->
+				<record id="shan" />
+				<!--facts-->
+				<record id="tcif" />
+				<!--stats-->
+				<record id="tcis" />
+				<!--form-->
+				<record id="tcfo" />
+				<!--comparison-->
+				<record id="atan" />
+				<record id="----" />
+				<!--actions-->
+				<!--scout team-->
+				<record id="STAi" item_type="ACTT" />
+			</list>
+		</record>
+		<!--next opponent-->
+		<record id="TePM" />
+		<record id="TeFi" />
+		<record id="staf">
+			<translation id="text" translation_id="229528" type="use" value="Staff" />
+			<list id="items">
+				<record id="tsOY" />
+				<record id="tcsc" />
+				<record id="tcsm" />
+				<record id="tcSS" />
+			</list>
+		</record>
+
+
+	</list>
+
+</properties>
