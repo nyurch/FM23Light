@@ -130,7 +130,7 @@
 			<container class="main_subtle_box">
 				<attachment_group class="horizontal_arrange" horizontal_alignment="fill" horizontal_offset="0" vertical_alignment="vertical" vertical_inset="0" />
 				<widget class="table" id="ijsu" name="Injuries - Suspensions" auto_size_rows="true">
-					<flags id="layout" value="80, -1, -1, -2" />
+					<flags id="layout" value="30, -1, -1, -2" />
 					<flags id="mode" value="fill_rows,printable" />
 					<integer id="row_spacing" value="0" />
 					<boolean id="fixed_size_rows" value="false" />
@@ -154,6 +154,9 @@
 						<record indx="0">
 							<flags id="offset" value="10" />
 							<flags id="algn" value="centre" />
+						</record>
+						<record indx="1">
+							<flags id="colour" value="text" />
 						</record>
 					</list>
 					<!-- small inset from sides of table -->
