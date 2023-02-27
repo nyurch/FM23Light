@@ -27,7 +27,7 @@
         <attachment_group class="horizontal_arrange" horizontal_layout="200, -1, 200" vertical_alignment="vertical" horizontal_gap="10"/>
 
         <!-- left panel - interactee info -->
-        <container class="main_transparent_box" red_replacement="bg darker">
+        <container class="main_transparent_box" red_replacement="card bg darker">
             <attachment_group class="vertical_arrange" vertical_alignment="top, fill" vertical_offset="0"/>
 
             <widget class="interaction_person_info_panel" id="MnPr" width="200">
@@ -103,7 +103,7 @@
         </container>
 
         <!-- right panel - manager info -->
-        <container class="main_transparent_box" red_replacement="bg darker">
+        <container class="main_transparent_box" red_replacement="card bg darker">
             <attachment_group class="vertical_arrange" vertical_alignment="top" vertical_offset="0"/>
 
             <widget class="interaction_person_info_panel" id="humd" interaction_person_type="human_detailed" width="200" talk="true">
