@@ -62,7 +62,7 @@
     </container>
 
     <!-- Main calendar panel (Only used when there is a human) -->
-    <container id="cale" height="450">
+    <container id="cale" height="500">
       <layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
       <layout class="stick_to_sides_attachment" alignment="left" apply_to_children="true" inset="0" />
 
