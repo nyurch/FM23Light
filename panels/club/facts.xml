@@ -1,88 +1,128 @@
 <panel>
-	<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0"/>
+	<attachment_group class="vertical_arrange" vertical_alignment="middle,extend" vertical_gap="0"/>
 	<attachment class="vertical_arrange_autosize"/>
 
-	<container height="40">
+	<container height="65">
 		<attachment_group class="horizontal_arrange" horizontal_alignment="fill" vertical_gap="0"/>
 
-		<container class="inner_subtle_box">
+		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
 			<widget class="picture" file="NYCustom/captain" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="300013" type="use" value="Captain" />
 			</widget>
-			<widget class="person_button" alignment="centre_y" colour="faded black">
-				<record id="object_property" get_property="Tcap"/>
-			</widget>
+			<container class="vertical_label_value_pair">
+				<widget class="text" colour="black" font="title">
+					<translation id="text" translation_id="300013" type="use" value="Captain" />
+				</widget>
+				<widget class="person_button" colour="faded black">
+					<record id="object_property" get_property="Tcap"/>
+				</widget>
+			</container>
 		</container>
 
-		<container class="inner_subtle_box">
+		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
 			<widget class="picture" file="NYCustom/vice captain" height="26" scale_picture="true" image_alignment="left">
-				<translation id="hint" translation_id="300014" type="use" value="Vice Captain" />
+				<translation id="hint" translation_id="300014" type="use" value="Vice-Captain" />
 			</widget>
-			<widget class="person_button" alignment="centre_y" colour="faded black">
-				<record id="object_property" get_property="TVca"/>
-			</widget>
+			<container class="vertical_label_value_pair">
+				<widget class="text" colour="black" font="title">
+					<translation id="text" translation_id="300014" type="use" value="Vice-Captain" />
+				</widget>
+				<widget class="person_button" colour="faded black">
+					<record id="object_property" get_property="TVca"/>
+				</widget>
+			</container>
 		</container>
 
-		<container class="inner_subtle_box">
+		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
 			<widget class="picture" file="NYCustom/manager" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="227981" type="use" value="Manager" />
 			</widget>
-			<widget class="person_button" alignment="centre_y" colour="faded black">
-				<record id="object_property" get_property="TMnR"/>
-			</widget>
+			<container class="vertical_label_value_pair">
+				<widget class="text" colour="black" font="title">
+					<translation id="text" translation_id="227981" type="use" value="Manager" />
+				</widget>
+				<widget class="person_button" colour="faded black">
+					<record id="object_property" get_property="TMnR"/>
+				</widget>
+			</container>
 		</container>
 
-		<container class="inner_subtle_box">
+		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
 			<widget class="picture" file="NYCustom/time" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="316679" type="use" value="Manager Tenure[COMMENT: heading; team_information_panel; average caps]" />
 			</widget>
-			<widget class="dashed_number_label" alignment="centre_y" colour="faded black">
-				<record id="object_property" get_property="Tmat"/>
-			</widget>
+			<container class="vertical_label_value_pair">
+				<widget class="text" colour="black" font="title">
+					<translation id="text" translation_id="316679" type="use" value="Manager Tenure[COMMENT: heading; team_information_panel; average caps]" />
+				</widget>
+				<widget class="dashed_number_label" colour="faded black">
+					<record id="object_property" get_property="Tmat"/>
+				</widget>
+			</container>
 		</container>
 
-		<container class="inner_subtle_box">
+		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
 			<widget class="picture" file="NYCustom/age" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="284309" type="use" value="Average Age[COMMENT: heading; team_information_panel; average age of squad]" />
 			</widget>
-			<widget class="dashed_number_label" alignment="centre_y" colour="faded black">
-				<record id="object_property" get_property="Cvag"/>
-			</widget>
+			<container class="vertical_label_value_pair">
+				<widget class="text" colour="black" font="title">
+					<translation id="text" translation_id="284309" type="use" value="Average Age[COMMENT: heading; team_information_panel; average age of squad]" />
+				</widget>
+				<widget class="dashed_number_label" colour="faded black">
+					<record id="object_property" get_property="Cvag"/>
+				</widget>
+			</container>
 		</container>
 
-		<container class="inner_subtle_box">
+		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
 			<widget class="picture" file="NYCustom/height" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="284312" type="use" value="Average Height[COMMENT: heading; team_information_panel; average height]" />
 			</widget>
-			<widget class="height_label" alignment="centre_y" colour="faded black">
-				<record id="object_property" get_property="avhe"/>
-			</widget>
+			<container class="vertical_label_value_pair">
+				<widget class="text" colour="black" font="title">
+					<translation id="text" translation_id="284312" type="use" value="Average Height[COMMENT: heading; team_information_panel; average height]" />
+				</widget>
+				<widget class="height_label" colour="faded black">
+					<record id="object_property" get_property="avhe"/>
+				</widget>
+			</container>
 		</container>
 
-		<container class="inner_subtle_box">
+		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
 			<widget class="picture" file="NYCustom/weight" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="284315" type="use" value="Average Weight[COMMENT: heading; team_information_panel; average weight]" />
 			</widget>
-			<widget class="weight_label" alignment="centre_y" colour="faded black">
-				<record id="object_property" get_property="avwe"/>
-			</widget>
+			<container class="vertical_label_value_pair">
+				<widget class="text" colour="black" font="title">
+					<translation id="text" translation_id="284315" type="use" value="Average Weight[COMMENT: heading; team_information_panel; average weight]" />
+				</widget>
+				<widget class="weight_label" colour="faded black">
+					<record id="object_property" get_property="avwe"/>
+				</widget>
+			</container>
 		</container>
 
-		<container class="inner_subtle_box">
+		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
 			<widget class="picture" file="NYCustom/personality" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" type="use" value="Personality" />
 			</widget>
-			<widget class="club_squad_character_label" size="small" alignment="centre_y" colour="faded black">
-				<record id="object_property" get_property="Csca"/>
-			</widget>
+			<container class="vertical_label_value_pair">
+				<widget class="text" colour="black" font="title">
+					<translation id="text" type="use" value="Personality" />
+				</widget>
+				<widget class="club_squad_character_label" colour="faded black">
+					<record id="object_property" get_property="Csca"/>
+				</widget>
+			</container>
 		</container>
 
 	</container>
