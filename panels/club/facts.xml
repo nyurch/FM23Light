@@ -2,7 +2,7 @@
 	<attachment_group class="vertical_arrange" vertical_alignment="middle,extend" vertical_gap="0"/>
 	<attachment class="vertical_arrange_autosize"/>
 
-	<container height="65">
+	<container height="85">
 		<attachment_group class="horizontal_arrange" horizontal_alignment="fill" vertical_gap="0"/>
 
 		<container class="main_contrast_box" red_replacement="card bg">
