@@ -73,7 +73,7 @@
 		</container>
 
 		<!-- moded container made by tyburn -->
-		<container height="40">
+		<container class="main_contrast_box" red_replacement="sidebar" height="80">
 			<layout class="arrange_horizontal_attachment" layout="-1,0" offset="0" gap="0"/>
 			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 			<!-- squad personality widget -->
