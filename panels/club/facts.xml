@@ -1,7 +1,7 @@
 <panel>
 	<attachment_group class="vertical_arrange" vertical_gap="0"/>
 
-	<container height="85">
+	<container height="65">
 		<attachment_group class="horizontal_arrange" horizontal_alignment="fill" vertical_gap="0"/>
 
 		<container class="main_contrast_box" red_replacement="card bg">
@@ -10,10 +10,10 @@
 				<translation id="hint" translation_id="300013" type="use" value="Captain" />
 			</widget>
 			<container class="vertical_label_value_pair">
-				<widget class="text" colour="black" font="title">
+				<widget class="text" colour="black" font="title" size="normal">
 					<translation id="text" translation_id="300013" type="use" value="Captain" />
 				</widget>
-				<widget class="person_button" colour="faded black">
+				<widget class="person_button" colour="faded black" size="normal">
 					<record id="object_property" get_property="Tcap"/>
 				</widget>
 			</container>
@@ -25,10 +25,10 @@
 				<translation id="hint" translation_id="300014" type="use" value="Vice-Captain" />
 			</widget>
 			<container class="vertical_label_value_pair">
-				<widget class="text" colour="black" font="title">
+				<widget class="text" colour="black" font="title" size="normal">
 					<translation id="text" translation_id="300014" type="use" value="Vice-Captain" />
 				</widget>
-				<widget class="person_button" colour="faded black">
+				<widget class="person_button" colour="faded black" size="normal">
 					<record id="object_property" get_property="TVca"/>
 				</widget>
 			</container>
@@ -40,10 +40,10 @@
 				<translation id="hint" translation_id="227981" type="use" value="Manager" />
 			</widget>
 			<container class="vertical_label_value_pair">
-				<widget class="text" colour="black" font="title">
+				<widget class="text" colour="black" font="title" size="normal">
 					<translation id="text" translation_id="227981" type="use" value="Manager" />
 				</widget>
-				<widget class="person_button" colour="faded black">
+				<widget class="person_button" colour="faded black" size="normal">
 					<record id="object_property" get_property="TMnR"/>
 				</widget>
 			</container>
@@ -55,10 +55,10 @@
 				<translation id="hint" translation_id="316679" type="use" value="Manager Tenure[COMMENT: heading; team_information_panel; average caps]" />
 			</widget>
 			<container class="vertical_label_value_pair">
-				<widget class="text" colour="black" font="title">
+				<widget class="text" colour="black" font="title" size="normal">
 					<translation id="text" translation_id="316679" type="use" value="Manager Tenure[COMMENT: heading; team_information_panel; average caps]" />
 				</widget>
-				<widget class="dashed_number_label" colour="faded black">
+				<widget class="dashed_number_label" colour="faded black" size="normal">
 					<record id="object_property" get_property="Tmat"/>
 				</widget>
 			</container>
@@ -70,10 +70,10 @@
 				<translation id="hint" translation_id="284309" type="use" value="Average Age[COMMENT: heading; team_information_panel; average age of squad]" />
 			</widget>
 			<container class="vertical_label_value_pair">
-				<widget class="text" colour="black" font="title">
+				<widget class="text" colour="black" font="title" size="normal">
 					<translation id="text" translation_id="284309" type="use" value="Average Age[COMMENT: heading; team_information_panel; average age of squad]" />
 				</widget>
-				<widget class="dashed_number_label" colour="faded black">
+				<widget class="dashed_number_label" colour="faded black" size="normal">
 					<record id="object_property" get_property="Cvag"/>
 				</widget>
 			</container>
@@ -85,10 +85,10 @@
 				<translation id="hint" translation_id="284312" type="use" value="Average Height[COMMENT: heading; team_information_panel; average height]" />
 			</widget>
 			<container class="vertical_label_value_pair">
-				<widget class="text" colour="black" font="title">
+				<widget class="text" colour="black" font="title" size="normal">
 					<translation id="text" translation_id="284312" type="use" value="Average Height[COMMENT: heading; team_information_panel; average height]" />
 				</widget>
-				<widget class="height_label" colour="faded black">
+				<widget class="height_label" colour="faded black" size="normal">
 					<record id="object_property" get_property="avhe"/>
 				</widget>
 			</container>
@@ -100,10 +100,10 @@
 				<translation id="hint" translation_id="284315" type="use" value="Average Weight[COMMENT: heading; team_information_panel; average weight]" />
 			</widget>
 			<container class="vertical_label_value_pair">
-				<widget class="text" colour="black" font="title">
+				<widget class="text" colour="black" font="title" size="normal">
 					<translation id="text" translation_id="284315" type="use" value="Average Weight[COMMENT: heading; team_information_panel; average weight]" />
 				</widget>
-				<widget class="weight_label" colour="faded black">
+				<widget class="weight_label" colour="faded black" size="normal">
 					<record id="object_property" get_property="avwe"/>
 				</widget>
 			</container>
@@ -115,10 +115,10 @@
 				<translation id="hint" type="use" value="Personality" />
 			</widget>
 			<container class="vertical_label_value_pair">
-				<widget class="text" colour="black" font="title">
+				<widget class="text" colour="black" font="title" size="normal">
 					<translation id="text" type="use" value="Personality" />
 				</widget>
-				<widget class="club_squad_character_label" colour="faded black">
+				<widget class="club_squad_character_label" colour="faded black" size="normal">
 					<record id="object_property" get_property="Csca"/>
 				</widget>
 			</container>
