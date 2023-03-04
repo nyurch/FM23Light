@@ -90,7 +90,7 @@
 						<translation id="text" translation_id="292633" type="use" value="Estimated Value[COMMENT: player profile; value label]" />
 					</widget>
 					<!-- Value -->
-					<widget class="transfer_value_label" id="pval" height="25" spec="text" style="bold" colour="text" alignment="centre" size="large" />
+					<widget class="transfer_value_label" id="pval" height="25" spec="text" style="bold" colour="white" alignment="centre" size="large" />
 				</container>
 				<!--staff reputation-->
 				<container id="repu" hidden="true">
