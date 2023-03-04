@@ -17,14 +17,14 @@
 		<record get_property="hcor" set_property="hidn" target="pcra" />
 		<record get_property="hlft" set_property="hidn" target="left" />
 	</list>
-
+ 
 	<string id="title" value="Contract Offer Panel" />
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 	<animation class="fade_animation" start_value="0" end_value="1" duration="0.3" end_mode="hold_end" trigger_id="hidden" trigger_start="false" trigger_end="true" />
 
 
-	<container class="white" id="off" navigation_container="true" default_focus="true">
+	<container id="off" navigation_container="true" default_focus="true">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 		<record id="default_properties" hidden="true" />
@@ -369,6 +369,7 @@
 	<container id="cneg">
 		<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend">
 			<global id="horizontal_gap" name="ui.main_contrast_box_gap" />
+			<global id="horizontal_offset" name="ui.safe_area_left" />
 		</attachment_group>
 
 		<container file="person/contract negotiations left panel" id="left" auto_size="horizontal">
