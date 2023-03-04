@@ -62,7 +62,7 @@
 							<attachment_group class="vertical_arrange_autosize_all_centre"/>
 
 							<!--Value-->
-							<widget class="transfer_value_label" id="val1" auto_size="all" alignment="centre" size="11" style="bold" colour="faded alt text">
+							<widget class="transfer_value_label" id="val1" auto_size="all" alignment="centre" size="11" style="bold" colour="white">
 								<translation id="format" translation_id="383826" type="use" value="Valued at [%cash#1-roundsmall-short][COMMENT: FR 10661; player overview; string diaplyed a player's estimated monetary value]" />
 								<record id="object_property" get_property="Pdva" dont_set_hint="true" />
 							</widget>
@@ -95,7 +95,7 @@
                                 <attachment_group class="vertical_arrange_autosize_all_centre"/>
 
 								<!--Value-->
-								<widget class="transfer_value_label" id="val2" auto_size="all" alignment="centre" size="11" style="bold" colour="faded alt text">
+								<widget class="transfer_value_label" id="val2" auto_size="all" alignment="centre" size="11" style="bold" colour="white">
 									<translation id="format" translation_id="383826" type="use" value="Valued at [%cash#1-roundsmall-short][COMMENT: FR 10661; player overview; string diaplyed a player's estimated monetary value]" />
 								</widget>
 
