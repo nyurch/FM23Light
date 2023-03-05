@@ -71,11 +71,17 @@
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="6" horizontal_inset="0" />
 
 				<container>
-					<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="middle,fill" horizontal_gap="4" />
+					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0"/>
 
-					<widget class="team_button" id="htnm" auto_size="vertical" alignment="right,centre_y" icon_alignment="left,centre_y" alternate_format="[%team#1-six_letter]" icon_spacing="0" show_button_appearance="false"/>
-					<widget class="fixture_button" id="rstx" spec="text" size="large" alignment="centre" auto_size="all"/>
-					<widget class="team_button" id="atnm" auto_size="vertical" alignment="left,centre_y" icon_alignment="right,centre_y" alternate_format="[%team#1-six_letter]" icon_spacing="0" show_button_appearance="false"/>
+					<container>
+						<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="middle,fill" horizontal_gap="4" />
+
+						<widget class="team_button" id="htnm" auto_size="vertical" alignment="right,centre_y" icon_alignment="left,centre_y" alternate_format="[%team#1-six_letter]" icon_spacing="0" show_button_appearance="false"/>
+						<widget class="fixture_button" id="rstx" spec="text" size="large" alignment="centre" auto_size="all"/>
+						<widget class="team_button" id="atnm" auto_size="vertical" alignment="left,centre_y" icon_alignment="right,centre_y" alternate_format="[%team#1-six_letter]" icon_spacing="0" show_button_appearance="false"/>
+					</container>
+
+					<widget class="comp_button" id="cmpd" auto_size="all" colour="faded text" alignment="centre" icon_enabled="false" navigation_focus_target="false" />
 				</container>
 
 				<widget class="text" id="rptx" auto_size="vertical" colour="text" font="fonts/inbox_body" setup_hint_for_overrun="false">
@@ -103,7 +109,7 @@
 				<container>
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-					<widget class="pitch_with_played_position" id="pmtp" icon_flags="show_selection_image,dont_allow_player_links,dont_use_player_instructions_menu" pitch_line_colour="text" pitch_touchline_width_percentage="100" pitch_touchline_length_percentage="100" pitch_perspective="0.0" pitch_override_icon_size="1" line_width="1">
+					<widget class="pitch_with_played_position" id="pmtp" icon_flags="show_selection_image,dont_allow_player_links,dont_use_player_instructions_menu" pitch_line_colour="white" pitch_touchline_width_percentage="100" pitch_perspective="0.0" pitch_override_icon_size="1" line_width="1">
 						<flags id="pitch_alignment" value="centre,can_scale" />
 						<boolean id="vertical" value="false" />
 						<string id="player_icon_file" value="tactics/tactics icon info panel basic scaled" />
@@ -111,7 +117,7 @@
 						<boolean id="hide_player_positions" value="false" />
 						<boolean id="pitch_is_read_only" value="true" />
 						<boolean id="pitch_show_names" value="false" />
-						<boolean id="pitch_draw_grass" value="false" />
+						<boolean id="pitch_draw_grass" value="true" />
 						<integer id="maximum_player_size" value="0.1" />
 					</widget>
 					<container wants_mouse_events="true" />
@@ -143,7 +149,7 @@
 					</widget>
 					<widget class="dashed_formatted_label" id="ms1v" alignment="left,centre_y" style="bold" format="[%fraction#1-2.1]" auto_size="vertical"/>
 				</container>
-				
+
 				<set_var name="key_value_container">
 					<container>
 						<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="-1,65" vertical_offset="0"/>
@@ -184,6 +190,24 @@
 					</set_var>
 				</var>
 
+				<var name="key_value_container">
+					<set_var name="key_id">
+						<flags value="ms5t" />
+					</set_var>
+					<set_var name="value_id">
+						<flags value="ms5v" />
+					</set_var>
+				</var>
+
+				<var name="key_value_container">
+					<set_var name="key_id">
+						<flags value="ms6t" />
+					</set_var>
+					<set_var name="value_id">
+						<flags value="ms6v" />
+					</set_var>
+				</var>
+
 			</container>
 		</container>
 	</container>
@@ -193,6 +217,7 @@
 
 	<!-- knowledge -->
 	<container class="inner_subtle_box" id="kbox" height="50">
+		<string id="remove_if" value="use_simplified_scouting"/>
 		<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="0" horizontal_inset="0"/>
 
 		<container height="24">
@@ -208,7 +233,7 @@
 			<widget class="label" id="ktxt" alignment="right,centre_y"  />
 		</container>
 
-		<widget class="horizontal_percentage_bar" id="kbar" height="10" />
+		<widget class="horizontal_percentage_bar" id="kbar" height="10"/>
 	</container>
 
 	<!--main info-->
@@ -234,7 +259,7 @@
 
 					<record id="default_properties" alignment="left,centre_y" auto_size="vertical" />
 
-					<widget class="person_button" id="plnm" style="bold" size="large" colour="black" />
+					<widget class="person_button" id="plnm" style="bold" colour="black" size="large" />
 					<widget class="nation_button" id="ntfl" />
 					<widget class="dob_label" id="agtx" display_format="2" colour="faded text" />
 					<widget class="club_button" id="cltx" colour="faded text" />
@@ -250,7 +275,7 @@
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
 				<!-- Pitch -->
-				<widget class="pitch_with_player_positions" id="ppip" pitch_allow_player_selection="false" pitch_alignment="centre" pitch_draw_goals="false" pitch_draw_markings="false" show_position_strength="false" pitch_show_names="false" pitch_show_names_as_hint="true" pitch_draw_grass="false" pitch_line_colour="disabled" pitch_touchline_width_percentage="0.5" pitch_perspective="0" pitch_override_icon_size="1" line_width="1" pitch_vertical_padding="10">
+				<widget class="pitch_with_player_positions" id="ppip" pitch_allow_player_selection="false" pitch_alignment="centre" pitch_draw_goals="false" pitch_draw_markings="false" show_position_strength="false" pitch_show_names="false" pitch_show_names_as_hint="true" pitch_draw_grass="true" pitch_line_colour="white" pitch_touchline_width_percentage="0.5" pitch_perspective="0.0" pitch_override_icon_size="1" line_width="1" pitch_vertical_padding="10">
 
 					<!-- Set the icon to use for people on the pitch. The icon will first look for a size that matches the pitch's size, for instance 'pitch/icons/kit/tiny/kit' or 'pitch/icons/kit/medium/kit'.
           If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
@@ -269,7 +294,7 @@
 			<widget class="horizontal_divider" />
 
 			<!--value/cost-->
-			<container>
+			<container id="ecCT">
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="-5" horizontal_inset="0" />
 
 				<widget class="label" alignment="left" font="label">
@@ -282,7 +307,7 @@
 			<container height="1" />
 
 			<!--wages/demands-->
-			<container>
+			<container id="wdCT">
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="-5" horizontal_inset="0" />
 
 				<record id="default_properties" alignment="left"/>
@@ -297,7 +322,7 @@
 
 		<!--recommendations/pros/cons-->
 		<container>
-			<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="5" gap="0" />
+			<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="5" gap="5" />
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 			<!--CA/PA/rec/pros/cons-->
@@ -318,7 +343,7 @@
 						<widget class="label" alignment="bottom" spec="text" size="small">
 							<translation id="text" translation_id="293291" type="use" value="Current Ability" />
 						</widget>
-						<widget class="scout_stars_label" id="CAIC" alignment="centre"  navigation_focus_target="false"/>
+						<widget class="scout_stars_label" id="CAIC" alignment="centre"  navigation_focus_target="false" mode="1"/>
 					</container>
 
 					<!--PA-->
@@ -329,7 +354,7 @@
 						<widget class="label" alignment="bottom" spec="text" size="small">
 							<translation id="text" translation_id="293292" type="use" value="Potential Ability" />
 						</widget>
-						<widget class="scout_stars_label" id="PAic" alignment="centre" navigation_focus_target="false"/>
+						<widget class="scout_stars_label" id="PAic" alignment="centre" navigation_focus_target="false" mode="2"/>
 					</container>
 
 				</container>
@@ -407,10 +432,10 @@
 			</container>
 
 			<!-- recommendation box-->
-			<container class="main_subtle_box" red_replacement="bg darker" id="SMbx" height="60">
+			<container class="main_subtle_box" id="SMbx" height="60">
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-				<widget class="text" id="SMtx" spec="text" size="large" alignment="centre" colour="white" multiline="true" />
+				<widget class="text" id="SMtx" spec="text" size="large" font="bold" alignment="centre" colour="white" multiline="true" />
 			</container>
 
 		</container>
