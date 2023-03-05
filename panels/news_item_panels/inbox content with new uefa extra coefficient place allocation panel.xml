@@ -1,0 +1,59 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top, extend" vertical_offset="0" />
+
+	<string id="skin_style" value="subtle box" />
+
+	<widget class="inbox_body_text" id="bdtx" colour="inbox_text" />
+
+	<container class="inner_subtle_box">
+		<attachment_group class="vertical_arrange_autosize" vertical_alignment="middle, extend" horizontal_inset="0" vertical_gap="10" />
+
+		<widget class="text" id="alTT" font="title" size="12" colour="black" auto_size="vertical" />
+
+		<widget class="table" id="teAT" layout="80, 50, 50, 100" auto_size_rows="false" fixed_size_rows="true" fixed_row_height="30" row_height="50" mode="stripe_rows" auto_size="vertical">
+			<list id="column_table_properties">
+				<record index="0">
+					<record id="widget_info">
+						<symbol id="class" value="team_button" />
+					</record>
+					<record id="column_heading">
+						<translation id="text" translation_id="562721" type="use" value="Club[COMMENT:club qualified via coefficient]" />
+					</record>
+				</record>
+				<record index="1">
+					<record id="widget_info">
+						<symbol id="class" value="nation_button" />
+					</record>
+					<record id="column_heading">
+						<translation id="text" translation_id="562722" type="use" value="Nation[COMMENT: nation club from]" />
+					</record>
+				</record>
+				<record index="2">
+					<record id="widget_info">
+						<symbol id="class" value="comp_button" />
+					</record>
+					<record id="column_heading">
+						<translation id="text" translation_id="562723" type="use" value="Division[COMMENT: division club qualified from]" />
+					</record>
+				</record>
+				<record index="3">
+					<record id="widget_info">
+						<symbol id="class" value="number_label" />
+					</record>
+					<record id="column_heading">
+						<translation id="text" translation_id="562724" type="use" value="Coefficient[COMMENT: nation coefficient score]" />
+					</record>
+				</record>
+			</list>
+
+			<list id="column_widget_properties">
+				<record index="0" alignment="left,centre_y" />
+				<record index="1" alignment="left,centre_y" />
+				<record index="2" alignment="left,centre_y" />
+				<record index="3" alignment="left,centre_y" />
+			</list>
+
+		</widget>
+	</container>
+
+</panel>
