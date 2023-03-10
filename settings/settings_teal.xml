@@ -1066,7 +1066,7 @@
 	<colour name="shot analysis value box" value="rgba(0,0,0,0.3)"/>
 
 	<!--instant hint colour-->
-	<colour name="instant hint colour" value="rgba(50,50,50,0.8)"/>
+	<colour name="instant hint colour" value="rgba(210,15,15,0.8)"/>
 
 	<!--adjustable bar colours-->
 	<colour name="adj bar empty" value="rgba(200,200,200,0.3)"/>
