@@ -1,465 +1,286 @@
 ﻿<panel>
-	<attachment class="test_screen_size_attachment" test_on_layout="false" alignment="horizontal" min_value="1366" max_value="100000" set_property="hdPR" />
-
-	<layout class="stick_to_sides_attachment" alignment="all" inset="0,0,15,0" apply_to_children="true" />
-    
-<!--    <widget class="picture" file="backgrounds/statistics" id="bgnd">
-    <boolean id="scale_picture" value="true" />
-    <boolean id="keep_aspect_ratio" value="false" />
-    </widget> 
--->
-	<!--this is the container with the pitch and bench that gets reused for both home and away teams-->
-	<set_var name="pitch_container">
-		<container>
-			<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_gap="0" />
-
-			<widget class="pitch_with_tactics" icon_flags="show_name,show_extra_details,drop_initial_if_possible,show_number,dont_colour_number,use_player_kits_back" player_icon_file="tactics/tactics icon info panel match stats" pitch_draw_grass="true" tactic_icon_min_size="120.f" pitch_line_colour="white">
-				<var id="id  " name="pitch_id" />
-				<boolean id="vertical" value="true" />
-				<boolean id="pitch_is_read_only" value="true" />
-				<boolean id="pitch_dont_draw_indicators" value="true" />
-				<boolean id="allow_y_score_adjustment_for_roles" value="false" />
-				<flags id="pitch_alignment" value="can_scale" />
-				<integer id="pitch_touchline_width_percentage" value="40" />
-			</widget>
-
-			<widget class="subs_bench_panel" width="112" file="tactics/subs bench panel match full time">
-				<var id="id  " name="bench_id" />
-			</widget>
-		</container>
-	</set_var>
-
-	<set_var name="feedback_container">
-		<container draw_horizontal_dividers="true">
-			<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_gap="24" />
-
-
-
-			<container>
-				<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_gap="8" horizontal_inset="0" />
-
-				<container class="client_object_viewer_xml_panel" id="mMat">
-					<attachment_group class="vertical_arrange_horizontal_centre" vertical_alignment="fill" horizontal_inset="0" />
-					<widget class="data_analyst_visualisation_widget" id="sfVi" visualisation_type="xg_map" data_type="fixture" file="widgets/data analyst visualisation mini">
-						<record id="object_property" get_property="objt" set_property="objt" />
-						<translation id="text_no_data_available" translation_id="540248" type="use" value="Not enough data loaded to create visualisation. Please use the Analytical Data button below and wait while it generates the match report.[COMMENT: AREA: Visualisation; SUB-AREA:; FR : 32932; TONE: Formal; CHARLIMIT: None; NOTE: warning to display when data available but not loaded to create the visualisation]" />
-					</widget>
-				</container>
-
-				<container>
-
-					<attachment_group class="vertical_arrange_autosize_horizontal_centre" />
-
-					<widget class="icon_button" auto_size="all" alignment="centre" click_event="AnDD" icon="icons/16px/stats" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" secondary_icon_alignment="right" appearance="buttons/subtle/normal/button">
-						<string id="remove_if" value="platform_is_switch" />
-						<translation id="text" translation_id="515054" type="use" value="Analytical Data[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing key analytics data post-match]" />
-					</widget>
-
-				</container>
-
-			</container>
-
-			<container>
-				<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
-
-				<widget class="text" auto_size="all" alignment="centre" font="title">
-					<translation id="text" translation_id="515053" type="use" value="Best Performer[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing which player played best on the day]" />
-				</widget>
-
-				<container class="property_list_viewer_xml_panel" id="bPec">
-
-					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
-
-					<widget class="object_portrait_picture" width="80" height="70" image_alignment="centre" keep_aspect_ratio="true" scale_picture="true">
-						<record id="object_property" get_property="Pers" set_property="objt" />
-					</widget>
-
-					<container height="70">
-						<attachment_group class="vertical_arrange_horizontal_autosize" vertical_alignment="middle" horizontal_alignment="left" />
-
-						<widget class="person_button" auto_size="all" size="large" colour="black" style="bold" navigation_focus_target="false">
-
-							<record id="object_property" get_property="Pers" set_property="value" />
-						</widget>
-
-						<widget class="match_rating_label_formatted" format="[%fraction#1-2.1]" alignment="centre" auto_size="all" navigation_focus_target="false" wants_mouse_events="false" dont_format_numeric_grouping="true">
-							<record id="object_property" get_property="MPrt" set_property="value" />
-						</widget>
-
-					</container>
-
-				</container>
-
-				<container>
-					<attachment_group class="vertical_arrange_autosize_horizontal_centre">
-						<global id="horizontal_gap" name="ui.button_row_gap" />
-					</attachment_group>
-
-					<widget class="icon_button" id="psbt" auto_size="all" alignment="centre" click_event="FpsD" icon="icons/16px/man" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" secondary_icon_alignment="right" appearance="buttons/subtle/normal/button">
-						<translation id="text" translation_id="515058" type="use" value="Player Statistics[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing player statistics from the match just finished]" />
-					</widget>
-
-
-				</container>
-
-			</container>
-
-			<container>
-				<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
-
-				<widget class="text" font="title" auto_size="vertical" alignment="centre">
-					<translation id="text" translation_id="515055" type="use" value="Around the grounds[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing results and info from other matches going on elsewhere; around the grounds is a common English way of phrasing this, not least because it rhymes, but go with whatever works in your regions]" />
-				</widget>
-
-				<container>
-					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
-
-					<widget class="icon_button" auto_size="all" alignment="centre" click_event="ScTD" icon="icons/16px/competition" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" secondary_icon_alignment="right" appearance="buttons/subtle/normal/button">
-						<translation id="text" translation_id="513685" type="use" value="Latest Scores &amp; Table[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing latest scoreds from other matches and the live league table]" />
-					</widget>
-
-				</container>
-
-			</container>
-		</container>
-
-	</set_var>
-
-	<set_var name="feedback_container_tabbed">
-		<container draw_horizontal_dividers="true">
-			<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_gap="24" />
-
-			<container>
-				<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_gap="8" horizontal_inset="0" />
-
-				<container class="client_object_viewer_xml_panel" id="mMat">
-					<attachment_group class="vertical_arrange_horizontal_centre" vertical_alignment="fill" horizontal_inset="0" />
-					<widget class="data_analyst_visualisation_widget" id="sfVi" visualisation_type="8" data_type="10" file="widgets/data analyst visualisation mini">
-						<record id="object_property" get_property="objt" set_property="objt" />
-						<translation id="text_no_data_available" translation_id="540248" type="use" value="Not enough data loaded to create visualisation. Please use the Analytical Data button below and wait while it generates the match report.[COMMENT: AREA: Visualisation; SUB-AREA:; FR : 32932; TONE: Formal; CHARLIMIT: None; NOTE: warning to display when data available but not loaded to create the visualisation]" />
-					</widget>
-				</container>
-
-				<container>
-
-					<attachment_group class="vertical_arrange_autosize_horizontal_centre" />
-
-					<widget class="icon_button" auto_size="all" alignment="centre" click_event="AnDD" icon="icons/16px/stats" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" secondary_icon_alignment="right" appearance="buttons/subtle/normal/button">
-						<string id="remove_if" value="platform_is_switch" />
-						<translation id="text" translation_id="515054" type="use" value="Analytical Data[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing key analytics data post-match]" />
-					</widget>
-
-				</container>
-
-			</container>
-
-			<container draw_vertical_dividers="true">
-				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" vertical_gap="24" />
-
-				<container>
-					<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
-
-					<widget class="text" auto_size="all" alignment="centre" font="title">
-						<translation id="text" translation_id="515053" type="use" value="Best Performer[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing which player played best on the day]" />
-					</widget>
-
-					<container class="property_list_viewer_xml_panel" id="bPec">
-
-						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
-
-						<widget class="object_portrait_picture" width="80" height="70" image_alignment="centre" keep_aspect_ratio="true" scale_picture="true">
-							<record id="object_property" get_property="Pers" set_property="objt" />
-						</widget>
-
-						<container height="70">
-							<attachment_group class="vertical_arrange_horizontal_autosize" vertical_alignment="middle" horizontal_alignment="left" />
-
-							<widget class="person_button" auto_size="all" size="large" style="bold" navigation_focus_target="false">
-
-								<record id="object_property" get_property="Pers" set_property="value" />
-							</widget>
-
-							<widget class="match_rating_label_formatted" format="[%fraction#1-2.1]" alignment="centre" auto_size="all" navigation_focus_target="false" wants_mouse_events="false" dont_format_numeric_grouping="true">
-								<record id="object_property" get_property="MPrt" set_property="value" />
-							</widget>
-
-						</container>
-
-					</container>
-
-					<container>
-						<attachment_group class="vertical_arrange_autosize_horizontal_centre">
-							<global id="horizontal_gap" name="ui.button_row_gap" />
-						</attachment_group>
-
-						<widget class="icon_button" id="psbt" auto_size="all" alignment="centre" click_event="FpsD" icon="icons/16px/man" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" secondary_icon_alignment="right" appearance="buttons/subtle/normal/button">
-							<translation id="text" translation_id="515058" type="use" value="Player Statistics[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing player statistics from the match just finished]" />
-						</widget>
-
-
-					</container>
-
-				</container>
-
-				<container>
-					<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
-
-					<widget class="text" font="title" auto_size="vertical" alignment="centre">
-						<translation id="text" translation_id="515055" type="use" value="Around the grounds[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing results and info from other matches going on elsewhere; around the grounds is a common English way of phrasing this, not least because it rhymes, but go with whatever works in your regions]" />
-					</widget>
-
-					<container>
-						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
-
-						<widget class="icon_button" auto_size="all" alignment="centre" click_event="ScTD" icon="icons/16px/competition" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" secondary_icon_alignment="right" appearance="buttons/subtle/normal/button">
-							<translation id="text" translation_id="513685" type="use" value="Latest Scores &amp; Table[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing latest scoreds from other matches and the live league table]" />
-						</widget>
-
-					</container>
-
-				</container>
-
-			</container>
-		</container>
-
-	</set_var>
+	<!--background-->
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+	<widget class="picture" file="backgrounds/tunnel" id="bgnd">
+		<boolean id="scale_picture" value="true" />
+		<boolean id="keep_aspect_ratio" value="false" />
+	</widget>
+	<!--overlay-->
+	<widget class="picture" file="boxes/custom/nyurch/paper" scale_picture="true">
+		<boolean id="keep_aspect_ratio" value="false" />
+	</widget>
 
 	<container>
-		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
-		
-		<container class="match_titlebar_panel" file="match/match score area panel" height="40" id="scoA" colour_team_names="false" colour_team_scores="false">
-			<record id="object_property" set_property="objt" get_property="objt" />
-			
-			<!-- the match day header panel which is used on these skins uses
-				 the same file for the 'main' titlebar element. Don't duplicate
-			     it in this full time review panel. -->
-			<string id="remove_if" value="is_fmt_touchscreen_skin, ui.is_fmt_controller_skin" />
-		</container>
-
-		<container>
-			<attachment_group class="horizontal_arrange" horizontal_layout="342,-1" />
-
- 			<container width="370"  id="NEvp">
-				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
-				<container class="main_transparent_box" red_replacement="grey 100">
-					<attachment_group class="vertical_arrange_autosize" />
-					<container height="193"  >
-						<layout class="stick_to_sides_attachment" apply_to_children="true" />
-						<widget class="stadium_picture" id="STAp" file="none">
-							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="-50"/>
-							<record id="object_property" get_property="objt" set_property="objt"/>
-							<record id="default_properties" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"/>
-							<widget class="picture" file="pictures/stadiums/stadium_bg" />
-							<widget class="picture" id="bkgd" file="pictures/stadiums/none_base" hidden="true"/>
-							<widget class="picture" id="STPC"/>
-						</widget>
-						<widget class="match_info_panel" id="bmin" file="file" >
-							<record id="object_property" get_property="objt" set_property="objt"/>
-							<layout class="horizontal_arrange" horizontal_layout="-1,24,-1" />
-							<!--  home incidents panel -->
-							<widget class="home_match_incidents_panel" id="hmip" small_version="false" file="none">
-								<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right" >
-									<layout class="stick_to_sides_attachment" inset="36,8,8,8"/>
-								</widget>
-							</widget>
-							<widget class="text" alignment="centre" >
-								<translation id="text" type="use" value="V" />
-							</widget>
-							<!--  home incidents panel -->
-							<widget class="away_match_incidents_panel" id="amip" small_version="false" file="none">
-								<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right" >
-									<layout class="stick_to_sides_attachment" inset="36,8,8,8"/>
-								</widget>
-							</widget>
-						</widget>
-					</container>
-					<!-- weather forecast -->
-					<widget class="weather_indicator_panel_centred" id="FxWe" file="none" height="24">
-						<layout class="centre_in_parent_attachment" alignment="horizontal" apply_to_children="true" />
-						<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
-						<record id="object_property" get_property="FxWe"/>
-						<container>
-							<layout class="fit_children_attachment" alignment="horizontal,fill" offset="0" gap="4"/>
-							<layout class="arrange_horizontal_attachment" alignment="left" offset="0" gap="4"/>
-							<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
-							<widget class="picture" id="icon" image_alignment="left" width="24" scale_picture="true" keep_aspect_ratio="true" />
-							<widget class="label" id="desc" alignment="left,centre_y" auto_size="horizontal" />
-						</container>
-					</widget>
-					<!-- referee -->
-					<container>
-						<global id="hidden" name="game_mode_is_console_mode" />
-						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
-						<widget class="label" auto_size="all">
-							<translation id="text" translation_id="227993" type="use" value="Referee" />
-						</widget>
-						<widget class="text" colour="black" auto_size="all">
-							<string id="text" value="-"/>
-						</widget>
-						<widget class="person_button" colour="black" auto_size="all" >
-							<record id="object_property" get_property="FRef" dont_set_hint="true" />
-						</widget>
-					</container>
-					<!-- stadium name -->
-					<container>
-						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
-						<widget class="stadium_button" id="stad" auto_size="all" >
-							<layout class="centre_in_parent_attachment" alignment="all" />
-							<translation id="no_object_text" translation_id="227505" type="use" value="Unknown Stadium"/>
-							<record id="object_property">
-								<integer id="get_property" value="stad" />
-							</record>
-						</widget>
-					</container>
-					<!-- attendance -->
-					<container>
-						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
-						<widget class="label" auto_size="all">
-							<translation id="text" translation_id="247242" type="use" value="Attendance" />
-						</widget>
-						<widget class="text" colour="black" auto_size="all">
-							<string id="text" value="-"/>
-						</widget>
-						<widget class="number_label" auto_size="all">
-							<record id="object_property" get_property="FxEA" dont_set_hint="true" />
-						</widget>
-					</container>
-				</container>
-				<!-- notable events -->
-				<container>
-					<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" />
-					<container class="main_transparent_box" red_replacement="grey 100">
-						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-						<attachment class="match_ball_fade_attachment"/>
-						<widget class="match_notable_events_panel">
-							<record id="object_property">
-								<integer id="get_property" value="objt" />
-								<integer id="set_property" value="objt" />
-							</record>
-						</widget>
-					</container>
-				</container>
+	<layout class="horizontal_arrange" horizontal_layout="-1,320,-1"  />
+	<boolean id="should_force_refresh" value="true"/>
+	<!-- HEADER CONTAINER -->
+	<container>
+		<layout class="vertical_arrange" vertical_layout="450,-1,-1" />
+		<!-- 1 -->
+		<container class="vertical_adaptive_container" horizontal_alignment="left">
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			<container class="main_subtle_box" id="homc" name="pitch_container">
+				<attachment_group class="horizontal_arrange" horizontal_layout="350,100,350" horizontal_gap="0" />
+				<widget id="homp" class="pitch_with_tactics" icon_flags="show_name,show_extra_details,drop_initial_if_possible,show_number,dont_colour_number,use_player_kits_back" player_icon_file="tactics/tactics icon info panel match stats small" pitch_draw_grass="true" tactic_icon_min_size="90.f" pitch_line_colour="white">
+					<boolean id="vertical" value="true" />
+					<boolean id="pitch_is_read_only" value="true" />
+					<boolean id="pitch_dont_draw_indicators" value="true" />
+					<boolean id="allow_y_score_adjustment_for_roles" value="false" />
+					<flags id="pitch_alignment" value="can_scale" />
+					<integer id="pitch_touchline_width_percentage" value="100" />
+				</widget>
+				<widget id="hosb" class="subs_bench_panel" file="tactics/subs bench panel match full time small">
+				</widget>
+				<widget class="preselected_match_chalkboard_panel" id="pmcH" vertical="true" force_left_to_right_events="true" team_to_display="0" average_position_filter="1" aHiL="false" wants_global_events="false" enable_popup="true">
+					<record id="object_property" get_property="objt" set_property="objt" />
+					<list id="chalkboard_events_to_display">
+						<!-- Heatmap -->
+						<integer value="42" />
+						<!--Average position-->
+						<integer value="62" />
+					</list>
+				</widget>
 			</container>
-
+		</container>
+		<!-- 2 -->
+		<container class="vertical_adaptive_container" horizontal_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			<container class="main_subtle_box" hide_view_menu="true">
+				<attachment_group class="horizontal_arrange" horizontal_layout="-1,-1" vertical_inset="4,0,0,0"/>
+				<widget class="data_analyst_visualisation_widget" id="vis1" visualisation_type="xg_map" data_type="fixture" file="widgets/data analyst visualisation mini" show_mini_visualisation_text="false" can_pin_visualisation="false" default_focus="true">
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
+				<widget class="match_live_data_analyst_visualisation_panel" id="afMM" visualisation_type="momentum">
+					<translation id="title" translation_id="535500" type="use" value="Match Momentum[COMMENT: AREA: Data Visualisation; SUB-AREA: Pass map FR: 32708; TONE: Formal; CHARLIMIT: None; NOTE: dataviz title string, the match momentum data viz charts how the match went with regards to each team enjoying spells on top/chances created]" />
+					<translation id="subtitle" translation_id="551830" type="use" value="Visualisations[COMMENT: AREA: Match Visualisations; SUB-AREA: visualisation subcategory header FR: 32932; TONE: Formal; CHARLIMIT: None NOTE: string for category header of data visualisations from analysis team]" />
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
+			</container>
+		</container>
+		<!-- 3-->
+		<container class="vertical_adaptive_container" horizontal_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
 			<container>
-
-				<attachment_group class="vertical_arrange" vertical_alignment="middle" />
-
-				<container>
-
-					<attachment class="test_screen_size_attachment" skip_if_false="true">
-						<list id="properties">
-							<record>
-								<flags id="alignment" value="vertical" />
-								<integer id="min_value" value="0" />
-								<integer id="max_value" value="720" />
-								<symbol id="set_property" value="height" />
-								<integer id="true_value" value="530" />
-								<integer id="false_value" value="530" />
-							</record>
-							<record>
-								<flags id="alignment" value="vertical" />
-								<integer id="min_value" value="720" />
-								<integer id="max_value" value="868" />
-								<symbol id="set_property" value="height" />
-								<integer id="true_value" value="660" />
-								<integer id="false_value" value="660" />
-							</record>
-							<record>
-								<flags id="alignment" value="vertical" />
-								<integer id="min_value" value="868" />
-								<integer id="max_value" value="10000" />
-								<symbol id="set_property" value="height" />
-								<integer id="true_value" value="760" />
-								<integer id="false_value" value="760" />
-							</record>
-
-						</list>
-					</attachment>
-
-					<attachment_group class="horizontal_arrange" horizontal_alignment="middle">
-						<global id="horizontal_gap" name="ui.main_contrast_box_gap" />
-					</attachment_group>
-
-					<container class="main_transparent_box_no_margin" width="620" navigation_container="true">
-
-						<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1.6" end_mode="hold_end" />
-						<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="0.4" end_mode="hold_end" trigger_id="hidden" trigger_start="false" trigger_end="true" />
-
-						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0,8,8,8" />
-
-						<container class="tabbed_container" id="tabc" default_item="pmrw">
-							<!--using the xml variable defined up top-->
-							<var id="homc" name="pitch_container">
-								<set_var name="pitch_id">
-									<flags value="homp" />
-								</set_var>
-								<set_var name="bench_id">
-									<flags value="hosb" />
-								</set_var>
-							</var>
-
-							<!--using the xml variable defined up top-->
-							<var id="awac" name="pitch_container">
-								<set_var name="pitch_id">
-									<flags value="awap" />
-								</set_var>
-								<set_var name="bench_id">
-									<flags value="awsb" />
-								</set_var>
-							</var>
-
-							<container id="pmrw" hidden="true">
-								<translation id="title" translation_id="515056" type="use" value="Post-Match Report[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for shpwing the post-match report summary of the fixture just played]" />
-								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-								<widget class="post_match_report_widget" id="pstT">
-									<record id="object_property" get_property="objt" set_property="objt" />
-								</widget>
-							</container>
-
-							<container id="stfF" hidden="true" icon="icons/16px/staff">
-								<translation id="title" translation_id="515057" type="use" value="Staff Feedback[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing key feedback from members of your backroom team at full time]" />
-								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-								<var id="sfbt" name="feedback_container_tabbed" />
-							</container>
-						</container>
-
-						<container id="qmps" hidden="true">
-							<attachment_group class="vertical_arrange_autosize" horizontal_alignment="right" vertical_offset="10">
-								<global id="horizontal_gap" name="ui.button_row_gap" />
-							</attachment_group>
-
-							<widget class="icon_button" id="psbt" auto_size="all" alignment="centre" click_event="FpsD" icon="icons/16px/man" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" secondary_icon_alignment="right" appearance="buttons/subtle/normal/button">
-								<translation id="text" translation_id="515058" type="use" value="Player Statistics[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing player statistics from the match just finished]" />
-							</widget>
-						</container>
-					</container>
-
-					<container class="main_transparent_box" id="PmRW" width="340" hidden="true" navigation_container="true">
-
-						<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1.6" end_mode="hold_end" />
-						<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="0.4" end_mode="hold_end" trigger_id="hidden" trigger_start="false" trigger_end="true" />
-
-						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-
-						<widget class="post_match_report_widget" id="pstL">
-							<record id="object_property" get_property="objt" set_property="objt" />
-						</widget>
-
-
-						<container class="inner_box_no_margin" id="stfb" hidden="true" alignment="centre" size="large">
-							<translation id="title" translation_id="515057" type="use" value="Staff Feedback[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing key feedback from members of your backroom team at full time]" />
-							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="4,0,0,0" />
-							<var id="sbtL" name="feedback_container" />
-						</container>
-					</container>
-
-				</container>
-
+				<attachment_group class="horizontal_arrange" horizontal_layout="-1,-1" horizontal_gap="2"/>
+				<widget class="data_analyst_visualisation_widget" id="vis2" visualisation_type="shot_map" data_type="fixture"  file="widgets/data analyst visualisation mini" show_mini_visualisation_text="false" can_pin_visualisation="false">
+					<record id="widget_properties" type="0"/>
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
+				<widget class="data_analyst_visualisation_widget" id="vis3" visualisation_type="shot_map" data_type="fixture"  file="widgets/data analyst visualisation mini" show_mini_visualisation_text="false" can_pin_visualisation="false">
+					<record id="widget_properties" type="1"/>
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
 			</container>
 		</container>
 	</container>
 
+	<!-- MAIN CONTAINER -->
+	<container>
+		<layout class="vertical_arrange" vertical_layout="360,200,-1" />
+		<!-- 1 -->
+		<container class="vertical_adaptive_container" horizontal_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			<container class="main_subtle_box">
+				<layout class="arrange_vertical_attachment" alignment="bottom,extend" gap="5" layout="120,5,50,180" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+				<container>
+					<layout class="arrange_vertical_attachment" alignment="top" gap="0" offset="5" />
+					<layout class="fit_children_attachment" alignment="vertical,fill" gap="0" offset="5" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+					<!--comp picture-->
+					<widget class="object_portrait_picture" id="fxCo" scale_picture="true" height="50">
+						<boolean id="keep_aspect_ratio" value="true" />
+						<flags id="image_alignment" value="centre" />
+						<record id="object_property">
+							<integer id="get_property" value="fxCo" />
+							<integer id="set_property" value="objt" />
+						</record>
+					</widget>
+					<!--spacer-->
+					<container height="5" />
+					<!--comp-->
+					<widget class="fixture_name_text" id="FxNm" font="title" colour="accent" size="14" alignment="centre_x" auto_size="vertical">
+						<record id="object_property">
+							<integer id="get_property" value="FxNm" />
+						</record>
+					</widget>
+					<!--spacer-->
+					<container height="5" />
+					<!--date-->
+					<widget class="date_cell" id="fxdt" alignment="centre_x" auto_size="vertical" size="10">
+						<translation id="format" value="[%date#1-long]" />
+						<record id="object_property">
+							<integer id="get_property" value="fxdt" />
+						</record>
+					</widget>
+					<!--weather-->
+					<widget class="weather_indicator_panel_centred" id="FxWe">
+						<record id="object_property">
+							<integer id="get_property" value="FxWe" />
+						</record>
+					</widget>
+				</container>
+				<!--spacer-->
+				<container height="5" />
+				<!--stadium-->
+				<container>
+					<layout class="arrange_vertical_attachment" alignment="top" gap="5" offset="5" />
+					<layout class="fit_children_attachment" alignment="vertical,fill" gap="5" offset="5" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="5" apply_to_children="true" />
+					<widget class="stadium_button" id="stad" auto_size="all" colour="accent" size="12" auto_size_restricted_to_parent_width="true">
+						<layout class="centre_in_parent_attachment" alignment="all" />
+						<translation id="no_object_text" translation_id="227505" type="use" value="Unknown Stadium"/>
+						<record id="object_property">
+							<integer id="get_property" value="stad" />
+						</record>
+					</widget>
+					<!--attendance-->
+					<widget class="number_label" id="FxAt" alignment="centre_x" auto_size="vertical">
+						<record id="object_property">
+							<integer id="get_property" value="FxAt" />
+							<boolean id="dont_set_hint" value="true"/>
+						</record>
+					</widget>
+				</container>
+				<container>
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+					<!--stadium picture-->
+					<widget class="stadium_picture" id="STAp" image_alignment="top, centre_x" scale_picture="true" keep_aspect_ratio="true">
+						<record id="object_property">
+							<integer id="get_property" value="objt" />
+							<integer id="set_property" value="objt" />
+						</record>
+					</widget>
+				</container>
+			</container>
+		</container>
+		<!-- 2 -->
+		<container class="vertical_adaptive_container" horizontal_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			<container class="main_subtle_box">
+				<layout class="arrange_vertical_attachment" alignment="bottom,extend" gap="5" layout="-1" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+				<container class="scrolling_box">
+					<container>
+						<layout class="arrange_vertical_attachment" alignment="top" gap="0" offset="5" />
+						<layout class="fit_children_attachment" alignment="vertical,fill" gap="0" offset="5" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+						<!--big badge display-->
+						<container height="90" id="resB">
+							<widget class="client_object_viewer_xml_panel" id="badg" file="team/team upcoming fixture badges no versus">
+								<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" />
+								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="5" />
+								<record id="object_property">
+									<integer id="get_property" value="objt" />
+									<integer id="set_property" value="objt" />
+								</record>
+							</widget>
+							<widget class="fixture_full_result_text" id="FxFR" format="[%scoreline#1-home_away]" style="bold" size="24" alignment="centre" reverse_teams="false">
+								<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+								<record id="object_property">
+									<integer id="get_property" value="FxFR" />
+								</record>
+							</widget>
+						</container>
+						<!--scorers-->
+						<container id="SCOR">
+							<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true"/>
+							<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />
+							<layout class="arrange_horizontal_attachment" layout="-1,25,-1" offset="0"/>
+							<!--home scorers-->
+							<widget class="fixture_goalscorers_text" id="HMsc" colour="black" team_index="0" auto_size="vertical" alignment="right, top" separate_lines="true" show_none_if_nothing_happened="false">
+								<record id="object_property">
+									<integer id="get_property" value="FxCG" />
+								</record>
+							</widget>
+							<!--spacer-->
+							<container/>
+							<!--away scorers-->
+							<widget class="fixture_goalscorers_text" id="AWsc" team_index="1" colour="black" auto_size="vertical" alignment="left, top" separate_lines="true" show_none_if_nothing_happened="false">
+								<record id="object_property">
+									<integer id="get_property" value="FxCG" />
+								</record>
+							</widget>
+						</container>
+					</container>
+				</container>
+			</container>
+		</container>
+		<!-- 3-->
+		<container class="vertical_adaptive_container" horizontal_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			<!-- notable events -->
+			<container class="main_subtle_box">
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+				<attachment class="match_ball_fade_attachment"/>
+				<widget class="match_notable_events_panel">
+					<record id="object_property">
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</widget>
+			</container>
+		</container>
+	</container>
+
+	<!-- FOOTER CONTAINER -->
+	<container>
+		<layout class="vertical_arrange" vertical_layout="450,-1,,40" />
+		<!-- 1 -->
+		<container class="vertical_adaptive_container" horizontal_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			<container class="main_subtle_box" id="awac" name="pitch_container">
+				<widget class="preselected_match_chalkboard_panel" id="pmcA" vertical="true" force_left_to_right_events="true" team_to_display="1" average_position_filter="1" aHiL="false"  wants_global_events="false"  enable_popup="false">
+					<record id="object_property" get_property="objt" set_property="objt" />
+					<list id="chalkboard_events_to_display">
+						<!-- Heatmap -->
+						<integer value="42" />
+						<!--Average position-->
+						<integer value="62" />
+					</list>
+				</widget>
+				<attachment_group class="horizontal_arrange" horizontal_layout="350,100,350" horizontal_alignment="left,extend" horizontal_gap="0" />
+				<widget id="awsb" class="subs_bench_panel" file="tactics/subs bench panel match full time small">
+				</widget>
+				<widget id="awap" class="pitch_with_tactics" icon_flags="show_name,show_extra_details,drop_initial_if_possible,show_number,dont_colour_number,use_player_kits_back" player_icon_file="tactics/tactics icon info panel match stats small" pitch_draw_grass="true" tactic_icon_min_size="90.f" pitch_line_colour="white">
+					<boolean id="vertical" value="true" />
+					<boolean id="pitch_is_read_only" value="true" />
+					<boolean id="pitch_dont_draw_indicators" value="true" />
+					<boolean id="allow_y_score_adjustment_for_roles" value="false" />
+					<flags id="pitch_alignment" value="can_scale" />
+					<integer id="pitch_touchline_width_percentage" value="100" />
+				</widget>
+			</container>
+		</container>
+		<!-- 2 -->
+		<container class="main_subtle_box">
+			<layout class="vertical_arrange" vertical_layout="-1,-1" />
+			<translation id="title" translation_id="247327" type="use" value="Action Zones" />
+			<container class="vertical_adaptive_container" horizontal_alignment="centre">
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+				<widget class="match_action_zones_panel" id="foap" file="match/focus of attacks panel">
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
+			</container>
+			<container class="vertical_adaptive_container" horizontal_alignment="centre">
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+				<widget class="match_action_zones_panel" id="foap" file="match/match action zones small">
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
+			</container>
+		</container>
+		<!-- 4-->
+		<container class="main_subtle_box" horizontal_alignment="centre">
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
+			<attachment_group class="horizontal_arrange_wrapped" horizontal_alignment="middle"/>
+			<widget class="icon_button" id="psbt" auto_size="all" alignment="centre" click_event="FpsD" icon="icons/16px/man" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" secondary_icon_alignment="right" appearance="buttons/subtle/normal/button">
+				<translation id="text" translation_id="515058" type="use" value="Player Statistics[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing player statistics from the match just finished]" />
+			</widget>
+			<widget class="icon_button" auto_size="all" alignment="centre" click_event="AnDD" icon="icons/16px/stats" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise" appearance="buttons/subtle/normal/button">
+				<string id="remove_if" value="platform_is_switch" />
+				<translation id="text" translation_id="515054" type="use" value="Analytical Data[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing key analytics data post-match]" />
+			</widget>
+		</container>
+	</container>
+	</container>
 </panel>
