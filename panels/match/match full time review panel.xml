@@ -223,7 +223,7 @@
 		</container>
 		<!-- 2 -->
 		<container>
-			<layout class="horizontal_arrange" horizontal_layout="-1,-1" />
+			<layout class="horizontal_arrange" horizontal_layout="300,-1" />
 			<container class="main_subtle_box">
 				<layout class="vertical_arrange" vertical_layout="-1,-1" />
 				<translation id="title" translation_id="247327" type="use" value="Action Zones" />
@@ -241,7 +241,13 @@
 				</container>
 			</container>
 			<container class="main_subtle_box">
-				<layout class="vertical_arrange" vertical_layout="-1,-1" />
+				<layout class="vertical_arrange" vertical_layout="-1" />
+				<widget class="match_analysis_panel" id="bewo" file="match/match analysis best-worst panel">
+					<record id="object_property">
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</widget>
 			</container>
 		</container>
 		<!-- 4-->
