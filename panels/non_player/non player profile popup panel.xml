@@ -1,0 +1,414 @@
+<panel>
+	<layout class="vertical_arrange_autosize" vertical_gap="8"/>
+
+	<!-- Personal Details -->
+	<container class="horizontal_arrange_container" layout="300,-1" gap="8" height="218" id="popu">
+
+		<!-- Player Box -->
+		<container>
+			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+			<container class="main_subtle_box_no_margin">
+				<layout class="vertical_arrange" vertical_layout="-1,40" vertical_gap="0"/>
+
+				<!-- Player Graphics -->
+				<container>
+
+					<!-- Portrait & Logos -->
+					<container class="horizontal_arrange_container" layout="100,170" offset="20" gap="0">
+						<layout class="stick_to_sides_attachment"/>
+
+						<!-- Nationality & Club -->
+						<container class="plain_box" appearance="tables/standard/row/alternate/row">
+							<layout class="vertical_arrange" vertical_layout="-3,-4" vertical_gap="0" vertical_offset="10" horizontal_inset="12"/>
+
+							<!-- Nationality -->
+							<widget class="object_portrait_picture" height="47" width="77" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" wants_mouse_events="true">
+								<record id="object_property" get_property="PNat"/>
+							</widget>
+
+							<!-- Club -->
+							<container>
+								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+
+								<record id="default_properties" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"/>
+
+								<!-- Employed -->
+								<widget class="object_portrait_picture" wants_mouse_events="true">
+									<record id="object_property" get_property="Pclb" set_property="objt" dont_set_hint="true"/>
+								</widget>
+
+								<!-- Unemployed -->
+								<widget class="value_based_picture" file="none">
+									<list id="value_list">
+										<record value="0" file="icons/custom/icon box/unemployed"/>
+									</list>
+
+									<record id="object_property">
+										<list id="get_properties">
+											<record get_property="Pcjo" set_property="valu" dont_set_hint="true"/>
+											<record get_property="ttcl" set_property="rrep" dont_set_object="true" />
+											<record get_property="tbcl" set_property="grep" dont_set_object="true" />
+											<record get_property="ttcl" set_property="brep" dont_set_object="true" />
+										</list>
+									</record>
+
+								</widget>
+
+							</container>
+
+						</container>
+
+						<!-- Player Portrait -->
+						<widget class="object_portrait_picture" id="face" image_alignment="centre_x,bottom" scale_picture="true" keep_aspect_ratio="true" wants_mouse_events="false">
+							<record id="object_property" get_property="objt"/>
+						</widget>
+
+					</container>
+
+					<!-- Status Indicators -->
+					<widget class="player_status_all_button" id="psAB" maximised="true" auto_size="vertical" alignment="bottom" gap="-2" max_items_per_row_or_column="6">
+						<layout class="stick_to_sides_attachment" alignment="top,right" inset="8"/>
+						<record id="object_property" get_property="Pnfa"/>
+					</widget>
+
+				</container>
+
+				<!-- Player Name -->
+				<container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper">
+					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+					<record id="object_property" get_property="tbcl" set_property="rrep" dont_set_object="true" />
+
+					<widget class="person_button" font="main menu" size="11" alignment="centre_x,centre_y,can_scale">
+
+						<record id="object_property">
+							<list id="get_properties">
+								<record get_property="Pers"/>
+								<record get_property="ttcl" set_property="colr" dont_set_object="true" />
+							</list>
+						</record>
+
+					</widget>
+
+				</container>
+
+			</container>
+
+		</container>
+
+		<container>
+			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+			<container class="main_subtle_box">
+				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+				<!-- Player Information Table -->
+				<container file="non_player/FME/non player information table popup">
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</container>
+
+			</container>
+
+		</container>
+
+	</container>
+
+	<container class="inner_subtle_box" height="50">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0,8,0,8" apply_to_children="true" />
+
+		<widget class="table" mode="fill_rows, printable" layout="-10,1,-8,1,-8,1,-10" row_height="34" auto_size="vertical" row_spacing="0">
+
+			<record id="object_property" get_property="objt" set_property="objt"/>
+
+			<!-- Preferred Formation -->
+			<container class="vertical_arrange_container" alignment="fill" row="0" col="0">
+
+				<record id="default_properties" alignment="centre"/>
+
+				<widget class="label" font="title">
+					<record id="object_property" get_property="Nppf" name="true"/>
+				</widget>
+
+				<widget class="formation_label">
+					<record id="object_property" get_property="Nppf"/>
+				</widget>
+
+			</container>
+
+			<widget class="vertical_divider" row="0" col="1"/>
+
+			<!-- Tactical Style -->
+			<container class="vertical_arrange_container" alignment="fill" row="0" col="2">
+
+				<record id="default_properties" alignment="centre"/>
+
+				<widget class="label" font="title">
+					<record id="object_property" get_property="npTs" name="true"/>
+				</widget>
+
+				<widget class="tactical_style_label">
+					<record id="object_property" get_property="npTs"/>
+				</widget>
+
+			</container>
+
+			<widget class="vertical_divider" row="0" col="3"/>
+
+			<!-- Playing Style -->
+			<container class="vertical_arrange_container" alignment="fill" row="0" col="4">
+
+				<record id="default_properties" alignment="centre"/>
+
+				<widget class="label" font="title">
+					<record id="object_property" get_property="npps" name="true"/>
+				</widget>
+
+				<widget class="playing_style_label">
+					<record id="object_property" get_property="npps"/>
+				</widget>
+
+			</container>
+
+			<widget class="vertical_divider" row="0" col="5"/>
+
+			<!-- 2nd Preferred Formation -->
+			<container class="vertical_arrange_container" alignment="fill" row="0" col="6">
+
+				<record id="default_properties" alignment="centre"/>
+
+				<widget class="label" font="title">
+					<record id="object_property" get_property="nppm" name="true"/>
+				</widget>
+
+				<widget class="playing_mentality_label">
+					<record id="object_property" get_property="nppm"/>
+				</widget>
+
+			</container>
+
+		</widget>
+
+	</container>
+
+	<container class="tabs" height="330">
+
+		<!-- Attributes -->
+		<container id="np01">
+			<translation id="title" translation_id="229822" type="use" value="Attributes"/>
+			<layout class="arrange_horizontal_attachment" offset="0" alignment="right, extend"/>
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
+
+			<!-- Attributes Container -->
+			<container>
+				<layout class="arrange_horizontal_attachment" offset="0" layout="-1, -2" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
+
+				<widget class="non_player_roles_panel" id="nprp" file="non_player/non player roles popup panel"/>
+				<container class="non_player_attributes_panel" id="patp"/>
+			</container>
+
+			<container class="scrolling_box" width="170" id="nptp">
+				<container class="non_player_tendencies_panel" should_force_refresh="true" width="150">
+					<record id="object_property">
+						<integer id="set_property" value="objt"/>
+						<integer id="get_property" value="objt"/>
+					</record>
+				</container>
+			</container>
+		</container>
+
+		<!-- Information -->
+		<container id="np02">
+			<translation id="title" translation_id="243210" type="use" value="Information" />
+			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+			<widget class="person_information_panel" file="player/FME/tabs/information/player information panel">
+				<record id="object_property" get_property="objt" set_property="objt"/>
+			</widget>
+
+		</container>
+
+		<!-- History -->
+		<container id="np03">
+			<translation id="title" translation_id="229719" type="use" value="History" />
+			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+			<container class="client_object_viewer_xml_panel" file="player/FME/tabs/history/player history" late_loading="true">
+				<record id="object_property" get_property="objt" set_property="objt" />
+			</container>
+
+		</container>
+
+	</container>
+
+	<!-- Selector Panels -->
+	<container height="138" class="inner_subtle_box">
+		<layout class="arrange_horizontal_attachment" layout="-1, 1, -1" offset="0" gap="10"/>
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+
+		<widget class="player_history_achievements_panel" id="pac1" file="non_player/non player history">
+			<record id="object_property">
+				<list id="get_properties">
+					<record>
+						<integer id="get_property" value="objt"/>
+						<integer id="set_property" value="objt"/>
+					</record>
+				</list>
+			</record>
+		</widget>
+
+		<widget class="vertical_divider"/>
+
+		<!-- Overall Career Stats -->
+		<container>
+			<layout class="vertical_arrange" vertical_alignment="top,extend"/>
+
+			<widget class="text" font="title" auto_size="vertical">
+				<translation id="text" translation_id="319476" type="use" value="Career Stats[COMMENT: manager overview; section heading]" />
+			</widget>
+
+			<widget class="table" mode="fill_rows, stripe_rows, printable" id="ovst" layout="-3, -1, -3, -1" auto_size="vertical">
+				<flags id="auto_size" value="vertical" />
+				<boolean id="auto_size_rows" value="true" />
+				<boolean id="fixed_size_rows" value="false" />
+				<boolean id="save_session_state" value="true" />
+				<boolean id="sdst" value="true" />
+
+				<!-- disable sorting on all columns -->
+				<list id="column_table_properties">
+					<record indx="0">
+						<boolean id="sort_disabled" value="true" />
+					</record>
+					<record indx="1">
+						<boolean id="sort_disabled" value="true" />
+						<flags id="alignment" value="centre_y" />
+					</record>
+					<record indx="2">
+						<boolean id="sort_disabled" value="true" />
+					</record>
+					<record indx="3">
+						<boolean id="sort_disabled" value="true" />
+						<flags id="alignment" value="centre_y" />
+					</record>
+				</list>
+
+				<record id="object_property">
+					<integer id="get_property" value="objt" />
+					<integer id="set_property" value="objt" />
+				</record>
+
+				<!--Game Played - Entire Career -->
+				<widget class="label" id="Logp" row="0" col="0">
+					<record id="object_property">
+						<integer id="get_property" value="Tgpl" />
+						<boolean id="name" value="true" />
+					</record>
+				</widget>
+				<widget class="dashed_number_label" id="Vogp" row="0" col="1" auto_size="all" spec="text" size="normal">
+					<record id="object_property">
+						<integer id="get_property" value="Tgpl" />
+					</record>
+				</widget>
+
+				<!--Games Won - Entire Career -->
+				<widget class="label" id="Logw" row="1" col="0">
+					<record id="object_property">
+						<integer id="get_property" value="Tgwn" />
+						<boolean id="name" value="true" />
+					</record>
+				</widget>
+				<widget class="dashed_number_label" id="Vogw" row="1" col="1" auto_size="all" spec="text" size="normal">
+					<record id="object_property">
+						<integer id="get_property" value="Tgwn" />
+					</record>
+				</widget>
+
+				<!--Games Drawn - Entire Career -->
+				<widget class="label" id="Logd" row="2" col="0">
+					<record id="object_property">
+						<integer id="get_property" value="Tgdw" />
+						<boolean id="name" value="true" />
+					</record>
+				</widget>
+				<widget class="dashed_number_label" id="Vogd" row="2" col="1" auto_size="all" spec="text" size="normal">
+					<record id="object_property">
+						<integer id="get_property" value="Tgdw" />
+					</record>
+				</widget>
+
+				<!--Games Lost - Entire Career -->
+				<widget class="label" id="Logl" row="3" col="0">
+					<record id="object_property">
+						<integer id="get_property" value="Tglt" />
+						<boolean id="name" value="true" />
+					</record>
+				</widget>
+				<widget class="dashed_number_label" id="Vogl" row="3" col="1" auto_size="all" spec="text" size="normal">
+					<record id="object_property">
+						<integer id="get_property" value="Tglt" />
+					</record>
+				</widget>
+
+				<!--Goals Scored - Nation -->
+				<widget class="label" id="Logf" row="0" col="2">
+					<record id="object_property">
+						<integer id="get_property" value="Tgfr" />
+						<boolean id="name" value="true" />
+					</record>
+				</widget>
+				<widget class="dashed_number_label" id="Vogf" row="0" col="3" auto_size="all" spec="text" size="normal">
+					<record id="object_property">
+						<integer id="get_property" value="Tgfr" />
+					</record>
+				</widget>
+
+				<!--Goals Conceded - Entire Career -->
+				<widget class="label" id="Logc" row="1" col="2">
+					<record id="object_property">
+						<integer id="get_property" value="Tgaa" />
+						<boolean id="name" value="true" />
+					</record>
+				</widget>
+				<widget class="dashed_number_label" id="Vogc" row="1" col="3" auto_size="all" spec="text" size="normal">
+					<record id="object_property">
+						<integer id="get_property" value="Tgaa" />
+					</record>
+				</widget>
+
+				<!--Goals Difference - Entire Career -->
+				<widget class="label" id="Lodi" row="2" col="2">
+					<record id="object_property">
+						<integer id="get_property" value="Tgdf" />
+						<boolean id="name" value="true" />
+					</record>
+				</widget>
+				<widget class="dashed_number_label" id="Vodi" row="2" col="3" auto_size="all" spec="text" size="normal">
+					<record id="object_property">
+						<integer id="get_property" value="Tgdf" />
+					</record>
+				</widget>
+
+				<!-- Win Ratio - Entire Career -->
+				<widget class="label" id="Lowr" row="3" col="2">
+					<record id="object_property">
+						<integer id="get_property" value="Tgwr" />
+						<boolean id="name" value="true" />
+					</record>
+				</widget>
+				<widget class="dashed_record_percentage_label" id="Vowr" row="3" col="3" auto_size="all" spec="text" size="normal">
+					<record id="object_property">
+						<integer id="get_property" value="Tgwr" />
+					</record>
+				</widget>
+
+				<!-- everything should be left aligned -->
+				<record id="default_properties">
+					<flags id="alignment" value="left,centre_y" />
+				</record>
+			</widget>
+
+		</container>
+	</container>
+
+</panel>
