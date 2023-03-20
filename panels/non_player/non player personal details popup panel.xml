@@ -4,7 +4,7 @@
 	<boolean id="should_force_refresh" value="true" />
 
 	<!-- Player Info -->
-	<container class="horizontal_arrange_container" layout="270,-1" gap="8" height="218" id="popu">
+	<container class="horizontal_arrange_container" layout="300,-1" gap="8" height="218" id="popu">
 
 		<!-- Player Box -->
 		<container>
@@ -17,7 +17,7 @@
 				<container>
 
 					<!-- Portrait & Logos -->
-					<container class="horizontal_arrange_container" layout="100,170" offset="10" gap="-8">
+					<container class="horizontal_arrange_container" layout="100,170" offset="20" gap="0">
 						<layout class="stick_to_sides_attachment"/>
 
 						<!-- Nationality & Club -->
@@ -82,11 +82,11 @@
 
 					<record id="object_property" get_property="tbcl" set_property="rrep" dont_set_object="true" />
 
-					<widget class="person_button" font="main menu" size="11" alignment="centre_x,centre_y,can_scale">
+					<widget class="text" font="main menu" size="11" alignment="centre_x,centre_y,can_scale">
 
 						<record id="object_property">
 							<list id="get_properties">
-								<record get_property="Pers"/>
+								<record get_property="titl" set_property="text" />
 								<record get_property="ttcl" set_property="colr" dont_set_object="true" />
 							</list>
 						</record>
@@ -106,7 +106,7 @@
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
 				<!-- Player Information Table -->
-				<container file="non_player/FME/non player information table popup">
+				<container file="player/FME/player information table popup">
 					<record id="object_property" get_property="objt" set_property="objt" />
 				</container>
 
