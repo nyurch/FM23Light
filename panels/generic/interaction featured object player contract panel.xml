@@ -30,7 +30,7 @@
 			<translation id="text" translation_id="538841" type="use" value="Transfer Value[COMMENT: AREA: Transfers; SUB-AREA: Transfer Value; FR-BN: 34410; TONE: Formal; CHARLIMIT: Shortish, column header; REF-ID: 227806; NOTE: displays the player's estimated transfer value in a range]" />
 		</widget>
 
-		<widget class="transfer_value_label" id="tnVL" spec="text" colour="white" auto_size="all" alignment="left, centre_y" />
+		<widget class="transfer_value_label" id="tnVL" spec="text" colour="white" style="bold" auto_size="all" alignment="left, centre_y" />
 
 		<!-- contract -->
 		<widget class="text" font="title" auto_size="vertical" alignment="left, centre_y">
