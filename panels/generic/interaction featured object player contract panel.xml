@@ -1,0 +1,82 @@
+﻿<panel width="200">
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+	<boolean id="should_force_refresh" value="true" />
+
+	<!--dynamic image here please-->
+	<container id="PCdi" height="117" width="160">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+	</container>
+	
+	<widget class="object_portrait_picture" id="PCpt" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="117" width="160" hidden="true" />
+
+	<container>
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="2" />
+
+		<!-- person name -->
+		<widget class="person_button" id="nmlb" auto_size="vertical" font="text" style="bold" colour="text" alignment="left, centre_y" />
+
+		<!-- person description -->
+		<widget class="text" id="delb" auto_size="vertical" alignment="left, centre_y">
+		</widget>
+	</container>
+
+	<widget class="horizontal_divider" />
+
+	<container>
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="2" />
+
+		<widget class="text" font="title" auto_size="vertical" alignment="left, centre_y">
+			<translation id="text" translation_id="538841" type="use" value="Transfer Value[COMMENT: AREA: Transfers; SUB-AREA: Transfer Value; FR-BN: 34410; TONE: Formal; CHARLIMIT: Shortish, column header; REF-ID: 227806; NOTE: displays the player's estimated transfer value in a range]" />
+		</widget>
+
+		<widget class="transfer_value_label" id="tnVL" spec="text" colour="white" auto_size="all" alignment="left, centre_y" />
+
+		<!-- contract -->
+		<widget class="text" font="title" auto_size="vertical" alignment="left, centre_y">
+			<translation id="text" translation_id="230163" type="use" value="Contract" />
+		</widget>
+
+		<widget class="text" id="plct" spec="text" auto_size="vertical" alignment="left, centre_y" />
+	</container>
+
+	<widget class="horizontal_divider">
+		<layout class="stick_to_sides_attachment" alignment="horizontal" />
+	</widget>
+
+	<container>
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="2" />
+
+		<!-- morale -->
+		<widget class="text" font="title" auto_size="vertical" alignment="left, centre_y">
+			<translation id="text" translation_id="227839" type="use" value="Morale" />
+		</widget>
+		<widget class="morale_label" id="mrle" spec="text" auto_size="vertical" alignment="left, centre_y" />
+	</container>
+
+	<widget class="horizontal_divider" />
+
+	<container>
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="2" />
+
+		<!-- agreed playing time -->
+		<widget class="text" font="title" auto_size="vertical" alignment="left, centre_y">
+			<translation id="text" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
+		</widget>
+		<widget class="playing_time_label" id="sqst" spec="text" auto_size="vertical" alignment="left, centre_y" />
+	</container>
+
+	<widget class="horizontal_divider" />
+
+	<container>
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="2" />
+
+		<!-- personality -->
+		<widget class="text" font="title" auto_size="vertical" alignment="left, centre_y">
+			<translation id="text" translation_id="247713" type="use" value="Personality" />
+		</widget>
+
+		<widget class="text" id="psty" spec="text" auto_size="vertical" alignment="left, centre_y" />
+	</container>
+
+</panel>
