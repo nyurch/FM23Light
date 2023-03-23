@@ -89,7 +89,7 @@
             <container row="2" col="4">
                 <layout class="vertical_arrange" vertical_alignment="middle"/>
 
-                <widget class="transfer_value_label" spec="text" show_button_appearance="false" dont_set_hint="true" allow_link_to_transfer_info="false" info_popup_enabled="false" alignment="right,centre_y" auto_size="none">
+                <widget class="transfer_value_label" spec="text" colour="white" show_button_appearance="false" dont_set_hint="true" allow_link_to_transfer_info="false" info_popup_enabled="false" alignment="right,centre_y" auto_size="none">
                     <record id="object_property" get_property="Pdva"/>
                 </widget>
 

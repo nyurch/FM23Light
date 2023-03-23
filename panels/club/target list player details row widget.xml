@@ -41,7 +41,7 @@
                         <translation id="text" translation_id="538841" type="use" value="Transfer Value[COMMENT: AREA: Transfers; SUB-AREA: Transfer Value; FR-BN: 34410; TONE: Formal; CHARLIMIT: Shortish, column header; REF-ID: 227806; NOTE: displays the player's estimated transfer value in a range]" />
                     </widget>
 
-                    <widget class="transfer_value_label" alignment="left, centre_y" style="bold" size="10" auto_size="all">
+                    <widget class="transfer_value_label" alignment="left, centre_y" style="bold" colour="white" size="10" auto_size="all">
                         <record id="object_property" get_property="Pdva" set_property="valu" />
                     </widget>
                 </container>

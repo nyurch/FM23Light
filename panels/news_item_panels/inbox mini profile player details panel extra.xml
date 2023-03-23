@@ -30,7 +30,7 @@
         <container>
             <attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle"/>
 
-            <widget class="transfer_value_label" id="val1" auto_size="all" alignment="left, centre_y">
+            <widget class="transfer_value_label" id="val1" colour="white" auto_size="all" alignment="left, centre_y">
                 <translation id="format" translation_id="383826" type="use" value="Valued at [%cash#1-roundsmall-short][COMMENT: FR 10661; player overview; string diaplyed a player's estimated monetary value]" />
                 <record id="object_property" get_property="Pdva" dont_set_hint="true" />
             </widget>

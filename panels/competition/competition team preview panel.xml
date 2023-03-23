@@ -361,7 +361,7 @@
 							<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0" />
 							<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
-							<widget class="transfer_value_label" auto_size="vertical" style="semi_bold" size="large" alignment="centre">
+							<widget class="transfer_value_label" auto_size="vertical" colour="white" style="semi_bold" size="large" alignment="centre">
 								<translation id="format" translation_id="383826" type="use" value="Valued at [%cash#1-roundsmall-short][COMMENT: FR 10661; player overview; string diaplyed a player's estimated monetary value]" />
 								<record id="object_property" get_property="Pdva" dont_set_hint="true" />
 							</widget>

@@ -1,0 +1,208 @@
+<panel>
+	<attachment_group class="vertical_arrange_autosize" vertical_gap="4" vertical_offset="0" horizontal_inset="0" />
+
+	<!--key signing-->
+	<container class="client_object_viewer_xml_panel" id="pers" height="130">
+
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+		<!--container for all mundane personal info-->
+		<container class="inner_subtle_box">
+			<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="fill" horizontal_offset="0" vertical_offset="0" />
+			<translation id="title" translation_id="466471" type="use" value="Key Signing[COMMENT: title for a box showing the key signing for a club]" />
+
+			<!--name/details-->
+			<container>
+				<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left,extend" horizontal_offset="0" vertical_offset="0" />
+
+				<!--mugshot-->
+				<widget class="object_portrait_picture" id="trpf" image_alignment="centre" scale_picture="true" width="73" height="73">
+					<record id="object_property">
+						<list id="get_properties">
+							<record>
+								<integer id="get_property" value="objt" />
+								<integer id="set_property" value="valu" />
+							</record>
+						</list>
+					</record>
+				</widget>
+
+				<container>
+					<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" />
+
+					<!--name-->
+					<widget class="person_button" id="psbf" auto_size="vertical" style="bold" alignment="left,centre_y" info_popup_enabled="true" person_is_player="true">
+						<record id="object_property">
+							<list id="get_properties">
+								<record>
+									<integer id="get_property" value="objt" />
+									<integer id="set_property" value="valu" />
+								</record>
+							</list>
+						</record>
+					</widget>
+
+					<!--description-->
+					<widget class="player_description_text" id="pdes" auto_size="vertical" alignment="left,centre_y">
+						<record id="object_property">
+							<list id="get_properties">
+								<record>
+									<integer id="get_property" value="Pdes" />
+									<integer id="set_property" value="valu" />
+								</record>
+							</list>
+						</record>
+					</widget>
+
+					<!--Nation-->
+					<widget class="nation_button" id="natp" format="[%nation#1-nationality]" auto_size="vertical">
+						<record id="object_property">
+							<integer id="get_property" value="Pnat" />
+						</record>
+					</widget>
+				</container>
+			</container>
+
+			<!--contract info-->
+			<container>
+				<layout class="show_medium_horizontal" />
+				<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" />
+
+				<container>
+					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" horizontal_alignment="left" />
+
+					<widget class="link_button_title" id="wgex" section="Pcnr" auto_size="all" size="normal">
+						<translation id="text" translation_id="247576" type="use" value="Contract Details"/>
+					</widget>
+				</container>
+
+				<!--Value-->
+				<widget class="transfer_value_label" id="valu" auto_size="vertical" colour="white" style="semi_bold" size="large">
+					<translation id="format" translation_id="383826" type="use" value="Valued at [%cash#1-roundsmall-short][COMMENT: FR 10661; player overview; string diaplyed a player's estimated monetary value]" />
+					<record id="object_property">
+						<list id="get_properties">
+							<record>
+								<integer id="get_property" value="Pdva" />
+								<boolean id="dont_set_hint" value="true" />
+							</record>
+						</list>
+					</record>
+				</widget>
+
+				<!--Wage / Expiry date-->
+				<widget class="game_formatted_label" id="wgex" alignment="left,top" size="small" auto_size="vertical">
+					<record id="object_property">
+						<list id="get_properties">
+							<record get_property="PcMM" set_property="var1" dont_set_object="true" />
+							<record get_property="Pcww" set_property="var2" dont_set_object="true" />
+							<record get_property="Pced" set_property="var3" dont_set_object="true" />
+						</list>
+					</record>
+					<list id="format">
+						<record value="-1">
+							<string id="format" value="" />
+						</record>
+						<record value="0">
+							<translation id="format" translation_id="450823" type="use" value="[%wage#2] until [%date#3-short][COMMENT: player overview; wage and contract expiry date string, small change to ID 394401 to remove the 'Earning' part so this can be used in a lot of places]" />
+						</record>
+						<record>
+							<string id="format" value="[%wage#2]" />
+						</record>
+					</list>
+					<record id="forced_formats" var2="vf_wage" />
+				</widget>
+
+				<!-- Playing time -->
+				<widget class="playing_time_label" id="sqst" auto_size="vertical" size="small" colour="faded text">
+					<record id="object_property">
+						<list id="get_properties">
+							<record>
+								<integer id="get_property" value="Pcpt" />
+							</record>
+						</list>
+					</record>
+				</widget>
+
+			</container>
+
+			<!--scout report-->
+			<widget class="player_scout_reports_panel" id="pcrp" file="player/player coach reports summary only">
+				<record id="object_property" get_property="objt" set_property="objt" />
+			</widget>
+		</container>
+	</container>
+
+	<!--transfer activity-->
+	<container class="inner_subtle_box">
+		<translation id="title" translation_id="330721" type="use" value="Transfer Activity[COMMENT: how to system; help string]" />
+
+		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" />
+
+		<!--list-->
+		<widget class="table" id="tabl" mode="fill_rows" auto_size_rows="true" layout="-1,24,60,105,105,75,75,75" column_spacing="2" auto_size="vertical">
+			<list id="headings">
+				<record alignment="left,centre_y">
+					<translation id="hint" translation_id="247229" type="use" value="Player Name" />
+					<translation id="text" translation_id="316722" type="use" value="Name[COMMENT:team report, player name]" />
+				</record>
+				<record alignment="left,centre_y">
+				</record>
+				<record alignment="left,centre_y">
+					<translation id="hint" translation_id="229400" type="use" value="Type" />
+					<translation id="text" translation_id="229400" type="use" value="Type" />
+				</record>
+				<record alignment="left,centre_y">
+					<translation id="hint" translation_id="242854" type="use" value="From" />
+					<translation id="text" translation_id="242854" type="use" value="From" />
+				</record>
+				<record alignment="left,centre_y">
+					<translation id="hint" translation_id="242855" type="use" value="To" />
+					<translation id="text" translation_id="242855" type="use" value="To" />
+				</record>
+				<record alignment="left,centre_y">
+					<translation id="hint" translation_id="230121" type="use" value="Fee" />
+					<translation id="text" translation_id="230121" type="use" value="Fee" />
+				</record>
+				<record alignment="left,centre_y">
+					<translation id="hint" translation_id="293013" type="use" value="Start Date" />
+					<translation id="text" translation_id="293013" type="use" value="Start Date" />
+				</record>
+				<record alignment="left,centre_y">
+					<translation id="hint" translation_id="293014" type="use" value="End Date" />
+					<translation id="text" translation_id="293014" type="use" value="End Date" />
+				</record>
+			</list>
+
+			<list id="column_table_properties">
+				<record index="0">
+					<integer id="minimum_width" value="100" />
+					<integer id="auto_hide_priority" value="10" />
+				</record>
+				<record index="1">
+					<integer id="top" value="4" />
+					<flags id="alignment" value="left,centre_y" />
+					<integer id="auto_hide_priority" value="20" />
+				</record>
+				<record index="2">
+					<integer id="auto_hide_priority" value="30" />
+				</record>
+				<record index="3">
+					<integer id="auto_hide_priority" value="40" />
+				</record>
+				<record index="4">
+					<integer id="auto_hide_priority" value="50" />
+				</record>
+				<record index="5">
+					<integer id="auto_hide_priority" value="100" />
+				</record>
+				<record index="6">
+					<integer id="auto_hide_priority" value="60" />
+				</record>
+				<record index="7">
+					<integer id="auto_hide_priority" value="70" />
+				</record>
+			</list>
+		</widget>
+	</container>
+
+</panel>

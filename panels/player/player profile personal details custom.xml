@@ -93,7 +93,7 @@
 			<widget class="label" font="label" height="14">
 				<translation id="text" translation_id="292633" type="use" value="Estimated Value[COMMENT: player profile; value label]" />
 			</widget>
-			<widget class="transfer_value_label" id="valu" auto_size="all" font="value">
+			<widget class="transfer_value_label" id="valu" auto_size="all" font="value" colour="white">
 				<record id="object_property" get_property="Pdva" dont_set_hint="true" />
 			</widget>
 
