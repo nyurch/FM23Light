@@ -6412,6 +6412,7 @@
 				<symbol id="class" value="transfer_value_label" />
 				<flags id="auto_size" value="none" />
 				<flags id="colour" value="white" />
+				<flags id="style" value="bold" />
 				<flags id="navigation_focus_target" value="true" />
 			</record>
 			<record id="widget_edit_info">
