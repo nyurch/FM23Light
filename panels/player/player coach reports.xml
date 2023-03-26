@@ -305,7 +305,16 @@
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
-					<widget class="player_additional_stats_panel" id="staP" file="player/player additional stats mini report">
+					<widget class="player_additional_stats_panel" id="astA" file="player/player additional stats mini report attacking" colour="faded text">
+						<record id="object_property" get_property="objt" set_property="objt" />
+					</widget>
+					<widget class="player_additional_stats_panel" id="asCr" file="player/player additional stats mini report creative" colour="faded text">
+						<record id="object_property" get_property="objt" set_property="objt" />
+					</widget>
+					<widget class="player_additional_stats_panel" id="astP" file="player/player additional stats mini report passing" colour="faded text">
+						<record id="object_property" get_property="objt" set_property="objt" />
+					</widget>
+					<widget class="player_additional_stats_panel" id="astD" file="player/player additional stats mini report defending" colour="faded text">
 						<record id="object_property" get_property="objt" set_property="objt" />
 					</widget>
 
