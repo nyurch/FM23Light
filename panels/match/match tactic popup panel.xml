@@ -1,0 +1,77 @@
+﻿<panel width="400" cancel_mouse_hide="true">
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+	<container>
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+		<!--formation-->
+		<container class="main_box" height="75">
+			<translation id="title" translation_id="298104" type="use" value="Formation" />
+
+			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+			<widget class="menu_strip_popup_button" id="Tact" icon="icons/16px/formation" icon_alignment="left" appearance="buttons/standard/normal/button">
+				<translation id="hint" translation_id="332222" type="use" value="Change tactic for your team[COMMENT: hint for a popup button that allows the user to change tactic during a match]" />
+				<record id="modal_popup_properties" dcep="true" />
+				<record id="widget_properties">
+					<translation id="title" translation_id="316746" type="use" value="Tactic[COMMENT:team report, tactic name]" />
+					<integer id="width" value="380" />
+					<flags id="auto_size" value="vertical" />
+					<flags id="alignment" value="top" />
+					<symbol id="icon" value="icons/26px/formation" />
+					<symbol id="appearance" value="boxes/popup/standard/titled/paper" />
+					<symbol id="default_widget_type" value="hint_text_button" />
+					<symbol id="submenu_type" value="popup_button_actions" />
+					<symbol id="separator_type" value="picture" />
+					<record id="default_widget_properties" />
+					<record id="submenu_properties" fixed="true">
+						<event id="click_notification_event" event_id="DMCN" item="NULL" />
+						<event id="menu_layout_notification_event" event_id="MLNO" />
+					</record>
+					<record id="separator_properties" file="dividers/standard/vertical/line" auto_size="vertical" />
+				</record>
+				<string id="mpmF" value="generic/modal popup panel match" />
+			</widget>
+		</container>
+
+		<!--mentality-->
+		<container class="main_box" height="78">
+			<translation id="title" translation_id="348204" type="use" value="Mentality[Comment: prefix used before mentality type text on quick tactical instruction button during match]" />
+
+			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+			<widget class="mentality_selection_buttons" id="ment">
+				<record id="default_properties">
+					<flags id="style" value="semi_bold" />
+					<flags id="colour" value="black" />
+					<flags id="size" value="large" />
+					<symbol id="appearance" value="buttons/custom/match/shout icon/button" />
+				</record>
+			</widget>
+		</container>
+
+		<!--team shape-->
+		<container class="main_box" height="78">
+			<translation id="text" translation_id="465563" type="use" value="Team Fluidity[COMMENT: team tactical instruction, reference ID 364787, team shape is now team fluidity]" />
+
+			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+			<widget class="team_fluidity_selection_buttons" id="tesh">
+				<record id="default_properties">
+					<flags id="style" value="semi_bold" />
+					<flags id="size" value="large" />
+					<symbol id="appearance" value="buttons/custom/match/shout icon/button" />
+				</record>
+			</widget>
+		</container>
+
+		<!--touchline shouts-->
+		<container class="main_box" id="tlSc">
+			<translation id="title" translation_id="326992" type="use" value="Shouts[COMMENT:title for the custom touchline instructions list]" />
+
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="1" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+		</container>
+	</container>
+
+</panel>
