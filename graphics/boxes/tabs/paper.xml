@@ -16,19 +16,20 @@
 	<record id="image_slices" left="12" right="12" top="12" bottom="12"/>
 
 	<colour id="red_replacement" name="subtle_box_background"/>
+  <colour id="green_replacement" name="fg"/>
 
 	<!-- title insets -->
 	<!-- these determine how many pixels the title is inset from the top/bottom/left/right of the box -->
 	<integer id="text_top_inset" value="8"/>
-	<integer id="text_bottom_inset" value="0"/>
-	<integer id="text_left_inset" value="0"/>
-	<integer id="text_right_inset" value="0"/>
+	<integer id="text_bottom_inset" value="8"/>
+	<integer id="text_left_inset" value="8"/>
+	<integer id="text_right_inset" value="8"/>
 
 	<!-- title properties -->
 	<record id="font_spec">
-		<flags id="font" value="title"/> 
-		<colour id="colr" name="accent"/> 
-		<flags id="size" value="normal"/> 
+		<flags id="font" value="title"/>
+		<colour id="colr" name="accent"/>
+		<flags id="size" value="normal"/>
 	</record>
-	
+
 </properties>

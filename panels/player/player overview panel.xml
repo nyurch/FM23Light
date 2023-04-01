@@ -340,7 +340,7 @@
 		<!-- ELIGIBILITY -->
 		<container class="main_subtle_box">
 		<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0"/>
-			<widget class="person_information_panel" id="pelp" file="player/player overview panels/player eligibility" default_width="-2" priority="4">
+			<widget class="person_information_panel" id="pelp" file="player/extra_panels/player eligibility" default_width="-2" priority="4">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
 		</container>
@@ -357,10 +357,10 @@
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 			<container>
 				<layout class="vertical_arrange" vertical_layout="-1,-1"/>
-			<widget class="player_contract_panel" file="player/FME/tabs/contract info/player contract subpanel horizontal">
+			<widget class="player_contract_panel" file="player/extra_panels/tabs/contract info/player contract subpanel horizontal">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
-			<widget class="player_contract_panel" file="player/FME/tabs/contract info/player contract horizontal">
+			<widget class="player_contract_panel" file="player/extra_panels/tabs/contract info/player contract horizontal">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
 			</container>
@@ -391,10 +391,10 @@
 			</container>
 			<container>
 				<layout class="horizontal_arrange" horizontal_layout="-500,-135" horizontal_gap="8"/>
-				<container id="patt" class="player_attributes_panel" file="player/FME/tabs/attributes/player attributes popup" dont_allow_custom_attribute_change_ranges="true">
+				<container id="patt" class="player_attributes_panel" file="player/extra_panels/tabs/attributes/player attributes popup" dont_allow_custom_attribute_change_ranges="true">
 					<record id="object_property" get_property="objt" set_property="objt"/>
 				</container>
-				<container class="player_attributes_panel" file="player/FME/tabs/attributes/player additional attributes">
+				<container class="player_attributes_panel" file="player/extra_panels/tabs/attributes/player additional attributes">
 					<record id="object_property" get_property="objt" set_property="objt"/>
 				</container>
 			</container>
@@ -403,7 +403,7 @@
 		<container id="po06">
 			<translation id="title" translation_id="312896" type="use" value="Player Positions" />
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-			<widget class="player_positions_indicator_panel" file="player/FME/player positions indicator">
+			<widget class="player_positions_indicator_panel" file="player/extra_panels/player positions indicator">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
 		</container>
@@ -411,7 +411,7 @@
 		<container id="po03">
 			<translation id="title" translation_id="243210" type="use" value="Information" />
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-			<widget class="person_information_panel" file="player/FME/tabs/information/player information panel">
+			<widget class="person_information_panel" file="player/extra_panels/tabs/information/player information panel">
 				<record id="object_property" get_property="objt" set_property="objt"/>
 			</widget>
 		</container>
@@ -444,12 +444,12 @@
 					<container class="player_profile_panel" file="none">
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 						<record id="object_property" get_property="Pers"/>
-						<container id="patt" class="player_attributes_panel" file="player/FME/tabs/attributes/player attributes" show_attribute_offsets="true">
+						<container id="patt" class="player_attributes_panel" file="player/extra_panels/tabs/attributes/player attributes" show_attribute_offsets="true">
 							<record id="object_property" get_property="Pers"/>
 						</container>
 					</container>
 					<!-- Additional Attributes -->
-					<container class="player_attributes_panel" file="player/FME/tabs/attributes/player additional attributes">
+					<container class="player_attributes_panel" file="player/extra_panels/tabs/attributes/player additional attributes">
 						<record id="object_property" get_property="Pers"/>
 					</container>
 				</container>
@@ -496,7 +496,7 @@
 		<container id="po08">
 			<translation id="title" translation_id="447586" type="use" value="Medical Report" />
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-			<widget class="player_injury_panel" file="player/FME/tabs/medical report/player medical report" late_loading="true">
+			<widget class="player_injury_panel" file="player/extra_panels/tabs/medical report/player medical report" late_loading="true">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
 		</container>
@@ -504,7 +504,7 @@
 		<container id="po09">
 			<translation id="title" translation_id="229719" type="use" value="History" />
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-			<container class="client_object_viewer_xml_panel" file="player/FME/tabs/history/player history" late_loading="true">
+			<container class="client_object_viewer_xml_panel" file="player/extra_panels/tabs/history/player history" late_loading="true">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</container>
 		</container>
@@ -520,7 +520,7 @@
 	<container class="main_subtle_box">
 	<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0"/>
 		<translation id="title" size="small" translation_id="334971" type="use" value="Attribute Analysis[COMMENT: player overview; title for a panel showing an attribute analyisis diagram]" />
-		<widget file="player/FME/tabs/attributes/player attribute analyser card" id="paAn" class="client_object_viewer_xml_panel" default_width="-2" priority="4">
+		<widget file="player/extra_panels/tabs/attributes/player attribute analyser card" id="paAn" class="client_object_viewer_xml_panel" default_width="-2" priority="4">
 			<record id="object_property" get_property="objt" set_property="objt" />
 		</widget>
 	</container>

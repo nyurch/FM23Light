@@ -27,7 +27,7 @@
 					<widget class="simple_data_list" first="0" maximum_items="1" set_property="objt">
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 						<record id="object_property" get_property="Tn5f" set_property="valu" />
-						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/club overview panels/club overview team fixtures item"/>
+						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/extra_panels/club overview team fixtures item"/>
 					</widget>
 
 				</container>
@@ -38,7 +38,7 @@
 					<widget class="simple_data_list" first="1" maximum_items="1" set_property="objt">
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 						<record id="object_property" get_property="Tn5f" set_property="valu" />
-						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/club overview panels/club overview team fixtures item"/>
+						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/extra_panels/club overview team fixtures item"/>
 					</widget>
 
 				</container>
@@ -49,7 +49,7 @@
 					<widget class="simple_data_list" first="2" maximum_items="1" set_property="objt">
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 						<record id="object_property" get_property="Tn5f" set_property="valu" />
-						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/club overview panels/club overview team fixtures item"/>
+						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/extra_panels/club overview team fixtures item"/>
 					</widget>
 
 				</container>
@@ -60,7 +60,7 @@
 					<widget class="simple_data_list" first="3" maximum_items="1" set_property="objt">
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 						<record id="object_property" get_property="Tn5f" set_property="valu" />
-						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/club overview panels/club overview team fixtures item"/>
+						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/extra_panels/club overview team fixtures item"/>
 					</widget>
 
 				</container>
@@ -71,7 +71,7 @@
 					<widget class="simple_data_list" first="4" maximum_items="1" set_property="objt">
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 						<record id="object_property" get_property="Tn5f" set_property="valu" />
-						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/club overview panels/club overview team fixtures item"/>
+						<record id="widget_properties" class="team_upcoming_fixture_widget" file="club/extra_panels/club overview team fixtures item"/>
 					</widget>
 
 				</container>

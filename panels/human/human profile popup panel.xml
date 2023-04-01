@@ -104,7 +104,7 @@
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
 				<!-- Player Information Table -->
-				<container file="non_player/FME/non player information table popup">
+				<container file="non_player/extra_panels/non player information table popup">
 					<record id="object_property" get_property="objt" set_property="objt" />
 				</container>
 

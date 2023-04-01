@@ -65,14 +65,14 @@
 
 						<container class="main_contrast_box_no_margin" red_replacement="picking player first team" height="33">
 							<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" vertical_alignment="top" vertical_inset="2" />
-							<widget class="widget_popup_button" entity_layout_id="at05" id="avFs" appearance="buttons/subtle/flex/button">
+							<widget class="widget_popup_button" colour="white" secondary_icon_colour="white" entity_layout_id="at05" id="avFs" appearance="buttons/subtle/flex/button">
 								<string id="widget_type" value="client_object_viewer_xml_panel" />
 								<record id="widget_properties" file="widgets/popup change availability reserve players object table" width="1000" />
 								<record id="modal_popup_properties" file="modal popup panel auto sized" >
 									<string id="attempt_to_reposition" value="true" />
 								</record>
 							</widget>
-							<widget class="reserves_availability_popup" appearance="buttons/subtle/flex/button" id="setA" fixed="true" auto_size="horizontal">
+							<widget class="reserves_availability_popup" colour="white" secondary_icon_colour="white" appearance="buttons/subtle/flex/button" id="setA" fixed="true" auto_size="horizontal">
 								<string id="select_event" value="setA" />
 								<string id="Puna" value="true" />
 								<translation id="text" translation_id="376571" type="use" value="Set All[COMMENT: FR 8157; Player availability news item; text for button for changing all player's availabilities at once]" />

@@ -1,4 +1,4 @@
-<class class="tabs" parent="multi_box" contents_kind="plain_box" appearance="boxes/FME/tabs/paper" top_kind="tab_strip" dont_set_title_text="true">
+<class class="tabs" parent="multi_box" contents_kind="plain_box" appearance="boxes/tabs/paper" top_kind="tab_strip" dont_set_title_text="true">
 
 	<flags id="top_layout" value="horizontal"/>
 
@@ -11,7 +11,7 @@
 	</record>
 
 	<record id="group_properties">
-		<flags id="appearance" value="boxes/FME/tabs/group/paper"/>
+		<flags id="appearance" value="boxes/tabs/group/paper"/>
 	</record>
 
 </class>

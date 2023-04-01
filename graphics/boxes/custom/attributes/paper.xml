@@ -1,5 +1,3 @@
-
-
 <!-- image properties -->
 <properties>
 
@@ -10,6 +8,10 @@
 
 	<!-- image slices determine the points at which the image will be sliced to enable scaling -->
 	<!-- the image will only slice in the directions slicing values are provided for-->
-	<record id="image_slices" left="8" right="8" top="8" bottom="8"/>
+	<record id="image_slices" left="1" right="1" top="1" bottom="1"/>
+
+	<colour id="red_replacement" name="box_background"/>
+	<colour id="green_replacement" name="box_shadow"/>
+	<colour id="blue_replacement" name="box_border"/>
 	
 </properties>

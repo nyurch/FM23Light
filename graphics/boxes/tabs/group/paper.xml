@@ -11,5 +11,6 @@
 	<record id="image_slices" left="8" right="8" top="8" bottom="8"/>
 
 	<colour id="red_replacement" name="subtle_box_background"/>
-	
+	<colour id="green_replacement" name="fg"/>
+
 </properties>

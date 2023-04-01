@@ -104,7 +104,7 @@
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
 				<!-- Player Information Table -->
-				<container file="non_player/FME/non player information table popup">
+				<container file="non_player/extra_panels/non player information table popup">
 					<record id="object_property" get_property="objt" set_property="objt" />
 				</container>
 
@@ -223,7 +223,7 @@
 			<translation id="title" translation_id="243210" type="use" value="Information" />
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
-			<widget class="person_information_panel" file="player/FME/tabs/information/player information panel">
+			<widget class="person_information_panel" file="player/extra_panels/tabs/information/player information panel">
 				<record id="object_property" get_property="objt" set_property="objt"/>
 			</widget>
 
@@ -234,7 +234,7 @@
 			<translation id="title" translation_id="229719" type="use" value="History" />
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
-			<container class="client_object_viewer_xml_panel" file="player/FME/tabs/history/player history" late_loading="true">
+			<container class="client_object_viewer_xml_panel" file="player/extra_panels/tabs/history/player history" late_loading="true">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</container>
 

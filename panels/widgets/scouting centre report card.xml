@@ -367,9 +367,9 @@
 					<container id="posi">
 						<translation id="title" translation_id="312896" type="use" value="Player Positions" />
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-						<container class="plain_box" appearance="FME/tabbed pane/subtle/paper">
+						<container class="plain_box" >
 							<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-							<widget class="player_positions_indicator_panel" file="player/FME/player positions indicator">
+							<widget class="player_positions_indicator_panel" file="player/extra_panels/player positions indicator">
 								<record id="object_property" get_property="Pers" set_property="objt" />
 							</widget>
 						</container>
@@ -396,11 +396,11 @@
 
 								<container class="horizontal_adaptive_container" minimum_height="338" default_height="338" gap="8" priority="1">
 
-									<widget class="player_attributes_panel" id="patt" late_loading="true" dont_allow_custom_attribute_change_ranges="true" file="player/FME/tabs/attributes/player attributes" minimum_width="580" default_width="-2" priority="1">
+									<widget class="player_attributes_panel" id="patt" late_loading="true" dont_allow_custom_attribute_change_ranges="true" file="player/extra_panels/tabs/attributes/player attributes" minimum_width="580" default_width="-2" priority="1">
 										<record id="object_property" get_property="Pers"/>
 									</widget>
 
-									<widget file="player/FME/tabs/attributes/player attribute analyser card" id="paAn" class="client_object_viewer_xml_panel" late_loading="true" minimum_width="330" default_width="-1" priority="2">
+									<widget file="player/extra_panels/tabs/attributes/player attribute analyser card" id="paAn" class="client_object_viewer_xml_panel" late_loading="true" minimum_width="330" default_width="-1" priority="2">
 										<record id="object_property" get_property="Pers"/>
 									</widget>
 
@@ -418,7 +418,7 @@
 										<!-- 2 Small Panels & Fitness-->
 										<container class="horizontal_adaptive_container" gap="8" minimum_height="128" default_height="-1" priority="1" id="1111" draw_vertical_dividers="true">
 
-											<record id="default_properties" file="player/FME/selector panels/player selector panel 3" save_session_state="true" minimum_width="290" default_width="-1" />
+											<record id="default_properties" file="player/extra_panels/selector panels/player selector panel 3" save_session_state="true" minimum_width="290" default_width="-1" />
 
 											<!-- Selector Panel -->
 											<container class="client_object_viewer_selector_panel" id="cos9" priority="1" navigation_container="true">
@@ -461,7 +461,7 @@
 										<!-- 4 Small Panels -->
 										<container class="horizontal_adaptive_container" gap="8" minimum_height="80" default_height="-1" priority="2" id="scsm" draw_vertical_dividers="true">
 
-											<record id="default_properties" file="player/FME/selector panels/player selector panel 3" minimum_width="290" default_width="-1" />
+											<record id="default_properties" file="player/extra_panels/selector panels/player selector panel 3" minimum_width="290" default_width="-1" />
 
 											<!-- Selector Panel -->
 											<container class="client_object_viewer_selector_panel" id="sp01" priority="1" navigation_container="true">
@@ -514,9 +514,9 @@
 					<container id="medi">
 						<translation id="title" translation_id="422164" type="use" value="Medical[COMMENT:Job Centre- Medical team sub-section]" />
 						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-						<container class="plain_box" appearance="FME/tabbed pane/subtle/paper">
+						<container class="plain_box" >
 							<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-							<widget class="player_injury_panel" file="player/FME/tabs/medical report/player medical report" late_loading="true">
+							<widget class="player_injury_panel" file="player/extra_panels/tabs/medical report/player medical report" late_loading="true">
 								<record id="object_property" get_property="Pers" set_property="objt" />
 							</widget>
 						</container>

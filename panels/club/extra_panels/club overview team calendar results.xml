@@ -12,7 +12,7 @@
 
 	<container id="fixt" class="horizontal_adaptive_container" gap="8">
 
-		<record id="default_properties" file="club/club overview panels/club overview team results item" minimum_width="90" default_width="-1"/>
+		<record id="default_properties" file="club/extra_panels/club overview team results item" minimum_width="90" default_width="-1"/>
 
 		<container class="client_object_viewer_xml_panel" id="res0" priority="5"/>
 		<container class="client_object_viewer_xml_panel" id="res1" priority="4"/>

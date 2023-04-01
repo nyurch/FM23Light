@@ -12,7 +12,7 @@
 		</record>
 	</widget>
 	<!--overlay-->
-	<widget class="picture" file="boxes/custom/nyurch/paper" scale_picture="true">
+	<widget class="picture" file="boxes/custom/overlay/paper" scale_picture="true">
 		<boolean id="keep_aspect_ratio" value="false" />
 	</widget>
 

@@ -10,7 +10,7 @@
 	</widget>
 
 	<!-- Bans -->
-	<widget class="player_bans_overview_panel" file="player/FME/selector panels/items/player bans" section="PHst" id="pbop" late_loading="true">
+	<widget class="player_bans_overview_panel" file="player/extra_panels/selector panels/items/player bans" section="PHst" id="pbop" late_loading="true">
 		<translation id="title" translation_id="247569" type="use" value="Bans" />
 	</widget>
 
@@ -20,7 +20,7 @@
 	</widget>
 
 	<!-- Career Stats -->
-	<widget class="playing_history_summary_panel" file="player/FME/selector panels/items/player career stats" id="Pcrs" late_loading="true">
+	<widget class="playing_history_summary_panel" file="player/extra_panels/selector panels/items/player career stats" id="Pcrs" late_loading="true">
 		<translation id="title" translation_id="247605" type="use" value="Career Stats" />
 	</widget>
 
@@ -30,12 +30,12 @@
 	</widget>
 
 	<!-- Dynamics -->
-	<widget class="person_happiness_panel" file="player/FME/selector panels/items/player happiness" id="Phap" late_loading="true">
+	<widget class="person_happiness_panel" file="player/extra_panels/selector panels/items/player happiness" id="Phap" late_loading="true">
 		<translation id="title" translation_id="447669" type="use" value="Dynamics[COMMENT: Manager Main/Top Menu; link to Dynamics screen showcasing a representation of interpersonal relationships at the club]" />
 	</widget>
 
 	<!-- Fitness -->
-	<widget class="player_physical_stats_panel" file="player/FME/selector panels/items/player fitness" id="ppsp" late_loading="true">
+	<widget class="player_physical_stats_panel" file="player/extra_panels/selector panels/items/player fitness" id="ppsp" late_loading="true">
 		<translation id="title" translation_id="247571" type="use" value="Fitness" />
 	</widget>
 
