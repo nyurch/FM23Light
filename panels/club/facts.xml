@@ -6,7 +6,7 @@
 
 		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
-			<widget class="picture" file="icons/custom/squad/info/captain" height="26" scale_picture="true" image_alignment="left">
+			<widget class="picture" file="icons/custom/squad info/captain" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="300013" type="use" value="Captain" />
 			</widget>
 			<container class="vertical_label_value_pair">
@@ -21,7 +21,7 @@
 
 		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
-			<widget class="picture" file="icons/custom/squad/info/vice captain" height="26" scale_picture="true" image_alignment="left">
+			<widget class="picture" file="icons/custom/squad info/vice captain" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="300014" type="use" value="Vice-Captain" />
 			</widget>
 			<container class="vertical_label_value_pair">
@@ -36,7 +36,7 @@
 
 		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
-			<widget class="picture" file="icons/custom/squad/info/manager" height="26" scale_picture="true" image_alignment="left">
+			<widget class="picture" file="icons/custom/squad info/manager" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="227981" type="use" value="Manager" />
 			</widget>
 			<container class="vertical_label_value_pair">
@@ -51,7 +51,7 @@
 
 		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
-			<widget class="picture" file="icons/custom/squad/info/time" height="26" scale_picture="true" image_alignment="left">
+			<widget class="picture" file="icons/custom/squad info/time" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="316679" type="use" value="Manager Tenure[COMMENT: heading; team_information_panel; average caps]" />
 			</widget>
 			<container class="vertical_label_value_pair">
@@ -66,7 +66,7 @@
 
 		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
-			<widget class="picture" file="icons/custom/squad/info/age" height="26" scale_picture="true" image_alignment="left">
+			<widget class="picture" file="icons/custom/squad info/age" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="284309" type="use" value="Average Age[COMMENT: heading; team_information_panel; average age of squad]" />
 			</widget>
 			<container class="vertical_label_value_pair">
@@ -81,7 +81,7 @@
 
 		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
-			<widget class="picture" file="icons/custom/squad/info/height" height="26" scale_picture="true" image_alignment="left">
+			<widget class="picture" file="icons/custom/squad info/height" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="284312" type="use" value="Average Height[COMMENT: heading; team_information_panel; average height]" />
 			</widget>
 			<container class="vertical_label_value_pair">
@@ -96,7 +96,7 @@
 
 		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
-			<widget class="picture" file="icons/custom/squad/info/weight" height="26" scale_picture="true" image_alignment="left">
+			<widget class="picture" file="icons/custom/squad info/weight" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="284315" type="use" value="Average Weight[COMMENT: heading; team_information_panel; average weight]" />
 			</widget>
 			<container class="vertical_label_value_pair">
@@ -111,7 +111,7 @@
 
 		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
-			<widget class="picture" file="icons/custom/squad/info/personality" height="26" scale_picture="true" image_alignment="left">
+			<widget class="picture" file="icons/custom/squad info/personality" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="319583" type="use" value="Squad Personality[COMMENT: club properties; club's squad's overall personality]" />
 			</widget>
 			<container class="vertical_label_value_pair">
@@ -126,7 +126,7 @@
 
 		<container class="main_contrast_box" red_replacement="card bg">
 			<attachment class="horizontal_arrange" horizontal_layout="30,-1"/>
-			<widget class="picture" file="icons/custom/squad/info/thumbs up" height="26" scale_picture="true" image_alignment="left">
+			<widget class="picture" file="icons/custom/squad info/thumbs up" height="26" scale_picture="true" image_alignment="left">
 				<translation id="hint" translation_id="509553" type="use" value="Club Atmosphere[COMMENT: AREA: Dynamics; SUB-AREA: Team DRA Panel; FR-BN: 19635; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Used on the main Dynamics panel to display the club's overall atmosphere]" />
 			</widget>
 			<container class="vertical_label_value_pair">
