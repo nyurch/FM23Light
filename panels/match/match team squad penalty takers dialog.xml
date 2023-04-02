@@ -1,0 +1,75 @@
+﻿<panel>
+
+	<!-- Starting XI Styles -->
+	<flags id="stxi" value="tables/standard/normal" />
+
+	<!-- Subs Styles -->
+	<flags id="subs" value="tables/custom/squad/row/substitutes/row" />
+
+	<!-- Sent off Styles -->
+	<flags id="soff" value="tables/custom/cards/red/row" />
+
+	<!-- Not in squad Styles -->
+	<flags id="nisq" value="tables/custom/squad/row/outside squad/row" />
+
+	<boolean id="save_session_state" value="true" />
+	<boolean id="save_default_state" value="true" />
+
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+	<widget class="tactic_player_list_table" id="pltb" database_table_type="1" select_event="plse" mode="show_bullets, select_rows, dont_allow_empty_selection, fill_rows, stripe_rows, printable, store_sort_state, highlight_on_scroll" navigation_container="true" default_focus="true">
+
+		<list id="column_widget_properties">
+			<record indx="1" alignment="centre_y" multiline="false"/>
+			<record indx="2" alignment="left,centre_y" multiline="false"/>
+		</list>
+
+		<boolean id="auto_size_rows" value="true" />
+		<boolean id="dont_restore_selection" value="true" />
+		<boolean id="save_session_state" value="true" />
+		<boolean id="save_default_state" value="true" />
+
+		<!-- default sort by penalty taking and then finishing. bug 172577 -->
+		<list id="default_sort_column">
+			<integer value="Ppen" />
+		</list>
+
+		<list id="Spid">
+			<integer value="Pfin"/>
+		</list>
+
+		<!--default view-->
+		<flags id="default_view" value="deta" />
+
+		<!--available views-->
+		<list id="viws">
+
+			<record id="deta">
+				<translation id="text" translation_id="227883" type="use" value="Penalty Taking" />
+				<record id="view">
+					<flags id="Pshp" />
+					<!-- picked info -->
+					<flags id="Pcar" />
+					<!-- status info -->
+					<record id="Pnam" person_is_player="true" colour="black" disable_link="true" links_enabled_in_popup="false"/>
+					<!-- person name -->
+					<record id="Pgls" auto_hide_priority="1500" />
+					<!-- overall goals -->
+					<record id="Prat" auto_hide_priority="1000" />
+					<!-- overall average rating -->
+					<record id="Pmtc" auto_hide_priority="1000" />
+					<!--body language-->
+					<flags id="Pfin" />
+					<!-- finishing -->
+					<flags id="Pcmp" />
+					<!-- composure -->
+					<flags id="Ppen" />
+					<!-- penalty taking -->
+				</record>
+			</record>
+		</list>
+
+	</widget>
+
+</panel>
+<!-- panel -->
