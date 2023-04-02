@@ -16,6 +16,7 @@
 	<record id="image_slices" left="12" right="12" top="12" bottom="12"/>
 
 	<colour id="red_replacement" name="subtle_box_background"/>
+  <colour id="green_replacement" name="fg"/>
 
 	<!-- title insets -->
 	<!-- these determine how many pixels the title is inset from the top/bottom/left/right of the box -->
