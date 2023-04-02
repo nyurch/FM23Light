@@ -3,7 +3,7 @@
 	<flags id="top_layout" value="horizontal"/>
 
 	<record id="top_properties">
-		<flags id="appearance" value="tabs/FME"/>
+		<flags id="appearance" value="tabs/custom/tabs"/>
 		<flags id="height" value="28"/>
 		<flags id="alignment" value="top"/>
 		<flags id="navigation_container" value="true"/>
