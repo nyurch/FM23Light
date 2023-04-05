@@ -4,7 +4,7 @@
     <boolean id="save_session_state" value="true" />
     <boolean id="save_default_state" value="true" />
 
-    <container class="main_contrast_box" red_replacement="inbox_content_background">
+    <container class="main_contrast_box" appearance="fake/appearance/for/transparency">
         <layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" gap="4" />
         <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
@@ -52,23 +52,23 @@
                                     <layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />
                                     <layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" gap="5" />
 
-                                    <widget class="person_button" id="snob" auto_size="all" alignment="left,centre_y" multiline="false" colour="inbox_text" size="small" enforce_style="true" navigation_focus_target="false">
+                                    <widget class="person_button" id="snob" auto_size="all" alignment="left,centre_y" multiline="false" colour="inbox_text" enforce_style="true" navigation_focus_target="false" size="14">
                                         <record id="secondary_icon_properties" red_replacement="inbox_text" />
                                     </widget>
 
-                                    <widget class="label" id="sjob" alignment="left,centre_y" multiline="false" colour="inbox_text" size="small" auto_size="all" />
+                                    <widget class="label" id="sjob" alignment="left,centre_y" multiline="false" colour="inbox_text" size="14" auto_size="all" />
 
                                     <container height="20" id="tdco">
                                         <layout class="arrange_horizontal_attachment" alignment="left" offset="0" gap="5" />
                                         <layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
                                         <string id="create_if" value="ui.is_fmt_controller_skin" />
-                                        <widget class="text" text="-" alignment="left,top" size="xsmall" auto_size="horizontal" colour="inbox_text" />
-                                        <widget class="text" id="ftim" alignment="left,top" size="xsmall" auto_size="horizontal" colour="inbox_text" />
+                                        <widget class="text" text="-" alignment="left,top" size="16" auto_size="horizontal" colour="inbox_text" />
+                                        <widget class="text" id="ftim" alignment="left,top" size="16" auto_size="horizontal" colour="inbox_text" />
                                     </container>
                                 </container>
 
                                 <!-- headline -->
-                                <widget class="text" id="nwhd" auto_size="vertical" size="large" alignment="left,top" colour="inbox_text" style="bold" multiline="false" />
+                                <widget class="text" id="nwhd" auto_size="vertical" size="16" alignment="left,top" colour="inbox_text" style="bold" multiline="false" />
                             </container>
                         </container>
 
@@ -79,8 +79,8 @@
                             <layout class="stick_to_sides_attachment" alignment="right" inset="5" apply_to_children="true" />
                             <string id="remove_if" value="ui.is_fmt_controller_skin" />
                             
-                            <widget class="icon_button" id="catw" auto_size="horizontal" show_button_appearance="false" icon="icons/16px/tag" alignment="right, centre_y" hidden="true" navigation_focus_target="false" />
-                            <widget class="text" id="time" auto_size="horizontal" alignment="right, top" colour="inbox_text" size="normal" />
+                            <widget class="icon_button" id="catw" auto_size="horizontal" show_button_appearance="false" style="bold" size="16" icon="icons/16px/tag@2x" alignment="right, centre_y" hidden="true" navigation_focus_target="false" />
+                            <widget class="text" id="time" auto_size="horizontal" alignment="right, top" colour="inbox_text" style="bold" size="14" />
                         </container>
 
                         <!--show/hide and unread count-->
@@ -128,7 +128,7 @@
             </container>
 
             <!--  response button containers -->
-            <container id="ResC" class="inner_contrast_box_no_margin" red_replacement="card bg darker" hidden="true">
+            <container id="ResC" class="inner_contrast_box_no_margin" appearance="fake/appearance/for/transparency" red_replacement="card bg darker" hidden="true">
                 <attachment_group class="vertical_arrange_autosize" vertical_offset="4" vertical_gap="2" horizontal_alignment="horizontal" horizontal_inset="4">
                     <global id="horizontal_gap" name="ui.button_row_gap" />
                 </attachment_group>
