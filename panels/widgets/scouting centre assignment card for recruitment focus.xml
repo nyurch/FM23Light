@@ -1,12 +1,12 @@
 ﻿<panel>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-	<container id="mnCT" class="main_subtle_box_no_margin">
+	<container id="mnCT">
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 		<!--assignment details-->
-		<container class="inner_contrast_box_no_margin" red_replacement="bg lighter">
+		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="4" vertical_gap="5" />
 
 			<container id="tstt">
