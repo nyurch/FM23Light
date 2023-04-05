@@ -1,20 +1,29 @@
 ﻿<panel>
 	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top,extend" />
 
+	<!--description text (FMT version)-->
+	<container create_if="is_fmt" height="40">
+		<attachment_group class="vertical_arrange" />
+		<widget class="text" auto_size="vertical" alignment="left" >
+			<translation id="text" translation_id="558785" type="use" value="Here is an update on how the recruitment team is getting on with their active recruitment focus assignments.[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Updates; FR-BN: FM-4056; TONE: FORMAL; CHARLIMIT: None; REF-ID: XXXXXX; NOTE: News item sent regularly to update the user on all of their active recruitment focuses]" />
+		</widget>
+
+	</container>
+	
 	<!--title area (FMT version)-->
 	<widget class="client_object_viewer_xml_panel" id="ChSc" height="50" create_if="is_fmt">
-		<attachment_group class="horizontal_arrange" horizontal_layout="-12,-15" />
+		<attachment_group class="horizontal_arrange" horizontal_layout="-1,380" />
 
 		<!--Title Area-->
 		<container>
 			<attachment_group class="vertical_arrange" />
 
 			<container>
-				<attachment_group class="horizontal_arrange_vertical_autosize" />
+				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="5" />
 
 				<widget class="picture" file="icons/custom/icon box/focus" height="25" width="25" image_alignment="centre" keep_aspect_ratio="true" scale_picture="false" wants_mouse_events="false" />
 
-				<widget class="label" auto_size="all" alignment="centre_x,centre_y" colour="text" font="title" size="14">
+				<widget class="label" auto_size="horizontal" height="25" alignment="centre_x,centre_y" colour="text" font="title" size="12">
 					<translation id="text" translation_id="509169" type="use" value="Recruitment Focus[COMMENT: AREA: Scouting/Recruitment; SUB-AREA:Recruitment focus dialog; FR-BN: 24174; NOTE: Recruitment focus dialog title]" />
 				</widget>
 
@@ -24,7 +33,7 @@
 		</container>
 
 		<!--Chief Scout-->
-		<container class="inner_subtle_box_no_margin">
+		<container class="main_subtle_box_no_margin">
 			<attachment_group class="horizontal_arrange" horizontal_layout="150,-1" />
 
 			<container>
