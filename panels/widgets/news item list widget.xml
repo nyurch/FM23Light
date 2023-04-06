@@ -2,7 +2,7 @@
 	<colour id="unread_headline_text_colour" name="teal"/>
 	<colour id="read_headline_text_colour" name="read headline"/>
 	<colour id="selected_headline_text_colour" name="selected headline"/>
-	<colour id="must_respond_headline_text_colour" name="pink"/>
+	<colour id="must_respond_headline_text_colour" name="red 900"/>
 	<colour id="unread_category_text_colour" name="fg magenta"/>
 	<colour id="read_category_text_colour" name="read category"/>
 	<colour id="selected_category_text_colour" name="selected category"/>
