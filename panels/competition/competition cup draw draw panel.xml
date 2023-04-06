@@ -69,7 +69,7 @@
 					</record>
 				</widget>
 
-				<container class="main_subtle_box" >
+				<container class="main_subtle_box">
 					<animation class="translate_animation" start_value="0,50" end_value="0,0" coord_mode="absolute_to_target" duration=".7" tween="ease_out" />
 					<animation class="fade_animation" start_value="0" end_value="1" duration=".6" tween="linear" />
 					<string id="remove_if" value="ui.is_fmt_controller_skin, is_fmt" />
