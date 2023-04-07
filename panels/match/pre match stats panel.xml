@@ -44,7 +44,7 @@
 								</record>
 							</widget>
 							<!-- The mode=1 tells it to use the passed in colour, ignoring recolouring for human team, etc this is so we can
-				     always see the text as we use the fixture specific fore/background colours -->
+					 always see the text as we use the fixture specific fore/background colours -->
 							<widget class="team_button" icon_enabled="false" style="semi_bold" id="hTem" alignment="right,centre_y" size="10" mode="1" navigation_focus_target="true">
 								<record id="object_property">
 									<list id="get_properties">
@@ -79,7 +79,7 @@
 							</widget>
 
 							<!-- The mode=1 tells it to use the passed in colour, ignoring recolouring for human team, etc this is so we can
-				     always see the text as we use the fixture specific fore/background colours -->
+					 always see the text as we use the fixture specific fore/background colours -->
 							<widget class="team_button" icon_enabled="false" style="semi_bold" icon_alignment="right" id="aTem" size="10" mode="1" navigation_focus_target="true">
 								<record id="object_property">
 									<list id="get_properties">

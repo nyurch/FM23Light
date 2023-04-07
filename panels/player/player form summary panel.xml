@@ -58,9 +58,9 @@
 			</list>
 
 			<!-- Title of box 
-    <list id="headings">
-      <record text="Summary[COMMENT - player form section, title for summary panel]" column_span="2" alignment="left,centre_y"/>
-    </list>-->
+	<list id="headings">
+	  <record text="Summary[COMMENT - player form section, title for summary panel]" column_span="2" alignment="left,centre_y"/>
+	</list>-->
 
 			<!-- appearances -->
 			<widget class="label" col="0" row="0">

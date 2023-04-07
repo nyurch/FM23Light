@@ -4,14 +4,14 @@
   <flags id="child_for_sort" value="PnmP"/>
 
   <widget class="person_button" colour="black" id="PnmP" info_popup_enabled="true" info_popup_alignment="left,centre_y" auto_size="vertical" style="semi_bold">
-    <record id="object_property" get_property="PnmP" set_property="valu" />
+	<record id="object_property" get_property="PnmP" set_property="valu" />
   </widget>
 
   <widget class="person_nationality_button" auto_size="vertical" colour="faded text">
-    <record id="object_property">
-      <integer id="get_property" value="objt"/>
-      <integer id="set_property" value="objt"/>
-    </record>
+	<record id="object_property">
+	  <integer id="get_property" value="objt"/>
+	  <integer id="set_property" value="objt"/>
+	</record>
   </widget>
 
 </panel>

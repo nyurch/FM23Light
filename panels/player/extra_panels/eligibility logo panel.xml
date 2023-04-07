@@ -4,10 +4,10 @@
   <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
   <widget class="object_portrait_picture" id="mbdg" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true">
-    <record id="object_property">
-      <integer id="get_property" value="objt" />
-      <integer id="set_property" value="objt" />
-    </record>
+	<record id="object_property">
+	  <integer id="get_property" value="objt" />
+	  <integer id="set_property" value="objt" />
+	</record>
   </widget>
 
 </panel>

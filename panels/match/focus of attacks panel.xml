@@ -3,6 +3,6 @@
   <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 
   <widget class="focus_of_attacks_pitch" id="fcat" vertical="false" fixed="true" auto_tick_exclusive="true" font_colour="white" alignment="centre" pitch_draw_grass="true" line_width="1" pitch_line_colour="white" pitch_touchline_width_percentage="5">
-    <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
   </widget>
 </panel>

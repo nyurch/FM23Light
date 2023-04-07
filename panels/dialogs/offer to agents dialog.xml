@@ -23,7 +23,7 @@
 	<layout class="centre_in_parent_attachment" alignment="horizontal" />
 
 	<!-- text field - should resize vertically to ensure
-	     that it's contents fit -->
+		 that it's contents fit -->
 	<widget class="text" id="text" auto_size="vertical" />
 
 	<container>

@@ -4,11 +4,11 @@
   <flags id="child_for_sort" value="PnmP"/>
 
   <widget class="person_button" colour="black" id="PnmP" info_popup_enabled="true" info_popup_alignment="left,centre_y" auto_size="vertical" style="semi_bold">
-    <record id="object_property" get_property="PnmP" set_property="valu" />
+	<record id="object_property" get_property="PnmP" set_property="valu" />
   </widget>
 
   <widget class="club_button" auto_size="vertical" height="25" colour="faded text">
-    <record id="object_property" get_property="Pclb" set_property="valu" />
+	<record id="object_property" get_property="Pclb" set_property="valu" />
   </widget>
 
 </panel>

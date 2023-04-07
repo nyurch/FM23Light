@@ -1,36 +1,36 @@
 ﻿<panel height="50">
-    <layout class="arrange_horizontal_attachment" layout="45, -1" offset="2" gap="4"/>
-    <layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="2"/>
+	<layout class="arrange_horizontal_attachment" layout="45, -1" offset="2" gap="4"/>
+	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="2"/>
 
-    <!-- variation of player picture name and team widget where the team is explicity set by the property Ttea instead of retreiving the current player's contract team -->
+	<!-- variation of player picture name and team widget where the team is explicity set by the property Ttea instead of retreiving the current player's contract team -->
 
-    <flags id="child_for_sort" value="PnmP"/>
+	<flags id="child_for_sort" value="PnmP"/>
 
-    <list id="properties_to_forward">
-        <record get_property="Ttea" target="temb" set_property="value"/>
-        <record get_property="text" target="temb" set_property="text"/>
-    </list>
+	<list id="properties_to_forward">
+		<record get_property="Ttea" target="temb" set_property="value"/>
+		<record get_property="text" target="temb" set_property="text"/>
+	</list>
 
-    <widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x" height="45">
-        <record id="object_property">
-            <list id="get_properties">
-                <!--Facegen data request-->
-                <record get_property="fcgn"/>
-                <!--Fake name request-->
-                <record get_property="Pfke"/>
-                <record get_property="prpc" set_property="valu"/>
-            </list>
-        </record>
-    </widget>
+	<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x" height="45">
+		<record id="object_property">
+			<list id="get_properties">
+				<!--Facegen data request-->
+				<record get_property="fcgn"/>
+				<!--Fake name request-->
+				<record get_property="Pfke"/>
+				<record get_property="prpc" set_property="valu"/>
+			</list>
+		</record>
+	</widget>
 
-    <container>
-        <layout class="arrange_vertical_attachment" alignment="fill" offset="0" gap="0"/>
-        <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
+	<container>
+		<layout class="arrange_vertical_attachment" alignment="fill" offset="0" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 
-        <widget class="person_button" id="PnmP" info_popup_enabled="true" colour="black" style="bold" navigation_focus_target="true">
-            <record id="object_property" get_property="PnmP" set_property="valu"/>
-        </widget>
+		<widget class="person_button" id="PnmP" info_popup_enabled="true" colour="black" style="bold" navigation_focus_target="true">
+			<record id="object_property" get_property="PnmP" set_property="valu"/>
+		</widget>
 
-        <widget class="team_button" id="temb" alignment="left, centre_y" size="small" colour="faded text" auto_size="none" multiline="false"/>
-    </container>
+		<widget class="team_button" id="temb" alignment="left, centre_y" size="small" colour="faded text" auto_size="none" multiline="false"/>
+	</container>
 </panel>

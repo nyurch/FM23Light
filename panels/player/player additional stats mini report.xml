@@ -7,7 +7,7 @@
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 	<!-- This is a list of properties to be displayed in the top table. The number of properties, minus KG/outfield specific ones, here must match the number of columns
-        in the main and overview tables minus the first 2 (used for competitions and checkboxes)-->
+		in the main and overview tables minus the first 2 (used for competitions and checkboxes)-->
 	<!-- default widget is formatted_label -->
 	<list id="tabS">
 		<!-- Appearances -->

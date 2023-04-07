@@ -4,162 +4,162 @@ this file contains a list of all of the sections in the game
 <properties>
   <string id="text" value="Nation"/>
   <list id="items">
-    <record id="Novw">
-      <translation id="text" translation_id="297341" type="use" value="Overview[COMMENT: title for a panel displaying an overview of a nation]" />
-      <list id="items">
-        <!--profile-->
-        <record id="NovP"/>
-        <!--general-->
-        <record id="nsiz"/>
-        <!--facilities-->
-        <record id="tcfz"/>
-        <!--season summary-->
-        <record id="tcsz"/>
-        <record id="----"/>
-        <!--actions-->
-        <!--apply for job-->
-        <record id="TCpJ" item_type="ACTT"/>
-        <!--declare interest-->
-        <record id="TCdI" item_type="ACTT"/>
-        <!--export team-->
-        <record id="TCEx" item_type="ACTT"/>
-        <record id="SUBS" item_type="ACTT"/>
-        <record id="USUB" item_type="ACTT"/>
-      </list>
-    </record>
+	<record id="Novw">
+	  <translation id="text" translation_id="297341" type="use" value="Overview[COMMENT: title for a panel displaying an overview of a nation]" />
+	  <list id="items">
+		<!--profile-->
+		<record id="NovP"/>
+		<!--general-->
+		<record id="nsiz"/>
+		<!--facilities-->
+		<record id="tcfz"/>
+		<!--season summary-->
+		<record id="tcsz"/>
+		<record id="----"/>
+		<!--actions-->
+		<!--apply for job-->
+		<record id="TCpJ" item_type="ACTT"/>
+		<!--declare interest-->
+		<record id="TCdI" item_type="ACTT"/>
+		<!--export team-->
+		<record id="TCEx" item_type="ACTT"/>
+		<record id="SUBS" item_type="ACTT"/>
+		<record id="USUB" item_type="ACTT"/>
+	  </list>
+	</record>
 
-    <record id="tcns">
-      <translation id="text" translation_id="230330" type="use" value="News" />
-      <boolean id="collapsed" value="true" />
-      <list id="items">
-        <!--news-->
-        <record id="nsnw" human_object_type="HOTc" />
-        <!--league overview-->
-        <record id="nslo" human_object_type="HOTc" />
-      </list>
-    </record>
+	<record id="tcns">
+	  <translation id="text" translation_id="230330" type="use" value="News" />
+	  <boolean id="collapsed" value="true" />
+	  <list id="items">
+		<!--news-->
+		<record id="nsnw" human_object_type="HOTc" />
+		<!--league overview-->
+		<record id="nslo" human_object_type="HOTc" />
+	  </list>
+	</record>
 
-    <record id="tcPL">
-      <translation id="text" translation_id="296467" type="use" value="National Teams[COMMENT - list of nations which can be managed on the add manager screen]" />
-      <list id="items">
-        <record id="tcTR">
-          <translation id="text" translation_id="339905" type="use" value="Team Reports[COMMENT: news subscription info; label text for a news subscription type, indicating what sort of news the user will get if they subscribe to this feed]" />
-          <list id="items">
-            <record id="----"/>
-            <!--actions-->
-            <!--scout team-->
-            <record id="STAi" item_type="ACTT"/>
-          </list>
-        </record>
-      </list>
-    </record>
+	<record id="tcPL">
+	  <translation id="text" translation_id="296467" type="use" value="National Teams[COMMENT - list of nations which can be managed on the add manager screen]" />
+	  <list id="items">
+		<record id="tcTR">
+		  <translation id="text" translation_id="339905" type="use" value="Team Reports[COMMENT: news subscription info; label text for a news subscription type, indicating what sort of news the user will get if they subscribe to this feed]" />
+		  <list id="items">
+			<record id="----"/>
+			<!--actions-->
+			<!--scout team-->
+			<record id="STAi" item_type="ACTT"/>
+		  </list>
+		</record>
+	  </list>
+	</record>
 
-    <record id="tcTC">
-      <translation id="text" translation_id="230056" type="use" value="Tactics" />
-      <list id="items">
-      </list>
-    </record>
+	<record id="tcTC">
+	  <translation id="text" translation_id="230056" type="use" value="Tactics" />
+	  <list id="items">
+	  </list>
+	</record>
 
-    <record id="tcSC">
-      <translation id="text" translation_id="242285" type="use" value="Schedule" />
-      <list id="items">
-        <record id="----"/>
-        <!--actions-->
-        <!--propose friendly-->
-        <record id="TCFr" item_type="ACTT"/>
-      </list>
-    </record>
+	<record id="tcSC">
+	  <translation id="text" translation_id="242285" type="use" value="Schedule" />
+	  <list id="items">
+		<record id="----"/>
+		<!--actions-->
+		<!--propose friendly-->
+		<record id="TCFr" item_type="ACTT"/>
+	  </list>
+	</record>
 
-    <record id="NaCl">
-      <translation id="text" translation_id="336223" type="use" value="Clubs[COMMENT: title for a panel displaying all club sides in a given nation]" />
-      <list id="items">
-        <!--list-->
-        <record id="tccl"/>
-        <!--finances-->
-        <record id="Nfin"/>
-        <!--fixtures-->
-        <record id="nsfx"/>
-      </list>
-    </record>
+	<record id="NaCl">
+	  <translation id="text" translation_id="336223" type="use" value="Clubs[COMMENT: title for a panel displaying all club sides in a given nation]" />
+	  <list id="items">
+		<!--list-->
+		<record id="tccl"/>
+		<!--finances-->
+		<record id="Nfin"/>
+		<!--fixtures-->
+		<record id="nsfx"/>
+	  </list>
+	</record>
 
-    <record id="tbrd" collapsed="true" icon="icons/sections/board room">
-      <translation id="text" translation_id="308506" type="use" value="Boardroom[COMMENT: Manager main/top menu: board confidence link when team name is not displayed]" />
-      <list id="items">
-        <!--confidence-->
-        <record id="ncon"/>
-      </list>
-    </record>
+	<record id="tbrd" collapsed="true" icon="icons/sections/board room">
+	  <translation id="text" translation_id="308506" type="use" value="Boardroom[COMMENT: Manager main/top menu: board confidence link when team name is not displayed]" />
+	  <list id="items">
+		<!--confidence-->
+		<record id="ncon"/>
+	  </list>
+	</record>
 
-    <record id="tcST">
-      <translation id="text" translation_id="229528" type="use" value="Staff" />
-      <list id="items">
-        <!--memners-->
-        <record id="tcaz"/>
-        <!--<record id="tcsS"/>
-        <record id="tcsO"/>-->
-        <!--responsibilities-->
-        <record id="mnop"/>
-      </list>
-    </record>
+	<record id="tcST">
+	  <translation id="text" translation_id="229528" type="use" value="Staff" />
+	  <list id="items">
+		<!--memners-->
+		<record id="tcaz"/>
+		<!--<record id="tcsS"/>
+		<record id="tcsO"/>-->
+		<!--responsibilities-->
+		<record id="mnop"/>
+	  </list>
+	</record>
 
-    <!--transfers-->
-    <record id="natr"/>
+	<!--transfers-->
+	<record id="natr"/>
 
-    <record id="csrc">
-      <translation id="text" translation_id="229719" type="use" value="History" />
-      <list id="items">
-        <!--overview-->
-        <record id="troz"/>
-        <!--competitions-->
-        <record id="cmpz"/>
-        <!--world rankings-->
-        <record id="fifz"/>
-        <!--landmarks-->
-        <record id="ldmz"/>
-        <!--managers-->
-        <record id="mhiz"/>
-        <!--records-->
-        <record id="NRez"/>
-        <!--award winners-->
-        <record id="tcwz"/>
-        <!--award voting-->
-        <record id="tcvz"/>
-        <!--best eleven-->
-        <record id="trbz"/>
-        <!--notes-->
-        <record id="Tnot"/>
-        <record id="----"/>
-        <!--actions-->
-        <record id="CRNO" item_type="ACTT"/>
-      </list>
-    </record>
+	<record id="csrc">
+	  <translation id="text" translation_id="229719" type="use" value="History" />
+	  <list id="items">
+		<!--overview-->
+		<record id="troz"/>
+		<!--competitions-->
+		<record id="cmpz"/>
+		<!--world rankings-->
+		<record id="fifz"/>
+		<!--landmarks-->
+		<record id="ldmz"/>
+		<!--managers-->
+		<record id="mhiz"/>
+		<!--records-->
+		<record id="NRez"/>
+		<!--award winners-->
+		<record id="tcwz"/>
+		<!--award voting-->
+		<record id="tcvz"/>
+		<!--best eleven-->
+		<record id="trbz"/>
+		<!--notes-->
+		<record id="Tnot"/>
+		<record id="----"/>
+		<!--actions-->
+		<record id="CRNO" item_type="ACTT"/>
+	  </list>
+	</record>
 
-    <record id="tcDB">
-      <string id="text" value="Debug" />
-      <list id="items">
-        <!--debug kits-->
-        <record id="tcdk"/>
-        <!--debug transfer value-->
-        <record id="tctv"/>
-        <!--debug panel-->
-        <record id="tcdp"/>
-        <!--shortlist debug-->
-        <record id="nshd"/>
-        <!--squad selection debug-->
-        <record id="nssd"/>
-        <record id="----"/>
-        <!--actions-->
-        <!--debug-->
-        <record id="NDbg" item_type="ACTT"/>
-      </list>
-    </record>
+	<record id="tcDB">
+	  <string id="text" value="Debug" />
+	  <list id="items">
+		<!--debug kits-->
+		<record id="tcdk"/>
+		<!--debug transfer value-->
+		<record id="tctv"/>
+		<!--debug panel-->
+		<record id="tcdp"/>
+		<!--shortlist debug-->
+		<record id="nshd"/>
+		<!--squad selection debug-->
+		<record id="nssd"/>
+		<record id="----"/>
+		<!--actions-->
+		<!--debug-->
+		<record id="NDbg" item_type="ACTT"/>
+	  </list>
+	</record>
 
-    <record id="----"/>
-    <!--actions-->
-    <!--take control-->
-    <record id="TCkC" item_type="ACTT"/>
-    <!--pick for friendly-->
-    <record id="TCFF" item_type="ACTT"/>
+	<record id="----"/>
+	<!--actions-->
+	<!--take control-->
+	<record id="TCkC" item_type="ACTT"/>
+	<!--pick for friendly-->
+	<record id="TCFF" item_type="ACTT"/>
   </list>
 
 </properties>

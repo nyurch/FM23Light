@@ -18,7 +18,7 @@ this file contains a list of all of the sections in the game
 	</record>
 
 	<!-- Defaults These are applied to all sections for ui settings currently
-		     and can then be override on a per section basis -->
+			 and can then be override on a per section basis -->
 	<record id="section_defaults">
 		<record id="section_ui_settings">
 			<boolean id="hide_header" value="false" />
@@ -4566,11 +4566,11 @@ this file contains a list of all of the sections in the game
 		</record>
 
 		<!--<record id="smap" section="smap">
-      <translation id="text" translation_id="251341" type="use" value="Debug[COMMENT: preferences: debug settings section (short) name]" />
-      <record id="widget_info">
-        <symbol id="class" value="scouting_map_panel" />
-      </record>
-    </record>-->
+	  <translation id="text" translation_id="251341" type="use" value="Debug[COMMENT: preferences: debug settings section (short) name]" />
+	  <record id="widget_info">
+		<symbol id="class" value="scouting_map_panel" />
+	  </record>
+	</record>-->
 
 		<!-- Pre Match Briefing -->
 		<record id="paBR" section="paBR">

@@ -33,8 +33,8 @@
 		<widget class="pitch_with_player_positions" id="ppip" height="122" vertical="false" pitch_alignment="centre,can_scale" pitch_draw_goals="false" pitch_draw_markings="false" show_position_strength="false" hide_player_positions="true" pitch_show_names="false" pitch_show_names_as_hint="true" pitch_draw_grass="false" pitch_line_colour="text" pitch_touchline_width_percentage="1" pitch_override_icon_size="2" line_width="1.4">
 
 			<!-- Set the icon to use for people on the pitch. The icon will first look for a size that matches the pitch's size, for instance 'pitch/icons/kit/tiny/kit' or 'pitch/icons/kit/medium/kit'.
-          If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
-          can just provide the base and not worry about the tiny/small/medium/large size categories -->
+		  If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
+		  can just provide the base and not worry about the tiny/small/medium/large size categories -->
 			<string id="pitch_kit_icon" value="pitch/icons/dots" />
 		</widget>
 

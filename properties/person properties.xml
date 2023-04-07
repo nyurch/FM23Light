@@ -377,8 +377,8 @@
 
 			<!-- removed for FM16, needs a FR to decide what goes in the list -->
 			<!--<record id="search_filter">
-        <integer id="id" value="pfpu" />
-      </record>-->
+		<integer id="id" value="pfpu" />
+	  </record>-->
 		</record>
 
 		<!-- Full player status for the person search panel -->
@@ -5722,8 +5722,8 @@
 
 			<!-- can't put a filter on this yet as it shows two values-->
 			<!--<record id="search_filter">
-        <integer id="id" value="pfpc"/>
-      </record>-->
+		<integer id="id" value="pfpc"/>
+	  </record>-->
 		</record>
 
 		<record>
@@ -19993,8 +19993,8 @@
 
 			<!-- nothing for a filter yet -->
 			<!--<record id="search_filter">
-        <integer id="id" value="pfrd" />
-      </record>-->
+		<integer id="id" value="pfrd" />
+	  </record>-->
 		</record>
 
 		<!-- team talk -->
@@ -26380,27 +26380,27 @@
 		<!-- DUAL MATCH STATS -->
 		<!-- Passing Total/Complete -->
 		<!--<record>
-      <integer id="id" value="tCmP" />
-      <integer id="width" value="80" />
-      <flags id="customisation_context" value="none" />
-      <translation id="category" translation_id="247439" type="use" value="Match Stats" />
-      <translation id="name" translation_id="441150" type="use" value="Total/Complete[COMMENT: match stats title showing a given stat in total and completed]" />
+	  <integer id="id" value="tCmP" />
+	  <integer id="width" value="80" />
+	  <flags id="customisation_context" value="none" />
+	  <translation id="category" translation_id="247439" type="use" value="Match Stats" />
+	  <translation id="name" translation_id="441150" type="use" value="Total/Complete[COMMENT: match stats title showing a given stat in total and completed]" />
 
-      <record id="widget_info">
-        <symbol id="class" value="chalkboard_toggle_event" />
-        <string id="file" value="match/players chalkboard toggle event" />
-      </record>
+	  <record id="widget_info">
+		<symbol id="class" value="chalkboard_toggle_event" />
+		<string id="file" value="match/players chalkboard toggle event" />
+	  </record>
 
-      <record id="column_widget_properties">
-        <flags id="alignment" value="left,centre_y" />
-      </record>
+	  <record id="column_widget_properties">
+		<flags id="alignment" value="left,centre_y" />
+	  </record>
 
-      <record id="column_heading">
-        <flags id="alignment" value="left,centre_y" />
-        <translation id="text" translation_id="441151" type="use" value="Tot/Cmp[COMMENT: match stats title showing a given stat in Total and Completed, abbreviated version]" />
-        <translation id="hint" translation_id="441152" type="use" value="Total/Completed Passes[COMMENT: match stats title showing a given stat in total and completed]" />
-      </record>
-    </record>-->
+	  <record id="column_heading">
+		<flags id="alignment" value="left,centre_y" />
+		<translation id="text" translation_id="441151" type="use" value="Tot/Cmp[COMMENT: match stats title showing a given stat in Total and Completed, abbreviated version]" />
+		<translation id="hint" translation_id="441152" type="use" value="Total/Completed Passes[COMMENT: match stats title showing a given stat in total and completed]" />
+	  </record>
+	</record>-->
 
 		<!-- Passing Total/Complete -->
 		<record>

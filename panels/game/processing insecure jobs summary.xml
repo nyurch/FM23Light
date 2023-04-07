@@ -6,20 +6,20 @@
   <string id="Jpnf" value="game/processing team badge mini panel" />
 
   <widget class="text" colour="faded black" alignment="right,centre_y" style="bold, shadowed" size="10" multiline="false">
-    <translation id="text" translation_id="296333" type="use" value="Insecure Jobs[COMMENT:title for a box containing a list of insecure manager jobs]" />
+	<translation id="text" translation_id="296333" type="use" value="Insecure Jobs[COMMENT:title for a box containing a list of insecure manager jobs]" />
   </widget>
   <!--list of insecure jobs-->
   <widget class="picture" file="dividers/standard/horizontal/line_vertical" />
 
   <container>
-    <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-    <container class="animated_wipe_cycle_up_container" interval="10" id="jobC">
-      <!-- Filled with job panels in code -->
-    </container>
+	<container class="animated_wipe_cycle_up_container" interval="10" id="jobC">
+	  <!-- Filled with job panels in code -->
+	</container>
 
-    <widget class="text" id="noJB" colour="black" alignment="left,centre_y" style="bold, shadowed" size="10" multiline="false" hidden="true">
-      <translation id="text" translation_id="291487" type="use" value="None[COMMENT: player friendly match instructions: no instruction menu item]" />
-    </widget>
+	<widget class="text" id="noJB" colour="black" alignment="left,centre_y" style="bold, shadowed" size="10" multiline="false" hidden="true">
+	  <translation id="text" translation_id="291487" type="use" value="None[COMMENT: player friendly match instructions: no instruction menu item]" />
+	</widget>
   </container>
 </panel>
