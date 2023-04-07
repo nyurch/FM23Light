@@ -1,0 +1,93 @@
+﻿<panel>
+    <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+
+    <boolean id="should_force_refresh" value="true"/>
+
+    <!-- This is a bit of a hack. In order to give the other animations time to finish when we hide we use an animation that does nothing to postpone hiding -->
+    <!-- The duration of this animation should be the same as the longest reversible one on this panel -->
+    <animation class="fade_on_hide_animation" duration="0.6" end_mode="hold_auto_reverse" />
+
+    <!-- Modal sheet to darken and disable the main game contents -->
+    <container class="modal_sheet" id="mods">
+        <!-- Fade in -->
+        <animation class="fade_on_hide_animation" duration="0.3" />
+    </container>
+
+    <!-- Panel contents -->
+    <widget class="background" file="backgrounds/TDD processing bg">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+    </widget>
+
+    <widget class="picture" file="" id="clco" red_replacement="primary">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+    </widget>
+
+    <widget class="picture" file="backgrounds/fade" id="bgfa" red_replacement="deadline day bg" scale_picture="true" keep_aspect_ratio="false">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+    </widget>
+
+    <container>
+        <attachment_group class="vertical_arrange" vertical_layout="-1, -1"/>
+        <layout class="stick_to_sides_attachment" alignment="all" inset="10"/>
+
+        <container>
+            <attachment_group class="vertical_arrange_horizontal_centre"/>
+
+            <container class="main_contrast_box_no_margin" height="270" width="366" red_replacement="deadline day bg colour">
+                <attachment_group class="vertical_arrange" horizontal_alignment="horizontal" vertical_alignment="top"/>
+                <layout class="centre_in_parent_attachment" alignment="vertical"/>
+
+                <container class="main_contrast_box_no_margin" appearance="backgrounds/TDD pattern" height="270" width="366" red_replacement="deadline day bg lighter">
+                    <attachment_group class="vertical_arrange_horizontal_centre" vertical_alignment="middle"/>
+                    <layout class="centre_in_parent_attachment" alignment="vertical"/>
+
+                    <container class="main_box_no_margin" height="50" width="260" red_replacement="deadline day bg colour">
+                        <attachment_group class="vertical_arrange_horizontal_centre" vertical_alignment="middle"/>
+                        
+                        <!-- The loading animation - GPU rendering -->
+                        <widget class="picture" id="anmG" file="progress/circular/spinner" auto_size="all" colour="black">
+                            <animation class="rotate_animation" end_mode="repeat" start_value="0" end_value="360" tween="linear" apply_to_mouse="false" limit_frame_rate="true"/>
+                        </widget>
+                    </container>
+
+                    <widget class="spacer" height="2"/>
+
+                    <container class="main_box_no_margin" height="50" width="260" red_replacement="deadline day bg colour">
+                        <attachment_group class="vertical_arrange_horizontal_centre" vertical_alignment="middle"/>
+                        <widget class="transfer_deadline_day_logo_widget" mode="0"/>
+                    </container>
+
+                    <widget class="text" id="tddr" font="title" alignment="centre" auto_size="all" colour="text" size="50"/>
+
+                    <widget class="text" id="tddu" font="title" alignment="centre" auto_size="all" colour="text" size="xlarge"/>
+                </container>
+            </container>
+        </container>
+
+        <container class="main_contrast_box_no_margin" red_replacement="deadline day bg colour">
+            <attachment_group class="vertical_arrange" horizontal_alignment="horizontal" vertical_alignment="top, extend"/>
+            <animation class="slide_in_bottom_animation" duration="0.6" tween="ease_out"/>
+
+            <container class="main_contrast_box_no_margin" appearance="backgrounds/animated pattern 4" red_replacement="bg lighter">
+                <attachment_group class="vertical_arrange" horizontal_alignment="horizontal" vertical_alignment="top, extend"/>
+
+                <widget class="spacer" height="12"/>
+
+                <container class="manager_upcoming_fixture_panel" file="game/processing upcoming fixture tdd panel" id="nexm" hidden="true" height="50"/>
+
+                <widget class="spacer" height="12"/>
+
+                <container>
+                    <attachment_group class="horizontal_arrange" horizontal_alignment="right, extend" vertical_alignment="vertical"/>
+
+                    <widget class="transfer_window_live_transfers_table_panel" id="LvTr" file="competition/transfer window live transfers table processing panel" for_processing_panel="true"/>
+                    <widget class="primary_icon_button" id="canc" auto_size="all" controller_button="b_button" red_replacement="deadline day fg accent" colour="deadline day body text">
+                        <translation id="text" translation_id="229828" type="use" value="Cancel"/>
+                        <layout class="stick_to_sides_attachment" alignment="bottom" inset="160"/>
+                    </widget>
+                    <widget class="spacer" width="12"/>
+                </container>
+            </container>
+        </container>
+    </container>
+</panel>

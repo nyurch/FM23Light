@@ -33,7 +33,7 @@
 				<container wants_mouse_events="false">
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" horizontal_offset="8" horizontal_gap="8" vertical_alignment="vertical" vertical_inset="0" />
 
-					<widget class="picture" file="icons/custom/icon box/budget" red_replacement="deadline day fg accent" blue_replacement="deadline day body text" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" width="26" />
+					<widget class="picture" file="icons/custom/icon box/budget" red_replacement="deadline day fg accent" blue_replacement="white" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" width="26" />
 
 					<container wants_mouse_events="false">
 						<attachment_group class="vertical_arrange" vertical_layout="-1, -1" horizontal_offset="0" horizontal_gap="8" horizontal_alignment="horizontal" vertical_offset="6" />
@@ -62,12 +62,12 @@
 			</container>
 
 			<!--Recruitment team-->
-			<widget class="property_list_viewer_xml_panel" file="widgets/scouting top bar widget" minimum_width="190" id="rtec" priority="1" icon="icons/custom/icon box/package" red_replacement="red" puhd="true" section="tssc" lkcl="red" lkrr="deadline day fg titles" navigation_focus_target="false">
+			<widget class="property_list_viewer_xml_panel" file="widgets/scouting top bar widget" minimum_width="190" id="rtec" priority="1" icon="icons/custom/icon box/package" red_replacement="deadline day fg accent" puhd="true" section="tssc" lkcl="deadline day fg accent" lkrr="deadline day fg titles" navigation_focus_target="false">
 				<translation id="lktx" translation_id="539027" type="use" value="Recruitment[COMMENT: AREA: Backroom advice; SUB-AREA: Backroom advice category; FR-BN: 35379; TONE: Formal; CHARLIMIT: None; REF-ID: XXXXXX; NOTE: Name of backroom advice category]" />
 			</widget>
 
 			<!-- Transfer Activity -->
-			<widget class="property_list_viewer_xml_panel" file="widgets/scouting top bar widget" minimum_width="190" id="TrAc" priority="1" icon="icons/custom/icon box/transfer centre" red_replacement="red" puhd="true" section="trcn" lkcl="red" lkrr="deadline day fg titles" navigation_focus_target="false">
+			<widget class="property_list_viewer_xml_panel" file="widgets/scouting top bar widget" minimum_width="190" id="TrAc" priority="1" icon="icons/custom/icon box/transfer centre" red_replacement="deadline day fg accent" puhd="true" section="trcn" lkcl="deadline day fg accent" lkrr="deadline day fg titles" navigation_focus_target="false">
 				<translation id="lktx" translation_id="330721" type="use" value="Transfer Activity[COMMENT: how to system; help string]" />
 			</widget>
 		</container>

@@ -25,8 +25,8 @@
 	</widget>
 
 	<container class="vertical_arrange_container" alignment="fill" width="16">
-		<widget class="icon_button" id="upar" icon="icons/16px/up" width="16" icon_alignment="centre" show_button_appearance="false" click_event="swap"/>
-		<widget class="icon_button" id="dnar" icon="icons/16px/down" width="16" icon_alignment="centre" show_button_appearance="false" click_event="swap"/>
+		<widget class="icon_button" id="upar" icon="icons/16px/up" icon_colour="white" width="16" icon_alignment="centre" show_button_appearance="false" click_event="swap"/>
+		<widget class="icon_button" id="dnar" icon="icons/16px/down" icon_colour="white" width="16" icon_alignment="centre" show_button_appearance="false" click_event="swap"/>
 	</container>
 
 	<widget class="spacer" width="16"/>
