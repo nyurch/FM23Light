@@ -3,16 +3,16 @@
 
 	<container>
 
-	<attachment_group class="vertical_arrange_autosize_horizontal_centre"/>
+		<attachment_group class="vertical_arrange_autosize_horizontal_centre"/>
 
-	<widget class="person_button" colour="black" auto_size="all" alignment="centre" person_is_player="true" icon_enabled="true" style="bold">
-		<record id="object_property" get_property="Pers" set_property="valu" />
-	</widget>
+		<widget class="person_button" colour="black" auto_size="all" alignment="centre" person_is_player="true" icon_enabled="true" style="bold">
+			<record id="object_property" get_property="Pers" set_property="valu" />
+		</widget>
 
 	</container>
 
 	<widget class="text" auto_size="vertical" alignment="centre" multiline="true" colour="faded text">
-	<record id="object_property" get_property="text" set_property="text" />
+		<record id="object_property" get_property="text" set_property="text" />
 	</widget>
 
 </panel>

@@ -4,11 +4,11 @@
 	<list id="skin_style">
 
 
-	<record>
-		<string id="class_name" value="editable_client_object_property_panel" />
-		<colour id="colour" name="alt text" />
-		<boolean id="enforce_style" value="true" />
-	</record>
+		<record>
+			<string id="class_name" value="editable_client_object_property_panel" />
+			<colour id="colour" name="alt text" />
+			<boolean id="enforce_style" value="true" />
+		</record>
 
 
 	</list>

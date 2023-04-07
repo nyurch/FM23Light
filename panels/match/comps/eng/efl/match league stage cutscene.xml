@@ -27,7 +27,7 @@
 
 	<widget class="table" id="list" mode="fill_rows, stripe_rows" auto_size="vertical" customise_view_panel_class="customise_view_advanced_panel" customisation_context="league_table" contextual_handler_column_id="Ttea" auto_size_rows="false" fixed_size_rows="true" row_height="18" heading_class="column_heading_efl" column_spacing="4">
 
-	<flags id="stripe_appearance" value="tables/custom/sitv/alternate/row"/>
+		<flags id="stripe_appearance" value="tables/custom/sitv/alternate/row"/>
 
 	</widget>
 
