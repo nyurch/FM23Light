@@ -1,7 +1,7 @@
 <panel>
 
 	<!--this list shows the match feed notification type. We need to match the number here with the list of appearances below. Any appearances that don't appear 
-  in this list will use the unchanged main_box appearance on the bordered box 'skbo'.-->
+	in this list will use the unchanged main_box appearance on the bordered box 'skbo'.-->
 	<!--enum NOTIFICATION_TYPE
 {
 	NT_NONE = 0,
@@ -22,14 +22,14 @@
 	NT_STATS_ADVICE = 15,
 	NT_PERFORMANCE_ADVICE = 16,
 	NT_TEAM_ADVICE = 17,
-  NT_KNOCK = 18,
+	NT_KNOCK = 18,
 	NT_HALF_TIME = 19,
 	NT_EXTRA_TIME_KICK_OFF = 20,
 	NT_HALF_TIME_EXTRA_TIME = 21,
 	NT_FULL_TIME = 22,
 	NT_SUB = 23,
-  NT_TEAM_STAT = 24,
-  NT_PLAYER_STAT = 25
+	NT_TEAM_STAT = 24,
+	NT_PLAYER_STAT = 25
 	NT_MATCH_PLAN_TACTIC_CHANGE = 26
 	NT_MATCH_PLAN_PHILOSPHY_CHANGE = 27
 	NT_MATCH_PLAN_MENTALITY_CHANGE = 28

@@ -125,10 +125,10 @@
 			<boolean id="exclude_from_find" value="true"/>
 			<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0"/>
 		</widget>
-		<widget class="primary_icon_button" entity_layout_id="at0Q" id="ok  " width="100" name="ok">
+		<widget class="primary_icon_button" entity_layout_id="at0Q" id="ok	" width="100" name="ok">
 			<record id="click_event">
 				<unsigned id="event_flags" value="0"/>
-				<string id="event_id" value="ok  "/>
+				<string id="event_id" value="ok	"/>
 			</record>
 			<translation id="text" value="Confirm" translation_id="229918" type="use"/>
 			<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main"/>

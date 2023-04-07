@@ -270,7 +270,7 @@
 					<layout class="centre_in_parent_attachment" alignment="vertical"/>
 				</widget>
 
-				<widget class="primary_icon_tick_button" id="ok  " hidden="true">
+				<widget class="primary_icon_tick_button" id="ok	" hidden="true">
 					<translation id="text" translation_id="229829" type="use" value="Ok" />
 					<layout class="centre_in_parent_attachment" alignment="vertical"/>
 				</widget>

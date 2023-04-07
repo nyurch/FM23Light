@@ -53,7 +53,7 @@
 		<container class="inner_subtle_box">
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="5" horizontal_alignment="horizontal" />
 
-			<!-- Junior Coaching  -->
+			<!-- Junior Coaching	-->
 			<container height="70">
 				<attachment_group class="vertical_arrange" />
 
@@ -65,7 +65,7 @@
 
 			<widget class="horizontal_divider" />
 
-			<!-- Youth Recruitment  -->
+			<!-- Youth Recruitment	-->
 			<container height="70">
 				<attachment_group class="vertical_arrange" />
 

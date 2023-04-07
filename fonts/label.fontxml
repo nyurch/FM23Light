@@ -6,7 +6,7 @@
 
 	<string id="capitalisation" value="upper case" />
 
-    <colour id="fill_colour" name="faded text"/>
+		<colour id="fill_colour" name="faded text"/>
 
 
 </record>

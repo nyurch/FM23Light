@@ -10,7 +10,7 @@
 	</list>
 
 	<container class="title_link_box" id="opin" force_title_borders="true" hide_view_menu="true">
-		<translation id="link_title" translation_id="539015" type="use" value="Pre-Match Opposition Report[COMMENT: AREA: Inbox; SUB-AREA: opposition report; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE:  title for pre match opposition report inbox item]" />
+		<translation id="link_title" translation_id="539015" type="use" value="Pre-Match Opposition Report[COMMENT: AREA: Inbox; SUB-AREA: opposition report; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE:	title for pre match opposition report inbox item]" />
 		<string id="section" value="Tpor" />
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0">
 			<global id="vertical_gap" name="ui.main_box_gap" />

@@ -1,7 +1,7 @@
 ﻿<panel peri="4">
 
-  <attachment_group class="vertical_arrange" vertical_layout="-1" vertical_gap="0"/>
-  <widget class="pitch_action_zones" id="azpt" fixed="true" vertical="false" auto_tick_exclusive="true" size="8" font_colour="white" alignment="centre" pitch_draw_grass="true" pitch_touchline_width_percentage="55" line_width="1">
-  </widget>
+	<attachment_group class="vertical_arrange" vertical_layout="-1" vertical_gap="0"/>
+	<widget class="pitch_action_zones" id="azpt" fixed="true" vertical="false" auto_tick_exclusive="true" size="8" font_colour="white" alignment="centre" pitch_draw_grass="true" pitch_touchline_width_percentage="55" line_width="1">
+	</widget>
 
 </panel>

@@ -29,7 +29,7 @@
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="6" />
 			<layout class="centre_in_parent_attachment" alignment="horizontal" />
 
-			<!-- Radio button embedded in the header for  choosing to start unemployed or manager nation and club -->
+			<!-- Radio button embedded in the header for	choosing to start unemployed or manager nation and club -->
 			<container id="tcnt" embed_in_frame="true" height="25" navigation_container="true">
 
 				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" embed_in_frame="true" inset="0" />

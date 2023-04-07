@@ -5,7 +5,7 @@
 	<container class="main_box" red_replacement="dark_box_background" navigation_container="true">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-		<!--  main box containing tables  -->
+		<!--	main box containing tables	-->
 		<container class="tabs" id="cstm" default_item="lbBT" save_session_state="true">
 
 			<container id="lbBT">

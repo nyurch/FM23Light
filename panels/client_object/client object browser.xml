@@ -233,12 +233,12 @@
 		</attachment>
 	</widget>
 
-	<!--   <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
+	<!--	 <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
 		<attachment class="test_multiple_globals_attachment" default_value="false">
 			<list id="get_properties">
 				<record get_property="sect" test_mode="0" value="vPRO" skip_if_null="false"/>
 			</list>
-		   <integer id="set_property" value="Shwn"/>
+			 <integer id="set_property" value="Shwn"/>
 		</attachment>
 	</widget>
 -->
@@ -406,30 +406,30 @@
 							</container>
 							<container class="inner_box_no_margin">
 								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-		                        <!-- main area - contains sections/actions panel and content areas -->
-                                <container id="main">
-                                    <layout class="arrange_horizontal_attachment" alignment="middle,extend" gap="0" offset="0"/>
-                                    <layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
-                                    <!-- screen content area -->
-                                    <container id="scca" auto_size="horizontal">
-                                        <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true">
-                                            <global id="inset" name="ui.main_content_margin"/>
-                                        </layout>
-                                    </container>
-                                </container>
-                            </container>
-                        </container>
-                    </container>
-                </container>
-            </container>
-            <container id="Fpco">
-                <attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0"/>
-            </container>
-        </container>
-        <!--replay controls-->
-        <widget class="match_replay_controls_panel" id="mrcp" disable_layout_attachments_when_embedded="true">
-            <layout class="stick_to_sides_attachment" alignment="horizontal,top" inset="40,0,0,222" />
-            <record id="object_property" get_property="objt" set_property="objt" />
-        </widget>
-    </container>
+														<!-- main area - contains sections/actions panel and content areas -->
+																<container id="main">
+																		<layout class="arrange_horizontal_attachment" alignment="middle,extend" gap="0" offset="0"/>
+																		<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+																		<!-- screen content area -->
+																		<container id="scca" auto_size="horizontal">
+																				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true">
+																						<global id="inset" name="ui.main_content_margin"/>
+																				</layout>
+																		</container>
+																</container>
+														</container>
+												</container>
+										</container>
+								</container>
+						</container>
+						<container id="Fpco">
+								<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0"/>
+						</container>
+				</container>
+				<!--replay controls-->
+				<widget class="match_replay_controls_panel" id="mrcp" disable_layout_attachments_when_embedded="true">
+						<layout class="stick_to_sides_attachment" alignment="horizontal,top" inset="40,0,0,222" />
+						<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
+		</container>
 </panel>

@@ -3,7 +3,7 @@
 	<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" />
 	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-	<!-- panel containing table of clauses  -->
+	<!-- panel containing table of clauses	-->
 	<container width="310" class="main_box">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 

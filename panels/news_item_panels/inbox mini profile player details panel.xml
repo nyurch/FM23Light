@@ -1,7 +1,7 @@
 <panel height="180">
-  <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
-  <container class="inner_subtle_box" red_replacement="black" id="psdt">
+	<container class="inner_subtle_box" red_replacement="black" id="psdt">
 	<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0"/>
 	<layout class="centre_in_parent_attachment" alignment="horizontal" apply_to_children="true" offset="0"/>
 
@@ -15,8 +15,8 @@
 
 	<!-- person description -->
 	<widget class="text" id="ppos" auto_size="vertical" colour="faded text" alignment="top" size="10" multiline="true">
-	  <layout class="stick_to_sides_attachment" alignment="horizontal"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal"/>
 	</widget>
-  </container>
+	</container>
 
 </panel>

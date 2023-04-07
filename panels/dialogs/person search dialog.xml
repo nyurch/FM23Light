@@ -177,15 +177,15 @@
 										<!--3rd row-->
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
-											<var id="ml  " name="position_checkbox"/>
+											<var id="ml	" name="position_checkbox"/>
 										</container>
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
-											<var id="mc  " name="position_checkbox"/>
+											<var id="mc	" name="position_checkbox"/>
 										</container>
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
-											<var id="mr  " name="position_checkbox"/>
+											<var id="mr	" name="position_checkbox"/>
 										</container>
 
 										<!--4th row-->
@@ -195,7 +195,7 @@
 										</container>
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
-											<var id="dm  " name="position_checkbox"/>
+											<var id="dm	" name="position_checkbox"/>
 										</container>
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
@@ -205,22 +205,22 @@
 										<!--5th row-->
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
-											<var id="dl  " name="position_checkbox"/>
+											<var id="dl	" name="position_checkbox"/>
 										</container>
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
-											<var id="dc  " name="position_checkbox"/>
+											<var id="dc	" name="position_checkbox"/>
 										</container>
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
-											<var id="dr  " name="position_checkbox"/>
+											<var id="dr	" name="position_checkbox"/>
 										</container>
 
 										<!--6th row-->
 										<widget class="spacer" />
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
-											<var id="gk  " name="position_checkbox"/>
+											<var id="gk	" name="position_checkbox"/>
 										</container>
 										<widget class="spacer" />
 									</container>
@@ -352,7 +352,7 @@
 						<widget class="primary_icon_tick_button" id="ok" default_focus="true">
 							<translation id="text" translation_id="229829" type="use" value="Ok"/>
 							<record id="click_event">
-								<flags id="event_id" value="ok  "/>
+								<flags id="event_id" value="ok	"/>
 							</record>
 						</widget>
 					</container>

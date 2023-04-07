@@ -127,7 +127,7 @@
 				<!-- effects panels added here -->
 			</container>
 
-			<!--  response button containers -->
+			<!--	response button containers -->
 			<container id="ResC" class="inner_contrast_box_no_margin" appearance="fake/appearance/for/transparency" red_replacement="card bg darker" hidden="true">
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="4" vertical_gap="2" horizontal_alignment="horizontal" horizontal_inset="4">
 					<global id="horizontal_gap" name="ui.button_row_gap" />

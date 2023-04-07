@@ -1,26 +1,26 @@
 ﻿<panel>
-  <attachment_group class="vertical_arrange_autosize"/>
+	<attachment_group class="vertical_arrange_autosize"/>
 
-  <container>
+	<container>
 	<attachment_group class="vertical_arrange_autosize" horizontal_alignment="left"/>
 
 	<widget class="person_button" auto_size="all" alignment="centre" colour="black" person_is_player="true" icon_enabled="true" style="bold">
-	  <record id="object_property" get_property="Pers" set_property="valu" />
+		<record id="object_property" get_property="Pers" set_property="valu" />
 	</widget>
-  </container>
+	</container>
 
-  <widget class="text" auto_size="vertical" alignment="left" multiline="true" colour="text">
+	<widget class="text" auto_size="vertical" alignment="left" multiline="true" colour="text">
 	<record id="object_property" get_property="text" set_property="text" />
-  </widget>
+	</widget>
 
-  <container>
+	<container>
 	<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left"/>
 
 	<widget class="nation_button" auto_size="all" format="[%nation#1-3letter]" colour="faded text">
-	  <record id="object_property" get_property="Nnat" set_property="valu" />
+		<record id="object_property" get_property="Nnat" set_property="valu" />
 	</widget>
 	<widget class="team_button" auto_size="all" format="[%team#1-six_letter]" colour="faded text">
-	  <record id="object_property" get_property="Ttea" set_property="valu" />
+		<record id="object_property" get_property="Ttea" set_property="valu" />
 	</widget>
-  </container>
+	</container>
 </panel>

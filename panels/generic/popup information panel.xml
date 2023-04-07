@@ -7,7 +7,7 @@
 	<container class="standard_popup_box">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-		<!-- These buttons are used for when a person has a player and a non player job  -->
+		<!-- These buttons are used for when a person has a player and a non player job	-->
 		<container id="tabs" height="40" hidden="true">
 			<layout class="arrange_horizontal_attachment" alignment="middle" offset="0" gap="0" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
@@ -29,7 +29,7 @@
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 		</container>
 
-		<!-- This profile is used for when a person has a player and a non player job  -->
+		<!-- This profile is used for when a person has a player and a non player job	-->
 		<container id="prf2">
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 		</container>

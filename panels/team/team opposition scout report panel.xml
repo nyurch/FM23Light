@@ -141,7 +141,7 @@
 		<layout class="vertical_arrange" vertical_layout="-1" />
 		<!-- identifying strengths and weaknesses -->
 		<container class="main_box" vertical_alignment="centre">
-			<translation id="title" translation_id="360592" colour="accent" type="use" value="Identifying strengths and weaknesses[COMMENT: FR6596  ASSISTANT_TEAM_REPORT_NEWS_PANEL; bullet point item;]" />
+			<translation id="title" translation_id="360592" colour="accent" type="use" value="Identifying strengths and weaknesses[COMMENT: FR6596	ASSISTANT_TEAM_REPORT_NEWS_PANEL; bullet point item;]" />
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
 			<container class="team_pro_con_summary_panel" id="tpcs">
 				<integer id="num_pro_cons_to_show" value="50" />

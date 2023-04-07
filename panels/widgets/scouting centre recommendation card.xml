@@ -283,10 +283,10 @@
 				If we are *NOT* on the inbox version we watn to always show this panel regardless of the resolution, so this works in the following way
 				
 				 - the show_medium_horizontal will be disabled bye the second test_global_attachments because the section will equal tssc, meaning
-				   we won't hide no matter the resolution, and the other test global forces visibility to true as our section equals tssc
-				   
+					 we won't hide no matter the resolution, and the other test global forces visibility to true as our section equals tssc
+					 
 				 - On the inbox panel we will not be enable the show medium horizontal attachments, which will then when processed show/hide the panel
-				   based on the available screen resolution
+					 based on the available screen resolution
 				
 				-->
 

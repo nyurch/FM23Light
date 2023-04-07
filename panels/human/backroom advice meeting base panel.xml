@@ -106,7 +106,7 @@
 								<widget class="non_player_attributes_panel" height="150" id="npat" view="5" ucmt="true" file="non_player/non player attributes panel combined" />
 							</container>
 
-							<!-- Another Staff popup widget  -->
+							<!-- Another Staff popup widget	-->
 							<widget class="widget_popup_button" id="AaSm" auto_size="vertical" multiline="true" icon="icons/16px/staff" appearance="buttons/subtle/flex/button" default_focus="true">
 								<translation id="text" translation_id="534799" type="use" value="Ask Another Staff Member[COMMENT: AREA: backroom advice; SUB-AREA: staff advice; NOTE: change the staff member giving the advice]" />
 								<string id="popup_alignment" value="left, bottom" />

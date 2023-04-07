@@ -37,7 +37,7 @@
 						<widget class="match_info_panel" id="bmin" file="file">
 							<record id="object_property" get_property="objt" set_property="objt"/>
 							<layout class="horizontal_arrange" horizontal_layout="-1,24,-1" />
-							<!--  home incidents panel -->
+							<!--	home incidents panel -->
 							<widget class="home_match_incidents_panel" id="hmip" small_version="false" file="none">
 								<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right">
@@ -47,7 +47,7 @@
 							<widget class="text" alignment="centre">
 								<translation id="text" type="use" value="V" />
 							</widget>
-							<!--  home incidents panel -->
+							<!--	home incidents panel -->
 							<widget class="away_match_incidents_panel" id="amip" small_version="false" file="none">
 								<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right">

@@ -28,7 +28,7 @@
 						<record id="OPpS" auto_hide_priority="110"/>
 						<!-- status info -->
 						<record id="pKib" width="-2" auto_hide_priority="104" minimum_width="110" colour="black"/>
-						<!-- condition   -->
+						<!-- condition	 -->
 						<record id="PcOI" auto_hide_priority="104" />
 						<!-- sharpness -->
 						<record id="PftI" auto_hide_priority="104"/>

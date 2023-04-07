@@ -46,7 +46,7 @@
 				<translation id="text" translation_id="229828" type="use" value="Cancel" />
 			</widget>
 
-			<widget class="primary_icon_button" auto_size="horizontal" alignment="centre_y, centre_x" height="30" click_event="ok  ">
+			<widget class="primary_icon_button" auto_size="horizontal" alignment="centre_y, centre_x" height="30" click_event="ok	">
 				<record id="primary_icon_properties" file="icons/16px/tick" red_replacement="white" />
 				<translation id="text" translation_id="229918" type="use" value="Confirm" />
 			</widget>

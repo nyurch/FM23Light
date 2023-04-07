@@ -117,7 +117,7 @@
 				</widget>
 			</container>
 
-			<!-- battery indicator, only shows up for laptops  & chat indicator-->
+			<!-- battery indicator, only shows up for laptops	& chat indicator-->
 			<container>
 				<layout class="arrange_vertical_attachment" alignment="bottom" gap="0" offset="5"/>
 				<layout class="stick_to_sides_attachment" alignment="bottom" inset="0" apply_to_children="true" />

@@ -7,8 +7,8 @@
 	<widget class="pitch_with_player_positions" id="ppip" height="140" vertical="true" pitch_alignment="centre,can_scale" pitch_draw_goals="false" pitch_draw_markings="false" pitch_show_names="true" pitch_show_names_as_hint="false" pitch_draw_grass="true" pitch_line_colour="white" pitch_touchline_width_percentage="1" pitch_perspective="0" pitch_override_icon_size="2" pitch_length_multiplier="1.3" line_width="1.4" appearance="boxes/custom/pitch selection/paper" pitch_player_name_text_colour="white">
 
 		<!-- Set the icon to use for people on the pitch. The icon will first look for a size that matches the pitch's size, for instance 'pitch/icons/kit/tiny/kit' or 'pitch/icons/kit/medium/kit'.
-		  If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
-		  can just provide the base and not worry about the tiny/small/medium/large size categories -->
+			If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
+			can just provide the base and not worry about the tiny/small/medium/large size categories -->
 		<string id="pitch_kit_icon" value="pitch/icons/dots" />
 	</widget>
 

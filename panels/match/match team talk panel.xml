@@ -195,7 +195,7 @@
 								<flags id="alignment" value="horizontal"/>
 								<integer id="min_value" value="0"/>
 								<integer id="max_value" value="1366"/>
-								<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+								<!-- This is a very large value as we want our widget to show if > the min_value.	The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
 								<symbol id="set_property" value="width"/>
 								<integer id="true_value" value="500"/>
 								<integer id="false_value" value="500"/>
@@ -204,7 +204,7 @@
 								<flags id="alignment" value="horizontal"/>
 								<integer id="min_value" value="1366"/>
 								<integer id="max_value" value="1466"/>
-								<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+								<!-- This is a very large value as we want our widget to show if > the min_value.	The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
 								<symbol id="set_property" value="width"/>
 								<integer id="true_value" value="675"/>
 								<integer id="false_value" value="675"/>
@@ -213,7 +213,7 @@
 								<flags id="alignment" value="horizontal"/>
 								<integer id="min_value" value="1466"/>
 								<integer id="max_value" value="1600"/>
-								<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+								<!-- This is a very large value as we want our widget to show if > the min_value.	The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
 								<symbol id="set_property" value="width"/>
 								<integer id="true_value" value="750"/>
 								<integer id="false_value" value="750"/>
@@ -222,7 +222,7 @@
 								<flags id="alignment" value="horizontal"/>
 								<integer id="min_value" value="1600"/>
 								<integer id="max_value" value="10000"/>
-								<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+								<!-- This is a very large value as we want our widget to show if > the min_value.	The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
 								<symbol id="set_property" value="width"/>
 								<integer id="true_value" value="850"/>
 								<integer id="false_value" value="850"/>
@@ -251,7 +251,7 @@
 									<flags id="alignment" value="vertical"/>
 									<integer id="min_value" value="0"/>
 									<integer id="max_value" value="875"/>
-									<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+									<!-- This is a very large value as we want our widget to show if > the min_value.	The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
 									<symbol id="set_property" value="height"/>
 									<integer id="true_value" value="475"/>
 									<integer id="false_value" value="475"/>
@@ -260,7 +260,7 @@
 									<flags id="alignment" value="vertical"/>
 									<integer id="min_value" value="875"/>
 									<integer id="max_value" value="968"/>
-									<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+									<!-- This is a very large value as we want our widget to show if > the min_value.	The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
 									<symbol id="set_property" value="height"/>
 									<integer id="true_value" value="575"/>
 									<integer id="false_value" value="575"/>
@@ -269,7 +269,7 @@
 									<flags id="alignment" value="vertical"/>
 									<integer id="min_value" value="968"/>
 									<integer id="max_value" value="1080"/>
-									<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+									<!-- This is a very large value as we want our widget to show if > the min_value.	The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
 									<symbol id="set_property" value="height"/>
 									<integer id="true_value" value="675"/>
 									<integer id="false_value" value="675"/>
@@ -278,7 +278,7 @@
 									<flags id="alignment" value="vertical"/>
 									<integer id="min_value" value="1080"/>
 									<integer id="max_value" value="1200"/>
-									<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+									<!-- This is a very large value as we want our widget to show if > the min_value.	The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
 									<symbol id="set_property" value="height"/>
 									<integer id="true_value" value="750"/>
 									<integer id="false_value" value="750"/>
@@ -287,7 +287,7 @@
 									<flags id="alignment" value="vertical"/>
 									<integer id="min_value" value="1200"/>
 									<integer id="max_value" value="10000"/>
-									<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+									<!-- This is a very large value as we want our widget to show if > the min_value.	The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
 									<symbol id="set_property" value="height"/>
 									<integer id="true_value" value="850"/>
 									<integer id="false_value" value="850"/>

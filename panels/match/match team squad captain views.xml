@@ -1,74 +1,74 @@
 <panel>
 
-  <!-- Starting XI Styles -->
-  <flags id="stxi" value="tables/standard/normal" />
+	<!-- Starting XI Styles -->
+	<flags id="stxi" value="tables/standard/normal" />
 
-  <!-- Subs Styles -->
-  <flags id="subs" value="tables/custom/squad/substitute/row" />
+	<!-- Subs Styles -->
+	<flags id="subs" value="tables/custom/squad/substitute/row" />
 
-  <!-- Sent off Styles -->
-  <flags id="soff" value="tables/custom/cards/red/row" />
+	<!-- Sent off Styles -->
+	<flags id="soff" value="tables/custom/cards/red/row" />
 
-  <!-- Not in squad Styles -->
-  <flags id="nisq" value="tables/custom/squad/row/outside squad/row" />
+	<!-- Not in squad Styles -->
+	<flags id="nisq" value="tables/custom/squad/row/outside squad/row" />
 
-  <boolean id="save_session_state" value="true" />
-  <boolean id="save_default_state" value="true" />
+	<boolean id="save_session_state" value="true" />
+	<boolean id="save_default_state" value="true" />
 
-  <layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
-  <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+	<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
-  <!-- main area -->
-  <container id="main">
+	<!-- main area -->
+	<container id="main">
 	<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="0" gap="10" />
 	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
 	<container class="main_transparent_box" force_title_borders="true" alignment="left" navigation_container="true">
-	  <layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
-	  <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
+		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-	  <container embed_in_frame="true">
+		<container embed_in_frame="true">
 		<attachment_group class="title_embedded_panel_left"/>
 
 		<widget class="view_menu_label" id="TitL">
-		  <translation id="text" translation_id="232113" type="use" value="Players" />
+			<translation id="text" translation_id="232113" type="use" value="Players" />
 		</widget>
 
 		<!-- player view menu -->
 		<widget class="view_menu_popup" id="plvi" auto_tick_exclusive="true" fixed="false" />
 
-	  </container>
+		</container>
 
-	  <container id="ptct">
+		<container id="ptct">
 
 		<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="4" />
 
 		<widget class="tactic_player_list_table" id="pltb" database_table_type="1" mode="fill_rows, stripe_rows, printable, store_sort_state, drag_rows, drag_multiple, drop_on_rows, show_bullets, select_rows, select_multiple" column_mode="resize_columns, move_columns, custom_views">
-		  <global id="override_select_row_flags" name="ui.is_fmt_controller_skin"/>
-		  <boolean id="dont_restore_selection" value="true" />
-		  <boolean id="save_session_state" value="true" />
-		  <boolean id="save_default_state" value="true" />
+			<global id="override_select_row_flags" name="ui.is_fmt_controller_skin"/>
+			<boolean id="dont_restore_selection" value="true" />
+			<boolean id="save_session_state" value="true" />
+			<boolean id="save_default_state" value="true" />
 
-		  <!-- default sort by playing position (primary), then picked position, then name -->
-		  <list id="default_sort_column">
+			<!-- default sort by playing position (primary), then picked position, then name -->
+			<list id="default_sort_column">
 			<integer value="Pinf" />
 			<integer value="Ptwr" />
-		  </list>
+			</list>
 
-		  <!--default view-->
-		  <flags id="default_view" value="alat" />
+			<!--default view-->
+			<flags id="default_view" value="alat" />
 
-		  <list id="Spid">
+			<list id="Spid">
 			<integer value="PpsC"/>
-		  </list>
+			</list>
 
-		  <!--available views-->
-		  <list id="viws">
+			<!--available views-->
+			<list id="viws">
 
 			<record id="alat">
-			  <translation id="text" translation_id="316752" type="use" value="Captain Attributes" />
-			  <record id="view">
+				<translation id="text" translation_id="316752" type="use" value="Captain Attributes" />
+				<record id="view">
 				<flags id="Pshp" />
 				<!-- picked info -->
 				<flags id="Pcar" />
@@ -78,20 +78,20 @@
 				<flags id="PSag" />
 				<!-- age -->
 				<record id="Pinf">
-				  <record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
 				</record>				<!-- influence -->
 				<record id="Ptwr">
-				  <record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
 				</record>				<!-- (m) teamwork -->
-			  </record>
+				</record>
 			</record>
 
 			<record id="----" />
 
 			<record id="stat">
-			  <translation id="text" translation_id="247412" type="use" value="Stats" />
-			  <boolean id="tick" value="false" />
-			  <record id="view">
+				<translation id="text" translation_id="247412" type="use" value="Stats" />
+				<boolean id="tick" value="false" />
+				<record id="view">
 				<flags id="Pshp" />
 				<!-- picked info -->
 				<flags id="Pcar" />
@@ -114,16 +114,16 @@
 				<!-- overall goals -->
 				<record id="Prat" auto_hide_priority="900" />
 				<!-- overall average rating -->
-			  </record>
+				</record>
 
-			  <record id="object_list_view_context">
+				<record id="object_list_view_context">
 				<integer id="player_stats_scope" value="5" />
-			  </record>
+				</record>
 			</record>
 
 			<record id="mora">
-			  <translation id="text" translation_id="227839" type="use" value="Morale" />
-			  <record id="view">
+				<translation id="text" translation_id="227839" type="use" value="Morale" />
+				<record id="view">
 				<flags id="Pshp" />
 				<!-- picked info -->
 				<flags id="Pcar" />
@@ -146,16 +146,16 @@
 				<!-- overall goals -->
 				<record id="Prat" auto_hide_priority="1300" />
 				<!-- overall average rating -->
-			  </record>
+				</record>
 
-			  <record id="object_list_view_context">
+				<record id="object_list_view_context">
 				<integer id="player_stats_scope" value="5" />
-			  </record>
+				</record>
 			</record>
 
 			<record id="posi">
-			  <translation id="text" translation_id="227884" type="use" value="Position" />
-			  <record id="view">
+				<translation id="text" translation_id="227884" type="use" value="Position" />
+				<record id="view">
 				<flags id="Pshp" />
 				<!-- picked info -->
 				<flags id="Pcar" />
@@ -178,18 +178,18 @@
 				<!-- overall goals -->
 				<record id="Prat" auto_hide_priority="1200" />
 				<!-- overall average rating -->
-			  </record>
+				</record>
 
-			  <record id="object_list_view_context">
+				<record id="object_list_view_context">
 				<integer id="player_stats_scope" value="5" />
-			  </record>
+				</record>
 			</record>
 
 			<!-- This view will show the player unique IDs in a list (visible if 'show unique id' preference set) -->
 			<record id="unid">
-			  <translation id="name" translation_id="247858" type="use" value="Unique IDs" />
+				<translation id="name" translation_id="247858" type="use" value="Unique IDs" />
 
-			  <record id="view">
+				<record id="view">
 				<flags id="duni" />
 				<!-- unique id -->
 				<record id="Pnam" person_is_player="true" colour="black"/>
@@ -200,19 +200,19 @@
 				<!-- nationality -->
 				<flags id="Pdva" />
 				<!-- value -->
-			  </record>
+				</record>
 			</record>
-		  </list>
+			</list>
 
 		</widget>
 
-	  </container>
+		</container>
 
 	</container>
 	<!-- players titled box -->
 
-  </container>
-  <!-- main area -->
+	</container>
+	<!-- main area -->
 
 </panel>
 <!-- panel -->

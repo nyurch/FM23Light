@@ -6,5 +6,5 @@
 	<real id="font_size_xlarge" value="12" />
 	<real id="font_size_xxlarge" value="15" />
  
-    <string id="capitalisation" value="upper case" />
+		<string id="capitalisation" value="upper case" />
 </record>

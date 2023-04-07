@@ -2,7 +2,7 @@
 	<string id="file_name" value="GT-America-Standard-Bold.ttf"/>
 	<real id="boldness" value="0.4"/>
 	
-	    <integer id="extra_spacing" value="-2" />
+			<integer id="extra_spacing" value="-2" />
 
 		
 	<list id="shadows">

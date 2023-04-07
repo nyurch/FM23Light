@@ -16,7 +16,7 @@
 				<layout class="arrange_vertical_attachment" alignment="top,extend" gap="12" offset="0" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-				<!--  group box holding instruction table for layout purposes  -->
+				<!--	group box holding instruction table for layout purposes	-->
 				<widget class="table" id="sptt" mode="fill_custom_rows,drop_on_rows" layout="45, -1" sort_disabled="true" row_height="32" row_spacing="2" auto_size="vertical">
 
 					<list id="column_widget_properties">

@@ -9,7 +9,7 @@
 	
 	<real id="boldness" value="0.2" />
 	
-    <integer id="extra_spacing" value="0.2" />
+		<integer id="extra_spacing" value="0.2" />
 	
 	<string id="capitalisation" value="upper case" />
 

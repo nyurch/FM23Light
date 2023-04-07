@@ -132,7 +132,7 @@
 				<integer id="fixed_row_height" value="30" />
 				<string id="select_event" value="slTP" />
 				<string id="customisation_context" value="play" />
-				<string id="mode" value="printable, keyboard, fill_rows, dont_allow_empty_selection,  select_rows,  show_bullets, dont_ask_for_focus" />
+				<string id="mode" value="printable, keyboard, fill_rows, dont_allow_empty_selection,	select_rows,	show_bullets, dont_ask_for_focus" />
 				<integer id="database_table_type" value="1" />
 				<boolean id="should_force_refresh" value="false" />
 				<integer id="row_spacing" value="10" />

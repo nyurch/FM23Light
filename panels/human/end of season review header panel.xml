@@ -50,7 +50,7 @@
 			</container>
 		</container>
 
-		<!-- skip end of season review  -->
+		<!-- skip end of season review	-->
 		<container>
 
 
@@ -58,7 +58,7 @@
 
 	</container>
 
-	<!-- skip end of season review  -->
+	<!-- skip end of season review	-->
 	<container id="debg" hidden="true">
 		<layout class="stick_to_sides_attachment" alignment="top" inset="10" apply_to_children="true" />
 		<layout class="stick_to_sides_attachment" alignment="left" inset="80" apply_to_children="true" />

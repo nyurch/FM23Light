@@ -170,10 +170,10 @@
 							<translation id="text" translation_id="394450" type="use" value="Include[COMMENT: tickbox option to include a stat on a custom chalkboard]" />
 						</widget>
 
-						<widget class="primary_icon_button" id="ok  " auto_size="horizontal" icon="icons/16px/tick" height="30" controller_button="y_button">
+						<widget class="primary_icon_button" id="ok	" auto_size="horizontal" icon="icons/16px/tick" height="30" controller_button="y_button">
 							<translation id="text" translation_id="229829" type="use" value="Ok" />
 							<record id="click_event">
-								<flags id="event_id" value="ok  " />
+								<flags id="event_id" value="ok	" />
 							</record>
 						</widget>
 

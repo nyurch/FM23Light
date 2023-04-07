@@ -6,7 +6,7 @@
 				<flags id="alignment" value="vertical" />
 				<integer id="min_value" value="0" />
 				<integer id="max_value" value="720" />
-				<!-- This is a very large value as we want our widget to show if > the min_value.  The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
+				<!-- This is a very large value as we want our widget to show if > the min_value.	The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
 				<symbol id="set_property" value="height" />
 				<integer id="true_value" value="395" />
 				<integer id="false_value" value="520" />
@@ -15,7 +15,7 @@
 				<flags id="alignment" value="vertical" />
 				<integer id="min_value" value="720" />
 				<integer id="max_value" value="868" />
-				<!-- This is a very large value as we want our widget to show if > the min_value.  The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
+				<!-- This is a very large value as we want our widget to show if > the min_value.	The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
 				<symbol id="set_property" value="height" />
 				<integer id="true_value" value="550" />
 				<integer id="false_value" value="560" />
@@ -24,7 +24,7 @@
 				<flags id="alignment" value="vertical" />
 				<integer id="min_value" value="868" />
 				<integer id="max_value" value="968" />
-				<!-- This is a very large value as we want our widget to show if > the min_value.  The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
+				<!-- This is a very large value as we want our widget to show if > the min_value.	The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
 				<symbol id="set_property" value="height" />
 				<integer id="true_value" value="630" />
 				<integer id="false_value" value="520" />
@@ -33,7 +33,7 @@
 				<flags id="alignment" value="vertical" />
 				<integer id="min_value" value="968" />
 				<integer id="max_value" value="10000" />
-				<!-- This is a very large value as we want our widget to show if > the min_value.  The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
+				<!-- This is a very large value as we want our widget to show if > the min_value.	The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
 				<symbol id="set_property" value="height" />
 				<integer id="true_value" value="730" />
 				<integer id="false_value" value="520" />

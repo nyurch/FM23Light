@@ -72,10 +72,10 @@
 
 			<!-- Show if we have a person -->
 			<!--<record id="object_property">
-          <integer id="get_property" value="Pers"/>
-          <integer id="set_property" value="Shwn"/>
-          <boolean id="dont_set_object" value="true"/>
-        </record>-->
+					<integer id="get_property" value="Pers"/>
+					<integer id="set_property" value="Shwn"/>
+					<boolean id="dont_set_object" value="true"/>
+				</record>-->
 
 			<widget class="picture" file="icons/16px/sub off" auto_size="horizontal" image_alignment="centre">
 				<translation id="hint" translation_id="260360" type="use" value="Out[COMMENT: transfers section; title for box showing players out]" />

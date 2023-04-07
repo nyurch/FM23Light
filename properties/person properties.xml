@@ -378,7 +378,7 @@
 			<!-- removed for FM16, needs a FR to decide what goes in the list -->
 			<!--<record id="search_filter">
 		<integer id="id" value="pfpu" />
-	  </record>-->
+		</record>-->
 		</record>
 
 		<!-- Full player status for the person search panel -->
@@ -3233,7 +3233,7 @@
 			<record id="widget_info">
 				<symbol id="class" value="wage_label" />
 				<integer id="format" value="82" />
-				<!-- format takes a bit mask as a parameter, the format needed here is the combination of WSF_LONG_NUMBER and WSF_LONG_TEXT(default) plus WSF_SHOW_LOW_VALUES  -->
+				<!-- format takes a bit mask as a parameter, the format needed here is the combination of WSF_LONG_NUMBER and WSF_LONG_TEXT(default) plus WSF_SHOW_LOW_VALUES	-->
 			</record>
 
 			<record id="column_widget_properties">
@@ -3263,7 +3263,7 @@
 			<record id="widget_info">
 				<symbol id="class" value="wage_label" />
 				<integer id="format" value="82" />
-				<!-- format takes a bit mask as a parameter, the format needed here is the combination of WSF_LONG_NUMBER and WSF_LONG_TEXT(default) plus WSF_SHOW_LOW_VALUES  -->
+				<!-- format takes a bit mask as a parameter, the format needed here is the combination of WSF_LONG_NUMBER and WSF_LONG_TEXT(default) plus WSF_SHOW_LOW_VALUES	-->
 			</record>
 
 			<record id="column_widget_properties">
@@ -5723,7 +5723,7 @@
 			<!-- can't put a filter on this yet as it shows two values-->
 			<!--<record id="search_filter">
 		<integer id="id" value="pfpc"/>
-	  </record>-->
+		</record>-->
 		</record>
 
 		<record>
@@ -5775,7 +5775,7 @@
 			</record>
 			<!--<record id="search_filter">
 				<integer id="id" value="ptrl" />
-			  </record>-->
+				</record>-->
 		</record>
 
 		<!--transfer status selection button-->
@@ -5803,7 +5803,7 @@
 			</record>
 			<!--<record id="search_filter">
 				<integer id="id" value="ptrl" />
-			  </record>-->
+				</record>-->
 		</record>
 
 		<!--player interest in joining-->
@@ -15501,7 +15501,7 @@
 			</record>
 
 			<list id="dependent_properties">
-				<!-- To determine if person is human,  don't edit these for humans as it doesn't make sense -->
+				<!-- To determine if person is human,	don't edit these for humans as it doesn't make sense -->
 				<integer value="Pihu" />
 			</list>
 
@@ -15539,7 +15539,7 @@
 			</record>
 
 			<list id="dependent_properties">
-				<!-- To determine if person is human,  don't edit these for humans as it doesn't make sense -->
+				<!-- To determine if person is human,	don't edit these for humans as it doesn't make sense -->
 				<integer value="Pihu" />
 			</list>
 
@@ -15577,7 +15577,7 @@
 			</record>
 
 			<list id="dependent_properties">
-				<!-- To determine if person is human,  don't edit these for humans as it doesn't make sense -->
+				<!-- To determine if person is human,	don't edit these for humans as it doesn't make sense -->
 				<integer value="Pihu" />
 			</list>
 
@@ -15615,7 +15615,7 @@
 			</record>
 
 			<list id="dependent_properties">
-				<!-- To determine if person is human,  don't edit these for humans as it doesn't make sense -->
+				<!-- To determine if person is human,	don't edit these for humans as it doesn't make sense -->
 				<integer value="Pihu" />
 			</list>
 
@@ -19092,7 +19092,7 @@
 			</record>
 		</record>
 
-		<!--nation  win percentage-->
+		<!--nation	win percentage-->
 		<record>
 			<integer id="id" value="Ntgr" />
 			<flags id="mode" value="invalid_for_versus_mode" />
@@ -19994,7 +19994,7 @@
 			<!-- nothing for a filter yet -->
 			<!--<record id="search_filter">
 		<integer id="id" value="pfrd" />
-	  </record>-->
+		</record>-->
 		</record>
 
 		<!-- team talk -->
@@ -25095,7 +25095,7 @@
 
 			<record id="column_heading">
 				<flags id="alignment" value="left,centre_y" />
-				<translation id="text" translation_id="557922" type="use" value="PsU[COMMENT: three letter abbreviation for Unsuccessful Passes, player stat type,  passes that were unsuccessful]" />
+				<translation id="text" translation_id="557922" type="use" value="PsU[COMMENT: three letter abbreviation for Unsuccessful Passes, player stat type,	passes that were unsuccessful]" />
 				<translation id="hint" translation_id="557915" type="use" value="Unsuccessful Passes[COMMENT: player stat type, passes that were unsuccessful]" />
 			</record>
 		</record>
@@ -26380,26 +26380,26 @@
 		<!-- DUAL MATCH STATS -->
 		<!-- Passing Total/Complete -->
 		<!--<record>
-	  <integer id="id" value="tCmP" />
-	  <integer id="width" value="80" />
-	  <flags id="customisation_context" value="none" />
-	  <translation id="category" translation_id="247439" type="use" value="Match Stats" />
-	  <translation id="name" translation_id="441150" type="use" value="Total/Complete[COMMENT: match stats title showing a given stat in total and completed]" />
+		<integer id="id" value="tCmP" />
+		<integer id="width" value="80" />
+		<flags id="customisation_context" value="none" />
+		<translation id="category" translation_id="247439" type="use" value="Match Stats" />
+		<translation id="name" translation_id="441150" type="use" value="Total/Complete[COMMENT: match stats title showing a given stat in total and completed]" />
 
-	  <record id="widget_info">
+		<record id="widget_info">
 		<symbol id="class" value="chalkboard_toggle_event" />
 		<string id="file" value="match/players chalkboard toggle event" />
-	  </record>
+		</record>
 
-	  <record id="column_widget_properties">
+		<record id="column_widget_properties">
 		<flags id="alignment" value="left,centre_y" />
-	  </record>
+		</record>
 
-	  <record id="column_heading">
+		<record id="column_heading">
 		<flags id="alignment" value="left,centre_y" />
 		<translation id="text" translation_id="441151" type="use" value="Tot/Cmp[COMMENT: match stats title showing a given stat in Total and Completed, abbreviated version]" />
 		<translation id="hint" translation_id="441152" type="use" value="Total/Completed Passes[COMMENT: match stats title showing a given stat in total and completed]" />
-	  </record>
+		</record>
 	</record>-->
 
 		<!-- Passing Total/Complete -->

@@ -37,8 +37,8 @@
 
 		<!--list of home grown players
 		<widget class="link_button" id="hgpl" alignment="right,centre_y" auto_size="all">
-		  <translation id="text" type="new" value="Home Grown Players[COMMENT: FR13749 - title for a panel showing a list of home grown players]" />
-		  <layout class="stick_to_sides_attachment" alignment="right" />
+			<translation id="text" type="new" value="Home Grown Players[COMMENT: FR13749 - title for a panel showing a list of home grown players]" />
+			<layout class="stick_to_sides_attachment" alignment="right" />
 		</widget>-->
 
 		<widget class="client_object_list_table" id="pltb" database_table_type="1" mode="fill_rows, stripe_rows, printable, keyboard, dont_ask_for_focus" row_height="28" auto_size="vertical">

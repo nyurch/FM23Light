@@ -78,10 +78,10 @@
 	<!--little icons for doing stuff in multiplayer games-->
 	<!--text showing continue game timeout-->
 	<!--<widget class="button" width="39" height="14" size="7" alignment="centre" style="semi_bold" appearance="buttons/custom/network game/button" font="fonts/button">
-	  <layout class="stick_to_sides_attachment" alignment="bottom" inset="1" />
-	  <layout class="stick_to_sides_attachment" alignment="left" inset="0" />
-	  <attachment class="get_global_attachment" get_property="CTTx" set_property="text" />
-	  <attachment class="test_global_attachment" get_property="CTTx" mode="0" value="" set_property="hidn" />
+		<layout class="stick_to_sides_attachment" alignment="bottom" inset="1" />
+		<layout class="stick_to_sides_attachment" alignment="left" inset="0" />
+		<attachment class="get_global_attachment" get_property="CTTx" set_property="text" />
+		<attachment class="test_global_attachment" get_property="CTTx" mode="0" value="" set_property="hidn" />
 	</widget>-->
 
 

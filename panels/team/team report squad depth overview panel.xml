@@ -21,8 +21,8 @@
 				<widget class="pitch_with_squad_depth" id="psdh" width="900" vertical="false" pitch_alignment="centre_x,top" pitch_draw_goals="true" pitch_draw_markings="true" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="false" pitch_line_colour="faded white" pitch_touchline_width_percentage="1" pitch_perspective="0.0" pitch_override_icon_size="2" line_width="1.4" pitch_vertical_padding="0" disable_animations="true">
 
 					<!-- Set the icon to use for people on the pitch. The icon will first look for a size that matches the pitch's size, for instance 'pitch/icons/kit/tiny/kit' or 'pitch/icons/kit/medium/kit'.
-			  If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
-			  can just provide the base and not worry about the tiny/small/medium/large size categories -->
+				If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
+				can just provide the base and not worry about the tiny/small/medium/large size categories -->
 					<string id="pitch_kit_icon" value="pitch/icons/dots" />
 				</widget>
 			</container>
@@ -40,8 +40,8 @@
 					<widget class="pitch_with_squad_depth" id="psdv" height="830" vertical="false" pitch_alignment="centre_x,top" pitch_draw_goals="true" pitch_draw_markings="true" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="false" pitch_line_colour="faded white" pitch_touchline_width_percentage="1" pitch_perspective="0.0" pitch_override_icon_size="2" line_width="1.4" pitch_vertical_padding="0" disable_animations="true">
 
 						<!-- Set the icon to use for people on the pitch. The icon will first look for a size that matches the pitch's size, for instance 'pitch/icons/kit/tiny/kit' or 'pitch/icons/kit/medium/kit'.
-				  If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
-				  can just provide the base and not worry about the tiny/small/medium/large size categories -->
+					If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
+					can just provide the base and not worry about the tiny/small/medium/large size categories -->
 						<string id="pitch_kit_icon" value="pitch/icons/dots" />
 					</widget>
 				</container>
@@ -121,7 +121,7 @@
 				<container navigation_container="false">
 					<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="right" horizontal_offset="0" horizontal_gap="8" vertical_inset="0"/>
 
-					<!--  Customisation toggle -->
+					<!--	Customisation toggle -->
 					<container width="200" id="cusC">
 
 						<string id="remove_if" value="ui.is_fmt_controller_skin"/>
@@ -138,13 +138,13 @@
 							<layout class="arrange_horizontal_attachment" alignment="left" gap="1" offset="0" />
 
 							<widget class="radio_toggle_switch_left" id="cuon" select_event="CusN" fixed="false" auto_size="all" width="55">
-								<!--  Ignore the comments on these strings, they're just reused from elsewhere -->
+								<!--	Ignore the comments on these strings, they're just reused from elsewhere -->
 								<translation id="text" translation_id="332255" type="use" value="On[COMMENT: label for a radio button to turn sound on]" />
-								<!--  Customisation toggle -->
+								<!--	Customisation toggle -->
 							</widget>
 
 							<widget class="radio_toggle_switch_right" id="cuof" select_event="CusF" fixed="false" auto_size="all" width="55">
-								<!--  Ignore the comments on these strings, they're just reused from elsewhere -->
+								<!--	Ignore the comments on these strings, they're just reused from elsewhere -->
 								<translation id="text" translation_id="332254" type="use" value="Off[COMMENT: label for a radio button to turn sound off]" />
 							</widget>
 
@@ -162,7 +162,7 @@
 
 					<widget class="vertical_divider" width="1"/>
 
-					<!--  filter button -->
+					<!--	filter button -->
 					<container width="120">
 						<layout class="arrange_vertical_attachment" alignment="bottom" gap="2" offset="0" />
 						<layout class="stick_to_sides_attachment" alignment="right" inset="0" apply_to_children="true" />

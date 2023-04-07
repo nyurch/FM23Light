@@ -1,31 +1,31 @@
 <panel version="1.0">
 
-  <!-- this screen is the graph and list of teams you see when you click a position in a league table -->
+	<!-- this screen is the graph and list of teams you see when you click a position in a league table -->
 
-  <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-  <!-- league progress graph -->
-  <widget class="main_box" id="ttbx">
+	<!-- league progress graph -->
+	<widget class="main_box" id="ttbx">
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 	<translation id="title" translation_id="247207" type="use" value="World Rankings" />
 
 	<widget class="graph" id="grph">
-	  <record id="default_series_properties" type="line" colour="selection" line_width="2" />
-	  <record id="instant_hint" format="[%number#1-nth]" />
-	  <record id="x_axis" format="[%fraction#1-3.0]">
+		<record id="default_series_properties" type="line" colour="selection" line_width="2" />
+		<record id="instant_hint" format="[%number#1-nth]" />
+		<record id="x_axis" format="[%fraction#1-3.0]">
 		<record id="label_font" colour="faded black"/>
 		<translation id="title" translation_id="230120" type="use" value="Date" />
-	  </record>
-	  <record id="y_axis" interval="5" format="[%fraction#1-3.0]">
+		</record>
+		<record id="y_axis" interval="5" format="[%fraction#1-3.0]">
 		<record id="label_font" colour="faded black"/>
 		<translation id="title" translation_id="347290" type="use" value="Position[COMMENT: average points fate action type, teams in this position get this fate]" />
-	  </record>
-	  <list id="grid_line_styles">
+		</record>
+		<list id="grid_line_styles">
 		<record colour="graph row" />
 		<record colour="graph row" />
-	  </list>
+		</list>
 	</widget>
-  </widget>
+	</widget>
 
 </panel>

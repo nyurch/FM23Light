@@ -172,7 +172,7 @@
 				<translation id="text" translation_id="394819" type="use" value="[%person#1-You] cannot make a contract offer for this player.[COMMENT: FR 10141, contract information; can't be offered a contract]" />
 			</widget>
 			<widget class="text" id="lvcr" auto_size="vertical" alignment="centre" size="10">
-				<translation id="text" translation_id="443665" type="use" value="[%person#1-You] are leaving the club in the near future and are therefore unable enter into contract negotiations.[COMMENT:  contract information; can't be offered a contract]" />
+				<translation id="text" translation_id="443665" type="use" value="[%person#1-You] are leaving the club in the near future and are therefore unable enter into contract negotiations.[COMMENT:	contract information; can't be offered a contract]" />
 			</widget>
 		</container>
 

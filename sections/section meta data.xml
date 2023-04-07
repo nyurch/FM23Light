@@ -66,7 +66,7 @@ this file contains a list of all of the sections in the game
 			<symbol id="class" value="interaction_header_panel" />
 			<record id="widget_properties">
 				<integer id="height" value="55" />
-				<flags id="id  " value="IntH" />
+				<flags id="id	" value="IntH" />
 			</record>
 		</record>
 	</set_var>
@@ -106,7 +106,7 @@ this file contains a list of all of the sections in the game
 			<record id="widget_properties">
 				<integer id="room_type" value="changing_room" />
 				<symbol id="room_name" value="changing_room_environment" />
-				<flags id="id  " value="chCN" />
+				<flags id="id	" value="chCN" />
 			</record>
 		</record>
 	</set_var>
@@ -118,7 +118,7 @@ this file contains a list of all of the sections in the game
 			<record id="widget_properties">
 				<integer id="room_type" value="post_match_changing_room" />
 				<symbol id="room_name" value="post_match_changing_room_environment" />
-				<flags id="id  " value="pMch" />
+				<flags id="id	" value="pMch" />
 			</record>
 		</record>
 	</set_var>
@@ -130,7 +130,7 @@ this file contains a list of all of the sections in the game
 			<record id="widget_properties">
 				<integer id="room_type" value="boardroom" />
 				<symbol id="room_name" value="boardroom_environment" />
-				<flags id="id  " value="brEn" />
+				<flags id="id	" value="brEn" />
 			</record>
 		</record>
 	</set_var>
@@ -142,7 +142,7 @@ this file contains a list of all of the sections in the game
 			<record id="widget_properties">
 				<integer id="room_type" value="manager_office" />
 				<symbol id="room_name" value="manager_environment" />
-				<flags id="id  " value="mEnv" />
+				<flags id="id	" value="mEnv" />
 			</record>
 		</record>
 	</set_var>
@@ -154,7 +154,7 @@ this file contains a list of all of the sections in the game
 			<record id="widget_properties">
 				<integer id="room_type" value="pre_match_briefing" />
 				<symbol id="room_name" value="pre_match_briefing_environment" />
-				<flags id="id  " value="pMBR" />
+				<flags id="id	" value="pMBR" />
 			</record>
 		</record>
 	</set_var>
@@ -166,7 +166,7 @@ this file contains a list of all of the sections in the game
 			<record id="widget_properties">
 				<integer id="room_type" value="team_meeting" />
 				<symbol id="room_name" value="team_meeting_environment" />
-				<flags id="id  " value="tmEN" />
+				<flags id="id	" value="tmEN" />
 			</record>
 		</record>
 	</set_var>
@@ -178,7 +178,7 @@ this file contains a list of all of the sections in the game
 			<record id="widget_properties">
 				<integer id="room_type" value="interview_area" />
 				<symbol id="room_name" value="interview_environment" />
-				<flags id="id  " value="inRM" />
+				<flags id="id	" value="inRM" />
 			</record>
 		</record>
 	</set_var>
@@ -192,7 +192,7 @@ this file contains a list of all of the sections in the game
 					<integer id="room_type" value="boardroom" />
 					<symbol id="room_name" value="boardroom_environment" />
 					<string id="file" value="backgrounds/player tunnel" />
-					<flags id="id  " value="brEn" />
+					<flags id="id	" value="brEn" />
 				</record>
 			</record>
 		</record>
@@ -205,7 +205,7 @@ this file contains a list of all of the sections in the game
 			<record id="widget_properties">
 				<integer id="room_type" value="cup_draw" />
 				<symbol id="room_name" value="cup_draw_environment" />
-				<flags id="id  " value="cdEn" />
+				<flags id="id	" value="cdEn" />
 			</record>
 		</record>
 	</set_var>
@@ -214,7 +214,7 @@ this file contains a list of all of the sections in the game
 		<record>
 			<symbol id="class" value="match_footer_panel" />
 			<record id="widget_properties">
-				<flags id="id  " value="cmif" />
+				<flags id="id	" value="cmif" />
 				<flags id="auto_size" value="vertical" />
 			</record>
 		</record>
@@ -980,7 +980,7 @@ this file contains a list of all of the sections in the game
 				<record id="widget_properties">
 					<integer id="room_type" value="press_conference_room" />
 					<integer id="room_name" value="press_environment" />
-					<flags id="id  " value="prCN" />
+					<flags id="id	" value="prCN" />
 				</record>
 			</record>
 			<integer id="main_content_margin" value="0" />
@@ -996,7 +996,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="container" />
 				<record id="widget_properties">
 					<integer id="height" value="50" />
-					<flags id="id  " value="TrMH" />
+					<flags id="id	" value="TrMH" />
 					<symbol id="file" value="human/end of season review header panel" />
 				</record>
 			</record>
@@ -1018,7 +1018,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="recruitment_meeting_header_panel" />
 				<record id="widget_properties">
 					<integer id="height" value="50" />
-					<flags id="id  " value="TrMH" />
+					<flags id="id	" value="TrMH" />
 				</record>
 			</record>
 			<var id="custom_background_scene_data" name="boardroom_scene" />
@@ -1034,7 +1034,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="container" />
 				<record id="widget_properties">
 					<integer id="height" value="50" />
-					<flags id="id  " value="BaMH" />
+					<flags id="id	" value="BaMH" />
 					<symbol id="file" value="human/backroom advice meeting header panel" />
 				</record>
 			</record>
@@ -1055,7 +1055,7 @@ this file contains a list of all of the sections in the game
 				<record id="widget_properties">
 					<integer id="room_type" value="press_conference_room" />
 					<integer id="room_name" value="press_environment" />
-					<flags id="id  " value="prCN" />
+					<flags id="id	" value="prCN" />
 				</record>
 			</record>
 			<integer id="main_content_margin" value="0" />
@@ -1569,7 +1569,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="club_vision_meeting_header_panel" />
 				<record id="widget_properties">
 					<integer id="height" value="60" />
-					<flags id="id  " value="CVhd" />
+					<flags id="id	" value="CVhd" />
 				</record>
 			</record>
 			<var id="custom_background_scene_data" name="boardroom_scene" />
@@ -1753,7 +1753,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="welcome_to_team_header_panel" />
 				<record id="widget_properties">
 					<integer id="height" value="50" />
-					<flags id="id  " value="WChd" />
+					<flags id="id	" value="WChd" />
 				</record>
 			</record>
 			<var id="custom_background_scene_data" name="welcome_pack_scene" />
@@ -2308,7 +2308,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="container" />
 				<record id="widget_properties">
 					<integer id="height" value="50" />
-					<flags id="id  " value="TrMH" />
+					<flags id="id	" value="TrMH" />
 					<symbol id="file" value="human/dynamic manager timeline header panel" />
 				</record>
 			</record>
@@ -4566,10 +4566,10 @@ this file contains a list of all of the sections in the game
 		</record>
 
 		<!--<record id="smap" section="smap">
-	  <translation id="text" translation_id="251341" type="use" value="Debug[COMMENT: preferences: debug settings section (short) name]" />
-	  <record id="widget_info">
+		<translation id="text" translation_id="251341" type="use" value="Debug[COMMENT: preferences: debug settings section (short) name]" />
+		<record id="widget_info">
 		<symbol id="class" value="scouting_map_panel" />
-	  </record>
+		</record>
 	</record>-->
 
 		<!-- Pre Match Briefing -->
@@ -4609,7 +4609,7 @@ this file contains a list of all of the sections in the game
 
 		<!-- Pre Match Tactical Advice -->
 		<record id="phTA" section="phTA">
-			<translation id="title" translation_id="515091" type="use" value="Pre-Match Tactical Advice[COMMENT: AREA: Pre-match advice tab; SUB-AREA:  a sub-tab for the pre-match advice panl; BN: 35836; TONE: Formal; CHARLIMIT: none; REF-ID: n/a; NOTE; showing the main and cirtical pre-match advices]" />
+			<translation id="title" translation_id="515091" type="use" value="Pre-Match Tactical Advice[COMMENT: AREA: Pre-match advice tab; SUB-AREA:	a sub-tab for the pre-match advice panl; BN: 35836; TONE: Formal; CHARLIMIT: none; REF-ID: n/a; NOTE; showing the main and cirtical pre-match advices]" />
 			<record id="widget_info">
 				<symbol id="class" value="prematch_tactical_advice_panel" />
 				<integer id="team_index" value="0" />
@@ -4624,7 +4624,7 @@ this file contains a list of all of the sections in the game
 		</record>
 
 		<record id="paTA" section="paTA">
-			<translation id="title" translation_id="515091" type="use" value="Pre-Match Tactical Advice[COMMENT: AREA: Pre-match advice tab; SUB-AREA:  a sub-tab for the pre-match advice panl; BN: 35836; TONE: Formal; CHARLIMIT: none; REF-ID: n/a; NOTE; showing the main and cirtical pre-match advices]" />
+			<translation id="title" translation_id="515091" type="use" value="Pre-Match Tactical Advice[COMMENT: AREA: Pre-match advice tab; SUB-AREA:	a sub-tab for the pre-match advice panl; BN: 35836; TONE: Formal; CHARLIMIT: none; REF-ID: n/a; NOTE; showing the main and cirtical pre-match advices]" />
 			<record id="widget_info">
 				<symbol id="class" value="prematch_tactical_advice_panel" />
 				<integer id="team_index" value="1" />

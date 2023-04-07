@@ -18,7 +18,7 @@
 		</widget>
 
 		<!-- We might want more customisation, in that case we'll have to allow this 
-    panel to have its name props and value props set by client object biopic-->
+		panel to have its name props and value props set by client object biopic-->
 		<container class="client_object_label_value_table" id="mini" auto_size="vertical">
 			<!--this record contains any properties you want to pass on to the table-->
 			<record id="table_properties">
