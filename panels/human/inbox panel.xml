@@ -50,7 +50,7 @@
 		<!-- This extra container layer ('indm') is used for holding a modal_popup_panel. We would prefer to use the 'indp' panel below but cannot due to bug #68215 -->
 
 		<container>
-			<attachment_group class="horizontal_arrange" horizontal_layout="-3, -9" horizontal_offset="0" horizontal_gap="0" vertical_inset="0">
+			<attachment_group class="horizontal_arrange" horizontal_layout="-3, 1, -9" horizontal_offset="0" horizontal_gap="0" vertical_inset="0">
 			</attachment_group>
 
 			<container class="main_box_no_margin" id="LIST" draw_horizontal_dividers="true">
@@ -78,6 +78,8 @@
 					</widget>
 				</container>
 			</container>
+
+			<widget class="vertical_divider" />
 
 			<widget class="news_item_panel" id="nitp" file="human/inbox item"/>
 
