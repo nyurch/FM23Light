@@ -45,7 +45,7 @@
 		</container>
 	</container>
 
-	<widget class="table" id="mstn" layout="-1,-2,-1" mode="stripe_rows, printable" auto_size_rows="true" fixed_size_rows="false"  row_spacing="0" navigation_focus_target="true">
+	<widget class="table" id="mstn" layout="-1,-2,-1" mode="stripe_rows, printable" auto_size_rows="true" fixed_size_rows="false" row_spacing="0" navigation_focus_target="true">
 
 		<list id="headings">
 			<record alignment="left,centre_y" id="m_HH" font="title">

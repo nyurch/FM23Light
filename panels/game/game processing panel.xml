@@ -49,7 +49,7 @@
           <layout class="arrange_horizontal_attachment" layout="-1,-1" gap="0" offset="0" />
           <layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-          <container class="available_jobs_summary_panel" id="ajsn" file="game/processing available jobs summary"  IgnA="true"/>
+          <container class="available_jobs_summary_panel" id="ajsn" file="game/processing available jobs summary" IgnA="true"/>
           <container class="insecure_jobs_summary_panel" id="ijsn" file="game/processing insecure jobs summary" />
         </container>
 
@@ -143,23 +143,23 @@
     <container class="main_box" id="tikC" appearance="boxes/custom/prozone/paper" height="50">
       <layout class="arrange_horizontal_attachment" layout="140, -1" offset="0" gap="40" />
       <layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
-		
-	  <!-- prozone -->
+
+      <!-- prozone -->
       <container>
         <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-		  <!-- TODO:: Matt W 26/09/2019 - Bug 13328 removed prozone branding, revisit when known what replacement is-->
+        <!-- TODO:: Matt W 26/09/2019 - Bug 13328 removed prozone branding, revisit when known what replacement is-->
         <widget class="picture" width="90" image_alignment="centre" file="icons/custom/prozone/logo" scale_picture="false"/>
       </container>
 
-      <widget class="animated_wipe_fade_container" id="tick" wipe_data_trigger_id="objt" >
+      <widget class="animated_wipe_fade_container" id="tick" wipe_data_trigger_id="objt">
         <record id="widget_info" class="property_list_viewer_xml_panel" file="game/processing prozone panel" alignment="left,centre_y" colour="text"/>
       </widget>
     </container>
 
-		<!-- Footer with hints -->
-		<container background_colour="processing_hints_background" height="85">
-			<layout class="arrange_horizontal_attachment" layout="180, 2, -1, 200" offset="0" gap="10" />
-			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+    <!-- Footer with hints -->
+    <container background_colour="processing_hints_background" height="85">
+      <layout class="arrange_horizontal_attachment" layout="180, 2, -1, 200" offset="0" gap="10" />
+      <layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
       <widget class="text" colour="gold" style="semi_bold" size="14" alignment="right,centre_y">
         <translation id="text" translation_id="254534" type="use" value="Hints and Tips[COMMENT: Progress bar panel - Title of the panel containing the hints and tips, that are displayed while loading and saving.]" />

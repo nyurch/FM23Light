@@ -38,7 +38,7 @@ this file contains a list of all of the sections in the game
         <record id="nslo" human_object_type="HOTc" />
       </list>
     </record>
-    
+
     <record id="tcPL">
       <translation id="text" translation_id="296467" type="use" value="National Teams[COMMENT - list of nations which can be managed on the add manager screen]" />
       <list id="items">
@@ -95,7 +95,7 @@ this file contains a list of all of the sections in the game
       <list id="items">
         <!--memners-->
         <record id="tcaz"/>
-         <!--<record id="tcsS"/>
+        <!--<record id="tcsS"/>
         <record id="tcsO"/>-->
         <!--responsibilities-->
         <record id="mnop"/>

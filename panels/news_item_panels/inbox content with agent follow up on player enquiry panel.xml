@@ -27,7 +27,7 @@
 			<record id="label_widget_properties" />
 			<record id="value_widget_properties" auto_size="horizontal" alignment="left, centre_y" />
 		</widget>
-		
+
 		<!--value label-->
 		<widget class="client_object_property_labelled_panel" id="Pscr" property="PsRK" height="60">
 			<record id="label_widget_properties" />

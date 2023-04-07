@@ -40,7 +40,7 @@
 			</widget>
 
 			<!-- personality_label -->
-			<widget class="personality_label"  auto_size="vertical" size="small" colour="faded text">
+			<widget class="personality_label" auto_size="vertical" size="small" colour="faded text">
 				<record id="object_property" dont_set_hint="true" get_property="PPst"/>
 			</widget>
 		</container>

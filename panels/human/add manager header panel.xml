@@ -4,11 +4,11 @@
 
 
 	<boolean id="should_force_refresh" value="true"/>
-	
+
 	<list id="properties_to_forward">
 		<record get_property="titl" set_property="text" target="titl"/>
 	</list>
-	
+
 	<container class="main_box" appearance="boxes/custom/full screen header/paper">
 		<layout class="arrange_horizontal_attachment" alignment="left, extend" gap="10">
 			<global id="offset" name="ui.safe_area_left"/>

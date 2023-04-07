@@ -22,7 +22,7 @@
 						<layout class="stick_to_sides_attachment" alignment="left" inset="0"/>
 					</widget>
 
-					<widget class="object_portrait_picture"  image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"  width="80">
+					<widget class="object_portrait_picture" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" width="80">
 						<layout class="stick_to_sides_attachment" alignment="right" inset="0"/>
 						<record id="object_property">
 							<integer id="get_property" value="objt"/>
@@ -43,7 +43,7 @@
 					</widget>
 
 					<!-- Age -->
-					<widget class="game_formatted_label"  alignment="left,centre_y" auto_size="vertical" colour="faded text" >
+					<widget class="game_formatted_label" alignment="left,centre_y" auto_size="vertical" colour="faded text">
 						<record id="format">
 							<translation id="text" translation_id="388547" type="use" value="[%number#1] year-old [%player_description#2][COMMENT: transfer window opening news, rumoured player moving, graphical display]"/>
 							<integer id="var2" value="vf_player_description"/>
@@ -82,23 +82,23 @@
 			<translation id="text" translation_id="348255" type="use" value="Player stats[COMMENT: Pre match stat pack panel; title of section showing a table of top players stats comparison]" />
 		</widget>
 	</container>
-	
+
 	<!--no player stats to show-->
 	<widget class="text" id="ncmp" multiline="true" auto_size="vertical" alignment="centre">
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
 
 		<translation id="text" translation_id="420718" type="use" value="No competitive matches played.[COMMENT: FR13703 - string to show the player has not played any competitive matches]" />
 	</widget>
-	
+
 	<!-- player stats -->
 	<container class="player_stats_grid_panel" id="plst" height="80" minimum_width="150">
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
-		
+
 		<record id="object_property">
 			<integer id="get_property" value="objt"/>
 			<integer id="set_property" value="objt"/>
 		</record>
-		
+
 		<!--list of properties we want in addition to the standard stats properties per position-->
 		<list id="rvpi">
 			<integer value="Pcex"/>
@@ -112,6 +112,6 @@
 
 	<!-- player loan stats -->
 	<container class="player_loan_information_panel" id="plip"/>
-	
+
 	<container class="team_current_injuries_panel" id="cuip" navigation_container="true"/>
 </panel>

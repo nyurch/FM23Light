@@ -56,8 +56,8 @@
 				<string id="style" value="bold"/>
 				<string id="colour" value="text"/>
 				<layout class="stick_to_object_attachment" id="alPt" get_side="top" set_side="top" move_side="true" target="main"/>
-				<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left"  target="main"/>
-				<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right"  target="main"/>
+				<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left" target="main"/>
+				<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right" target="main"/>
 			</widget>
 			<widget class="position_label" entity_layout_id="at03" id="pstx" alignment="centre_y,left" auto_size="vertical" needs_height="true">
 				<string id="standard_spec" value="text"/>
@@ -66,7 +66,7 @@
 				<string id="colour" value="faded text"/>
 				<layout class="stick_to_object_attachment" id="alPt" offset="2" get_side="bottom" set_side="top" move_side="true" target="at02"/>
 				<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left" target="main"/>
-				<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right"  target="main"/>
+				<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right" target="main"/>
 			</widget>
 			<widget class="playing_time_label" entity_layout_id="at04" id="stlb" alignment="left">
 				<string id="standard_spec" value="text"/>
@@ -77,7 +77,7 @@
 				<layout class="stick_to_object_attachment" id="alPt" offset="2" get_side="bottom" set_side="top" target="at03"/>
 				<layout class="stick_to_object_attachment" id="alPb" get_side="bottom" set_side="bottom" target="main"/>
 				<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left" target="main"/>
-				<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right"  target="main"/>
+				<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right" target="main"/>
 			</widget>
 		</container>
 	</container>

@@ -35,10 +35,10 @@
             </widget>
 
             <container class="scrolling_box">
-            <container id="plai" hidden="true">
-                <attachment_group class="vertical_arrange_autosize" vertical_alignment="bottom, fill"/>
+                <container id="plai" hidden="true">
+                    <attachment_group class="vertical_arrange_autosize" vertical_alignment="bottom, fill"/>
 
-                <widget class="text" auto_size="vertical" alignment="left, centre_y" colour="text"/>
+                    <widget class="text" auto_size="vertical" alignment="left, centre_y" colour="text"/>
                 </container>
             </container>
         </container>

@@ -15,14 +15,14 @@
 			</widget>
 		</container>
 
-		<widget class="graph" id="grap" >
+		<widget class="graph" id="grap">
 
 			<record id="default_series_properties" colour="accent" type="line" line_width="2" />
 			<record id="instant_hint" file="generic/graph instant hint star rating" />
 			<record id="x_axis" hide_title="true" consistent_label_width="true" gap="3">
 				<record id="label_font" colour="faded black"/>
 			</record>
-			<record id="y_axis" interval="1"  show_labels="false" >
+			<record id="y_axis" interval="1" show_labels="false">
 				<translation id="title" translation_id="314426" type="use" value="Ability[COMMENT: player popup info panel - scout current ability rating]"/>
 				<translation id="hint" translation_id="257318" type="use" value="Assistant manager's opinion of this player's current ability[COMMENT - person list view column heading hint]"/>
 			</record>

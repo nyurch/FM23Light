@@ -30,7 +30,7 @@
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="5" horizontal_inset="0" />
 
 				<record id="default_properties" auto_size="vertical" />
-				
+
 				<!--name-->
 				<widget class="person_button" id="name" info_popup_enabled="false" disable_link="true" size="large" style="bold" colour="black">
 					<record id="object_property">

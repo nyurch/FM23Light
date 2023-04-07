@@ -20,7 +20,7 @@
 
 					<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" horizontal_inset="0" horizontal_gap="16"/>
 					<layout class="stick_to_sides_attachment" alignment="top, left" inset="2" />
-					
+
 					<container height="68">
 						<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" horizontal_gap="8" horizontal_offset="10"/>
 
@@ -33,7 +33,7 @@
 
 						<container height="68">
 							<attachment_group class="vertical_arrange_horizontal_autosize" vertical_alignment="middle" horizontal_inset="0" vertical_offset="0" vertical_gap="2" />
-							
+
 							<widget class="client_object_property_panel" property="Pnms" height="20">
 								<record id="object_property">
 									<list id="get_properties">
@@ -183,7 +183,7 @@
 							</container>
 						</container>
 					</container>
-					
+
 					<widget class="client_object_property_panel" property="PSpi">
 						<layout class="centre_in_parent_attachment" alignment="vertical"/>
 
@@ -215,7 +215,7 @@
 							</list>
 						</record>
 						<record id="widget_info" width="60" height="25"/>
-					</widget>				
+					</widget>
 				</container>
 
 				<container>
@@ -235,11 +235,11 @@
 							</list>
 						</record>
 					</widget>
-					
+
 					<widget class="text" colour="faded text" auto_size="all">
 						<record id="object_property" get_property="date" set_property="valu" />
-					</widget>					
-					
+					</widget>
+
 				</container>
 			</container>
 
@@ -258,7 +258,7 @@
 								<record id="object_property" get_property="text" set_property="text" />
 							</widget>
 						</container>
-						
+
 						<!--Key- and other reasons subpanel (panel autosizes)-->
 						<widget class="player_reports_overview_summary_panel" file="player/player reports overview summary vertical scouting card" mode="6">
 							<record id="object_property">
@@ -278,7 +278,7 @@
 								</list>
 							</record>
 						</widget>
-						
+
 					</container>
 				</container>
 
@@ -286,7 +286,7 @@
 				<container class="client_object_viewer_xml_panel" id="prcn">
 					<record id="object_property" get_property="objt" set_property="objt" />
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="5" />
-					
+
 					<widget class="property_list_viewer_xml_panel" id="cCSB" file="player/player scout reports analysis subpanel popup" type="5" use_pro_con_long_strings="true">
 						<record id="object_property">
 							<list id="get_properties">
@@ -296,7 +296,7 @@
 								</record>
 							</list>
 						</record>
-					</widget>			
+					</widget>
 				</container>
 
 			</container>

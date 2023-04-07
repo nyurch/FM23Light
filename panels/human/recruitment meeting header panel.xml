@@ -7,7 +7,7 @@
 
 	<container>
 		<attachment_group class="vertical_arrange" vertical_gap="5" vertical_alignment="bottom, extend" />
-		
+
 		<container class="main_box" appearance="boxes/custom/full screen header/paper">
 			<layout class="arrange_horizontal_attachment" alignment="left, extend" offset="0" gap="10" />
 			<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0" />

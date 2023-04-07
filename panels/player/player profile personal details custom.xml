@@ -83,7 +83,7 @@
 				</widget>
 			</container>
 			<!-- int caps -->
-			<widget class="international_appearances_label" size="small" auto_size="vertical" >
+			<widget class="international_appearances_label" size="small" auto_size="vertical">
 				<record id="object_property" dont_set_hint="true" get_property="Pist" />
 			</widget>
 

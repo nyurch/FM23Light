@@ -8,7 +8,7 @@
 
         <container>
             <attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" vertical_alignment="top" horizontal_inset="0" horizontal_offset="0" />
-            
+
             <container class="interaction_featured_object_container" id="FObP" width="220" show_dynamic_image="true">
                 <layout class="stick_to_sides_attachment" alignment=" top" inset="0" />
             </container>

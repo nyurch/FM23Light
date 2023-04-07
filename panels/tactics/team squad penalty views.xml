@@ -11,24 +11,24 @@
 		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
 		<container class="inner_box" id="plti" alignment="left">
-            <attachment_group class="vertical_arrange" vertical_layout="30, -1" vertical_gap="0" />
+			<attachment_group class="vertical_arrange" vertical_layout="30, -1" vertical_gap="0" />
 
 			<!-- buttons area -->
-            <container navigation_container="true">
-                 <attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" />
-                 
-                 <widget class="label" id="TitL" font="title" auto_size="horizontal">
-                     <translation id="text" translation_id="232113" type="use" value="Players" />
-                 </widget>
-                 
-                 <widget class="view_menu_popup" id="plvi" embed_in_frame="false"/>
-             
-             <!-- filters -->
-                 <container>
-                 <attachment_group class="horizontal_arrange" horizontal_alignment="right"/>
-                 <widget class="filter_button" id="plsf" target="plti"/>
-                 </container>
-             </container>
+			<container navigation_container="true">
+				<attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" />
+
+				<widget class="label" id="TitL" font="title" auto_size="horizontal">
+					<translation id="text" translation_id="232113" type="use" value="Players" />
+				</widget>
+
+				<widget class="view_menu_popup" id="plvi" embed_in_frame="false"/>
+
+				<!-- filters -->
+				<container>
+					<attachment_group class="horizontal_arrange" horizontal_alignment="right"/>
+					<widget class="filter_button" id="plsf" target="plti"/>
+				</container>
+			</container>
 
 			<container id="ptct">
 

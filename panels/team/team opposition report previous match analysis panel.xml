@@ -64,8 +64,8 @@
 
 				<widget class="label" alignment="left,centre_y" font="title" size="8" auto_size="horizontal">
 					<layout class="stick_to_sides_attachment" alignment="left" inset="0" />
-          <translation id="text" translation_id="257237" type="use" value="Match Analysis[COMMENT: formerly known as TV Info]" />
-        </widget>
+					<translation id="text" translation_id="257237" type="use" value="Match Analysis[COMMENT: formerly known as TV Info]" />
+				</widget>
 
 				<container id="anbn">
 					<layout class="arrange_horizontal_attachment" alignment="right" offset="0">
@@ -104,30 +104,30 @@
 
 					<widget class="preselected_match_chalkboard_panel" vertical="true" force_left_to_right_events="true" average_position_filter="1" hidden="true" id="hMnt" enable_popup="false">
 						<list id="chalkboard_events_to_display">
-						<!-- Heatmap -->
-								<integer value="42" />
-								<!--Average position-->
-								<integer value="62" />
+							<!-- Heatmap -->
+							<integer value="42" />
+							<!--Average position-->
+							<integer value="62" />
 						</list>
 					</widget>
 
 					<widget class="preselected_match_chalkboard_panel" vertical="true" force_left_to_right_events="true" hidden="true" id="pChk" enable_popup="false">
 						<list id="chalkboard_events_to_display">
 							<!-- Pass Combinations -->
-								<integer value="63" />
+							<integer value="63" />
 						</list>
 					</widget>
 
 					<widget class="preselected_match_chalkboard_panel" vertical="true" hidden="true" id="kPms">
 						<list id="chalkboard_events_to_display">
-								<!--Key Pass -->
-								<integer value="43" /> 
-								<!--Mistake leading to goal-->
-								<integer value="49" />
-								<!--Key Tackle -->
-								<integer value="45" />
-								<!--Key Header -->
-								<integer value="47" />
+							<!--Key Pass -->
+							<integer value="43" />
+							<!--Mistake leading to goal-->
+							<integer value="49" />
+							<!--Key Tackle -->
+							<integer value="45" />
+							<!--Key Header -->
+							<integer value="47" />
 						</list>
 					</widget>
 

@@ -1,15 +1,15 @@
-﻿<panel auto_size_minimum_height="90" >
+﻿<panel auto_size_minimum_height="90">
 	<!--auto_size_minimum_width="45">-->
 	<layout class="arrange_vertical_attachment" layout="45, 45" offset="5" gap="5"/>
 	<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="5"/>
 	<flags id="child_for_sort" value="PnmP"/>
-	<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x" height="45" >
+	<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x" height="45">
 		<record id="object_property">
 			<list id="get_properties">
 				<!--Facegen data request-->
 				<record get_property="fcgn" />
 				<!--Fake name request-->
-				<record get_property="Pfke" /> 
+				<record get_property="Pfke" />
 				<record get_property="prpc" set_property="valu" />
 			</list>
 		</record>
@@ -26,7 +26,7 @@
 			<record id="object_property" get_property="PnmP" set_property="valu" />
 		</widget>
 
-		<widget class="game_formatted_label" alignment="left,centre_y" size="small" colour="faded text" auto_size="all" multiline="false" >
+		<widget class="game_formatted_label" alignment="left,centre_y" size="small" colour="faded text" auto_size="all" multiline="false">
 			<layout class="centre_in_parent_attachment" alignment="horizontal"/>
 			<record id="format">
 				<translation id="text" translation_id="388547" type="use" value="[%number#1] year-old [%player_description#2][COMMENT: transfer window opening news, rumoured player moving, graphical display]"/>

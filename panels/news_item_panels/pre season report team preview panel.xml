@@ -81,7 +81,7 @@
 
 					<container>
 						<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
-						
+
 						<widget class="text" alignment="left,centre_y" font="label" auto_size="vertical">
 							<translation id="text" translation_id="316566" type="use" value="Finances[COMMENT: Link to club finances]" />
 						</widget>
@@ -101,7 +101,7 @@
 							<translation id="text" translation_id="319579" type="use" value="Continental Competition[COMMENT: label for showing what continental competition, if any, the club is entered in]" />
 						</widget>
 
-						<widget class="client_object_property_panel" property="Ccon" size="small" alignment="left,centre_y" icon_alignment="left,centre_y" navigation_focus_target="true" >
+						<widget class="client_object_property_panel" property="Ccon" size="small" alignment="left,centre_y" icon_alignment="left,centre_y" navigation_focus_target="true">
 							<record id="object_property">
 								<integer id="get_property" value="Tcrf" />
 								<integer id="set_property" value="objt" />
@@ -206,11 +206,11 @@
 	</container>
 
 	<container>
-		<layout class="arrange_vertical_attachment" layout="100,-1,-1" offset="0"  />
+		<layout class="arrange_vertical_attachment" layout="100,-1,-1" offset="0" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 		<container>
-			<layout class="arrange_horizontal_attachment" layout="-1,-2" offset="0"  />
+			<layout class="arrange_horizontal_attachment" layout="-1,-2" offset="0" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
 			<container class="inner_subtle_box">

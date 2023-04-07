@@ -62,7 +62,7 @@
 		</container>
 
 		<!-- panel for empty state-->
-		<container class="empty_state" id="nore" header_widget="BShe" >
+		<container class="empty_state" id="nore" header_widget="BShe">
 			<widget class="text" id="BShe">
 				<translation id="text" translation_id="316581" type="use" value="No players currently selected for international friendlies.[COMMENT: text shown when a human club has no playes that are currently selected for international friendlies]" />
 			</widget>

@@ -1,7 +1,7 @@
 <panel>
-  <attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0"/>
-	
-  
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0"/>
+
+
 	<flags id="eidc" value="faded text"/>
 	<flags id="eirc" value="negative"/>
 	<flags id="iinc" value="text"/>
@@ -50,12 +50,12 @@
 
 	<widget class="text" id="ewad" multiline="true" auto_size="vertical" size="small" colour="text"/>
 
-  <container>
-    <attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_offset="0" horizontal_gap="0" />
+	<container>
+		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_offset="0" horizontal_gap="0" />
 
-    <widget class="picture" id="eiiw" file="icons/custom/object preview/button" width="20" height="20" image_alignment="centre" hidden="true"/>
-    <widget class="text" id="eiwi" multiline="true" auto_size="all" size="small"/>
-  </container>
-	
+		<widget class="picture" id="eiiw" file="icons/custom/object preview/button" width="20" height="20" image_alignment="centre" hidden="true"/>
+		<widget class="text" id="eiwi" multiline="true" auto_size="all" size="small"/>
+	</container>
+
 
 </panel>

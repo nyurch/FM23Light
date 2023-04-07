@@ -65,7 +65,7 @@
         </widget>
 
         <!-- relationship -->
-        <widget class="text" font="label"  alignment="left, centre_y" auto_size="all">
+        <widget class="text" font="label" alignment="left, centre_y" auto_size="all">
             <translation id="text" translation_id="308637" type="use" value="Relationship[COMMENT: Relationship towards the human player]"/>
         </widget>
         <widget class="journalist_label" display_format="1" spec="text" alignment="left, centre_y" auto_size="all">

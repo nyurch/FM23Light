@@ -20,7 +20,7 @@
 		<widget class="horizontal_divider" red_replacement="grey 500"/>
 
 		<!-- Training calender-->
-		<widget class="table" id="TraT" layout="-1"  mode="fill_rows" height="86" row_spacing="2" hidden="true">
+		<widget class="table" id="TraT" layout="-1" mode="fill_rows" height="86" row_spacing="2" hidden="true">
 			<boolean id="auto_size_rows" value="true"/>
 			<string id="fixed_size_rows" value="false"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="2"/>
@@ -29,11 +29,11 @@
 
 		<widget class="horizontal_divider"/>
 
-		<container>		
+		<container>
 			<!-- JT 9/12/20: If you have come here top fix an assert like 'extend_height > 0 failed' don't change this layout as that will break it. See issue 43005 -->
 			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
 
-			<container id="entR" >
+			<container id="entR">
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
 
 				<!-- This is where the popup detailed day events get created. -->

@@ -6,7 +6,7 @@
 		 place in the graphics folder and still have the game pick up the graphics
 		 files from the correct places
 	-->
-	
+
 	<list id="maps">
 		<record from="680" to="graphics/pictures/club/680/logo"/>
 	</list>

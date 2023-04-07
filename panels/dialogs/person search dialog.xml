@@ -123,11 +123,11 @@
 									<container>
 										<attachment_group class="horizontal_arrange_vertical_autosize"/>
 
-										<widget class="button" id="sapb" click_event="sapo" appearance="buttons/custom/tactics/pitch switch/left/button" size="xsmall" auto_size="vertical">											
+										<widget class="button" id="sapb" click_event="sapo" appearance="buttons/custom/tactics/pitch switch/left/button" size="xsmall" auto_size="vertical">
 											<translation id="text" translation_id="247116" type="use" value="Select All"/>
 										</widget>
 
-										<widget class="button" id="clpb" click_event="cpos" appearance="buttons/custom/tactics/pitch switch/right/button" size="xsmall" auto_size="vertical">											
+										<widget class="button" id="clpb" click_event="cpos" appearance="buttons/custom/tactics/pitch switch/right/button" size="xsmall" auto_size="vertical">
 											<translation id="text" translation_id="229717" type="use" value="Clear"/>
 										</widget>
 									</container>
@@ -137,7 +137,7 @@
 									<string id="create_if" value="ui.is_fmt_controller_skin" />
 									<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
-									<widget class="pitch_with_squad_depth" wants_mouse_events="false" vertical="true" pitch_alignment="centre,can_scale"  pitch_draw_grass="false" pitch_draw_goals="false" pitch_draw_markings="true" show_position_strength="false" pitch_show_names="false" pitch_line_colour="faded white" pitch_touchline_width_percentage="1" pitch_perspective="0.0" pitch_override_icon_size="2" line_width="1" pitch_vertical_padding="0" disable_animations="true">
+									<widget class="pitch_with_squad_depth" wants_mouse_events="false" vertical="true" pitch_alignment="centre,can_scale" pitch_draw_grass="false" pitch_draw_goals="false" pitch_draw_markings="true" show_position_strength="false" pitch_show_names="false" pitch_line_colour="faded white" pitch_touchline_width_percentage="1" pitch_perspective="0.0" pitch_override_icon_size="2" line_width="1" pitch_vertical_padding="0" disable_animations="true">
 									</widget>
 
 									<container>
@@ -201,7 +201,7 @@
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
 											<var id="wbr " name="position_checkbox"/>
 										</container>
-									
+
 										<!--5th row-->
 										<container>
 											<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
@@ -334,7 +334,7 @@
 						<global id="horizontal_gap" name="ui.button_row_gap"/>
 					</attachment_group>
 
-					<widget class="subtle_popup_button" auto_size="all" id="seop" fixed="true" icon="icons/16px/settings" >
+					<widget class="subtle_popup_button" auto_size="all" id="seop" fixed="true" icon="icons/16px/settings">
 					</widget>
 
 					<widget class="icon_button" id="clea" auto_size="all" click_event="clpf" controller_button="x_button" appearance="buttons/subtle/normal/button">
@@ -349,7 +349,7 @@
 					<container>
 						<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="right" horizontal_offset="0" horizontal_gap="2" vertical_offset="0"/>
 
-						<widget class="primary_icon_tick_button" id="ok"  default_focus="true">
+						<widget class="primary_icon_tick_button" id="ok" default_focus="true">
 							<translation id="text" translation_id="229829" type="use" value="Ok"/>
 							<record id="click_event">
 								<flags id="event_id" value="ok  "/>

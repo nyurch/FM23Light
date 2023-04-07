@@ -30,7 +30,7 @@
 				<container>
 					<attachment_group class="horizontal_arrange_autosize_vertical_centre" horizontal_gap="0" />
 
-					<widget class="popup_button" id="spPB" icon="icons/16px/time" colour="white" icon_colour="white" secondary_icon_colour="white" red_replacement="white" selection="1" auto_size="all" hidden="true" fixed="true" fixed_icon="true" >
+					<widget class="popup_button" id="spPB" icon="icons/16px/time" colour="white" icon_colour="white" secondary_icon_colour="white" red_replacement="white" selection="1" auto_size="all" hidden="true" fixed="true" fixed_icon="true">
 						<translation id="text" translation_id="348320" type="use" value="Speed[COMMENT: replay speed control on match screen]" />
 						<record id="select_event" event_id="spSE" event_target="lvCD" />
 						<list id="items">

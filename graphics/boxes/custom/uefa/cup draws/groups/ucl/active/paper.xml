@@ -10,5 +10,5 @@
 	<!-- the image will only slice in the directions slicing values are provided for-->
 	<record id="image_slices" left="20" right="20" top="15" bottom="15"/>
 
-	
+
 </properties>

@@ -77,7 +77,7 @@
 			<container id="gene">
 				<translation id="title" translation_id="258721" type="use" value="General" />
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="plain_box" >
+				<container class="plain_box">
 					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 					<container class="horizontal_adaptive_container" layout="-1,-1" inset="0" offset="0" width="480" priority="1" gap="8">
 						<container>
@@ -85,51 +85,51 @@
 							<!-- CLUB DETAILS -->
 							<container class="horizontal_adaptive_container" vertical_alignment="centre">
 								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
-									<widget class="table" layout="220,-3" mode="fill_rows,stripe_rows" fixed_size_rows="true" row_height="32">
-										<record id="default_properties" alignment="left,centre_y"/>
-										<!-- Year Founded -->
-										<widget class="label" colour="faded text" row="0" col="0">
-											<translation id="text" translation_id="257214" type="use" value="Year Founded" />
-										</widget>
-										<widget class="dashed_number_label" row="0" col="1" NumF="0">
-											<record id="object_property" get_property="Cyfn"/>
-										</widget>
-										<!-- Professional Status -->
-										<widget class="label" colour="faded text" row="1" col="0">
-											<translation id="text" translation_id="242853" type="use" value="Status" />
-										</widget>
-										<widget class="professional_status_label" row="1" col="1" alignment="left,centre_y">
-											<record id="object_property" get_property="Cprs"/>
-										</widget>
-										<!-- Reputation -->
-										<widget class="label" colour="faded text" row="2" col="0">
-											<record id="object_property" get_property="Csta" name="true"/>
-										</widget>
-										<widget class="club_reputation_stars_label" row="2" col="1" alignment="left,centre_y">
-											<record id="object_property" get_property="Csta"/>
-										</widget>
-										<!-- Finances -->
-										<widget class="label" colour="faded text" row="3" col="0">
-											<record id="object_property" get_property="Csfs" name="true"/>
-										</widget>
-										<widget class="financial_status_label" row="3" col="1" alignment="left,centre_y">
-											<record id="object_property" get_property="Csfs"/>
-										</widget>
-										<!-- Youth Recruitment -->
-										<widget class="label" colour="faded text" row="4" col="0">
-											<translation id="text" translation_id="308084" type="use" value="Youth Recruitment[COMMENT: heading; team_information_panel; the standard of the team's youth recruitment network]"/>
-										</widget>
-										<widget class="youth_recruitment_status_label" row="4" col="1">
-											<record id="object_property" get_property="Crcs"/>
-										</widget>
-										<!-- Youth Facilities -->
-										<widget class="label" colour="faded text" row="5" col="0">
-											<translation id="text" translation_id="255008" type="use" value="Youth Facilities[COMMENT: heading; team_information_panel; the standard of a team's youth facilities]"/>
-										</widget>
-										<widget class="youth_facilities_stars_label" row="5" col="1">
-											<record id="object_property" get_property="Cfc*"/>
-										</widget>
+								<widget class="table" layout="220,-3" mode="fill_rows,stripe_rows" fixed_size_rows="true" row_height="32">
+									<record id="default_properties" alignment="left,centre_y"/>
+									<!-- Year Founded -->
+									<widget class="label" colour="faded text" row="0" col="0">
+										<translation id="text" translation_id="257214" type="use" value="Year Founded" />
 									</widget>
+									<widget class="dashed_number_label" row="0" col="1" NumF="0">
+										<record id="object_property" get_property="Cyfn"/>
+									</widget>
+									<!-- Professional Status -->
+									<widget class="label" colour="faded text" row="1" col="0">
+										<translation id="text" translation_id="242853" type="use" value="Status" />
+									</widget>
+									<widget class="professional_status_label" row="1" col="1" alignment="left,centre_y">
+										<record id="object_property" get_property="Cprs"/>
+									</widget>
+									<!-- Reputation -->
+									<widget class="label" colour="faded text" row="2" col="0">
+										<record id="object_property" get_property="Csta" name="true"/>
+									</widget>
+									<widget class="club_reputation_stars_label" row="2" col="1" alignment="left,centre_y">
+										<record id="object_property" get_property="Csta"/>
+									</widget>
+									<!-- Finances -->
+									<widget class="label" colour="faded text" row="3" col="0">
+										<record id="object_property" get_property="Csfs" name="true"/>
+									</widget>
+									<widget class="financial_status_label" row="3" col="1" alignment="left,centre_y">
+										<record id="object_property" get_property="Csfs"/>
+									</widget>
+									<!-- Youth Recruitment -->
+									<widget class="label" colour="faded text" row="4" col="0">
+										<translation id="text" translation_id="308084" type="use" value="Youth Recruitment[COMMENT: heading; team_information_panel; the standard of the team's youth recruitment network]"/>
+									</widget>
+									<widget class="youth_recruitment_status_label" row="4" col="1">
+										<record id="object_property" get_property="Crcs"/>
+									</widget>
+									<!-- Youth Facilities -->
+									<widget class="label" colour="faded text" row="5" col="0">
+										<translation id="text" translation_id="255008" type="use" value="Youth Facilities[COMMENT: heading; team_information_panel; the standard of a team's youth facilities]"/>
+									</widget>
+									<widget class="youth_facilities_stars_label" row="5" col="1">
+										<record id="object_property" get_property="Cfc*"/>
+									</widget>
+								</widget>
 							</container>
 							<!-- trophies info -->
 							<container>
@@ -154,54 +154,54 @@
 			<container id="phto">
 				<translation id="title" type="use" value="Photos" />
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-					<container>
-						<layout class="horizontal_arrange" horizontal_layout="-1,-1" />
-						<!-- city pic -->
-						<container class="vertical_adaptive_container" default_width="600" priority="4" inset="0" offset="0" gap="1" mode="distribute_equally">
-							<container class="plain_box" appearance="boxes/contrast/no margin/top/paper" red_replacement="primary">
-								<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
-								<widget class="nation_button" id="nati" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
-									<record id="object_property">
-										<integer id="get_property" value="Cnat"/>
-									</record>
-								</widget>
-							</container>
-							<container class="plain_box" id="tstf" height="340">
-								<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-								<widget class="background" file="backgrounds" id="bgnd">
-									<layout class="stick_to_sides_attachment" alignment="top" inset="0" />
-									<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
-									<layout class="stick_to_sides_attachment" alignment="left" offset="0" gap="0" />
-									<record id="object_property">
+				<container>
+					<layout class="horizontal_arrange" horizontal_layout="-1,-1" />
+					<!-- city pic -->
+					<container class="vertical_adaptive_container" default_width="600" priority="4" inset="0" offset="0" gap="1" mode="distribute_equally">
+						<container class="plain_box" appearance="boxes/contrast/no margin/top/paper" red_replacement="primary">
+							<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
+							<widget class="nation_button" id="nati" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
+								<record id="object_property">
+									<integer id="get_property" value="Cnat"/>
+								</record>
+							</widget>
+						</container>
+						<container class="plain_box" id="tstf" height="340">
+							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+							<widget class="background" file="backgrounds" id="bgnd">
+								<layout class="stick_to_sides_attachment" alignment="top" inset="0" />
+								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+								<layout class="stick_to_sides_attachment" alignment="left" offset="0" gap="0" />
+								<record id="object_property">
 									<integer id="get_property" value="bgnd" />
 									<integer id="set_property" value="file" />
-									</record>
-								</widget>
-							</container>
-							<container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="primary">
-								<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
-								<widget class="city_label" id="namL" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
-								<record id="object_property">
-								<integer id="get_property" value="SctI"/>
 								</record>
-								</widget>
-							</container>
+							</widget>
 						</container>
-						<!-- stadium pic -->
-						<container class="vertical_adaptive_container" default_width="600" inset="0" offset="0" gap="1" mode="distribute_equally">
-							<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-							<container class="main_subtle_box_no_margin" minimum_width="440" default_width="-1">
+						<container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="primary">
+							<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
+							<widget class="city_label" id="namL" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
+								<record id="object_property">
+									<integer id="get_property" value="SctI"/>
+								</record>
+							</widget>
+						</container>
+					</container>
+					<!-- stadium pic -->
+					<container class="vertical_adaptive_container" default_width="600" inset="0" offset="0" gap="1" mode="distribute_equally">
+						<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+						<container class="main_subtle_box_no_margin" minimum_width="440" default_width="-1">
 							<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 							<container class="club_overview_stadium_panel" file="none">
 								<attachment class="vertical_arrange" vertical_layout="35,-1,35" vertical_gap="0"/>
 								<record id="object_property" get_property="Tsre" set_property="objt" dont_set_hint="true"/>
 								<container class="plain_box" appearance="boxes/contrast/no margin/top/paper" red_replacement="primary">
 									<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
-								<widget class="client_object_label" id="namV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
-									<record id="object_property">
-										<integer id="get_property" value="objt"/>
-									</record>
-								</widget>
+									<widget class="client_object_label" id="namV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
+										<record id="object_property">
+											<integer id="get_property" value="objt"/>
+										</record>
+									</widget>
 								</container>
 								<container height="288">
 									<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
@@ -220,22 +220,22 @@
 								</container>
 								<container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="primary">
 									<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
-										<widget class="dashed_number_label" id="ScpV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
-											<record id="object_property">
-												<integer id="get_property" value="Scpy"/>
-											</record>
-										</widget>
+									<widget class="dashed_number_label" id="ScpV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
+										<record id="object_property">
+											<integer id="get_property" value="Scpy"/>
+										</record>
+									</widget>
 								</container>
-							</container>
 							</container>
 						</container>
 					</container>
+				</container>
 			</container>
 			<!-- facts -->
 			<container id="fact">
 				<translation id="title" translation_id="316678" type="use" value="Facts[COMMENT: top level menu title for team information screens]" />
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="plain_box" >
+				<container class="plain_box">
 					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 					<widget class="team_container_information_facts_panel" id="facts" file="team/team container information facts panel">
 						<record id="object_property" get_property="objt" set_property="objt" />
@@ -246,7 +246,7 @@
 			<container id="stat">
 				<translation id="title" translation_id="247412" type="use" value="Stats" />
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="plain_box" >
+				<container class="plain_box">
 					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 					<container class="team_container_information_stats_panel" file="team/team container information stats panel">
 						<record id="object_property" get_property="objt" set_property="objt" />
@@ -257,7 +257,7 @@
 			<container id="weak">
 				<translation id="title" type="use" value="Pros/Cons" />
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="plain_box" >
+				<container class="plain_box">
 					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 					<container class="team_pro_con_summary_panel" file="team/team pro con summary panel">
 						<integer id="num_pro_cons_to_show" value="25" />
@@ -277,7 +277,7 @@
 			<container id="ppos">
 				<translation id="title" translation_id="243284" type="use" value="Past Positions" />
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="plain_box" >
+				<container class="plain_box">
 					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 					<container class="league_positions_panel" id="lpos" file="team/team competitions overview past positions panel" rqat="false" height="60">
 						<record id="object_property">
@@ -294,7 +294,7 @@
 			<container id="find">
 				<translation id="title" translation_id="539044" type="use" value="Key Findings[COMMENT: AREA: Data Hub; SUB-AREA: Analyst Key findings; FR: 31585; TONE: Formal; CHARLIMIT: None NOTES: Key findings of analyst header]" />
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="plain_box" >
+				<container class="plain_box">
 					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 					<widget class="data_analyst_key_findings_widget" show_team_name="true" file="widgets/data analyst key findings widget autosize" can_update_with_no_objects="true" id="keyf" />
 				</container>
@@ -303,9 +303,9 @@
 			<container id="perf">
 				<translation id="title" translation_id="492035" type="use" value="General Performance[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: team report label]" />
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="plain_box" >
+				<container class="plain_box">
 					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-					<widget class="data_analyst_visualisation_widget" id="xgsh"  visualisation_type="polygon" data_type="team"  category="team_general" file="widgets/data analyst visualisation mini">
+					<widget class="data_analyst_visualisation_widget" id="xgsh" visualisation_type="polygon" data_type="team" category="team_general" file="widgets/data analyst visualisation mini">
 						<record id="object_property" get_property="objt" set_property="objt" />
 					</widget>
 				</container>

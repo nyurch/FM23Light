@@ -1,7 +1,7 @@
 <panel>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-    <boolean id="should_force_refresh" value="true"/>
+	<boolean id="should_force_refresh" value="true"/>
 	<container>
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
@@ -18,7 +18,7 @@
 					<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="4" />
 
 					<widget class="object_portrait_picture" width="80" id="dofp" image_alignment="centre" scale_picture="true">
-						<layout class="stick_to_sides_attachment" alignment="vertical"  inset="8" />
+						<layout class="stick_to_sides_attachment" alignment="vertical" inset="8" />
 						<record id="object_property">
 							<list id="get_properties">
 								<record>
@@ -80,7 +80,7 @@
 				<global id="horizontal_gap" name="ui.main_box_gap" />
 			</attachment_group>
 
-			<container class="main_box"> 
+			<container class="main_box">
 				<translation id="title" translation_id="336073" type="use" value="Unwanted List[COMMENT: transfer lists; type of transfer list, used for getting rid of players in your squad]" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 				<layout class="arrange_vertical_attachment" alignment="bottom,extend" />
@@ -124,8 +124,8 @@
 
 
 					<list id="column_table_properties">
-						<record index="0"  auto_hide_priority="1" />
-						<record index="1" auto_hide_priority="2"  />
+						<record index="0" auto_hide_priority="1" />
+						<record index="1" auto_hide_priority="2" />
 						<record index="2" auto_hide_priority="3" minimum_width="150" />
 						<record index="3" auto_hide_priority="40" />
 						<record index="4" auto_hide_priority="50" left="4" right="4" top="2"/>

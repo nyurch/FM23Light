@@ -22,7 +22,7 @@
 		<container embed_in_frame="true">
 			<attachment_group class="title_embedded_panel_right" horizontal_offset="0"/>
 			<!-- buttons area -->
-	      <widget class="icon_button" icon="icons/16px/cross" height="28" width="28" icon_alignment="centre" red_replacement="white" icon_colour="black" appearance="buttons/standard/flex/button" id="clos" embed_in_frame="true">
+			<widget class="icon_button" icon="icons/16px/cross" height="28" width="28" icon_alignment="centre" red_replacement="white" icon_colour="black" appearance="buttons/standard/flex/button" id="clos" embed_in_frame="true">
 				<record id="click_event">
 					<flags id="event_id" value="Clos" />
 				</record>
@@ -106,7 +106,7 @@
 			<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0" do_not_size="true" />
 			<layout class="fit_children_attachment" alignment="vertical,fill" offset="0" gap="0" />
 
-			<widget class="label" font="title" colour="white"  height="20" alignment="left,centre_y">
+			<widget class="label" font="title" colour="white" height="20" alignment="left,centre_y">
 				<translation id="text" translation_id="364775" type="use" value="Swap positions with...[COMMENT: label for a popup button to allow the user to choose a player for this player to swap positions with on the pitch]" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0,0,0,0" />
 			</widget>

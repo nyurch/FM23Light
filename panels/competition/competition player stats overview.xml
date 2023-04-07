@@ -52,7 +52,7 @@
 						</widget>
 					</container>
 				</set_var>
-				
+
 				<var name="player_stats_container">
 					<!-- CPS_GOALS -->
 					<set_var name="left_stat_type">
@@ -122,7 +122,7 @@
 						<integer value="3" />
 					</set_var>
 				</var>
-				
+
 			</container>
 
 		</container>
@@ -139,10 +139,10 @@
 	<!-- Adaptive rows of little stat boxes-->
 	<container class="vertical_adaptive_container" inset="0" offset="0" mode="distribute_equally" navigation_container="true">
 
-		<record id="default_properties" inset="0" offset="0"  minimum_height="160" mode="distribute_equally">
+		<record id="default_properties" inset="0" offset="0" minimum_height="160" mode="distribute_equally">
 			<record id="default_properties" file="competition/competition player stats panel small" maximum_items="7" minimum_width="280" store_config_id="plSC" option="true" navigation_container="true" />
 		</record>
-		
+
 		<container class="horizontal_adaptive_container" priority="1">
 			<container class="competition_player_stats_panel" id="sta1" type="1" priority="1" />
 			<container class="competition_player_stats_panel" id="sta2" type="2" priority="2" />

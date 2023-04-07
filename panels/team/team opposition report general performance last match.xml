@@ -65,7 +65,7 @@
 					<widget class="preselected_match_chalkboard_panel" vertical="true" id="kPms">
 						<list id="chalkboard_events_to_display">
 							<!--Key Pass -->
-							<integer value="43"/> 
+							<integer value="43"/>
 							<!--Mistake leading to goal-->
 							<integer value="49"/>
 							<!--Key Tackle -->
@@ -82,12 +82,12 @@
 						<layout class="arrange_horizontal_attachment" layout="-1,-1" offset="0" gap="4" />
 						<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
-						<container class="inner_box" appearance="boxes/titled/compact/paper" colour="positive" alignment="left,top" >
+						<container class="inner_box" appearance="boxes/titled/compact/paper" colour="positive" alignment="left,top">
 							<translation id="title" translation_id="447605" type="use" value="Positives[COMMENT: Match Analysis - Match Positives title]" />
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 							<!--pro item container-->
 							<container class="scrolling_box" navigation_focus_target="true">
-								<container class="main_contrast_box" red_replacement="green 500" id="pItc" >
+								<container class="main_contrast_box" red_replacement="green 500" id="pItc">
 									<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="3" horizontal_alignment="horizontal" horizontal_inset="0" />
 								</container>
 							</container>

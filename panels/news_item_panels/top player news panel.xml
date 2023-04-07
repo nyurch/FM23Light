@@ -32,22 +32,22 @@
             <layout class="stick_to_sides_attachment" alignment="left" inset="70" />
             <layout class="stick_to_sides_attachment" alignment="vertical" inset="35" />
             <attachment class="test_setting_attachment" get_setting="show_portraits" default_value="true" set_property="hidn">
-               <list id="value">
-                   <boolean value="false" />
-               </list>
+                <list id="value">
+                    <boolean value="false" />
+                </list>
             </attachment>
             <layout class="stick_to_sides_attachment" alignment="all" inset="0" />
             <record id="object_property">
-               <integer id="get_property" value="mbpc"/>
-               <integer id="set_property" value="file"/>
+                <integer id="get_property" value="mbpc"/>
+                <integer id="set_property" value="file"/>
             </record>
         </widget>
         <!-- nation logo -->
         <widget class="object_portrait_picture" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" wants_mouse_events="false">
-           <layout class="stick_to_sides_attachment" alignment="top" inset="0"/>
-           <layout class="stick_to_sides_attachment" alignment="left" inset="115"/>
-           <record id="object_property" get_property="PNat" set_property="objt"/>
-           <layout class="stick_to_sides_attachment" alignment="all" inset="45"/>
+            <layout class="stick_to_sides_attachment" alignment="top" inset="0"/>
+            <layout class="stick_to_sides_attachment" alignment="left" inset="115"/>
+            <record id="object_property" get_property="PNat" set_property="objt"/>
+            <layout class="stick_to_sides_attachment" alignment="all" inset="45"/>
         </widget>
         <!-- mugshot -->
         <widget class="object_portrait_picture" id="trpf" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true">
@@ -72,11 +72,11 @@
         <widget class="global_reputation_stars_label" id="pReP" lrge="true" colour="yellow" alignment="left, centre_y,">
             <record id="object_property" get_property="Prsa" dont_set_object="true"/>
         </widget>
-        <widget class="reputation_label" colour="white" id="repU" auto_size="vertical" alignment="left, centre_y, can_scale" hint="Reputation" >
+        <widget class="reputation_label" colour="white" id="repU" auto_size="vertical" alignment="left, centre_y, can_scale" hint="Reputation">
             <record id="object_property">
-               <integer id="get_property" value="Pcrp" />
+                <integer id="get_property" value="Pcrp" />
             </record>
-        </widget> 
+        </widget>
         <!-- age -->
         <widget class="formatted_label" auto_size="vertical" alignment="left, centre_y, can_scale" size="10" colour="white">
             <translation id="format" translation_id="242551" type="use" value="[%number#1] years old"/>

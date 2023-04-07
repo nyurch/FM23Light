@@ -27,7 +27,7 @@
 						<string id="size" value="large" />
 						<string id="style" value="bold" />
 					</widget>
-					<widget class="job_label"  id="dofj" auto_size="vertical" name="staff">
+					<widget class="job_label" id="dofj" auto_size="vertical" name="staff">
 						<string id="colour" value="faded text" />
 						<record id="object_property">
 							<list id="get_properties">
@@ -49,7 +49,7 @@
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 		</container>
 	</container>
-	<widget class="text" alignment="centre" id="noYt"  hidden="true">
+	<widget class="text" alignment="centre" id="noYt" hidden="true">
 		<translation id="text" type="use" translation_id="309036" value="No youth recruitment[COMMENT: team_info_panel; standard of youth recruitment]" />
 	</widget>
 </panel>

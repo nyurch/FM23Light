@@ -52,32 +52,13 @@
 		<container force_title_borders="true">
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
-			<widget class="pitch_with_squad_depth" id="pitc"
-							display_centre_side_positions="true"
-							pitch_length_percentage="150"
-							pitch_width_percentage="115"
-							vertical="false"
-							max_icon_width="0.18"
-							max_icon_height="0.18"
-							pitch_alignment="centre"
-							pitch_draw_goals="false"
-							pitch_draw_markings="true"
-							show_position_strength="false"
-							pitch_show_names="false"
-							pitch_draw_grass="true"
-							pitch_line_colour="faded white"
-							pitch_touchline_width_percentage="0"
-							pitch_perspective="0.0"
-							pitch_override_icon_size="2"
-							line_width="1.4"
-							pitch_vertical_padding="0"
-							disable_animations="true">
+			<widget class="pitch_with_squad_depth" id="pitc" display_centre_side_positions="true" pitch_length_percentage="150" pitch_width_percentage="115" vertical="false" max_icon_width="0.18" max_icon_height="0.18" pitch_alignment="centre" pitch_draw_goals="false" pitch_draw_markings="true" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="true" pitch_line_colour="faded white" pitch_touchline_width_percentage="0" pitch_perspective="0.0" pitch_override_icon_size="2" line_width="1.4" pitch_vertical_padding="0" disable_animations="true">
 			</widget>
 		</container>
 
 		<container id="mKey" file="team/team report best team outline key"/>
 	</container>
-	
+
 	<!--no tactic-->
 	<container id="empT" hidden="true">
 		<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="4" horizontal_inset="0" horizontal_alignment="horizontal" />
@@ -85,7 +66,7 @@
 		<widget class="manager_text" auto_size="vertical" size="large" alignment="centre" style="bold">
 			<translation id="text" translation_id="376529" type="use" value="No Tactics selected[COMMENT: team report squad information panel, default text when no tactic has been selected to generate a formation depth report on]" />
 		</widget>
-		
+
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" horizontal_gap="0" horizontal_offset="0" vertical_inset="0"/>
 
@@ -93,10 +74,10 @@
 				<string id="section" value="tacO" />
 				<translation id="text" translation_id="363642" type="use" value="Go To Tactics[COMMENT: FR 8989 - text for a button to take you to the tactics page]" />
 			</widget>
-			
+
 		</container>
-	</container>	
-	
+	</container>
+
 	<!--no coach-->
 	<container id="nstf" hidden="true">
 		<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="4" horizontal_inset="0" horizontal_alignment="horizontal" />
@@ -105,7 +86,7 @@
 			<translation id="text" translation_id="320527" type="use" value="You need an assistant manager to compile your team report.[COMMENT: team report; need assistant advice]" />
 
 		</widget>
-		
+
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" horizontal_gap="0" horizontal_offset="0" vertical_inset="0"/>
 
@@ -113,8 +94,8 @@
 				<string id="section" value="stfs" />
 				<translation id="text" translation_id="320500" type="use" value="Staff Search[COMMENT: team report; link to the staff search]" />
 			</widget>
-			
+
 		</container>
 	</container>
-	
+
 </panel>

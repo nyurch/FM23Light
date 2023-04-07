@@ -1,5 +1,5 @@
 ﻿<panel>
-<string id="skin_style" value="person_button" />
+	<string id="skin_style" value="person_button" />
 	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 	<!-- current injuries -->
@@ -7,17 +7,17 @@
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" vertical_gap="4"/>
 
 		<container>
-		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left" horizontal_inset="0"/>
+			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left" horizontal_inset="0"/>
 
 			<widget class="picture" file="icons/26px/injured" scale_picture="true" height="26" width="26" keep_aspect_ratio="true" image_alignment="centre"/>
 
 			<widget class="text" id="InjL" font="title" colour="accent" auto_size="all"/>
 
 			<widget class="text" id="InTx" auto_size="all" font="title" colour="accent" hidden="true">
-			    <translation id="text" translation_id="227748" type="use" value="Injuries" />
+				<translation id="text" translation_id="227748" type="use" value="Injuries" />
 			</widget>
 			<widget class="link_button_title" id="InBu" section="InOv" colour="accent" hidden="true" auto_size="all">
-			    <translation id="text" translation_id="227748" type="use" value="Injuries" />
+				<translation id="text" translation_id="227748" type="use" value="Injuries" />
 			</widget>
 
 		</container>
@@ -64,17 +64,17 @@
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" vertival_gap="4"/>
 
 		<container>
-		   <attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left" horizontal_inset="0"/>
+			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left" horizontal_inset="0"/>
 
 			<widget class="picture" file="icons/26px/slightly injured" scale_picture="true" height="26" width="26" keep_aspect_ratio="true" image_alignment="centre_x" red_replacement="yellow"/>
 
 			<widget class="text" id="ReRL" font="title" colour="accent" auto_size="all"/>
 
 			<widget class="text" id="RRTx" auto_size="all" font="title" colour="accent" hidden="true">
-			    <translation id="text" translation_id="450766" type="use" value="Recently Returned From Injury[COMMENT: FR 20159; team injuries overview panel; title for number of players that have recently returned from injury]"/>
+				<translation id="text" translation_id="450766" type="use" value="Recently Returned From Injury[COMMENT: FR 20159; team injuries overview panel; title for number of players that have recently returned from injury]"/>
 			</widget>
 			<widget class="link_button_title" id="RRBu" colour="accent" hidden="true" auto_size="all">
-			    <translation id="text" translation_id="450766" type="use" value="Recently Returned From Injury[COMMENT: FR 20159; team injuries overview panel; title for number of players that have recently returned from injury]"/>
+				<translation id="text" translation_id="450766" type="use" value="Recently Returned From Injury[COMMENT: FR 20159; team injuries overview panel; title for number of players that have recently returned from injury]"/>
 			</widget>
 
 		</container>
@@ -104,21 +104,22 @@
 				</record>
 				<record indx="2" alignment="left,centre_y" auto_hide_priority="1" minimum_width="140">
 					<boolean id="sort_ascending" value="false"/>
-					
+
 				</record>
 				<record indx="3" alignment="left,centre_y" auto_hide_priority="1" minimum_width="140">
 					<boolean id="sort_ascending" value="false"/>
 				</record>
 			</list>
-			
+
 			<!-- added to recolour condition text -->
 			<list id="column_widget_properties">
 				<record alignment="left,centre_y" auto_size="none">
 					<integer id="index" value="2" />
-					<string id="colour" value="text" />	<!-- added to recolour cond. text -->
+					<string id="colour" value="text" />
+					<!-- added to recolour cond. text -->
 				</record>
-				
-			</list> 
+
+			</list>
 
 			<list id="sort">
 				<integer value="0"/>

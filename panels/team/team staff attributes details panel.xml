@@ -14,11 +14,11 @@
 				<translation id="text" translation_id="330275" type="use" value="Not available[COMMENT: happiness panel; text displayed when no happiness information is available]" />
 			</widget>
 
-			<widget class="graph" id="tadg" show_instant_hint="false" inset="1" >
+			<widget class="graph" id="tadg" show_instant_hint="false" inset="1">
 				<record id="default_series_properties" type="bar" maximum_width="15"/>
 				<record id="x_axis" gap="1" consistent_label_width="false">
-				<record id="label_font" colour="faded black"/>
-			</record>
+					<record id="label_font" colour="faded black"/>
+				</record>
 				<record id="y_axis" hidden="true"/>
 			</widget>
 

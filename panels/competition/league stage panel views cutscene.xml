@@ -1,21 +1,21 @@
 ﻿<record>
-<list id="views">
-	<!-- Overall stats with position change-->
-	<!-- Used in the match -->
-	<record id="ovrC">
-		<translation id="text" translation_id="359652" type="use" value="Overall[COMMENT: league_table; use top 10 matches; category for stats relating to performance at home or away]" />
-		<record id="view">
-		<!-- Main league position -->
-		<record id="Lpos" size="large" colour="black" style="bold" red_replacement="white" alignment="centre" width="60" column_heading="" format="[%number#1]" />
-		<!-- Team name -->
-		<record id="Ttea" size="large" style="bold" colour="black" red_replacement="white" column_heading="" dont_colour_feeder_club="true"/>
-		<!-- Overall played -->
-		<record id="LOpl" colour="black" style="bold" red_replacement="white" size="large" />
-		<!-- Overall goal difference -->
-		<record id="LOgd" colour="black" style="bold" red_replacement="white" size="large" />
-		<!-- Overall goal difference -->
-		<record id="LOpo" colour="black" style="bold" size="large" />
+	<list id="views">
+		<!-- Overall stats with position change-->
+		<!-- Used in the match -->
+		<record id="ovrC">
+			<translation id="text" translation_id="359652" type="use" value="Overall[COMMENT: league_table; use top 10 matches; category for stats relating to performance at home or away]" />
+			<record id="view">
+				<!-- Main league position -->
+				<record id="Lpos" size="large" colour="black" style="bold" red_replacement="white" alignment="centre" width="60" column_heading="" format="[%number#1]" />
+				<!-- Team name -->
+				<record id="Ttea" size="large" style="bold" colour="black" red_replacement="white" column_heading="" dont_colour_feeder_club="true"/>
+				<!-- Overall played -->
+				<record id="LOpl" colour="black" style="bold" red_replacement="white" size="large" />
+				<!-- Overall goal difference -->
+				<record id="LOgd" colour="black" style="bold" red_replacement="white" size="large" />
+				<!-- Overall goal difference -->
+				<record id="LOpo" colour="black" style="bold" size="large" />
+			</record>
 		</record>
-	</record>
 	</list>
 </record>

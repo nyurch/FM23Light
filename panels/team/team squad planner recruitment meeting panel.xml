@@ -15,7 +15,7 @@
 	</attachment>
 
 	<boolean id="should_force_refresh" value="true" />
-	
+
 	<!--colours for left hand pitch icon-->
 	<colour id="position_icon_disabled_colour" name="grey1" />
 
@@ -84,7 +84,7 @@
 								<translation id="text" translation_id="560962" type="use" value="Show full squad view[COMMENT: AREA: Team Squad; SUB-AREA: Squad Planner; FR-BN: FM-11545; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: button to show the full squd view panel.]" />
 
 							</widget>
-							
+
 							<widget class="tactic_popup_button" alignment="centre" colour="black" auto_size="all" show_button_appearance="false" request_tactic="false" id="tsbn" dont_add_reset_text="true" value="0" />
 						</container>
 					</container>
@@ -93,9 +93,9 @@
 					<container>
 						<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" inset="140,0,0,0"/>
 						<layout class="stick_to_sides_attachment" alignment="vertical"/>
-							
+
 						<widget class="pitch_with_squad_depth" id="pitc" height="500" display_centre_side_positions="true" vertical="true" pitch_alignment="centre_x,top" pitch_draw_goals="false" pitch_draw_markings="false" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="true" pitch_line_colour="white" pitch_override_icon_size="2" line_width="1.5" pitch_vertical_padding="16" disable_animations="true" pitch_touchline_width_percentage="0">
-						<string id="pitch_kit_icon" value="pitch/icons/dots" />
+							<string id="pitch_kit_icon" value="pitch/icons/dots" />
 						</widget>
 					</container>
 				</container>
@@ -128,7 +128,8 @@
 							<record id="click_event">
 								<flags id="event_id" value="scfC" />
 								<boolean id="is_in_recruitment_meeting" value="true" />
-								<integer id="RMAc" value="0" /> <!-- set as squad planner step for summary panel -->
+								<integer id="RMAc" value="0" />
+								<!-- set as squad planner step for summary panel -->
 							</record>
 						</widget>
 					</container>
@@ -188,7 +189,7 @@
 						<flags id="default_view" value="plan" />
 						<boolean id="should_force_refresh" value="true" />
 						<boolean id="force_refresh_on_object_list" value="true" />
-						
+
 						<!--available views-->
 						<list id="viws">
 							<record id="plan">
@@ -394,26 +395,26 @@
 		<!--birds eye view pitch-->
 		<container id="birE" class="main_subtle_box" hidden="true">
 			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" horizontal_inset="10" vertical_offset="1"/>
-			
+
 			<!--birds eye buttons box-->
 			<container height="35">
 				<attachment_group class="horizontal_arrange" vertical_inset="0" horizontal_alignment="left, extend"/>
-				
+
 				<widget class="icon_button" show_button_appearance="false" icon_colour="text" auto_size="horizontal" icon_alignment="centre" icon="icons/16px/expand">
 					<!--set pitch state minimised-->
 					<record id="click_event" event_id="PiSt" index="0"/>
 				</widget>
-				
+
 				<!--tactics popup and full screen button-->
 				<container>
 					<attachment_group class="horizontal_arrange" horizontal_alignment="right, extend"/>
 
 					<container>
 						<attachment_group class="horizontal_arrange" horizontal_alignment="middle"/>
-						
+
 						<widget class="tactic_popup_button" show_button_appearance="false" colour="black" alignment="centre" request_tactic="false" dont_add_reset_text="true" id="tsbE" auto_size="horizontal"/>
 					</container>
-					
+
 					<widget class="icon_button" icon_colour="text" auto_size="horizontal" icon_alignment="right" icon="icons/16px/minimise">
 						<!--set pitch state normal-->
 						<record id="click_event" event_id="PiSt" index="1" />
@@ -425,7 +426,7 @@
 			<!--birds eye view pitch-->
 			<container>
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-				
+
 				<widget class="pitch_with_squad_depth" id="birP" display_centre_side_positions="true" pitch_length_percentage="150" pitch_width_percentage="115" vertical="false" max_icon_width="0.18" max_icon_height="0.18" pitch_alignment="centre" pitch_draw_goals="true" pitch_draw_markings="true" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="true" pitch_line_colour="white" pitch_touchline_width_percentage="0" pitch_perspective="0.0" pitch_override_icon_size="2" line_width="1.4" pitch_vertical_padding="0" disable_animations="true">
 					<string id="pitch_kit_icon" value="pitch/icons/dots"/>
 				</widget>

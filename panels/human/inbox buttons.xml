@@ -9,7 +9,7 @@
 
 			<container>
 				<attachment_group class="horizontal_arrange_vertical_centre" horizontal_layout="20,-1,20" horizontal_gap="0" vertical_offset="0" />
-				
+
 				<!-- search button -->
 				<widget class="icon_button" id="nefi" show_button_appearance="false" icon="icons/16px/search" width="20" height="20">
 					<record id="primary_icon_properties" red_replacement="text"/>

@@ -27,7 +27,7 @@
 				<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" gap="4" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
-				<container id="mpsr" class="team_report_summary_panel" hidden="true" file="team/team report summary panel tactics" >
+				<container id="mpsr" class="team_report_summary_panel" hidden="true" file="team/team report summary panel tactics">
 				</container>
 
 				<container>

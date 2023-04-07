@@ -6,21 +6,21 @@
 
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left" horizontal_offset="0" vertical_offset="0" />
-			
+
 			<widget class="view_menu_label" auto_size="horizontal" embed_in_frame="false">
 				<translation id="text" translation_id="232113" type="use" value="Players" />
 			</widget>
 
 			<!-- seasons popup -->
 			<widget class="embedded_season_selection_list" id="tsbw" save_immediate_state="true" sele="sech" width="300" auto_size="vertical">
-       <global id="gap_adjustment" name="ui.split_button_row_gap" />
-      </widget>
+				<global id="gap_adjustment" name="ui.split_button_row_gap" />
+			</widget>
 
 		</container>
 
 		<!--for landmarks-->
 		<widget class="table" id="tabl" layout="100,-1,120,90,90,-1,-1" mode="fill_rows, keyboard,stripe_rows" save_session_state="true" default_sort_column="posi">
-		<record id="default_properties" alignment="left,centre_y" colour="black"/>
+			<record id="default_properties" alignment="left,centre_y" colour="black"/>
 			<list id="headings">
 				<record alignment="left,centre_y" column="0" colour="text">
 					<translation id="text" translation_id="227884" type="use" value="Position" />

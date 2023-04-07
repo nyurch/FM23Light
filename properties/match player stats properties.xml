@@ -43,7 +43,8 @@
 			<integer id="auto_hide_priority" value="10" />
 			<!-- a very high chance of not being hidden for this property (lower value = higher priority) -->
 			<record id="widget_info">
-				<symbol id="class" value="text" />	<!--this is just a reasonable default that will show the value; in FM there is a more complicated widget, person_button, which is used-->
+				<symbol id="class" value="text" />
+				<!--this is just a reasonable default that will show the value; in FM there is a more complicated widget, person_button, which is used-->
 			</record>
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
@@ -398,7 +399,7 @@
 				<translation id="text" translation_id="539022" type="use" value="Clear[COMMENT: AREA: Player Stats; BN: 38379; TONE: Informal; NOTE; Clearances Stat]" />
 			</record>
 		</record>
-		
+
 		<!-- Interceptions -->
 		<record>
 			<integer id="id" value="MPic" />
@@ -805,8 +806,8 @@
 				<translation id="text" translation_id="514224" type="use" value="xG[COMMENT: AREA: Team Stat; SUB-AREA: Expected goals stats FR: 32708; TONE: Formal; CHARLIMIT: None NOTE: expected goals short string]" />
 				<translation id="hint" translation_id="515112" type="use" value="Expected Goals[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
 			</record>
-		</record>	
-		
+		</record>
+
 		<!-- xA -->
 		<record>
 			<integer id="id" value="MPXa" />
@@ -827,7 +828,7 @@
 				<translation id="text" translation_id="552426" type="use" value="xA[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: 19995; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
 				<translation id="hint" translation_id="513484" type="use" value="Expected Assists[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: 19995; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
 			</record>
-		</record>			
+		</record>
 		<!-- Progressive Passes -->
 		<record>
 			<integer id="id" value="MPpp" />
@@ -835,7 +836,7 @@
 			<flags id="customisation_context" value="none" />
 			<translation id="name" translation_id="554489" type="use" value="Pr Passes[COMMENT:AREA: Competition Stats; SUB - AREA: Player Overview; FR - BN: 19995; TONE: Formal; CHARLIMIT: None; REF - ID: n / a; NOTE: Short stat description - Progressive Passes ]" />
 			<record id="widget_info">
-			<symbol id="class" value="dashed_number_label" />
+				<symbol id="class" value="dashed_number_label" />
 			</record>
 
 			<record id="column_widget_properties">
@@ -848,8 +849,8 @@
 				<translation id="text" translation_id="554489" type="use" value="Pr Passes[COMMENT:AREA: Competition Stats; SUB - AREA: Player Overview; FR - BN: 19995; TONE: Formal; CHARLIMIT: None; REF - ID: n / a; NOTE: Short stat description - Progressive Passes ]" />
 				<translation id="hint" translation_id="554490" type="use" value="Progressive Passes[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: 19995; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
 			</record>
-		</record>		
-		
+		</record>
+
 		<!-- Pressures Completed-->
 		<record>
 			<integer id="id" value="MPPC" />
@@ -857,7 +858,7 @@
 			<flags id="customisation_context" value="none" />
 			<translation id="name" translation_id="554495" type="use" value="Pres C[COMMENT:AREA: Competition Stats; SUB - AREA: Player Overview; FR - BN: 19995; TONE: Formal; CHARLIMIT: None; REF - ID: n / a; NOTE: Short stat description - Pressures Completed ]" />
 			<record id="widget_info">
-			<symbol id="class" value="dashed_number_label" />
+				<symbol id="class" value="dashed_number_label" />
 			</record>
 
 			<record id="column_widget_properties">
@@ -1083,7 +1084,7 @@
 				<translation id="hint" translation_id="233185" type="use" value="Attacking Free Kicks" />
 			</record>
 		</record>
-		
+
 	</list>
-	
+
 </record>

@@ -218,7 +218,7 @@
 								<container height="60">
 									<layout class="arrange_vertical_attachment" alignment="middle" offset="0" gap="4" />
 									<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
-									
+
 									<!--<container id="ShSV" file="player/player additional stats item horizontal" height="30" />-->
 									<container id="SoTV" file="player/player additional stats item horizontal" height="30" size="10" />
 									<container id="SfTV" file="player/player additional stats item horizontal" height="30" size="10" />

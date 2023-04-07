@@ -28,11 +28,7 @@
             <layout class="fit_children_attachment" alignment="vertical,fill" offset="0"/>
             <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
             <widget class="text" id="BLUB" auto_size="vertical">
-                <translation
-                    id="text"
-                    translation_id="383110"
-                    type="use"
-                    value="Simulating a match will use your currently selected tactics, along with any match plans selected below. Simulating can take up to a minute.[COMMENT: help text for choosing to use the full match engine to simulate an instant result]"/>
+                <translation id="text" translation_id="383110" type="use" value="Simulating a match will use your currently selected tactics, along with any match plans selected below. Simulating can take up to a minute.[COMMENT: help text for choosing to use the full match engine to simulate an instant result]"/>
             </widget>
             <widget class="label" id="mplb" auto_size="all">
                 <translation id="text" translation_id="339883" type="use" value="Set Match Plan[COMMENT: Match confirmation dialog; label informing user what the match plan popup does]"/>
@@ -53,11 +49,7 @@
             <layout class="fit_children_attachment" alignment="vertical,fill" gap="4" offset="0"/>
             <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
             <widget class="text" auto_size="vertical">
-                <translation
-                    id="text"
-                    translation_id="383108"
-                    type="use"
-                    value="Instant Result will provide a quicker outcome, but your assistant will take full control of the match.[COMMENT: help text for choosing to use the quick match engine to simulate an instant result]"/>
+                <translation id="text" translation_id="383108" type="use" value="Instant Result will provide a quicker outcome, but your assistant will take full control of the match.[COMMENT: help text for choosing to use the quick match engine to simulate an instant result]"/>
             </widget>
             <container>
                 <attachment_group class="button_arrangement_right"/>

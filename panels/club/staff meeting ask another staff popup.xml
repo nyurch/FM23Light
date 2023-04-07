@@ -15,8 +15,8 @@
 			<flags id="heading_class" value="column_heading_title" />
 			<list id="column_widget_properties">
 				<record>
-				<integer id="index" value="0" />
-				<string id="colour" value="text" />
+					<integer id="index" value="0" />
+					<string id="colour" value="text" />
 				</record>
 			</list>
 		</widget>

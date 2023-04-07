@@ -14,7 +14,7 @@
 	<widget class="button" id="redo" auto_size="all" click_event="REDO">
 		<translation id="text" translation_id="329043" type="use" value="Redo" />
 	</widget>
-	<widget class="button" id="disc" auto_size="all" >
+	<widget class="button" id="disc" auto_size="all">
 		<translation id="text" translation_id="344717" type="use" value="Revert" />
 		<record id="click_event">
 			<flags id="event_id" value="disc" />

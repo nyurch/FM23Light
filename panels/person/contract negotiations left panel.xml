@@ -23,7 +23,7 @@
 					<record get_property="Pinp" set_property="Pinp" target="poct" />
 					<record get_property="Piag" set_property="Piag" target="poct" />
 				</list>
-				
+
 				<attachment_group class="vertical_arrange_autosize" />
 
 				<container id="pers">
@@ -378,17 +378,17 @@
 					</container>
 				</container>
 
-		        <widget class="non_player_roles_panel" file="non_player/non player roles panel for contract negotiations" show_only_suitable="true">
-		          <record id="object_property">
-		            <list id="get_properties">
-		              <record>
-		                <integer id="get_property" value="PcJj" />
-		                <integer id="set_property" value="valu" />
-		              </record>
-		            </list>
-		          </record>
-		        </widget>
-        
+				<widget class="non_player_roles_panel" file="non_player/non player roles panel for contract negotiations" show_only_suitable="true">
+					<record id="object_property">
+						<list id="get_properties">
+							<record>
+								<integer id="get_property" value="PcJj" />
+								<integer id="set_property" value="valu" />
+							</record>
+						</list>
+					</record>
+				</widget>
+
 
 			</container>
 
@@ -396,11 +396,11 @@
 				<string id="remove_if" value="ui.is_fmt_controller_skin" />
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="10" />
 
-				<widget class="team_staff_subteam_overview_panel" id="pjsb" auto_size="vertical" file="team/team staff subteam impact for contract negotiations" >
+				<widget class="team_staff_subteam_overview_panel" id="pjsb" auto_size="vertical" file="team/team staff subteam impact for contract negotiations">
 
 				</widget>
 
-				<widget class="team_staff_subteam_overview_panel" id="sjsb" auto_size="vertical" file="team/team staff subteam impact for contract negotiations" hibb="true" >
+				<widget class="team_staff_subteam_overview_panel" id="sjsb" auto_size="vertical" file="team/team staff subteam impact for contract negotiations" hibb="true">
 
 				</widget>
 

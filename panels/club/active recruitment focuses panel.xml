@@ -148,54 +148,54 @@
 				<container>
 					<attachment_group class="horizontal_arrange" horizontal_layout="-1,150" vertical_inset="0" horizontal_offset="0" vertical_gap="12" horizontal_gap="6" />
 
-				<container>
-				<attachment_group class="horizontal_arrange" horizontal_layout="32,-1,-1" horizontal_alignment="left" vertical_inset="0" horizontal_offset="0" vertical_gap="12" horizontal_gap="6" />
+					<container>
+						<attachment_group class="horizontal_arrange" horizontal_layout="32,-1,-1" horizontal_alignment="left" vertical_inset="0" horizontal_offset="0" vertical_gap="12" horizontal_gap="6" />
 
-					<widget class="picture" id="fcTI" file="icons/custom/icon box/focus" image_alignment="centre" keep_aspect_ratio="true" scale_picture="false" wants_mouse_events="false" red_replacement="bg yellow lighter" blue_replacement="black"/>
-					<widget class="text" id="fcTT" auto_size="horizontal" height="26" size="xlarge" colour="black" font="title" alignment="left,centre_y" />
+						<widget class="picture" id="fcTI" file="icons/custom/icon box/focus" image_alignment="centre" keep_aspect_ratio="true" scale_picture="false" wants_mouse_events="false" red_replacement="bg yellow lighter" blue_replacement="black"/>
+						<widget class="text" id="fcTT" auto_size="horizontal" height="26" size="xlarge" colour="black" font="title" alignment="left,centre_y" />
 
-					<container id="asst">
-						<attachment_group class="horizontal_arrange" horizontal_alignment="left" vertical_offset="0" horizontal_gap="6" horizontal_offset="0" />
-						<attachment class="test_screen_size_attachment">
-							<list id="properties">
-								<record>
-									<flags id="alignment" value="horizontal" />
-									<integer id="min_value" value="0" />
-									<integer id="max_value" value="1460" />
-									<symbol id="set_property" value="hidden" />
-								</record>
-							</list>
-						</attachment>
+						<container id="asst">
+							<attachment_group class="horizontal_arrange" horizontal_alignment="left" vertical_offset="0" horizontal_gap="6" horizontal_offset="0" />
+							<attachment class="test_screen_size_attachment">
+								<list id="properties">
+									<record>
+										<flags id="alignment" value="horizontal" />
+										<integer id="min_value" value="0" />
+										<integer id="max_value" value="1460" />
+										<symbol id="set_property" value="hidden" />
+									</record>
+								</list>
+							</attachment>
 
-						<widget class="vertical_subtle_divider" red_replacement="fg"/>
+							<widget class="vertical_subtle_divider" red_replacement="fg"/>
 
-						<widget class="text" id="assT" auto_size="horizontal" alignment="centre_x, centre_y" colour="faded text">
-							<translation id="text" translation_id="557613" type="use" value="Assigned to:[COMMENT: AREA: Scouting; SUB-AREA: Active Recruitment Focuses Panel; FR-BN: FM-4038; NOTE: Subtitle showing which scout and which analyst the focus has been assigned to]" />
-						</widget>
+							<widget class="text" id="assT" auto_size="horizontal" alignment="centre_x, centre_y" colour="faded text">
+								<translation id="text" translation_id="557613" type="use" value="Assigned to:[COMMENT: AREA: Scouting; SUB-AREA: Active Recruitment Focuses Panel; FR-BN: FM-4038; NOTE: Subtitle showing which scout and which analyst the focus has been assigned to]" />
+							</widget>
 
-						<widget class="person_button" id="scas" auto_size="horizontal" alignment="left,centre_y" colour="text" info_popup_enabled="true" info_popup_alignment="left, centre_y" person_is_player="false" person_is_human="false" size="medium" />
+							<widget class="person_button" id="scas" auto_size="horizontal" alignment="left,centre_y" colour="text" info_popup_enabled="true" info_popup_alignment="left, centre_y" person_is_player="false" person_is_human="false" size="medium" />
 
-						<widget class="text" id="asAn" auto_size="horizontal" alignment="centre_x, centre_y" colour="faded text">
-							<translation id="text" translation_id="282538" type="use" value="and[COMMENT: news_item; where_are_they_now_news; used to link two sentences together in a list e.g. person1 and person2]" />
-						</widget>
+							<widget class="text" id="asAn" auto_size="horizontal" alignment="centre_x, centre_y" colour="faded text">
+								<translation id="text" translation_id="282538" type="use" value="and[COMMENT: news_item; where_are_they_now_news; used to link two sentences together in a list e.g. person1 and person2]" />
+							</widget>
 
-						<widget class="person_button" id="anas" auto_size="horizontal" alignment="left,centre_y" colour="text" info_popup_enabled="true" info_popup_alignment="left, centre_y" person_is_player="false" person_is_human="false" size="medium" />
+							<widget class="person_button" id="anas" auto_size="horizontal" alignment="left,centre_y" colour="text" info_popup_enabled="true" info_popup_alignment="left, centre_y" person_is_player="false" person_is_human="false" size="medium" />
+						</container>
+
+						<container id="frms" hidden="true">
+							<attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" vertical_offset="0" horizontal_gap="5" horizontal_offset="10" />
+
+							<widget class="text" auto_size="horizontal" alignment="centre_x, centre_y" colour="faded text">
+								<translation id="text" translation_id="557614" type="use" value="From[COMMENT: AREA: Team Squad; SUB-AREA: Squad Planner; FR-BN FM - 4115; NOTE: Subtitle showing which season plan the list is being copied from]" />
+							</widget>
+
+							<widget class="person_button" id="frpr" auto_size="horizontal" alignment="left,centre_y" colour="text" info_popup_enabled="true" info_popup_alignment="left, centre_y" person_is_player="false" size="medium" />
+
+							<widget class="text" text="-" auto_size="horizontal" alignment="centre_x, centre_y" colour="faded text" />
+
+							<widget class="job_label" id="frjb" auto_size="horizontal" alignment="left,centre_y" colour="text" info_popup_enabled="true" info_popup_alignment="left, centre_y" person_is_player="false" size="medium" />
+						</container>
 					</container>
-
-					<container id="frms" hidden="true">
-						<attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" vertical_offset="0" horizontal_gap="5" horizontal_offset="10" />
-
-						<widget class="text" auto_size="horizontal" alignment="centre_x, centre_y" colour="faded text">
-							<translation id="text" translation_id="557614" type="use" value="From[COMMENT: AREA: Team Squad; SUB-AREA: Squad Planner; FR-BN FM - 4115; NOTE: Subtitle showing which season plan the list is being copied from]" />
-						</widget>
-
-						<widget class="person_button" id="frpr" auto_size="horizontal" alignment="left,centre_y" colour="text" info_popup_enabled="true" info_popup_alignment="left, centre_y" person_is_player="false" size="medium" />
-
-						<widget class="text" text="-" auto_size="horizontal" alignment="centre_x, centre_y" colour="faded text" />
-
-						<widget class="job_label" id="frjb" auto_size="horizontal" alignment="left,centre_y" colour="text" info_popup_enabled="true" info_popup_alignment="left, centre_y" person_is_player="false" size="medium" />
-					</container>
-				</container>
 
 					<container>
 						<attachment_group class="horizontal_arrange" horizontal_alignment="right" vertical_offset="0" horizontal_gap="5" horizontal_offset="0" />
@@ -244,7 +244,7 @@
 						<flags id="default_view" value="ovvw" />
 						<flags id="default_sort_column" value="PsRK" />
 
-						<list id="views">							
+						<list id="views">
 							<record id="ovvw">
 								<record id="view_table_properties">
 									<integer id="row_height" value="60" />

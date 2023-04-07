@@ -66,7 +66,7 @@
 		<container id="notL">
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 			<layout class="arrange_horizontal_attachment" layout="-1,-4,-1" offset="0" gap="0" />
-			
+
 			<widget class="label" colour="white">
 				<translation id="text" translation_id="258582" type="use" value="Match Preview[COMMENT - continue button text when match preview is next screen to appear]" />
 			</widget>

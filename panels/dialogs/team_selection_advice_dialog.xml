@@ -1,8 +1,8 @@
 ﻿<panel height="768" width="1000">
 
-  <layout class="centre_in_parent_attachment" alignment="all" />
-  
-  <list id="draw_order">
+	<layout class="centre_in_parent_attachment" alignment="all" />
+
+	<list id="draw_order">
 		<record entity_layout_id="at02" />
 		<record entity_layout_id="at03" />
 		<record entity_layout_id="at07" />
@@ -84,21 +84,21 @@
 			<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
 		</container>
 		<widget class="radio_button" appearance="switches/toggle/right/button" icon_enabled="false" show_button_appearance="true" id="at01" entity_layout_id="at01" auto_size="horizontal" needs_width="true" height="24">
-      <record id="click_event">
-        <integer id="event_id" value="tPUO" />
-        <integer id="index" value="true" />
-      </record>
-      <translation id="text" value="Unpicked Positions Only[COMMENT - team screen team selection, when we want the coach to pick just the team selection slots that the user has left empty]" translation_id="338601" type="use" />
-      <layout class="stick_to_object_attachment" id="align_top" offset="0" get_side="top" set_side="top" move_side="true" target="main" />
+			<record id="click_event">
+				<integer id="event_id" value="tPUO" />
+				<integer id="index" value="true" />
+			</record>
+			<translation id="text" value="Unpicked Positions Only[COMMENT - team screen team selection, when we want the coach to pick just the team selection slots that the user has left empty]" translation_id="338601" type="use" />
+			<layout class="stick_to_object_attachment" id="align_top" offset="0" get_side="top" set_side="top" move_side="true" target="main" />
 			<layout class="stick_to_object_attachment" id="align_right" offset="-5" get_side="right" set_side="right" move_side="true" target="main" />
 		</widget>
 		<widget class="radio_button" appearance="switches/toggle/left/button" icon_enabled="false" show_button_appearance="true" id="at09" entity_layout_id="at09" auto_size="horizontal" needs_width="true" height="24" selected="true">
-      <record id="click_event">
-        <integer id="event_id" value="tPUO" />
-        <integer id="index" value="false" />
-      </record>
-      <translation id="text" value="Entire Team[COMMENT:Ask to Pick menu option, allows the chosen member of staff to pick a team for all the position in the current formation]" translation_id="422586" type="use" />
-      <layout class="stick_to_object_attachment" id="align_top" offset="0" get_side="top" set_side="top" move_side="true" target="main" />
+			<record id="click_event">
+				<integer id="event_id" value="tPUO" />
+				<integer id="index" value="false" />
+			</record>
+			<translation id="text" value="Entire Team[COMMENT:Ask to Pick menu option, allows the chosen member of staff to pick a team for all the position in the current formation]" translation_id="422586" type="use" />
+			<layout class="stick_to_object_attachment" id="align_top" offset="0" get_side="top" set_side="top" move_side="true" target="main" />
 			<layout class="stick_to_object_attachment" id="align_right" offset="-1" get_side="left" set_side="right" move_side="true" target="at01" />
 		</widget>
 	</container>

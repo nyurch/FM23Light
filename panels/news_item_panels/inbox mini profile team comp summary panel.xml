@@ -6,7 +6,7 @@
 
 	<container id="DtBx" class="inner_subtle_box">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="10" vertical_gap="30" horizontal_alignment="horizontal" horizontal_inset="0" />
-		
+
 		<container id="PvMt" height="60">
 			<layout class="arrange_vertical_attachment" alignment="top,extend" gap="0" offset="0"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>

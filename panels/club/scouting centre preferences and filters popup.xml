@@ -8,8 +8,8 @@
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_offset="0" vertical_inset="0" horizontal_gap="12"/>
 
-		<!--recommendation cards section information text-->
-		<widget class="text" id="titw" height="37" width="372" colour="faded text" />
+			<!--recommendation cards section information text-->
+			<widget class="text" id="titw" height="37" width="372" colour="faded text" />
 
 			<widget class="subtle_button" auto_size="all" id="adfb" click_event="advf">
 				<translation id="text" translation_id="466397" type="use" value="Advanced filters...[COMMENT: FR 22700, scouting centre filter type]" />

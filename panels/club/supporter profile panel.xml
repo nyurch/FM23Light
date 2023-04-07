@@ -24,7 +24,7 @@
 
 			<container class="main_subtle_box">
 				<attachment_group class="vertical_arrange_autosize" />
-				
+
 				<widget class="text" id="sgtx" auto_size="vertical" />
 			</container>
 
@@ -35,7 +35,7 @@
 					<attachment_group class="vertical_arrange_autosize" horizontal_inset="4" vertical_offset="12" />
 
 					<widget class="text" auto_size="all" style="semi_bold" font="title" size="large" colour="text">
-						<translation id="text" translation_id="557710" type="use" value="Supporter Profile[COMMENT:AREA: Club vision; SUB - AREA: Supporter profile panel FR - BN: FM-3272; TONE: Formal; CHARLIMIT: None; REF - ID: n/a; NOTE: Supporters profile title text.]" />	
+						<translation id="text" translation_id="557710" type="use" value="Supporter Profile[COMMENT:AREA: Club vision; SUB - AREA: Supporter profile panel FR - BN: FM-3272; TONE: Formal; CHARLIMIT: None; REF - ID: n/a; NOTE: Supporters profile title text.]" />
 					</widget>
 					<widget class="text" id="sptx" display_format="1" auto_size="all" colour="text" />
 				</container>
@@ -57,15 +57,15 @@
 			</container>
 
 			<container>
-			<attachment_group class="vertical_arrange_autosize" vertical_offset="12" />
-				
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="12" />
+
 				<widget class="horizontal_divider" image_alignment="centre_y" />
 			</container>
 
 			<container class="scrolling_box" id="sclP" navigation_container="true">
 				<container>
 					<attachment_group class="vertical_arrange_autosize" />
-					
+
 					<!-- Supporter Culture and Expectations -->
 					<container class="club_vision_viewer_panel" id="scbx" file="club/club vision supporter combined panel" show_objective_icon="true" show_objective_type="true" show_objective_importance="true" show_objective_status="true" use_performance_data="true" />
 
@@ -99,7 +99,7 @@
 						<translation id="text" translation_id="316854" type="use" value="Last Match" />
 					</widget>
 				</container>
-				
+
 				<container class="property_list_viewer_xml_panel" id="lstm" file="news_item_panels/match of the day main result item panel" height="32" />
 				<widget class="table" id="lmtb" layout="-1, -1, -1" mode="fill_rows, stripe_rows" auto_size_rows="true" fixed_size_rows="false" auto_size="vertical">
 					<list id="headings">
@@ -174,7 +174,7 @@
 						<translation id="text" translation_id="557714" type="use" value="Rivals[COMMENT:AREA: Club vision; SUB - AREA: Supporter profile panel FR - BN: FM-3272; TONE: Formal; CHARLIMIT: None; REF - ID: n/a; NOTE: title string for rivals reason section.]" />
 					</widget>
 				</container>
-				
+
 				<widget class="table" id="ritb" layout="-2, -1, -1" mode="fill_rows, stripe_rows" auto_size_rows="false" fixed_size_rows="true" default_sort_column="1" row_height="26" height="108">
 					<list id="headings">
 						<record>
@@ -217,7 +217,7 @@
 					</list>
 				</widget>
 			</container>
-			
+
 			<!-- Current Favoured Personnel -->
 			<container id="cfpc">
 				<attachment_group class="vertical_arrange_autosize" />
@@ -233,7 +233,7 @@
 						<translation id="text" translation_id="557716" type="use" value="Favoured Personnel at Club[COMMENT:AREA: Club vision; SUB - AREA: Supporter profile panel FR - BN: FM-3272; TONE: Formal; CHARLIMIT: None; REF - ID: n/a; NOTE: title string for current favoured personnel section.]" />
 					</widget>
 				</container>
-				
+
 				<widget class="table" id="fptb" layout="-2, -2, -1" mode="fill_rows, stripe_rows" auto_size_rows="false" fixed_size_rows="true" row_height="26" height="108">
 					<list id="headings">
 						<record>
@@ -301,7 +301,7 @@
 						<translation id="text" translation_id="316566" type="use" value="Finances[COMMENT: Link to club finances]" />
 					</widget>
 				</container>
-				
+
 				<widget class="table" id="fitb" layout="-2, -1, -1" mode="fill_rows, stripe_rows" auto_size_rows="true" fixed_size_rows="false">
 					<list id="headings">
 						<record>

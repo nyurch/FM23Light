@@ -139,20 +139,20 @@
 			<widget class="text" id="AgFb" auto_size="vertical" />
 
 			<container>
-			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="6" />
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="6" />
 
-			<!--player demands as supplied by agent-->
-			<widget class="player_demands_icon_list" id="PlEx" auto_size="vertical" apd_string_mode="news_item">
-				<record id="object_property">
-					<list id="get_properties">
-						<record>
-							<integer id="get_property" value="objt" />
-							<integer id="set_property" value="objt" />
-						</record>
-					</list>
-				</record>
-			</widget>
-		</container>
+				<!--player demands as supplied by agent-->
+				<widget class="player_demands_icon_list" id="PlEx" auto_size="vertical" apd_string_mode="news_item">
+					<record id="object_property">
+						<list id="get_properties">
+							<record>
+								<integer id="get_property" value="objt" />
+								<integer id="set_property" value="objt" />
+							</record>
+						</list>
+					</record>
+				</widget>
+			</container>
 		</container>
 	</container>
 

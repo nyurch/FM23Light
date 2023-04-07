@@ -42,7 +42,7 @@
       <boolean id="scale_picture" value="true" />
       <boolean id="keep_aspect_ratio" value="true" />
       <flags id="image_alignment" value="centre" />
-      
+
       <attachment class="test_setting_attachment" get_setting="show_portraits" default_value="true" set_property="hidn">
         <list id="value">
           <boolean value="false" />

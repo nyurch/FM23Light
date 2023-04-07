@@ -13,7 +13,7 @@
 
 	</container>
 
-	<container id="ntac" class="empty_state" header_widget="noTa" >
+	<container id="ntac" class="empty_state" header_widget="noTa">
 
 		<widget class="manager_text" id="noTa">
 			<translation id="text" translation_id="395563" type="use" value="[%person#1-You] need to create a tactic before [%person#1-you] can set up set-piece routines.[COMMENT: FR 9552 - explanatory text to show that the user hasn't created a tactic yet, so can't set up any set piece routines]" />
@@ -62,7 +62,7 @@
 						<widget class="label" font="label" colour="faded text" auto_size="all">
 							<translation id="text" translation_id="260822" type="use" value="Tactic[COMMENT:]" />
 						</widget>
-						<widget class="match_preparation_slot_selector" id="mpss" height="30"  file="" text="">
+						<widget class="match_preparation_slot_selector" id="mpss" height="30" file="" text="">
 							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 							<widget class="view_menu_popup" id="popu" colour="text" embed_in_frame="false" auto_size="vertical">
 

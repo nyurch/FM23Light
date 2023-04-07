@@ -40,7 +40,7 @@
 			</widget>
 
 			<widget class="text" id="anfo" size="small" colour="faded text" auto_size="vertical" />
-			<widget class="text" id="anfe" size="small" colour="faded text"  auto_size="vertical" />
+			<widget class="text" id="anfe" size="small" colour="faded text" auto_size="vertical" />
 		</container>
 
 		<widget class="label" id="nofo">

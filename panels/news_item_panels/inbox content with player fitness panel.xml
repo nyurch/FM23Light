@@ -8,7 +8,7 @@
 	<container>
 		<attachment_group class="horizontal_arrange_vertical_autosize" vertical_offset="0" horizontal_layout="-1, -1" horizontal_inset="0"/>
 
-		<container class="client_object_viewer_xml_panel" id="psdt" >
+		<container class="client_object_viewer_xml_panel" id="psdt">
 			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" />
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 
@@ -39,7 +39,7 @@
 					</widget>
 
 					<!-- Age -->
-					<widget class="formatted_label"  alignment="left, centre_y" auto_size="vertical" colour="faded text">
+					<widget class="formatted_label" alignment="left, centre_y" auto_size="vertical" colour="faded text">
 						<translation id="format" translation_id="242551" type="use" value="[%number#1] years old"/>
 						<record id="object_property" get_property="Page"/>
 					</widget>

@@ -5,23 +5,23 @@
 	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0"/>
 
 	<container id="mnCn" auto_size="vertical">
-		<attachment_group class="vertical_arrange_autosize" vertical_alignment="top"  />
+		<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
 		<container class="client_object_viewer_xml_panel" id="ydld" height="200" navigation_container="true">
 			<record id="object_property">
 				<string id="get_property" value="objt" />
 				<string id="set_property" value="objt" />
 			</record>
-			<attachment_group class="vertical_arrange_autosize" vertical_alignment="top"  />
+			<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
 
 			<container>
-				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1"  />
+				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" />
 
 				<container>
-					<attachment_group class="vertical_arrange_autosize" vertical_alignment="bottom"  />
+					<attachment_group class="vertical_arrange_autosize" vertical_alignment="bottom" />
 
 					<container class="titled_box" height="120">
 						<translation id="text" translation_id="447581" type="use" value="Match Squad[COMMENT: team match briefing title, manager gives a series of instructions and talks to the squad selected for the upcoming match]" />
-						<attachment_group class="vertical_arrange" vertical_alignment="top,extend"  />
+						<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
 						<container class="team_upcoming_fixture_widget" id="ydnf" auto_size="vertical" />
 						<widget class="text" alignment="top,left" id="ftft" multiline="true" />
 					</container>
@@ -30,9 +30,9 @@
 							<string id="get_property" value="objt" />
 							<string id="set_property" value="objt" />
 						</record>
-						<attachment_group class="horizontal_arrange" horizontal_alignment="left" horizontal_gap="12"  />
+						<attachment_group class="horizontal_arrange" horizontal_alignment="left" horizontal_gap="12" />
 						<container>
-							<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" >
+							<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left">
 								<global id="horizontal_gap" name="ui.split_button_row_gap" />
 							</attachment_group>
 							<widget class="radio_toggle_switch_left" id="tpvb" auto_size="horizontal" click_event="ecpv">
@@ -57,7 +57,7 @@
 				</container>
 
 				<container>
-					<attachment_group class="vertical_arrange_autosize" vertical_alignment="top"  />
+					<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
 
 					<container class="inner_subtle_box" height="120">
 						<translation id="text" value="Availability" translation_id="247455" type="use" />
@@ -68,7 +68,7 @@
 							<widget class="widget_popup_button" colour="white" secondary_icon_colour="white" entity_layout_id="at05" id="avFs" appearance="buttons/subtle/flex/button">
 								<string id="widget_type" value="client_object_viewer_xml_panel" />
 								<record id="widget_properties" file="widgets/popup change availability reserve players object table" width="1000" />
-								<record id="modal_popup_properties" file="modal popup panel auto sized" >
+								<record id="modal_popup_properties" file="modal popup panel auto sized">
 									<string id="attempt_to_reposition" value="true" />
 								</record>
 							</widget>
@@ -97,12 +97,12 @@
 					<container height="60">
 						<attachment_group class="vertical_arrange" vertical_alignment="top,extend" horizontal_alignment="left" horizontal_inset="8" />
 
-						<widget class="link_button_title" id="lnkR" auto_size="all" >
+						<widget class="link_button_title" id="lnkR" auto_size="all">
 							<translation id="text" translation_id="242302" type="use" value="Rules"/>
 						</widget>
 						<container>
 							<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
-							<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" vertical_alignment="bottom"  />
+							<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" vertical_alignment="bottom" />
 
 							<container class="scrolling_box">
 								<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" />
@@ -110,12 +110,12 @@
 									<string id="set_property" value="objt" />
 								</widget>
 							</container>
-							<container class="team_squad_panel" entity_layout_id="ffdf" id="filt" file="" >
+							<container class="team_squad_panel" entity_layout_id="ffdf" id="filt" file="">
 								<layout class="stick_to_sides_attachment" alignment="bottom,right" apply_to_children="true" inset="0" />
 								<layout class="fit_children_attachment" alignment="vertical" offset="0" />
 								<layout class="fit_children_attachment" alignment="horizontal" offset="0" />
 
-								<widget class="embedded_filter_button" entity_layout_id="adad"  allow_pin="false" id="plsf" target="mnCn" auto_size="all"/>
+								<widget class="embedded_filter_button" entity_layout_id="adad" allow_pin="false" id="plsf" target="mnCn" auto_size="all"/>
 							</container>
 						</container>
 					</container>
@@ -128,7 +128,7 @@
 			<container class="contrast_box" id="pitv" hidden="true" navigation_container="true" red_replacement="pitch_box_background">
 				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="8" horizontal_gap="12" />
 
-				<container class="pitch_with_tactics" id="ypwt" >
+				<container class="pitch_with_tactics" id="ypwt">
 					<string id="player_icon_file" value="tactics/tactics icon info panel overview" />
 					<string id="icon_flags" value="show_name,show_extra_details,use_overview_icons,drop_initial_if_possible,show_position_role_duty_suitability,disable_role_duty_popup,show_selection_image,show_role_duty_labels,show_familiarity,dont_fade_icons,show_reserves_playing_time" />
 					<integer id="pitch_vertical_padding" value="0" />
@@ -171,7 +171,7 @@
 								<record id="TPRD" />
 								<record id="PlSE" />
 								<record id="player_status_info" />
-								<record id="PcOI"  />
+								<record id="PcOI" />
 								<record id="PftI"/>
 								<record id="player_overall_appearances" />
 								<record id="player_overall_goals" />

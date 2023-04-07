@@ -12,7 +12,7 @@
 
 		<container width="30" height="30">
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-			
+
 			<widget class="picture" file="icons/26px/circle" scale_picture="true" image_alignment="centre" keep_aspect_ratio="true" red_replacement="white">
 
 			</widget>

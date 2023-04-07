@@ -61,7 +61,7 @@
 		<widget class="horizontal_divider" image_alignment="centre_y" height="2"/>
 
 		<!-- Stadium -->
-		<container height="80" >
+		<container height="80">
 			<attachment_group class="vertical_arrange" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 			<widget class="text" size="9" font="title" colour="faded black" alignment="centre_y,left" auto_size="vertical">
@@ -85,7 +85,7 @@
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-			<widget class="text"  size="9" font="title" colour="text" alignment="centre_y,left" auto_size="vertical">
+			<widget class="text" size="9" font="title" colour="text" alignment="centre_y,left" auto_size="vertical">
 				<translation id="text" translation_id="466484" type="use" value="Journalists Expected[COMMENT: FR 22941; press conference invite news; title for box containing number of journalists expected to attend]" />
 			</widget>
 

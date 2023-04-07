@@ -1,4 +1,4 @@
-﻿<panel  navigation_container="true">
+﻿<panel navigation_container="true">
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 	<container class="main_box" force_title_borders="true">

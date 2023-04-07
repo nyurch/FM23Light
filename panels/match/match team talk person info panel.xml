@@ -48,7 +48,7 @@
                             <boolean id="wants_mouse_events" value="false"/>
                         </record>
                     </widget>
-                    
+
                     <!-- Penalty order -->
                     <widget class="text" id="PenO" font="title" colour="yellow1" alignment="centre" width="38" hidden="true"/>
                 </container>

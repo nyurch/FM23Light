@@ -7,7 +7,7 @@
     <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
     <!-- No advice container-->
-    <container id="Navc" hidden="true" >
+    <container id="Navc" hidden="true">
       <widget class="picture" file="boxes/custom/speech bubble/right/paper" colour="human speech bubble" scale_picture="true" keep_aspect_ratio="false">
         <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
       </widget>
@@ -21,12 +21,11 @@
       <attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" horizontal_alignment="horizontal" horizontal_inset="0" />
 
       <!-- A wipe container setup to create a new widget when it receievs PROP_TEXT and to forward that data onto an embedded widget ('Atxt') -->
-      <container class="animated_wipe_down_container" id="advc" wipe_data_trigger_id="text" wipe_data_target_id="Atxt"
-             remove_widget_after_wipe="true" draw_embedded_in_reverse_order="true" duration="0.7">
+      <container class="animated_wipe_down_container" id="advc" wipe_data_trigger_id="text" wipe_data_target_id="Atxt" remove_widget_after_wipe="true" draw_embedded_in_reverse_order="true" duration="0.7">
         <!-- We don't want a wipe in -->
         <record id="wipe_in_animation"/>
         <!-- This widget will be created everytime we recieve PROP_TEXT -->
-        <record id="widget_properties"  class="inner_box_no_margin" file="player/player development advice item text panel" />
+        <record id="widget_properties" class="inner_box_no_margin" file="player/player development advice item text panel" />
       </container>
 
       <!-- Advice buttons -->

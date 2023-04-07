@@ -5,7 +5,7 @@
 	<boolean id="use_pro_con_long_strings" value="true"/>
 
 	<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0"/>
-	
+
 	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 	<container class="main_box" navigation_container="true">
@@ -292,7 +292,7 @@
 			<attachment_group class="vertical_arrange" vertical_alignment="top, extend" vertical_offset="0" horizontal_inset="0" vertical_gap="10" />
 
 			<widget class="player_positions_indicator_panel" id="ppos" height="70" file="player/player positions indicator panel selector">
-                <string id="remove_if" value="use_simplified_scouting"/>
+				<string id="remove_if" value="use_simplified_scouting"/>
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
 
@@ -301,7 +301,7 @@
 
 				<!--Data hub widgets-->
 				<container id="dhbW">
-					 <string id="remove_if" value="ui.is_fmt_controller_skin"/>
+					<string id="remove_if" value="ui.is_fmt_controller_skin"/>
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
@@ -327,7 +327,7 @@
 				<!--Squad comparison table-->
 				<container id="sqdC">
 					<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" horizontal_inset="0"/>
-					
+
 					<widget class="link_button_title" id="sqcw" size="medium" alignment="left, centre_y">
 						<string id="remove_if" value="is_fmt"/>
 					</widget>
@@ -372,8 +372,8 @@
 
 				<!--FMT Position abilty widget-->
 				<container class="main_box_no_margin">
-                    <string id="create_if" value="use_simplified_scouting"/>
-                    <layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" gap="0" />
+					<string id="create_if" value="use_simplified_scouting"/>
+					<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" gap="0" />
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 					<widget class="player_positions_indicator_panel" id="pPOS" file="player/player positions indicator report overview">

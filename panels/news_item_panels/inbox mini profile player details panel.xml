@@ -6,7 +6,7 @@
     <layout class="centre_in_parent_attachment" alignment="horizontal" apply_to_children="true" offset="0"/>
 
     <widget class="object_portrait_picture" id="plpc" height="90" width="150" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" />
-	  
+
     <container height="12" width="1"/>
 
     <!-- person name -->

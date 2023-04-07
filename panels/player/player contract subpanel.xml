@@ -2,9 +2,9 @@
 	<attachment_group class="vertical_arrange_autosize" alignment="top" vertical_offset="0" vertical_gap="4" horizontal_inset="0" />
 
 	<!-- team -->
-	<widget class="team_button" id="team"  size="12" style="semi_bold" auto_size="vertical" navigation_focus_target="true"/>
+	<widget class="team_button" id="team" size="12" style="semi_bold" auto_size="vertical" navigation_focus_target="true"/>
 
-	<widget class="horizontal_divider" height="2"   />
+	<widget class="horizontal_divider" height="2" />
 
 	<!-- wages -->
 	<container>
@@ -50,7 +50,7 @@
 		</container>
 	</container>
 
-	<widget class="text" id="wagi" auto_size="vertical"  colour="faded text" />
+	<widget class="text" id="wagi" auto_size="vertical" colour="faded text" />
 
 	<!-- future contract -->
 	<widget class="text" id="ftct" auto_size="vertical" />
@@ -96,22 +96,22 @@
 		</container>
 
 	</container>
-	<container class="main_box"  id="wpco" hidden="true" red_replacement="negative bg">
+	<container class="main_box" id="wpco" hidden="true" red_replacement="negative bg">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-		<widget class="text" col="0"  auto_size="vertical" style="bold" size="small">
+		<widget class="text" col="0" auto_size="vertical" style="bold" size="small">
 			<translation id="text" translation_id="494257" type="use" value="Work Permit Expired[COMMENT: AREA: Player Status; SUB-AREA: Title; FR-BN: n/a; TONE: Formal; CHARLIMIT: None; REF-ID: 456575; NOTE: Title that displays when a player does not have a work permit, this is the same as the referenced ID, but in proper casing, as the previous version needlessly used all caps]" />
 		</widget>
 		<widget class="text" id="wptx" auto_size="vertical" />
 	</container>
 
-	<widget class="horizontal_divider" height="2"   />
+	<widget class="horizontal_divider" height="2" />
 
 	<!-- Agreed Playing Time -->
 	<container id="sQCo">
 		<attachment_group class="horizontal_arrange_vertical_autosize" vertical_alignment="top,fill" horizontal_alignment="fill" horizontal_inset="0" />
 		<container>
-			<attachment_group class="vertical_arrange_autosize"  vertical_alignment="top,fill" horizontal_inset="0" />
+			<attachment_group class="vertical_arrange_autosize" vertical_alignment="top,fill" horizontal_inset="0" />
 
 			<widget class="label" id="sqsl" col="0" row="10" auto_size="vertical">
 				<translation id="text" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
@@ -119,7 +119,7 @@
 			<widget class="playing_time_label" id="sqst" col="0" row="11" size="xlarge" auto_size="vertical" style="semi_bold" colour="text" alignment="left,top" />
 		</container>
 		<container>
-			<attachment_group class="vertical_arrange_autosize"  vertical_alignment="top,fill" horizontal_inset="0" />
+			<attachment_group class="vertical_arrange_autosize" vertical_alignment="top,fill" horizontal_inset="0" />
 			<!-- Actual Playing Time -->
 			<widget class="label" id="acpL" col="1" row="10" auto_size="vertical">
 				<translation id="text" translation_id="492001" type="use" value="Actual Playing Time[COMMENT: AREA: Playing Time for Players; SUB-AREA: Contract Negotiations; FR-BN: 25975; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: concerns how much playing time a player is being promised]" />
@@ -127,7 +127,7 @@
 			<widget class="playing_time_label" id="acpT" col="1" row="11" size="xlarge" auto_size="vertical" style="semi_bold" colour="text" alignment="left,top" />
 		</container>
 	</container>
-	
+
 	<!-- percentage of total wage bill -->
 	<container id="perW">
 		<attachment_group class="horizontal_arrange_vertical_autosize" vertical_alignment="top,fill" horizontal_alignment="fill" horizontal_inset="0" />

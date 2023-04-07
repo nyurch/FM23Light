@@ -2,14 +2,14 @@
 
   <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
-  <container class="inner_box" >
+  <container class="inner_box">
 
     <translation id="title" translation_id="320503" type="use" value="Retirements[COMMENT: sub section title; screen for list retired players]" />
     <layout class="arrange_vertical_attachment" alignment="fill" offset="0" gap="0" />
     <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
     <widget class="client_object_list_table" id="rptb" database_table_type="1" mode="fill_rows, stripe_rows, printable, store_sort_state" column_mode="resize_columns, move_columns">
-	  <record id="default_properties" colour="black"/>
+      <record id="default_properties" colour="black"/>
 
       <record id="object_property">
         <!-- Get the list of retired people and set it on the table -->
@@ -33,9 +33,9 @@
         <flags id="Pt1s" />
         <flags id="Pp1s" />
       </record>
-      
+
     </widget>
 
   </container>
-  
+
 </panel>

@@ -1,7 +1,7 @@
 <panel>
 	<boolean id='include_starting_subs' value='false'/>
 	<boolean id="restrict_to_pitch_xi_if_in_shootout" value="true" />
-	
+
 	<!-- Starting XI Styles -->
 	<flags id="stxi" value="tables/standard/normal" />
 
@@ -13,11 +13,11 @@
 
 	<!-- Not in squad Styles -->
 	<flags id="nisq" value="tables/custom/squad/row/outside squad/row" />
-	
+
 	<list id="properties_to_forward">
 		<record get_property="tbSF" set_property="tbSF" target="pltb"/>
 	</list>
-	
+
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 	<!-- main area -->
@@ -25,7 +25,7 @@
 		<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="0" gap="10" />
 		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-		<container force_title_borders="true"  alignment="left">
+		<container force_title_borders="true" alignment="left">
 			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
@@ -54,16 +54,16 @@
 						<record id="Pmtc" />
 						<!-- penalty taking -->
 						<record id="Pfin" width="40">
-					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="10" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
-				</record>
+							<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="10" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+						</record>
 						<!-- composure -->
 						<record id="Pcmp" width="40">
-					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="10" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
-				</record>
+							<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="10" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+						</record>
 						<!-- penalty taking -->
 						<record id="Ppen" width="40">
-					<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="10" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
-				</record>
+							<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="10" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+						</record>
 					</record>
 
 				</widget>

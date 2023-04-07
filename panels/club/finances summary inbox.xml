@@ -42,7 +42,7 @@
 				<container class="icon_box" icon="icons/custom/icon box/balance">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="2" horizontal_inset="0" />
 
-					<widget class="label" auto_size="vertical" font="label" colour="accent" >
+					<widget class="label" auto_size="vertical" font="label" colour="accent">
 						<translation id="text" translation_id="383591" type="use" value="Overall Balance[COMMENT: Finances panel]" />
 					</widget>
 
@@ -176,7 +176,7 @@
 		<container class="main_box">
 			<attachment_group class="vertical_arrange" vertical_alignment="top" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
 
-			<widget class="label" font="title" auto_size="vertical" alignment="left,centre_y" colour="accent" >
+			<widget class="label" font="title" auto_size="vertical" alignment="left,centre_y" colour="accent">
 				<translation id="text" translation_id="412433" type="use" value="Merchandise Income[COMMENT: FR 13660]" />
 			</widget>
 
@@ -215,7 +215,7 @@
 
 					</container>
 
-					<widget class="label"  font="label" colour="faded text" auto_size="vertical" alignment="left,top">
+					<widget class="label" font="label" colour="faded text" auto_size="vertical" alignment="left,top">
 						<translation id="text" translation_id="412434" type="use" value="Monthly Shirt Sales[COMMENT: FR 13660]" />
 					</widget>
 				</container>

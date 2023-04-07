@@ -18,21 +18,21 @@
 				<!-- Social Poll Odds -->
 				<container class="inner_subtle_box" id="mloC">
 					<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" horizontal_alignment="horizontal" />
-						<widget class="news_feed_panel" id="poll" filter="Fsco" file="">
-							<attachment class="get_global_attachment" get_property="CDtc" set_property="bar_value_colour" />
+					<widget class="news_feed_panel" id="poll" filter="Fsco" file="">
+						<attachment class="get_global_attachment" get_property="CDtc" set_property="bar_value_colour" />
+						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" horizontal_alignment="horizontal" />
+						<container id="PlPa">
 							<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" horizontal_alignment="horizontal" />
-							<container id="PlPa">
-								<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" horizontal_alignment="horizontal" />
 
-								<widget class="text" auto_size="all" font="title">
-									<attachment class="get_global_attachment" get_property="CDtc" set_property="colour" />
-									<translation id="text" translation_id="553523" type="use" value="Most Likely Outcome[COMMENT: AREA: UI; SUB-AREA: UEFA License; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: Pre-match odds news panel section title for social reactions poll result]" />
-								</widget>
-								<widget class="text" id="PlSt" auto_size="vertical" alignment="left, centre_y" colour="faded text" size="small" />
-								<widget class="spacer" height="10" />
-								<!-- poll result bar charts added in code here -->
-							</container>
-						</widget>
+							<widget class="text" auto_size="all" font="title">
+								<attachment class="get_global_attachment" get_property="CDtc" set_property="colour" />
+								<translation id="text" translation_id="553523" type="use" value="Most Likely Outcome[COMMENT: AREA: UI; SUB-AREA: UEFA License; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: Pre-match odds news panel section title for social reactions poll result]" />
+							</widget>
+							<widget class="text" id="PlSt" auto_size="vertical" alignment="left, centre_y" colour="faded text" size="small" />
+							<widget class="spacer" height="10" />
+							<!-- poll result bar charts added in code here -->
+						</container>
+					</widget>
 				</container>
 				<!-- odds -->
 				<container class="inner_subtle_box" id="odco">
@@ -109,7 +109,7 @@
 				</container>
 				<!-- referee -->
 				<container class="inner_subtle_box" id="refc">
-                    <string id="remove_if" value="is_fmt" />
+					<string id="remove_if" value="is_fmt" />
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 					<widget class="label" auto_size="vertical" font="title" alignment="centre">
 						<attachment class="get_global_attachment" get_property="CDtc" set_property="colour" />
@@ -185,24 +185,24 @@
 				<widget class="inbox_body_text" id="bdtx" />
 			</container>
 
-				<!--league table/results-->
-				<container class="inner_subtle_box">
-					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0"/>
-					<!--league table-->
-					<widget class="opponents_league_table" id="tltp" file="competition/opponents league table auto sized vertical">
-						<record id="object_property">
-							<integer id="get_property" value="objt" />
-							<integer id="set_property" value="objt" />
-						</record>
-					</widget>
-					<!---results-->
-					<widget class="competition_fixtures_panel" id="resp" file="competition/competition fixtures match preview"  height="300">
-						<record id="object_property">
-							<integer id="get_property" value="objt" />
-							<integer id="set_property" value="objt" />
-						</record>
-					</widget>
-				</container>
+			<!--league table/results-->
+			<container class="inner_subtle_box">
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0"/>
+				<!--league table-->
+				<widget class="opponents_league_table" id="tltp" file="competition/opponents league table auto sized vertical">
+					<record id="object_property">
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</widget>
+				<!---results-->
+				<widget class="competition_fixtures_panel" id="resp" file="competition/competition fixtures match preview" height="300">
+					<record id="object_property">
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</widget>
+			</container>
 
 		</container>
 	</container>

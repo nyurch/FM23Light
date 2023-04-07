@@ -236,7 +236,7 @@
 						<record id="person_nationality" width="-2" auto_hide_priority="10" />
 						<record id="pOrC" width="-4" auto_hide_priority="10" />
 						<record id="player_position_combined" width="-2" auto_hide_priority="10" />
-						<record id="Pcac" width="-3" auto_hide_priority="10" >
+						<record id="Pcac" width="-3" auto_hide_priority="10">
 							<record id="column_heading">
 								<flags id="alignment" value="left,centre_y" />
 								<translation id="text" translation_id="314426" type="use" value="Ability[COMMENT: player popup info panel - scout current ability rating]" />
@@ -246,7 +246,7 @@
 								<flags id="alignment" value="left,centre_y" />
 							</record>
 						</record>
-						<record id="Pppc" width="-3" auto_hide_priority="10" >
+						<record id="Pppc" width="-3" auto_hide_priority="10">
 							<record id="column_heading">
 								<flags id="alignment" value="left,centre_y" />
 								<translation id="text" translation_id="314427" type="use" value="Potential[COMMENT: player popup info panel - scout potential ability rating]" />

@@ -46,7 +46,7 @@
 
 				<widget id="recc" class="property_list_viewer_xml_panel" file="widgets/scouting centre recommendation card"/>
 				<widget id="nRec" class="property_list_viewer_xml_panel" file="widgets/scouting centre report card"/>
-				
+
 				<widget id="assc" class="property_list_viewer_xml_panel" file="widgets/scouting centre assignment card"/>
 				<widget id="cmpc" class="property_list_viewer_xml_panel" file="widgets/scouting centre comp suggestion card"/>
 				<widget id="mesc" class="property_list_viewer_xml_panel" file="widgets/scouting centre message card"/>
@@ -55,7 +55,7 @@
 			</container>
 
 			<container height="6" />
-			
+
 			<container id="atnC" height="30">
 				<layout class="arrange_horizontal_attachment" alignment="middle" offset="8" gap="5" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
@@ -88,7 +88,7 @@
 						</list>
 					</record>
 				</widget>
-				
+
 			</container>
 		</container>
 	</container>

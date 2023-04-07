@@ -23,11 +23,11 @@
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 				<!-- Hierarchy category header-->
-				<container id="tmTC" height="28" >
+				<container id="tmTC" height="28">
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 					<layout class="arrange_vertical_attachment" alignment="middle" offset="0" gap="0" />
 
-					<container class="bordered_box" id="tmCc" appearance="boxes/custom/hierarchy/header/paper"  height="22">
+					<container class="bordered_box" id="tmCc" appearance="boxes/custom/hierarchy/header/paper" height="22">
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 						<widget class="text" id="tmCl" multiline="false" alignment="centre" spec="text" style="semi_bold" colour="white" />
@@ -72,18 +72,18 @@
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 				<container class="bordered_box" height="30" appearance="boxes/custom/solid/rounded/paper" red_replacement="chemistry_influences_colour">
-					<layout class="arrange_horizontal_attachment"  alignment="left, extend" offset="12" gap="5" />
+					<layout class="arrange_horizontal_attachment" alignment="left, extend" offset="12" gap="5" />
 					<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
-					
+
 					<!--Social group Icon and text-->
 					<widget class="picture" width="16" file="icons/16px/dynamics" image_alignment="centre" scale_picture="true" red_replacement="white" />
 
 					<container>
 						<layout class="arrange_horizontal_attachment" alignment="middle" offset="0" gap="0"/>
 						<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true"/>
-						
-						<widget class="text" id="infT" spec="text" style="semi_bold" colour="white" red_replacement="white"  auto_size="horizontal" alignment="centre" size="small" />
-						
+
+						<widget class="text" id="infT" spec="text" style="semi_bold" colour="white" red_replacement="white" auto_size="horizontal" alignment="centre" size="small" />
+
 						<widget class="link_button_title" id="infL" spec="text" style="semi_bold" colour="white" red_replacement="white" section="tHSg" size="small" alignment="left, centre_y" auto_size="horizontal">
 							<record id="object_property">
 								<integer id="get_property" value="Pcte"/>

@@ -7,7 +7,7 @@
 			<attachment_group class="vertical_arrange_horizontal_autosize_centre" vertical_alignment="top,extend"/>
 			<attachment class="get_global_attachment" get_property="CDra" set_property="appearance"/>
 
-			<widget class="text" id="potl" auto_size="horizontal"  alignment="centre" colour="white">
+			<widget class="text" id="potl" auto_size="horizontal" alignment="centre" colour="white">
 				<record id="object_property" get_property="text"/>
 				<attachment class="get_global_attachment" get_property="CDfn" set_property="font"/>
 			</widget>
@@ -28,10 +28,10 @@
 					<record id="object_property" get_property="itms" set_property="value"/>
 				</widget>
 				<record id="default_properties" auto_size="vertical" />
-				
+
 			</container>
 		</container>
-		
+
 	</container>
 
 

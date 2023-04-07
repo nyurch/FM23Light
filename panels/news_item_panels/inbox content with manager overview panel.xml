@@ -6,14 +6,14 @@
 	<!-- content area -->
 	<container class="scrolling_box">
 		<container>
-			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend" horizontal_offset="0" vertical_alignment="top" vertical_inset="0"  />
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend" horizontal_offset="0" vertical_alignment="top" vertical_inset="0" />
 
 			<!--body text-->
 			<widget class="inbox_body_text" id="bdtx"/>
 
 			<!--manager info and their team-->
 			<container width="250">
-				<attachment_group class="vertical_arrange_autosize" vertical_offset="0"  horizontal_inset="0" />
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" />
 
 				<!--dynamic image here please-->
 				<container id="ICdi" height="150">

@@ -12,8 +12,8 @@
         <translation id="text" type="use" translation_id="230321" value="Subs:" />
       </widget>
       <widget class="text" id="maxs" colour="white" alignment="centre" height="20" auto_size="vertical"/>
-			
-			<widget class="text" id="maxA" alignment="centre" height="20" auto_size="vertical" hidden="true"/>
+
+      <widget class="text" id="maxA" alignment="centre" height="20" auto_size="vertical" hidden="true"/>
 
     </container>
 

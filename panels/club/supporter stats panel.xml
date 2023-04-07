@@ -9,7 +9,7 @@
 		<widget class="label" id="slab" auto_size="vertical" font="label" colour="text"/>
 		<container height="15">
 			<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="8"/>
-			<widget class="value_based_picture" id="rbri" scale_picture="true" image_alignment="left" keep_aspect_ratio="true" width="73" >
+			<widget class="value_based_picture" id="rbri" scale_picture="true" image_alignment="left" keep_aspect_ratio="true" width="73">
 				<list id="value_list">
 					<record min_value="16" max_value="10000" file="icons/custom/supporter/very high" red_replacement="green 900"/>
 					<record min_value="12" max_value="15" file="icons/custom/supporter/high" red_replacement="green 600"/>
@@ -30,7 +30,7 @@
 		<widget class="label" id="slab" auto_size="vertical" font="label" colour="text"/>
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,extend"/>
-			
+
 			<widget class="icon_button" id="sbtn" minimum_width="100" height="20" alignment="left,centre_y" appearance="buttons/text/button" navigation_focus_target="false" auto_size="horizontal"/>
 			<widget class="picture" id="ichg" scale_picture="true" auto_size="vertical" hidden="true"/>
 		</container>
@@ -44,7 +44,7 @@
 		<widget class="label" id="slab" auto_size="vertical" font="label" colour="text"/>
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,extend"/>
-			
+
 			<widget class="icon_button" id="sbtn" minimum_width="100" height="20" alignment="left,centre_y" appearance="buttons/text/button" navigation_focus_target="false" auto_size="horizontal"/>
 			<widget class="picture" id="ichg" scale_picture="true" auto_size="vertical" hidden="true"/>
 		</container>
@@ -58,7 +58,7 @@
 		<widget class="label" id="slab" auto_size="vertical" font="label" colour="text"/>
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,extend"/>
-			
+
 			<widget class="icon_button" id="sbtn" minimum_width="100" height="20" alignment="left,centre_y" appearance="buttons/text/button" navigation_focus_target="false" auto_size="horizontal"/>
 			<widget class="picture" id="ichg" scale_picture="true" auto_size="vertical" hidden="true"/>
 		</container>
@@ -72,7 +72,7 @@
 		<widget class="label" id="slab" auto_size="vertical" font="label" colour="text"/>
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left,extend"/>
-			
+
 			<widget class="icon_button" id="sbtn" minimum_width="100" height="20" alignment="left,centre_y" appearance="buttons/text/button" navigation_focus_target="false" auto_size="horizontal"/>
 			<widget class="picture" id="ichg" scale_picture="true" auto_size="vertical" hidden="true"/>
 		</container>

@@ -16,7 +16,7 @@
 			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="right,extend" horizontal_offset="0" vertical_offset="0" />
 
 			<widget class="text" id="comp" multiline="true" auto_size="vertical" auto_size_maximum_height="64"/>
-			
+
 			<container class="weather_indicator_panel_horizontal" id="weat" file="match/weather indicator horizontal auto sized">
 				<boolean id="show_weather_label" value="false" />
 				<boolean id="show_weather_icon" value="true" />

@@ -13,8 +13,8 @@
 		<record get_property="ispo" set_property="hidn" target="butN"/>
 		<record get_property="ispo" set_property="shown" target="popU"/>
 	</list>
-	
-	<attachment_group class="horizontal_arrange_autosize"  horizontal_alignment="right" horizontal_offset="0" horizontal_gap="4"/>
+
+	<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="right" horizontal_offset="0" horizontal_gap="4"/>
 	<container>
 		<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" horizontal_offset="0" horizontal_gap="0"/>
 		<container>
@@ -37,12 +37,12 @@
 			<widget class="button" id="butN" ignore_sizing="true" show_button_appearance="false">
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
 			</widget>
-			<widget class="popup_button" id="popU" ignore_sizing="true" fixed="true" text="" icon_enabled="false" hidden="true" secondary_icon_enabled="false" show_button_appearance="false" >
+			<widget class="popup_button" id="popU" ignore_sizing="true" fixed="true" text="" icon_enabled="false" hidden="true" secondary_icon_enabled="false" show_button_appearance="false">
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
 			</widget>
 		</container>
-		
+
 	</container>
 	<!--icon to point to next in timeline-->
-	<widget class="picture" id="rgtI" width="20" file="icons/16px/right" colour="white"  image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"  />
+	<widget class="picture" id="rgtI" width="20" file="icons/16px/right" colour="white" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" />
 </panel>

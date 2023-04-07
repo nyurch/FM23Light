@@ -135,7 +135,7 @@
 					<string id="colour" value="fg" />
 				</widget>
 
-				<container class="scrolling_box" >
+				<container class="scrolling_box">
 					<container id="rcBR">
 						<attachment_group class="vertical_arrange_autosize" />
 					</container>

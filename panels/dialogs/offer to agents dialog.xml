@@ -27,7 +27,7 @@
 	<widget class="text" id="text" auto_size="vertical" />
 
 	<container>
-		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal"  />
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" />
 
 		<container>
 			<layout class="arrange_horizontal_attachment" alignment="fill" offset="0" />
@@ -52,7 +52,7 @@
 			</widget>
 
 			<widget class="cash_selection_list" id="OAai" spec="text" cash_round_style="4" cash_min_value="0" cash_max_value="100000000" select_event="OAae" auto_size="vertical">
-					<record id="default_properties" alignment="right,centre_y" colour="black"/>
+				<record id="default_properties" alignment="right,centre_y" colour="black"/>
 			</widget>
 		</container>
 

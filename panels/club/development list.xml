@@ -26,7 +26,7 @@
 				<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_offset="0" vertical_inset="4"/>
 
 				<widget class="object_portrait_picture" width="80" id="dofp" image_alignment="centre" scale_picture="true">
-					<layout class="stick_to_sides_attachment" alignment="vertical"  inset="8" />
+					<layout class="stick_to_sides_attachment" alignment="vertical" inset="8" />
 					<record id="object_property">
 						<list id="get_properties">
 							<record>
@@ -90,9 +90,9 @@
 
 		</container>
 
-		<container  id="devl" draw_vertical_dividers="true">
+		<container id="devl" draw_vertical_dividers="true">
 
-			<attachment_group class="horizontal_arrange" horizontal_layout="-1,550" >
+			<attachment_group class="horizontal_arrange" horizontal_layout="-1,550">
 				<global id="horizontal_gap" name="ui.main_box_gap"/>
 			</attachment_group>
 
@@ -100,64 +100,64 @@
 				<translation id="title" translation_id="335031" type="use" value="Development List" />
 
 				<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_offset="0" horizontal_inset="0"/>
-                
-                <container navigation_container="true" default_focus="true">
-                    <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-				<widget class="table" id="ultb" mode="fill_rows, select_rows, printable, stripe_rows"  layout="-1, -1, 45, 75, 90, 100, 85" row_spacing="2" row_height="30" navigation_focus_target="true">
-					<!--headings-->
-					<list id="headings">
-						<record index="0" alignment="left,centre_y" auto_hide_priority="1">
-							<translation id="text" translation_id="229689" type="use" value="Name" />
-							<translation id="hint" translation_id="229689" type="use" value="Name" />
-						</record>
-						<record index="1" alignment="left,centre_y" auto_hide_priority="1">
-							<translation id="text" translation_id="242853" type="use" value="Status" />
-							<translation id="hint" translation_id="242853" type="use" value="Status" />
-						</record>
+				<container navigation_container="true" default_focus="true">
+					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-						<record index="2" alignment="left,centre_y" auto_hide_priority="40">
-							<translation id="text" translation_id="227770" type="use" value="Age[comment - person age]" />
-							<translation id="hint" translation_id="229407" type="use" value="Age" />
-						</record>
-						<record index="3" alignment="left,centre_y" auto_hide_priority="50">
-							<translation id="text" translation_id="538841" type="use" value="Transfer Value" />
-							<translation id="hint" translation_id="538841" type="use" value="Transfer Value" />
-						</record>
-						<record index="4" alignment="left,centre_y" auto_hide_priority="60">
-							<translation id="text" translation_id="227799" type="use" value="Wage" />
-							<translation id="hint" translation_id="227799" type="use" value="Wage" />
-						</record>
-						<record index="5" alignment="left,centre_y" auto_hide_priority="70">
-							<translation id="text" translation_id="227884" type="use" value="Position" />
-							<translation id="hint" translation_id="227884" type="use" value="Position" />
-						</record>
-						<record index="6" alignment="left,centre_y" auto_hide_priority="80">
-							<translation id="text" translation_id="247488" type="use" value="Contract Expiry Date" />
-							<translation id="hint" translation_id="247488" type="use" value="Contract Expiry Date" />
-						</record>
-					</list>
+					<widget class="table" id="ultb" mode="fill_rows, select_rows, printable, stripe_rows" layout="-1, -1, 45, 75, 90, 100, 85" row_spacing="2" row_height="30" navigation_focus_target="true">
+						<!--headings-->
+						<list id="headings">
+							<record index="0" alignment="left,centre_y" auto_hide_priority="1">
+								<translation id="text" translation_id="229689" type="use" value="Name" />
+								<translation id="hint" translation_id="229689" type="use" value="Name" />
+							</record>
+							<record index="1" alignment="left,centre_y" auto_hide_priority="1">
+								<translation id="text" translation_id="242853" type="use" value="Status" />
+								<translation id="hint" translation_id="242853" type="use" value="Status" />
+							</record>
+
+							<record index="2" alignment="left,centre_y" auto_hide_priority="40">
+								<translation id="text" translation_id="227770" type="use" value="Age[comment - person age]" />
+								<translation id="hint" translation_id="229407" type="use" value="Age" />
+							</record>
+							<record index="3" alignment="left,centre_y" auto_hide_priority="50">
+								<translation id="text" translation_id="538841" type="use" value="Transfer Value" />
+								<translation id="hint" translation_id="538841" type="use" value="Transfer Value" />
+							</record>
+							<record index="4" alignment="left,centre_y" auto_hide_priority="60">
+								<translation id="text" translation_id="227799" type="use" value="Wage" />
+								<translation id="hint" translation_id="227799" type="use" value="Wage" />
+							</record>
+							<record index="5" alignment="left,centre_y" auto_hide_priority="70">
+								<translation id="text" translation_id="227884" type="use" value="Position" />
+								<translation id="hint" translation_id="227884" type="use" value="Position" />
+							</record>
+							<record index="6" alignment="left,centre_y" auto_hide_priority="80">
+								<translation id="text" translation_id="247488" type="use" value="Contract Expiry Date" />
+								<translation id="hint" translation_id="247488" type="use" value="Contract Expiry Date" />
+							</record>
+						</list>
 
 
-					<list id="column_table_properties">
-						<record index="0"  auto_hide_priority="1" minimum_width="180"/>
-						<record index="1" auto_hide_priority="1" minimum_width="180" />
-						<record index="2" auto_hide_priority="3"/>
-						<record index="3" auto_hide_priority="40" />
-						<record index="4" auto_hide_priority="50"/>
-						<record index="5" auto_hide_priority="60"/>
-						<record index="6" auto_hide_priority="70"/>
-						<record index="7" auto_hide_priority="80"/>
-					</list>
+						<list id="column_table_properties">
+							<record index="0" auto_hide_priority="1" minimum_width="180"/>
+							<record index="1" auto_hide_priority="1" minimum_width="180" />
+							<record index="2" auto_hide_priority="3"/>
+							<record index="3" auto_hide_priority="40" />
+							<record index="4" auto_hide_priority="50"/>
+							<record index="5" auto_hide_priority="60"/>
+							<record index="6" auto_hide_priority="70"/>
+							<record index="7" auto_hide_priority="80"/>
+						</list>
 
-					<list id="column_widget_properties">
-						<record indx="0" alignment="left, centre_y" colour="black"/>
-					</list>
+						<list id="column_widget_properties">
+							<record indx="0" alignment="left, centre_y" colour="black"/>
+						</list>
 
-					<record id="default_properties" alignment="left,centre_y" colour="black"/>
+						<record id="default_properties" alignment="left,centre_y" colour="black"/>
 
-				</widget>
-                </container>
+					</widget>
+				</container>
 
 				<container navigation_container="true">
 
@@ -172,7 +172,7 @@
 				</container>
 			</container>
 
-			<container class="main_box_no_margin" id="1sel" navigation_container="true" >
+			<container class="main_box_no_margin" id="1sel" navigation_container="true">
 
 				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_alignment="top,extend" vertical_gap="6" horizontal_inset="0" />
 
@@ -182,11 +182,11 @@
 					<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" gap="8"/>
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="4" />
 					<container class="scrolling_box">
-						
+
 						<widget class="player_unwanted_details_panel" id="deta" height="310" file="player/player development details" />
 
 					</container>
-					
+
 					<widget class="button" id="RepB" auto_size="all" click_event="unde">
 						<translation id="text" translation_id="247978" type="use" value="Undo Changes" />
 					</widget>

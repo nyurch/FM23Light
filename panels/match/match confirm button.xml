@@ -9,7 +9,7 @@
             <record id="click_event" event_id="GOTO" event_target="brow" scin="-3" />
         </widget>
 
-        <widget class="icon_button" id="uchc" auto_size="all" >
+        <widget class="icon_button" id="uchc" auto_size="all">
             <translation id="text" translation_id="230251" type="use" value="Undo"/>
             <record id="click_event">
                 <flags id="event_id" value="uchc" />
@@ -26,7 +26,7 @@
             <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0, 6, 0, 6" />
 
             <widget class="match_commentary_panel" id="cmif">
-							<string id="remove_if" value="is_fmt"/>
+                <string id="remove_if" value="is_fmt"/>
                 <animation class="fade_animation" start_value="0" end_value="1" duration="0.5" delay="1.0" end_mode="hold_end"/>
 
                 <record id="object_property">
@@ -50,8 +50,8 @@
         <widget class="primary_icon_button" auto_size="all" id="conf" click_event="aptt" controller_button="y_button"/>
     </container>
 
-		<container height="30" id="fmtC" file="widgets/match fmt half time continue widget">
-		  <string id="create_if" value="is_fmt"/>
-	  </container>
+    <container height="30" id="fmtC" file="widgets/match fmt half time continue widget">
+        <string id="create_if" value="is_fmt"/>
+    </container>
 
 </panel>

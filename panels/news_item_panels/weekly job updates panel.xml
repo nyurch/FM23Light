@@ -129,7 +129,7 @@
 					<boolean id="exclude_from_find" value="true" />
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 				</widget>
-				<widget class="icon_button" entity_layout_id="at09" id="IntB" auto_size="all"  controller_button="y_button">
+				<widget class="icon_button" entity_layout_id="at09" id="IntB" auto_size="all" controller_button="y_button">
 					<translation id="text" value="Declare Interest In Job" translation_id="235158" type="use" />
 					<string id="click_event" value="DIJb" />
 					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />

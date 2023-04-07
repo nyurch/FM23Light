@@ -37,7 +37,7 @@
 						<layout class="arrange_horizontal_attachment" alignment="left" offset="0" gap="10"/>
 
 						<record id="default_properties" auto_size="horizontal"/>
-						
+
 						<widget class="label" id="InjT" font="value"/>
 						<widget class="label" id="MajI" colour="injury_severity_colour_major" alignment="left,centre_y"/>
 						<widget class="label" id="ModI" colour="injury_severity_colour_moderate" alignment="left,centre_y"/>
@@ -107,7 +107,7 @@
 
 		<container class="horizontal_adaptive_container">
 			<record id="default_properties" file="player/player details panel small text" minimum_width="220"/>
-			
+
 			<widget class="client_object_viewer_xml_panel" id="DsM1" priority="1"/>
 			<widget class="client_object_viewer_xml_panel" id="DsM2" priority="1"/>
 			<widget class="client_object_viewer_xml_panel" id="DsM3" priority="1"/>
@@ -126,19 +126,19 @@
 			<layout class="arrange_vertical_attachment" layout="31, -1" offset="0" gap="4"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 
-      <container>
-        <layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true" offset="0"/>
-        <layout class="arrange_horizontal_attachment" alignment="right" offset="0">
-         <global id="gap" name="ui.button_row_gap"/>
-        </layout>
+			<container>
+				<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true" offset="0"/>
+				<layout class="arrange_horizontal_attachment" alignment="right" offset="0">
+					<global id="gap" name="ui.button_row_gap"/>
+				</layout>
 
-        <!-- seasons popup -->
-        <widget class="embedded_season_selection_list" id="tsbw" save_immediate_state="true" sele="tsch" width="300">
-         <global id="gap_adjustment" name="ui.split_button_row_gap" />
-          </widget>
+				<!-- seasons popup -->
+				<widget class="embedded_season_selection_list" id="tsbw" save_immediate_state="true" sele="tsch" width="300">
+					<global id="gap_adjustment" name="ui.split_button_row_gap" />
+				</widget>
 
-        <widget class="embedded_filter_button" id="plsf" target="trtb" auto_size="horizontal"/>
-      </container>
+				<widget class="embedded_filter_button" id="plsf" target="trtb" auto_size="horizontal"/>
+			</container>
 
 			<widget class="table" id="InjP" layout="100, -2, 100, -2, -1, -1, -1, -1" mode="fill_rows" default_sort_column="2" navigation_container="true">
 				<list id="headings">

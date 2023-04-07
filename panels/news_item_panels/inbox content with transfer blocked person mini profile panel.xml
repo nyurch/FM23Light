@@ -22,7 +22,7 @@
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 				<string id="skin_style" value="subtle box"/>
 
-				<container  id="psbt">
+				<container id="psbt">
 					<layout class="arrange_vertical_attachment" alignment="top" offset="8" gap="2"/>
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 
@@ -35,7 +35,7 @@
 					<widget class="text" id="ppos" auto_size="vertical" colour="faded text" alignment="left" size="10" multiline="true">
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
 					</widget>
-					
+
 					<container>
 						<attachment_group class="vertical_arrange_autosize" vertical_offset="4" vertical_gap="4"/>
 
@@ -62,7 +62,7 @@
 				<container class="inner_box" id="tsic" appearance="labels/standard/label" red_replacement="red" hidden="true">
 					<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true"/>
 					<layout class="fit_children_attachment" alignment="vertical" offset="0"/>
-					<layout class="arrange_horizontal_attachment" alignment="middle"  offset="0" gap="0"/>
+					<layout class="arrange_horizontal_attachment" alignment="middle" offset="0" gap="0"/>
 
 					<layout class="centre_in_parent_attachment" alignment="all"/>
 					<layout class="fit_children_attachment" alignment="horizontal, fill" offset="0" gap="0"/>

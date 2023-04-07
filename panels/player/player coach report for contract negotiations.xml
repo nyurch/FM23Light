@@ -7,7 +7,7 @@
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-		<widget class="link_button_title" auto_size="all" section="Pccr" >
+		<widget class="link_button_title" auto_size="all" section="Pccr">
 			<translation id="text" translation_id="316844" type="use" value="Coach Report[COMMENT; coach reports section of player profile]" />
 		</widget>
 
@@ -43,7 +43,7 @@
 			</container>
 
 		</container>
-		
+
 		<container>
 			<layout class="arrange_horizontal_attachment" layout="-1,-1" offset="0" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
@@ -61,9 +61,9 @@
 				</container>
 
 				<widget class="table" id="tpro" layout="-1" inset="0" fixed_size_rows="false" auto_size_rows="true" default_sort_column="0">
-                    <list id="column_table_properties">
-                        <record index="0" sort_ascending="false"/>
-                    </list>
+					<list id="column_table_properties">
+						<record index="0" sort_ascending="false"/>
+					</list>
 				</widget>
 
 				<widget class="text" id="nPro" auto_size="vertical" colour="faded text" multiline="true" hidden="true" />
@@ -82,9 +82,9 @@
 				</container>
 
 				<widget class="table" id="tcon" layout="-1" inset="0" fixed_size_rows="false" auto_size_rows="true" default_sort_column="0">
-                    <list id="column_table_properties">
-                        <record index="0" sort_ascending="false"/>
-                    </list>
+					<list id="column_table_properties">
+						<record index="0" sort_ascending="false"/>
+					</list>
 				</widget>
 
 				<widget class="text" id="nCon" auto_size="vertical" colour="faded text" multiline="true" hidden="true" />
@@ -146,7 +146,7 @@
 
 		</container>
 
-		
+
 	</container>
 
 </panel>

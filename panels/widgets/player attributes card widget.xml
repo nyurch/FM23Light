@@ -9,10 +9,10 @@
 
 			<container>
 				<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="4" gap="3" />
-				<layout class="stick_to_sides_attachment" alignment="vertical"  apply_to_children="true" inset="0"/>
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
 
 				<!--header person name-->
-				<widget class="person_button" colour="black"  person_is_player="true" font="title" icon_enabled="true" info_popup_enabled="false">
+				<widget class="person_button" colour="black" person_is_player="true" font="title" icon_enabled="true" info_popup_enabled="false">
 					<record id="object_property" get_property="objt" set_property="valu" />
 				</widget>
 
@@ -20,7 +20,7 @@
 				<widget class="tactical_role_label" id="rolT" abbt="true" colour="faded text" auto_size="horizontal" />
 			</container>
 			<!--header remove from shortlist button-->
-			<widget class="client_action_icon_button" id="remI" width="26" action_id="RPfs" show_button_appearance="false" icon_alignment="centre"  icon="icons/16px/remove from list" >
+			<widget class="client_action_icon_button" id="remI" width="26" action_id="RPfs" show_button_appearance="false" icon_alignment="centre" icon="icons/16px/remove from list">
 				<record id="object_property" get_property="objt" set_property="objt"/>
 			</widget>
 		</container>
@@ -65,7 +65,7 @@
 				<!--right hand container-->
 				<container class="inner_subtle_box" appearance="boxes/custom/cards/inner/right/paper">
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="4"/>
-					<widget class="player_attributes_panel"  id="plAs" file="widgets/player attributes player card panel" />
+					<widget class="player_attributes_panel" id="plAs" file="widgets/player attributes player card panel" />
 				</container>
 			</container>
 

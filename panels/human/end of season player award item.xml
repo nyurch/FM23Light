@@ -37,7 +37,7 @@
 
 				<!-- Name -->
 				<widget class="person_button" id="awNM" auto_size="vertical" alignment="left, centre_y" style="bold" size="medium" multiline="false" colour="text"/>
-				
+
 				<widget class="player_age_and_description_widget" id="awAD" auto_size="vertical" alignment="left, centre_y" size="small" multiline="true" file="none" colour="faded text">
 					<attachment_group class="vertical_arrange_autosize"/>
 

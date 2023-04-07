@@ -7,8 +7,8 @@
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 		<layout class="stick_to_sides_attachment" alignment="left" offset="0" gap="0" />
 		<record id="object_property">
-		<integer id="get_property" value="bgnd" />
-		<integer id="set_property" value="file" />
+			<integer id="get_property" value="bgnd" />
+			<integer id="set_property" value="file" />
 		</record>
 	</widget>
 	<!--overlay-->
@@ -17,136 +17,136 @@
 	</widget>
 
 	<container class="main_subtle_box">
-	<attachment_group class="horizontal_arrange" horizontal_layout="220,1,-1,-1" horizontal_alignment="fill" horizontal_offset="0" vertical_inset="0" />
-	<!--Team-->
-	<container class="main_subtle_box">
-		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" vertical_gap="10"/>
-		<!-- profile picture -->
-		<container>
-		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
-			<!--logo-->
-			<widget class="object_portrait_picture" id="pict" height="200" scale_picture="true">
-				<boolean id="keep_aspect_ratio" value="true" />
-				<flags id="image_alignment" value="centre" />
+		<attachment_group class="horizontal_arrange" horizontal_layout="220,1,-1,-1" horizontal_alignment="fill" horizontal_offset="0" vertical_inset="0" />
+		<!--Team-->
+		<container class="main_subtle_box">
+			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" vertical_gap="10"/>
+			<!-- profile picture -->
+			<container>
+				<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
+				<!--logo-->
+				<widget class="object_portrait_picture" id="pict" height="200" scale_picture="true">
+					<boolean id="keep_aspect_ratio" value="true" />
+					<flags id="image_alignment" value="centre" />
 
-				<record id="object_property">
-					<integer id="get_property" value="objt" />
-					<integer id="set_property" value="objt" />
-				</record>
-			</widget>
+					<record id="object_property">
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</widget>
+			</container>
+			<widget class="horizontal_divider" red_replacement="" height="1" />
+			<!-- division -->
+			<container>
+				<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
+				<!--division logo-->
+				<widget class="object_portrait_picture" id="lepi" height="80">
+					<boolean id="scale_picture" value="true"/>
+					<boolean id="keep_aspect_ratio" value="true"/>
+					<flags id="image_alignment" value="centre"/>
+					<record id="object_property">
+						<integer id="get_property" value="Cdiv"/>
+						<integer id="set_property" value="objt" />
+					</record>
+				</widget>
+				<!--division name-->
+				<widget class="comp_button" id="comp" icon_enabled="false" comp_display_type="1" size="medium" alignment="centre">
+					<record id="object_property">
+						<integer id="get_property" value="Cdiv"/>
+					</record>
+				</widget>
+			</container>
+			<!--country-->
+			<container>
+				<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
+				<!--country logo-->
+				<widget class="object_portrait_picture" id="cnpi" height="80">
+					<boolean id="scale_picture" value="true"/>
+					<boolean id="keep_aspect_ratio" value="true"/>
+					<flags id="image_alignment" value="centre"/>
+					<record id="object_property">
+						<integer id="get_property" value="Cnat"/>
+						<integer id="set_property" value="objt" />
+					</record>
+				</widget>
+				<!--country name-->
+				<widget class="nation_button" id="nati" icon_enabled="false" size="large" alignment="centre" font="fonts/letterpressed">
+					<record id="object_property">
+						<integer id="get_property" value="Cnat"/>
+					</record>
+				</widget>
+			</container>
+			<!--professional status-->
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+				<widget class="label" id="proL" spec="text" size="small" alignment="centre_x,top" auto_size="vertical" font="label" colour="faded black">
+					<record id="object_property">
+						<integer id="get_property" value="Cprs" />
+						<boolean id="name" value="true"/>
+					</record>
+				</widget>
+				<widget class="professional_status_label" spec="text" style="bold" id="pros" size="13" alignment="centre_x,bottom" auto_size="vertical" font="value">
+					<record id="object_property">
+						<integer id="get_property" value="Cprs" />
+					</record>
+				</widget>
+			</container>
+			<!--finances-->
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+				<widget class="label" id="cfiL" spec="text" size="small" alignment="centre_x,top" auto_size="vertical" font="label" colour="faded black">
+					<record id="object_property">
+						<integer id="get_property" value="Csfs" />
+						<boolean id="name" value="true"/>
+					</record>
+				</widget>
+				<widget class="financial_status_label" spec="text" style="bold" id="Csfs" size="13" alignment="centre_x,bottom" auto_size="vertical" font="value">
+					<record id="object_property">
+						<integer id="get_property" value="Csfs" />
+					</record>
+				</widget>
+			</container>
+			<!--reputation-->
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+				<widget class="label" id="creL" spec="text" size="small" alignment="centre_x,top" auto_size="vertical" font="label" colour="faded black">
+					<record id="object_property">
+						<integer id="get_property" value="Crsc" />
+						<boolean id="name" value="true"/>
+					</record>
+				</widget>
+				<widget class="club_reputation_stars_label" id="crep" mode="1" alignment="centre" auto_size="all" navigation_focus_target="false">
+					<layout class="centre_in_parent_attachment" alignment="horizontal" />
+					<record id="object_property">
+						<integer id="get_property" value="Csta" />
+					</record>
+				</widget>
+			</container>
 		</container>
-		<widget class="horizontal_divider" red_replacement="" height="1" />
-		<!-- division -->
-		<container>
-		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
-			<!--division logo-->
-			<widget class="object_portrait_picture" id="lepi" height="80">
-				<boolean id="scale_picture" value="true"/>
-				<boolean id="keep_aspect_ratio" value="true"/>
-				<flags id="image_alignment" value="centre"/>
-				<record id="object_property">
-					<integer id="get_property" value="Cdiv"/>
-					<integer id="set_property" value="objt" />
-				</record>
-			</widget>
-			<!--division name-->
-			<widget class="comp_button" id="comp" icon_enabled="false" comp_display_type="1" size="medium" alignment="centre">
-				<record id="object_property">
-					<integer id="get_property" value="Cdiv"/>
-				</record>
-			</widget>
+		<widget class="vertical_divider"/>
+		<!--Pros-->
+		<container class="inner_box" navigation_container="true">
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="8" />
+			<container class="contrast_box" height="30" red_replacement="pro high">
+				<layout class="arrange_vertical_attachment" alignment="middle" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" apply_to_children="true" />
+				<widget class="text" auto_size="vertical" alignment="left" spec="text" font="title" size="large" colour="white">
+					<translation id="text" translation_id="420664" type="use" value="Strengths[COMMENT: team report, strengths (positives) section]" />
+				</widget>
+			</container>
+			<widget class="table" mode="fill_rows" id="prot" layout="-1" inset="0" fixed_size_rows="false" row_height="20" row_spacing="10" auto_size_rows="true" navigation_focus_target="true"/>
 		</container>
-		<!--country-->
-		<container>
-		<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_offset="0" vertical_gap="0" />
-		<!--country logo-->
-			<widget class="object_portrait_picture" id="cnpi" height="80">
-				<boolean id="scale_picture" value="true"/>
-				<boolean id="keep_aspect_ratio" value="true"/>
-				<flags id="image_alignment" value="centre"/>
-				<record id="object_property">
-					<integer id="get_property" value="Cnat"/>
-					<integer id="set_property" value="objt" />
-				</record>
-			</widget>
-			<!--country name-->
-			<widget class="nation_button" id="nati" icon_enabled="false" size="large" alignment="centre" font="fonts/letterpressed">
-				<record id="object_property">
-					<integer id="get_property" value="Cnat"/>
-				</record>
-			</widget>
+		<!--Cons-->
+		<container class="inner_box" navigation_container="true">
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="8" />
+			<container class="contrast_box" height="30" red_replacement="con high">
+				<layout class="arrange_vertical_attachment" alignment="middle" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" apply_to_children="true" />
+				<widget class="text" auto_size="vertical" alignment="left" spec="text" font="title" size="large" colour="white">
+					<translation id="text" translation_id="420665" type="use" value="Weaknesses[COMMENT: team report, weaknesses (negatives) section]" />
+				</widget>
+			</container>
+			<widget class="table" mode="fill_rows" id="weak" layout="-1" inset="0" fixed_size_rows="false" row_height="20" row_spacing="10" auto_size_rows="true" navigation_focus_target="true"/>
 		</container>
-		<!--professional status-->
-		<container>
-			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
-			<widget class="label" id="proL" spec="text" size="small" alignment="centre_x,top" auto_size="vertical" font="label" colour="faded black">
-				<record id="object_property">
-					<integer id="get_property" value="Cprs" />
-					<boolean id="name" value="true"/>
-				</record>
-			</widget>
-			<widget class="professional_status_label" spec="text" style="bold" id="pros" size="13" alignment="centre_x,bottom" auto_size="vertical" font="value">
-				<record id="object_property">
-					<integer id="get_property" value="Cprs" />
-				</record>
-			</widget>
-		</container>
-		<!--finances-->
-		<container>
-			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
-			<widget class="label" id="cfiL" spec="text" size="small" alignment="centre_x,top" auto_size="vertical" font="label" colour="faded black">
-				<record id="object_property">
-					<integer id="get_property" value="Csfs" />
-					<boolean id="name" value="true"/>
-				</record>
-			</widget>
-			<widget class="financial_status_label" spec="text" style="bold" id="Csfs" size="13" alignment="centre_x,bottom" auto_size="vertical" font="value">
-				<record id="object_property">
-					<integer id="get_property" value="Csfs" />
-				</record>
-			</widget>
-		</container>
-		<!--reputation-->
-		<container>
-			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
-			<widget class="label" id="creL" spec="text" size="small" alignment="centre_x,top" auto_size="vertical" font="label" colour="faded black">
-				<record id="object_property">
-					<integer id="get_property" value="Crsc" />
-					<boolean id="name" value="true"/>
-				</record>
-			</widget>
-			<widget class="club_reputation_stars_label" id="crep" mode="1" alignment="centre" auto_size="all" navigation_focus_target="false">
-				<layout class="centre_in_parent_attachment" alignment="horizontal" />
-				<record id="object_property">
-					<integer id="get_property" value="Csta" />
-				</record>
-			</widget>
-		</container>
-	</container>
-	<widget class="vertical_divider"/>
-	<!--Pros-->
-	<container class="inner_box" navigation_container="true">
-		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="8" />
-		<container class="contrast_box" height="30" red_replacement="pro high">
-			<layout class="arrange_vertical_attachment" alignment="middle" offset="0" />
-			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" apply_to_children="true" />
-			<widget class="text" auto_size="vertical" alignment="left" spec="text" font="title" size="large" colour="white">
-				<translation id="text" translation_id="420664" type="use" value="Strengths[COMMENT: team report, strengths (positives) section]" />
-			</widget>
-		</container>
-		<widget class="table" mode="fill_rows" id="prot" layout="-1" inset="0"  fixed_size_rows="false" row_height="20" row_spacing="10" auto_size_rows="true" navigation_focus_target="true"/>
-	</container>
-	<!--Cons-->
-	<container class="inner_box" navigation_container="true">
-		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="8" />
-		<container class="contrast_box" height="30" red_replacement="con high">
-			<layout class="arrange_vertical_attachment" alignment="middle" offset="0" />
-			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" apply_to_children="true" />
-			<widget class="text" auto_size="vertical" alignment="left" spec="text" font="title" size="large" colour="white">
-				<translation id="text" translation_id="420665" type="use" value="Weaknesses[COMMENT: team report, weaknesses (negatives) section]" />
-			</widget>
-		</container>
-		<widget class="table" mode="fill_rows" id="weak" layout="-1" inset="0" fixed_size_rows="false" row_height="20" row_spacing="10" auto_size_rows="true" navigation_focus_target="true"/>
-	</container>
 	</container>
 </panel>

@@ -459,7 +459,7 @@
 					<boolean id="exclude_from_find" value="true" />
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 				</widget>
-				<widget class="text" id="lrCM" entity_layout_id="at00" auto_size="vertical" needs_height="true"  name="loan_report_stats_comments_scrolling_box">
+				<widget class="text" id="lrCM" entity_layout_id="at00" auto_size="vertical" needs_height="true" name="loan_report_stats_comments_scrolling_box">
 					<string id="multiline" value="true" />
 					<string id="colour" value="faded black" />
 					<layout class="stick_to_object_attachment" id="alPt" get_side="top" set_side="top" move_side="true" target="main" />

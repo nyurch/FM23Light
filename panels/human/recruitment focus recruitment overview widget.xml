@@ -6,11 +6,11 @@
 		<record get_property="is_completed_focus" set_property="shown" target="afBT" />
 	</list>
 
-	<attachment_group class="vertical_arrange" vertical_gap="4" />	
+	<attachment_group class="vertical_arrange" vertical_gap="4" />
 
 	<widget class="text" id="mtFC" auto_size="vertical" font="title" size="medium" hidden="true" />
-	
-	<container height="32">	
+
+	<container height="32">
 		<attachment_group class="horizontal_arrange" horizontal_layout="-1,32,32" vertical_offset="0" horizontal_gap="0" horizontal_offset="0" />
 
 		<container class="inner_subtle_box_no_margin" appearance="switches/recruitment focus/split/left/button">

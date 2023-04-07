@@ -8,8 +8,8 @@
 
 		<container class="tabbed_container" appearance="" id="detg" default_item="fepl" save_session_state="true" hide_selector_if_one_or_fewer_items="true">
 			<attachment_group class="vertical_arrange_autosize"/>
-			
-			<container id="fepl" >
+
+			<container id="fepl">
 				<attachment_group class="vertical_arrange_autosize"/>
 				<translation id="title" translation_id="229526" type="use" value="Details"/>
 
@@ -27,10 +27,10 @@
 				<container id="TOpt">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_alignment="horizontal" horizontal_inset="0"/>
 
-					<container height="40" >
-                        <attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="right,extend">
-                        	<global id="horizontal_gap" name="ui.button_row_gap"/>
-    					</attachment_group>
+					<container height="40">
+						<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="right,extend">
+							<global id="horizontal_gap" name="ui.button_row_gap"/>
+						</attachment_group>
 
 						<container id="oftp" height="30">
 							<attachment_group class="horizontal_arrange_autosize"/>
@@ -101,65 +101,65 @@
 					<container >
 						<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_alignment="horizontal" horizontal_inset="0"/>
 
-					<!-- Fee -->
-					<container height="36">
-						<attachment_group class="horizontal_arrange" horizontal_layout="-1, 30"/>
+						<!-- Fee -->
+						<container height="36">
+							<attachment_group class="horizontal_arrange" horizontal_layout="-1, 30"/>
 
-						<container class="negotiation_cash_widget" alignment="horizontal" id="feew" have_please_select_string="false" allow_force_selection="false" height="40">
-							<record id="select_event" event_id="chca"/>
-							<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
-						</container>
-						
-						<widget class="picture" id="minc" auto_size="horizontal" alignment="centre" file="icons/16px/minimum fee" scale_picture="false" keep_aspect_ratio="true">
-							<translation id="hint" translation_id="374738" type="use" value="Fee matches or exceeds clause fee.[COMMENT: FR 7530; transfer offer panel; hint text for indicator that fee being offered exceeds release clause fee]"/>
-							<layout class="stick_to_sides_attachment" alignment="top" inset="8"/>
-						</widget>
-					</container>
+							<container class="negotiation_cash_widget" alignment="horizontal" id="feew" have_please_select_string="false" allow_force_selection="false" height="40">
+								<record id="select_event" event_id="chca"/>
+								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
+							</container>
 
-					<!-- Fee when not playing (loan offers)-->
-					<container id="fnpc" height="36" hidden="true">
-						<layout class="arrange_vertical_attachment" alignment="bottom, extend" offset="0" gap="4"/>
-						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
-
-						<container height="66">
-							<widget class="negotiation_cash_widget" alignment="horizontal" id="fnpw" have_please_select_string="false" allow_force_selection="false">
-								<translation id="text" translation_id="420722" type="use" value="Unused Monthly Fee[COMMENT: FR 14469; transfer offer; monthly fee paid to loaning club when the player is not playing]"/>
-								<translation id="label_hint" translation_id="469787" type="use" value="A monthly fee to be paid when the player is not playing in the first team[COMMENT: FR 14469; transfer offer; monthly fee paid to loaning club when the player is not playing]"/>
-								<record id="select_event" event_id="cnpc"/>
-								<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+							<widget class="picture" id="minc" auto_size="horizontal" alignment="centre" file="icons/16px/minimum fee" scale_picture="false" keep_aspect_ratio="true">
+								<translation id="hint" translation_id="374738" type="use" value="Fee matches or exceeds clause fee.[COMMENT: FR 7530; transfer offer panel; hint text for indicator that fee being offered exceeds release clause fee]"/>
+								<layout class="stick_to_sides_attachment" alignment="top" inset="8"/>
 							</widget>
 						</container>
-					</container>
 
-					<!-- Transfer Date -->
-					<container id="tdcn">
-						<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_inset="0"/>
+						<!-- Fee when not playing (loan offers)-->
+						<container id="fnpc" height="36" hidden="true">
+							<layout class="arrange_vertical_attachment" alignment="bottom, extend" offset="0" gap="4"/>
+							<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 
-						<widget class="negotiation_popup_widget"  alignment="horizontal" id="tdtw" have_please_select_string="false" allow_force_selection="false">
-							<translation id="text" translation_id="247986" type="use" value="Transfer Date"/>
-						</widget>
-					</container>
+							<container height="66">
+								<widget class="negotiation_cash_widget" alignment="horizontal" id="fnpw" have_please_select_string="false" allow_force_selection="false">
+									<translation id="text" translation_id="420722" type="use" value="Unused Monthly Fee[COMMENT: FR 14469; transfer offer; monthly fee paid to loaning club when the player is not playing]"/>
+									<translation id="label_hint" translation_id="469787" type="use" value="A monthly fee to be paid when the player is not playing in the first team[COMMENT: FR 14469; transfer offer; monthly fee paid to loaning club when the player is not playing]"/>
+									<record id="select_event" event_id="cnpc"/>
+									<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+								</widget>
+							</container>
+						</container>
 
-					<!-- Wages -->
-					<container id="wacn" hidden="true">
-						<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_inset="0"/>
+						<!-- Transfer Date -->
+						<container id="tdcn">
+							<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_inset="0"/>
 
-						<widget class="negotiation_popup_widget" alignment="horizontal" id="wagw" have_please_select_string="false" allow_force_selection="false">
-							<translation id="text" translation_id="420694" type="use" value="Playing Wage Percentage[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is playing]"/>
-							<translation id="label_hint" translation_id="469785" type="use" value="A proportion of the player's wage to be paid by the loaning club when the player is playing in the first team[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is playing]"/>
-						</widget>
-					</container>
+							<widget class="negotiation_popup_widget" alignment="horizontal" id="tdtw" have_please_select_string="false" allow_force_selection="false">
+								<translation id="text" translation_id="247986" type="use" value="Transfer Date"/>
+							</widget>
+						</container>
 
-					<!-- Wages when not playing (loan offers) -->
-					<container id="wnpc">
-						<global id="hidden" name="is_fmt"/>
-						<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_inset="0"/>
+						<!-- Wages -->
+						<container id="wacn" hidden="true">
+							<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_inset="0"/>
 
-						<widget class="negotiation_popup_widget" alignment="horizontal" id="wnpw" have_please_select_string="false" allow_force_selection="false">
-							<translation id="text" translation_id="420695" type="use" value="Unused Wage Percentage[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is not playing]"/>
-							<translation id="label_hint" translation_id="469786" type="use" value="A proportion of the player's wage to be paid by the loaning club when the player is not playing in the first team[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is not playing]"/>
-						</widget>
-					</container>
+							<widget class="negotiation_popup_widget" alignment="horizontal" id="wagw" have_please_select_string="false" allow_force_selection="false">
+								<translation id="text" translation_id="420694" type="use" value="Playing Wage Percentage[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is playing]"/>
+								<translation id="label_hint" translation_id="469785" type="use" value="A proportion of the player's wage to be paid by the loaning club when the player is playing in the first team[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is playing]"/>
+							</widget>
+						</container>
+
+						<!-- Wages when not playing (loan offers) -->
+						<container id="wnpc">
+							<global id="hidden" name="is_fmt"/>
+							<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_inset="0"/>
+
+							<widget class="negotiation_popup_widget" alignment="horizontal" id="wnpw" have_please_select_string="false" allow_force_selection="false">
+								<translation id="text" translation_id="420695" type="use" value="Unused Wage Percentage[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is not playing]"/>
+								<translation id="label_hint" translation_id="469786" type="use" value="A proportion of the player's wage to be paid by the loaning club when the player is not playing in the first team[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is not playing]"/>
+							</widget>
+						</container>
 
 						<!-- Duration -->
 						<container id="lodc">
@@ -170,7 +170,7 @@
 							<container id="lodu" class="transfer_offer_loan_duration_panel" />
 						</container>
 					</container>
-					
+
 				</container>
 			</container>
 

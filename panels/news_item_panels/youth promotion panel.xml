@@ -73,9 +73,9 @@
 					<string id="mode" value="fill_rows, stripe_rows, printable, drop_on_rows, select_multiple, select_rows, dont_allow_empty_selection, show_bullets"/>
 					<record id="viewed_property_ids">
 						<record id="PPDW" width="250" auto_hide_priority="10">
-						
+
 						</record>
-						<record id="person_nationality"  auto_hide_priority="200">
+						<record id="person_nationality" auto_hide_priority="200">
 							<record id="column_heading">
 								<flags id="alignment" value="centre" />
 								<translation id="text" translation_id="247498" type="use" value="Nat[COMMENT - short for nationality]" />
@@ -92,12 +92,12 @@
 								<flags id="alignment" value="centre" />
 							</record>
 						</record>
-						<record id="Pcac"  auto_hide_priority="10"/>
-						<record id="Pppc"  auto_hide_priority="10"/>
-						<record id="PSNA"  auto_hide_priority="10"/>
-						<record id="PNCG"  auto_hide_priority="145"/>
-						<record id="PNCA"  auto_hide_priority="145"/>
-						<record id="PNCR"  auto_hide_priority="10"/>
+						<record id="Pcac" auto_hide_priority="10"/>
+						<record id="Pppc" auto_hide_priority="10"/>
+						<record id="PSNA" auto_hide_priority="10"/>
+						<record id="PNCG" auto_hide_priority="145"/>
+						<record id="PNCA" auto_hide_priority="145"/>
+						<record id="PNCR" auto_hide_priority="10"/>
 					</record>
 
 					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main"/>

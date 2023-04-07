@@ -45,7 +45,7 @@
 		<boolean id="exclude_from_find" value="true" />
 		<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 	</widget>
-	<container class="main_box" entity_layout_id="at00" id="at00" name="background box" >
+	<container class="main_box" entity_layout_id="at00" id="at00" name="background box">
 		<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
 		<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
 		<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
@@ -157,7 +157,7 @@
 					<boolean id="exclude_from_find" value="true" />
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 				</widget>
-				<widget class="text" entity_layout_id="at0A" auto_size="all" id="fpTL" needs_width="true"  name="title">
+				<widget class="text" entity_layout_id="at0A" auto_size="all" id="fpTL" needs_width="true" name="title">
 					<translation id="text" translation_id="436451" type="use" value="Final Position[COMMENT: Final position in the domestic division; BN 154313]" />
 					<string id="font" value="title" />
 					<string id="size" value="medium" />
@@ -242,7 +242,7 @@
 					<boolean id="exclude_from_find" value="true" />
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 				</widget>
-					<widget class="text" entity_layout_id="at0S" auto_size="all" id="atCL" needs_width="true" name="title">
+				<widget class="text" entity_layout_id="at0S" auto_size="all" id="atCL" needs_width="true" name="title">
 					<translation id="text" translation_id="516827" type="use" value="Competition Top Scorer[COMMENT: AREA: End of season pack; SUB-AREA: End of season season results panel FR-BN: 32407; NOTE: Subpanel title]" />
 					<string id="font" value="title" />
 					<string id="size" value="medium" />
@@ -269,7 +269,7 @@
 					<boolean id="exclude_from_find" value="true" />
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 				</widget>
-				<widget class="text" entity_layout_id="at0Q" id="at0Q" auto_size="all" needs_width="true" >
+				<widget class="text" entity_layout_id="at0Q" id="at0Q" auto_size="all" needs_width="true">
 					<translation id="text" value="Board Confidence" translation_id="293309" type="use" />
 					<string id="font" value="title" />
 					<string id="size" value="medium" />

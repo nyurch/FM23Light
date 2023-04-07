@@ -18,25 +18,25 @@
 			<!-- the pitch-->
 
 			<container height="196">
-           		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
 
-           		<container>
-           		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-           		<widget class="picture" default_path="pictures/custom/" file="pictures/custom/report" image_alignment="top" scale_picture="true" keep_aspect_ratio="true">
-				</widget>
-			</container>
+				<container>
+					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+					<widget class="picture" default_path="pictures/custom/" file="pictures/custom/report" image_alignment="top" scale_picture="true" keep_aspect_ratio="true">
+					</widget>
+				</container>
 
-			<container>
-           		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0,16"/>
-				<widget	class="pitch_with_tactics" id="pwtc"  icon_flags="dont_fade_icons" pitch_draw_grass="false"  pitch_perspective="0" pitch_draw_lines="true">
-				<boolean id="disable_link" value="true"/>
-				<boolean id="vertical" value="true"/>
-				<boolean id="pitch_dont_draw_indicators" value="false"/>
-				<boolean id="pitch_draw_grass" value="false" />
-				<boolean id="pitch_draw_image" value="false" />
-				<string id="pitch_kit_icon" value="pitch/icons/dots"/>
-				</widget>
-			</container>
+				<container>
+					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0,16"/>
+					<widget class="pitch_with_tactics" id="pwtc" icon_flags="dont_fade_icons" pitch_draw_grass="false" pitch_perspective="0" pitch_draw_lines="true">
+						<boolean id="disable_link" value="true"/>
+						<boolean id="vertical" value="true"/>
+						<boolean id="pitch_dont_draw_indicators" value="false"/>
+						<boolean id="pitch_draw_grass" value="false" />
+						<boolean id="pitch_draw_image" value="false" />
+						<string id="pitch_kit_icon" value="pitch/icons/dots"/>
+					</widget>
+				</container>
 			</container>
 
 

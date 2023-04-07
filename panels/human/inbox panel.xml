@@ -2,7 +2,7 @@
 	<attachment_group class="vertical_arrange" vertical_alignment="bottom, extend" vertical_offset="0" vertical_gap="0" horizontal_inset="0">
 		<global id="vertical_gap" name="ui.main_box_gap"/>
 	</attachment_group>
-    
+
 	<translation id="title" translation_id="248088" type="use" value="Inbox"/>
 
 	<boolean id="save_immediate_state" value="true"/>
@@ -87,5 +87,5 @@
 		</container>
 	</container>
 
-    <widget class="transfer_deadline_day_news_ticker_panel" id="trde" height="36" hidden="true"/>
+	<widget class="transfer_deadline_day_news_ticker_panel" id="trde" height="36" hidden="true"/>
 </panel>

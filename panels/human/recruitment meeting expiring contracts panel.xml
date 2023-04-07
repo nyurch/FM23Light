@@ -17,7 +17,7 @@
 
 				<container>
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend" horizontal_gap="8" />
-					
+
 					<widget class="picture" file="icons/custom/transfer deadline day/transfer status/contract offer" image_alignment="centre" scale_picture="true" height="16" width="16" red_replacement="title" />
 					<widget class="text" font="title" size="large" auto_size="vertical">
 						<translation id="text" translation_id="557785" type="use" value="Contracts expiring this season[COMMENT: AREA: UI; SUB-AREA: Recruitment meeting; FR: 4202; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: Section title for list of players who have contracts expiring over the next season]" />
@@ -44,7 +44,7 @@
 							<!-- extra properties to request that we can retrieve fromt eh player objects in the parent panel -->
 							<integer value="PcRs" />
 						</list>
-						
+
 						<record id="viewed_property_ids">
 							<record id="PSpi" auto_hide_priority="4" />
 							<!-- player status/info -->

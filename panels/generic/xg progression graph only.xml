@@ -1,7 +1,7 @@
 ﻿<panel>
-	
+
 	<record id="goal_icon_props" class="container" file="generic/xg progress story goal icon" scale_picture="true" keep_aspect_ratio="true" height="30" width="50" image_alignment="centre" />
-	
+
 	<attachment_group class="vertical_arrange" vertical_layout="-1" />
 	<container>
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />

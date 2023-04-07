@@ -18,34 +18,34 @@
 
 		<widget class="vertical_divider" width="1" height="52" />
 
-				<container alignment="right" wants_mouse_events="false">
-					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend" horizontal_offset="8" horizontal_gap="8" vertical_alignment="vertical" vertical_inset="0" />
+		<container alignment="right" wants_mouse_events="false">
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend" horizontal_offset="8" horizontal_gap="8" vertical_alignment="vertical" vertical_inset="0" />
 
-					<widget class="picture" file="icons/custom/icon box/budget" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" width="26" auto_size="vertical" />
+			<widget class="picture" file="icons/custom/icon box/budget" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" width="26" auto_size="vertical" />
 
-					<container wants_mouse_events="false">
-						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="0" horizontal_gap="8" vertical_alignment="vertical" vertical_inset="0" />
+			<container wants_mouse_events="false">
+				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="0" horizontal_gap="8" vertical_alignment="vertical" vertical_inset="0" />
 
-						<container wants_mouse_events="false">
-							<attachment_group class="vertical_arrange_autosize" vertical_offset="0" />
+				<container wants_mouse_events="false">
+					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" />
 
-							<widget class="text" auto_size="vertical" colour="fg" font="label" alignment="left,centre_y" wants_mouse_events="false" multiline="true">
-								<translation id="text" translation_id="557848" type="use" value="Available Transfer Budget: [COMMENT: AREA: Inbox; SUB-AREA: Deadline Day Recruitment Meeting; FR-BN: FM-4187; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title for transfer budget on meeting invite]" />
-							</widget>
-							<widget class="text" id="tbva" auto_size="vertical" font="value" alignment="left, centre_y" wants_mouse_events="false" colour="fg" />
-						</container>
-
-						<container wants_mouse_events="false">
-							<attachment_group class="vertical_arrange_autosize" vertical_offset="0" />
-
-							<widget class="text" auto_size="vertical" colour="fg" font="label" alignment="left, centre_y" wants_mouse_events="false" multiline="true">
-								<translation id="text" translation_id="557849" type="use" value="Available Wage Budget: [COMMENT: AREA: Inbox; SUB-AREA: Deadline Day Recruitment Meeting; FR-BN: FM-4187; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title for transfer budget on meeting invite]" />
-
-							</widget>
-							<widget class="text" id="wbva" auto_size="vertical" font="value" alignment="left, centre_y" wants_mouse_events="false" colour="fg" />
-						</container>
-					</container>
+					<widget class="text" auto_size="vertical" colour="fg" font="label" alignment="left,centre_y" wants_mouse_events="false" multiline="true">
+						<translation id="text" translation_id="557848" type="use" value="Available Transfer Budget: [COMMENT: AREA: Inbox; SUB-AREA: Deadline Day Recruitment Meeting; FR-BN: FM-4187; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title for transfer budget on meeting invite]" />
+					</widget>
+					<widget class="text" id="tbva" auto_size="vertical" font="value" alignment="left, centre_y" wants_mouse_events="false" colour="fg" />
 				</container>
 
+				<container wants_mouse_events="false">
+					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" />
+
+					<widget class="text" auto_size="vertical" colour="fg" font="label" alignment="left, centre_y" wants_mouse_events="false" multiline="true">
+						<translation id="text" translation_id="557849" type="use" value="Available Wage Budget: [COMMENT: AREA: Inbox; SUB-AREA: Deadline Day Recruitment Meeting; FR-BN: FM-4187; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title for transfer budget on meeting invite]" />
+
+					</widget>
+					<widget class="text" id="wbva" auto_size="vertical" font="value" alignment="left, centre_y" wants_mouse_events="false" colour="fg" />
+				</container>
+			</container>
 		</container>
-	</panel>
+
+	</container>
+</panel>

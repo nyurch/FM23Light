@@ -6,19 +6,19 @@
 
 	<container draw_vertical_dividers="true">
 
-			<attachment class="test_screen_size_attachment">
-				<list id="properties">
-					<record>
-						<flags id="alignment" value="vertical"/>
-						<integer id="min_value" value="0"/>
-						<integer id="max_value" value="601"/>
-						<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
-						<symbol id="set_property" value="height"/>
-						<integer id="true_value" value="225"/>
-						<integer id="false_value" value="270"/>
-					</record>
-				</list>
-			</attachment>
+		<attachment class="test_screen_size_attachment">
+			<list id="properties">
+				<record>
+					<flags id="alignment" value="vertical"/>
+					<integer id="min_value" value="0"/>
+					<integer id="max_value" value="601"/>
+					<!-- This is a very large value as we want our widget to show if > the min_value.  The attachment itself only does values between a range so we set the max arbitrarily high to make this work -->
+					<symbol id="set_property" value="height"/>
+					<integer id="true_value" value="225"/>
+					<integer id="false_value" value="270"/>
+				</record>
+			</list>
+		</attachment>
 
 		<attachment_group class="horizontal_arrange" horizontal_layout="-1,-1,-1" horizontal_gap="12" />
 

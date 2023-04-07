@@ -17,28 +17,28 @@
 	</list>
 
 	<container class="main_box" id="plti">
-    <attachment_group class="vertical_arrange" vertical_layout="30, -1" vertical_gap="0" />
+		<attachment_group class="vertical_arrange" vertical_layout="30, -1" vertical_gap="0" />
 
-    <!-- buttons area -->
-    <container navigation_container="true">
-         <attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" />
-         
-         <widget class="label" id="TitL" font="title" auto_size="horizontal">
-             <translation id="text" translation_id="232113" type="use" value="Players" />
-         </widget>
-         
-         <widget class="view_menu_popup" id="plvi" embed_in_frame="false"/>
-     
-     <!-- filters -->
-         <container>
-         <attachment_group class="horizontal_arrange" horizontal_alignment="right"/>
-         <widget class="filter_button" id="plsf" target="plti"/>
-         </container>
-     </container>
+		<!-- buttons area -->
+		<container navigation_container="true">
+			<attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" />
+
+			<widget class="label" id="TitL" font="title" auto_size="horizontal">
+				<translation id="text" translation_id="232113" type="use" value="Players" />
+			</widget>
+
+			<widget class="view_menu_popup" id="plvi" embed_in_frame="false"/>
+
+			<!-- filters -->
+			<container>
+				<attachment_group class="horizontal_arrange" horizontal_alignment="right"/>
+				<widget class="filter_button" id="plsf" target="plti"/>
+			</container>
+		</container>
 
 		<container>
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-			<widget class="tactic_player_list_table" id="pltb" database_table_type="1" customisation_context="play" mode="fill_rows, stripe_rows, printable, store_sort_state, drag_rows, drag_multiple, drop_on_rows, show_bullets, select_rows, select_multiple" column_mode="resize_columns, move_columns, custom_views" row_height="31" navigation_container="true" >
+			<widget class="tactic_player_list_table" id="pltb" database_table_type="1" customisation_context="play" mode="fill_rows, stripe_rows, printable, store_sort_state, drag_rows, drag_multiple, drop_on_rows, show_bullets, select_rows, select_multiple" column_mode="resize_columns, move_columns, custom_views" row_height="31" navigation_container="true">
 
 				<boolean id="auto_size_rows" value="false" />
 				<boolean id="fixed_size_rows" value="true" />

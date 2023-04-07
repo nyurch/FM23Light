@@ -14,7 +14,7 @@
 
             <container>
                 <attachment_group class="vertical_arrange_autosize" vertical_gap="4"/>
-                
+
                 <!-- what is being said -->
                 <widget class="text" id="qusl" colour="text" auto_size="vertical"/>
 

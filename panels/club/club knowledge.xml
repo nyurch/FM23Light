@@ -27,11 +27,11 @@
 			<container>
 				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" />
 
-				<widget class="radio_button" select_event="ECST" auto_size="horizontal" show_button_appearance="true" alignment="centre" appearance="switches/store toggle/normal/button"  colour="bg" icon_enabled="false" secondary_icon_enabled="true" secondary_icon_alignment="left" selected="true">
+				<widget class="radio_button" select_event="ECST" auto_size="horizontal" show_button_appearance="true" alignment="centre" appearance="switches/store toggle/normal/button" colour="bg" icon_enabled="false" secondary_icon_enabled="true" secondary_icon_alignment="left" selected="true">
 					<record id="secondary_icon_properties" file="icons/16px/staff" />
 					<translation id="text" translation_id="458567" type="use" value="Scouts[COMMENT: filter option to show only scout suggestions in scouting centre; fr 22700]" />
 				</widget>
-					
+
 				<widget class="radio_button" select_event="ECKT" auto_size="horizontal" show_button_appearance="true" alignment="centre" appearance="switches/store toggle/normal/button" colour="bg" icon_enabled="false" secondary_icon_enabled="true" secondary_icon_alignment="left">
 					<record id="secondary_icon_properties" file="icons/16px/world" />
 					<translation id="text" translation_id="334387" type="use" value="World Knowledge[COMMENT: team scouts; information about range of knowledge]" />
@@ -108,9 +108,9 @@
 						<string id="widget_type" value="group_responsibility_list_widget" />
 						<record id="WdgP" file="team/team container scout responsibility popup" width="950" />
 						<record id="modal_popup_properties" file="modal popup panel auto sized" />
-					</widget>					
+					</widget>
 				</container>
-				
+
 			</container>
 
 			<!--knowledge panel container-->
@@ -175,7 +175,7 @@
 				</container>
 			</container>
 		</container>
-		
+
 		<!--RHS container-->
 		<container>
 			<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" />
@@ -317,7 +317,7 @@
 					<flags id="icon_colour" value="currently scouting" />
 					<translation id="text" translation_id="557631" type="use" value="Currently Scouting[COMMENT: AREA: Scouting; SUB-AREA: Scouting Coverage; FR-BN: FM-4076; NOTE: the map legend]" />
 				</widget>
-				
+
 				<container>
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right" />
 					<widget class="link_button" alignment="centre" section="tmta" auto_size="all">
@@ -325,8 +325,8 @@
 					</widget>
 				</container>
 			</container>
-			
+
 		</container>
-		
+
 	</container>
 </panel>

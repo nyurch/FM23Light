@@ -11,5 +11,5 @@
 	<record id="image_slices" left="5" right="5" top="5" bottom="5"/>
 
 	<colour id="blue_replacement" name="menu_highlight"/>
-	
+
 </properties>

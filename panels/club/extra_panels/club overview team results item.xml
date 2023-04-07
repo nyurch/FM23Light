@@ -31,7 +31,8 @@
                 </list>
             </record>
         </widget>
-        <container><attachment class="vertical_arrange" vertical_layout="-1,-1" vertical_gap="0"/>
+        <container>
+            <attachment class="vertical_arrange" vertical_layout="-1,-1" vertical_gap="0"/>
             <widget class="game_formatted_label" format="([%comp#1-3letter])" colour="title" font="title" size="8" alignment="centre_x,bottom,can_scale">
                 <record id="object_property" get_property="fxCo" set_property="var1"/>
             </widget>

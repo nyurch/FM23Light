@@ -28,7 +28,7 @@
                     <attachment_group class="vertical_arrange_autosize"/>
                 </container>
 
-                <container class="plain_box" width="500" appearance="boxes/custom/quick chat/ai_quick_chat_speech"  alignment="left" red_replacement="fg accent">
+                <container class="plain_box" width="500" appearance="boxes/custom/quick chat/ai_quick_chat_speech" alignment="left" red_replacement="fg accent">
                     <attachment_group class="vertical_arrange_autosize"/>
                     <widget class="text" id="stQU" height="50" colour="fg info" alignment="left, centre_y">
                     </widget>
@@ -38,7 +38,7 @@
 
         <container class="scrolling_box">
 
-            <container class="plain_box" >
+            <container class="plain_box">
                 <attachment_group class="vertical_arrange_autosize"/>
 
                 <container class="plain_box" id="QCbo" appearance="boxes/inner/subtle/paper" colour="text" size="large" navigation_container="true">

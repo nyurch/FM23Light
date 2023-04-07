@@ -5,9 +5,9 @@
 	</list>
 
 	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_gap="0"/>
-	<container class="main_contrast_box" red_replacement="fm purple" >
+	<container class="main_contrast_box" red_replacement="fm purple">
 		<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_gap="4"/>
-		<container  height="28">
+		<container height="28">
 			<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_offset="0" vertical_inset="0" horizontal_gap="4"/>
 
 

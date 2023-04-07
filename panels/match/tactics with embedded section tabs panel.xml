@@ -110,7 +110,7 @@
 				<string id="remove_if" value="is_fmt" />
 			</container>
 
-			<container class="sections_menu_strip" id="seST" >
+			<container class="sections_menu_strip" id="seST">
 				<record id="submenu_properties" fixed="true" is_modal="false" autS="false">
 					<event id="click_notification_event" event_id="DMCN" item="NULL" />
 					<event id="menu_layout_notification_event" event_id="MLNO" />

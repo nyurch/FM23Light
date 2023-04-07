@@ -5,7 +5,7 @@
 		<flags id="index" value="6" />
 		<flags id="event_target" value="self" />
 	</record>
-	
+
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 	<container>
 
@@ -15,10 +15,10 @@
 			<layout class="arrange_horizontal_attachment" layout="26, -1" offset="0" gap="10" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 			<layout class="centre_in_parent_attachment" alignment="horizontal" />
-			
+
 			<widget class="picture" file="icons/26px/info" scale_picture="false" auto_size="vertical" image_alignment="centre" red_replacement="white" />
 
-			<widget class="text" alignment="left,centre_y" auto_size="vertical" multiline="true" colour="white" >
+			<widget class="text" alignment="left,centre_y" auto_size="vertical" multiline="true" colour="white">
 				<translation id="text" translation_id="395058" type="use" value="You can edit your chosen club's details in the next stage with the exception of its finances, facilities, reputation and continental qualification.[COMMENT: create a club heading message]" />
 			</widget>
 		</container>
@@ -31,7 +31,7 @@
 
 			<!-- Radio button embedded in the header for  choosing to start unemployed or manager nation and club -->
 			<container id="tcnt" embed_in_frame="true" height="25" navigation_container="true">
-                
+
 				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" embed_in_frame="true" inset="0" />
 				<layout class="arrange_horizontal_attachment" alignment="right" embed_in_frame="true" gap="10" offset="10" />
 				<layout class="stick_to_sides_attachment" alignment="top" embed_in_frame="true" inset="4" />
@@ -55,7 +55,7 @@
 
 				<container navigation_container="true">
 
-					<attachment_group class="vertical_arrange_autosize"  />
+					<attachment_group class="vertical_arrange_autosize" />
 
 					<!-- select league button -->
 					<widget class="popup_button" id="tmvw" select_event="chtv" primary_use_icon_app_rep_colour="false" auto_tick_exclusive="false" auto_size="vertical" fixed="false">

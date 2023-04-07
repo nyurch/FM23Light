@@ -5,7 +5,7 @@
     <attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="right,extend" horizontal_offset="8" vertical_inset="0"/>
 
     <container>
-      <attachment_group class="horizontal_arrange_vertical_autosize_centre"  horizontal_alignment="left,extend" vertical_inset="0"/>
+      <attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left,extend" vertical_inset="0"/>
 
       <widget class="check_box" id="lock" click_event="lock" label_disabled="true" width="20" height="30" alignment="centre" icon="switches/lock/button" appearance="buttons/embedded/normal/button">
         <translation id="hint" translation_id="350950" type="use" value="Select to mark this as non-negotiable[COMMENT: contract offer panel and transfer offer panel; offer condition lock; the contract term or transfer condition is not negotiable, i.e. the wage, squad status etc]" />
@@ -23,11 +23,11 @@
             <string id="text" value="Temp" />
           </widget>
 
-          <widget class="text" id="reas" size="small" alignment="left, centre_y" auto_size="vertical" multiline="false" hidden="true" >
+          <widget class="text" id="reas" size="small" alignment="left, centre_y" auto_size="vertical" multiline="false" hidden="true">
             <string id="text" value="Temp" />
           </widget>
 
-          <widget class="text" id="eiwi" size="small" style="semi_bold" alignment="left, centre_y" auto_size="vertical" multiline="false" hidden="true" colour="faded text" >
+          <widget class="text" id="eiwi" size="small" style="semi_bold" alignment="left, centre_y" auto_size="vertical" multiline="false" hidden="true" colour="faded text">
             <string id="text" value="Temp" />
           </widget>
 
@@ -35,12 +35,13 @@
 
 
         <container id="ppcn" height="30">
-          <attachment_group class="horizontal_arrange_autosize_vertical_centre" horizontal_alignment="right" horizontal_gap="0"/>/>
+          <attachment_group class="horizontal_arrange_autosize_vertical_centre" horizontal_alignment="right" horizontal_gap="0"/>
+/>
 
           <widget class="left_right_list" id="left" auto_size="horizontal" hidden="true" auto_size_minimum_width="150" minus_kind="selection_subtle_left" plus_kind="selection_subtle_right" main_kind="selection_subtle_popup" hide_plus_minus_buttons="true"/>
 
           <widget class="popup_button" id="popU" alignment="left, centre_y" multiline="false" auto_size="horizontal" hidden="true" auto_size_minimum_width="150" appearance="buttons/subtle/normal/button"/>
-          <widget class="popup_button" id="PVpu" alignment="left, centre_y" multiline="false" auto_size="horizontal" hidden="true"  auto_size_minimum_width="150" appearance="buttons/subtle/normal/button"/>
+          <widget class="popup_button" id="PVpu" alignment="left, centre_y" multiline="false" auto_size="horizontal" hidden="true" auto_size_minimum_width="150" appearance="buttons/subtle/normal/button"/>
 
           <widget class="edit_date_cell" id="SdtP" auto_size="horizontal" hidden="true">
             <translation id="format" translation_id="466566" type="use" value="Start Date: [%date#1-short][COMMENT: FR 9603, date a transfer or contract clause is enabled from]" />
@@ -67,7 +68,7 @@
             <record id="alternative_main_kind" class="edit_box">
               <record id="properties">
                 <integer id="width" value="125" />
-				<flags id="colour" value="text" />
+                <flags id="colour" value="text" />
                 <boolean id="show_clear_text_icon" value="false"/>
               </record>
             </record>
@@ -81,7 +82,7 @@
 
     <container height="30" width="20">
       <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-      <widget class="popup_button" id="icon" draw_arrow="false" secondary_icon_enabled="false" icon="icons/16px/remove from list" appearance="buttons/custom/over state only/button"  icon_alignment="left" hidden="true" >
+      <widget class="popup_button" id="icon" draw_arrow="false" secondary_icon_enabled="false" icon="icons/16px/remove from list" appearance="buttons/custom/over state only/button" icon_alignment="left" hidden="true">
         <record id="primary_icon_properties" red_replacement="fg" />
       </widget>
     </container>

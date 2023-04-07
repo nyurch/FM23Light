@@ -34,7 +34,7 @@
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 
 						<record id="default_series_properties" colour="accent" type="line" line_width="3" point_radius="5" point_colour="accent"/>
-						<record id="x_axis" hidden="true" >
+						<record id="x_axis" hidden="true">
 							<string id="format" value="[%fraction#1-3.0]"/>
 							<translation id="title" translation_id="242774" type="use" value="Match" />
 						</record>
@@ -51,7 +51,7 @@
 
 				</container>
 
-				<widget class="label" id="nogp" hidden="true" colour="faded text" alignment="left,top" auto_size="vertical" >
+				<widget class="label" id="nogp" hidden="true" colour="faded text" alignment="left,top" auto_size="vertical">
 					<translation id="text" translation_id="330262" type="use" value="No Games Played Yet[COMMENT: player_positions_details_panel; string indicating that a player is yet to compete in any matches and as such has no positional data]" />
 				</widget>
 

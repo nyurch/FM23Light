@@ -1,9 +1,10 @@
-﻿<!-- panel to display a warning about the club being in a takeover process--><panel>
-	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+﻿<!-- panel to display a warning about the club being in a takeover process-->
+<panel>
+    <attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
     <container class="main_contrast_box" red_replacement="purple2">
         <attachment_group class="vertical_arrange_autosize" vertical_offset="8" horizontal_alignment="horizontal" horizontal_inset="8" />
-        
+
         <widget class="text" font="title" colour="white" auto_size="vertical">
             <translation id="text" translation_id="557655" type="use" value="Board Alert - Takeover in progress[COMMENT: AREA: Club vision; SUB-AREA: Club objectives; FR: 3292; TONE: Formal; CHARLIMIT: None; NOTE: Title string for sub panel indicating the club is in a takeover process]" />
         </widget>

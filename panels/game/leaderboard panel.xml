@@ -54,7 +54,7 @@
 						<record indx="0" initial_id="allT" />
 						<record indx="1" initial_id="snGM" />
 						<record indx="2" initial_id="snSS" />
-						<record indx="3" initial_id="ntNL" >
+						<record indx="3" initial_id="ntNL">
 							<global id="shown" name="distribution_is_steam"/>
 						</record>
 						<record indx="4" initial_id="dvSL">
@@ -107,10 +107,10 @@
 						<record indx="0" initial_id="allT" />
 						<record indx="1" initial_id="snGM" />
 						<record indx="2" initial_id="snSS" />
-						<record indx="3" initial_id="ntNL" >
+						<record indx="3" initial_id="ntNL">
 							<global id="shown" name="distribution_is_steam"/>
 						</record>
-						<record indx="4" initial_id="dvSL" >
+						<record indx="4" initial_id="dvSL">
 							<global id="shown" name="distribution_is_steam"/>
 						</record>
 					</list>

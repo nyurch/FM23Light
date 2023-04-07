@@ -42,7 +42,7 @@
 			<widget class="text" id="inti" font="title" auto_size="vertical">
 				<translation id="text" translation_id="539017" type="use" value="Other Interest[COMMENT: AREA: Contracts; SUB-AREA: Contract Negotiations; FR-BN: TBC; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: title for how interested the player is in the proposed playing time as part of contract negotiations]" />
 			</widget>
-			
+
 			<container class="simple_data_list" id="incl" auto_size="vertical" set_property="prop" maximum_items="3">
 				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" />
 

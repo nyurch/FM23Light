@@ -2,16 +2,16 @@
 	<record id="goal_icon_props" class="container" file="generic/xg progress story goal icon" scale_picture="true" height="30" width="40" keep_aspect_ratio="true" image_alignment="centre" />
 	<list id="properties_to_forward">
 		<record get_property="goal" target="gllv" set_property="text" />
-		<record get_property="totl" target="xglv"  set_property="text" />
+		<record get_property="totl" target="xglv" set_property="text" />
 	</list>
 	<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
 	<container id="mxgC">
 		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_gap="8" />
-		<widget class="icon_button" id="mglv" icon="icons/16px/ball"  auto_size="all"   red_replacement="normal_icon"  show_button_appearance="false" navigation_focus_target="false" colour="text"/>
-		<widget class="vertical_divider" >
+		<widget class="icon_button" id="mglv" icon="icons/16px/ball" auto_size="all" red_replacement="normal_icon" show_button_appearance="false" navigation_focus_target="false" colour="text"/>
+		<widget class="vertical_divider">
 			<layout class="stick_to_sides_attachment" alignment="vertical" />
 		</widget>
-		<widget class="icon_button" id="mxgv"  icon="icons/16px/xg"  auto_size="all" red_replacement="normal_icon" show_button_appearance="false" navigation_focus_target="false" colour="text"/>
+		<widget class="icon_button" id="mxgv" icon="icons/16px/xg" auto_size="all" red_replacement="normal_icon" show_button_appearance="false" navigation_focus_target="false" colour="text"/>
 	</container>
 	<container>
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
@@ -20,7 +20,7 @@
 			<record id="x_axis" show_labels="false" line_width="3" mark_size="0" interval="15" round_min_max="false">
 				<record id="label_font" colour="faded black"/>
 			</record>
-			<record id="y_axis" show_labels="false" force_label_inset="true" inset="24" line_width="3"  mark_size="0" interval="0.25"  round_min_max="false">
+			<record id="y_axis" show_labels="false" force_label_inset="true" inset="24" line_width="3" mark_size="0" interval="0.25" round_min_max="false">
 				<record id="label_font" colour="faded black"/>
 			</record>
 

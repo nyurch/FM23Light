@@ -44,7 +44,7 @@
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 				<layout class="stick_to_sides_attachment" alignment="top" inset="0"/>
 
-				<widget class="odds_label" id="odds" spec="text" size="large"  alignment="centre,can_scale" auto_size="vertical" colour="white">
+				<widget class="odds_label" id="odds" spec="text" size="large" alignment="centre,can_scale" auto_size="vertical" colour="white">
 					<record id="object_property">
 						<integer id="get_property" value="valu"/>
 					</record>

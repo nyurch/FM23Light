@@ -11,9 +11,9 @@
 		<container>
 			<attachment_group class="arrange_vertical_attachment" vertical_offset="0" horizontal_inset="0" horizontal_alignment="left" />
 			<widget class="link_button" id="tlnk" auto_size="all" />
-		</container>			
+		</container>
 
-		<widget class="label" auto_size="vertical" id="titl"  font="title" colour="accent" navigation_focus_target="false" />
+		<widget class="label" auto_size="vertical" id="titl" font="title" colour="accent" navigation_focus_target="false" />
 
 		<widget class="label" auto_size="vertical" id="nump" style="semi_bold" size="large" />
 

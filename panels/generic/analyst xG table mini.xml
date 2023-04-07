@@ -4,7 +4,7 @@
 	<container height="30">
 		<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="8" horizontal_offset="0"/>
 		<widget class="picture" file="icons/26px/ball" red_replacement="fg" auto_size="horizontal" />
-		<container class="client_object_property_labelled_panel" >
+		<container class="client_object_property_labelled_panel">
 			<string id="property" value="oxPP" />
 			<record id="widget_properties" alignment="left,centre_y" auto_size="vertical" navigation_focus_target="false" />
 			<record id="dbrp">
@@ -15,7 +15,7 @@
 	</container>
 	<container>
 		<layout class="grid_layout_attachment" row_layout="-1,-1,-1" column_layout="-1,-1" mode="auto" vertical_gap="0" horizontal_gap="10" />
-		<container class="client_object_property_labelled_panel" >
+		<container class="client_object_property_labelled_panel">
 			<string id="property" value="ovxG" />
 			<record id="widget_properties" alignment="left,centre_y" auto_size="vertical" navigation_focus_target="false" />
 			<record id="dbrp">
@@ -24,7 +24,7 @@
 			</record>
 		</container>
 
-		<container class="client_object_property_labelled_panel" >
+		<container class="client_object_property_labelled_panel">
 			<string id="property" value="glXG" />
 			<record id="widget_properties" alignment="left,centre_y" auto_size="vertical" navigation_focus_target="false" />
 			<record id="dbrp">
@@ -42,7 +42,7 @@
 			</record>
 		</container>
 
-		<container class="client_object_property_labelled_panel" >
+		<container class="client_object_property_labelled_panel">
 			<string id="property" value="glXp" />
 			<record id="widget_properties" alignment="left,centre_y" auto_size="vertical" navigation_focus_target="false" />
 			<record id="dbrp">
@@ -60,7 +60,7 @@
 			</record>
 		</container>
 
-		<container class="client_object_property_labelled_panel" >
+		<container class="client_object_property_labelled_panel">
 			<string id="property" value="glXP" />
 			<record id="widget_properties" alignment="left,centre_y" auto_size="vertical" navigation_focus_target="false" />
 			<record id="dbrp">

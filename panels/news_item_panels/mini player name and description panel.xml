@@ -12,7 +12,7 @@
     <widget class="player_status_button" id="banB" auto_size="all" hide_if_empty="true">
       <layout class="stick_to_sides_attachment" alignment="vertical" inset="0"/>
       <record id="object_property">
-        <list id="get_properties" >
+        <list id="get_properties">
           <record get_property="Pnfo" set_property="valu"/>
         </list>
       </record>

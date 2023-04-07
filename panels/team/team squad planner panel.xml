@@ -96,7 +96,7 @@
 								<translation id="text" translation_id="560962" type="use" value="Show full squad view[COMMENT: AREA: Team Squad; SUB-AREA: Squad Planner; FR-BN: FM-11545; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: button to show the full squd view panel.]" />
 
 							</widget>
-							
+
 							<widget class="tactic_popup_button" alignment="centre" auto_size="all" colour="black" show_button_appearance="false" request_tactic="false" id="tsbn" dont_add_reset_text="true" value="0" />
 						</container>
 					</container>
@@ -104,13 +104,13 @@
 					<!--pitch container-->
 					<container height="460">
 						<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" inset="0,0,0,0"/>
-						
-							
+
+
 						<widget class="pitch_with_squad_depth" id="pitc" height="460" display_centre_side_positions="true" vertical="true" pitch_alignment="centre_x,top" pitch_draw_goals="false" pitch_draw_markings="false" show_position_strength="false" pitch_show_names="false" pitch_draw_grass="true" pitch_line_colour="white" pitch_touchline_width_percentage="0" pitch_override_icon_size="2" line_width="1.5" pitch_vertical_padding="16" disable_animations="true">
 							<string id="pitch_kit_icon" value="pitch/icons/dots" />
 						</widget>
 					</container>
-				
+
 					<widget class="check_box" auto_size="vertical" id="dapo" click_event="daPo">
 						<translation id="text" translation_id="560963" type="use" value="Show All Positions[COMMENT: AREA: Planner; SUB-AREA: Planner Panel; FR-BN: FM-11444 NOTE: Show all possible player positions on the pitch]" />
 					</widget>
@@ -127,18 +127,18 @@
 
 					<container class="inner_subtle_box">
 						<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="right,extend" />
-						
+
 						<container id="cfTB">
 							<layout class="fit_children_attachment" alignment="vertical,extend" />
 							<layout class="arrange_horizontal_attachment" alignment="left" wrap_widgets="true" />
 							<layout class="stick_to_sides_attachment" alignment="top" />
 							<!-- items dynamically added in code -->
 						</container>
-						
+
 						<widget class="label" colour="faded text" alignment="left,top" auto_size="all" id="noFC">
 							<translation id="text" translation_id="553544" type="use" value="No recruitment focuses currently set for this position[COMMENT: AREA: Team Squad; SUB-AREA: Squad Planner; FR-BN: FM-4070; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Recruitment focus bar text.]" />
 						</widget>
-						
+
 						<widget class="subtle_button" alignment="centre_y" auto_size="all" colour="text" icon="icons/16px/plus" click_event="scfC">
 							<translation id="text" translation_id="553545" type="use" value="Create New Focus[COMMENT: AREA: Team Squad; SUB-AREA: Squad Planner; FR-BN: FM-4070; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Create new focus button label.]" />
 						</widget>
@@ -212,7 +212,7 @@
 									<record id="Movp" width="110" auto_hide_priority="0" sort_disabled="true" alignment="centre" />
 									<!-- Choice -->
 									<record id="PcnD" minimum_width="240" auto_hide_priority="0" sort_disabled="true" />
-									
+
 									<!-- Player -->
 									<record id="Pnfo" auto_hide_priority="500" sort_disabled="true" />
 									<!-- INF -->

@@ -1,6 +1,6 @@
 ﻿<panel>
 	<attachment_group class="vertical_arrange_autosize" vertical_gap="4"/>
-	
+
 	<list id="properties_to_forward">
 		<record get_property="text" set_property="value" target="mtFC"/>
 		<record get_property="hide_container_title" set_property="hidden" target="mtFC"/>
@@ -9,8 +9,8 @@
 	</list>
 
 	<widget class="text" id="mtFC" auto_size="vertical" font="title" size="medium" hidden="true"/>
-	
-	<container height="35">	
+
+	<container height="35">
 		<attachment_group class="horizontal_arrange" horizontal_layout="-1,24,26" vertical_offset="0" horizontal_gap="1" horizontal_offset="0"/>
 
 		<container class="inner_subtle_box_no_margin" appearance="switches/recruitment focus/split/left/button">

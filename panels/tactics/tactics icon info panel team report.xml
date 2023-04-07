@@ -51,7 +51,7 @@
 			</container>
 
 		</container>
-		
+
 		<!--name/condition etc.-->
 		<container id="nmcN" class="inner_contrast_box_no_margin" red_replacement="style_background">
 			<attachment_group class="vertical_arrange_autosize" horizontal_inset="2" vertical_offset="2" vertical_gap="0"/>

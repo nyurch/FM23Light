@@ -8,7 +8,7 @@
 	<colour id="negative_rating_text_colour" name="white" />
 
 
-	<layout class="arrange_vertical_attachment" layout="-1,4,-1" offset="0"  gap="0"/>
+	<layout class="arrange_vertical_attachment" layout="-1,4,-1" offset="0" gap="0"/>
 	<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 
@@ -53,8 +53,8 @@
 					<!-- Rating Text -->
 					<widget class="dashed_number_label" id="bpTx" alignment="centre" style="bold" spec="text" size="xlarge" auto_size="vertical" format="[%fraction#1-4.1]" />
 
-					<widget class="text" alignment="centre_x,top" colour="faded text" >
-						<translation id="text" translation_id="229619" type="use"  value="Rating" />
+					<widget class="text" alignment="centre_x,top" colour="faded text">
+						<translation id="text" translation_id="229619" type="use" value="Rating" />
 					</widget>
 				</container>
 			</container>
@@ -71,7 +71,7 @@
 					<record id="object_property" get_property="Pmjp"/>
 				</widget>
 
-				<widget class="adaptive_match_player_summary"  alignment="left,top" icon_alignment="left,top" colour="text" >
+				<widget class="adaptive_match_player_summary" alignment="left,top" icon_alignment="left,top" colour="text">
 					<record id="object_property" get_property="PpSN"/>
 				</widget>
 			</container>
@@ -93,7 +93,7 @@
 		<container height="25">
 			<layout class="arrange_horizontal_attachment" alignment="left" offset="0" gap="0" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
-			<widget class="link_button" id="wpln" section="mapl" alignment="left,centre_y" auto_size="horizontal" colour="text" blue_replacement="text" appearance="buttons/link/title/button" size="small" >
+			<widget class="link_button" id="wpln" section="mapl" alignment="left,centre_y" auto_size="horizontal" colour="text" blue_replacement="text" appearance="buttons/link/title/button" size="small">
 				<record id="auto_size_restrictions">
 					<string id="type" value="available" />
 					<string id="limit_type" value="maximum" />
@@ -126,8 +126,8 @@
 					<!-- Rating Text -->
 					<widget class="dashed_number_label" id="bpTx" alignment="centre" style="bold" spec="text" size="xlarge" auto_size="vertical" format="[%fraction#1-4.1]" />
 
-					<widget class="text" alignment="centre_x,top" colour="faded text" >
-						<translation id="text" translation_id="229619" type="use"  value="Rating" />
+					<widget class="text" alignment="centre_x,top" colour="faded text">
+						<translation id="text" translation_id="229619" type="use" value="Rating" />
 					</widget>
 				</container>
 			</container>

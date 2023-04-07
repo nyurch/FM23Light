@@ -6,7 +6,7 @@
 	<container class="inner_subtle_box" colour="title" entity_layout_id="at01" id="mhed" auto_size="vertical">
 
 		<attachment_group class="vertical_arrange_autosize" vertical_layout="-1,5,10,-1" entity_layout_id="at00" id="at00" auto_size="vertical"/>
-		
+
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="120, -1" horizontal_offset="0" vertical_offset="0"/>
 
@@ -14,9 +14,9 @@
 				<string id="text" value="Accepted"/>
 				<flags id="colour" value="white" />
 			</widget>
-			
+
 			<container class="horizontal_arrange_container" layout="-1,-1,-1" gap="10" entity_layout_id="at02" id="at02" auto_size="vertical">
-				
+
 				<container class="titled_box" colour="faded black" alignment="top" entity_layout_id="at06" hidden="true" id="hed1">
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="0" vertical_offset="0"/>
 					<widget class="label" size="large" alignment="centre" entity_layout_id="at09" id="dta1" auto_size="vertical" />
@@ -28,7 +28,7 @@
 				</container>
 
 
-				<container class="titled_box" colour="faded black" alignment="top" entity_layout_id="at08" hidden="true" id="hed3" >
+				<container class="titled_box" colour="faded black" alignment="top" entity_layout_id="at08" hidden="true" id="hed3">
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="0" vertical_offset="0"/>
 					<widget class="label" entity_layout_id="at0;" size="large" alignment="centre" id="dta3" auto_size="vertical" needs_height="true"/>
 				</container>
@@ -40,7 +40,7 @@
 		<container class="titled_box" hidden="true" id="hed4">
 			<translation id="title" translation_id="232957" type="use" value="Reason"/>
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
-			<widget class="text" entity_layout_id="at0&lt;" id="rtxt"  multiline="true" auto_size="vertical" >
+			<widget class="text" entity_layout_id="at0&lt;" id="rtxt" multiline="true" auto_size="vertical">
 
 			</widget>
 		</container>
@@ -84,7 +84,7 @@
 							</record>
 							<record id="Scov">
 								<record id="label_widget_properties">
-									<translation id="text" translation_id="284338" type="use" value="Roof[COMMENT: heading; team_information_panel; indicates if stadium is covered]"  />
+									<translation id="text" translation_id="284338" type="use" value="Roof[COMMENT: heading; team_information_panel; indicates if stadium is covered]" />
 								</record>
 							</record>
 							<record id="SblS">

@@ -8,20 +8,20 @@
 
 		<!-- tweeter image -->
 		<widget class="object_portrait_picture_with_label_and_background" id="obji" height="40" request_facegen_data="false" file="widgets/object portrait picture news feed fan cup draw">
-    
+
 		</widget>
-	  
+
 	</container>
 
-	<container id="main"  background_colour="bg darker" >
+	<container id="main" background_colour="bg darker">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="4" horizontal_alignment="horizontal" horizontal_inset="8" vertical_gap="6"/>
 
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_gap="0" />
 
 			<!-- news subject object / date sent -->
-			<widget class="client_object_label" id="nmtx" style="bold"  multiline="true" auto_size="vertical"/>
-			<widget class="text" id="dttx" colour="faded text" size="small"  multiline="false" auto_size="vertical"/>
+			<widget class="client_object_label" id="nmtx" style="bold" multiline="true" auto_size="vertical"/>
+			<widget class="text" id="dttx" colour="faded text" size="small" multiline="false" auto_size="vertical"/>
 
 		</container>
 

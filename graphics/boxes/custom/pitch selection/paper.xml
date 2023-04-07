@@ -11,5 +11,5 @@
 	<record id="image_slices" left="8" right="8" top="8" bottom="8"/>
 
 	<colour id="red_replacement" name="white"/>
-	
+
 </properties>

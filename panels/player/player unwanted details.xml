@@ -14,8 +14,8 @@
   <!--Start Negotiations button-->
   <flags id="sipa" value="buttons/custom/dof status/in progress/button"/>
   <!--In Progress label-->
-  
-  
+
+
   <layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="8"/>
   <layout class="fit_children_attachment" alignment="vertical,fill" gap="8" offset="0" />
   <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
@@ -68,12 +68,12 @@
       <layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0"/>
       <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-      <widget class="label" id="AskP" >
+      <widget class="label" id="AskP">
         <translation id="text" translation_id="336009" type="use" value="Minimum Acceptable Amount[COMMENT: transfers unwanted list; column header, mimimum bid to sell for if delegated to a member of staff]" />
       </widget>
 
       <widget class="cash_selection_list" id="mocs">
-		<record id="default_properties" alignment="right,centre_y" colour="black"/>
+        <record id="default_properties" alignment="right,centre_y" colour="black"/>
       </widget>
 
     </container>
@@ -82,7 +82,7 @@
       <layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0"/>
       <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-      <widget class="label" >
+      <widget class="label">
         <translation id="text" translation_id="335044" type="use" value="Expiry Date" />
 
       </widget>

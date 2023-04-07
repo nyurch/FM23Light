@@ -14,7 +14,7 @@
 		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
 		<!-- main area -->
-        <container class="inner_subtle_box" id="plti" force_title_borders="true" alignment="left" navigation_container="true" default_focus="true">
+		<container class="inner_subtle_box" id="plti" force_title_borders="true" alignment="left" navigation_container="true" default_focus="true">
 			<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="0" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="4,0,0,0" />
 
@@ -35,7 +35,7 @@
 					<translation id="hint" translation_id="247249" type="use" value="Click to arrange a friendly match" />
 					<translation id="text" translation_id="242435" type="use" value="Arrange Friendly" />
 				</widget>
-				
+
 				<!-- seasons popup -->
 				<widget class="embedded_season_selection_list" id="fxyr" width="200" sele="fxcy" auto_size="horizontal" embed_in_frame="true" save_immediate_state="true"/>
 

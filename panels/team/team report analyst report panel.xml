@@ -1,5 +1,5 @@
 ﻿<panel>
-	<layout class="vertical_arrange" vertical_layout="-1,200"  />
+	<layout class="vertical_arrange" vertical_layout="-1,200" />
 	<boolean id="should_force_refresh" value="true"/>
 
 	<container>
@@ -23,7 +23,7 @@
 		<container class="main_box" vertical_alignment="centre">
 			<translation id="title" translation_id="247588" colour="accent" type="use" value="Goals Scored" />
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-			<container class="goal_data_analyst_report_panel" id="scor" type="0" >
+			<container class="goal_data_analyst_report_panel" id="scor" type="0">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</container>
 		</container>
@@ -31,7 +31,7 @@
 		<container class="main_box" vertical_alignment="centre">
 			<translation id="title" translation_id="247589" colour="accent" type="use" value="Goals Conceded" />
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-			<container class="goal_data_analyst_report_panel" id="conc" type="1" >
+			<container class="goal_data_analyst_report_panel" id="conc" type="1">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</container>
 		</container>
@@ -44,7 +44,7 @@
 			<translation id="title" translation_id="247328" type="use" value="Formations[COMMENT - match screen; formations panel title]" />
 			<container id="txCo">
 				<attachment_group class="vertical_arrange" vertical_alignment="vertical" />
-			<translation id="title" translation_id="247328" type="use" value="Formations[COMMENT - match screen; formations panel title]" />
+				<translation id="title" translation_id="247328" type="use" value="Formations[COMMENT - match screen; formations panel title]" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true"/>
 			</container>
 		</container>

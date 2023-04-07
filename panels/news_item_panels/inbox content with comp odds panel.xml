@@ -78,7 +78,7 @@
 								<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="-2,-1" horizontal_gap="10" />
 								<widget class="table" id="favl" mode="printable" layout="60 -1" auto_size_rows="true" fixed_size_rows="false" auto_size="vertical" row_spacing="10"/>
 								<container>
-									<attachment_group class="vertical_arrange_autosize"  />
+									<attachment_group class="vertical_arrange_autosize" />
 									<widget class="text" auto_size="vertical" alignment="left,centre_y">
 										<translation id="text" translation_id="230320" type="use" value="Odds"/>
 									</widget>
@@ -110,12 +110,12 @@
 			<container id="tab2">
 				<translation id="title" type="use" translation_id="330721" value="Transfer Activity[COMMENT: how to system; help string]" />
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="main_box"  navigation_container="true">
-					<layout class="arrange_vertical_attachment" layout="88,-1" offset="0" gap="0"  />
+				<container class="main_box" navigation_container="true">
+					<layout class="arrange_vertical_attachment" layout="88,-1" offset="0" gap="0" />
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 					<translation id="title" translation_id="330721" type="use" value="Transfer Activity[COMMENT: how to system; help string]" />
 					<container>
-						<layout class="arrange_horizontal_attachment" layout="-4,-5,-5" offset="0"  />
+						<layout class="arrange_horizontal_attachment" layout="-4,-5,-5" offset="0" />
 						<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 						<!-- Total Transfer Spent-->
 						<container class="inner_subtle_box">
@@ -128,8 +128,8 @@
 							<widget class="cash_cell" format="[%cash#1-short-roundsmall]" alignment="left,top" font="value" auto_size="vertical">
 								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 								<record id="object_property">
-								<integer id="get_property" value="cWSs" />
-								<integer id="set_property" value="valu" />
+									<integer id="get_property" value="cWSs" />
+									<integer id="set_property" value="valu" />
 								</record>
 							</widget>
 						</container>
@@ -144,11 +144,11 @@
 							<container class="inner_box_no_margin">
 								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 								<container class="client_object_viewer_xml_panel">
-								<record id="object_property">
-									<integer id="get_property" value="cTNs" />
-									<integer id="set_property" value="objt" />
-								</record>
-								<layout class="arrange_horizontal_attachment" layout="90,-1" offset="0" gap="4" />
+									<record id="object_property">
+										<integer id="get_property" value="cTNs" />
+										<integer id="set_property" value="objt" />
+									</record>
+									<layout class="arrange_horizontal_attachment" layout="90,-1" offset="0" gap="4" />
 									<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 									<widget class="cash_cell" format="[%cash#1-roundsmall]" auto_size="none" multiline="true" style="bold" alignment="left,centre_y">
 										<record id="object_property">
@@ -200,18 +200,18 @@
 								</container>
 							</container>
 						</container>
-							<!-- Lowest Net Transfer Spender -->
-							<container class="inner_subtle_box">
-								<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="1" />
-								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
-								<widget class="label" auto_size="vertical" alignment="left" font="label">
-									<record id="properties" type="27"/>
-									<translation id="text" translation_id="420581" type="use" value="Lowest Net Transfer Spender[COMMENT: competition preview panel, label highlighting the team with the lowest net transfer spend]" />
-								</widget>
-								<container class="inner_box_no_margin">
-									<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-									<container class="client_object_viewer_xml_panel">
-										<record id="object_property">
+						<!-- Lowest Net Transfer Spender -->
+						<container class="inner_subtle_box">
+							<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="1" />
+							<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+							<widget class="label" auto_size="vertical" alignment="left" font="label">
+								<record id="properties" type="27"/>
+								<translation id="text" translation_id="420581" type="use" value="Lowest Net Transfer Spender[COMMENT: competition preview panel, label highlighting the team with the lowest net transfer spend]" />
+							</widget>
+							<container class="inner_box_no_margin">
+								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+								<container class="client_object_viewer_xml_panel">
+									<record id="object_property">
 										<integer id="get_property" value="lTNs" />
 										<integer id="set_property" value="objt" />
 									</record>
@@ -252,7 +252,7 @@
 										</container>
 										<container>
 											<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" gap="2" />
-										<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+											<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 											<widget class="number_label" alignment="left,centre_y" auto_size="horizontal" size="small" colour="faded text">
 												<record id="object_property">
 													<integer id="get_property" value="pToc" />

@@ -5,18 +5,18 @@
 
 	<container class="tabs" id="tabC" default_item="goal">
 
-		<container  id="ptch" hidden="true">
+		<container id="ptch" hidden="true">
 			<translation id="title" translation_id="247381" type="use" value="Shots" />
 			<attachment_group class="vertical_arrange" vertical_layout="-1,-1" />
 			<widget class="data_analyst_visualisation_widget" id="xgsh" visualisation_type="polygon" data_type="team" category="team_general" file="widgets/data analyst visualisation mini">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
-			<widget class="data_analyst_visualisation_widget" id="visu" visualisation_type="scatter_graph" data_type="team" category="attacking_efficiency"  file="widgets/data analyst visualisation mini">
+			<widget class="data_analyst_visualisation_widget" id="visu" visualisation_type="scatter_graph" data_type="team" category="attacking_efficiency" file="widgets/data analyst visualisation mini">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
 		</container>
 
-		<container  id="goal" hidden="true">
+		<container id="goal" hidden="true">
 			<translation id="title" translation_id="227857" type="use" value="Goals" />
 			<attachment_group class="vertical_arrange" vertical_offset="8" vertical_alignment="top,extend" />
 
@@ -31,7 +31,7 @@
 			</container>
 
 
-			<widget class="pitch_goals_areas" id="gpic" height="280" pitch_half_pitch="top"  vertical="true">
+			<widget class="pitch_goals_areas" id="gpic" height="280" pitch_half_pitch="top" vertical="true">
 				<integer id="pitch_touchline_width_percentage" value="20" />
 				<flags id="pitch_alignment" value="centre" />
 				<boolean id="pitch_draw_goals" value="true" />
@@ -66,7 +66,7 @@
 						<translation id="title" translation_id="492019" type="use" value="Goal Times[COMMENT: AREA: Inbox; SUB-AREA: Match Analysis; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: analyst report, shows a breakdown of times goals were scored in]" />
 
 						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
-						<widget class="graph" id="GlTi" >
+						<widget class="graph" id="GlTi">
 							<record id="x_axis" format="[%number#1]" force_to_int="true" interval="1">
 								<record id="label_font" colour="faded black"/>
 							</record>
@@ -87,7 +87,7 @@
 			</container>
 
 		</container>
-		<container  id="asst"  hidden="true">
+		<container id="asst" hidden="true">
 			<translation id="title" translation_id="227847" type="use" value="Assists" />
 			<attachment_group class="vertical_arrange" vertical_offset="8" vertical_alignment="top,extend" />
 
@@ -148,7 +148,7 @@
 			</container>
 
 
-			<widget class="pitch_squad_depth" id="piSD" vertical="true" pitch_draw_grass="true" select_event="slic" pitch_line_colour="white" pitch_keep_selected_icons="true" pitch_touchline_width_percentage="1" line_width="1.5" >
+			<widget class="pitch_squad_depth" id="piSD" vertical="true" pitch_draw_grass="true" select_event="slic" pitch_line_colour="white" pitch_keep_selected_icons="true" pitch_touchline_width_percentage="1" line_width="1.5">
 				<boolean id="pitch_draw_goals" value="false"/>
 				<boolean id="pitch_draw_markings" value="true"/>
 			</widget>

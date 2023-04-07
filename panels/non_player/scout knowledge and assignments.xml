@@ -1,4 +1,5 @@
-<!-- scout knowledge and assignments panel --><panel>
+<!-- scout knowledge and assignments panel -->
+<panel>
 	<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
 
 	<widget class="text" alignment="left,centre_y" font="title" auto_size="horizontal" height="36" size="large">

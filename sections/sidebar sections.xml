@@ -1,6 +1,7 @@
 <!--
 this file contains a list of all of the sections in the game
---><properties>
+-->
+<properties>
 	<string id="text" value="Sidebar" />
 	<list id="items">
 
@@ -92,8 +93,8 @@ this file contains a list of all of the sections in the game
 						<record id="Pdbg" human_object_type="HOTh" />
 						<!--debug processing-->
 						<record id="Prcp" human_object_type="HOTh" />
-                        <!--debug processing - deadline day-->
-                        <record id="Prdd" human_object_type="HOTh" />
+						<!--debug processing - deadline day-->
+						<record id="Prdd" human_object_type="HOTh" />
 						<!--debug dynamic images-->
 						<record id="Pdyn" human_object_type="HOTh" />
 						<!--narratives-->
@@ -111,15 +112,15 @@ this file contains a list of all of the sections in the game
 			</list>
 		</record>
 
-        <!-- transfer deadline day section -->
-        <record id="TDDy">
-            <list id="items">
-                <!--Transfer Deadline Day Overview-->
-                <record id="Ptdd" human_object_type="HOTh" />
-                <!--Transfer Deadline Day News (opted in)-->
-                <record id="Ptwd" human_object_type="HOTh" />
-            </list>
-        </record>
+		<!-- transfer deadline day section -->
+		<record id="TDDy">
+			<list id="items">
+				<!--Transfer Deadline Day Overview-->
+				<record id="Ptdd" human_object_type="HOTh" />
+				<!--Transfer Deadline Day News (opted in)-->
+				<record id="Ptwd" human_object_type="HOTh" />
+			</list>
+		</record>
 
 		<!--inbox section-->
 		<record id="inbo">
@@ -144,8 +145,8 @@ this file contains a list of all of the sections in the game
 				<record id="Pnlf" human_object_type="HOTh" />
 				<!--continent overview-->
 				<record id="Pnwd" human_object_type="HOTh" />
-                <!--Transfer Deadline Day News (opted out)-->
-                <record id="Ptwo" human_object_type="HOTh" />
+				<!--Transfer Deadline Day News (opted out)-->
+				<record id="Ptwo" human_object_type="HOTh" />
 			</list>
 		</record>
 
@@ -410,7 +411,7 @@ this file contains a list of all of the sections in the game
 				<record id="TeMS" human_object_type="HOTt" />
 				<!--assistant team talk feedback-->
 				<record id="tAsF" human_object_type="HOTt" />
-				
+
 				<!--debug-->
 				<record id="Debu" ISda="true">
 					<string id="text" value="Debug" />
@@ -419,7 +420,7 @@ this file contains a list of all of the sections in the game
 						<record id="cocs" human_object_type="HOTc" />
 					</list>
 				</record>
-				
+
 			</list>
 		</record>
 
@@ -499,7 +500,7 @@ this file contains a list of all of the sections in the game
 
 				<!--Overview-->
 				<record id="tsov" human_object_type="HOTh" />
-				
+
 				<!--Scouting Centre-->
 				<record id="tssc" human_object_type="HOTc" />
 
@@ -515,7 +516,7 @@ this file contains a list of all of the sections in the game
 
 				<!--draft player search-->
 				<record id="drfS" human_object_type="HOTc" />
-				
+
 				<record id="assi">
 					<translation id="text" translation_id="509169" type="use" value="Recruitment Focus[COMMENT: AREA: Scouting/Recruitment; SUB-AREA:Recruitment focus dialog; FR-BN: 24174; NOTE: Recruitment focus dialog title]" />
 					<list id="items">
@@ -738,8 +739,8 @@ this file contains a list of all of the sections in the game
 		<!--board section-->
 		<record id="boar">
 			<list id="items">
-                <record id="tcbr" human_object_type="HOTc" />
-                
+				<record id="tcbr" human_object_type="HOTc" />
+
 				<record id="Cono">
 					<translation id="text" translation_id="491844" type="use" value="Performance[COMMENT: AREA: Boardroom; SUB-AREA: Appraisal of Performance; FR-BN: n/a; TONE: Formal; CHARLIMIT: Short, one word; REF-ID: n/a; NOTE: this is replacing Confidence as the singular term relating to the Boardroom and the evaluation of managerial performance]" />
 					<list id="items">
@@ -763,7 +764,7 @@ this file contains a list of all of the sections in the game
 						<record id="tsqc" human_object_type="HOTc" />
 					</list>
 				</record>
-				
+
 				<record id="Supp">
 					<translation id="text" translation_id="447646" type="use" value="Supporters[COMMENT:Team Dynamics: header for the supporters' take on the manager's level of support within the squad]" />
 					<list id="items">
@@ -774,7 +775,7 @@ this file contains a list of all of the sections in the game
 					</list>
 				</record>
 
-        <record id="BoPr" human_object_type="HOTc" />
+				<record id="BoPr" human_object_type="HOTc" />
 
 				<record id="sppo" human_object_type="HOTc" />
 
@@ -789,9 +790,9 @@ this file contains a list of all of the sections in the game
 				<!-- meeting summary -->
 				<record id="brqS" human_object_type="HOTc" />
 
-        <!--actions-->
-        <!--Buy 3rd DP Slot (Club)-->
-        <record id="Cxdp" item_type="ACTT" human_object_type="HOTc" />
+				<!--actions-->
+				<!--Buy 3rd DP Slot (Club)-->
+				<record id="Cxdp" item_type="ACTT" human_object_type="HOTc" />
 			</list>
 		</record>
 

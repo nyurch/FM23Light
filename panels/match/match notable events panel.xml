@@ -7,7 +7,7 @@
 
 	<attachment_group class="vertical_arrange" vertical_alignment="top,extend" horizontal_inset="0" vertical_gap="8" />
 
-    <container id="Msts">
+	<container id="Msts">
 		<attachment_group class="vertical_arrange_autosize" />
 		<widget class="text" id="mstx" font="title" auto_size="vertical" alignment="centre" colour="title">
 			<translation id="text" translation_id="247439" type="use" value="Match Stats" />
@@ -36,7 +36,7 @@
 			<translation id="text" translation_id="515063" type="use" value="Notable Events[COMMENT: AREA: Match panel; SUB-AREA: match caption; FR: 32364; TONE: Formal; CHARLIMIT: None; NOTE: title text for showing notable events from the match; goals, cards etc]" />
 		</widget>
 
-		<widget class="table" id="miit" layout="-1,24,40,24,-1" mode="fill_rows" navigation_container="true" row_spacing="0" row_height="22" fixed_size_rows="true" >
+		<widget class="table" id="miit" layout="-1,24,40,24,-1" mode="fill_rows" navigation_container="true" row_spacing="0" row_height="22" fixed_size_rows="true">
 
 			<list id="column_widget_properties">
 				<record index="0" spec="text" font="notable_events" alignment="right,centre_y" navigation_focus_target="false" />

@@ -77,7 +77,7 @@
 							<record id="object_property" get_property="objt" set_property="objt" />
 						</widget>
 
-						<container class="bordered_box_no_margin" id="bphR"  height="22" >
+						<container class="bordered_box_no_margin" id="bphR" height="22">
 
 							<!-- Rating Text -->
 							<widget class="dashed_number_label" id="bpTx" alignment="centre" style="semi_bold" format="[%fraction#1-4.1]">
@@ -162,7 +162,7 @@
 						</widget>
 					</container>
 
-				
+
 				</container>
 
 				<widget class="text" id="wPhN" alignment="centre" auto_size="vertical">

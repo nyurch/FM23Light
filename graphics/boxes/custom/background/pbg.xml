@@ -9,8 +9,8 @@
 	<!-- image slices determine the points at which the image will be sliced to enable scaling -->
 	<!-- the image will only slice in the directions slicing values are provided for-->
 	<record id="image_slices" left="1" right="1" top="1" bottom="1"/>
-	
+
 	<colour id="red_replacement" name=""/>
 	<colour id="blue_replacement" name=""/>
-	
+
 </properties>

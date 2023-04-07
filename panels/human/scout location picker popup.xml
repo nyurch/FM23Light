@@ -3,7 +3,7 @@
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 	<container class="standard_popup_box">
-		
+
 		<attachment_group class="vertical_arrange" vertical_layout="40,40,-1,30" vertical_offset="8" vertical_gap="15" />
 
 		<container class="inner_subtle_box">
@@ -13,7 +13,7 @@
 
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="left" horizontal_offset="12" vertical_inset="0" horizontal_gap="10" />
-			
+
 			<widget class="text" font="title" size="medium" auto_size="all" alignment="centre_x,centre_y">
 				<translation id="text" translation_id="560935" type="use" value="Areas[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Dialog; FR-BN: FM-12648; NOTE: Search option for which locations to send a scout]" />
 			</widget>
@@ -53,5 +53,5 @@
 		</container>
 
 	</container>
-	
+
 </panel>

@@ -8,11 +8,11 @@
     <record id="instant_hint" file="generic/graph instant hint positions small" alignment="right,bottom"/>
     <record id="default_series_properties" line_width="2" />
     <record id="x_axis" show_labels="true" mark_size="1" format="[%fraction#1-3.0]">
-		<record id="label_font" colour="faded black"/>
-	</record>
+      <record id="label_font" colour="faded black"/>
+    </record>
     <record id="y_axis" min_value="1" show_labels="true" format="[%fraction#1-3.0]" mark_size="3" reverse_order="true">
-		<record id="label_font" colour="faded black"/>
-	</record>
+      <record id="label_font" colour="faded black"/>
+    </record>
     <list id="grid_line_styles">
       <record colour="graph row"/>
       <record/>

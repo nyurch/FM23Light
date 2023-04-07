@@ -52,8 +52,8 @@
       </record>
     </widget>
     <widget class="cash_selection_list" id="cash" height="30" hidden="true">
-		<record id="default_properties" alignment="right,centre_y" colour="black"/>
-	</widget>
+      <record id="default_properties" alignment="right,centre_y" colour="black"/>
+    </widget>
 
   </container>
 </panel>

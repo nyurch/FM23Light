@@ -36,7 +36,7 @@
 
     <!-- description -->
     <widget class="text" id="Pdes" size="small" colour="faded text" auto_size="vertical" multiline="true" alignment="centre_y">
-	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
+        <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
     </widget>
 
 </panel>

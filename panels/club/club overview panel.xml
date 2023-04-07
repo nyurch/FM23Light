@@ -1,5 +1,5 @@
 <panel>
-	<layout class="vertical_arrange" vertical_layout="200,500,-1"  />
+	<layout class="vertical_arrange" vertical_layout="200,500,-1" />
 	<boolean id="should_force_refresh" value="true"/>
 
 	<!-- HEADER CONTAINER -->
@@ -13,58 +13,58 @@
 		<!-- CLUB DETAILS -->
 		<container class="horizontal_adaptive_container" vertical_alignment="centre">
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>
-				<widget class="table" layout="220,-3" mode="fill_rows,stripe_rows" fixed_size_rows="true" row_height="32">
-					<record id="default_properties" alignment="left,centre_y"/>
-					<list id="column_table_properties">
-						<record index="0" left="8"/>
-						<record index="1" right="8"/>
-					</list>
-					<list id="column_widget_properties">
-						<record index="0" colour="faded text"/>
-					</list>
-					<!-- Year Founded -->
-					<widget class="label" row="0" col="0">
-						<record id="object_property" get_property="Cyfn" name="true"/>
-					</widget>
-					<widget class="dashed_number_label" row="0" col="1" NumF="0">
-						<record id="object_property" get_property="Cyfn"/>
-					</widget>
-					<!-- Professional Status -->
-					<widget class="label" colour="faded text" row="1" col="0">
-						<translation id="text" translation_id="242853" type="use" value="Status" />
-					</widget>
-					<widget class="professional_status_label" row="1" col="1" alignment="left,centre_y">
-						<record id="object_property" get_property="Cprs"/>
-					</widget>
-					<!-- Reputation -->
-					<widget class="label" colour="faded text" row="2" col="0">
-						<record id="object_property" get_property="Csta" name="true"/>
-					</widget>
-					<widget class="club_reputation_stars_label" row="2" col="1" alignment="left,centre_y">
-						<record id="object_property" get_property="Csta"/>
-					</widget>
-					<!-- Finances -->
-					<widget class="label" colour="faded text" row="3" col="0">
-						<record id="object_property" get_property="Csfs" name="true"/>
-					</widget>
-					<widget class="financial_status_label" row="3" col="1" alignment="left,centre_y">
-						<record id="object_property" get_property="Csfs"/>
-					</widget>
-					<!-- Media Prediction -->
-					<widget class="label" row="4" col="0">
-						<record id="object_property" get_property="Crcs" name="true"/>
-					</widget>
-					<widget class="youth_recruitment_status_label" row="4" col="1">
-						<record id="object_property" get_property="Crcs"/>
-					</widget>
-					<!-- Youth Facilities -->
-					<widget class="label" row="5" col="0">
-						<record id="object_property" get_property="Cfc*" name="true"/>
-					</widget>
-					<widget class="youth_facilities_stars_label" row="5" col="1">
-						<record id="object_property" get_property="Cfc*"/>
-					</widget>
+			<widget class="table" layout="220,-3" mode="fill_rows,stripe_rows" fixed_size_rows="true" row_height="32">
+				<record id="default_properties" alignment="left,centre_y"/>
+				<list id="column_table_properties">
+					<record index="0" left="8"/>
+					<record index="1" right="8"/>
+				</list>
+				<list id="column_widget_properties">
+					<record index="0" colour="faded text"/>
+				</list>
+				<!-- Year Founded -->
+				<widget class="label" row="0" col="0">
+					<record id="object_property" get_property="Cyfn" name="true"/>
 				</widget>
+				<widget class="dashed_number_label" row="0" col="1" NumF="0">
+					<record id="object_property" get_property="Cyfn"/>
+				</widget>
+				<!-- Professional Status -->
+				<widget class="label" colour="faded text" row="1" col="0">
+					<translation id="text" translation_id="242853" type="use" value="Status" />
+				</widget>
+				<widget class="professional_status_label" row="1" col="1" alignment="left,centre_y">
+					<record id="object_property" get_property="Cprs"/>
+				</widget>
+				<!-- Reputation -->
+				<widget class="label" colour="faded text" row="2" col="0">
+					<record id="object_property" get_property="Csta" name="true"/>
+				</widget>
+				<widget class="club_reputation_stars_label" row="2" col="1" alignment="left,centre_y">
+					<record id="object_property" get_property="Csta"/>
+				</widget>
+				<!-- Finances -->
+				<widget class="label" colour="faded text" row="3" col="0">
+					<record id="object_property" get_property="Csfs" name="true"/>
+				</widget>
+				<widget class="financial_status_label" row="3" col="1" alignment="left,centre_y">
+					<record id="object_property" get_property="Csfs"/>
+				</widget>
+				<!-- Media Prediction -->
+				<widget class="label" row="4" col="0">
+					<record id="object_property" get_property="Crcs" name="true"/>
+				</widget>
+				<widget class="youth_recruitment_status_label" row="4" col="1">
+					<record id="object_property" get_property="Crcs"/>
+				</widget>
+				<!-- Youth Facilities -->
+				<widget class="label" row="5" col="0">
+					<record id="object_property" get_property="Cfc*" name="true"/>
+				</widget>
+				<widget class="youth_facilities_stars_label" row="5" col="1">
+					<record id="object_property" get_property="Cfc*"/>
+				</widget>
+			</widget>
 		</container>
 		<!-- KITS -->
 		<container class="horizontal_adaptive_container" vertical_alignment="centre" default_width="450" priority="2">
@@ -72,39 +72,41 @@
 			<widget class="club_overview_kits_panel" file="none">
 				<attachment class="horizontal_arrange" horizontal_layout="-5,-3" horizontal_gap="10"/>
 				<record id="object_property" get_property="objt" set_property="objt"/>
-			<container>
-				<attachment class="horizontal_arrange" horizontal_layout="-1,-1,-1" horizontal_gap="10"/>
+				<container>
+					<attachment class="horizontal_arrange" horizontal_layout="-1,-1,-1" horizontal_gap="10"/>
 					<container id="T_hk" class="main_subtle_box_no_margin" priority="4">
 						<record id="default_properties" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" always_use_latest_object_list="true">
-						<record id="object_property">
-							<integer id="get_property" value="Tidx"/>
-							<integer id="set_property" value="indx"/>
-						</record>
+							<record id="object_property">
+								<integer id="get_property" value="Tidx"/>
+								<integer id="set_property" value="indx"/>
+							</record>
 						</record>
 						<widget class="kit_picture" kit_id="0">
 							<layout class="stick_to_sides_attachment" alignment="all" inset="5,0,5,0"/>
 						</widget>
-						</container>
-						<container id="T_ak" class="main_subtle_box_no_margin" priority="5">
+					</container>
+					<container id="T_ak" class="main_subtle_box_no_margin" priority="5">
 						<record id="default_properties" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" always_use_latest_object_list="true">
-						<record id="object_property"><integer id="get_property" value="Tidx"/>
-							<integer id="set_property" value="indx"/>
-						</record>
+							<record id="object_property">
+								<integer id="get_property" value="Tidx"/>
+								<integer id="set_property" value="indx"/>
+							</record>
 						</record>
 						<widget class="kit_picture" kit_id="1">
 							<layout class="stick_to_sides_attachment" alignment="all" inset="5,0,5,0"/>
 						</widget>
-						</container>
-						<container id="T_tk" class="main_subtle_box_no_margin" priority="8">
+					</container>
+					<container id="T_tk" class="main_subtle_box_no_margin" priority="8">
 						<record id="default_properties" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" always_use_latest_object_list="true">
-						<record id="object_property">
-							<integer id="get_property" value="Tidx"/>
-							<integer id="set_property" value="indx"/>
+							<record id="object_property">
+								<integer id="get_property" value="Tidx"/>
+								<integer id="set_property" value="indx"/>
+							</record>
 						</record>
-						</record>
-						<widget class="kit_picture" kit_id="2"><layout class="stick_to_sides_attachment" alignment="all" inset="5,0,5,0"/>
+						<widget class="kit_picture" kit_id="2">
+							<layout class="stick_to_sides_attachment" alignment="all" inset="5,0,5,0"/>
 						</widget>
-						</container>
+					</container>
 				</container>
 			</widget>
 		</container>
@@ -112,7 +114,7 @@
 		<container class="main_subtle_box">
 			<attachment class="vertical_arrange" vertical_layout="-4,-3" vertical_gap="0"/>
 			<widget class="team_container_honours_panel" honour_subpanel_filename="club/extra_panels/trophy info" file="club/extra_panels/trophies" default_width="-2" priority="4">
-				<record id="object_property" get_property="objt" set_property="objt" /> 
+				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
 		</container>
 	</container>
@@ -126,7 +128,7 @@
 				<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
 				<widget class="nation_button" id="nati" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
 					<record id="object_property">
-					<integer id="get_property" value="Cnat"/>
+						<integer id="get_property" value="Cnat"/>
 					</record>
 				</widget>
 			</container>
@@ -137,17 +139,17 @@
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 					<layout class="stick_to_sides_attachment" alignment="left" offset="0" gap="0" />
 					<record id="object_property">
-					<integer id="get_property" value="bgnd" />
-					<integer id="set_property" value="file" />
+						<integer id="get_property" value="bgnd" />
+						<integer id="set_property" value="file" />
 					</record>
 				</widget>
 			</container>
 			<container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="primary">
 				<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
 				<widget class="city_label" id="namL" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
-				<record id="object_property">
-				<integer id="get_property" value="SctI"/>
-				</record>
+					<record id="object_property">
+						<integer id="get_property" value="SctI"/>
+					</record>
 				</widget>
 			</container>
 		</container>
@@ -164,42 +166,42 @@
 		<container class="vertical_adaptive_container" default_width="600" priority="4" inset="0" offset="0" gap="1" mode="distribute_equally">
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 			<container class="main_subtle_box_no_margin" minimum_width="440" default_width="-1" priority="2">
-			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-			<container class="club_overview_stadium_panel" file="none">
-				<attachment class="vertical_arrange" vertical_layout="35,-1,35" vertical_gap="0"/>
-				<record id="object_property" get_property="Tsre" set_property="objt" dont_set_hint="true"/>
-				<container class="plain_box" appearance="boxes/contrast/no margin/top/paper" red_replacement="primary">
-					<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
-				<widget class="client_object_label" id="namV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
-					<record id="object_property">
-						<integer id="get_property" value="objt"/>
-					</record>
-				</widget>
+				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+				<container class="club_overview_stadium_panel" file="none">
+					<attachment class="vertical_arrange" vertical_layout="35,-1,35" vertical_gap="0"/>
+					<record id="object_property" get_property="Tsre" set_property="objt" dont_set_hint="true"/>
+					<container class="plain_box" appearance="boxes/contrast/no margin/top/paper" red_replacement="primary">
+						<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
+						<widget class="client_object_label" id="namV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
+							<record id="object_property">
+								<integer id="get_property" value="objt"/>
+							</record>
+						</widget>
+					</container>
+					<container height="288">
+						<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+						<widget class="stadium_picture" file="none" scale_picture="true" keep_aspect_ratio="true">
+							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="-60"/>
+							<record id="object_property" get_property="objt" set_property="objt"/>
+							<widget class="picture" file="pictures/stadiums/stadium_bg" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x"/>
+							<widget class="picture" id="STPC" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x">
+								<layout class="centre_in_parent_attachment" alignment="all"/>
+								<record id="object_property">
+									<integer id="get_property" value="text"/>
+									<string id="set_property" value="hint"/>
+								</record>
+							</widget>
+						</widget>
+					</container>
+					<container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="primary">
+						<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
+						<widget class="dashed_number_label" id="ScpV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
+							<record id="object_property">
+								<integer id="get_property" value="Scpy"/>
+							</record>
+						</widget>
+					</container>
 				</container>
-			<container height="288">
-				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
-				<widget class="stadium_picture" file="none" scale_picture="true" keep_aspect_ratio="true">
-					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="-60"/>
-					<record id="object_property" get_property="objt" set_property="objt"/>
-					<widget class="picture" file="pictures/stadiums/stadium_bg" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x"/>
-					<widget class="picture" id="STPC" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x">
-						<layout class="centre_in_parent_attachment" alignment="all"/>
-						<record id="object_property">
-							<integer id="get_property" value="text"/>
-							<string id="set_property" value="hint"/>
-						</record>
-					</widget>
-				</widget>
-			</container>
-			<container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="primary">
-				<layout class="stick_to_sides_attachment" apply_to_children="true" inset="10"/>
-					<widget class="dashed_number_label" id="ScpV" font="main menu" colour="secondary" size="11" alignment="centre_x,centre_y,can_scale">
-						<record id="object_property">
-							<integer id="get_property" value="Scpy"/>
-						</record>
-					</widget>
-			</container>
-			</container>
 			</container>
 		</container>
 	</container>
@@ -267,7 +269,7 @@
 						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="0" vertical_inset="0" />
 						<container>
 							<attachment_group class="vertical_arrange_autosize" alignment="top,extend"/>
-							<widget class="label" id="TDeL" auto_size="vertical" >
+							<widget class="label" id="TDeL" auto_size="vertical">
 								<record id="object_property" name="true">
 									<string id="get_property" value="TDer" />
 								</record>
@@ -281,13 +283,13 @@
 						</container>
 						<container>
 							<attachment_group class="vertical_arrange_autosize" alignment="top,extend"/>
-							<widget class="label" id="CfmL" auto_size="vertical" >
+							<widget class="label" id="CfmL" auto_size="vertical">
 								<record id="object_property" name="true">
 									<string id="get_property" value="Cfmr" />
 								</record>
 								<string id="font" value="label" />
 							</widget>
-							<widget class="club_rivalries_list_text" id="CfmV" auto_size="vertical" >
+							<widget class="club_rivalries_list_text" id="CfmV" auto_size="vertical">
 								<record id="object_property">
 									<string id="get_property" value="Cfmr" />
 								</record>

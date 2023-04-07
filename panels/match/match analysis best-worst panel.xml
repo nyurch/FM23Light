@@ -37,7 +37,7 @@
 								<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 								<record id="object_property" get_property="objt" set_property="objt" />
 							</widget>
-							<container class="bordered_box_no_margin" id="bphR" height="22" >
+							<container class="bordered_box_no_margin" id="bphR" height="22">
 								<layout class="stick_to_sides_attachment" alignment="horizontal,bottom" inset="0,3" />
 								<widget class="dashed_number_label" id="bpTx" alignment="centre" style="bold" format="[%fraction#1-4.1]">
 									<layout class="stick_to_sides_attachment" alignment="all" inset="0" />

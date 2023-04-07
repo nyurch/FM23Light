@@ -11,7 +11,7 @@
 	<record id="image_slices" left="10" right="2" top="2" bottom="10"/>
 
 	<record id="font_spec">
-		<flags id="font" value="fonts/button"/> 
+		<flags id="font" value="fonts/button"/>
 	</record>
 
 	<colour id="red_replacement" name="bg accent"/>
@@ -19,5 +19,5 @@
 
 	<record id="primary_icon_properties" red_replacement="button_icon" green_replacement="bg"/>
 	<record id="secondary_icon_properties" red_replacement="button_icon" green_replacement="bg"/>
-	
+
 </properties>

@@ -1,5 +1,5 @@
 <panel id="gonh">
-<string id="skin_style" value="edit_box" />
+	<string id="skin_style" value="edit_box" />
 
 	<translation id="title" translation_id="247264" type="use" value="Holiday Options"/>
 	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
@@ -80,7 +80,7 @@
 		<widget class="radio_button" id="rjal" click_event="gohc" column="0" row="2" column_span="3">
 			<translation id="text" translation_id="227484" type="use" value="Reject all offers"/>
 		</widget>
-		<widget class="check_box" id="rjli" click_event="gohc" column="0" row="3" column_span="3" alignment="left,centre_y" colour="text">	<!-- added colour to stop it changing -->
+		<widget class="check_box" id="rjli" click_event="gohc" column="0" row="3" column_span="3" alignment="left,centre_y" colour="text">			<!-- added colour to stop it changing -->
 			<translation id="text" translation_id="247270" type="use" value="Only sell transfer listed players"/>
 		</widget>
 	</widget>
@@ -133,7 +133,8 @@
 
 			<widget class="edit_box" width="64" id="edho" changed_event="gohc">
 				<translation id="hint" translation_id="247279" type="use" value="Specify amount of days to go on holiday"/>
-				<string id="text" value="1"/> <!-- is this placeholder text? -->
+				<string id="text" value="1"/>
+				<!-- is this placeholder text? -->
 				<attachment class="max_length_attachment" lgth="3"/>
 				<attachment class="is_number_attachment" allf="false" minv="1" maxv="999" vsoe="true"/>
 				<!-- make sure the text they enter is a number -->

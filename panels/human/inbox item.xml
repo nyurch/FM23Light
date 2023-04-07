@@ -78,7 +78,7 @@
                             <layout class="arrange_vertical_attachment" layout="19, 20" gap="0" offset="5" />
                             <layout class="stick_to_sides_attachment" alignment="right" inset="5" apply_to_children="true" />
                             <string id="remove_if" value="ui.is_fmt_controller_skin" />
-                            
+
                             <widget class="icon_button" id="catw" auto_size="horizontal" show_button_appearance="false" style="bold" size="16" icon="icons/16px/tag@2x" alignment="right, centre_y" hidden="true" navigation_focus_target="false" />
                             <widget class="text" id="time" auto_size="horizontal" alignment="right, top" colour="inbox_text" style="bold" size="14" />
                         </container>

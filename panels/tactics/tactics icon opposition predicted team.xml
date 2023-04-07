@@ -11,7 +11,7 @@
 				<layout class="centre_in_parent_attachment" alignment="all" apply_to_children="true"/>
 				<layout class="stick_to_sides_attachment" alignment="horizontal,bottom" inset="0"/>
 				<widget class="picture" id="bsic" auto_size="all" file="pitch/icons/kit/large/simple kit" image_alignment="centre" />
-				<widget class="text" id="bsnm"  auto_size="all" alignment="centre"/>
+				<widget class="text" id="bsnm" auto_size="all" alignment="centre"/>
 			</container>
 
 			<container>

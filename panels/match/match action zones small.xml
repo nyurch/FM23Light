@@ -2,7 +2,7 @@
 
 	<attachment_group class="vertical_arrange" vertical_layout="20,-1" vertical_gap="0"/>
 
-  	<!--team logos-->
+	<!--team logos-->
 	<container>
 		<attachment_group class="horizontal_arrange" horizontal_layout="-1,-1"/>
 
@@ -25,7 +25,7 @@
 		</widget>
 	</container>
 
-  <widget class="pitch_action_zones" id="azpt" fixed="true" vertical="false" auto_tick_exclusive="true" size="8" font_colour="white" alignment="centre" pitch_draw_grass="true" pitch_touchline_width_percentage="55" line_width="1" >
-  </widget>
+	<widget class="pitch_action_zones" id="azpt" fixed="true" vertical="false" auto_tick_exclusive="true" size="8" font_colour="white" alignment="centre" pitch_draw_grass="true" pitch_touchline_width_percentage="55" line_width="1">
+	</widget>
 
 </panel>

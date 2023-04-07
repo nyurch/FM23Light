@@ -10,7 +10,7 @@
 		<layout class="fit_children_attachment" alignment="vertical,fill" offset="4" gap="2" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="4" apply_to_children="true" />
 
-		<widget class="text" id="popt" font="title"  auto_size="horizontal" height="25" alignment="left,centre_y" />
+		<widget class="text" id="popt" font="title" auto_size="horizontal" height="25" alignment="left,centre_y" />
 
 		<container class="inner_box" id="kbox" height="50">
 			<layout class="arrange_vertical_attachment" alignment="middle" offset="0" gap="2" />
@@ -77,7 +77,7 @@
 						<translation id="text" translation_id="396452" type="use" value="Role Suitability[COMMENT: scout report panel label for showing how good a player in a given role, quite similar to string ID 394571 but shorter so refer to that string for translation context]" />
 					</widget>
 
-					<widget class="player_positions_indicator_panel" id="ppos" height="250"  file="player/player positions indicator report overview">
+					<widget class="player_positions_indicator_panel" id="ppos" height="250" file="player/player positions indicator report overview">
 						<record id="object_property" get_property="objt" set_property="objt" />
 					</widget>
 
@@ -95,8 +95,8 @@
 				<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="-1,-1" horizontal_gap="2"/>
 
 
-				<widget class="label" alignment="left" spec="text" size="10" auto_size="vertical"  multiline="true">
-                    <translation id="text" translation_id="538841" type="use" value="Transfer Value[COMMENT: AREA: Transfers; SUB-AREA: Transfer Value; FR-BN: 34410; TONE: Formal; CHARLIMIT: Shortish, column header; REF-ID: 227806; NOTE: displays the player's estimated transfer value in a range]"/>
+				<widget class="label" alignment="left" spec="text" size="10" auto_size="vertical" multiline="true">
+					<translation id="text" translation_id="538841" type="use" value="Transfer Value[COMMENT: AREA: Transfers; SUB-AREA: Transfer Value; FR-BN: 34410; TONE: Formal; CHARLIMIT: Shortish, column header; REF-ID: 227806; NOTE: displays the player's estimated transfer value in a range]"/>
 				</widget>
 
 				<widget class="label" id="esco" style="semi_bold" alignment="left,centre_y" auto_size="vertical" auto_size_minimum_height="35" multiline="true">
@@ -125,7 +125,7 @@
 				<layout class="arrange_horizontal_attachment" layout="-1,-1" gap="2" offset="0" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
-				<widget class="label" alignment="left,centre_y" spec="text" auto_size="horizontal" >
+				<widget class="label" alignment="left,centre_y" spec="text" auto_size="horizontal">
 					<translation id="text" translation_id="293291" type="use" value="Current Ability" />
 
 				</widget>
@@ -139,7 +139,7 @@
 				<layout class="arrange_horizontal_attachment" layout="-1,-1" gap="2" offset="0" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
-				<widget class="label" alignment="left,centre_y" spec="text" >
+				<widget class="label" alignment="left,centre_y" spec="text">
 					<translation id="text" translation_id="293292" type="use" value="Potential Ability" />
 
 				</widget>
@@ -165,7 +165,7 @@
 				<container>
 					<attachment_group class="horizontal_arrange" />
 
-					<widget class="player_scout_recommendation_widget" recommendation_mode="0" show_knowledge_bar="false" show_hover_popup="false" alignment="left, centre_y"  width="40">
+					<widget class="player_scout_recommendation_widget" recommendation_mode="0" show_knowledge_bar="false" show_hover_popup="false" alignment="left, centre_y" width="40">
 						<record id="object_property" get_property="Psrk" set_property="objt" />
 					</widget>
 
@@ -181,7 +181,7 @@
 					<translation id="text" translation_id="515105" type="use" value="Analyst Rating[COMMENT: AREA: Player report panel; SUB-AREA: a tooltip for player report showing analyst's rating for that player; FR: 22984; TONE: Formal; CHARLIMIT: None;]" />
 				</widget>
 
-				
+
 				<container>
 					<attachment_group class="horizontal_arrange" />
 

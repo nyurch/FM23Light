@@ -26,8 +26,8 @@
 		<attachment_group class="vertical_arrange_autosize" vertical_gap="4"/>
 
 		<!--Name age position-->
-		<container height="84" class="inner_subtle_box" >
-			<attachment_group class="horizontal_arrange" horizontal_layout="112, -1, 260" horizontal_offset="0"  vertical_inset="0"/>
+		<container height="84" class="inner_subtle_box">
+			<attachment_group class="horizontal_arrange" horizontal_layout="112, -1, 260" horizontal_offset="0" vertical_inset="0"/>
 
 			<container class="inbox_mini_profile_player_details_panel" id="psdt" file="">
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
@@ -40,7 +40,7 @@
 				<string id="skin_style" value="subtle box"/>
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
-				<container  id="psbt">
+				<container id="psbt">
 					<layout class="arrange_vertical_attachment" alignment="middle" offset="0" gap="0"/>
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 
@@ -65,7 +65,7 @@
 					<attachment_group class="horizontal_arrange_autosize_all_centre_centered_in_parent" horizontal_alignment="middle" />
 
 					<widget class="picture" id="tsci" file="icons/26px/transfer" auto_size="all" />
-					<widget class="label" id="tslb" alignment="left,centre_y"  size="large" auto_size="all"/>
+					<widget class="label" id="tslb" alignment="left,centre_y" size="large" auto_size="all"/>
 				</container>
 			</container>
 		</container>
@@ -74,6 +74,6 @@
 			<attachment_group class="vertical_arrange_autosize" vertical_gap="8"/>
 		</container>
 
-        <widget class="player_pending_contract_discussion_panel" id="CoDi"/>
+		<widget class="player_pending_contract_discussion_panel" id="CoDi"/>
 	</container>
 </panel>

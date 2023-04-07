@@ -1,5 +1,5 @@
 ﻿<panel height="620">
-	<attachment_group class="vertical_arrange" vertical_layout="40,-1,285" vertical_offset="0" >
+	<attachment_group class="vertical_arrange" vertical_layout="40,-1,285" vertical_offset="0">
 		<global id="vertical_gap" name="ui.main_box_gap"/>
 	</attachment_group>
 
@@ -123,7 +123,7 @@
 
 					<string id="skin_style" value="title link" />
 
-					<widget class="link_button" id="hmlk" section="AnaN" auto_size="all"  auto_size_restricted_to_parent_width="true">
+					<widget class="link_button" id="hmlk" section="AnaN" auto_size="all" auto_size_restricted_to_parent_width="true">
 						<layout class="stick_to_sides_attachment" alignment="left" inset="0" />
 						<translation id="text" translation_id="420701" type="use" value="Positional Heat Map[COMMENT: post match analysis label for a heat map displaying coverage by player position]" />
 					</widget>
@@ -132,9 +132,9 @@
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 						<list id="chalkboard_events_to_display">
 							<!-- Heatmap -->
-								<integer value="42" />
-								<!--Average position-->
-								<integer value="62" />
+							<integer value="42" />
+							<!--Average position-->
+							<integer value="62" />
 						</list>
 					</widget>
 
@@ -256,7 +256,7 @@
 							<record id="widget_info" class="text" colour="faded text" auto_size="vertical" size="8" alignment="centre">
 								<translation id="text" translation_id="233089" type="use" value="-" />
 							</record>
-							
+
 						</record>
 						<record id="text">
 							<record id="widget_info" class="text" auto_size="vertical" colour="faded text" size="8" />

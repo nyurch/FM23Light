@@ -1,7 +1,7 @@
 ﻿<panel save_session_state="true" is_trial_news_item="true" save_default_state="true">
-<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" vertical_alignment="top" horizontal_inset="0" />
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" vertical_alignment="top" horizontal_inset="0" />
 
-<!--Stats/Squad Comparison section on RHS-->
+	<!--Stats/Squad Comparison section on RHS-->
 	<!--Squad comparison table-->
 	<container class="main_box" id="sqdC">
 		<attachment_group class="vertical_arrange_autosize" vertical_alignment="top,extend" vertical_offset="0" horizontal_inset="0"/>
@@ -11,7 +11,7 @@
 		<widget class="text" id="sqcw" font="title" size="medium" auto_size="vertical">
 			<string id="create_if" value="is_fmt"/>
 		</widget>
-	<!-- Ability list table -->
+		<!-- Ability list table -->
 		<widget class="table" id="calL" mode="fill_rows,stripe_rows" layout="26,-5,-3,-3" auto_size="vertical" sort_disabled="true">
 			<list id="column_widget_properties">
 				<record indx="0" alignment="left,centre_y" colour="faded black" />

@@ -9,36 +9,36 @@
 			<global id="gap" name="ui.main_contrast_box_gap"/>
 		</layout>
 		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
-	<container class="main_box" />
-	<container class="main_subtle_box">
-		<layout class="arrange_horizontal_attachment" offset="0" layout="300,1,1300">
-			<global id="gap" name="ui.main_contrast_box_gap"/>
-		</layout>
-		<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
-		<!-- PERSONAL DETAILS -->
-		<container class="player_personal_details_panel" file="player/player profile personal details custom">
-			<record id="object_property" get_property="object" set_property="object"/>
-		</container>
-		<widget class="vertical_subtle_divider"/>
-		<!-- attributes container -->
-		<container class="inner_box">
-			<translation id="title" translation_id="229822" type="use" value="Attributes" />
-			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
-			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
-			<!-- buttons area -->
-			<container id="btna" embed_in_frame="true">
-				<attachment_group class="title_embedded_panel_right" horizontal_offset="50"/>
-				<widget class="check_box" id="shtr" click_event="shtc" alignment="centre" auto_size="all" save_session_state="true" save_default_state="true" embed_in_frame="true">
-					<translation id="text" translation_id="258284" type="use" value="Show recent attribute changes[COMMENT: text on player_profile panel to toggle the attribute change arrows RE-TRANSLATE FOR FM2008]" />
-				</widget>
-				<widget class="player_roles_popup_button" id="skpa" show_attribute_highlight_colours="true" show_clear_item="true"	alignment="centre" appearance="buttons/subtle/normal/button" auto_size="horizontal" height="30" fixed="true" spec="text" show_selected_role="true" embed_in_frame="true">
-					<translation id="text" translation_id="330016" type="use" value="Highlight key attributes for role[COMMENT: option allowing for viewing the key attributes needed to play in a certain role]" />
-				</widget>
+		<container class="main_box" />
+		<container class="main_subtle_box">
+			<layout class="arrange_horizontal_attachment" offset="0" layout="300,1,1300">
+				<global id="gap" name="ui.main_contrast_box_gap"/>
+			</layout>
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+			<!-- PERSONAL DETAILS -->
+			<container class="player_personal_details_panel" file="player/player profile personal details custom">
+				<record id="object_property" get_property="object" set_property="object"/>
 			</container>
-			<container class="player_attributes_panel" id="patp" file="player/player attributes panel profile" show_attribute_offsets="false" dont_allow_custom_attribute_change_ranges="true"/>
+			<widget class="vertical_subtle_divider"/>
+			<!-- attributes container -->
+			<container class="inner_box">
+				<translation id="title" translation_id="229822" type="use" value="Attributes" />
+				<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+				<!-- buttons area -->
+				<container id="btna" embed_in_frame="true">
+					<attachment_group class="title_embedded_panel_right" horizontal_offset="50"/>
+					<widget class="check_box" id="shtr" click_event="shtc" alignment="centre" auto_size="all" save_session_state="true" save_default_state="true" embed_in_frame="true">
+						<translation id="text" translation_id="258284" type="use" value="Show recent attribute changes[COMMENT: text on player_profile panel to toggle the attribute change arrows RE-TRANSLATE FOR FM2008]" />
+					</widget>
+					<widget class="player_roles_popup_button" id="skpa" show_attribute_highlight_colours="true" show_clear_item="true" alignment="centre" appearance="buttons/subtle/normal/button" auto_size="horizontal" height="30" fixed="true" spec="text" show_selected_role="true" embed_in_frame="true">
+						<translation id="text" translation_id="330016" type="use" value="Highlight key attributes for role[COMMENT: option allowing for viewing the key attributes needed to play in a certain role]" />
+					</widget>
+				</container>
+				<container class="player_attributes_panel" id="patp" file="player/player attributes panel profile" show_attribute_offsets="false" dont_allow_custom_attribute_change_ranges="true"/>
+			</container>
 		</container>
-	</container>
-	<container class="main_box" />
+		<container class="main_box" />
 	</container>
 
 	<container class="main_box" />

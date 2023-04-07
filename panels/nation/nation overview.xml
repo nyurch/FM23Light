@@ -106,7 +106,7 @@
 						<translation id="link_title" translation_id="509699" type="use" value="Key People[COMMENT: AREA: club info screen; SUB-AREA: title for a panel showing the manager, captain and vice captain of a club; FR-BN: n/a; CHARLIMIT: None; REF-ID: n/a; NOTE: title text]" />
 						<string id="section" value="TeSq" />
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-						
+
 						<widget class="club_overview_staff_panel" id="cloS">
 							<record id="object_property">
 								<integer id="get_property" value="objt" />
@@ -183,14 +183,14 @@
 
 			<container class="horizontal_adaptive_container" offset="0" inset="0" draw_vertical_dividers="true">
 
-				<widget class="major_clubs_snapshot_panel" id="MCsp" priority="1" default_width="-1" minimum_width="300"  navigation_container="true">
+				<widget class="major_clubs_snapshot_panel" id="MCsp" priority="1" default_width="-1" minimum_width="300" navigation_container="true">
 					<record id="object_property">
 						<integer id="get_property" value="objt" />
 						<integer id="set_property" value="objt" />
 					</record>
 				</widget>
 
-				<container class="client_object_viewer_xml_panel" file="nation/major players snapshot" id="MPsp" priority="1" default_width="-1" minimum_width="300"  navigation_container="true">
+				<container class="client_object_viewer_xml_panel" file="nation/major players snapshot" id="MPsp" priority="1" default_width="-1" minimum_width="300" navigation_container="true">
 					<record id="object_property">
 						<integer id="get_property" value="objt" />
 						<integer id="set_property" value="objt" />
@@ -205,7 +205,7 @@
 				</widget>
 			</container>
 
-			<widget class="transfer_snapshot_panel" id="TTsp"  navigation_container="true">
+			<widget class="transfer_snapshot_panel" id="TTsp" navigation_container="true">
 				<record id="object_property">
 					<integer id="get_property" value="objt" />
 					<integer id="set_property" value="objt" />
@@ -216,8 +216,8 @@
 		<container id="fifc" default_height="-1" minimum_height="200">
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 			<widget class="team_container_honours_panel" honour_subpanel_filename="nation/trophy info" file="nation/trophies" default_width="-2" priority="4">
-				<record id="object_property" get_property="objt" set_property="objt" /> 
-			</widget> 
+				<record id="object_property" get_property="objt" set_property="objt" />
+			</widget>
 		</container>
 	</container>
 

@@ -36,12 +36,12 @@
 				<attachment_group class="vertical_arrange" />
 				<container>
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1, 20, -1" vertical_alignment="vertical" />
-					
+
 					<container class="client_object_viewer_xml_panel" id="hmTC">
 						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend" vertical_alignment="vertical" />
 						<widget class="nation_button" id="natb" label_disabled="true" auto_size="all">
 							<record id="object_property" get_property="Nnat" set_property="objt" />
-							
+
 						</widget>
 
 						<container>
@@ -55,10 +55,10 @@
 							<widget class="object_portrait_picture" height="36" width="36" scale_picture="true" keep_aspect_ratio="true">
 								<record id="object_property" get_property="objt" set_property="valu" />
 							</widget>
-							
-							
+
+
 						</container>
-						
+
 					</container>
 
 					<widget class="text" value="V" style="bold" alignment="centre" auto_size="all" colour="text">
@@ -73,14 +73,14 @@
 							<widget class="object_portrait_picture" height="36" width="36" scale_picture="true" keep_aspect_ratio="true">
 								<record id="object_property" get_property="objt" set_property="valu" />
 							</widget>
-							
+
 							<widget class="team_button" size="xlarge" font="title" auto_size="vertical" alignment="left, centre_y" icon_enabled="false">
 								<record id="object_property" get_property="objt" set_property="valu" />
 								<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
 							</widget>
-							
+
 						</container>
-						
+
 						<widget class="nation_button" id="natb" label_disabled="true" auto_size="all">
 							<record id="object_property" get_property="Nnat" set_property="objt" />
 						</widget>
@@ -96,7 +96,7 @@
 					<translation id="text" translation_id="557726" type="use" value="Head-to-Head[COMMENT: AREA: Cup Draw; SUB-AREA:; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title for matchup info dialog section]" />
 					<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
 				</widget>
-				
+
 				<widget class="spacer" height="2" />
 
 				<container>
@@ -152,7 +152,7 @@
 							<flags id="info_popup_alignment" value="left,centre_y" />
 							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
 						</widget>
-						
+
 					</container>
 					<container>
 						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
@@ -174,9 +174,9 @@
 						<widget class="object_portrait_picture" width="40" height="40" scale_picture="true">
 							<record id="object_property" get_property="TMnR" set_property="valu" />
 						</widget>
-						
+
 					</container>
-					
+
 				</container>
 
 				<widget class="spacer" height="8" />
@@ -221,7 +221,7 @@
 					</container>
 
 				</container>
-				
+
 				<widget class="spacer" height="8" />
 
 				<container>
@@ -264,7 +264,7 @@
 					</container>
 
 				</container>
-				
+
 				<widget class="spacer" height="8" />
 				<widget class="horizontal_divider" />
 				<widget class="spacer" height="8" />
@@ -305,7 +305,7 @@
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" vertical_alignment="vertical" />
 					<container class="client_object_viewer_xml_panel" id="clp1">
 						<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" vertical_alignment="vertical" />
-						
+
 						<widget class="formatted_label" auto_size="horizontal" alignment="left,centre_y" colour="text">
 							<string id="format" value="[%comp#1-short]" />
 							<record id="object_property" get_property="Tdiv" set_property="valu" />
@@ -333,10 +333,10 @@
 							<record id="object_property" get_property="TpoN" set_property="valu" />
 							<attachment class="get_global_attachment" get_property="comp_draw_font" set_property="font" />
 						</widget>
-						
+
 					</container>
 				</container>
-				
+
 			</container>
 
 			<widget class="vertical_divider" />

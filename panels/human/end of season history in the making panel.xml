@@ -46,7 +46,7 @@
 							<integer id="false_value" value="450" />
 						</record>
 						<record min_value="2000" max_value="10000" true_value="900"/>
-						
+
 						<record>
 							<flags id="alignment" value="horizontal" />
 							<integer id="min_value" value="0" />
@@ -88,8 +88,8 @@
 				<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_gap="16" vertical_offset="20" />
 
 				<container id="trCO">
-				<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="middle" wrap="true"/>
-    			<layout class="arrange_horizontal_attachment" alignment="middle" wrap="true" gap="6" offset="10" />
+					<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="middle" wrap="true"/>
+					<layout class="arrange_horizontal_attachment" alignment="middle" wrap="true" gap="6" offset="10" />
 				</container>
 
 				<container height="1">
@@ -119,7 +119,7 @@
 						<string id="text_colour" value="text" />
 					</widget>
 				</container>
-				
+
 				<container />
 			</container>
 

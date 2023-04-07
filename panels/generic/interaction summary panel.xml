@@ -45,14 +45,14 @@
             <container class="titled_box" colour="title" id="ProB" appearance="boxes/main/transparent/paper" red_replacement="bg">
                 <translation id="title" translation_id="320154" type="use" value="Promises[COMMENT: player status panel; panel header title for a section listing all promises a manager has made to a player]" />
                 <attachment_group class="vertical_arrange_autosize" vertical_alignment="top, extend" vertical_gap="0"/>
-                
+
                 <container class="scrolling_box" auto_size="vertical" auto_size_maximum_height="180">
                     <container class="plain_box" id="Prom" draw_horizontal_dividers="true">
-                <attachment_group class="vertical_arrange_autosize" vertical_alignment="top, extend" vertical_gap="8"/>
-                <record id="default_properties" auto_size="all"/>
+                        <attachment_group class="vertical_arrange_autosize" vertical_alignment="top, extend" vertical_gap="8"/>
+                        <record id="default_properties" auto_size="all"/>
+                    </container>
+                </container>
             </container>
-          </container>
-        </container>
 
             <!-- actions -->
             <container class="titled_box" colour="title" id="ActB" appearance="boxes/main/transparent/paper" red_replacement="bg">

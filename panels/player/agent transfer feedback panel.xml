@@ -22,7 +22,7 @@
 					<translation id="text" translation_id="466495" type="use" value="Persuade to Stay[COMMENT: FR 22718; transfer offer panel; button label to initiate conversation to persuade player to stay at club]" />
 				</widget>
 
-				<widget class="icon_button" id="perL" auto_size="all" icon="icons/16px/speech bubble" click_event="perL" appearance="buttons/subtle/normal/button"> 
+				<widget class="icon_button" id="perL" auto_size="all" icon="icons/16px/speech bubble" click_event="perL" appearance="buttons/subtle/normal/button">
 					<translation id="text" translation_id="466496" type="use" value="Persuade to Leave[COMMENT: FR 22718; transfer offer panel; button label to initiate conversation to persuade player to leave club]" />
 				</widget>
 

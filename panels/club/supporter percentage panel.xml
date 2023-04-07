@@ -7,7 +7,7 @@
 
 	<container>
 		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="0" horizontal_offset="0" vertical_inset="0"/>
-		
+
 		<widget class="table" id="slst" auto_size="vertical" row_spacing="16">
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 			<flags id="layout" value="20, 16, -1, 35, 26" />
@@ -34,7 +34,7 @@
 		</widget>
 	</container>
 
-	<widget class="supporter_percentage_picture" id="spic" >
+	<widget class="supporter_percentage_picture" id="spic">
 		<layout class="stick_to_sides_attachment" alignment="vertical" inset="0"/>
 	</widget>
 </panel>

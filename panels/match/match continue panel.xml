@@ -1,6 +1,6 @@
 ﻿<panel>
 	<attachment_group class="horizontal_arrange_autosize" horizontal_gap="-6" horizontal_offset="0" vertical_inset="0" />
-	
+
 	<!--button showing the number of humans playing - click it to go to game status screen-->
 	<widget class="icon_button" auto_size="horizontal" size="small" alignment="centre" appearance="buttons/custom/match/play/button" secondary_icon_alignment="centre" default_focus="false" red_replacement="bg lighter" style="bold" icon="icons/custom/network game/users">
 		<attachment class="get_global_attachment" get_property="nhmw" set_property="text" />
@@ -31,7 +31,7 @@
 	</widget>
 
 	<!--button and drop down-->
-	<container height="48" >
+	<container height="48">
 
 		<attachment_group class="horizontal_arrange_autosize" horizontal_gap="-6" horizontal_offset="0" vertical_inset="0" />
 

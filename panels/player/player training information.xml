@@ -81,14 +81,14 @@
 
 				<widget class="player_training_intensity_rest_popup_button" fixed="false" appearance="buttons/standard/normal/button" id="inPt" alignment="left,centre_y" auto_size="vertical" />
 
-					<widget class="text" id="phyL" auto_size="vertical" alignment="centre_x, centre_y" colour="faded text"  size="8"  />
-					<widget class="client_object_property_panel" id="phyR" size="8" property="pTIR"  alignment="centre_x,centre_y" colour="faded text">
-						<record id="widget_properties" auto_size="vertical" />
-						<record id="object_property">
-							<integer id="get_property" value="objt"/>
-							<integer id="set_property" value="objt"/>
-						</record>
-					</widget>
+				<widget class="text" id="phyL" auto_size="vertical" alignment="centre_x, centre_y" colour="faded text" size="8" />
+				<widget class="client_object_property_panel" id="phyR" size="8" property="pTIR" alignment="centre_x,centre_y" colour="faded text">
+					<record id="widget_properties" auto_size="vertical" />
+					<record id="object_property">
+						<integer id="get_property" value="objt"/>
+						<integer id="set_property" value="objt"/>
+					</record>
+				</widget>
 			</container>
 
 			<container>

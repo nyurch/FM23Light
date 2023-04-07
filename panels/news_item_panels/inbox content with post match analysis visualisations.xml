@@ -11,7 +11,7 @@
 
 		<container class="client_object_viewer_xml_panel" id="cUnt">
 			<attachment_group class="vertical_arrange_autosize">
-						<global id="vertical_gap" name="ui.main_box_gap_vertical" />
+				<global id="vertical_gap" name="ui.main_box_gap_vertical" />
 			</attachment_group>
 
 			<container height="60">
@@ -83,10 +83,10 @@
 					<global id="horizontal_gap" name="ui.main_box_gap_horizontal" />
 				</attachment_group>
 				<widget class="data_analyst_visualisation_widget" id="visP" visualisation_type="8" data_type="3" file="widgets/data analyst visualisation mini" show_mini_visualisation_text="false">
-						<record id="widget_properties"  />
+					<record id="widget_properties" />
 				</widget>
 				<widget class="data_analyst_visualisation_widget" id="visS" visualisation_type="6" data_type="3" file="widgets/data analyst visualisation mini" show_mini_visualisation_text="false">
-					<record id="widget_properties" type="0"  />
+					<record id="widget_properties" type="0" />
 				</widget>
 			</container>
 
@@ -108,7 +108,7 @@
 							<!-- Heatmap -->
 							<integer value="42" />
 							<!--Average position-->
-							<integer value="62" />  
+							<integer value="62" />
 						</list>
 					</widget>
 				</container>

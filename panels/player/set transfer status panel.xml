@@ -1,5 +1,5 @@
 <panel>
-    <attachment_group class="vertical_arrange"  vertical_alignment="bottom,extend" vertical_offset="0" vertical_gap="0" horizontal_inset="0"/>
+	<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_offset="0" vertical_gap="0" horizontal_inset="0"/>
 
 	<container class="scrolling_box">
 		<container>
@@ -17,7 +17,7 @@
 				<container id="trnC">
 					<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="0" vertical_gap="4" horizontal_inset="0"/>
 
-					<widget class="label" spec="text" auto_size="vertical"  font="label">
+					<widget class="label" spec="text" auto_size="vertical" font="label">
 						<translation id="text" translation_id="227953" type="use" value="Transfer Status"/>
 					</widget>
 					<widget class="popup_button" id="trnS" auto_size="vertical" auto_tick_exclusive="true"/>
@@ -26,7 +26,7 @@
 				<container id="loaC">
 					<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="0" vertical_gap="4" horizontal_inset="0"/>
 
-					<widget class="label" spec="text" auto_size="vertical"  font="label">
+					<widget class="label" spec="text" auto_size="vertical" font="label">
 						<translation id="text" translation_id="247489" type="use" value="Loan Status"/>
 					</widget>
 					<widget class="popup_button" id="loaS" auto_size="vertical" auto_tick_exclusive="true"/>
@@ -38,7 +38,7 @@
 
 			<!-- Agent feedback -->
 			<container class="agent_transfer_feedback_panel" id="AgFp" height="50"/>
-			
+
 			<container id="askC">
 				<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="0" vertical_gap="5" horizontal_inset="0"/>
 
@@ -49,15 +49,15 @@
 					<!-- Asking price -->
 					<container>
 						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="0" vertical_gap="5" horizontal_inset="0"/>
-						
-						<widget class="label" spec="text" auto_size="vertical"  font="label">
-                            <translation id="text" translation_id="538841" type="use" value="Transfer Value[COMMENT: AREA: Transfers; SUB-AREA: Transfer Value; FR-BN: 34410; TONE: Formal; CHARLIMIT: Shortish, column header; REF-ID: 227806; NOTE: displays the player's estimated transfer value in a range]"/>
+
+						<widget class="label" spec="text" auto_size="vertical" font="label">
+							<translation id="text" translation_id="538841" type="use" value="Transfer Value[COMMENT: AREA: Transfers; SUB-AREA: Transfer Value; FR-BN: 34410; TONE: Formal; CHARLIMIT: Shortish, column header; REF-ID: 227806; NOTE: displays the player's estimated transfer value in a range]"/>
 						</widget>
 						<widget class="cash_selection_list" id="askp" cash_round_style="4" cash_min_value="0" select_event="cask" auto_size="vertical">
 							<flags id="colour" value="text" />
 							<record id="alternative_main_kind" class="edit_box">
 								<record id="properties">
-									<flags id="colour" value="text" />	
+									<flags id="colour" value="text" />
 									<boolean id="show_clear_text_icon" value="false"/>
 								</record>
 							</record>
@@ -69,7 +69,7 @@
 					<container>
 						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="0" vertical_gap="5" horizontal_inset="0"/>
 
-						<widget class="label" spec="text" auto_size="vertical"  font="label">
+						<widget class="label" spec="text" auto_size="vertical" font="label">
 							<translation id="text" translation_id="352477" type="use" value="When a transfer offer is received...[COMMENT: Transfer aststus/information; Label for widget that allow the user to choose what should happen if an offer is received for a player. Example option: 'I'll respond to it myself']"/>
 						</widget>
 						<widget class="popup_button" id="inst" auto_size="vertical" auto_tick_exclusive="true" select_event="inst">
@@ -89,7 +89,7 @@
 					<container>
 						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="0" vertical_gap="5" horizontal_inset="0"/>
 
-						<widget class="label" id="wppl" alignment="left, centre_y" colour="faded text" font="label" auto_size="vertical" size="small" >
+						<widget class="label" id="wppl" alignment="left, centre_y" colour="faded text" font="label" auto_size="vertical" size="small">
 							<translation id="text" translation_id="420694" type="use" value="Playing Wage Percentage[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is playing]" />
 							<translation id="label_hint" translation_id="469785" type="use" value="A proportion of the player's wage to be paid by the loaning club when the player is playing in the first team[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is playing]" />
 						</widget>
@@ -102,7 +102,7 @@
 						<global id="hidden" name="is_fmt"/>
 						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="0" vertical_gap="5" horizontal_inset="0"/>
 
-						<widget class="label" alignment="left, centre_y" colour="faded text" font="label" auto_size="vertical" size="small" >
+						<widget class="label" alignment="left, centre_y" colour="faded text" font="label" auto_size="vertical" size="small">
 							<translation id="text" translation_id="420695" type="use" value="Unused Wage Percentage[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is not playing]"/>
 							<translation id="label_hint" translation_id="469786" type="use" value="A proportion of the player's wage to be paid by the loaning club when the player is not playing in the first team[COMMENT: FR 14469; transfer offer; wages paid to loaning club when the player is not playing]"/>
 						</widget>
@@ -121,7 +121,7 @@
 				<widget class="horizontal_divider"/>
 
 				<!-- Title. Something like 'Instructions for Director of Football' but job name can vary -->
-				<widget class="label" id="Utit" spec="text" auto_size="vertical"  font="label"/>
+				<widget class="label" id="Utit" spec="text" auto_size="vertical" font="label"/>
 
 				<!-- Unwanted list -->
 				<container>
@@ -162,21 +162,21 @@
 								<record indx="1" left="10"/>
 							</list>
 
-							<widget class="label" col="0" row="0" spec="text" auto_size="vertical"  font="label">
-                                <translation id="text" translation_id="227778" type="use" value="Asking Price"/>
+							<widget class="label" col="0" row="0" spec="text" auto_size="vertical" font="label">
+								<translation id="text" translation_id="227778" type="use" value="Asking Price"/>
 							</widget>
 							<widget class="cash_selection_list" col="0" row="1" id="maap" spec="text" cash_round_style="4" cash_min_value="0" cash_max_value="200000000" select_event="maap" height="26">
 								<flags id="colour" value="text" />
 								<record id="alternative_main_kind" class="edit_box">
 									<record id="properties">
-										<flags id="colour" value="text" />	
+										<flags id="colour" value="text" />
 										<boolean id="show_clear_text_icon" value="false"/>
 									</record>
 								</record>
 								<boolean id="enforce_style" value="true" />
 							</widget>
 
-							<widget class="label" col="1" row="0" spec="text" auto_size="vertical"  font="label">
+							<widget class="label" col="1" row="0" spec="text" auto_size="vertical" font="label">
 								<translation id="text" translation_id="335979" type="use" value="Expiry Date[COMMENT: transfers unwanted list; column header, expiry date of bid]"/>
 							</widget>
 							<widget class="date_select_panel" col="1" row="1" id="eDat" event_id="eDat" spec="text" height="26" icon="icons/16px/schedule"/>
@@ -204,6 +204,6 @@
 			</container>
 		</container>
 	</container>
-    <!-- Confirm/undo buttons -->
-    <container class="inner_box_no_margin" file="player/set transfer status buttons"/>
+	<!-- Confirm/undo buttons -->
+	<container class="inner_box_no_margin" file="player/set transfer status buttons"/>
 </panel>

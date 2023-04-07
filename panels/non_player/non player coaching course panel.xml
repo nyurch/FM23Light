@@ -331,7 +331,7 @@
 				<record index="3" navigation_focus_target="false" />
 				<record index="4" navigation_focus_target="false" />
 			</list>
-			
+
 			<layout class="stick_to_object_attachment" id="alPt" get_side="top" set_side="top" target="main" />
 			<layout class="stick_to_object_attachment" id="alPb" get_side="bottom" set_side="bottom" target="main" />
 			<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left" target="main" />

@@ -182,7 +182,7 @@
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 
 						<flags id="default_sort_column" value="PsRK" />
-						
+
 						<list id="views">
 							<record id="ovvw">
 								<record id="view_table_properties">

@@ -1,4 +1,5 @@
-<!-- A Posh tooltip used on the player overview recent form panel to show details about a particular match. Should be used with a PROPERTY_LIST_VIEWER_XML_PANEL --><panel width="400">
+<!-- A Posh tooltip used on the player overview recent form panel to show details about a particular match. Should be used with a PROPERTY_LIST_VIEWER_XML_PANEL -->
+<panel width="400">
 	<layout class="fit_children_attachment" alignment="vertical" offset="0" />
 	<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" inset="0" />
 

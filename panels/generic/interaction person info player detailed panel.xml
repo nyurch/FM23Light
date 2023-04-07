@@ -28,7 +28,7 @@
 
     <!-- name -->
     <widget class="person_button" colour="black" id="perb" size="large" style="bold" auto_size="all" auto_size_maximum_width="180" alignment="left, centre_y" info_popup_enabled="true" person_is_player="true">
-    <layout class="stick_to_sides_attachment" alignment="middle" inset="0"/>
+        <layout class="stick_to_sides_attachment" alignment="middle" inset="0"/>
     </widget>
 
     <!-- current team -->

@@ -1,10 +1,10 @@
 <panel >
 	<!-- Version of the competition_player_stats_panel. Displays a the top player statistic in a panel -->
-	<layout class="fit_children_attachment" alignment="vertical"  />
+	<layout class="fit_children_attachment" alignment="vertical" />
 	<layout class="stick_to_sides_attachment" alignment="horizontal,top" inset="0" apply_to_children="true" />
 
 	<container class="property_list_viewer_xml_panel" id="tops">
-		<layout class="fit_children_attachment" alignment="vertical"  />
+		<layout class="fit_children_attachment" alignment="vertical" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal,top" inset="0" apply_to_children="true" />
 
 		<!-- Radio button for selecting this stat -->

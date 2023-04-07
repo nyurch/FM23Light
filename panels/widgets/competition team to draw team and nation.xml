@@ -1,6 +1,6 @@
 ﻿<panel height="40">
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
-	
+
 	<list id="properties_to_forward">
 		<record get_property="Ttea" set_property="objt" target="toto"/>
 		<record get_property="prSN" set_property="Shwn" target="natw"/>
@@ -9,7 +9,7 @@
 
 	<container class="client_object_viewer_xml_panel" id="toto">
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
-		
+
 		<container class="main_box">
 			<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="4"/>
 			<attachment class="get_global_attachment" get_property="CDra" set_property="appearance"/>
@@ -30,6 +30,6 @@
 		</container>
 
 	</container>
-	
+
 
 </panel>

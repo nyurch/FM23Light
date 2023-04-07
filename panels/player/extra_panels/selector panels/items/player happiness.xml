@@ -39,7 +39,7 @@
 		<container>
 			<attachment_group class="vertical_arrange_autosize"/>
 			<!-- Morale-->
-			<widget class="editable_client_object_property_panel" id="mora"  size="large" style="semi_bold" auto_size="vertical">
+			<widget class="editable_client_object_property_panel" id="mora" size="large" style="semi_bold" auto_size="vertical">
 				<record id="object_property">
 					<integer id="get_property" value="Pmor" />
 				</record>

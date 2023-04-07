@@ -15,7 +15,7 @@
 			<!-- Attribute value -->
 			<record index="1" id="val " sort_disabled="true" column_alignment="centre" right="8">
 				<record id="widget_info" class="attribute_label" alignment="right,centre_y" style="semi_bold" multiline="false"/>
-                <record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
 			</record>
 			<!-- Attribute comparison as a bar -->
 			<record index="2" id="cbar" sort_disabled="true" left="2" right="2" top="2" bottom="2">
@@ -25,7 +25,7 @@
 			<!-- Attribute value -->
 			<record index="3" id="val2" sort_disabled="true" column_alignment="centre" right="8">
 				<record id="widget_info" class="attribute_label" alignment="right,centre_y" style="semi_bold" multiline="false"/>
-                <record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
 			</record>
 		</list>
 	</record>
@@ -44,7 +44,7 @@
 
 				<widget class="table" id="pltt" layout="-1">
 					<list id="headings">
-						<record alignment="left,centre_y" column_span="4" style="semi_bold" colour="accent" hide_sorting="true" disabled="true" >
+						<record alignment="left,centre_y" column_span="4" style="semi_bold" colour="accent" hide_sorting="true" disabled="true">
 							<translation id="text" translation_id="285379" type="use" value="Technical[COMMENT: player profile, overview panel polygon category title]" />
 						</record>
 					</list>
@@ -61,7 +61,7 @@
 				<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_gap="2" horizontal_alignment="horizontal" horizontal_inset="0" />
 				<widget class="table" id="plgk" layout="-1">
 					<list id="headings">
-						<record alignment="left,centre_y" column_span="4" style="semi_bold" colour="accent"  hide_sorting="true" disabled="true" >
+						<record alignment="left,centre_y" column_span="4" style="semi_bold" colour="accent" hide_sorting="true" disabled="true">
 							<translation id="text" translation_id="230024" type="use" value="Goalkeeping" />
 						</record>
 					</list>
@@ -77,7 +77,7 @@
 
 				<widget class="table" id="plmt" layout="-1" height="375">
 					<list id="headings">
-						<record alignment="left,centre_y" column_span="4" style="semi_bold" colour="accent"  hide_sorting="true" disabled="true" >
+						<record alignment="left,centre_y" column_span="4" style="semi_bold" colour="accent" hide_sorting="true" disabled="true">
 							<translation id="text" translation_id="285381" type="use" value="Mental[COMMENT: player profile, overview panel polygon category title]" />
 						</record>
 					</list>
@@ -93,7 +93,7 @@
 
 				<widget class="table" id="plpt" layout="-1">
 					<list id="headings">
-						<record alignment="left,centre_y" column_span="4" style="semi_bold" colour="accent"  hide_sorting="true" disabled="true" >
+						<record alignment="left,centre_y" column_span="4" style="semi_bold" colour="accent" hide_sorting="true" disabled="true">
 							<translation id="text" translation_id="285375" type="use" value="Physical[COMMENT: player profile, overview panel polygon category title]" />
 						</record>
 					</list>

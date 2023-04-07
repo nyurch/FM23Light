@@ -1,7 +1,7 @@
 ﻿<panel>
-  <layout class="fit_children_attachment" alignment="vertical" offset="0" />
+	<layout class="fit_children_attachment" alignment="vertical" offset="0" />
 
-  <list id="draw_order">
+	<list id="draw_order">
 		<record entity_layout_id="at00"/>
 		<record entity_layout_id="at04"/>
 		<record entity_layout_id="at02"/>
@@ -64,14 +64,14 @@
 			<layout class="stick_to_object_attachment" id="align_right" get_side="none,right" set_side="none,right" target="main"/>
 		</container>
 		<widget class="player_training_information" file="none" entity_layout_id="at03" id="incn" sub_group_id="NULL_ID" name="information container">
-      <record id="object_property">
-        <list id="get_properties">
-          <record>
-            <string id="get_property" value="objt"/>
-            <string id="set_property" value="objt"/>
-          </record>
-        </list>
-      </record>
+			<record id="object_property">
+				<list id="get_properties">
+					<record>
+						<string id="get_property" value="objt"/>
+						<string id="set_property" value="objt"/>
+					</record>
+				</list>
+			</record>
 			<layout class="stick_to_object_attachment" id="align_top" get_side="none,bottom" set_side="none,top" target="at02"/>
 			<layout class="stick_to_object_attachment" id="align_bottom" get_side="none,bottom" set_side="none,bottom" target="main"/>
 			<layout class="stick_to_object_attachment" id="align_left" get_side="none,left" set_side="none,left" target="main"/>
@@ -84,7 +84,7 @@
 				<boolean id="exclude_from_find" value="true"/>
 				<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="none,all" inset="0"/>
 			</widget>
-      
+
 			<container class="inner_box_no_margin" entity_layout_id="at01" id="prcn" sub_group_id="NULL_ID" name="positon role container" width="145">
 				<layout class="stick_to_object_attachment" id="align_top" get_side="none,top" set_side="none,top" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_bottom" get_side="none,bottom" set_side="none,bottom" target="main"/>
@@ -98,12 +98,12 @@
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="none,all" inset="0"/>
 				</widget>
 				<widget class="label" alignment="centre_y,left" font="label" id="prlb" entity_layout_id="at07" auto_size="none,vertical" name="position role label" needs_height="true">
-          <translation id="text" translation_id="363709" type="use" value="Position/Role/Duty[COMMENT: FR 8989 - Player position, role and duty]" />
+					<translation id="text" translation_id="363709" type="use" value="Position/Role/Duty[COMMENT: FR 8989 - Player position, role and duty]" />
 					<layout class="stick_to_object_attachment" id="align_top" offset="8" get_side="none,top" set_side="none,top" move_side="true" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_left" get_side="none,left" set_side="none,left" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_right" get_side="none,right" set_side="none,right" target="main"/>
 				</widget>
-        <widget class="individual_position_training_popup" show_table_legend="true" id="itpu" ignore_multi_select="true"  entity_layout_id="at0:" auto_size="none,vertical" name="position role popup" needs_height="true">
+				<widget class="individual_position_training_popup" show_table_legend="true" id="itpu" ignore_multi_select="true" entity_layout_id="at0:" auto_size="none,vertical" name="position role popup" needs_height="true">
 					<layout class="stick_to_object_attachment" id="align_top" offset="8" get_side="none,bottom" set_side="none,top" move_side="true" target="at07"/>
 					<layout class="stick_to_object_attachment" id="align_left" get_side="none,left" set_side="none,left" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_right" get_side="none,right" set_side="none,right" target="main"/>
@@ -122,7 +122,7 @@
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="none,all" inset="0"/>
 				</widget>
 				<widget class="label" alignment="centre_y,left" font="label" id="aflb" entity_layout_id="at08" auto_size="none,vertical" name="additional focus label" needs_height="true">
-          <translation id="text" translation_id="394317" type="use" value="Additional Focus[COMMENT - individual training popup menu; specific focus training]" />
+					<translation id="text" translation_id="394317" type="use" value="Additional Focus[COMMENT - individual training popup menu; specific focus training]" />
 					<layout class="stick_to_object_attachment" id="align_top" offset="8" get_side="none,top" set_side="none,top" move_side="true" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_left" get_side="none,left" set_side="none,left" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_right" get_side="none,right" set_side="none,right" target="main"/>
@@ -145,16 +145,16 @@
 					<boolean id="exclude_from_find" value="true"/>
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="none,all" inset="0"/>
 				</widget>
-				<widget class="label"  alignment="centre_y,left" font="label" id="inlb" entity_layout_id="at09" auto_size="none,vertical" name="intensity label" needs_height="true">
-          <translation id="text" translation_id="330128" type="use" value="Intensity"/>
+				<widget class="label" alignment="centre_y,left" font="label" id="inlb" entity_layout_id="at09" auto_size="none,vertical" name="intensity label" needs_height="true">
+					<translation id="text" translation_id="330128" type="use" value="Intensity"/>
 					<layout class="stick_to_object_attachment" id="align_top" offset="8" get_side="none,top" set_side="none,top" move_side="true" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_left" get_side="none,left" set_side="none,left" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_right" get_side="none,right" set_side="none,right" target="main"/>
 				</widget>
 				<widget class="player_training_intensity_rest_popup_button" id="inPt" entity_layout_id="at0&lt;" auto_size="none,vertical" name="intensity popup" needs_height="true">
 					<layout class="stick_to_object_attachment" id="align_top" offset="8" get_side="none,bottom" set_side="none,top" move_side="true" target="at09"/>
-          <layout class="stick_to_object_attachment" id="align_left" get_side="none,left" set_side="none,left" target="main"/>
-          <layout class="stick_to_object_attachment" id="align_right" get_side="none,right" set_side="none,right" target="main"/>
+					<layout class="stick_to_object_attachment" id="align_left" get_side="none,left" set_side="none,left" target="main"/>
+					<layout class="stick_to_object_attachment" id="align_right" get_side="none,right" set_side="none,right" target="main"/>
 				</widget>
 			</container>
 		</widget>

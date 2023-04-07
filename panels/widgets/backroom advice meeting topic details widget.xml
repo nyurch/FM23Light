@@ -21,10 +21,10 @@
 	<container class="inner_subtle_box" id="tbox">
 		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left, extend" horizontal_gap="20"/>
 
-		<container  class="client_object_viewer_xml_panel" id="todt"  height="50" >
+		<container class="client_object_viewer_xml_panel" id="todt" height="50">
 			<attachment_group class="horizontal_arrange_autosize_vertical_centre" />
 
-			<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x" width="50" height="50" >
+			<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x" width="50" height="50">
 				<record id="object_property">
 					<list id="get_properties">
 						<!--Facegen data request-->
@@ -44,7 +44,7 @@
 					<record id="object_property" get_property="PnmP" set_property="valu" />
 				</widget>
 
-				<widget class="game_formatted_label" alignment="left,centre_y" size="small" colour="faded text" width="180" auto_size="vertical" multiline="true" >
+				<widget class="game_formatted_label" alignment="left,centre_y" size="small" colour="faded text" width="180" auto_size="vertical" multiline="true">
 					<record id="format">
 						<translation id="text" translation_id="388547" type="use" value="[%number#1] year-old [%player_description#2][COMMENT: transfer window opening news, rumoured player moving, graphical display]"/>
 						<integer id="var2" value="vf_player_description"/>
@@ -69,7 +69,7 @@
 					<record id="object_property" get_property="PnmP" set_property="valu" />
 				</widget>
 
-				<widget class="job_label" alignment="left,centre_y" size="small" colour="faded text" width="180" auto_size="vertical" multiline="true" >
+				<widget class="job_label" alignment="left,centre_y" size="small" colour="faded text" width="180" auto_size="vertical" multiline="true">
 					<record id="object_property" get_property="PcJj" set_property="valu" />
 				</widget>
 			</container>
@@ -86,7 +86,7 @@
 					<record id="object_property" get_property="Cdiv" set_property="valu" />
 				</widget>
 			</container>
-			
+
 		</container>
 
 		<widget class="client_object_list_table" column_spacing="10" id="prtb" auto_size="vertical" mode="fill_rows" auto_size_rows="true" fixed_row_height="20" sort_disabled="true" spec="text">

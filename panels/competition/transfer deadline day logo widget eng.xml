@@ -1,6 +1,6 @@
 ﻿<panel>
     <attachment_group class="vertical_arrange_autosize_all" vertical_gap="0"/>
-    
+
     <!-- this widget needs the "mode" property to be set when added to a panel -->
     <!-- mode="0" - Full layout, "Transfer Deadline Day" string displayed -->
     <!-- mode="1" - Condensed layout, "Deadline Day" string displayed -->
@@ -8,7 +8,7 @@
 
     <container id="DDtb">
         <attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="left, extend"/>
-        
+
         <widget class="spacer" width="4"/>
 
         <container class="plain_box" appearance="boxes/custom/transfer deadline day/logo/transfer/paper">

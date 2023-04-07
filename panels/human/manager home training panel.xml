@@ -1,7 +1,7 @@
 <panel>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-	<container class="vertical_adaptive_container"  offset="0" gap="4" inset="6" >
-		<container default_height="170"  priority="1">
+	<container class="vertical_adaptive_container" offset="0" gap="4" inset="6">
+		<container default_height="170" priority="1">
 
 			<layout class="arrange_vertical_attachment" layout="40,-1" offset="0" />
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
@@ -77,7 +77,7 @@
 						<widget class="text" alignment="left, centre_y" auto_size="vertical" multiline="false" font="label">
 							<translation id="text" translation_id="466504" type="use" value="Training Rating[COMMENT: a rating of how well the player is getting on in training]" />
 						</widget>
-						<widget class="property_list_viewer_xml_panel" file="widgets/training rating with change icon" should_colour="true" id="blrt"  auto_size="vertical" navigation_focus_target="false" />
+						<widget class="property_list_viewer_xml_panel" file="widgets/training rating with change icon" should_colour="true" id="blrt" auto_size="vertical" navigation_focus_target="false" />
 					</container>
 				</container>
 
@@ -85,7 +85,7 @@
 				<container class="inner_subtle_box" id="wrst" red_replacement="red">
 					<translation id="title" translation_id="466445" type="use" value="Worst Training Performance (last 7 days)[COMMENT: Training Manager home Worst performance in last week]" />
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-					
+
 					<container id="wrsC">
 						<attachment_group class="horizontal_arrange" horizontal_layout=" -3, -2" />
 						<container class="player_hierarchy_widget" id="wPwi" file="none">
@@ -133,10 +133,10 @@
 							<widget class="text" alignment="left, centre_y" auto_size="vertical" multiline="false" font="label">
 								<translation id="text" translation_id="466504" type="use" value="Training Rating[COMMENT: a rating of how well the player is getting on in training]" />
 							</widget>
-							<widget class="property_list_viewer_xml_panel" file="widgets/training rating with change icon" should_colour="true" id="wlrt"  auto_size="vertical" navigation_focus_target="false" />
+							<widget class="property_list_viewer_xml_panel" file="widgets/training rating with change icon" should_colour="true" id="wlrt" auto_size="vertical" navigation_focus_target="false" />
 						</container>
 					</container>
-					
+
 					<widget class="text" id="noBD" alignment="centre" hidden="true">
 						<translation id="text" translation_id="469534" type="use" value="There have been no bad performances worth noting in training this week[Comment: Training fix for bug 188141 - situation where there are no bad training performers to display]" />
 					</widget>

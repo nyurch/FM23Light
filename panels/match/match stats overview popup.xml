@@ -13,7 +13,7 @@
 		<record id="m_ps" />
 	</list>
 
-	<widget class="table" id="mstn" layout="-1, -1, -1" mode="fill_rows, printable" auto_size_rows="true" fixed_size_rows="false"  row_spacing="0">
+	<widget class="table" id="mstn" layout="-1, -1, -1" mode="fill_rows, printable" auto_size_rows="true" fixed_size_rows="false" row_spacing="0">
 
 		<record id="default_properties" alignment="centre" />
 

@@ -33,7 +33,7 @@
 
                 <container height="16">
                     <attachment_group class="horizontal_arrange" horizontal_alignment="left" vertical_inset="0" vertical_offset="0" horizontal_inset="0" horizontal_offset="0"/>
-                    
+
                     <widget class="icon_button" id="jrni" icon="icons/custom/object preview/button" show_button_appearance="false" width="16" height="16" alignment="centre"/>
 
                     <!-- name -->

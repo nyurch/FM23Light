@@ -9,9 +9,9 @@
 	<!-- image slices determine the points at which the image will be sliced to enable scaling -->
 	<!-- the image will only slice in the directions slicing values are provided for-->
 	<record id="image_slices" left="8" right="8" top="8" bottom="8"/>
-	
-	<colour id="red_replacement" name="cup draw team slots redrepl"/>		
+
+	<colour id="red_replacement" name="cup draw team slots redrepl"/>
 	<colour id="blue_replacement" name="cup draw team slots bluerepl"/>
 	<colour id="green_replacement" name=""/>
-	
+
 </properties>

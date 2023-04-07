@@ -1,5 +1,5 @@
 <panel id="dlog" width="400" height="220">
-<string id="skin_style" value="edit_box" />
+	<string id="skin_style" value="edit_box" />
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 	<container class="standard_popup_box">

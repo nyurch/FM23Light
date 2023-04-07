@@ -6,7 +6,7 @@
 
 		<!-- some pictures -->
 		<widget class="object_portrait_picture" id="plpc" height="70" width="70" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" />
-		
+
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 

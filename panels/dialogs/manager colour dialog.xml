@@ -1,5 +1,5 @@
 ﻿<panel>
-<string id="skin_style" value="edit_box" />
+  <string id="skin_style" value="edit_box" />
   <attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_alignment="horizontal" horizontal_inset="0" />
 
   <record id="widget_info">
@@ -67,7 +67,7 @@
 
   </list>
 
-  
+
   <container navigation_container="true">
     <attachment_group class="vertical_arrange_autosize"/>
 

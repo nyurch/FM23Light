@@ -22,7 +22,7 @@
 			<attachment class="test_global_attachment" get_property="MnuS" mode="1" value="true" set_property="hidn" skip_if_null="true" />
 		</widget>
 
-		<widget class="text_button" id="T1nm" font="title" auto_size="horizontal" alignment="left,centre_y"  navigation_focus_target="false" colour="text"/>
+		<widget class="text_button" id="T1nm" font="title" auto_size="horizontal" alignment="left,centre_y" navigation_focus_target="false" colour="text"/>
 
 		<container>
 			<attachment_group class="horizontal_arrange_autosize" horizontal_gap="0"/>
@@ -36,26 +36,26 @@
 		</container>
 
 
-		<widget class="text_button" id="T2nm" font="title" auto_size="horizontal" alignment="left,centre_y"  navigation_focus_target="false" colour="text"/>
+		<widget class="text_button" id="T2nm" font="title" auto_size="horizontal" alignment="left,centre_y" navigation_focus_target="false" colour="text"/>
 
 
-		<widget class="text" alignment="left, centre_y" auto_size="horizontal" colour="fg" >
+		<widget class="text" alignment="left, centre_y" auto_size="horizontal" colour="fg">
 			<record id="object_property" get_property="fxCo" set_property="valu" />
 		</widget>
-		
+
 		<widget class="comp_button" alignment="left, centre_y" auto_size="horizontal" colour="fg" icon_enabled="false" no_object_text="" navigation_focus_target="false">
 			<record id="object_property" get_property="fxCo" set_property="valu" />
 		</widget>
 
 		<widget class="text" alignment="left, centre_y" auto_size="horizontal" colour="fg" value="-" />
 
-		<widget class="date_cell" id="fxdV" format="[%date#1-long]" auto_size="horizontal" alignment="left, centre_y"  colour="fg" navigation_focus_target="false">
+		<widget class="date_cell" id="fxdV" format="[%date#1-long]" auto_size="horizontal" alignment="left, centre_y" colour="fg" navigation_focus_target="false">
 			<record id="object_property">
 				<integer id="get_property" value="fxdt"/>
 			</record>
 		</widget>
 
-		<container class="match_playback_control_container" file="" >
+		<container class="match_playback_control_container" file="">
 			<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="0"/>
 
 			<record id="object_property" get_property="maCo" set_property="maCo" />
@@ -76,7 +76,7 @@
 				<string id="popup_button_appearance" value="buttons/custom/over state only/button"/>
 
 				<widget class="icon_button" id="mbut" auto_size="horizontal" colour="accent" font="title" icon="icons/26px/play" controller_button="right_trigger" gamepad_icon_alignment="centre_right" icon_alignment="centre_left" alignment="centre"/>
-				<widget class="popup_button" id="mpop" auto_size="horizontal"  fixed="true" />
+				<widget class="popup_button" id="mpop" auto_size="horizontal" fixed="true" />
 
 				<list id="items">
 					<record id="vgls" event_id="vgls" type="5" priority="1">

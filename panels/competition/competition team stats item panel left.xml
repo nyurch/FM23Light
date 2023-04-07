@@ -36,7 +36,7 @@
 					<record value="51">
 						<translation id="format" translation_id="515016" type="use" value="Fewest Shots Against[COMMENT: AREA: Competition Stats; SUB-AREA: Team Overview; FR-BN: 32057; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
 					</record>
-					<record value="30"> 
+					<record value="30">
 						<translation id="format" translation_id="392241" type="use" value="Best Pass Completion[COMMENT: FR 8873; Competition player stats overview; stat description, best pass completion ratio]" />
 					</record>
 					<record value="28">

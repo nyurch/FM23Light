@@ -37,16 +37,16 @@
 			</widget>
 
 		</container>
-		
+
 	</container>
 
-	
-	
+
+
 	<container class="bordered_box" appearance="boxes/custom/scouting/recommendation/paper" id="SMbx">
 		<attachment_group class="vertical_arrange_autosize"/>
 
-		
-		
+
+
 		<container height="25">
 			<layout class="centre_in_parent_attachment" alignment="vertical" apply_to_children="true" offset="0" />
 			<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="0" gap="4" />
@@ -63,8 +63,8 @@
 
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left,extend"/>
-			
-			<widget class="player_scout_recommendation_widget" width="60" height="60" show_knowledge_bar="false" >
+
+			<widget class="player_scout_recommendation_widget" width="60" height="60" show_knowledge_bar="false">
 				<record id="object_property" get_property="Psrk" set_property="objt" />
 			</widget>
 

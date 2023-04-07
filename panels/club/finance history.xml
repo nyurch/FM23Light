@@ -2,9 +2,7 @@
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
 	<!-- attributes graph -->
-	<widget class="graph" id="grph" inset="20, 0, 0, 20" 
-			axis_in_front_of_series="true"
-			show_instant_hint="false">
+	<widget class="graph" id="grph" inset="20, 0, 0, 20" axis_in_front_of_series="true" show_instant_hint="false">
 		<!--can be overriden by panels containing this class-->
 		<record id="instant_hint" file="generic/graph instant hint finances small" alignment="right,top"/>
 		<record id="x_axis">

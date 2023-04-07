@@ -1,4 +1,5 @@
-<!-- A panel showing information about a player's contract and transfer status. Used with the PLAYER_TRANSFER_INFORMATION_PANEL --><panel>
+<!-- A panel showing information about a player's contract and transfer status. Used with the PLAYER_TRANSFER_INFORMATION_PANEL -->
+<panel>
 	<attachment_group class="vertical_arrange" vertical_offset="0" horizontal_inset="0" />
 
 	<!-- Squad/loan/transfer status -->
@@ -9,8 +10,8 @@
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" />
 
-      <widget class="label" spec="text" auto_size="vertical">
-        <translation id="text" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
+			<widget class="label" spec="text" auto_size="vertical">
+				<translation id="text" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
 			</widget>
 			<widget class="playing_time_label" id="sqdS" size="12" style="semi_bold" auto_size="vertical" />
 		</container>
@@ -117,7 +118,7 @@
 						<widget class="date_select_panel" col="1" row="1" id="eDat" event_id="eDat" spec="text" auto_size="vertical" />
 						<container col="0" row="2" height="4" />
 						<!-- Agreed playing time -->
-            <widget class="label" col="0" row="3" column_span="2" spec="text" auto_size="vertical">
+						<widget class="label" col="0" row="3" column_span="2" spec="text" auto_size="vertical">
 							<translation id="text" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
 						</widget>
 						<widget class="popup_button" col="0" row="4" column_span="2" id="sssP" event_id="sssP" spec="text" auto_size="vertical" />

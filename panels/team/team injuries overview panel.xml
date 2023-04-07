@@ -391,7 +391,7 @@
 									<integer id="index" value="4" />
 									<translation id="text" translation_id="394524" type="use" value="Overall Physical Condition[COMMENT: label for a player's overall physical condition, when taking every element of his game into account]"/>
 								</record>
-							<record>
+								<record>
 									<integer id="index" value="5" />
 									<translation id="text" translation_id="388919" type="use" value="Match Sharpness[COMMENT: label for the player's match fitness, i.e. what condition he's currently in if he were to be selected for the next fixture]"/>
 								</record>
@@ -417,7 +417,7 @@
 									<integer id="index" value="4" />
 									<boolean id="sort_ascending" value="false" />
 								</record>
-							<record>
+								<record>
 									<integer id="index" value="5" />
 									<boolean id="sort_ascending" value="false" />
 								</record>

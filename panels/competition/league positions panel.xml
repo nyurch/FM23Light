@@ -11,11 +11,7 @@
 		<translation id="text" translation_id="229362" type="use" value="Teams" />
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-		<widget class="table" id="tmtb" layout="65, -1" navigation_container="true" navigation_container_allow_empty="true" default_focus="true"
-				mode="fill_rows,stripe_rows,select_multiple,show_bullets,always_multi_select, highlight_on_scroll"
-				select_event="pick"
-				auto_size_rows="true"
-				row_spacing="0">
+		<widget class="table" id="tmtb" layout="65, -1" navigation_container="true" navigation_container_allow_empty="true" default_focus="true" mode="fill_rows,stripe_rows,select_multiple,show_bullets,always_multi_select, highlight_on_scroll" select_event="pick" auto_size_rows="true" row_spacing="0">
 			<flags id="bullet_multi_appearance" value="icons/16px/row graph" />
 			<flags id="bullet_multi_selected_appearance" value="icons/16px/row graph_selected" />
 		</widget>

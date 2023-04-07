@@ -7,7 +7,7 @@
 		<widget class="picture" id="trdi" scale_picture="false" keep_aspect_ratio="true" image_alignment="top, left">
 			<layout class="centre_in_parent_attachment" alignment="vertical"/>
 		</widget>
-		
+
 		<widget class="object_portrait_picture" id="plpc" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_y, bottom" clickable="false"/>
 	</container>
 

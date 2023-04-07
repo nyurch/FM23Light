@@ -94,7 +94,7 @@
 						<container>
 							<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_gap="-2" />
 
-							<widget class="client_object_property_panel" property="PExD" auto_size="vertical" >
+							<widget class="client_object_property_panel" property="PExD" auto_size="vertical">
 								<record id="object_property">
 									<list id="get_properties">
 										<record>
@@ -137,7 +137,7 @@
 								</container>
 
 							</container>
-							
+
 						</container>
 					</container>
 				</container>
@@ -154,7 +154,7 @@
 					</container>
 
 					<widget class="horizontal_divider" red_replacement="scout card text"/>
-					
+
 					<!--stats-->
 					<container height="100" hidden="true">
 						<record id="object_property" get_property="hsta" set_property="hidn" dont_set_if_missing="true"/>
@@ -172,7 +172,7 @@
 
 							<widget class="player_scout_recommendation_widget" id="tstT" show_knowledge_bar="false" navigation_focus_target="true" show_hover_popup="false" recommendation_mode="1">
 								<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
-								
+
 								<record id="object_property" get_property="PsRK" set_property="objt"/>
 							</widget>
 						</container>
@@ -303,7 +303,7 @@
 
 					<container class="tabbed_container" default_item="prcn" save_session_state="true" inset="0" offset="0" id="tabc">
 
-						<container id="prcn" >
+						<container id="prcn">
 							<translation id="title" translation_id="316845" type="use" value="Scout Report[COMMENT: Panel title for when viewing a scout report]" />
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="5" />
 

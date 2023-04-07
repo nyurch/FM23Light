@@ -29,7 +29,7 @@
 				<widget class="subtle_popup_button" id="clst" sele="clst" auto_tick_exclusive="true" fixed="false" auto_size="all" style="bold" colour="text"/>
 			</container>
 		</container>
-		
+
 
 		<!-- newly added icon -->
 		<container class="main_contrast_box_no_margin" appearance="labels/standard/label" id="ngnt" height="18" red_replacement="accent">

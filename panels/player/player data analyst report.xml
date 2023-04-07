@@ -1,5 +1,5 @@
 ﻿<panel>
-    <attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="5" vertical_gap="5" horizontal_inset="5" horizontal_alignment="horizontal" />
+	<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="5" vertical_gap="5" horizontal_inset="5" horizontal_alignment="horizontal" />
 
 
 	<container class="main_box" id="scou" navigation_container="true">
@@ -8,14 +8,14 @@
 		<container>
 			<attachment_group class="horizontal_arrange_autosize_all_centre" horizontal_alignment="left" horizontal_offset="0" horizontal_gap="10" vertical_offset="0" />
 
-			<widget class="label" id="perl" size="medium" colour="contrast" auto_size="all" font="title" >
+			<widget class="label" id="perl" size="medium" colour="contrast" auto_size="all" font="title">
 				<translation id="text" translation_id="447607" type="use" value="Analyst Report[COMMENT: Panel title for when viewing analyst report]" />
 			</widget>
 
 			<widget class="text" id="lsdt" auto_size="all"/>
 		</container>
 	</container>
-	
+
 	<!-- No analyst report -->
 	<container id="ndar" class="main_box">
 		<layout class="arrange_vertical_attachment" alignment="middle" offset="0" gap="5" />
@@ -62,7 +62,7 @@
 		<container>
 			<layout class="arrange_horizontal_attachment" layout="-1,2" offset="0" gap="0" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
-			
+
 			<container class="main_box">
 				<translation id="title" translation_id="441065" type="use" value="Player Analysis[COMMENT: match analysis screen title]" />
 				<widget class="text" id="rDat" colour="faded text" auto_size="all" alignment="right,centre_y" embed_in_frame="true">
@@ -86,11 +86,11 @@
 							<translation id="text" translation_id="361260" type="use" value="Pros[COMMENT: FR 8316 ]" />
 						</widget>
 
-                        <widget class="table" id="tpro" layout="-1" mode="fill_rows" fixed_size_rows="false" auto_size_rows="true" row_spacing="4" default_sort_column="0">
-                            <list id="column_table_properties">
-                                <record index="0" sort_ascending="false"/>
-                            </list>
-                        </widget>
+						<widget class="table" id="tpro" layout="-1" mode="fill_rows" fixed_size_rows="false" auto_size_rows="true" row_spacing="4" default_sort_column="0">
+							<list id="column_table_properties">
+								<record index="0" sort_ascending="false"/>
+							</list>
+						</widget>
 
 						<widget class="text" id="nPro" auto_size="vertical" colour="faded text" multiline="true" hidden="true"/>
 					</container>
@@ -103,17 +103,17 @@
 							<translation id="text" translation_id="361094" type="use" value="Cons[COMMENT: FR 8316 ]" />
 						</widget>
 
-                        <widget class="table" id="tcon" layout="-1" mode="fill_rows" fixed_size_rows="false" auto_size_rows="true" row_spacing="4" default_sort_column="0">
-                            <list id="column_table_properties">
-                                <record index="0" sort_ascending="false"/>
-                            </list>
-                        </widget>
+						<widget class="table" id="tcon" layout="-1" mode="fill_rows" fixed_size_rows="false" auto_size_rows="true" row_spacing="4" default_sort_column="0">
+							<list id="column_table_properties">
+								<record index="0" sort_ascending="false"/>
+							</list>
+						</widget>
 
 						<widget class="text" id="nCon" auto_size="vertical" colour="faded text" multiline="true" hidden="true"/>
 					</container>
 				</container>
 			</container>
-			
+
 			<widget class="vertical_subtle_divider" />
 
 		</container>

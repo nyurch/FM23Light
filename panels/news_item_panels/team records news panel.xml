@@ -55,7 +55,7 @@
 
 			<!-- Junior Coaching  -->
 			<container height="70">
-				<attachment_group class="vertical_arrange"  />
+				<attachment_group class="vertical_arrange" />
 
 				<widget class="label" alignment="centre" auto_size="vertical" spec="text" font="label" colour="faded text">
 					<translation id="text" translation_id="325853" type="use" value="Junior Coaching[COMMENT: heading; team_information_panel; the standard of the team's youth setup coaching, NOTE: This is a minor string change - 'Youth Coaching' changed to 'Junior coaching'. Please use 'Top 10 Matches']"/>

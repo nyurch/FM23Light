@@ -20,9 +20,9 @@
       <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 
       <widget class="text" id="TiSt" auto_size="horizontal" alignment="left,bottom" font="title"/>
-      
+
       <!-- Person name -->
-      <widget class="person_button" auto_size="horizontal" alignment="left,centre_y" style="semi_bold" info_popup_enabled="true" info_popup_alignment="left,bottom" icon_enabled="true" navigation_focus_target="false" colour="text" >
+      <widget class="person_button" auto_size="horizontal" alignment="left,centre_y" style="semi_bold" info_popup_enabled="true" info_popup_alignment="left,bottom" icon_enabled="true" navigation_focus_target="false" colour="text">
         <record id="object_property" get_property="Pcjo" set_property="Pcjo"/>
         <record id="object_property" get_property="objt" set_property="valu"/>
       </widget>

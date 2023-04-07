@@ -31,7 +31,7 @@
 			<widget class="icon_button" size="large" font_colour="white" id="ReSt" auto_size="vertical" width="120" icon="icons/16px/subscribed" navigation_focus_target="false" appearance="buttons/custom/dof status/normal/button" wants_mouse_events="false" alignment="centre_y" red_replacement="bg positive">
 				<translation id="text" translation_id="551827" type="use" value="Strongly Recommended[COMMENT: AREA: Staff Meeting; SUB-AREA: Staff Meeting Suggested Actions; FR-BN: 37034; TONE: Formal; NOTE;]" />
 			</widget>
-				<container class="horizontal_arrange_container" auto_size="vertical" wrap="true">
+			<container class="horizontal_arrange_container" auto_size="vertical" wrap="true">
 
 				<widget class="client_object_property_panel" auto_size="all" id="sasv" />
 
@@ -41,14 +41,14 @@
 
 			<container id="anCO">
 				<attachment_group class="vertical_arrange_autosize" />
-					<widget class="text" font="title" colour="faded text" auto_size="vertical">
+				<widget class="text" font="title" colour="faded text" auto_size="vertical">
 					<translation id="text" translation_id="296334" type="use" value="Analysis[COMMENT: match screen; analysis panel]" />
 				</widget>
-		
+
 				<widget class="icon_button" id="posi" icon="icons/16px/thumbs up" colour="text" multiline="true" icon_colour="fg positive" appearance="" auto_size="vertical" />
-				
+
 				<widget class="icon_button" id="negi" icon="icons/16px/thumbs down" colour="text" multiline="true" icon_colour="fg negative" appearance="" auto_size="vertical" />
-				
+
 			</container>
 
 		</container>
@@ -59,7 +59,7 @@
 			<widget class="picture" file="icons/16px/tick" width="20" height="20" />
 
 			<widget class="text" id="notx" auto_size="vertical" style="bold" appearance="" multiline="true" alignment="left,centre_y" />
-			
+
 		</container>
 
 	</container>

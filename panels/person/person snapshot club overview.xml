@@ -35,7 +35,7 @@
       <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
       <widget class="person_button" id="perM" style="semi_bold" alignment="left,bottom">
-		<flags id="colour" value="text" />
+        <flags id="colour" value="text" />
         <record id="object_property">
           <integer id="get_property" value="objt" />
           <integer id="set_property" value="valu" />

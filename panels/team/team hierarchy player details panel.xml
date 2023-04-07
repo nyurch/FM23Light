@@ -52,7 +52,7 @@
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 				<layout class="arrange_horizontal_attachment" layout="-1, -1" offset="0" gap="0" />
 
-        <container>
+				<container>
 					<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="12" apply_to_children="true" />
 					<widget class="label" alignment="left,centre_y" auto_size="vertical" size="small" font="title">
@@ -152,7 +152,7 @@
 					<container>
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 						<widget class="text" id="infT" spec="text" style="semi_bold" colour="bg" red_replacement="bg" alignment="centre" size="small" />
-					
+
 						<container>
 							<layout class="arrange_horizontal_attachment" alignment="middle" offset="0" gap="0" />
 							<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />

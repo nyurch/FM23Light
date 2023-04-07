@@ -28,7 +28,7 @@
 				<container>
 					<attachment_group class="horizontal_arrange_autosize" horizontal_gap="12" horizontal_offset="4" vertical_inset="2" />
 
-                    <!--keep this id for the match tutorial-->
+					<!--keep this id for the match tutorial-->
 					<widget class="icon_button" id="TaSu" auto_size="horizontal" secondary_icon="icons/16px/maximise" secondary_icon_enabled="true" icon="icons/16px/tactics" appearance="buttons/custom/over state only/button" click_event="EsFT" controller_button="start_button" default_focus="true" font="title" colour="text" size="small" auto_size_maximum_width="160">
 						<translation id="text" translation_id="516460" type="use" value="Tactics &amp; Subs[COMMENT: AREA; match UI; SUB-AREA: heading; NOTE: text for section allowing user to make tactics changes and/or subs]" />
 					</widget>
@@ -44,7 +44,7 @@
 			<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="0" vertical_inset="0" horizontal_gap="0" />
 
 			<widget class="spacer">
-				
+
 			</widget>
 
 			<container navigation_container="true">

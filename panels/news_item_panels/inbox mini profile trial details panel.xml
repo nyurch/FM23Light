@@ -9,7 +9,7 @@
 
 		<container height="60">
 			<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="2" />
-			<layout class="stick_to_sides_attachment" alignment="horizontal"  inset="0" apply_to_children="true"/>
+			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 			<widget class="text" auto_size="vertical" alignment="left" font="label">
 				<translation id="text" translation_id="230113" type="use" value="Duration" />
 			</widget>

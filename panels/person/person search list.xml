@@ -20,7 +20,7 @@
 				<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="right,extend" horizontal_offset="0" horizontal_gap="2" vertical_offset="0" />
 
 				<widget class="text" id="plti" font="title" auto_size="all" alignment="left,centre_y">
-					<list  id="auto_size_restrictions">
+					<list id="auto_size_restrictions">
 
 						<record>
 							<string id="type" value="property"/>
@@ -55,13 +55,13 @@
 					<global id="gap" name="ui.button_row_gap"/>
 				</attachment_group>
 
-				<widget class="text" id="intt" auto_size="horizontal" height="30" fixed="true" font="label" alignment="left,centre_y" >
+				<widget class="text" id="intt" auto_size="horizontal" height="30" fixed="true" font="label" alignment="left,centre_y">
 					<translation id="text" translation_id="451328" type="use" value="Interested In:[COMMENT: header string indicating what sort of transfer deal a player is interested in for MLS, either a normal deal or a DP/Designated Player (283628) deal]" />
 				</widget>
 
 				<widget class="spacer" width="2" height="1" />
 
-				<widget class="widget_popup_button" id="plsf" widget_type="person_search_filter_popup_panel" auto_size="horizontal" height="30" appearance="buttons/subtle/normal/button"  popup_alignment="right,bottom">
+				<widget class="widget_popup_button" id="plsf" widget_type="person_search_filter_popup_panel" auto_size="horizontal" height="30" appearance="buttons/subtle/normal/button" popup_alignment="right,bottom">
 					<record id="widget_properties" file="filter_panels/person search filter popup" width="350"/>
 					<translation id="text" translation_id="394450" type="use" value="Include[COMMENT: tickbox option to include a stat on a custom chalkboard]" />
 				</widget>
@@ -70,7 +70,7 @@
 					<translation id="text" translation_id="319501" type="use" value="Transfer[COMMENT: section header on Views menu to indicate that view will contain information pertaining to the person's transfer status]" />
 				</widget>
 
-				<widget class="popup_button" id="trip" auto_size="horizontal" height="30" fixed="true" show_button_appearance="false" icon="icons/16px/settings" secondary_icon_enabled="false" >
+				<widget class="popup_button" id="trip" auto_size="horizontal" height="30" fixed="true" show_button_appearance="false" icon="icons/16px/settings" secondary_icon_enabled="false">
 					<record id="primary_icon_properties" red_replacement="normal_icon" />
 				</widget>
 
@@ -80,15 +80,15 @@
 					<translation id="text" translation_id="283628" type="use" value="DP[COMMENT - team screen; player status flag; Designated Player (the Beckham rule), short string]" />
 				</widget>
 
-				<widget class="popup_button" id="dpip" auto_size="horizontal" height="30" fixed="true" show_button_appearance="false" icon="icons/16px/settings" secondary_icon_enabled="false" >
+				<widget class="popup_button" id="dpip" auto_size="horizontal" height="30" fixed="true" show_button_appearance="false" icon="icons/16px/settings" secondary_icon_enabled="false">
 					<record id="primary_icon_properties" red_replacement="normal_icon" />
 				</widget>
 
-				<widget class="check_box" id="loin" auto_size="horizontal" height="30" fixed="true" click_event="icbc" >
+				<widget class="check_box" id="loin" auto_size="horizontal" height="30" fixed="true" click_event="icbc">
 					<translation id="text" translation_id="330195" type="use" value="Loan[COMMENT: player transfer panel; indicates which club is interested in the person and what type of deal they're looking for]" />
 				</widget>
 
-				<widget class="popup_button" id="loip" auto_size="all" fixed="true" show_button_appearance="false" icon="icons/16px/settings" secondary_icon_enabled="false" >
+				<widget class="popup_button" id="loip" auto_size="all" fixed="true" show_button_appearance="false" icon="icons/16px/settings" secondary_icon_enabled="false">
 					<record id="primary_icon_properties" red_replacement="normal_icon" />
 				</widget>
 
@@ -109,7 +109,7 @@
 						<translation id="text" translation_id="316605" type="use" value="Quick Search" />
 					</widget>
 
-					<widget class="icon_button" id="clea" auto_size="all" click_event="clfl" controller_button="b_button" >
+					<widget class="icon_button" id="clea" auto_size="all" click_event="clfl" controller_button="b_button">
 						<translation id="text" translation_id="229717" type="use" value="Clear" />
 					</widget>
 
@@ -139,10 +139,10 @@
 
 		<container class="horizontal_split_container" id="splt" starting_layout="55, -1" save_session_state="true" save_default_state="true" min_height_top="55" min_height_bottom="325" should_hide_bar_when_locked="true">
 
-			<container class="main_subtle_box_no_margin" >
+			<container class="main_subtle_box_no_margin">
 
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-				<widget class="person_filter_panel" id="psfp" draw_title="false" file="person/person search filter advanced" >
+				<widget class="person_filter_panel" id="psfp" draw_title="false" file="person/person search filter advanced">
 
 				</widget>
 			</container>

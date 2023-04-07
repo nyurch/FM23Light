@@ -24,23 +24,12 @@
 		<layout class="fit_children_attachment" alignment="vertical" offset="0" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" inset="0" />
 
-		<widget class="table" id="list"
-		mode="fill_rows, stripe_rows, fill_custom_rows, keyboard, printable, inset_rows"
-		customise_view_panel_class="customise_view_advanced_panel"
-		customisation_context="league_table"
-		contextual_handler_column_id="Ttea"
-		auto_size_rows="false"
-		fixed_size_rows="true"
-		row_height="26"
-		heading_class="column_heading"
-		auto_size="vertical"
-		auto_size_maximum_height="652"
-		navigation_container="true">
+		<widget class="table" id="list" mode="fill_rows, stripe_rows, fill_custom_rows, keyboard, printable, inset_rows" customise_view_panel_class="customise_view_advanced_panel" customisation_context="league_table" contextual_handler_column_id="Ttea" auto_size_rows="false" fixed_size_rows="true" row_height="26" heading_class="column_heading" auto_size="vertical" auto_size_maximum_height="652" navigation_container="true">
 			<list id="column_widget_properties">
 				<record index="0" alignment="left,centre_y" colour="white"/>
 			</list>
 		</widget>
-		
+
 	</container>
 
 	<!-- To avoid copy-pasting views into the variation of this panel all of the views are in a aerparate file -->

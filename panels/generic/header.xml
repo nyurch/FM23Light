@@ -31,7 +31,7 @@
 				<record get_property="section" test_mode="equal" value="MRev" skip_if_null="false" />
 				<record get_property="section" test_mode="equal" comparison_mode="or" value="mMMr" skip_if_null="true" />
 				<record get_property="section" test_mode="equal" comparison_mode="or" value="htmt" skip_if_null="true" />
-                <record get_property="section" test_mode="equal" comparison_mode="or" value="hPtt" skip_if_null="true" />
+				<record get_property="section" test_mode="equal" comparison_mode="or" value="hPtt" skip_if_null="true" />
 				<record get_property="section" test_mode="equal" comparison_mode="or" value="TacH" skip_if_null="true" />
 				<record get_property="section" test_mode="equal" comparison_mode="or" value="htpT" skip_if_null="true" />
 				<record get_property="section" test_mode="equal" comparison_mode="or" value="htpP" skip_if_null="true" />

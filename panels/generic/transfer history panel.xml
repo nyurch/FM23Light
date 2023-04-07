@@ -16,7 +16,7 @@
 		<!-- buttons area -->
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" />
-			
+
 			<container>
 				<attachment_group class="title_embedded_panel_left" horizontal_gap="24" />
 
@@ -155,7 +155,7 @@
 								<flags id="alignment" value="left,centre_y" />
 							</record>
 						</widget>
-						
+
 						<widget class="icon_button" id="wati" auto_size="all" click_event="watn" controller_button="y_button">
 							<layout class="stick_to_sides_attachment" alignment="left" />
 							<translation id="text" translation_id="275840" type="use" value="Where Are They Now?" />
@@ -168,7 +168,7 @@
 
 					<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
 
-					<widget class="text" id="tovl"  auto_size="all" size="14" style="bold" />
+					<widget class="text" id="tovl" auto_size="all" size="14" style="bold" />
 
 					<container>
 						<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_gap="0" vertical_offset="0" horizontal_inset="0" />

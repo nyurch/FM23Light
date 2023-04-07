@@ -19,7 +19,7 @@
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" embed_in_frame="true" />
 
-						<container class="scrolling_box" >
+						<container class="scrolling_box">
 							<container class="vertical_arrange_container" id="repF" gap="4" auto_size="vertical" />
 						</container>
 

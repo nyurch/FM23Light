@@ -24,7 +24,7 @@
 			<container>
 				<attachment_group class="horizontal_arrange" horizontal_layout="60,-1" horizontal_gap="8" />
 
-				<widget class="object_portrait_picture" id="trop" scale_picture="true" >
+				<widget class="object_portrait_picture" id="trop" scale_picture="true">
 					<integer id="property" value="trop" />
 					<boolean id="keep_aspect_ratio" value="true" />
 					<boolean id="comp_use_trophy_icon" value="true" />
@@ -37,7 +37,7 @@
 					<container>
 						<attachment_group class="vertical_arrange_autosize" vertical_gap="0"/>
 
-						<widget class="label" alignment="left" spec="text" font="label" style="bold"  auto_size="vertical">
+						<widget class="label" alignment="left" spec="text" font="label" style="bold" auto_size="vertical">
 							<translation id="text" translation_id="416340" type="use" value="Title Holders[COMMENT - Competition Overview Title Holders]" />
 						</widget>
 
@@ -91,7 +91,7 @@
 				</record>
 			</container>
 
-<!--
+			<!--
 			<container class="competition_qualifiers_panel" file="competition/competition overview qualifiers" minimum_width="100" priority="3" id="coqp">
 				<record id="object_property">
 					<integer id="get_property" value="objt" />
@@ -132,7 +132,7 @@
 			<container class="main_box" id="cmpS" minimum_width="625" priority="1" default_width="-3" navigation_container="true">
 				<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="8" />
 
-				<widget class="link_button_title" section="cspl" >
+				<widget class="link_button_title" section="cspl">
 					<layout class="stick_to_sides_attachment" alignment="left" inset="0" />
 					<translation id="text" translation_id="416342" type="use" value="Player Stats[COMMENT: competition overview player stats panel; panel title]" />
 				</widget>
@@ -158,7 +158,7 @@
 						</container>
 					</container>
 
-					<container class="horizontal_adaptive_container" default_height="-1" minimum_height="126" priority="3" >
+					<container class="horizontal_adaptive_container" default_height="-1" minimum_height="126" priority="3">
 						<record id="default_properties" file="competition/competition overview player stats panel" maximum_items="5" default_width="-1" minimum_width="220" />
 
 						<!-- CPS_MAN_OF_MATCH -->

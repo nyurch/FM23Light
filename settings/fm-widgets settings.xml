@@ -9,22 +9,22 @@
 	 -->
 
 	<!-- global settings -->
-	<set_global name="ui.main_box_gap" >
+	<set_global name="ui.main_box_gap">
 		<integer value="12"/>
 	</set_global>
-	<set_global name="ui.main_contrast_box_gap" >
+	<set_global name="ui.main_contrast_box_gap">
 		<integer value="8"/>
 	</set_global>
-	<set_global name="ui.inner_box_gap" >
+	<set_global name="ui.inner_box_gap">
 		<integer value="20"/>
 	</set_global>
-	<set_global name="ui.main_content_margin" >
+	<set_global name="ui.main_content_margin">
 		<integer value="10" />
 	</set_global>
-	<set_global name="ui.button_row_gap" >
+	<set_global name="ui.button_row_gap">
 		<integer value="4"/>
 	</set_global>
-	<set_global name="ui.split_button_row_gap" >
+	<set_global name="ui.split_button_row_gap">
 		<integer value="1"/>
 	</set_global>
 
@@ -190,9 +190,9 @@
 	<!-- misc properties -->
 	<real id="background_opacity" value="1.0" />
 	<integer id="dcht" value="30" comment="default control height"/>
-  	<real id="default_control_inset" value="0" />
-  	<real id="default_control_offset" value="0" />
-  	<real id="default_control_gap" value="4" />
+	<real id="default_control_inset" value="0" />
+	<real id="default_control_offset" value="0" />
+	<real id="default_control_gap" value="4" />
 	<real id="default_table_column_spacing" value="4" />
 	<real id="default_table_row_spacing" value="0" />
 

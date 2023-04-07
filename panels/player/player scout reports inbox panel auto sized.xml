@@ -230,7 +230,7 @@
 					<translation id="text" translation_id="316845" type="use" value="Scout Report[COMMENT: Panel title for when viewing a scout report]" />
 				</widget>
 			</container>
-			<widget class="label" id="ktxt" alignment="right,centre_y"  />
+			<widget class="label" id="ktxt" alignment="right,centre_y" />
 		</container>
 
 		<widget class="horizontal_percentage_bar" id="kbar" height="10"/>
@@ -326,7 +326,7 @@
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 			<!--CA/PA/rec/pros/cons-->
-			<container class="inner_subtle_box_no_margin" >
+			<container class="inner_subtle_box_no_margin">
 				<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="6" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
@@ -343,7 +343,7 @@
 						<widget class="label" alignment="bottom" spec="text" size="small">
 							<translation id="text" translation_id="293291" type="use" value="Current Ability" />
 						</widget>
-						<widget class="scout_stars_label" id="CAIC" alignment="centre"  navigation_focus_target="false" mode="1"/>
+						<widget class="scout_stars_label" id="CAIC" alignment="centre" navigation_focus_target="false" mode="1"/>
 					</container>
 
 					<!--PA-->
@@ -380,7 +380,7 @@
 					<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
 					<!-- Pros icons -->
-					<container class="inner_subtle_box_no_margin" >
+					<container class="inner_subtle_box_no_margin">
 						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="1" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
@@ -404,7 +404,7 @@
 					</container>
 
 					<!-- Cons icons -->
-					<container class="inner_subtle_box_no_margin" >
+					<container class="inner_subtle_box_no_margin">
 						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="1" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 

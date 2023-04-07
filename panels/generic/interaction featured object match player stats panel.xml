@@ -93,7 +93,7 @@
 				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
 				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
 			</widget>
-						<widget class="text" entity_layout_id="at09" id="scrL" alignment="centre_x,centre_y" auto_size="horizontal" height="25">
+			<widget class="text" entity_layout_id="at09" id="scrL" alignment="centre_x,centre_y" auto_size="horizontal" height="25">
 
 				<string id="style" value="bold" />
 				<string id="value" value="text" />

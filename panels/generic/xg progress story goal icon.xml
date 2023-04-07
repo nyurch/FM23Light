@@ -6,11 +6,11 @@
 
 	<container>
 		<attachment_group class="vertical_arrange" vertical_alignment="top" />
-		<widget class="picture" id="golP" auto_size="vertical"  file="icons/16px/ball" red_replacement="indigo 900" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"  />
+		<widget class="picture" id="golP" auto_size="vertical" file="icons/16px/ball" red_replacement="indigo 900" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" />
 	</container>
 	<container>
 		<attachment_group class="vertical_arrange" vertical_alignment="middle" />
-		<widget class="picture" id="dotP" auto_size="vertical" file="icons/16px/circle" red_replacement="indigo 900" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"  />
+		<widget class="picture" id="dotP" auto_size="vertical" file="icons/16px/circle" red_replacement="indigo 900" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" />
 	</container>
 	<widget class="spacer"/>
 </panel>

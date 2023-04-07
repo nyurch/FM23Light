@@ -54,7 +54,7 @@
 				<!-- Attendance -->
 				<container width="175" priority="4">
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_offset="0" vertical_inset="0"/>
-					
+
 					<widget class="picture" file="icons/custom/team stats/stadium" image_alignment="centre" scale_picture="false" auto_size="horizontal"/>
 
 					<container>
@@ -132,7 +132,7 @@
 		</container>
 
 		<!-- Match results -->
-		<container class="inner_subtle_box" id="ftcn" >
+		<container class="inner_subtle_box" id="ftcn">
 			<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_offset="0" horizontal_inset="0" />
 
 			<!-- tabbed container below 400 px -->

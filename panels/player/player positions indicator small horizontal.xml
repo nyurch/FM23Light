@@ -4,7 +4,7 @@
 
 	<container>
 
-	<record id="mask" alignment="vertical, left" top="0" bottom="-110" width="200" file="backgrounds/pattern" offset_x="-300" offset_y="50"/>
+		<record id="mask" alignment="vertical, left" top="0" bottom="-110" width="200" file="backgrounds/pattern" offset_x="-300" offset_y="50"/>
 
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="8" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
@@ -62,8 +62,8 @@
 					<translation id="text" translation_id="447600" type="use" value="This player is being scouted by [%person#1] and the report will be available shortly.[COMMENT:scout report, scouting in progress]" />
 				</widget>
 				<widget class="text" id="pool" auto_size="vertical" hidden="true">
-				  <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
-				  <translation id="text" translation_id="342085" type="use" value="Scouting In Progress[COMMENT: disabled menu item when a player is already being scouted]" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+					<translation id="text" translation_id="342085" type="use" value="Scouting In Progress[COMMENT: disabled menu item when a player is already being scouted]" />
 				</widget>
 				<widget class="button" id="scPb" click_event="sctc" auto_size="all" height="30" hidden="true">
 					<translation id="text" translation_id="243421" type="use" value="Scout Player" />
@@ -74,18 +74,18 @@
 			<!-- Best roles for selected position -->
 			<widget class="table" id="Rcon" layout="80, 18, -1, 100" auto_size_rows="false" row_height="28" row_spacing="2" column_spacing="4" mode="select_rows" select_event="sdst" sort_disabled="true">
 				<translation id="hint" translation_id="330016" type="use" value="Highlight key attributes for role[COMMENT: option allowing for viewing the key attributes needed to play in a certain role]" />
-                <global id="override_select_row_flags" name="platform_is_stadia"/>
+				<global id="override_select_row_flags" name="platform_is_stadia"/>
 
 				<record id="default_properties">
 					<translation id="hint" translation_id="330016" type="use" value="Highlight key attributes for role[COMMENT: option allowing for viewing the key attributes needed to play in a certain role]" />
 				</record>
-				
+
 				<list id="column_widget_properties">
-				<record index="1" navigation_focus_target="true" />
-				<record index="2" navigation_focus_target="true" />
+					<record index="1" navigation_focus_target="true" />
+					<record index="2" navigation_focus_target="true" />
 				</list>
 
-<!-- added button appearance to recolour text from white -->
+				<!-- added button appearance to recolour text from white -->
 				<widget class="stars_range_strip" id="roS1" row="0" col="0" image_alignment="centre" />
 				<widget class="info_icon_hint_text" id="hnt1" row="0" col="1" />
 				<widget class="popup_button" id="dut1" row="0" col="2" appearance="buttons/text/button" column_span="2" />

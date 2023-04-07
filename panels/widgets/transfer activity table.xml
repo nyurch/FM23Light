@@ -52,7 +52,7 @@
 				</record>
 			</record>
 			<!-- Fee column -->
-			<record id="feeC" index="4" auto_hide_priority="40" sort_ascending="false" >
+			<record id="feeC" index="4" auto_hide_priority="40" sort_ascending="false">
 				<record id="widget_info">
 					<symbol id="class" value="text" />
 				</record>

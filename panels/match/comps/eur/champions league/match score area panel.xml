@@ -107,7 +107,7 @@
 			<container background_colour="grey 300" width="44">
 				<layout class="stick_to_sides_attachment" apply_to_children="true" inset="3"/>
 
-				<widget class="match_team_logo_picture" id="TeLo"/>				
+				<widget class="match_team_logo_picture" id="TeLo"/>
 
 			</container>
 
@@ -159,7 +159,7 @@
 			<container background_colour="grey 300" width="44">
 				<layout class="stick_to_sides_attachment" apply_to_children="true" inset="3"/>
 
-				<widget class="match_team_logo_picture" id="TeLo"/>		
+				<widget class="match_team_logo_picture" id="TeLo"/>
 
 			</container>
 

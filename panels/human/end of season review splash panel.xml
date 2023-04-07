@@ -18,7 +18,7 @@
 		<boolean id="exclude_from_find" value="true" />
 		<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 	</widget>
-		<container class="main_subtle_box" appearance="boxes/custom/interaction/person/paper_disabled" entity_layout_id="at00" id="at00">
+	<container class="main_subtle_box" appearance="boxes/custom/interaction/person/paper_disabled" entity_layout_id="at00" id="at00">
 		<attachment class="test_screen_size_attachment" skip_if_false="true">
 			<list id="properties">
 				<record>

@@ -1435,7 +1435,7 @@
 				<integer id="id" value="pcfr" />
 			</record>
 		</record>
-		
+
 		<!-- current contract display status for mls drafts -->
 		<record>
 			<integer id="id" value="Pcds" />
@@ -1532,26 +1532,26 @@
 			</record>
 		</record>
 
-        <record>
-            <integer id="id" value="prsa" />
-            <integer id="width" value="240" />
-            <integer id="minimum_width" value="240" />
-            <flags id="customisation_context" value="none" />
-            <integer id="auto_hide_priority" value="0" />
-            <record id="widget_info">
-                <symbol id="class" value="dof_contract_recommendation_label" />
-            </record>
+		<record>
+			<integer id="id" value="prsa" />
+			<integer id="width" value="240" />
+			<integer id="minimum_width" value="240" />
+			<flags id="customisation_context" value="none" />
+			<integer id="auto_hide_priority" value="0" />
+			<record id="widget_info">
+				<symbol id="class" value="dof_contract_recommendation_label" />
+			</record>
 
-            <record id="column_widget_properties">
-                <flags id="alignment" value="left, centre_y" />
-            </record>
-            <record id="column_heading">
-                <flags id="alignment" value="left, centre_y" />
+			<record id="column_widget_properties">
+				<flags id="alignment" value="left, centre_y" />
+			</record>
+			<record id="column_heading">
+				<flags id="alignment" value="left, centre_y" />
 				<translation id="text" translation_id="337896" type="use" value="Feedback[COMMENT: player form; title of a view displaying comments made by the assistant manager after matches]" />
 				<translation id="hint" translation_id="337896" type="use" value="Feedback[COMMENT: player form; title of a view displaying comments made by the assistant manager after matches]" />
-            </record>
-        </record>
-        
+			</record>
+		</record>
+
 		<record>
 			<integer id="id" value="Pats" />
 			<integer id="width" value="130" />
@@ -1587,7 +1587,7 @@
 			</record>
 		</record>
 
-        <record>
+		<record>
 			<integer id="id" value="PlrC" />
 			<integer id="width" value="100" />
 			<integer id="minimum_width" value="100" />
@@ -1603,51 +1603,51 @@
 			<record id="column_heading">
 				<flags id="alignment" value="centre" />
 				<translation id="text" translation_id="232957" type="use" value="Reason" />
-				<translation id="hint" translation_id="557885" type="use" value="Reason why the player's registration status has changed[COMMENT: AREA: Staff Meeting; SUB-AREA: Staff Meeting Reg Change Topic; FN-BN: FM-5405; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Lets the user know reason for why reg status changed on player]" />			
+				<translation id="hint" translation_id="557885" type="use" value="Reason why the player's registration status has changed[COMMENT: AREA: Staff Meeting; SUB-AREA: Staff Meeting Reg Change Topic; FN-BN: FM-5405; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Lets the user know reason for why reg status changed on player]" />
 			</record>
 		</record>
 
 
 		<record>
-            <integer id="id" value="PiCc" />
-            <integer id="width" value="100" />
-            <integer id="minimum_width" value="100" />
-            <flags id="customisation_context" value="none" />
-            <integer id="auto_hide_priority" value="0" />
-            <record id="widget_info">
-                <symbol id="class" value="text" />
-            </record>
+			<integer id="id" value="PiCc" />
+			<integer id="width" value="100" />
+			<integer id="minimum_width" value="100" />
+			<flags id="customisation_context" value="none" />
+			<integer id="auto_hide_priority" value="0" />
+			<record id="widget_info">
+				<symbol id="class" value="text" />
+			</record>
 
-            <record id="column_widget_properties">
-                <flags id="alignment" value="centre" />
-            </record>
-            <record id="column_heading">
-                <flags id="alignment" value="centre" />
-                <translation id="text" translation_id="383284" type="use" value="Clubs Interested[COMMENT: FR 10253, player overview; trandfers sub panel; label for number of clubs interested in a player]" />
-                <translation id="hint" translation_id="541202" type="use" value="Number of clubs interested in making a transfer offer[COMMENT: AREA: Player transfer panel; SUB-AREA: ; FR-BN: 51780; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: label hint explaining number of clubs interested in a player]" />
-            </record>
-        </record>
+			<record id="column_widget_properties">
+				<flags id="alignment" value="centre" />
+			</record>
+			<record id="column_heading">
+				<flags id="alignment" value="centre" />
+				<translation id="text" translation_id="383284" type="use" value="Clubs Interested[COMMENT: FR 10253, player overview; trandfers sub panel; label for number of clubs interested in a player]" />
+				<translation id="hint" translation_id="541202" type="use" value="Number of clubs interested in making a transfer offer[COMMENT: AREA: Player transfer panel; SUB-AREA: ; FR-BN: 51780; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: label hint explaining number of clubs interested in a player]" />
+			</record>
+		</record>
 
-        <record>
-            <integer id="id" value="PToc" />
-            <integer id="width" value="100" />
-            <integer id="minimum_width" value="100" />
-            <flags id="customisation_context" value="none" />
-            <integer id="auto_hide_priority" value="0" />
-            <record id="widget_info">
-                <symbol id="class" value="text" />
-            </record>
+		<record>
+			<integer id="id" value="PToc" />
+			<integer id="width" value="100" />
+			<integer id="minimum_width" value="100" />
+			<flags id="customisation_context" value="none" />
+			<integer id="auto_hide_priority" value="0" />
+			<record id="widget_info">
+				<symbol id="class" value="text" />
+			</record>
 
-            <record id="column_widget_properties">
-                <flags id="alignment" value="centre" />
-            </record>
-            <record id="column_heading">
-                <flags id="alignment" value="centre" />
-                <translation id="text" translation_id="435250" type="use" value="Bids Made[COMMENT: FR 10253, player overview; trandfers sub panel; label for number of bids (transfer offers) made for a player, use top 10 matches, just capitalised the M in Made for bug 134165]" />
-                <translation id="hint" translation_id="541203" type="use" value="Number of transfer offers made[COMMENT: AREA: Player transfer panel; SUB-AREA: ; FR-BN: 51780; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: label hint explaining number of bids made for a player]" />
-            </record>
-        </record>
-        
+			<record id="column_widget_properties">
+				<flags id="alignment" value="centre" />
+			</record>
+			<record id="column_heading">
+				<flags id="alignment" value="centre" />
+				<translation id="text" translation_id="435250" type="use" value="Bids Made[COMMENT: FR 10253, player overview; trandfers sub panel; label for number of bids (transfer offers) made for a player, use top 10 matches, just capitalised the M in Made for bug 134165]" />
+				<translation id="hint" translation_id="541203" type="use" value="Number of transfer offers made[COMMENT: AREA: Player transfer panel; SUB-AREA: ; FR-BN: 51780; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: label hint explaining number of bids made for a player]" />
+			</record>
+		</record>
+
 		<!--add to draft -->
 		<record>
 			<integer id="id" value="PaDF" />
@@ -1952,7 +1952,8 @@
 
 			<record id="column_widget_properties">
 				<flags id="alignment" value="centre" />
-				<flags id="colour" value="text" />	<!-- added colour -->
+				<flags id="colour" value="text" />
+				<!-- added colour -->
 			</record>
 			<record id="column_heading">
 				<flags id="alignment" value="centre" />
@@ -2604,8 +2605,8 @@
 				<!-- PERSON_XML_FILTER_COMPARISON_POPUP_ID -->
 			</record>
 		</record>
-		
-			<record>
+
+		<record>
 			<integer id="id" value="NeWP" />
 			<flags id="mode" value="invalid_for_fmt,invalid_for_versus_mode" />
 			<integer id="width" value="100" />
@@ -2745,28 +2746,28 @@
 			</record>
 		</record>
 
-        <record>
-            <integer id="id" value="PcpH" />
-            <flags id="mode" value="invalid_for_versus_mode" />
-            <integer id="width" value="100" />
-            <translation id="name" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
-            <translation id="hint" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
-            <flags id="customisation_context" value="none" />
-            <boolean id="sort_ascending" value="true" />
-            <integer id="auto_hide_priority" value="1600" />
-            <record id="widget_info">
-                <symbol id="class" value="playing_time_label" />
-            </record>
+		<record>
+			<integer id="id" value="PcpH" />
+			<flags id="mode" value="invalid_for_versus_mode" />
+			<integer id="width" value="100" />
+			<translation id="name" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
+			<translation id="hint" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
+			<flags id="customisation_context" value="none" />
+			<boolean id="sort_ascending" value="true" />
+			<integer id="auto_hide_priority" value="1600" />
+			<record id="widget_info">
+				<symbol id="class" value="playing_time_label" />
+			</record>
 
-            <record id="column_widget_properties">
-                <flags id="alignment" value="left,centre_y" />
-            </record>
-            <record id="column_heading">
-                <flags id="alignment" value="left,centre_y" />
-                <translation id="text" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
-                <translation id="hint" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
-            </record>
-        </record>
+			<record id="column_widget_properties">
+				<flags id="alignment" value="left,centre_y" />
+			</record>
+			<record id="column_heading">
+				<flags id="alignment" value="left,centre_y" />
+				<translation id="text" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
+				<translation id="hint" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
+			</record>
+		</record>
 
 		<record>
 			<integer id="id" value="PFpt" />
@@ -3084,8 +3085,10 @@
 			<record id="widget_edit_info">
 				<symbol id="class" value="edit_date_cell" />
 				<string id="appearance" value="buttons/subtle/flex/button" />
-				<string id="red_replacement" value="bg accent" />	<!-- changed from secondary -->
-				<string id="colour" value="fg accent" />			<!-- changed from secondary -->
+				<string id="red_replacement" value="bg accent" />
+				<!-- changed from secondary -->
+				<string id="colour" value="fg accent" />
+				<!-- changed from secondary -->
 				<integer id="years_in_future" value="5" />
 			</record>
 			<record id="column_widget_properties">
@@ -5666,7 +5669,7 @@
 				<boolean id="label_disabled" value="true" />
 				<boolean id="show_hover_popup_on_focus" value="true" />
 			</record>
-			
+
 			<!-- Need the rolling fitness status -->
 			<list id="dependent_properties">
 				<integer value="rMfA" />
@@ -5773,8 +5776,8 @@
 			<!--<record id="search_filter">
 				<integer id="id" value="ptrl" />
 			  </record>-->
-		</record>		
-		
+		</record>
+
 		<!--transfer status selection button-->
 		<record>
 			<integer id="id" value="PcTp" />
@@ -5806,7 +5809,7 @@
 		<!--player interest in joining-->
 		<record>
 			<integer id="id" value="PPaD" />
-            <flags id="mode" value="invalid_for_versus_mode, invalid_for_fmt_tablet, invalid_for_fmt" />
+			<flags id="mode" value="invalid_for_versus_mode, invalid_for_fmt_tablet, invalid_for_fmt" />
 			<integer id="width" value="150" />
 			<translation id="name" translation_id="510403" type="use" value="Player's Interest[COMMENT: AREA: Player Transfer Information panel; FR-BN: 32754; NOTE: Player's interest subpanel title]" />
 			<flags id="customisation_context" value="play" />
@@ -5868,8 +5871,8 @@
 			<record id="search_filter">
 				<integer id="id" value="ptrl" />
 			</record>
-		</record>		
-		
+		</record>
+
 		<!--loan status seletion-->
 		<record>
 			<integer id="id" value="PcLp" />
@@ -5972,8 +5975,10 @@
 			<record id="widget_edit_info">
 				<symbol id="class" value="cash_edit_box" />
 				<string id="appearance" value="buttons/subtle/flex/button" />
-				<string id="red_replacement" value="bg accent" />	<!-- changed from secondary -->
-				<string id="colour" value="fg accent" />			<!-- changed from secondary -->
+				<string id="red_replacement" value="bg accent" />
+				<!-- changed from secondary -->
+				<string id="colour" value="fg accent" />
+				<!-- changed from secondary -->
 				<integer id="display_format" value="0" />
 			</record>
 
@@ -7332,8 +7337,10 @@
 			<record id="widget_edit_info">
 				<symbol id="class" value="edit_nation_button" />
 				<string id="appearance" value="buttons/subtle/flex/button" />
-				<string id="red_replacement" value="bg accent" />	<!-- changed from secondary -->
-				<string id="colour" value="fg accent" />			<!-- changed from secondary -->
+				<string id="red_replacement" value="bg accent" />
+				<!-- changed from secondary -->
+				<string id="colour" value="fg accent" />
+				<!-- changed from secondary -->
 				<list id="attachments">
 					<record class="pick_database_record_attachment" />
 				</list>
@@ -7730,7 +7737,8 @@
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
 				<flags id="spec" value="text" />
-				<flags id="colour" value="text" />	<!-- added colour -->
+				<flags id="colour" value="text" />
+				<!-- added colour -->
 			</record>
 			<record id="column_heading">
 				<flags id="alignment" value="left,centre_y" />
@@ -7770,7 +7778,7 @@
 				<integer id="id" value="pftx" />
 			</record>
 		</record>
-		
+
 		<!--percentage of decrease retained-->
 		<record>
 			<integer id="id" value="Pdcp" />
@@ -8315,7 +8323,7 @@
 				<integer id="id" value="pftr" />
 			</record>
 		</record>
-		
+
 		<!-- non_penalty_expected_goals_per_game -->
 		<record>
 			<integer id="id" value="PNx9" />
@@ -9617,8 +9625,8 @@
 				<integer id="id" value="pftr" />
 			</record>
 		</record>
-		
-	<!--blocks_per_90-->
+
+		<!--blocks_per_90-->
 		<record>
 			<integer id="id" value="PObg" />
 			<flags id="mode" value="invalid_for_fmt_tablet" />
@@ -9668,8 +9676,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>	
-		
+		</record>
+
 		<!--expected_assists_per_90-->
 		<record>
 			<integer id="id" value="PxA9" />
@@ -9694,8 +9702,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>			
-		
+		</record>
+
 		<!--key_headers_per_game-->
 		<record>
 			<integer id="id" value="POH9" />
@@ -9720,8 +9728,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>		
-				
+		</record>
+
 		<!--key_tackles_per_game-->
 		<record>
 			<integer id="id" value="POt9" />
@@ -9747,14 +9755,14 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>		
-		
-  	<!--progressive_passes-->
+		</record>
+
+		<!--progressive_passes-->
 		<record>
 			<integer id="id" value="PGRp" />
 			<flags id="mode" value="invalid_for_fmt_tablet" />
 			<integer id="width" value="60" />
-		  <translation id="name" translation_id="557894" type="use" value="Progressive passes[COMMENT: AREA: Scouting; SUB-AREA: Shortlist Panel; FR-BN: ]" />
+			<translation id="name" translation_id="557894" type="use" value="Progressive passes[COMMENT: AREA: Scouting; SUB-AREA: Shortlist Panel; FR-BN: ]" />
 			<flags id="customisation_context" value="play" />
 			<translation id="category" translation_id="453950" type="use" value="Stats (Chalkboard)[COMMENT: section heading]" />
 			<translation id="subcategory" translation_id="249416" type="use" value="Passes[COMMENT: player stat: passes table label]" />
@@ -9773,8 +9781,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>	
-		
+		</record>
+
 		<!--progressive_passes_per_90-->
 		<record>
 			<integer id="id" value="PGR9" />
@@ -9825,8 +9833,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>		
-		
+		</record>
+
 		<!--pressures_attempted_per_90-->
 		<record>
 			<integer id="id" value="PRS9" />
@@ -9852,7 +9860,7 @@
 				<integer id="id" value="pftr" />
 			</record>
 		</record>
-		
+
 		<!--pressures_completed-->
 		<record>
 			<integer id="id" value="Pres" />
@@ -9877,8 +9885,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>	
-		
+		</record>
+
 		<!--pressures_completed_per_90-->
 		<record>
 			<integer id="id" value="Prs9" />
@@ -9930,7 +9938,7 @@
 				<integer id="id" value="pftr" />
 			</record>
 		</record>
-		
+
 		<!--clearances_per_game-->
 		<record>
 			<integer id="id" value="POc9" />
@@ -9955,9 +9963,9 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>	
-		
-			<!--sprints_per_game-->
+		</record>
+
+		<!--sprints_per_game-->
 		<record>
 			<integer id="id" value="POSp" />
 			<flags id="mode" value="invalid_for_fmt_tablet" />
@@ -9981,8 +9989,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>	
-		
+		</record>
+
 		<!--possession_lost_per_90-->
 		<record>
 			<integer id="id" value="POL9" />
@@ -10034,8 +10042,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>		
-		
+		</record>
+
 		<!--open_play_key_passes_per_90-->
 		<record>
 			<integer id="id" value="Pop9" />
@@ -10087,8 +10095,8 @@
 				<integer id="id" value="pftr" />
 			</record>
 		</record>
-		
-	<!--Crosses_attempted_per_game-->
+
+		<!--Crosses_attempted_per_game-->
 		<record>
 			<integer id="id" value="Poa9" />
 			<flags id="mode" value="invalid_for_fmt_tablet" />
@@ -10096,7 +10104,8 @@
 			<translation id="name" translation_id="516738" type="use" value="Crosses attempted per 90 minutes[COMMENT: AREA: Competition Stats; SUB-AREA: Player Overview; FR-BN: 19955; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Stat description]" />
 			<flags id="customisation_context" value="play" />
 			<translation id="category" translation_id="453950" type="use" value="Stats (Chalkboard)[COMMENT: section heading]" />
-			<translation id="subcategory" translation_id="291481" type="use" value="Crosses[COMMENT: match analysis panel; event type]" />&gt;
+			<translation id="subcategory" translation_id="291481" type="use" value="Crosses[COMMENT: match analysis panel; event type]" />
+&gt;
 			<boolean id="sort_ascending" value="false" />
 			<record id="widget_info">
 				<symbol id="class" value="dashed_number_label" />
@@ -10113,7 +10122,7 @@
 				<integer id="id" value="pftr" />
 			</record>
 		</record>
-		
+
 		<!--Crosses_completed_per_game-->
 		<record>
 			<integer id="id" value="POcP" />
@@ -10122,7 +10131,8 @@
 			<translation id="name" translation_id="557909" type="use" value="Crosses Completed per 90 minutes[COMMENT: AREA: Squad; SUB-AREA:Player Stats; FR-BN: ]" />
 			<flags id="customisation_context" value="play" />
 			<translation id="category" translation_id="453950" type="use" value="Stats (Chalkboard)[COMMENT: section heading]" />
-			<translation id="subcategory" translation_id="291481" type="use" value="Crosses[COMMENT: match analysis panel; event type]" />&gt;
+			<translation id="subcategory" translation_id="291481" type="use" value="Crosses[COMMENT: match analysis panel; event type]" />
+&gt;
 			<boolean id="sort_ascending" value="false" />
 			<record id="widget_info">
 				<symbol id="class" value="dashed_number_label" />
@@ -10163,8 +10173,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>	
-		
+		</record>
+
 		<!--expected_goals_prevented_per_game-->
 		<record>
 			<integer id="id" value="Pxg9" />
@@ -10322,7 +10332,7 @@
 				<integer id="id" value="pftr" />
 			</record>
 		</record>
-		
+
 		<!--shot attempts-->
 		<record>
 			<integer id="id" value="POsa" />
@@ -10664,8 +10674,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>		
-		
+		</record>
+
 		<record>
 			<integer id="id" value="POs%" />
 			<flags id="mode" value="invalid_for_fmt_tablet" />
@@ -10692,8 +10702,8 @@
 			<record id="search_filter">
 				<integer id="id" value="pftr" />
 			</record>
-		</record>	
-		
+		</record>
+
 		<record>
 			<integer id="id" value="POx%" />
 			<flags id="mode" value="invalid_for_fmt_tablet" />
@@ -13216,7 +13226,7 @@
 				<translation id="hint" translation_id="396472" type="use" value="Assistant manager's opinion of this player's current ability in the selected role[COMMENT - person list view column heading hint]" />
 			</record>
 		</record>
-		
+
 		<record>
 			<integer id="id" value="Ppab" />
 			<flags id="mode" value="invalid_for_versus_mode" />
@@ -13529,7 +13539,8 @@
 
 			<record id="column_widget_properties">
 				<flags id="alignment" value="centre" />
-				<flags id="colour" value="text" /> <!-- added colour -->
+				<flags id="colour" value="text" />
+				<!-- added colour -->
 			</record>
 			<record id="column_heading">
 				<flags id="alignment" value="centre" />
@@ -13553,7 +13564,8 @@
 
 			<record id="column_widget_properties">
 				<flags id="alignment" value="centre" />
-				<flags id="colour" value="text" /> <!-- added colour -->
+				<flags id="colour" value="text" />
+				<!-- added colour -->
 			</record>
 			<record id="column_heading">
 				<flags id="alignment" value="centre" />
@@ -13601,7 +13613,8 @@
 
 			<record id="column_widget_properties">
 				<flags id="alignment" value="centre" />
-				<flags id="colour" value="text" /> <!-- added colour -->
+				<flags id="colour" value="text" />
+				<!-- added colour -->
 			</record>
 			<record id="column_heading">
 				<flags id="alignment" value="centre" />
@@ -13652,7 +13665,8 @@
 
 			<record id="column_widget_properties">
 				<flags id="alignment" value="centre" />
-				<flags id="colour" value="text" />	<!-- added colour -->
+				<flags id="colour" value="text" />
+				<!-- added colour -->
 			</record>
 			<record id="column_heading">
 				<flags id="alignment" value="centre" />
@@ -17531,7 +17545,8 @@
 
 			<record id="column_widget_properties">
 				<flags id="alignment" value="centre" />
-				<flags id="colour" value="fg"/> <!-- value="average rating" -->
+				<flags id="colour" value="fg"/>
+				<!-- value="average rating" -->
 			</record>
 			<record id="column_heading">
 				<flags id="alignment" value="centre" />
@@ -20220,7 +20235,8 @@
 				<symbol id="class" value="dob_edit_button" />
 				<string id="appearance" value="buttons/subtle/flex/button" />
 				<string id="colour" value="text" />
-				<string id="red_replacement" value="bg accent" />	<!-- changed from secondary -->
+				<string id="red_replacement" value="bg accent" />
+				<!-- changed from secondary -->
 			</record>
 
 			<record id="column_widget_properties">
@@ -20242,25 +20258,25 @@
 			</record>
 		</record>
 
-        <!-- at club since year -->
+		<!-- at club since year -->
 		<record>
-            <integer id="id" value="PcjY" />
-            <integer id="width" value="100" />
-            <translation id="name" translation_id="557912" type="use" value="At Club Since[COMMENT: AREA: Club vision; SUB-AREA: Board profile; FR: 3266; TONE: Formal; CHARLIMIT: None; NOTE: column heading for year board member joined club]" />
-            <flags id="customisation_context" value="none" />
-            <record id="widget_info">
-                <symbol id="class" value="date_cell" />
-                <string id="format" value="[%date#1-year]" />
-            </record>
-            <record id="column_widget_properties">
-                <flags id="alignment" value="left, centre_y" />
-            </record>
-            <record id="column_heading">
-                <flags id="alignment" value="left, centre_y" />
-                <translation id="text" translation_id="557912" type="use" value="At Club Since[COMMENT: AREA: Club vision; SUB-AREA: Board profile; FR: 3266; TONE: Formal; CHARLIMIT: None; NOTE: column heading for year board member joined club]" />
-                <translation id="hint" translation_id="557912" type="use" value="At Club Since[COMMENT: AREA: Club vision; SUB-AREA: Board profile; FR: 3266; TONE: Formal; CHARLIMIT: None; NOTE: column heading for year board member joined club]" />
-            </record>
-        </record>
+			<integer id="id" value="PcjY" />
+			<integer id="width" value="100" />
+			<translation id="name" translation_id="557912" type="use" value="At Club Since[COMMENT: AREA: Club vision; SUB-AREA: Board profile; FR: 3266; TONE: Formal; CHARLIMIT: None; NOTE: column heading for year board member joined club]" />
+			<flags id="customisation_context" value="none" />
+			<record id="widget_info">
+				<symbol id="class" value="date_cell" />
+				<string id="format" value="[%date#1-year]" />
+			</record>
+			<record id="column_widget_properties">
+				<flags id="alignment" value="left, centre_y" />
+			</record>
+			<record id="column_heading">
+				<flags id="alignment" value="left, centre_y" />
+				<translation id="text" translation_id="557912" type="use" value="At Club Since[COMMENT: AREA: Club vision; SUB-AREA: Board profile; FR: 3266; TONE: Formal; CHARLIMIT: None; NOTE: column heading for year board member joined club]" />
+				<translation id="hint" translation_id="557912" type="use" value="At Club Since[COMMENT: AREA: Club vision; SUB-AREA: Board profile; FR: 3266; TONE: Formal; CHARLIMIT: None; NOTE: column heading for year board member joined club]" />
+			</record>
+		</record>
 
 		<!-- club join date -->
 		<record>
@@ -20268,9 +20284,9 @@
 			<integer id="width" value="60" />
 			<translation id="name" translation_id="251890" type="use" value="Date Joined[COMMENT - player achievements panel; column heading for table]" />
 			<flags id="customisation_context" value="none" />
-            <record id="widget_info">
-                <symbol id="class" value="date_cell" />
-            </record>
+			<record id="widget_info">
+				<symbol id="class" value="date_cell" />
+			</record>
 			<record id="column_widget_properties">
 				<flags id="alignment" value="centre" />
 			</record>
@@ -20280,7 +20296,7 @@
 				<translation id="hint" translation_id="251890" type="use" value="Date Joined[COMMENT - player achievements panel; column heading for table]" />
 			</record>
 		</record>
-		
+
 		<!-- national join date -->
 		<record>
 			<integer id="id" value="Pnjd" />
@@ -24841,7 +24857,7 @@
 			<integer id="aliased_property_id" value="SOnT" />
 			<integer id="width" value="40" />
 			<flags id="customisation_context" value="none" />
-				<translation id="name" translation_id="560966" type="use" value="Shots - On Target[COMMENT: AREA: Player Stats; BN: FM-7383; TONE: Informal; NOTE; event type on chalkboard showing player shot was on target]" />
+			<translation id="name" translation_id="560966" type="use" value="Shots - On Target[COMMENT: AREA: Player Stats; BN: FM-7383; TONE: Informal; NOTE; event type on chalkboard showing player shot was on target]" />
 
 			<record id="widget_info">
 				<symbol id="class" value="chalkboard_toggle_event" />
@@ -26116,7 +26132,8 @@
 			<integer id="aliased_property_id" value="CElb" />
 			<integer id="width" value="40" />
 			<flags id="customisation_context" value="chlk" />
-			<translation id="category" translation_id="453045" type="use" value="Chalkboard - Mistakes[COMMENT: section title text for chalkboard category]" />&gt;
+			<translation id="category" translation_id="453045" type="use" value="Chalkboard - Mistakes[COMMENT: section title text for chalkboard category]" />
+&gt;
 			<translation id="name" translation_id="395622" type="use" value="Lost Ball[COMMENT - match analysis screen, event type on chalkboard; BN 125922]" />
 
 			<record id="widget_info">
@@ -26392,7 +26409,7 @@
 			<flags id="customisation_context" value="none" />
 			<translation id="category" translation_id="247439" type="use" value="Match Stats" />
 			<translation id="name" translation_id="541769" type="use" value="Attempted/Completed[COMMENT: AREA: Chalkboard; SUB-AREA: Stat label; FR-BN: 45103; TONE: Formal; CHARLIMIT: None; NOTE: Title for stat attempted/completed column]" />
-				<record id="widget_info">
+			<record id="widget_info">
 				<symbol id="class" value="dual_stat_comparison_with_bar" />
 			</record>
 
@@ -26898,7 +26915,8 @@
 			</record>
 			<record id="column_widget_properties">
 				<flags id="alignment" value="left,centre_y" />
-				<flags id="colour" value="text" /> <!-- added colour -->
+				<flags id="colour" value="text" />
+				<!-- added colour -->
 
 			</record>
 			<record id="column_heading">
@@ -27404,7 +27422,7 @@
 				<translation id="hint" translation_id="492122" type="use" value="Fines[COMMENT: AREA: Finances; SUB-AREA: Player Fines and Discipline; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: a summary of financial income made from player fines]" />
 			</record>
 		</record>
-		
+
 		<!-- recruitment meeting action props -->
 		<!-- PROP_PERSON_RECRUITMENT_MEETING_SUGGESTION_ADVICE -->
 		<record>
@@ -27631,7 +27649,7 @@
 				<flags id="alignment" value="left,centre_y" />
 			</record>
 		</record>
-		
+
 		<record>
 			<integer id="id" value="RMcb" />
 			<integer id="width" value="-1" />

@@ -1,6 +1,6 @@
 <!-- normal header container used on all screens except the match screen -->
 <panel>
-	<container class="main_contrast_box" red_replacement="sidebar" navigation_container="true" >
+	<container class="main_contrast_box" red_replacement="sidebar" navigation_container="true">
 		<layout class="stick_to_sides_attachment" alignment="all" inset="-2"/>
 		<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_gap="0"/>
 
@@ -51,11 +51,11 @@
 						<container width="20">
 							<string id="remove_if" value="ui.is_fmt_touchscreen_skin"/>
 							<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" />
-							<widget class="quick_flick_button" id="flkl" auto_size="all" appearance="icons/16px/up" icon_enabled="true" cached="true" step="-1" red_replacement="white" >
+							<widget class="quick_flick_button" id="flkl" auto_size="all" appearance="icons/16px/up" icon_enabled="true" cached="true" step="-1" red_replacement="white">
 								<layout class="stick_to_sides_attachment" alignment="left,top" inset="12,0,0,0" />
 								<attachment class="get_global_attachment" get_property="stPQ" set_property="click_event" />
-						</widget>
-							<widget class="quick_flick_button" id="flkr" auto_size="all" appearance="icons/16px/down" cached="true" step="1" red_replacement="white" >
+							</widget>
+							<widget class="quick_flick_button" id="flkr" auto_size="all" appearance="icons/16px/down" cached="true" step="1" red_replacement="white">
 								<layout class="stick_to_sides_attachment" alignment="left,top" inset="26,0,0,0" />
 								<attachment class="get_global_attachment" get_property="stNQ" set_property="click_event" />
 							</widget>
@@ -88,8 +88,8 @@
 		<container>
 			<attachment_group class="horizontal_arrange_autosize_vertical_centre" horizontal_gap="4" horizontal_offset="12" vertical_offset="0"/>
 			<!-- World dropdown -->
-			<widget class="world_popup_button" id="wrld" width="44" height="44" icon="icons/26px/world" icon_colour="white" appearance="chrome/buttons/items/button" secondary_icon_enabled="false" icon_alignment="centre" alignment="centre" >
-				<attachment class="test_multiple_globals_attachment" default_value="true" >
+			<widget class="world_popup_button" id="wrld" width="44" height="44" icon="icons/26px/world" icon_colour="white" appearance="chrome/buttons/items/button" secondary_icon_enabled="false" icon_alignment="centre" alignment="centre">
+				<attachment class="test_multiple_globals_attachment" default_value="true">
 					<list id="get_properties">
 						<record get_property="gset" test_mode="equal" value="false" />
 						<record get_property="iVMg" test_mode="equal" comparison_mode="or" value="true" />
@@ -98,7 +98,7 @@
 				</attachment>
 			</widget>
 			<!-- Help button -->
-			<widget class="icon_button" id="hlpB" appearance="chrome/buttons/items/button" hidden="true" icon="icons/26px/help" icon_colour="white" width="44" height="44" disable_wheel="true" icon_alignment="centre" click_event="ohlp" >
+			<widget class="icon_button" id="hlpB" appearance="chrome/buttons/items/button" hidden="true" icon="icons/26px/help" icon_colour="white" width="44" height="44" disable_wheel="true" icon_alignment="centre" click_event="ohlp">
 				<translation id="hint" translation_id="466619" type="use" value="Help[COMMENT: Help button on titlebar]" />
 			</widget>
 			<!-- FM button -->
@@ -109,7 +109,7 @@
 				<translation id="hint" translation_id="292829" type="use" value="Options[COMMENT: menubar game options button]" />
 			</widget>
 			<!-- change manager button -->
-			<widget class="popup_button" id="ChMN" appearance="chrome/buttons/items/button" disable_wheel="true" height="39" auto_size="horizontal" colour="white" text="-" style="semi_bold" >
+			<widget class="popup_button" id="ChMN" appearance="chrome/buttons/items/button" disable_wheel="true" height="39" auto_size="horizontal" colour="white" text="-" style="semi_bold">
 				<event id="click_notification_event" event_id="FM" item="NULL" />
 				<event id="menu_layout_notification_event" event_id="mlne" event_target="ChMN" />
 				<attachment class="get_global_attachment" get_property="Hmen" set_property="itms" />
@@ -139,8 +139,8 @@
 			</widget>
 			<!-- transfer deadline day countdown -->
 			<widget class="transfer_deadline_day_countdown_widget" id="DDcd" height="44"/>
-				<!-- continue button -->
-				<container id="ctnu" file="generic/continue" colour="white" height="44" width="150"/>
+			<!-- continue button -->
+			<container id="ctnu" file="generic/continue" colour="white" height="44" width="150"/>
 		</container>
 	</container>
 </panel>

@@ -13,7 +13,7 @@
 		<layout class="centre_in_parent_attachment" alignment="all" apply_to_children="true" />
 
 
-		<container width="975" id="hwIN" >
+		<container width="975" id="hwIN">
 
 			<attachment class="test_screen_size_attachment" skip_if_false="true">
 				<list id="properties">
@@ -384,7 +384,7 @@
 								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="15" apply_to_children="true" />
 
 								<widget class="text" auto_size="vertical" alignment="left,centre_y" size="large" disable_link="true" colour="black">
-								<translation id="text" translation_id="344664" type="use" value="Recent Form" />
+									<translation id="text" translation_id="344664" type="use" value="Recent Form" />
 								</widget>
 
 								<container class="team_recent_form_widget" id="frAF" bar_width="24" show_form_letters="true" show_form_popup="false" win_filename="icons/custom/form large/win" loss_filename="icons/custom/form large/lose" draw_filename="icons/custom/form large/draw">
@@ -437,7 +437,7 @@
 			</container>
 		</container>
 
-		<widget class="match_league_table_panel" auto_size="vertical" width="480" file="match/match league table panel cutscene" id="ltCO" hidden="true" include_live_scores_in_table="false" >
+		<widget class="match_league_table_panel" auto_size="vertical" width="480" file="match/match league table panel cutscene" id="ltCO" hidden="true" include_live_scores_in_table="false">
 			<animation class="fade_animation" trigger_id="hidden" trigger_value="false" start_value="1.0" end_value="1.0" duration="0.2">
 				<record id="finished_event">
 					<flags id="event_id" value="ltAn" />
@@ -452,7 +452,7 @@
 				</record>
 			</animation>
 
-			<animation class="fade_animation"  trigger_start="liAn" trigger_value="false" start_value="1.0" end_value="0.0" duration="1.5">
+			<animation class="fade_animation" trigger_start="liAn" trigger_value="false" start_value="1.0" end_value="0.0" duration="1.5">
 				<record id="finished_event">
 					<flags id="event_id" value="LtAf" />
 				</record>

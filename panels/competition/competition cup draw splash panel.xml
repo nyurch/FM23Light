@@ -1,18 +1,18 @@
 ﻿<panel>
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-    
+
 	<container>
 		<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" horizontal_alignment="horizontal" />
-        
+
 		<container>
 			<attachment_group class="vertical_arrange" vertical_layout="-5,-19,-48" />
 
 			<widget class="spacer" />
-						
+
 			<container class="client_object_viewer_xml_panel" id="cmDE">
 				<attachment_group class="vertical_arrange_autosize_horizontal_centre" />
-                <animation class="translate_animation" start_value="0,-50" end_value="0,0" coord_mode="absolute_to_target" duration=".7" tween="ease_out" />
-                <animation class="fade_animation" start_value="0" end_value="1" duration=".6" tween="linear" />
+				<animation class="translate_animation" start_value="0,-50" end_value="0,0" coord_mode="absolute_to_target" duration=".7" tween="ease_out" />
+				<animation class="fade_animation" start_value="0" end_value="1" duration=".6" tween="linear" />
 				<widget class="value_based_picture" id="vbPI" image_alignment="centre" width="150" height="150" scale_picture="true">
 					<list id="value_list">
 						<record value="1301394" file="pictures/logos/custom/comps/eur/ucl_full" />
@@ -21,7 +21,7 @@
 						<record value="1301397" file="pictures/logos/custom/comps/eur/usc_full" />
 					</list>
 				</widget>
-				
+
 				<widget class="object_portrait_picture" id="trop" scale_picture="true" auto_size="all" height="120" width="120">
 					<integer id="property" value="trop" />
 					<boolean id="keep_aspect_ratio" value="true" />
@@ -33,25 +33,25 @@
 					</record>
 				</widget>
 				<widget class="game_formatted_label" id="cmLB" auto_size="all" font="title" size="xxlarge" style="bold" colour="white">
-				  <attachment class="get_global_attachment" get_property="CDtf" set_property="font" />
+					<attachment class="get_global_attachment" get_property="CDtf" set_property="font" />
 					<translation id="format" translation_id="242814" type="use" value="[%comp#1]" />
 					<record id="object_property" get_property="objt" set_property="var1" />
 				</widget>
-                <widget class="spacer" height="12" />
+				<widget class="spacer" height="12" />
 				<widget class="text" id="gsLB" auto_size="all" font="title">
-				  <attachment class="get_global_attachment" get_property="CDtc" set_property="colour" />
-				  <attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
+					<attachment class="get_global_attachment" get_property="CDtc" set_property="colour" />
+					<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
 				</widget>
-                <widget class="spacer" height="8" />
+				<widget class="spacer" height="8" />
 				<container navigation_container="true" width="230" height="68">
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="10"/>
-				<widget class="icon_button" appearance="chrome/buttons/continue/button" alignment="centre" secondary_icon_enabled="true" secondary_icon="icons/16px/continue" secondary_icon_alignment="centre_right, centre_y" colour="white" width="210" height="48" multiline="true">
-				  <attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
-				  <attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
-				  <record id="secondary_icon_properties" red_replacement="white" />
-					<record id="click_event" event_id="nxCK" />
-					<translation id="text" translation_id="555203" type="use" value="Start Draw[COMMENT: AREA: Live Cup Draw; SUB-AREA: Live Cup Draw Splash Screen FR-BN:; NOTE: Panel title for Cup Draws]" />
-				</widget>
+					<widget class="icon_button" appearance="chrome/buttons/continue/button" alignment="centre" secondary_icon_enabled="true" secondary_icon="icons/16px/continue" secondary_icon_alignment="centre_right, centre_y" colour="white" width="210" height="48" multiline="true">
+						<attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
+						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
+						<record id="secondary_icon_properties" red_replacement="white" />
+						<record id="click_event" event_id="nxCK" />
+						<translation id="text" translation_id="555203" type="use" value="Start Draw[COMMENT: AREA: Live Cup Draw; SUB-AREA: Live Cup Draw Splash Screen FR-BN:; NOTE: Panel title for Cup Draws]" />
+					</widget>
 				</container>
 			</container>
 
@@ -62,25 +62,25 @@
 			<animation class="fade_animation" start_value="0" end_value="1" duration=".6" tween="linear" />
 			<attachment_group class="vertical_arrange" vertical_alignment="top, extend" horizontal_alignment="horizontal"/>
 			<attachment class="get_global_attachment" get_property="cdlr" set_property="appearance" />
-			
+
 			<widget class="text" auto_size="all" size="large" colour="black">
 				<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
 				<translation id="text" translation_id="557721" type="use" value="Live Reaction[COMMENT: AREA: Cup Draw; SUB-AREA: Splash screen; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the commentary section of the live cup draw]" />
 			</widget>
 
-				<widget class="news_feed_panel" height="200" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
-					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="4" />
-					<integer id="number_of_items_to_display" value="12" />
+			<widget class="news_feed_panel" height="200" id="socs" filter="Fsco" file="" social_item_file="human/news feed social item content panel for cup draws">
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="4" />
+				<integer id="number_of_items_to_display" value="12" />
 
-					<container class="scrolling_box">
-						<container id="nwsl" class="horizontal_adaptive_container">
-							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="16" />
+				<container class="scrolling_box">
+					<container id="nwsl" class="horizontal_adaptive_container">
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="16" />
 
-							<!-- items added in code here -->
-						</container>
+						<!-- items added in code here -->
 					</container>
-				</widget>
+				</container>
+			</widget>
 		</container>
-		
+
 	</container>
 </panel>

@@ -3,7 +3,7 @@
   <layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
   <widget class="object_portrait_picture" width="50" scale_picture="true" keep_aspect_ratio="true" image_alignment="top">
-     <record id="object_property">
+    <record id="object_property">
       <list id="get_properties">
         <record>
           <integer id="get_property" value="Pers" />
@@ -38,9 +38,9 @@
         </list>
       </record>
     </widget>
-    
+
   </container>
- 
-  
+
+
 </panel>
 

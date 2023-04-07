@@ -11,7 +11,7 @@
 
 		<container height="50">
 			<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" gap="8" />
-			<layout class="stick_to_sides_attachment" alignment="vertical"  apply_to_children="true" inset="0"/>
+			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
 
 			<widget class="object_portrait_picture" id="locp" width="100" image_alignment="top" scale_picture="true" />
 

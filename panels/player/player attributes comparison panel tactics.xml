@@ -14,8 +14,8 @@
 				<record id="widget_info" class="text" colour="white" alignment="left,centre_y" multiline="false" />
 			</record>
 
-			<record index="1" id="val " sort_disabled="true" >
-				<record id="widget_info" class="attribute_label" colour="white" ignore_attribute_colours="true" alignment="centre"  multiline="false" />
+			<record index="1" id="val " sort_disabled="true">
+				<record id="widget_info" class="attribute_label" colour="white" ignore_attribute_colours="true" alignment="centre" multiline="false" />
 			</record>
 
 			<record index="2" id="DifV" sort_disabled="true">
@@ -25,11 +25,11 @@
 			<!--mirroed rows-->
 
 			<record index="3" id="nam2">
-				<record id="widget_info" class="text" alignment="left,centre_y" multiline="false" colour="white"  column_spacing="0" />
+				<record id="widget_info" class="text" alignment="left,centre_y" multiline="false" colour="white" column_spacing="0" />
 			</record>
 
 			<record index="4" id="va2 " sort_disabled="true">
-				<record id="widget_info" class="attribute_label" ignore_attribute_colours="true" colour="white" alignment="centre"  multiline="false"  />
+				<record id="widget_info" class="attribute_label" ignore_attribute_colours="true" colour="white" alignment="centre" multiline="false" />
 			</record>
 
 			<record index="5" id="Dif2" sort_disabled="true">
@@ -149,7 +149,7 @@
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="6" />
 
 				<widget class="table" id="pltt" layout="-1" auto_size="vertical">
-					<record id="default_properties" spec="text"  />
+					<record id="default_properties" spec="text" />
 				</widget>
 
 				<widget class="horizontal_divider" />
@@ -160,7 +160,7 @@
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="6" />
 
 				<widget class="table" id="plgk" layout="-1" auto_size="vertical">
-					<record id="default_properties" spec="text"  />
+					<record id="default_properties" spec="text" />
 				</widget>
 
 				<widget class="horizontal_divider" />
@@ -171,7 +171,7 @@
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="6" />
 
 				<widget class="table" id="plmt" layout="-1" auto_size="vertical">
-					<record id="default_properties" spec="text"  />
+					<record id="default_properties" spec="text" />
 				</widget>
 
 				<widget class="horizontal_divider" />
@@ -183,7 +183,7 @@
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="6" />
 
 				<widget class="table" id="plpt" layout="-1" auto_size="vertical">
-					<record id="default_properties" spec="text"  />
+					<record id="default_properties" spec="text" />
 				</widget>
 
 				<widget class="horizontal_divider" />
@@ -273,7 +273,7 @@
 
 	</container>
 
-	<container class="main_box"  id="EMTX" appearance="boxes/custom/tactics/comparison/background/paper">
+	<container class="main_box" id="EMTX" appearance="boxes/custom/tactics/comparison/background/paper">
 		<widget class="text" alignment="centre" auto_size="all" colour="faded white">
 			<layout class="centre_in_parent_attachment" alignment="all" />
 			<translation id="text" translation_id="441099" type="use" value="No Comparison Available[COMMENT player comparison side panel; comparing two players in terms of attributes and role suitability]" />

@@ -398,7 +398,7 @@
 						<widget class="preselected_match_chalkboard_panel" id="kPms">
 							<list id="chalkboard_events_to_display">
 								<!--Key Pass -->
-								<integer value="43" /> 
+								<integer value="43" />
 								<!--Mistake leading to goal-->
 								<integer value="49" />
 								<!--Key Tackle -->

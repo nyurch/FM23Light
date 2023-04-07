@@ -1,6 +1,7 @@
 <!--
 this file contains a list of all of the sections in the game
---><properties>
+-->
+<properties>
 	<!--mapping unused section ids to replacement sections-->
 	<!--0 means there is no equivalent, and if used, we should throw an error-->
 	<record id="map ">
@@ -47,8 +48,8 @@ this file contains a list of all of the sections in the game
 			</record>
 		</record>
 	</set_var>
-	
-	
+
+
 	<set_var name="past_match_header_data">
 		<record>
 			<symbol id="class" value="match_titlebar_panel" />
@@ -108,8 +109,8 @@ this file contains a list of all of the sections in the game
 				<flags id="id  " value="chCN" />
 			</record>
 		</record>
-	</set_var>	
-	
+	</set_var>
+
 	<set_var name="post_match_changing_room_scene">
 		<record>
 			<symbol id="class" value="environment" />
@@ -281,28 +282,28 @@ this file contains a list of all of the sections in the game
 			</record>
 			<var id="section_ui_settings" name="full_screen_ui_settings" />
 		</record>
-        <record id="Avsm" section="Avsm" help_page="network">
-            <translation id="text" translation_id="333943" type="use" value="New Versus Competition[COMMENT: network game mode, all teams involved are human controlled, can create custom comps]" />
-            <record id="widget_info">
-                <symbol id="class" value="versus_mode_menu_panel" />
-            </record>
-            <var id="section_ui_settings" name="full_screen_ui_settings" />
-        </record>
-        <record id="creV" section="creV" help_page="network">
-            <translation id="text" translation_id="333755" type="use" value="Create Versus Competition[COMMENT: versus competition screen title]" />
-            <record id="widget_info">
-                <symbol id="class" value="create_versus_competition_panel" />
-            </record>
-            <var id="section_ui_settings" name="full_screen_ui_settings" />
-        </record>
-        <record id="GamV" section="GamV" help_page="create_profile">
-            <translation id="text" translation_id="296526" type="use" value="Add New Manager[COMMENT: section title for screen for adding a new user to the game]" />
-            <record id="widget_info">
-                <symbol id="class" value="add_manager_panel" />
-                <symbol id="file" value="human/add manager versus mode pre game panel" />
-            </record>
-            <var id="section_ui_settings" name="full_screen_ui_settings" />
-        </record>
+		<record id="Avsm" section="Avsm" help_page="network">
+			<translation id="text" translation_id="333943" type="use" value="New Versus Competition[COMMENT: network game mode, all teams involved are human controlled, can create custom comps]" />
+			<record id="widget_info">
+				<symbol id="class" value="versus_mode_menu_panel" />
+			</record>
+			<var id="section_ui_settings" name="full_screen_ui_settings" />
+		</record>
+		<record id="creV" section="creV" help_page="network">
+			<translation id="text" translation_id="333755" type="use" value="Create Versus Competition[COMMENT: versus competition screen title]" />
+			<record id="widget_info">
+				<symbol id="class" value="create_versus_competition_panel" />
+			</record>
+			<var id="section_ui_settings" name="full_screen_ui_settings" />
+		</record>
+		<record id="GamV" section="GamV" help_page="create_profile">
+			<translation id="text" translation_id="296526" type="use" value="Add New Manager[COMMENT: section title for screen for adding a new user to the game]" />
+			<record id="widget_info">
+				<symbol id="class" value="add_manager_panel" />
+				<symbol id="file" value="human/add manager versus mode pre game panel" />
+			</record>
+			<var id="section_ui_settings" name="full_screen_ui_settings" />
+		</record>
 
 		<!--<record id="Apga" section="Apga" help_page="preferences">
 			<translation id="text" translation_id="330300" type="use" value="Overview[COMMENT: preferences: most important settings section (short) name]" />
@@ -375,7 +376,7 @@ this file contains a list of all of the sections in the game
 		</record>
 		<record id="Hdrs" section="Hdrs" help_page="res_credits">
 			<translation id="text" translation_id="248261" type="use" value="Head Researchers" />
-				<record id="widget_info">
+			<record id="widget_info">
 				<symbol id="class" value="credits_panel" />
 				<translation id="title" translation_id="248261" type="use" value="Head Researchers" />
 				<record id="crsc" file="credits/research data" />
@@ -475,7 +476,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="hall_of_fame_panel" />
 				<integer id="hfty" value="4" />
 			</record>
-		</record>		
+		</record>
 		<record id="Gach" section="Gach">
 			<translation id="text" translation_id="247183" type="use" value="All" />
 			<record id="widget_info">
@@ -503,7 +504,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="achievements_panel" />
 				<integer id="acTy" value="4" />
 			</record>
-		</record>		
+		</record>
 		<record id="Gamo" section="Gamo">
 			<translation id="text" translation_id="539054" type="use" value="Game Modes[COMMENT: AREA: Achievements; SUB-AREA: In-game achievement filtering; FR-BN: 34972; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: filter option which the user can toggle; display achievements relating to the various fm game modes]" />
 			<record id="widget_info">
@@ -1060,21 +1061,21 @@ this file contains a list of all of the sections in the game
 			<integer id="main_content_margin" value="0" />
 		</record>
 		<record id="Ptdd" section="Ptdd" help_page="news">
-            <translation id="text" translation_id="539057" type="use" value="Deadline Day[COMMENT: AREA: UI; SUB-AREA: Side Bar; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: sidebar title menu for transfer deadline day section]" />
+			<translation id="text" translation_id="539057" type="use" value="Deadline Day[COMMENT: AREA: UI; SUB-AREA: Side Bar; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: sidebar title menu for transfer deadline day section]" />
 			<record id="widget_info">
 				<symbol id="class" value="transfer_deadline_day_panel" />
 			</record>
 		</record>
 		<record id="Ptwd" section="Ptwd" help_page="news">
-            <!-- transfer deadline day news panel (opted in - shown in "Deadline Day" sidebar section) -->
+			<!-- transfer deadline day news panel (opted in - shown in "Deadline Day" sidebar section) -->
 			<translation id="text" translation_id="538880" type="use" value="Transfer News[COMMENT: AREA: UI; SUB-AREA: Transfer Deadline Day; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: Section name for transfer related news on transfer deadline day]" />
 			<record id="widget_info">
 				<symbol id="class" value="transfer_window_news_panel" />
-                <string id="file" value="competition/transfer window news opted in panel" />
+				<string id="file" value="competition/transfer window news opted in panel" />
 			</record>
 		</record>
 		<record id="Ptwo" section="Ptwo" help_page="news">
-            <!-- transfer deadline day news panel (opted out - shown in "Inbox" sidebar section) -->
+			<!-- transfer deadline day news panel (opted out - shown in "Inbox" sidebar section) -->
 			<translation id="text" translation_id="539055" type="use" value="Transfer Window News[COMMENT: AREA: UI; SUB-AREA: Transfer Deadline Day; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: Section name for transfer related news on transfer deadline day]" />
 			<record id="widget_info">
 				<symbol id="class" value="transfer_window_news_panel" />
@@ -1286,8 +1287,8 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="player_scout_reports_panel" />
 				<symbol id="file" value="player/player coach reports" />
 			</record>
-		</record>	
-			<record id="Pran" section="Pran" help_page="scout_reports">
+		</record>
+		<record id="Pran" section="Pran" help_page="scout_reports">
 			<translation id="text" translation_id="539058" type="use" value="Player Performance[COMMENT: AREA: Data Hub; SUB-AREA: Team Performance; FR: 31585; TONE: Formal; CHARLIMIT: None NOTES: team performance header]" />
 			<record id="widget_info">
 				<symbol id="class" value="data_hub_player_analytics_panel" />
@@ -1492,13 +1493,13 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="game_processing_panel" />
 			</record>
 		</record>
-        <record id="Prdd" section="Prdd">
-            <string id="text" value="Debug Processing - Deadline Day" />
-            <record id="widget_info">
-                <symbol id="class" value="game_processing_panel" />
-                <string id="file" value="game/game processing deadline day panel" />
-            </record>
-        </record>
+		<record id="Prdd" section="Prdd">
+			<string id="text" value="Debug Processing - Deadline Day" />
+			<record id="widget_info">
+				<symbol id="class" value="game_processing_panel" />
+				<string id="file" value="game/game processing deadline day panel" />
+			</record>
+		</record>
 		<record id="Pdyn" section="Pdyn">
 			<string id="text" value="Debug Dynamic Images" />
 			<record id="widget_info">
@@ -1621,7 +1622,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="club_squad_confidence_panel" />
 			</record>
 		</record>
-		
+
 		<record id="supp" section="supp" help_page="confidence">
 			<translation id="text" translation_id="320609" type="use" value="Supporter Profile" />
 			<record id="widget_info">
@@ -2015,7 +2016,7 @@ this file contains a list of all of the sections in the game
 			</record>
 		</record>
 		<record id="BoPr" section="BoPr" help_page="squad_menu#staff">
-            <translation id="text" translation_id="337816" type="use" value="Board[COMMENT: club screen - title for a board related activities submenu]" />
+			<translation id="text" translation_id="337816" type="use" value="Board[COMMENT: club screen - title for a board related activities submenu]" />
 			<record id="widget_info">
 				<symbol id="class" value="board_profile_panel" />
 			</record>
@@ -2243,7 +2244,7 @@ this file contains a list of all of the sections in the game
 				<symbol id="class" value="data_hub_team_analytics_panel" />
 			</record>
 		</record>
-			<record id="DHoA" section="DHoA">
+		<record id="DHoA" section="DHoA">
 			<translation id="text" translation_id="539060" type="use" value="Next Opposition Performance[COMMENT: AREA: Data Hub; SUB-AREA: Team Performance; FR: 31585; TONE: Formal; CHARLIMIT: None NOTES: team performance header]" />
 			<record id="widget_info">
 				<symbol id="class" value="team_opposition_report_analyst_report_panel" />
@@ -2258,7 +2259,7 @@ this file contains a list of all of the sections in the game
 			</record>
 		</record>
 		<record id="DHLM" section="DHLM">
-			 <translation id="text" translation_id="316854" type="use" value="Last Match" />
+			<translation id="text" translation_id="316854" type="use" value="Last Match" />
 			<record id="widget_info">
 				<symbol id="class" value="data_hub_last_match_overview" />
 			</record>
@@ -2317,7 +2318,7 @@ this file contains a list of all of the sections in the game
 					<string id="file" value="human/dynamic manager timeline background" />
 				</record>
 			</record>
-            <integer id="main_content_margin" value="0" />
+			<integer id="main_content_margin" value="0" />
 		</record>
 		<record id="sasp" section="sasp" help_page="search_shortlist">
 			<translation id="text" translation_id="447704" type="use" value="Scouted Players[COMMENT: FMT Scouting revamp]" />
@@ -2911,17 +2912,17 @@ this file contains a list of all of the sections in the game
 				<string id="file" value="team/analysis stats pack" />
 			</record>
 		</record>
-		
+
 		<!--Chalkboard comparitson not currently used, but kept here for readding if needed in future-->
 		<record id="TeMA" section="TeMA" help_page="fixtures" SaiC="true">
 			<translation id="text" translation_id="319905" type="use" value="Match[COMMENT: Manager main/top menu: human manager's game settings]" />
 			<record id="widget_info">
 				<symbol id="class" value="team_match_comparison_chalkboard_panel" />
 			</record>
-		</record>	
-			<record id="TeRM" section="TeRM" help_page="fixtures">
+		</record>
+		<record id="TeRM" section="TeRM" help_page="fixtures">
 			<translation id="text" translation_id="535397" type="use" value="Last 5 Matches[COMMENT: AREA: Visualisation Header; SUB-AREA: visualisation scope FR: 32932; TONE: Formal; CHARLIMIT: None; NOTE: Last 5 matches only time frame scope]" />
-				<record id="widget_info">
+			<record id="widget_info">
 				<symbol id="class" value="team_recent_matches_analysis_panel" />
 			</record>
 		</record>
@@ -3294,7 +3295,7 @@ this file contains a list of all of the sections in the game
 			<translation id="text" translation_id="249530" type="use" value="Transfer Window[COMMENT - competition stage rules panel, heading]" />
 			<record id="widget_info">
 				<symbol id="class" value="transfer_window_news_panel" />
-                <string id="file" value="competition/transfer window comp news panel" />
+				<string id="file" value="competition/transfer window comp news panel" />
 			</record>
 		</record>
 		<record id="cawa" section="cawa" help_page="awards">
@@ -4183,8 +4184,8 @@ this file contains a list of all of the sections in the game
 			</var>
 			<var id="custom_background_scene_data" name="changing_room_scene" />
 		</record>
-        <!-- penalties team talk with no background scene -->
-        <record id="hPtt" section="hPtt" help_page="team_talks">
+		<!-- penalties team talk with no background scene -->
+		<record id="hPtt" section="hPtt" help_page="team_talks">
 			<translation id="text" translation_id="247846" type="use" value="Team Talk[COMMENT - half time team talk column on team talk screen]" />
 			<record id="widget_info">
 				<symbol id="class" value="match_team_talk_panel" />
@@ -4407,8 +4408,8 @@ this file contains a list of all of the sections in the game
 			</var>
 			<var id="custom_background_scene_data" name="changing_room_scene" />
 		</record>
-        <!-- penalties team talk with no background scene -->
-        <record id="aPtt" section="aPtt" help_page="team_talks">
+		<!-- penalties team talk with no background scene -->
+		<record id="aPtt" section="aPtt" help_page="team_talks">
 			<translation id="text" translation_id="247846" type="use" value="Team Talk[COMMENT - half time team talk column on team talk screen]" />
 			<record id="widget_info">
 				<symbol id="class" value="match_team_talk_panel" />
@@ -4653,7 +4654,7 @@ this file contains a list of all of the sections in the game
 			<record id="widget_info">
 				<symbol id="class" value="team_opposition_scout_report_panel" />
 			</record>
-		</record>	
+		</record>
 		<record id="Tpor" section="Tpor">
 			<translation id="text" translation_id="247414" type="use" value="Overview" />
 			<record id="widget_info">

@@ -48,15 +48,15 @@
 
 		<container>
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-			
+
 			<container class="wizard_panel" id="wzrd" nnPB="false" hidden="true">
 				<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
-				
+
 				<container file="human/add manager header panel" height="50" id="amHp" navigation_container="true">
 					<translation id="title" translation_id="538935" type="use" value="Create Manager[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading for for when the user is creating the manager, cannot be feminised]" />
 				</container>
-				
+
 				<container>
 					<layout class="arrange_horizontal_attachment" layout="-70,-40" offset="12" gap="0" />
 					<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="12" />
@@ -70,70 +70,70 @@
 
 								<container>
 									<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right, extend" />
-									
+
 									<container navigation_container="true">
 										<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" />
-											<widget class="tab_strip" id="amtb" auto_size="horizontal" select_event="amts" save_session_state="true" selection_dont_suppress="true" hidden="true" colour="text">
-												<flags id="appearance" value="tabs/standard" />
-												<list id="items">
-													<record>
-														<translation id="name" translation_id="538936" type="use" value="Personal Info[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when entering the personal information for the manager avatar]" />
-														<integer id="id" value="tspi" />
-													</record>
-													<record>
-														<translation id="name" translation_id="538937" type="use" value="Body[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the body type of the manager avatar]" />
-														<integer id="id" value="tsbo" />
-													</record>
-													<record>
-														<translation id="name" translation_id="538938" type="use" value="Head[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the face and hair of the manager avatar]" />
-														<integer id="id" value="tshe" />
-													</record>
-													<record>
-														<translation id="name" translation_id="538939" type="use" value="Attire[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the clothing of the manager avatar]" />
-														<integer id="id" value="tsat" />
-													</record>													
-													<record>
-														<translation id="name" translation_id="557751" type="use" value="Accessories[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR: FM-1259; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the accessories of the manager avatar]" />
-														<integer id="id" value="tacc" />
-													</record>
-												</list>
-												<integer id="selection" value="tspi" />
-											</widget>
-										</container>
+										<widget class="tab_strip" id="amtb" auto_size="horizontal" select_event="amts" save_session_state="true" selection_dont_suppress="true" hidden="true" colour="text">
+											<flags id="appearance" value="tabs/standard" />
+											<list id="items">
+												<record>
+													<translation id="name" translation_id="538936" type="use" value="Personal Info[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when entering the personal information for the manager avatar]" />
+													<integer id="id" value="tspi" />
+												</record>
+												<record>
+													<translation id="name" translation_id="538937" type="use" value="Body[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the body type of the manager avatar]" />
+													<integer id="id" value="tsbo" />
+												</record>
+												<record>
+													<translation id="name" translation_id="538938" type="use" value="Head[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the face and hair of the manager avatar]" />
+													<integer id="id" value="tshe" />
+												</record>
+												<record>
+													<translation id="name" translation_id="538939" type="use" value="Attire[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the clothing of the manager avatar]" />
+													<integer id="id" value="tsat" />
+												</record>
+												<record>
+													<translation id="name" translation_id="557751" type="use" value="Accessories[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR: FM-1259; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the accessories of the manager avatar]" />
+													<integer id="id" value="tacc" />
+												</record>
+											</list>
+											<integer id="selection" value="tspi" />
+										</widget>
+									</container>
 
 									<container navigation_container="true">
 										<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="right" />
-										
+
 										<widget class="icon_button" id="amrb" icon="icons/26px/transfer" auto_size="horizontal" hidden="true">
 										</widget>
 									</container>
 								</container>
-								
+
 								<!-- wizard panel container, the actual panels will be added here -->
 								<container id="plco">
 									<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
-													
+
 									<container class="manager_profile_panel" id="fPan" check_profile="true" hide_manager="false">
 										<translation id="wizard_panel_title" translation_id="538936" type="use" value="Personal Info[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when entering the personal information for the manager avatar]" />
 									</container>
-									
+
 									<container class="manager_profile_panel" id="sPan" file="human/add manager appearance panel" check_profile="true">
 										<translation id="wizard_panel_title" translation_id="538937" type="use" value="Body[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the body type of the manager avatar]" />
-									</container>	
-									
+									</container>
+
 									<container class="manager_profile_panel" file="human/add manager head panel" check_profile="true">
 										<translation id="wizard_panel_title" translation_id="538938" type="use" value="Head[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the face and hair of the manager avatar]" />
-									</container>	
-									
+									</container>
+
 									<container class="manager_profile_panel" file="human/add manager attire panel" check_profile="true">
 										<translation id="wizard_panel_title" translation_id="538939" type="use" value="Attire[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the clothing of the manager avatar]" />
-									</container>									
-										
+									</container>
+
 									<container class="manager_profile_panel" file="human/add manager accessories panel" check_profile="true">
 										<translation id="wizard_panel_title" translation_id="557751" type="use" value="Accessories[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR: FM-1259; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Panel heading heading for when customising the accessories of the manager avatar]" />
 									</container>
 								</container>
-				
+
 								<!-- row of buttons -->
 								<container id="btn" height="40" width="500" navigation_container="true">
 									<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="0" gap="0" />
@@ -147,7 +147,7 @@
 										<widget class="icon_button" id="ltEr" hidden="true" click_event="cPrL" auto_size="all" controller_button="b_button">
 											<translation id="text" translation_id="538940" type="use" value="Discard and Exit[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Cancel button text; Cancels and exits from the current manager creation/editing process]" />
 										</widget>
-										
+
 										<widget class="popup_button" id="lsmp" select_event="LoSa" auto_size="all" needs_height="true" needs_width="true" fixed="true">
 											<translation id="text" translation_id="538941" type="use" value="Load/Save Model[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Creation Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Popup menu button text; Options to load an existing and save the current manager model]" />
 											<list id="items">
@@ -162,13 +162,13 @@
 											</list>
 										</widget>
 									</container>
-									
-									
+
+
 
 									<widget class="primary_icon_button" id="nxt1" click_event="n1pa" auto_size="all" icon="icons/16px/right" icon_alignment="right" controller_button="right_trigger">
 										<layout class="centre_in_parent_attachment" alignment="vertical" />
 									</widget>
-									
+
 									<widget class="primary_icon_tick_button" id="fini" click_event="fNPr" hidden="true" controller_button="y_button">
 										<layout class="centre_in_parent_attachment" alignment="vertical" />
 										<translation id="text" translation_id="229918" type="use" value="Confirm" />
@@ -178,7 +178,7 @@
 							</container>
 						</container>
 					</container>
-					
+
 					<!-- empty container for create a padding for the manager avatar -->
 					<container id="emCW" />
 				</container>
@@ -212,9 +212,9 @@
 						<record min_value="721" max_value="10000" true_value="670" />
 					</list>
 				</attachment>
-				
+
 				<container file="game/intro panel menu" navigation_container="true" default_focus="true" />
-				
+
 				<!-- version label-->
 				<widget class="text" id="vers" auto_size="all" colour="fg alpha" size="small">
 					<layout class="stick_to_sides_attachment" alignment="left,bottom" inset="20,20" />
@@ -282,7 +282,7 @@
 	<container class="splash_movie_panel" id="spm2">
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 	</container>
-	
+
 	<container id="wiBK" class="inner_box_no_margin" background_colour="black">
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 		<animation class="fade_animation" trigger_id="hidden" trigger_value="true" start_value="1.0" end_value="0.0" duration="2.0" end_mode="hold_end">

@@ -51,7 +51,7 @@
   </container>
   <container class="button" entity_layout_id="it14" appearance="boxes/custom/tactics/shadow/paper" id="shDW" click_event="tsdP" wants_mouse_events="true" name="shadow">
     <layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
-    <layout class="stick_to_object_attachment" id="align_bottom"  offset="0" get_side="bottom" set_side="bottom" target="main" />
+    <layout class="stick_to_object_attachment" id="align_bottom" offset="0" get_side="bottom" set_side="bottom" target="main" />
     <layout class="stick_to_object_attachment" id="align_left" get_side="left" offset="0" set_side="left" target="main" />
     <layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
   </container>
@@ -80,7 +80,7 @@
         <boolean id="exclude_from_find" value="true" />
         <layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
       </widget>
-      <widget class="picture" entity_layout_id="at09" file="icons/16px/tactics" width="20" height="30" red_replacement="green 800" >
+      <widget class="picture" entity_layout_id="at09" file="icons/16px/tactics" width="20" height="30" red_replacement="green 800">
         <string id="image_alignment" value="centre" />
         <string id="red_replacement" value="teal 900" />
         <layout class="stick_to_object_attachment" id="align_top" offset="4" get_side="top" set_side="top" move_side="true" target="main" />
@@ -93,7 +93,7 @@
         <layout class="stick_to_object_attachment" id="align_top" offset="4" get_side="top" set_side="top" move_side="true" target="main" />
         <layout class="stick_to_object_attachment" id="align_left" offset="4" get_side="right" set_side="left" move_side="true" target="at09" />
       </widget>
-      <widget class="tactic_slot_tab_container" entity_layout_id="it08" file="tactics/tactic slot tab container picker" id="tacw" name="active tactic"  height="30" slot_popup_maximum_width="200">
+      <widget class="tactic_slot_tab_container" entity_layout_id="it08" file="tactics/tactic slot tab container picker" id="tacw" name="active tactic" height="30" slot_popup_maximum_width="200">
         <layout class="stick_to_object_attachment" id="align_top" offset="5" get_side="top" set_side="top" move_side="true" target="main" />
         <layout class="stick_to_object_attachment" id="align_left" offset="8" get_side="right" set_side="left" move_side="true" target="at03" />
       </widget>
@@ -169,7 +169,7 @@
         <layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
         <layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
       </container>
-      <widget class="container" entity_layout_id="it12" id="arbI" file="match/match tactics chalkboard" >
+      <widget class="container" entity_layout_id="it12" id="arbI" file="match/match tactics chalkboard">
         <boolean id="exclude_from_find" value="true" />
         <layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
         <layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
@@ -201,7 +201,7 @@
         <layout class="stick_to_object_attachment" id="align_top" offset="5" get_side="top" set_side="top" move_side="true" target="main" />
         <layout class="stick_to_object_attachment" id="align_left" offset="60" get_side="left" set_side="left" move_side="true" target="main" />
       </widget>
-      
+
     </container>
     <container class="subs_bench_panel" entity_layout_id="it03" id="Subs" name="subs">
       <layout class="stick_to_object_attachment" id="align_top" offset="6" get_side="bottom" set_side="top" target="at01" />
@@ -220,7 +220,7 @@
     <layout class="stick_to_object_attachment" id="align_top" get_side="none,top" set_side="none,top" move_side="true" target="main" />
     <layout class="stick_to_object_attachment" id="align_left" get_side="none,left" set_side="none,left" move_side="true" target="main" />
   </widget>
-  <widget class="check_box" entity_layout_id="it13" id="pinB" appearance="buttons/custom/tactics/pitch hide/normal/button" icon_alignment="centre_x,centre_y" hidden="true" name="pin button" width="NULL_ID" height="NULL_ID" >
+  <widget class="check_box" entity_layout_id="it13" id="pinB" appearance="buttons/custom/tactics/pitch hide/normal/button" icon_alignment="centre_x,centre_y" hidden="true" name="pin button" width="NULL_ID" height="NULL_ID">
     <string id="show_button_appearance" value="true" />
     <string id="select_event" value="piEV" />
     <string id="icon" value="switches/pitch pin/button" />

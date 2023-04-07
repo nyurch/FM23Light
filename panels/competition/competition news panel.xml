@@ -88,7 +88,7 @@
 										<!-- Main object link -->
 										<widget class="text" id="brif" auto_size="none" multiline="false" colour="white" alignment="left, centre_y" size="small"/>
 									</container>
-									
+
 									<!-- Story title banner-->
 									<widget class="text" id="titl" size="18" style="bold" alignment="left, centre_y" colour="white" multiline="true" auto_size="vertical" auto_size_maximum_height="70"/>
 								</container>

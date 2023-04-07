@@ -32,7 +32,7 @@
     <colour name="fg range15"/>
     <colour name="fg range20"/>
   </list>
-  
+
   <list id="items">
     <!-- layers: only one -->
     <list>
@@ -42,7 +42,7 @@
         <integer id="angle" value="0" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Pooo" />
@@ -58,7 +58,7 @@
         <integer id="angle" value="45" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Pstr" />
@@ -78,7 +78,7 @@
         <integer id="angle" value="90" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Ppac" />
@@ -94,7 +94,7 @@
         <integer id="angle" value="135" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Pdec" />
@@ -118,7 +118,7 @@
         <integer id="angle" value="180" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Pcoa" />
@@ -135,7 +135,7 @@
         <integer id="radius" value="50" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Pecc" />
@@ -149,7 +149,7 @@
         <integer id="angle" value="270" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Paab" />
@@ -165,7 +165,7 @@
         <integer id="angle" value="315" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Pkic" />

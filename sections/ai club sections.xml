@@ -74,11 +74,11 @@ this file contains a list of all of the sections in the game
 			</list>
 		</record>
 
-    <record id="tHie" section="tHie">
-      <translation id="text" translation_id="447669" type="use" value="Dynamics[COMMENT: Manager Main/Top Menu; link to Dynamics screen showcasing a representation of interpersonal relationships at the club]" />
-      <list id="items">
-      </list>
-    </record>
+		<record id="tHie" section="tHie">
+			<translation id="text" translation_id="447669" type="use" value="Dynamics[COMMENT: Manager Main/Top Menu; link to Dynamics screen showcasing a representation of interpersonal relationships at the club]" />
+			<list id="items">
+			</list>
+		</record>
 
 		<record id="tcTC">
 			<translation id="text" translation_id="230056" type="use" value="Tactics" />
@@ -203,7 +203,7 @@ this file contains a list of all of the sections in the game
 					</list>
 				</record>
 				<!-- club vision -->
-                <record id="tcbr" human_object_type="HOTc"/>
+				<record id="tcbr" human_object_type="HOTc"/>
 				<!-- board profile -->
 				<record id="BoPr" human_object_type="HOTc"/>
 				<!-- performance -->
@@ -230,7 +230,7 @@ this file contains a list of all of the sections in the game
 						<record id="tsqc" human_object_type="HOTc" />
 					</list>
 				</record>
-				
+
 				<record id="cdam" />
 				<record id="----" />
 				<!--actions-->
@@ -279,8 +279,8 @@ this file contains a list of all of the sections in the game
 				<record id="tctd" />
 				<!--debug transfer value-->
 				<record id="tctv" />
-        <!--finances debug-->
-        <record id="tcfd"/>
+				<!--finances debug-->
+				<record id="tcfd"/>
 				<record id="----" />
 				<!--actions-->
 				<!--debug-->

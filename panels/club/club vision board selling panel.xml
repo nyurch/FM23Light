@@ -1,9 +1,10 @@
-﻿<!-- panel to display a warning about the board selling the club--><panel>
-	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+﻿<!-- panel to display a warning about the board selling the club-->
+<panel>
+    <attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
     <container class="main_contrast_box" red_replacement="purple2">
         <attachment_group class="vertical_arrange_autosize" vertical_offset="8" horizontal_alignment="horizontal" horizontal_inset="8" />
-        
+
         <widget class="text" font="title" colour="white" auto_size="vertical">
             <translation id="text" translation_id="557652" type="use" value="Board Alert - Owner looking to sell[COMMENT: AREA: Club vision; SUB-AREA: Club objectives; FR: 3180; TONE: Formal; CHARLIMIT: None; NOTE: Title string for sub panel indicating the boards is looking to sell the club]" />
         </widget>

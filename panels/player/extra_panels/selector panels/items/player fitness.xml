@@ -3,11 +3,11 @@
 
 	<container class="icon_box" icon="icons/custom/icon box/fitness">
 		<record id="object_property">
-            <list id="get_properties">
-              <record get_property="tbcl" set_property="icRR" dont_set_object="true" />
-              <record get_property="ttcl" set_property="icBR" dont_set_object="true" />
-            </list>
-          </record>
+			<list id="get_properties">
+				<record get_property="tbcl" set_property="icRR" dont_set_object="true" />
+				<record get_property="ttcl" set_property="icBR" dont_set_object="true" />
+			</list>
+		</record>
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="2" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 

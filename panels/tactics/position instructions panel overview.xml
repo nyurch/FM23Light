@@ -20,14 +20,14 @@
 		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
 		<container embed_in_frame="true">
-	      <attachment_group class="title_embedded_panel_right" horizontal_offset="0"/>
-	      <!-- buttons area -->
-	      <widget class="icon_button" icon="icons/16px/cross" height="28" width="28" icon_alignment="centre" red_replacement="white" icon_colour="black" appearance="buttons/standard/flex/button" id="clos" embed_in_frame="true">
-	        <record id="click_event">
-	          <flags id="event_id" value="Clos" />
-	        </record>
-	      </widget>
-   		</container>
+			<attachment_group class="title_embedded_panel_right" horizontal_offset="0"/>
+			<!-- buttons area -->
+			<widget class="icon_button" icon="icons/16px/cross" height="28" width="28" icon_alignment="centre" red_replacement="white" icon_colour="black" appearance="buttons/standard/flex/button" id="clos" embed_in_frame="true">
+				<record id="click_event">
+					<flags id="event_id" value="Clos" />
+				</record>
+			</widget>
+		</container>
 
 		<container height="35">
 			<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="0" gap="2" />
@@ -148,41 +148,41 @@
 			<layout class="fit_children_attachment" alignment="vertical,fill" offset="0" gap="5" />
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
-				<!--description/attributes-->
-				<container class="tabbed_container_pitch" default_item="DsTb" save_default_state="true" appearance="" height="340" id="tabb">
+			<!--description/attributes-->
+			<container class="tabbed_container_pitch" default_item="DsTb" save_default_state="true" appearance="" height="340" id="tabb">
 
 
-					<container id="DsTb">
-						<translation id="title" translation_id="316816" type="use" value="Role[COMMENT - person list view column heading]" />
-						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" apply_to_children="true" />
-						<layout class="stick_to_sides_attachment" alignment="vertical" inset="5" apply_to_children="true" />
+				<container id="DsTb">
+					<translation id="title" translation_id="316816" type="use" value="Role[COMMENT - person list view column heading]" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" apply_to_children="true" />
+					<layout class="stick_to_sides_attachment" alignment="vertical" inset="5" apply_to_children="true" />
 
-						<!--description-->
-						<widget class="text" id="rlds" colour="faded white">
-						</widget>
+					<!--description-->
+					<widget class="text" id="rlds" colour="faded white">
+					</widget>
 
-					</container>
+				</container>
 
-					<!-- Attributes Container -->
-					<container class="player_attributes_panel" id="patp" highlight_attributes="true" allow_no_player="true" file="player/player attributes tactics pitch panel">
-						<!--<translation id="title" translation_id="316628" type="use" value="Important Attributes[COMMENT:title for attributes panel showing which attributes are important for a tactical role]" />-->
-						<translation id="title" translation_id="323123" type="use" value="Attributes[COMMENT: Player comparison type header]" />
-					</container>
+				<!-- Attributes Container -->
+				<container class="player_attributes_panel" id="patp" highlight_attributes="true" allow_no_player="true" file="player/player attributes tactics pitch panel">
+					<!--<translation id="title" translation_id="316628" type="use" value="Important Attributes[COMMENT:title for attributes panel showing which attributes are important for a tactical role]" />-->
+					<translation id="title" translation_id="323123" type="use" value="Attributes[COMMENT: Player comparison type header]" />
+				</container>
 
-					<container class="scrolling_box" id="pPtT">
-						<translation id="title" translation_id="450771" type="use" value="Partnerships[COMMENT: Tactical analysis email; showing strong and weak partnerships between players on the pitch]" />
-						<container id="prTn">
-							<layout class="arrange_vertical_attachment" alignment="top" offset="6" gap="4" />
-							<layout class="fit_children_attachment" alignment="vertical,fill" offset="6" gap="4" />
-							<layout class="stick_to_sides_attachment" alignment="horizontal" inset="6" apply_to_children="true" />
+				<container class="scrolling_box" id="pPtT">
+					<translation id="title" translation_id="450771" type="use" value="Partnerships[COMMENT: Tactical analysis email; showing strong and weak partnerships between players on the pitch]" />
+					<container id="prTn">
+						<layout class="arrange_vertical_attachment" alignment="top" offset="6" gap="4" />
+						<layout class="fit_children_attachment" alignment="vertical,fill" offset="6" gap="4" />
+						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="6" apply_to_children="true" />
 
-							<record id="default_properties" colour="white"/>
-
-						</container>
+						<record id="default_properties" colour="white"/>
 
 					</container>
 
 				</container>
+
+			</container>
 
 
 		</container>

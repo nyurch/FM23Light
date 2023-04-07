@@ -33,7 +33,7 @@
 		<widget class="client_object_viewer_xml_panel" file="player/player risk assessment training load widget" id="TLdw" auto_size="vertical"/>
 	</container>
 
-	<container  id="IPBx">
+	<container id="IPBx">
 		<attachment_group class="vertical_arrange_autosize" vertical_gap="0"/>
 
 		<widget class="text" auto_size="all" font="label" colour="fg">
@@ -50,7 +50,7 @@
 			<translation id="text" translation_id="508747" type="use" value="Fatigue[COMMENT: AREA: Fitness and Injuries; SUB-AREA: player property column name; FR-BN: 23722; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: table column header for player's current fatigue status]" />
 		</widget>
 
-			<widget class="player_jadedness_widget" height="40">
+		<widget class="player_jadedness_widget" height="40">
 			<record id="object_property" get_property="Pjad" set_property="valu" />
 			<boolean id="look_like_label" value="false" />
 			<boolean id="hide_detail_text" value="false" />

@@ -18,12 +18,12 @@
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0,0,0,0" apply_to_children="true"/>
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 
-		<container class="main_contrast_box_no_margin" id="bcIM" height="38" >
+		<container class="main_contrast_box_no_margin" id="bcIM" height="38">
 			<layout class="arrange_vertical_attachment" alignment="fill" offset="0" gap="0"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 
 			<container>
-				<container id="OUTE" >
+				<container id="OUTE">
 					<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0"/>
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
@@ -39,7 +39,7 @@
 							<layout class="arrange_horizontal_attachment" layout="12,-1,12,12" offset="4" gap="2"/>
 							<layout class="stick_to_sides_attachment" alignment="vertical" inset="1" apply_to_children="true"/>
 							<!--morale-->
-							<widget class="morale_label" id="Mora"  width="12" height="12" colour="faded white" smpc="true" ShTx="false" scale_picture="true" />
+							<widget class="morale_label" id="Mora" width="12" height="12" colour="faded white" smpc="true" ShTx="false" scale_picture="true" />
 							<!--rating and position share a slot - show one or the other-->
 							<container>
 								<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
@@ -85,7 +85,7 @@
 			<container>
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 				<container>
-				<layout class="arrange_horizontal_attachment" layout="20, -1" offset="0" gap="0"/>
+					<layout class="arrange_horizontal_attachment" layout="20, -1" offset="0" gap="0"/>
 					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 					<!--nation button -->
 					<widget class="nation_button" id="natF" alignment="centre" icon_alignment="centre" dspf="4">
@@ -94,7 +94,7 @@
 							<integer id="get_property" value="Pnat" />
 							<integer id="set_property" value="valu" />
 						</record>
-					</widget> 
+					</widget>
 					<!--name-->
 					<widget class="player_picker_button" entity_layout_id="it02" file="widgets/player selection button tactics" id="plPB" editor_group_id="it10" navigation_focus_target="true">
 						<string id="draggable" value="false"/>
@@ -116,9 +116,9 @@
 
 	<!--portrait-->
 	<container>
-	<layout class="arrange_vertical_attachment" layout="-1, 38" offset="0" gap="0"/>
-	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
-	<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		<layout class="arrange_vertical_attachment" layout="-1, 38" offset="0" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
 		<widget class="object_portrait_picture" id="prop" wants_mouse_events="false">
 			<boolean id="scale_picture" value="true" />
 			<boolean id="keep_aspect_ratio" value="true" />
@@ -159,17 +159,17 @@
 			<widget class="value_based_picture" id="vbp1" width="16" height="16" scale_picture="true" transparency="1">
 				<layout class="stick_to_sides_attachment" alignment="left" inset="3"/>
 				<layout class="stick_to_sides_attachment" alignment="bottom" inset="38"/>
-					<list id="value_list">
-						<record min_value="1" max_value="4" file="icons/custom/opposition instructions/foot left" red_replacement="fg range1" />
-						<record min_value="5" max_value="8" file="icons/custom/opposition instructions/foot left" red_replacement="fg range5" />
-						<record min_value="9" max_value="11" file="icons/custom/opposition instructions/foot left" red_replacement="fg range8" />
-						<record min_value="12" max_value="14" file="icons/custom/opposition instructions/foot left" red_replacement="fg range12" />
-						<record min_value="15" max_value="17" file="icons/custom/opposition instructions/foot left" red_replacement="fg range15" />
-						<record min_value="18" max_value="20" file="icons/custom/opposition instructions/foot left" red_replacement="fg range20" />
-					</list>
-					<record id="object_property">
-						<integer id="get_property" value="Plft" />
-					</record>
+				<list id="value_list">
+					<record min_value="1" max_value="4" file="icons/custom/opposition instructions/foot left" red_replacement="fg range1" />
+					<record min_value="5" max_value="8" file="icons/custom/opposition instructions/foot left" red_replacement="fg range5" />
+					<record min_value="9" max_value="11" file="icons/custom/opposition instructions/foot left" red_replacement="fg range8" />
+					<record min_value="12" max_value="14" file="icons/custom/opposition instructions/foot left" red_replacement="fg range12" />
+					<record min_value="15" max_value="17" file="icons/custom/opposition instructions/foot left" red_replacement="fg range15" />
+					<record min_value="18" max_value="20" file="icons/custom/opposition instructions/foot left" red_replacement="fg range20" />
+				</list>
+				<record id="object_property">
+					<integer id="get_property" value="Plft" />
+				</record>
 			</widget>
 		</container>
 		<container class="spacer" id="kizS"/>
@@ -182,17 +182,17 @@
 			<widget class="value_based_picture" id="vbp3" width="16" height="16" scale_picture="true" transparency="1">
 				<layout class="stick_to_sides_attachment" alignment="left" inset="20"/>
 				<layout class="stick_to_sides_attachment" alignment="bottom" inset="38"/>
-					<list id="value_list">
-						<record min_value="1" max_value="4" file="icons/custom/opposition instructions/foot right" red_replacement="fg range1" />
-						<record min_value="5" max_value="8" file="icons/custom/opposition instructions/foot right" red_replacement="fg range5" />
-						<record min_value="9" max_value="11" file="icons/custom/opposition instructions/foot right" red_replacement="fg range8" />
-						<record min_value="12" max_value="14" file="icons/custom/opposition instructions/foot right" red_replacement="fg range12" />
-						<record min_value="15" max_value="17" file="icons/custom/opposition instructions/foot right" red_replacement="fg range15" />
-						<record min_value="18" max_value="20" file="icons/custom/opposition instructions/foot right" red_replacement="fg range20" />
-					</list>
-					<record id="object_property">
-						<integer id="get_property" value="Prft" />
-					</record>
+				<list id="value_list">
+					<record min_value="1" max_value="4" file="icons/custom/opposition instructions/foot right" red_replacement="fg range1" />
+					<record min_value="5" max_value="8" file="icons/custom/opposition instructions/foot right" red_replacement="fg range5" />
+					<record min_value="9" max_value="11" file="icons/custom/opposition instructions/foot right" red_replacement="fg range8" />
+					<record min_value="12" max_value="14" file="icons/custom/opposition instructions/foot right" red_replacement="fg range12" />
+					<record min_value="15" max_value="17" file="icons/custom/opposition instructions/foot right" red_replacement="fg range15" />
+					<record min_value="18" max_value="20" file="icons/custom/opposition instructions/foot right" red_replacement="fg range20" />
+				</list>
+				<record id="object_property">
+					<integer id="get_property" value="Prft" />
+				</record>
 			</widget>
 		</container>
 		<container class="spacer" id="kizS"/>

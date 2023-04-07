@@ -14,5 +14,5 @@
 	<colour id="colour" red="255" green="255" blue="255"/>
 
 	<colour id="red_replacement" name="status_advisory_low"/>
-	
+
 </properties>

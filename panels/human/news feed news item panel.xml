@@ -6,7 +6,7 @@
 	<container class="inner_subtle_box" appearance="boxes/custom/feed/news item/paper">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-		<container height="91" id="NCnt" >
+		<container height="91" id="NCnt">
 			<layout class="arrange_horizontal_attachment" alignment="left,extend" gap="0" offset="0"/>
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
 
@@ -49,7 +49,7 @@
 						<!--Media Source-->
 						<widget class="object_portrait_picture_with_label_and_background" id="medi" file="widgets/object portrait picture media source"/>
 
-						<widget class="icon_button" id="NStt" click_event="shfo" show_button_appearance="false" icon="icons/16px/settings" auto_size="all" alignment="left" scale_picture="true" keep_aspect_ratio="true" >
+						<widget class="icon_button" id="NStt" click_event="shfo" show_button_appearance="false" icon="icons/16px/settings" auto_size="all" alignment="left" scale_picture="true" keep_aspect_ratio="true">
 							<global id="hidden" name="ui.is_fmt_controller_skin"/>
 							<record id="primary_icon_properties" red_replacement="white"/>
 						</widget>
@@ -66,7 +66,7 @@
 					<container>
 						<attachment_group class="horizontal_arrange_vertical_autosize"/>
 
-						<widget class="button" appearance="none" colour="faded text" auto_size="horizontal" height="24" click_event="shnp" alignment="centre" >
+						<widget class="button" appearance="none" colour="faded text" auto_size="horizontal" height="24" click_event="shnp" alignment="centre">
 							<translation id="text" translation_id="412454" type="use" value="Read more...[COMMENT: FR 16824; news feed panel; link text to display news item popup]"/>
 						</widget>
 					</container>

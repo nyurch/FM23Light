@@ -9,7 +9,7 @@
 
 
 		<widget class="graph" id="grph">
-			<record id="y_axis"  consistent_label_width="false" auto_size="true">
+			<record id="y_axis" consistent_label_width="false" auto_size="true">
 				<record id="title_font" style="vertical,semi_bold" font="title" size="large" colour="text" inset="4"/>
 				<record id="label_font" colour="faded black"/>
 			</record>

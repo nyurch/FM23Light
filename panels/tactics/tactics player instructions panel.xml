@@ -125,7 +125,7 @@
 			<boolean id="exclude_from_find" value="true" />
 			<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 		</widget>
-		<container class="main_contrast_box" entity_layout_id="at22" id="at22" width="200" >
+		<container class="main_contrast_box" entity_layout_id="at22" id="at22" width="200">
 			<string id="red_replacement" value="pitch_box_background" />
 			<layout class="stick_to_object_attachment" id="alPt" get_side="top" set_side="top" target="main" />
 			<layout class="stick_to_object_attachment" id="alPb" get_side="bottom" set_side="bottom" target="main" />

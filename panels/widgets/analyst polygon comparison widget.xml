@@ -8,5 +8,5 @@
 	<container class="horizontal_arrange_container" alignment="fill" gap="10" id="legC">
 		<record id="default_properties" colour="black"/>
 	</container>
-	
+
 </panel>

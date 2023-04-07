@@ -1,5 +1,5 @@
 ﻿<panel>
-<string id="skin_style" value="person_button" />
+	<string id="skin_style" value="person_button" />
 	<list id="draw_order">
 		<record entity_layout_id="at24" />
 		<record entity_layout_id="atas" />
@@ -20,12 +20,15 @@
 	</list>
 
 	<boolean id="should_force_refresh" value="true" />
-	<symbol id="minor_issue_colour" value="orange" />	<!-- text -->
+	<symbol id="minor_issue_colour" value="orange" />
+	<!-- text -->
 	<symbol id="major_issue_colour" value="red" />
-	<symbol id="supporters_colour" value="red 300" />	<!-- box graphic -->
+	<symbol id="supporters_colour" value="red 300" />
+	<!-- box graphic -->
 	<symbol id="supporters_increase_colour" value="red 500" />
 	<symbol id="supporters_decrease_colour" value="red 900" />
-	<symbol id="opposers_colour" value="blue 300" />	<!-- box graphic -->
+	<symbol id="opposers_colour" value="blue 300" />
+	<!-- box graphic -->
 	<symbol id="opposers_increase_colour" value="blue 500" />
 	<symbol id="opposers_decrease_colour" value="blue 900" />
 	<string id="support_increase_icon" value="icons/16px/up" />

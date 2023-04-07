@@ -1,6 +1,6 @@
 <panel>
 	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0"/>
-	
+
 	<string id="skin_style" value="subtle box"/>
 
 	<container class="inner_subtle_box" red_replacement="black">

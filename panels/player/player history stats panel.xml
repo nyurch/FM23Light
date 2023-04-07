@@ -9,7 +9,7 @@
 	<!-- This defines the colour used for the graph bars showing goals -->
 	<symbol id="goaC" value="career history graph goals" />
 
-    <container class="main_box" id="phit" force_title_borders="true" >
+	<container class="main_box" id="phit" force_title_borders="true">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 		<!-- buttons area -->
@@ -45,7 +45,7 @@
 				<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-				<widget class="table" id="phca" save_session_state="true" layout="75, -1, 90, -1, -1, 60, 45, 45, 45, 45, 45" dont_restore_selection="true" sort_disabled="true" auto_size_rows="true" mode="fill_rows, stripe_rows, printable, show_bullets, keyboard, dont_allow_empty_selection, select_rows" navigation_container="true" default_focus="true" >
+				<widget class="table" id="phca" save_session_state="true" layout="75, -1, 90, -1, -1, 60, 45, 45, 45, 45, 45" dont_restore_selection="true" sort_disabled="true" auto_size_rows="true" mode="fill_rows, stripe_rows, printable, show_bullets, keyboard, dont_allow_empty_selection, select_rows" navigation_container="true" default_focus="true">
 					<list id="headings">
 						<record alignment="left,centre_y">
 							<translation id="text" translation_id="243483" type="use" value="Year[COMMENT: player history screen heading]" />

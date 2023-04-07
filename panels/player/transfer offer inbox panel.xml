@@ -52,7 +52,7 @@
 						<widget class="transfer_offer_budget_panel" id="tnbu" width="180"/>
 
 						<!-- messages, rules and comments -->
-						<container id="insc" >
+						<container id="insc">
 							<attachment_group class="vertical_arrange_autosize" vertical_alignment="bottom" vertical_offset="0" vertical_gap="6" horizontal_alignment="horizontal" horizontal_inset="0"/>
 
 							<widget class="transfer_offer_board_interact_panel" id="bint" auto_size="vertical"/>
@@ -61,7 +61,7 @@
 						</container>
 					</container>
 				</container>
-				
+
 				<container>
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 					<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4"/>
@@ -79,7 +79,7 @@
 							</record>
 						</list>
 					</widget>
-					
+
 					<container>
 						<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0"/>
 						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
@@ -123,7 +123,7 @@
 				<widget class="text" id="trvl" alignment="right,centre_y" colour="selection" style="bold" auto_size="horizontal"/>
 			</container>
 
-			<container class="inner_box" appearance="boxes/custom/warning/rounded/paper" id="wrnc" hidden="true" red_replacement="negative dark" >
+			<container class="inner_box" appearance="boxes/custom/warning/rounded/paper" id="wrnc" hidden="true" red_replacement="negative dark">
 				<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0"/>
 				<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="2" gap="10"/>
 				<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true"/>
@@ -134,7 +134,7 @@
 
 			<!-- buttons row -->
 			<widget class="text" id="rctx" auto_size="vertical" spec="text" size="large" colour="positive" hidden="true"/>
-			<container file="player/transfer offer buttons" id="tobu"  navigation_container="true"/>
+			<container file="player/transfer offer buttons" id="tobu" navigation_container="true"/>
 		</container>
 	</container>
 

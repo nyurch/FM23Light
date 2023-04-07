@@ -1,9 +1,9 @@
 <!-- NOTE: The property 'usoc' used on elements tells the panel to recolour them based on object colours -->
-<panel  navigation_focus_target="true">
+<panel navigation_focus_target="true">
 
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-	<container class="main_box" usoc="true" >
+	<container class="main_box" usoc="true">
 		<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 		<attachment class="hide_empty_container_attachment"/>
 
@@ -21,13 +21,13 @@
 			</container>
 
 			<!-- News item -->
-			<container > 
+			<container >
 				<attachment_group class="vertical_arrange" vertical_alignment="middle" horizontal_alignment="horizontal" />
 
 				<!-- Main object -->
 				<widget class="text" id="brif" font="title" size="small" style="bold" multiline="true" auto_size="vertical" colour="white" />
 				<!-- Story title (max 2 lines of text)-->
-				<widget class="text" id="titl" style="bold" size="large" multiline="true" auto_size="vertical" colour="white"  />
+				<widget class="text" id="titl" style="bold" size="large" multiline="true" auto_size="vertical" colour="white" />
 			</container>
 		</container>
 

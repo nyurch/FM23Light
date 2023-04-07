@@ -5,7 +5,7 @@
 	<string id="scAP" value="icons/custom/penalty shootout/scored"/>
 	<!--Missed Penalty Appearance-->
 	<string id="msAP" value="icons/custom/penalty shootout/missed"/>
-	
+
 	<!-- If these are set then we will override the appearance colours, see the bundesliga version for a working example
 	Score Penalty Red Replacement
 	<colour id="scCO" value="green"/>
@@ -103,28 +103,28 @@
 					</widget>
 				</container>
 			</container>
-			
+
 			<container width="40">
 				<attachment_group class="vertical_arrange" vertical_alignment="bottom" />
 
-			<container class="main_box_no_margin" id="at05" >
-				<string id="background_colour" value="white"/>
-				<attachment_group class="vertical_arrange_autosize"/>
+				<container class="main_box_no_margin" id="at05">
+					<string id="background_colour" value="white"/>
+					<attachment_group class="vertical_arrange_autosize"/>
 
-				<widget class="text" id="hmtT" alignment="centre" width="20" height="39">
-					<integer id="value" value="1"/>
-					<integer id="size" value="12"/>
-					<string id="font" value="title"/>
-					<string id="colour" value="black"/>
-				</widget>
-				<widget class="text" id="awtT" alignment="centre" width="20" height="39">
-					<integer id="value" value="1"/>
-					<integer id="size" value="12"/>
-					<string id="font" value="title"/>
-					<string id="colour" value="black"/>
-				</widget>
+					<widget class="text" id="hmtT" alignment="centre" width="20" height="39">
+						<integer id="value" value="1"/>
+						<integer id="size" value="12"/>
+						<string id="font" value="title"/>
+						<string id="colour" value="black"/>
+					</widget>
+					<widget class="text" id="awtT" alignment="centre" width="20" height="39">
+						<integer id="value" value="1"/>
+						<integer id="size" value="12"/>
+						<string id="font" value="title"/>
+						<string id="colour" value="black"/>
+					</widget>
+				</container>
 			</container>
-		</container>
 		</container>
 		<container class="main_box_no_margin" id="cmpH" width="55" height="38" appearance="boxes/custom/match/tv captions/si tv/caption/footer/paper" red_replacement="primary">
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="6" />

@@ -56,7 +56,7 @@
 					<!-- Age -->
 					<!-- We use an editable panel here just to make it disappear when editing-->
 					<widget class="editable_client_object_property_panel" id="age " auto_size="all">
-						<record id="widget_info" class="formatted_label" alignment="left,centre_y" auto_size="all" >
+						<record id="widget_info" class="formatted_label" alignment="left,centre_y" auto_size="all">
 							<translation id="format" translation_id="242551" type="use" value="[%number#1] years old" />
 						</record>
 						<record id="widget_properties" width="0" height="0" />
@@ -92,12 +92,12 @@
 				</container>
 
 				<!-- Gender -->
-				<widget class="gender_label" id="gDLs" auto_size="vertical" size="small" >
+				<widget class="gender_label" id="gDLs" auto_size="vertical" size="small">
 					<record id="object_property" dont_set_hint="true" get_property="Pife" />
 				</widget>
 
 				<!-- Int Caps -->
-				<widget class="international_appearances_label" id="inta" auto_size="vertical" size="small" >
+				<widget class="international_appearances_label" id="inta" auto_size="vertical" size="small">
 					<integer id="int_apps_label_format" value="10" />
 					<record id="object_property" dont_set_hint="true" get_property="Pist" />
 				</widget>
@@ -136,7 +136,7 @@
 				</widget>
 
 				<!--Non Player extra details (e.g. onloan at...)-->
-				<widget class="player_extra_details_text" id="plex" auto_size="vertical" size="small" >
+				<widget class="player_extra_details_text" id="plex" auto_size="vertical" size="small">
 					<record id="object_property" get_property="NPxD" />
 				</widget>
 
@@ -148,10 +148,10 @@
 					<layout class="arrange_horizontal_attachment" alignment="fill" offset="0" gap="0" />
 					<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-					<widget class="editable_client_object_property_panel" id="Pcww" >
+					<widget class="editable_client_object_property_panel" id="Pcww">
 						<record id="object_property" get_property="Pcww" />
 					</widget>
-					<widget class="editable_client_object_property_panel" id="Pcex" >
+					<widget class="editable_client_object_property_panel" id="Pcex">
 						<record id="object_property" get_property="Pcex" />
 					</widget>
 				</container>
@@ -181,7 +181,7 @@
 				</widget>
 
 				<!--Job-->
-				<widget class="text" id="pnjo" auto_size="vertical" size="small"  alignment="left,centre_y" />
+				<widget class="text" id="pnjo" auto_size="vertical" size="small" alignment="left,centre_y" />
 			</container>
 		</container>
 
@@ -193,7 +193,7 @@
 			<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0" />
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-			<widget class="label" auto_size="vertical" >
+			<widget class="label" auto_size="vertical">
 				<translation id="text" translation_id="227963" type="use" value="Reputation" />
 			</widget>
 			<widget class="global_reputation_stars_label" id="pReP" auto_size="vertical" style="semi_bold" size="large" alignment="left" subject_is_person="true">
@@ -241,7 +241,7 @@
 									<layout class="arrange_horizontal_attachment" offset="0" alignment="left,extend,as_needed" gap="0" />
 									<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-									<widget class="radio_button" id="MgtW" auto_size="horizontal" appearance="tabs/subsection/normal/top/button" icon_enabled="false" show_button_appearance="true" secondary_icon_enabled="true" secondary_icon="icons/16px/manager" secondary_icon_alignment="left" >
+									<widget class="radio_button" id="MgtW" auto_size="horizontal" appearance="tabs/subsection/normal/top/button" icon_enabled="false" show_button_appearance="true" secondary_icon_enabled="true" secondary_icon="icons/16px/manager" secondary_icon_alignment="left">
 										<translation id="text" translation_id="447595" type="use" value="Managerial[COMMENT:Attribute Category;to show only managerial related attributes]" />
 										<event id="click_event">
 											<flags id="event_id" value="eAtH" />
@@ -294,7 +294,7 @@
 									</widget>
 
 									<container class="scrolling_box" id="nptp">
-										<container class="non_player_tendencies_panel"  should_force_refresh="true" file="none">
+										<container class="non_player_tendencies_panel" should_force_refresh="true" file="none">
 											<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" />
 
 											<!-- Property setting the path to use for 'high' tendencies (>10) -->
@@ -381,10 +381,10 @@
 		</container>
 
 		<container id="cskr">
-		<attachment_group class="horizontal_arrange" horizontal_layout="-1,-1,-1" horizontal_offset="0" horizontal_gap="5" vertical_offset="0" />
+			<attachment_group class="horizontal_arrange" horizontal_layout="-1,-1,-1" horizontal_offset="0" horizontal_gap="5" vertical_offset="0" />
 
 			<container class="main_subtle_box">
-			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
+				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
 
 				<widget class="player_history_achievements_panel" id="pac1" file="non_player/non player history" navigation_container="true">
 					<record id="object_property">
@@ -399,21 +399,21 @@
 			</container>
 
 			<!-- Awards -->
-		<container class="main_subtle_box">
-			<translation id="title" translation_id="229368" type="use" value="Awards" />
-			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
-			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4" />
-			<widget class="client_object_viewer_xml_panel" file="person/person achievements summary" id="pacs" auto_size="vertical" default_height="181" priority="4">
-				<record id="object_property">
-					<integer id="get_property" value="objt" />
-					<integer id="set_property" value="objt" />
-				</record>
-			</widget>
-		</container>
+			<container class="main_subtle_box">
+				<translation id="title" translation_id="229368" type="use" value="Awards" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+				<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4" />
+				<widget class="client_object_viewer_xml_panel" file="person/person achievements summary" id="pacs" auto_size="vertical" default_height="181" priority="4">
+					<record id="object_property">
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</widget>
+			</container>
 
 			<!-- Plans -->
 			<container class="main_subtle_box" navigation_container="true">
-			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
+				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0" />
 
 				<widget class="person_happiness_panel" id="phap" file="person/person happiness profile plans">
 					<record id="object_property">

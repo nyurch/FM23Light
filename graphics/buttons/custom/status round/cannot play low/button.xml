@@ -14,5 +14,5 @@
 	<colour id="colour" red="2255" green="2255" blue="2255"/>
 
 	<colour id="red_replacement" name="status_cannot_play_low"/>
-	
+
 </properties>

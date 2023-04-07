@@ -6,11 +6,11 @@
 
     <container width="70" height="70">
         <attachment_group class="horizontal_arrange" vertical_inset="0" vertical_offset="0" horizontal_inset="0" horizontal_offset="0"/>
-        
+
         <widget class="picture" id="PoBk" file="icons/custom/quick chat/pitch" scale_picture="true" keep_aspect_ratio="true" width="70" height="70" image_alignment="centre">
             <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
         </widget>
-        
+
         <!-- portrait -->
         <widget class="object_portrait_picture" id="PPor" width="70" height="70" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
             <record id="object_property">
@@ -33,7 +33,7 @@
     <!-- current team -->
     <container>
         <attachment_group class="horizontal_arrange_autosize_all" horizontal_layout="18, -1"/>
-        
+
         <widget class="object_portrait_picture" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true" width="18" height="18">
             <record id="object_property" dont_set_hint="true" get_property="Pctx" set_property="objt" />
         </widget>

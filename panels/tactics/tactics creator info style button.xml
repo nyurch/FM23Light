@@ -53,7 +53,7 @@
 			<layout class="stick_to_object_attachment" id="alPl" offset="35" get_side="left" set_side="left" target="main"/>
 			<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right" target="main"/>
 		</widget>
-		<container entity_layout_id="at06" id="at06" auto_size="vertical">			
+		<container entity_layout_id="at06" id="at06" auto_size="vertical">
 			<layout class="stick_to_object_attachment" id="alPt" offset="3" get_side="bottom" set_side="top" move_side="true" target="at02"/>
 			<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left" target="main"/>
 			<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right" target="main"/>

@@ -1,7 +1,7 @@
 <panel wants_mouse_events="true">
 	<string id="skin_style" value="edit_box" />
 	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
-	
+
 	<record id="shown_event">
 		<flags id="event_id" value="wzPc" />
 		<flags id="index" value="1" />
@@ -13,36 +13,36 @@
 
 		<!-- box containing personal details form -->
 		<container id="pdpa">
-				<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="0" horizontal_inset="6" />
+			<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="0" horizontal_inset="6" />
 
 			<container>
 				<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="0" horizontal_inset="0" />
 				<container>
 					<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_offset="0" vertical_inset="0" vertical_gap="5" horizontal_inset="6" />
-					
+
 					<!-- Names -->
 					<container class="inner_subtle_box" navigation_container="true" default_focus="true">
 						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
 
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" horizontal_offset="0" vertical_inset="0" />
-							
+
 							<container>
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
-								
+
 								<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="text" font="title" size="large">
 									<translation id="text" translation_id="292600" type="use" value="Name[COMMENT: add manager panel; name label]" />
 								</widget>
 
-								<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="text" font="title" size="large">  
+								<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="text" font="title" size="large">
 									<translation id="hint" translation_id="300786" type="use" value="All items with a * must be filled in[COMMENT:indicator to the user that the coloured asterisk indicates that the user must fill in this field]" />
 									<translation id="text" translation_id="248129" type="use" value="*" />
 								</widget>
 							</container>
-							
+
 							<container>
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
-								
+
 								<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="text" font="title" size="large">
 									<translation id="text" translation_id="374250" type="use" value="Surname[COMMENT: add manager panel; Surname label, somehow we've never actually had this string in the game!]" />
 								</widget>
@@ -53,11 +53,11 @@
 								</widget>
 							</container>
 						</container>
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" horizontal_offset="0" vertical_inset="0" />
-							
-							<widget class="edit_box" id="frst" edit_event="frst" alignment="left,centre_y" column_span="3" >
+
+							<widget class="edit_box" id="frst" edit_event="frst" alignment="left,centre_y" column_span="3">
 								<translation id="description" translation_id="298759" type="use" value="First Name[comment first name of a new untitled user]" />
 								<layout class="max_length_attachment" length="25" />
 								<boolean id="select_on_focus" value="true" />
@@ -65,7 +65,7 @@
 									<flags id="event_id" value="ChNa" />
 								</record>
 							</widget>
-							
+
 							<widget class="edit_box" id="last" edit_event="last" alignment="left,centre_y">
 								<translation id="description" translation_id="298760" type="use" value="Last Name[comment: last name of a new untitled user]" />
 								<layout class="max_length_attachment" length="25" />
@@ -75,7 +75,7 @@
 								</record>
 							</widget>
 						</container>
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
 
@@ -85,18 +85,18 @@
 							</widget>
 						</container>
 					</container>
-					
+
 					<!-- Gender -->
 					<container class="inner_subtle_box" navigation_container="true">
 						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
 
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right, extend" horizontal_offset="0" horizontal_gap="5" vertical_inset="0" />
-							
+
 							<widget class="label" font="title" size="large" alignment="left,centre_y" auto_size="horizontal" colour="text">
 								<translation id="text" translation_id="281350" type="use" value="Gender[COMMENT: add_manager_panel; select gender; define manager's sex]" />
 							</widget>
-							
+
 							<widget class="radio_button" id="genm" auto_size="all" selected="true" group="genG">
 								<translation id="text" translation_id="278121" type="use" value="Male[COMMENT: add_manager_panel; choosing your manager's gender when starting a new game]" />
 								<record id="click_event">
@@ -105,7 +105,7 @@
 									<flags id="mgen" value="-1" />
 								</record>
 							</widget>
-							
+
 							<widget class="radio_button" id="genf" auto_size="all" selected="false" group="genG">
 								<translation id="text" translation_id="278120" type="use" value="Female[COMMENT: add_manager_panel; choosing your manager's gender when starting a new game]" />
 								<record id="click_event">
@@ -116,17 +116,17 @@
 							</widget>
 						</container>
 					</container>
-					
+
 					<!-- Nationality -->
 					<container class="inner_subtle_box" navigation_container="true">
 						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
 
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" horizontal_offset="0" vertical_inset="0" />
-							
+
 							<container>
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
-								
+
 								<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="text" font="title" size="large">
 									<translation id="text" translation_id="227841" type="use" value="Nationality" />
 								</widget>
@@ -136,25 +136,25 @@
 									<translation id="text" translation_id="248129" type="use" value="*" />
 								</widget>
 							</container>
-							
+
 							<container>
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
-								
+
 								<widget class="label" alignment="left,centre_y" auto_size="horizontal" colour="text" font="title" size="large">
 									<translation id="text" translation_id="227960" type="use" value="Place Of Birth" />
 								</widget>
 
 							</container>
 						</container>
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" horizontal_offset="0" vertical_inset="0" />
-							
+
 							<container>
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend" horizontal_gap="0">
 									<global id="horizontal_gap" name="ui.split_button_row_gap" />
 								</attachment_group>
-								
+
 								<!-- NOTE: Shares an ID with FMT's version of this widget which is a different widget class -->
 								<widget class="filter_edit_box" id="natn" appearance="edit boxes/custom/selection/box" alignment="left,centre_y">
 									<flags id="changed_event" value="natn" />
@@ -165,7 +165,7 @@
 								<widget class="icon_button" click_event="napu" id="napu" appearance="buttons/subtle/split/right/button" icon="icons/16px/down" auto_size="horizontal">
 								</widget>
 							</container>
-							
+
 							<container>
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend">
 									<global id="horizontal_gap" name="ui.split_button_row_gap" />
@@ -179,7 +179,7 @@
 								<widget class="icon_button" click_event="cipu" id="cipu" appearance="buttons/subtle/split/right/button" height="30" icon="icons/16px/down" auto_size="horizontal" />
 							</container>
 						</container>
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
 
@@ -189,12 +189,12 @@
 								<record id="modal_popup_properties" file="modal popup panel auto sized" propagate_mouse_events="false" />
 							</widget>
 						</container>
-					</container>	
-					
+					</container>
+
 					<!-- DOB -->
 					<container class="inner_subtle_box" navigation_container="true">
 						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
 
@@ -207,7 +207,7 @@
 								<translation id="text" translation_id="248129" type="use" value="*" />
 							</widget>
 						</container>
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="70,-1,90,40" horizontal_offset="0" vertical_inset="0">
 								<global id="horizontal_gap" name="ui.button_row_gap" />
@@ -266,11 +266,11 @@
 							<widget class="icon_button" id="date" click_event="cdob" appearance="buttons/subtle/normal/button" icon="icons/16px/schedule" icon_alignment="centre" />
 						</container>
 					</container>
-					
+
 					<!-- Favourite Team -->
 					<container class="inner_subtle_box" navigation_container="true">
 						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
 
@@ -278,7 +278,7 @@
 								<translation id="text" translation_id="247154" type="use" value="Favourite Team" />
 							</widget>
 						</container>
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right,extend">
 								<global id="horizontal_gap" name="ui.split_button_row_gap" />
@@ -290,9 +290,9 @@
 								<boolean id="validate_string" value="true" />
 							</widget>
 
-							<widget class="icon_button" click_event="fapu" id="fapu" appearance="buttons/subtle/split/right/button" icon="icons/16px/down" auto_size="horizontal"/>		
+							<widget class="icon_button" click_event="fapu" id="fapu" appearance="buttons/subtle/split/right/button" icon="icons/16px/down" auto_size="horizontal"/>
 						</container>
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" horizontal_offset="0" vertical_inset="0" />
 
@@ -302,13 +302,13 @@
 								<record id="modal_popup_properties" file="modal popup panel auto sized" propagate_mouse_events="false" />
 							</widget>
 						</container>
-					</container>					
-					
+					</container>
+
 					<!-- Experience Level -->
 					<container class="inner_subtle_box" navigation_container="true">
 						<string id="remove_if" value="tutorials_disabled"/>
 						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="6" />
-						
+
 						<container>
 							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-3,-4" horizontal_offset="0" vertical_inset="0" />
 
@@ -322,7 +322,7 @@
 								<translation id="text" translation_id="538957" type="use" value="Teach me about key management concepts[COMMENT: AREA: Manager Creation Panel; SUB-AREA: Manager Personal Information Panel; FR-BN: 32003; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Check box toggle label for responsibilities relating to Tutorial mode; no if they consider themselves experienced, yes if they wish to learn more]" />
 							</widget>
 						</container>
-						
+
 						<container>
 							<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
 
@@ -333,7 +333,7 @@
 							<widget class="text" id="inxT" alignment="left,centre_y" colour="faded text" multiline="true" auto_size="vertical">
 								<translation id="text" translation_id="466441" type="use" value="Inexperienced managers will be inducted into various aspects of their job, receiving an education into key areas of responsibility, before being given the option of personally handling them.[COMMENT: toggle for responsibilities relating to Tutorial mode; asks the user if they consider themselves experienced, this is the explanatory tool-tip]" />
 							</widget>
-							
+
 							<container>
 								<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" horizontal_offset="0" vertical_inset="0" vertical_alignment="vertical" />
 
@@ -342,11 +342,11 @@
 									<record id="widget_properties" file="human/add manager formation information dialog" width="600" />
 									<record id="modal_popup_properties" file="modal popup panel auto sized" propagate_mouse_events="false" />
 								</widget>
-								
+
 								<widget class="icon_button" id="oRDb" click_event="oReD" alignment="left,centre_y" secondary_icon="icons/16px/maximise" appearance="buttons/subtle/normal/button" icon_enabled="false" secondary_icon_enabled="true" hidden="true">
 									<translation id="text" translation_id="335274" type="use" value="Responsibilities[COMMENT: Manager main/top menu: national team options when team name is not visible]" />
 								</widget>
-							
+
 							</container>
 						</container>
 					</container>

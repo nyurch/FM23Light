@@ -2,19 +2,19 @@
 
   <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 
-    <!--stadium picture-->
+  <!--stadium picture-->
   <widget class="stadium_picture" id="STAp" image_alignment="top, centre_x" scale_picture="true" keep_aspect_ratio="true">
     <record id="object_property">
       <integer id="get_property" value="objt" />
       <integer id="set_property" value="objt" />
     </record>
-  </widget>	
-  
+  </widget>
+
   <!--container for the team badges-->
   <container id="tbdg">
     <layout class="arrange_horizontal_attachment" layout="150,-1,150" />
     <layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
-	
+
     <container>
       <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 

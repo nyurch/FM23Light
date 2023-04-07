@@ -148,7 +148,7 @@
 				<container class="scrolling_box" id="tscn" hidden="true">
 					<container>
 						<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_inset="0" />
-						
+
 						<widget class="horizontal_divider" />
 
 						<container>

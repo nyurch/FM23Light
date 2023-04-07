@@ -14,7 +14,7 @@
 	<container>
 		<attachment_group class="horizontal_arrange" vertical_alignment="vertical" horizontal_alignment="left, extend" vertical_inset="0" horizontal_offset="0" vertical_gap="0" horizontal_gap="0"/>
 
-		<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x" height="28" width="28" file="pictures/person/none/male/portrait" >
+		<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x" height="28" width="28" file="pictures/person/none/male/portrait">
 			<record id="object_property">
 				<list id="get_properties">
 					<record get_property="fcgn"/>
@@ -47,11 +47,11 @@
 			</widget>
 		</container>
 	</container>
-	
+
 	<container id="empT" hidden="true">
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 		<widget class="label" alignment="centre" text="-">
 		</widget>
 	</container>
-	
+
 </panel>

@@ -5,7 +5,7 @@
 		<attachment_group class="vertical_arrange_autosize" />
 
 		<!--Colour Blind Mode colour_blind_mode-->
-		<container class="game_settings_viewer_panel" entity_layout_id="at05" id="cbMD" name="colour blind mode setting" >
+		<container class="game_settings_viewer_panel" entity_layout_id="at05" id="cbMD" name="colour blind mode setting">
 
 			<record id="table_properties">
 				<list id="column_widget_properties">
@@ -16,7 +16,7 @@
 					<record width="250">
 						<integer id="index" value="1" />
 					</record>
-				</list> 
+				</list>
 			</record>
 
 			<list id="viewed_property_ids">

@@ -39,9 +39,9 @@
 					<widget class="text" id="arbs" auto_size="vertical" alignment="right" hidden="true">
 						<translation id="text" translation_id="447600" type="use" value="This player is being scouted by [%person#1] and the report will be available shortly.[COMMENT:scout report, scouting in progress]" />
 					</widget>
-          <widget class="text" id="pool" auto_size="vertical" alignment="right" hidden="true">
-            <translation id="text" translation_id="342085" type="use" value="Scouting In Progress[COMMENT: disabled menu item when a player is already being scouted]" />
-          </widget>
+					<widget class="text" id="pool" auto_size="vertical" alignment="right" hidden="true">
+						<translation id="text" translation_id="342085" type="use" value="Scouting In Progress[COMMENT: disabled menu item when a player is already being scouted]" />
+					</widget>
 					<widget class="button" id="scPb" click_event="sctc" auto_size="all" alignment="right" height="30" hidden="true">
 						<translation id="text" translation_id="243421" type="use" value="Scout Player" />
 						<layout class="centre_in_parent_attachment" alignment="horizontal" />
@@ -176,7 +176,7 @@
 						<translation id="text" translation_id="383562" type="use" value="No suitable best roles for this position[COMMENT: FR 10661; player overview positions indicator; string displayed when the player is not good enough in a position to have a 'best role' for it]" />
 					</widget>
 					<widget class="text" id="absc" auto_size="vertical" hidden="true">
-            <translation id="text" translation_id="447600" type="use" value="This player is being scouted by [%person#1] and the report will be available shortly.[COMMENT:scout report, scouting in progress]" />
+						<translation id="text" translation_id="447600" type="use" value="This player is being scouted by [%person#1] and the report will be available shortly.[COMMENT:scout report, scouting in progress]" />
 					</widget>
 					<widget class="button" id="sPbc" click_event="sct2" auto_size="all" height="30" hidden="true">
 						<translation id="text" translation_id="243421" type="use" value="Scout Player" />
@@ -234,7 +234,7 @@
 				<widget class="label" alignment="left,centre_y" col="1" row="0" colour="faded text">
 					<translation id="text" translation_id="230000" type="use" value="Left Foot" />
 				</widget>
-				<widget class="footedness_label" id="ftLc" alignment="left,centre_y" format="[%string#1]" col="1" row="1" >
+				<widget class="footedness_label" id="ftLc" alignment="left,centre_y" format="[%string#1]" col="1" row="1">
 					<record id="object_property">
 						<integer id="get_property" value="PlfG" />
 					</record>

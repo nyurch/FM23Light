@@ -91,7 +91,7 @@
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="6" vertical_gap="6" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 					<container class="vertical_label_value_pair" value_widget="clBT" label_widget="lbBT">
-						<widget class="player_condition_icon_widget" appearance=""  auto_size="vertical" label_disabled="true" icon_alignment="centre" navigation_focus_target="false">
+						<widget class="player_condition_icon_widget" appearance="" auto_size="vertical" label_disabled="true" icon_alignment="centre" navigation_focus_target="false">
 							<record id="object_property" get_property="PcOI" />
 						</widget>
 
@@ -99,10 +99,10 @@
 							<translation id="text" translation_id="227793" type="use" value="Condition" />
 						</widget>
 					</container>
-							
+
 					<container class="vertical_label_value_pair" value_widget="clTP" label_widget="lbTP">
 
-						<widget class="player_match_sharpness_icon_widget" appearance=""  auto_size="vertical" label_disabled="true" icon_alignment="centre" navigation_focus_target="false">
+						<widget class="player_match_sharpness_icon_widget" appearance="" auto_size="vertical" label_disabled="true" icon_alignment="centre" navigation_focus_target="false">
 							<record id="object_property" get_property="PftI" />
 						</widget>
 

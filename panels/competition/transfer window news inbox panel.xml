@@ -23,7 +23,7 @@
                 <layout class="stick_to_sides_attachment" alignment="right" />
                 <layout class="centre_in_parent_attachment" alignment="vertical" />
             </widget>
-            
+
             <container class="transfer_window_countdown_panel" id="tdhr" hidden="true" />
         </container>
 

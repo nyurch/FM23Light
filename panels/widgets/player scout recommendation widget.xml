@@ -5,10 +5,10 @@
 		<string id="text" value="-" />
 	</widget>
 
-	<widget class="link_button" id="lnkb" section="Pssr" alignment="left,centre_y" appearance="buttons/custom/over state only/button"  hidden="true" navigation_focus_target="false" wants_mouse_events="true" />
+	<widget class="link_button" id="lnkb" section="Pssr" alignment="left,centre_y" appearance="buttons/custom/over state only/button" hidden="true" navigation_focus_target="false" wants_mouse_events="true" />
 
 	<container id="rpco" hidden="true">
-		<layout class="arrange_vertical_attachment" alignment="middle" offset="0"  />
+		<layout class="arrange_vertical_attachment" alignment="middle" offset="0" />
 		<layout class="centre_in_parent_attachment" alignment="horizontal" apply_to_children="true" offset="0" />
 
 		<container height="32" width="32" navigation_focus_target="false">

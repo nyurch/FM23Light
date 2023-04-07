@@ -3,7 +3,7 @@
 
 	<boolean id="should_force_refresh" value="true" />
 	<boolean id="save_immediate_state" value="true" />
-	
+
 	<container class="inner_contrast_box" red_replacement="bg">
 		<attachment_group class="vertical_arrange" vertical_layout="20, 30, -1, 36" horizontal_alignment="horizontal" horizontal_inset="8" vertical_offset="8" vertical_gap="12" />
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />

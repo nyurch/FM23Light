@@ -8,7 +8,7 @@
 	<widget class="table" id="tltb" layout="-1, 110, 110, 160, 16, 16, 4" row_height="19" height="19" column_spacing="12" drop_disabled="true" fixed_size_rows="true" sort_disabled="true">
 		<container row="0" col="0">
 			<attachment_group class="horizontal_arrange" horizontal_gap="2" horizontal_offset="0" />
-			
+
 			<widget class="text" id="titl" font="notable_events" auto_size="horizontal" height="16" alignment="left, centre_y" />
 			<widget class="spacer" width="4" />
 			<widget class="picture" id="expi" file="icons/16px/urgent" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x, top" width="16" height="16" red_replacement="accent" hidden="true" />

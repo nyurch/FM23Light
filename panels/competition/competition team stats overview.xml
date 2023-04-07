@@ -41,7 +41,7 @@
 				<record id="default_properties" layout="-1, -1" offset="10" gap="20" inset="0" />
 
 				<set_var name="stat_panel_container">
-					<container class="horizontal_arrange_container" >
+					<container class="horizontal_arrange_container">
 						<widget class="competition_team_stats_panel" file="competition/competition team stats item panel left" maximum_items="top_only_with_count">
 							<var id="type" name="left_stat_type" />
 						</widget>
@@ -107,7 +107,7 @@
 						<integer value="16" />
 					</set_var>
 				</var>
-				
+
 			</container>
 
 		</container>
@@ -122,13 +122,13 @@
 	</container>
 
 	<!-- Adaptive rows of little stat boxes-->
-	<container class="vertical_adaptive_container" inset="0" offset="0"  mode="distribute_equally" navigation_container="true">
+	<container class="vertical_adaptive_container" inset="0" offset="0" mode="distribute_equally" navigation_container="true">
 
-		<record id="default_properties" inset="0" offset="0"  minimum_height="160" mode="distribute_equally">
+		<record id="default_properties" inset="0" offset="0" minimum_height="160" mode="distribute_equally">
 			<record id="default_properties" file="competition/competition team stats panel small" maximum_items="7" minimum_width="280" store_config_id="tmSC" option="true" navigation_container="true" />
 		</record>
-		
-		<container class="horizontal_adaptive_container"  priority="1">
+
+		<container class="horizontal_adaptive_container" priority="1">
 			<!-- CCS_FORM -->
 			<container class="competition_team_stats_panel" id="sta1" type="5" priority="1" />
 			<!-- CCS_GAMES_WITHOUT_LOSING -->

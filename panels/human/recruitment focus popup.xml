@@ -1,5 +1,5 @@
 ﻿<panel>
-<string id="skin_style" value="edit_box" />
+	<string id="skin_style" value="edit_box" />
 	<list id="draw_order">
 		<record entity_layout_id="at01"/>
 		<record entity_layout_id="at0Q"/>
@@ -686,12 +686,12 @@
 		</widget>
 		<widget class="check_box" entity_layout_id="at0=" id="apCB" width="180" height="30" name="tactic popup" colour="text">
 			<string id="click_event" value="evAN"/>
-			<translation id="text" type="new" value="Any Position from Tactic[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Dialog; FN: FM-12287; NOTE: Checkbox title for searching for players irrespective of their position, as long as they match the other filters]"/>			
+			<translation id="text" type="new" value="Any Position from Tactic[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Dialog; FN: FM-12287; NOTE: Checkbox title for searching for players irrespective of their position, as long as they match the other filters]"/>
 			<layout class="stick_to_object_attachment" id="align_top" offset="8" get_side="bottom" set_side="top" move_side="true" target="at0@"/>
 			<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main"/>
 		</widget>
 		<container entity_layout_id="at0V" file="human/tactic grid container" id="tcGD" width="430" height="350" name="tactic pitch">
-			<layout class="stick_to_object_attachment" id="align_top"  get_side="bottom" set_side="top" move_side="true" target="at0A"/>
+			<layout class="stick_to_object_attachment" id="align_top" get_side="bottom" set_side="top" move_side="true" target="at0A"/>
 			<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main"/>
 		</container>
 		<widget class="text" entity_layout_id="at0Y" alignment="centre_y,left" id="at0Y" auto_size="horizontal" height="20" name="fits tactic title">

@@ -1,6 +1,6 @@
 <panel>
     <attachment_group class="horizontal_arrange_autosize_all_centre" horizontal_alignment="left, extend" horizontal_gap="8"/>
-    
+
     <widget class="picture" id="pPic" file="icons/26px/manager respo" image_alignment="centre" width="26" height="26" red_replacement="text" hidden="true"/>
 
     <container>

@@ -9,9 +9,9 @@
 	<!-- image slices determine the points at which the image will be sliced to enable scaling -->
 	<!-- the image will only slice in the directions slicing values are provided for-->
 	<record id="image_slices" left="20" right="20" top="15" bottom="15"/>
-    
-    <record id="font_spec">
-        <flags id="colour" value="black" />
-    </record>
-	
+
+	<record id="font_spec">
+		<flags id="colour" value="black" />
+	</record>
+
 </properties>

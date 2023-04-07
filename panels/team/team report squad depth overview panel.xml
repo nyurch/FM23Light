@@ -62,7 +62,7 @@
 					<container>
 						<var name="button_label_attachments" />
 
-						<widget class="label" font="title" colour="accent" auto_size="vertical" >
+						<widget class="label" font="title" colour="accent" auto_size="vertical">
 							<translation id="text" translation_id="420744" type="use" value="Show[COMMENT: team report squad depth panel; text leading to dropdown for sorting squad depth rows current/potential ability]" />
 						</widget>
 
@@ -89,7 +89,7 @@
 					<container width="160">
 						<var name="button_label_attachments" />
 
-						<widget class="label" id="perl" font="title" colour="accent" auto_size="vertical" >
+						<widget class="label" id="perl" font="title" colour="accent" auto_size="vertical">
 							<translation id="text" translation_id="420746" type="use" value="Roles[COMMENT: team report squad depth panel; text leading to dropdown for sorting squad depth rows by role]" />
 						</widget>
 
@@ -107,7 +107,7 @@
 
 						<var name="button_label_attachments" />
 
-						<widget class="label" id="perl" font="title" colour="accent" auto_size="vertical" >
+						<widget class="label" id="perl" font="title" colour="accent" auto_size="vertical">
 							<translation id="text" translation_id="420747" type="use" value="Opinion of[COMMENT: team report squad depth panel; text leading into a dropdown list of backroom staff user can choose to compile team report, please leave space in string, it is intentional]" />
 						</widget>
 
@@ -123,12 +123,12 @@
 
 					<!--  Customisation toggle -->
 					<container width="200" id="cusC">
-						
+
 						<string id="remove_if" value="ui.is_fmt_controller_skin"/>
 
 						<var name="button_label_attachments" />
 
-						<widget class="label" id="rrrl" font="title" colour="accent" auto_size="vertical" >
+						<widget class="label" id="rrrl" font="title" colour="accent" auto_size="vertical">
 							<translation id="text" translation_id="420748" type="use" value="Customisations[COMMENT: team report squad depth panel; CUstomisations option]" />
 						</widget>
 
@@ -170,7 +170,7 @@
 						<container height="30" width="120">
 							<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 							<!-- we have no room for the full filter button which has a pin button attached to it so we've made this custom without the pin -->
-							<widget class="filter_button" id="sfjc"   target="fAll"  save_session_state="true" secondary_icon_enabled="true" secondary_icon="icons/16px/down" auto_size="none" file="none">
+							<widget class="filter_button" id="sfjc" target="fAll" save_session_state="true" secondary_icon_enabled="true" secondary_icon="icons/16px/down" auto_size="none" file="none">
 								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" embed_in_frame="true"/>
 
 								<widget class="widget_popup_button" id="FiBn" embed_in_frame="true" auto_size="none">
@@ -224,7 +224,7 @@
 						<layout class="arrange_vertical_attachment" alignment="bottom" gap="2" offset="0" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 						<!--we have no room for the full filter button which has a pin button attached to it so we've made this custom without the pin-->
-						<widget class="filter_button" id="sfac"  target="fAll"  save_session_state="true" secondary_icon_enabled="true" secondary_icon="icons/16px/down" auto_size="none" file="none">
+						<widget class="filter_button" id="sfac" target="fAll" save_session_state="true" secondary_icon_enabled="true" secondary_icon="icons/16px/down" auto_size="none" file="none">
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" embed_in_frame="true"/>
 
 							<widget class="widget_popup_button" id="FiBn" embed_in_frame="true">

@@ -8,7 +8,7 @@
 
 	<flags id="bbco" value="transparent" />
 	<flags id="wbco" value="bg alpha" />
-	
+
 
 	<flags id="alwt" value="2"/>
 
@@ -23,8 +23,8 @@
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
 			<!-- No data label -->
-      <widget class="label" id="nodt" auto_size="vertical" hidden="true">
-        <translation id="text" translation_id="330275" type="use" value="Not available[COMMENT: happiness panel; text displayed when no happiness information is available]"/>
+			<widget class="label" id="nodt" auto_size="vertical" hidden="true">
+				<translation id="text" translation_id="330275" type="use" value="Not available[COMMENT: happiness panel; text displayed when no happiness information is available]"/>
 			</widget>
 
 			<widget class="graph" id="tacg" inset="1, 30, 1, 1" show_instant_hint="false">

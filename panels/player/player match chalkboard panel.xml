@@ -4,7 +4,7 @@
 	</list>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-	<container background_colour="condition_perfect" id="maCn"   navigation_container="true" default_focus="true">
+	<container background_colour="condition_perfect" id="maCn" navigation_container="true" default_focus="true">
 		<layout class="arrange_vertical_attachment" layout="-1,200" offset="0" gap="1" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
@@ -285,7 +285,7 @@
 								</record>
 							</widget>
 							<widget class="check_box_button" value="1" icon="icons/custom/analysis/pitch filter/all" icon_alignment="left" width="53" id="Alsd">
-                <translation id="hint" type="use" translation_id="382818" value="All[COMMENT: bug 112567; on button to select to view all items in store]" />
+								<translation id="hint" type="use" translation_id="382818" value="All[COMMENT: bug 112567; on button to select to view all items in store]" />
 								<record id="click_event">
 									<flags id="event_id" value="SPar" />
 									<flags id="type" value="TARP" />

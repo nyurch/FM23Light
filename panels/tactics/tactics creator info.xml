@@ -23,7 +23,7 @@
 						<animation class="size_animation" />
 					</container>
 
-						<container id="chSo" width="255" navigation_container="true">
+					<container id="chSo" width="255" navigation_container="true">
 						<animation class="fade_animation" trigger_id="hidden" trigger_value="false" start_value="0.0" end_value="1.0" duration="0.5" end_mode="hold_end" />
 						<layout class="arrange_vertical_attachment" alignment="top, extend" offset="8" gap="10" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="8" />
@@ -38,7 +38,7 @@
 								<layout class="fit_children_attachment" alignment="vertical,fill" offset="4" gap="4" />
 								<layout class="fit_children_attachment" alignment="vertical" offset="0" apply_to_children="true" gap="0" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
-								
+
 
 							</container>
 
@@ -69,13 +69,13 @@
 								<layout class="stick_to_sides_attachment" alignment="horizontal" />
 							</container>
 
-              <container height="45">
-                <layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" />
-                <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-                <widget class="icon_button" id="recM" icon="icons/16px/thumbs up" icon_colour="white" colour="white" multiline="true" show_button_appearance="false" alignment="top, left" icon_alignment="left, top" navigation_focus_target="false" />
-              </container>
+							<container height="45">
+								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="10" />
+								<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+								<widget class="icon_button" id="recM" icon="icons/16px/thumbs up" icon_colour="white" colour="white" multiline="true" show_button_appearance="false" alignment="top, left" icon_alignment="left, top" navigation_focus_target="false" />
+							</container>
 
-            </container>
+						</container>
 
 						<container>
 							<attachment_group class="button_arrangement_right" />
@@ -89,7 +89,7 @@
 						</container>
 					</container>
 
-				</container>       
+				</container>
 
 				<container class="main_contrast_box" appearance="boxes/main/contrast/right/paper" red_replacement="pitch_box_background" id="prSp" width="640" hidden="true">
 					<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="8" />
@@ -126,7 +126,7 @@
 
 								<widget class="horizontal_divider" />
 
-								<widget class="subtle_popup_button" id="otfo" colour="white" secondary_icon_colour="white"  auto_size="vertical">
+								<widget class="subtle_popup_button" id="otfo" colour="white" secondary_icon_colour="white" auto_size="vertical">
 									<translation id="text" translation_id="466514" type="use" value="Other Formations[COMMENT: title for dropdown containing formations]" />
 								</widget>
 
@@ -162,12 +162,12 @@
 							</widget>
 						</container>
 
-            <container id="dbCN">
-              <layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0" />
-              <layout class="fit_children_attachment" alignment="vertical,fill" offset="0" gap="0" />
-              <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+						<container id="dbCN">
+							<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0" />
+							<layout class="fit_children_attachment" alignment="vertical,fill" offset="0" gap="0" />
+							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-            </container>
+						</container>
 
 						<container>
 							<attachment_group class="button_arrangement_right" />
@@ -189,7 +189,7 @@
 
 			<container>
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-				
+
 				<container id="step">
 					<layout class="arrange_horizontal_attachment" layout="-1,-12,-1" gap="0" />
 					<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
@@ -212,7 +212,7 @@
 				</container>
 
 				<widget class="button" show_button_appearance="false" click_event="mcan" navigation_focus_target="false" />
-				
+
 			</container>
 
 

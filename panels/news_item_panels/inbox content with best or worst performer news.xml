@@ -10,7 +10,7 @@
 		<record get_property="title" set_property="text" target="titT" />
 		<record get_property="pdsi" set_property="disabled" target="asda" />
 	</list>
-	
+
 	<!--list of colours for ranking table bases upon percentile value-->
 	<list id="rpLi">
 		<record colour="injury_proneness_colour_very_high" min_value="0" max_value="20" />
@@ -19,8 +19,8 @@
 		<record colour="injury_proneness_colour_below_average" min_value="60" max_value="80" />
 		<record colour="injury_proneness_colour_very_low" min_value="80" max_value="100" />
 	</list>
-	
-	
+
+
 	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_alignment="top" horizontal_inset="0" />
 	<container class="inner_box" height="480">
 		<attachment_group class="horizontal_arrange" horizontal_layout="-1,260" horizontal_offset="0" horizontal_gap="20" vertical_inset="0" />
@@ -48,9 +48,9 @@
 							<translation id="text" translation_id="347559" type="use" value="[%number#1] year-old [%player_description#1][COMMENT: inbox person information panel; person description]" />
 						</widget>
 
-						</container>
-
 					</container>
+
+				</container>
 				<!--team details-->
 				<container class="client_object_viewer_xml_panel" id="tamC">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_alignment="top" horizontal_inset="0" />

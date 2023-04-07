@@ -15,16 +15,16 @@
 		<record get_property="HSMt" target="TTab" set_property="HSMt" />
 		<record get_property="ASMt" target="TTab" set_property="ASMt" />
 	</list>
- 
-	<container><!-- all space -->
+
+	<container>		<!-- all space -->
 		<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="0" vertical_inset="0" horizontal_gap="8" />
-		<container><!-- left and dugout -->
- 			<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" vertical_inset="10" horizontal_gap="8"/>
- 			<container width="370"  id="NEvp">
+		<container>			<!-- left and dugout -->
+			<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" vertical_inset="10" horizontal_gap="8"/>
+			<container width="370" id="NEvp">
 				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
 				<container class="main_transparent_box" red_replacement="grey 100">
 					<attachment_group class="vertical_arrange_autosize" />
-					<container height="193"  >
+					<container height="193">
 						<layout class="stick_to_sides_attachment" apply_to_children="true" />
 						<widget class="stadium_picture" id="STAp" file="none">
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="-50"/>
@@ -34,23 +34,23 @@
 							<widget class="picture" id="bkgd" file="pictures/stadiums/none_base" hidden="true"/>
 							<widget class="picture" id="STPC"/>
 						</widget>
-						<widget class="match_info_panel" id="bmin" file="file" >
+						<widget class="match_info_panel" id="bmin" file="file">
 							<record id="object_property" get_property="objt" set_property="objt"/>
 							<layout class="horizontal_arrange" horizontal_layout="-1,24,-1" />
 							<!--  home incidents panel -->
 							<widget class="home_match_incidents_panel" id="hmip" small_version="false" file="none">
 								<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right" >
+								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right">
 									<layout class="stick_to_sides_attachment" inset="36,8,8,8"/>
 								</widget>
 							</widget>
-							<widget class="text" alignment="centre" >
+							<widget class="text" alignment="centre">
 								<translation id="text" type="use" value="V" />
 							</widget>
 							<!--  home incidents panel -->
 							<widget class="away_match_incidents_panel" id="amip" small_version="false" file="none">
 								<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right" >
+								<widget class="kit_picture" id="teKP" scale_picture="true" keep_aspect_ratio="true" image_alignment="right">
 									<layout class="stick_to_sides_attachment" inset="36,8,8,8"/>
 								</widget>
 							</widget>
@@ -79,14 +79,14 @@
 						<widget class="text" colour="black" auto_size="all">
 							<string id="text" value="-"/>
 						</widget>
-						<widget class="person_button" colour="black" auto_size="all" >
+						<widget class="person_button" colour="black" auto_size="all">
 							<record id="object_property" get_property="FRef" dont_set_hint="true" />
 						</widget>
 					</container>
 					<!-- stadium name -->
 					<container>
 						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
-						<widget class="stadium_button" id="stad" auto_size="all" >
+						<widget class="stadium_button" id="stad" auto_size="all">
 							<layout class="centre_in_parent_attachment" alignment="all" />
 							<translation id="no_object_text" translation_id="227505" type="use" value="Unknown Stadium"/>
 							<record id="object_property">
@@ -210,7 +210,7 @@
 				</container>
 			</container>
 		</container>
- 
+
 		<!-- right side -->
 		<container>
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
@@ -242,13 +242,13 @@
 					</record>
 				</list>
 			</attachment>
-			<container class="client_object_viewer_xml_panel" file="match/match touchline tablet panel" id="TTab" >
- 				<record id="object_property">
+			<container class="client_object_viewer_xml_panel" file="match/match touchline tablet panel" id="TTab">
+				<record id="object_property">
 					<integer id="get_property" value="objt" />
 					<integer id="set_property" value="objt" />
 				</record>
- 			</container>
+			</container>
 		</container>
- 
+
 	</container>
 </panel>

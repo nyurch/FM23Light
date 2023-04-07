@@ -4,7 +4,7 @@
 	<colour id="graph_promotion_colour" name="green" />
 	<colour id="graph_relegation_colour" name="red" />
 
-	<string id="stage_button_appearance" value="tabs/standard/normal/top/button"  />
+	<string id="stage_button_appearance" value="tabs/standard/normal/top/button" />
 	<string id="stage_button_selected_appearance" value="tabs/standard/selected/top/button" />
 
 
@@ -15,7 +15,7 @@
 		<layout class="arrange_horizontal_attachment" layout="-1,-1" offset="0" gap="0" />
 		<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
-		<widget class="button" id="opSB" auto_size="none" >
+		<widget class="button" id="opSB" auto_size="none">
 			<event id="click_event">
 				<flags id="event_id" value="chMD" />
 				<flags id="mode" value="1" />
@@ -42,13 +42,13 @@
 				<record colour="graph row"/>
 				<record colour="graph row"/>
 			</list>
-        <record id="x_axis" gap="6" consistent_label_width="true">
-			<record id="label_font" colour="faded black"/>
-		</record>
-		<record id="y_axis">
-			<record id="label_font" colour="faded black"/>
-		</record>
-    </widget>
+			<record id="x_axis" gap="6" consistent_label_width="true">
+				<record id="label_font" colour="faded black"/>
+			</record>
+			<record id="y_axis">
+				<record id="label_font" colour="faded black"/>
+			</record>
+		</widget>
 
 		<widget class="label" id="NoGD" auto_size="all">
 			<translation id="text" translation_id="338017" type="use" value="No league history data available[COMMENT: Label on the club league history graph displayed when no league history is available]" />

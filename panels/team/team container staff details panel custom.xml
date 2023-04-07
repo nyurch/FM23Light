@@ -2,7 +2,7 @@
   <boolean id="save_session_state" value="true" />
   <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-  <widget class="subsection_box" id="plti" alignment="left" appearance="boxes/subsection/standard/paper" >
+  <widget class="subsection_box" id="plti" alignment="left" appearance="boxes/subsection/standard/paper">
     <layout class="arrange_vertical_attachment" alignment="fill" offset="0" />
     <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
@@ -22,7 +22,7 @@
 
       <boolean id="save_session_state" value="true" />
       <boolean id="save_default_state" value="true" />
-	  <integer id="contextual_handler_column_id" value="Psnm" />
+      <integer id="contextual_handler_column_id" value="Psnm" />
 
       <!-- default sort by team, job (primary) then name -->
       <list id="default_sort_column">
@@ -43,7 +43,7 @@
             <record id="Psnm" width="140" alignment="left, centre,can_scale"/>
             <!-- person name -->
             <record id="Pnat" width="20">
-               <flags id="use_format" value="very_short" />
+              <flags id="use_format" value="very_short" />
             </record>
             <!-- nationality -->
             <flags id="Pcif"/>
@@ -96,7 +96,7 @@
             <!-- person name -->
             <record id="Npad" width="20"/>
             <!-- adaptability -->
-            <record  id="Npde" width="20" />
+            <record id="Npde" width="20" />
             <!-- determination -->
             <record id="Npja" width="20" />
             <!-- judging ability -->

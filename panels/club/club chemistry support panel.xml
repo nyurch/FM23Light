@@ -63,14 +63,14 @@
 		<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 	</widget>
 	<container entity_layout_id="at52" id="at52">
-		<attachment_group class="horizontal_arrange" horizontal_alignment="fill" >
+		<attachment_group class="horizontal_arrange" horizontal_alignment="fill">
 			<global id="horizontal_gap" name="ui.main_contrast_box_gap" />
 		</attachment_group>
 		<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
 		<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
 		<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
 		<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
-		
+
 		<container class="main_subtle_box" entity_layout_id="at17" id="MCoh">
 			<widget class="spacer" id="main">
 				<boolean id="exclude_from_find" value="true" />
@@ -218,7 +218,7 @@
 				<boolean id="exclude_from_find" value="true" />
 				<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 			</widget>
-			<container entity_layout_id="at31" id="at31" >
+			<container entity_layout_id="at31" id="at31">
 				<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="2" horizontal_alignment="horizontal" horizontal_inset="6" />
 				<layout class="stick_to_object_attachment" id="align_top" offset="6" get_side="top" set_side="top" move_side="true" target="main" />
 				<layout class="stick_to_object_attachment" id="align_left" offset="6" get_side="left" set_side="left" target="main" />
@@ -357,7 +357,7 @@
 				<boolean id="exclude_from_find" value="true" />
 				<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 			</widget>
-			<container entity_layout_id="at48" id="at48" >
+			<container entity_layout_id="at48" id="at48">
 				<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_offset="2" horizontal_alignment="horizontal" horizontal_inset="6" />
 				<layout class="stick_to_object_attachment" id="align_top" offset="6" get_side="top" set_side="top" move_side="true" target="main" />
 				<layout class="stick_to_object_attachment" id="align_left" offset="6" get_side="left" set_side="left" target="main" />

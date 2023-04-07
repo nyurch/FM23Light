@@ -25,11 +25,11 @@
 				<record id="label_font" colour="faded black"/>
 				<record id="title_font" style="vertical"/>
 				<translation id="title" translation_id="242661" type="use" value="Rating[COMMENT - player form section; label for y-axis of average rating graph]" />
-        <list id="labels">
-          <record text="0" value="0"/>
-          <record text="5" value="5"/>
-          <record text="10" value="10"/>
-        </list>
+				<list id="labels">
+					<record text="0" value="0"/>
+					<record text="5" value="5"/>
+					<record text="10" value="10"/>
+				</list>
 			</record>
 			<list id="grid_line_styles">
 				<record colour="graph row"/>

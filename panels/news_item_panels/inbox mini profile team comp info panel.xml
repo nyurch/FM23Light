@@ -78,7 +78,7 @@
 				<record id="object_property">
 					<integer id="get_property" value="TcsO" />
 					<integer id="set_property" value="Shwn" />
-				</record>			
+				</record>
 			</widget>
 		</container>
 	</container>

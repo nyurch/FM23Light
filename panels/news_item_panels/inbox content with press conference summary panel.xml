@@ -15,7 +15,7 @@
 			<container class="horizontal_arrange_container" layout="250, -1" auto_size="vertical" gap="40" inset="0">
 
 				<!--manager profile container-->
-				<container class="vertical_arrange_container" alignment="top" layout="150, 80, 200" auto_size="vertical" inset="0" gap="0" >
+				<container class="vertical_arrange_container" alignment="top" layout="150, 80, 200" auto_size="vertical" inset="0" gap="0">
 
 					<container id="ICdi" height="150" width="250">
 						<layout class="arrange_vertical_attachment" alignment="top" offset="0"/>
@@ -35,7 +35,7 @@
 							<record id="object_property" get_property="PcJj" set_property="valu" />
 						</widget>
 
-						<widget class="person_nationality_button"  navigation_focus_target="true" entity_layout_id="at05" id="pntB" alignment="centre" icon_alignment="centre" auto_size="horizontal">
+						<widget class="person_nationality_button" navigation_focus_target="true" entity_layout_id="at05" id="pntB" alignment="centre" icon_alignment="centre" auto_size="horizontal">
 							<record id="dbrp">
 								<string id="get_property" value="objt" />
 								<string id="set_property" value="objt" />
@@ -44,7 +44,7 @@
 
 					</widget>
 
-					<widget class="client_object_viewer_xml_panel" navigation_focus_target="true" id="AdIn" >
+					<widget class="client_object_viewer_xml_panel" navigation_focus_target="true" id="AdIn">
 						<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0"/>
 						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 
@@ -54,7 +54,7 @@
 						<widget class="label" alignment="left,bottom" font="label">
 							<translation id="text" translation_id="243508" type="use" value="Relationship With You" />
 						</widget>
-						<widget class="relationship_label" id="mryw" display_format="0"  auto_size="vertical" spec="text" value="">
+						<widget class="relationship_label" id="mryw" display_format="0" auto_size="vertical" spec="text" value="">
 							<record id="object_property" get_property="PRHP" set_property="valu" />
 						</widget>
 
@@ -128,7 +128,7 @@
 				</container>
 			</container>
 			<!-- player reactions -->
-			<container class="inner_subtle_box" id="ReBx" >
+			<container class="inner_subtle_box" id="ReBx">
 				<layout class="arrange_vertical_attachment" alignment="top, extend"/>
 				<layout class="fit_children_attachment" alignment="vertical, fill"/>
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true"/>

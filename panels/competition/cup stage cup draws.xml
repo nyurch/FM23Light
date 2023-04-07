@@ -3,7 +3,7 @@
 	<boolean id="is_live_cup_draw_panel" value="true" />
 	<container width="960">
 		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
-        <widget class="spacer" height="12" />
+		<widget class="spacer" height="12" />
 
 
 		<widget class="label" id="date" colour="disabled" auto_size="vertical" />
@@ -11,8 +11,8 @@
 		<widget class="text" id="fxti" auto_size="vertical" colour="white" alignment="centre" size="12">
 			<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
 		</widget>
-        
-        <widget class="spacer" height="5" />
+
+		<widget class="spacer" height="5" />
 
 		<widget class="table" id="tabl" layout="140, -1, 2, 2, 2, 15, 2, 2, 5, -1, 140" mode="fill_custom_rows, fill_rows, keyboard" auto_size="vertical" row_height="50" row_spacing="10" fixed_size_rows="true" save_session_state="true">
 			<translation id="title" translation_id="247184" type="use" value="Cup Stage Panel" />
@@ -114,9 +114,9 @@
 				</record>
 			</list>
 		</widget>
-        
-        <widget class="spacer" height="5" />
-		
+
+		<widget class="spacer" height="5" />
+
 		<container>
 			<attachment_group class="vertical_arrange_autosize_horizontal_centre" vertical_alignment="top" vertical_gap="12" />
 			<widget class="icon_button" id="mibt" icon="icons/16px/maximise" auto_size="all" icon_colour="white" colour="white" red_replacement="white" icon_alignment="right" navigation_focus_target="true">

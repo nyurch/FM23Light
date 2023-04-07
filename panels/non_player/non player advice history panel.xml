@@ -33,7 +33,7 @@
 								<translation id="text" translation_id="320489" type="use" value="Advice[COMMENT: non player advice history panel; title of advice text column]" />
 							</record>
 						</record>
-						<record id="disc" >
+						<record id="disc">
 							<record id="widget_info" class="picture" file="icons/16px/tick" image_alignment="centre" />
 							<record id="column_heading">
 								<translation id="text" translation_id="320490" type="use" value="Was Followed[COMMENT: non player advice history panel; title of advice response column (ie dismissed)]" />

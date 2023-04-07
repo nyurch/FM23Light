@@ -83,7 +83,7 @@
 					</widget>
 
 					<widget class="text" entity_layout_id="at07" id="at07" alignment="left,centre_y" size="large" colour="faded text" auto_size="vertical" multiline="false"/>
-					
+
 				</container>
 			</container>
 			<widget class="icon_button" entity_layout_id="at05" id="at05" font="title" style="bold" auto_size="horizontal" height="50" appearance="buttons/custom/dof status/normal/button" navigation_focus_target="false" needs_width="true" needs_height="true">
@@ -117,7 +117,7 @@
 			<widget class="text" entity_layout_id="at06" id="at06" auto_size="horizontal" multiline="true" needs_width="true" height="50">
 				<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main" />
 				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" move_side="true" target="main" />
-			<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
+				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
 			</widget>
 		</container>
 	</container>

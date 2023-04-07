@@ -71,7 +71,7 @@
 					<widget class="check_box" id="tesC" click_event="tesE">
 						<translation id="text" translation_id="509202" type="use" value="Allow testimonial player to captain the team[COMMENT: AREA: Tactics; SUB-AREA: Captains; FR-BN: 28807; TONE: Formal; CHARLIMIT: None; NOTE: Check box label denoting whether a testimonial player will be given the captaincy for his testimonial match]" />
 					</widget>
-					
+
 				</container>
 			</container>
 

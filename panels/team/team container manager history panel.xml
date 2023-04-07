@@ -3,7 +3,7 @@
 	<colour id="manager_draws" name="grey 500" />
 	<colour id="manager_losses" name="team_form_loss" />
 	<boolean id="save_session_state" value="true" />
-	
+
 	<layout class="arrange_vertical_attachment" layout="-1, -1" offset="0" />
 	<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
@@ -63,16 +63,16 @@
 					<record index="6" alignment="left,centre_y" spec="text" />
 				</list>
 			</widget>
-			
+
 			<container height="30" navigation_container="true">
 				<layout class="arrange_vertical_attachment" alignment="middle" offset="0" gap="0" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
-				
+
 				<widget class="check_box" id="hcCb" select_event="hCtk" auto_size="vertical">
 					<translation id="text" translation_id="436460" type="use" value="Hide caretakers[COMMENT: filter option to hide caretaker managers from the history panel showing managerial hirings]" />
 				</widget>
 			</container>
-			
+
 		</container>
 	</container>
 
@@ -218,7 +218,7 @@
 				</container>
 			</container>
 
-			<container class="inner_subtle_box" >
+			<container class="inner_subtle_box">
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 				<translation id="title" translation_id="435775" type="use" value="Career Milestones[COMMENT: was previously ID 329749 Career Achievements, rewording as it's a better term for the content on the screen]" />
 

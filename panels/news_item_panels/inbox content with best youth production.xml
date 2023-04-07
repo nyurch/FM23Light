@@ -394,7 +394,7 @@
 					</container>
 				</container>
 			</container>
-			<container  class="client_object_viewer_xml_panel" entity_layout_id="at0Q" id="ntDc" name="nation box">
+			<container class="client_object_viewer_xml_panel" entity_layout_id="at0Q" id="ntDc" name="nation box">
 				<layout class="stick_to_object_attachment" id="alPt" get_side="top" set_side="top" target="main" />
 				<layout class="stick_to_object_attachment" id="alPb" get_side="bottom" set_side="bottom" target="main" />
 				<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left" target="main" />
@@ -411,7 +411,7 @@
 					<layout class="stick_to_object_attachment" id="alPt" offset="22" get_side="top" set_side="top" move_side="true" target="main" />
 					<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left" target="main" />
 					<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right" target="main" />
-				<record id="dbrp">
+					<record id="dbrp">
 						<string id="get_property" value="Nnat" />
 					</record>
 				</widget>

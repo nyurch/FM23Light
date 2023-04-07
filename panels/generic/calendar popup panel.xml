@@ -9,7 +9,7 @@
     <!-- Fade animation -->
     <animation class="fade_on_hide_animation" duration="0.2"/>
 
-   <container>
+    <container>
       <attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" vertical_gap="0"/>
 
       <container>
@@ -31,7 +31,7 @@
           <!-- Buttons -->
           <container>
             <attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="right" horizontal_offset="0" horizontal_gap="0" vertical_offset="0"/>
-             
+
 
             <widget class="subtle_button" id="nxMt" click_event="next" auto_size="all">
               <translation id="text" translation_id="247353" type="use" value="Next Match" />
@@ -107,7 +107,7 @@
           </container>
         </container>
 
-      </container>	
+      </container>
 
       <container id="ghbc" navigation_container="true">
         <attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right" vertical_inset="4" horizontal_offset="4"/>

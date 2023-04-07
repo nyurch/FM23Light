@@ -157,7 +157,7 @@
 				<widget class="text" id="sumD" auto_size="vertical" font="title" wrap="true" colour="black" alignment="centre" />
 				<widget class="text" id="auth" auto_size="vertical" colour="faded text" alignment="right" />
 				<widget class="client_object_label" id="auth" font="capitals" colour="faded black" multiline="false" size="8" alignment="right" auto_size="vertical" />
-					
+
 			</container>
 
 			<widget class="horizontal_divider" height="1" />

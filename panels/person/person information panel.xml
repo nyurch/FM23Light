@@ -19,7 +19,7 @@
 
 	<!-- Personal Information on the left -->
 	<container draw_horizontal_dividers="true">
-		<attachment_group class="vertical_arrange" vertical_layout="-8,-5" >
+		<attachment_group class="vertical_arrange" vertical_layout="-8,-5">
 			<global id="horizontal_gap" name="ui.main_box_gap"/>
 		</attachment_group>
 
@@ -46,7 +46,7 @@
 				</widget>
 
 				<!-- Eligibility (Home-grown status) -->
-				<container id="elig" >
+				<container id="elig">
 					<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" horizontal_inset="0" />
 
 					<translation id="title" translation_id="260816" type="use" value="Eligibility[COMMENT: filter panel; a player eligibility for certain squads e.g. U21s]" />
@@ -62,25 +62,25 @@
 								<translation id="text" translation_id="363691" type="use" value="Nation trained in[COMMENT: player information; nation player trained at for purposes of domestic eligibility]" />
 							</widget>
 
-                            <widget class="table" id="NaEl" layout="-1, -1, -1, 70, 16" mode="stripe_rows" fixed_size_rows="false" auto_size_rows="true" sort_disabled="true" auto_size="vertical">
-                                <list id="column_table_properties">
-                                    <record index="0" default_width="90" minimum_width="90" auto_hide_priority="1">
-                                        <record id="widget_info" class="nation_button"/>
-                                    </record>
-                                    <record index="1" default_width="50" minimum_width="50" auto_hide_priority="2">
-                                        <record id="widget_info" class="horizontal_percentage_bar" label_width="0"/>
-                                    </record>
-                                    <record index="2" default_width="100" minimum_width="100" auto_hide_priority="1">
-                                        <record id="widget_info" class="text" alignment="centre"/>
-                                    </record>
-                                    <record index="3" default_width="65" minimum_width="65" auto_hide_priority="1">
-                                        <record id="widget_info" class="text" alignment="centre"/>
-                                    </record>
-                                    <record index="4" default_width="16" minimum_width="16" auto_hide_priority="1">
-                                        <record id="widget_info" class="info_icon_hint_text" icon_alignment="centre"/>
-                                    </record>
-                                </list>
-                            </widget>
+							<widget class="table" id="NaEl" layout="-1, -1, -1, 70, 16" mode="stripe_rows" fixed_size_rows="false" auto_size_rows="true" sort_disabled="true" auto_size="vertical">
+								<list id="column_table_properties">
+									<record index="0" default_width="90" minimum_width="90" auto_hide_priority="1">
+										<record id="widget_info" class="nation_button"/>
+									</record>
+									<record index="1" default_width="50" minimum_width="50" auto_hide_priority="2">
+										<record id="widget_info" class="horizontal_percentage_bar" label_width="0"/>
+									</record>
+									<record index="2" default_width="100" minimum_width="100" auto_hide_priority="1">
+										<record id="widget_info" class="text" alignment="centre"/>
+									</record>
+									<record index="3" default_width="65" minimum_width="65" auto_hide_priority="1">
+										<record id="widget_info" class="text" alignment="centre"/>
+									</record>
+									<record index="4" default_width="16" minimum_width="16" auto_hide_priority="1">
+										<record id="widget_info" class="info_icon_hint_text" icon_alignment="centre"/>
+									</record>
+								</list>
+							</widget>
 						</container>
 
 						<!-- Clubs -->
@@ -91,25 +91,25 @@
 								<translation id="text" translation_id="363611" type="use" value="Club trained at[COMMENT: player information; nation player trained at for purposes of domestic eligibility]" />
 							</widget>
 
-                            <widget class="table" id="ClEl" layout="-1, -1, -1, 70, 16" mode="stripe_rows" fixed_size_rows="false" auto_size_rows="true" sort_disabled="true" auto_size="vertical">
-                                <list id="column_table_properties">
-                                    <record index="0" default_width="90" minimum_width="90" auto_hide_priority="1">
-                                        <record id="widget_info" class="club_button"/>
-                                    </record>
-                                    <record index="1" default_width="50" minimum_width="50" auto_hide_priority="2">
-                                        <record id="widget_info" class="horizontal_percentage_bar" label_width="0"/>
-                                    </record>
-                                    <record index="2" default_width="100" minimum_width="100" auto_hide_priority="1">
-                                        <record id="widget_info" class="text" alignment="centre"/>
-                                    </record>
-                                    <record index="3" default_width="65" minimum_width="65" auto_hide_priority="1">
-                                        <record id="widget_info" class="text" alignment="centre"/>
-                                    </record>
-                                    <record index="4" default_width="16" minimum_width="16" auto_hide_priority="1">
-                                        <record id="widget_info" class="info_icon_hint_text" icon_alignment="centre"/>
-                                    </record>
-                                </list>
-                            </widget>
+							<widget class="table" id="ClEl" layout="-1, -1, -1, 70, 16" mode="stripe_rows" fixed_size_rows="false" auto_size_rows="true" sort_disabled="true" auto_size="vertical">
+								<list id="column_table_properties">
+									<record index="0" default_width="90" minimum_width="90" auto_hide_priority="1">
+										<record id="widget_info" class="club_button"/>
+									</record>
+									<record index="1" default_width="50" minimum_width="50" auto_hide_priority="2">
+										<record id="widget_info" class="horizontal_percentage_bar" label_width="0"/>
+									</record>
+									<record index="2" default_width="100" minimum_width="100" auto_hide_priority="1">
+										<record id="widget_info" class="text" alignment="centre"/>
+									</record>
+									<record index="3" default_width="65" minimum_width="65" auto_hide_priority="1">
+										<record id="widget_info" class="text" alignment="centre"/>
+									</record>
+									<record index="4" default_width="16" minimum_width="16" auto_hide_priority="1">
+										<record id="widget_info" class="info_icon_hint_text" icon_alignment="centre"/>
+									</record>
+								</list>
+							</widget>
 						</container>
 					</container>
 

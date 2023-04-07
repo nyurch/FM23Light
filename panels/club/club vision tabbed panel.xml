@@ -18,48 +18,48 @@
 				<attachment_group class="vertical_arrange_autosize" vertical_gap="10"/>
 
 				<!-- club culture -->
-                <container class="club_vision_objective_list_panel" id="ccbx" table_title_colour="text"/>
+				<container class="club_vision_objective_list_panel" id="ccbx" table_title_colour="text"/>
 
 				<container id="ltcv">
 					<attachment_group class="vertical_arrange_autosize" vertical_gap="8"/>
 
-                    <!-- actionable -->
-                    <container class="inner_box">
-                        <attachment_group class="vertical_arrange_autosize"/>
+					<!-- actionable -->
+					<container class="inner_box">
+						<attachment_group class="vertical_arrange_autosize"/>
 
-                        <container class="club_vision_objective_list_panel" id="acbx" title_colour="faded text"/>
-                    </container>
+						<container class="club_vision_objective_list_panel" id="acbx" title_colour="faded text"/>
+					</container>
 
-                    <!-- informational -->
-                    <container class="inner_box">
-                        <attachment_group class="vertical_arrange_autosize"/>
+					<!-- informational -->
+					<container class="inner_box">
+						<attachment_group class="vertical_arrange_autosize"/>
 
-                        <container class="club_vision_objective_list_panel" id="inbx" title_colour="faded text"/>
-                    </container>
+						<container class="club_vision_objective_list_panel" id="inbx" title_colour="faded text"/>
+					</container>
 
 					<widget class="horizontal_subtle_divider"/>
 
-                    <widget class="text" font="title" colour="accent" auto_size="vertical">
-                        <translation id="text" translation_id="491859" type="use" value="5 Year Plan[COMMENT: AREA: Club vision panel; SUB-AREA: 5 year plan sub-panel heading; FR-BN: 23335; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the 5 year plan section of the club vision panel]"/>
-                    </widget>
+					<widget class="text" font="title" colour="accent" auto_size="vertical">
+						<translation id="text" translation_id="491859" type="use" value="5 Year Plan[COMMENT: AREA: Club vision panel; SUB-AREA: 5 year plan sub-panel heading; FR-BN: 23335; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the 5 year plan section of the club vision panel]"/>
+					</widget>
 
-                    <container class="tabs" id="PlTa" default_item="csbx"> <!-- id indicates this container is the bounding area for dragging objectives, do not change! -->
-                        <attachment_group class="vertical_arrange_autosize"/>
+					<container class="tabs" id="PlTa" default_item="csbx">						<!-- id indicates this container is the bounding area for dragging objectives, do not change! -->
+						<attachment_group class="vertical_arrange_autosize"/>
 
-                        <!-- current season -->
-                        <container class="club_vision_objective_list_panel" id="csbx" table_title_colour="faded text"/>
+						<!-- current season -->
+						<container class="club_vision_objective_list_panel" id="csbx" table_title_colour="faded text"/>
 
 						<!-- current season + 1 -->
-                        <container class="club_vision_objective_list_panel" id="s1bx" table_title_colour="faded text"/>
+						<container class="club_vision_objective_list_panel" id="s1bx" table_title_colour="faded text"/>
 
 						<!-- current season + 2 -->
-                        <container class="club_vision_objective_list_panel" id="s2bx" table_title_colour="faded text"/>
+						<container class="club_vision_objective_list_panel" id="s2bx" table_title_colour="faded text"/>
 
 						<!-- current season + 3 -->
-                        <container class="club_vision_objective_list_panel" id="s3bx" table_title_colour="faded text"/>
+						<container class="club_vision_objective_list_panel" id="s3bx" table_title_colour="faded text"/>
 
 						<!-- current season + 4 -->
-                        <container class="club_vision_objective_list_panel" id="s4bx" table_title_colour="faded text"/>
+						<container class="club_vision_objective_list_panel" id="s4bx" table_title_colour="faded text"/>
 					</container>
 				</container>
 			</container>

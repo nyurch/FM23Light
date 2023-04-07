@@ -9,7 +9,7 @@
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_gap="2" />
 
-			<widget class="label" auto_size="vertical" font="label" >
+			<widget class="label" auto_size="vertical" font="label">
 				<translation id="text" translation_id="227799" type="use" value="Wage"/>
 			</widget>
 			<widget class="label" id="wagw" auto_size="vertical" font="value"/>
@@ -19,7 +19,7 @@
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_gap="2"/>
 
-			<widget class="label" auto_size="vertical" font="label" >
+			<widget class="label" auto_size="vertical" font="label">
 				<translation id="text" translation_id="227784" type="use" value="Expires"/>
 			</widget>
 			<widget class="label" id="conw" auto_size="vertical" font="value" />

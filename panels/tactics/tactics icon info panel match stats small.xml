@@ -15,7 +15,7 @@
 			</widget>
 		</container>
 
-		<container  height="20">
+		<container height="20">
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 			<widget class="picture" id="bsic" scale_picture="false" file="pitch/icons/kit/small/kit" image_alignment="centre">
 			</widget>
@@ -33,7 +33,7 @@
 
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_gap="0" vertical_offset="0"/>
-			<widget class="text"  id="name" auto_size="vertical" font="title" colour="text" alignment="centre,can_scale" size="small" navigation_focus_target="false">
+			<widget class="text" id="name" auto_size="vertical" font="title" colour="text" alignment="centre,can_scale" size="small" navigation_focus_target="false">
 			</widget>
 			<widget class="match_rating_label_formatted" id="avra" auto_size="all" alignment="centre" format="[%fraction#1-2.1]" navigation_focus_target="false" hidden="true">
 				<layout class="centre_in_parent_attachment" alignment="horizontal"/>

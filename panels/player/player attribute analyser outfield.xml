@@ -1,7 +1,7 @@
 <panel>
   <real id="segment_count" value="8" />
   <boolean id="show_inaccurate_category" value="true" />
-  
+
   <!-- Scale the polygon to fit the widget and draw it in code -->
   <boolean id="scale_picture" value="true" />
   <!-- First layer colour-->
@@ -32,7 +32,7 @@
     <colour name="fg range15"/>
     <colour name="fg range20"/>
   </list>
-  
+
   <list id="items">
     <!-- layer 1 (there is only one) -->
     <list>
@@ -42,7 +42,7 @@
         <integer id="angle" value="0" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Ptac" />
@@ -60,7 +60,7 @@
         <integer id="angle" value="45" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Pstr" />
@@ -80,7 +80,7 @@
         <integer id="angle" value="90" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Ppac" />
@@ -96,7 +96,7 @@
         <integer id="angle" value="135" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Ppas" />
@@ -115,7 +115,7 @@
         <integer id="angle" value="180" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Potb" />
@@ -133,7 +133,7 @@
         <integer id="angle" value="225" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Ptec" />
@@ -151,7 +151,7 @@
         <integer id="angle" value="270" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Pjum" />
@@ -167,7 +167,7 @@
         <integer id="angle" value="315" />
         <colour id="colour" name="text" />
         <flags id="standard_spec" value="text" />
-		  <flags id="size" value="small" />
+        <flags id="size" value="small" />
 
         <list id="attributes">
           <integer value="Pdec" />

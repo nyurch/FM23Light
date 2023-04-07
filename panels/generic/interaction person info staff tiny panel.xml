@@ -6,7 +6,7 @@
     <!-- portrait -->
     <container width="30" height="30">
         <attachment_group class="horizontal_arrange" vertical_inset="0" vertical_offset="0" horizontal_inset="0" horizontal_offset="0"/>
-        
+
         <widget class="object_portrait_picture" width="30" height="30" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
             <record id="object_property">
                 <integer id="get_property" value="Pers"/>

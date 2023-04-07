@@ -84,7 +84,7 @@
 
 		</widget>
 
-		<widget class="person_button" colour="black" entity_layout_id="at03" alignment="centre_y,left" auto_size="vertical" id="sgPL" >
+		<widget class="person_button" colour="black" entity_layout_id="at03" alignment="centre_y,left" auto_size="vertical" id="sgPL">
 
 			<string id="style" value="bold"/>
 

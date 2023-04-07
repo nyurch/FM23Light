@@ -7,7 +7,7 @@
 	<boolean id="save_session_state" value="true" />
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-	<container class="scouting_centre_panel" id="sctC" file="" >
+	<container class="scouting_centre_panel" id="sctC" file="">
 		<boolean id="is_in_inbox" value="true" />
 		<boolean id="save_session_state" value="true" />
 		<boolean id="should_force_refresh" value="true" />
@@ -40,7 +40,7 @@
 								<translation id="text" translation_id="466474" type="use" value="Cards[COMMENT: FR 22655, scouting centre button, takes the user to the scouting report cards]" />
 							</widget>
 
-							<widget class="radio_toggle_switch_right" id="lstb" auto_size="all" select_event="lstE" >
+							<widget class="radio_toggle_switch_right" id="lstb" auto_size="all" select_event="lstE">
 								<translation id="text" translation_id="293613" type="use" value="List" />
 							</widget>
 						</container>
@@ -52,35 +52,35 @@
 
 							<container>
 								<attachment_group class="vertical_arrange_horizontal_autosize" vertical_alignment="middle" horizontal_inset="0" vertical_offset="0" vertical_gap="2" />
-									<widget class="icon_button" auto_size="vertical" width="280" id="rcBY" alignment="left,centre_y" font="title" colour="text" icon_colour="text" appearance=""/>
-					
-									<container height="20" id="recS">
-										<attachment_group class="horizontal_arrange_autosize" horizontal_offset="0" horizontal_gap="2" vertical_inset="0" />
+								<widget class="icon_button" auto_size="vertical" width="280" id="rcBY" alignment="left,centre_y" font="title" colour="text" icon_colour="text" appearance=""/>
 
-										<widget class="text" auto_size="horizontal" colour="faded text" alignment="left,centre_y" size="small">
+								<container height="20" id="recS">
+									<attachment_group class="horizontal_arrange_autosize" horizontal_offset="0" horizontal_gap="2" vertical_inset="0" />
+
+									<widget class="text" auto_size="horizontal" colour="faded text" alignment="left,centre_y" size="small">
 										<translation id="text" translation_id="242854" type="use" value="From" />
-										</widget>
+									</widget>
 
-										<widget class="client_object_property_panel" id="senn" auto_size="horizontal">
+									<widget class="client_object_property_panel" id="senn" auto_size="horizontal">
 										<record id="widget_properties" auto_size="horizontal" alignment="left,centre_y" colour="text" enforce_style="true" size="small"/>
-										</widget>
-									</container>	
+									</widget>
+								</container>
 
-										<container>
-											<attachment_group class="horizontal_arrange_autosize" horizontal_offset="0" horizontal_gap="2" vertical_inset="0" />
+								<container>
+									<attachment_group class="horizontal_arrange_autosize" horizontal_offset="0" horizontal_gap="2" vertical_inset="0" />
 
-											<widget class="text" auto_size="horizontal" colour="text" alignment="left,centre_y" size="small">
-											<string id="text" value="-"/>
-											</widget>
-								
-											<widget class="client_object_property_panel" id="senj" property="PcJj" size="small" auto_size="horizontal">
-											<record id="widget_properties" colour="text" alignment="left,centre_y" auto_size="horizontal" />
-											</widget>
+									<widget class="text" auto_size="horizontal" colour="text" alignment="left,centre_y" size="small">
+										<string id="text" value="-"/>
+									</widget>
 
-											<widget class="client_object_property_panel" id="senh" property="THic" height="20" size="small" auto_size="horizontal">
-											<record id="widget_properties" colour="text" alignment="left,centre_y" show_category_colour="false" size="small" auto_size="horizontal" />
-											</widget>
-										</container>
+									<widget class="client_object_property_panel" id="senj" property="PcJj" size="small" auto_size="horizontal">
+										<record id="widget_properties" colour="text" alignment="left,centre_y" auto_size="horizontal" />
+									</widget>
+
+									<widget class="client_object_property_panel" id="senh" property="THic" height="20" size="small" auto_size="horizontal">
+										<record id="widget_properties" colour="text" alignment="left,centre_y" show_category_colour="false" size="small" auto_size="horizontal" />
+									</widget>
+								</container>
 							</container>
 						</container>
 					</container>

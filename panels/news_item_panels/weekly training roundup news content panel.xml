@@ -26,7 +26,7 @@
 					<container>
 						<attachment_group class="horizontal_arrange" horizontal_layout="30,-1" />
 						<container>
-							<widget class="picture" file="icons/26px/training" scale_picture="false" red_replacement="text" >
+							<widget class="picture" file="icons/26px/training" scale_picture="false" red_replacement="text">
 								<layout class="stick_to_sides_attachment" alignment="all" inset="12,0,0,0" />
 							</widget>
 						</container>
@@ -41,7 +41,7 @@
 					<container>
 						<attachment_group class="horizontal_arrange" horizontal_layout="30,-1" />
 						<container>
-							<widget class="picture" file="icons/26px/medical centre" scale_picture="false" red_replacement="text" >
+							<widget class="picture" file="icons/26px/medical centre" scale_picture="false" red_replacement="text">
 								<layout class="stick_to_sides_attachment" alignment="all" inset="12,0,0,0" />
 							</widget>
 						</container>

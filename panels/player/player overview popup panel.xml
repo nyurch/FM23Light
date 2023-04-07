@@ -90,12 +90,12 @@
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 			<container>
 				<layout class="vertical_arrange" vertical_layout="-1,-1"/>
-			<widget class="player_contract_panel" file="player/extra_panels/tabs/contract info/player contract subpanel horizontal">
-				<record id="object_property" get_property="objt" set_property="objt" />
-			</widget>
-			<widget class="player_contract_panel" file="player/extra_panels/tabs/contract info/player contract horizontal">
-				<record id="object_property" get_property="objt" set_property="objt" />
-			</widget>
+				<widget class="player_contract_panel" file="player/extra_panels/tabs/contract info/player contract subpanel horizontal">
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
+				<widget class="player_contract_panel" file="player/extra_panels/tabs/contract info/player contract horizontal">
+					<record id="object_property" get_property="objt" set_property="objt" />
+				</widget>
 			</container>
 		</container>
 		<!-- attributes -->

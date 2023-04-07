@@ -1,6 +1,6 @@
 ﻿<panel>
- 
-   <layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0">
+
+    <layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0">
         <record id="auto_size_restrictions">
             <string id="type" value="value" />
             <integer id="value" value="575" />

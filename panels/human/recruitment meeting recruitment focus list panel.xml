@@ -68,7 +68,7 @@
 
 	<widget class="text" id="noFo" alignment="centre" hidden="true">
 		<layout class="stick_to_sides_attachment" value="all" inset="0" />
-		
+
 		<translation id="text" translation_id="315038" type="use" value="No transfers to display[COMMENT - transfer centre; used when there are no impending transfers to display]" />
 	</widget>
 </panel>

@@ -17,7 +17,7 @@
 		<record get_property="hcor" set_property="hidn" target="pcra" />
 		<record get_property="hlft" set_property="hidn" target="left" />
 	</list>
- 
+
 	<string id="title" value="Contract Offer Panel" />
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
@@ -659,7 +659,7 @@
 						<container>
 							<attachment_group class="vertical_arrange_autosize" />
 
-							<widget class="person_button" auto_size="all" size="large" style="bold" info_popup_enabled="true" icon_enabled="true" person_is_player="true" colour="text" >
+							<widget class="person_button" auto_size="all" size="large" style="bold" info_popup_enabled="true" icon_enabled="true" person_is_player="true" colour="text">
 								<record id="object_property" get_property="objt" set_property="valu" />
 							</widget>
 

@@ -53,7 +53,7 @@
       </container>
       <container>
         <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="10,8"/>
-        <container class="inner_subtle_box" red_replacement="black" appearance="boxes/custom/darken/rounded/no margin/paper" >
+        <container class="inner_subtle_box" red_replacement="black" appearance="boxes/custom/darken/rounded/no margin/paper">
           <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
           <!--content-->
           <container>
@@ -72,7 +72,7 @@
               <widget class="label" id="wagl" alignment="centre" height="20" />
             </container>
 
-            <widget class="picture" file="icons/16px/right"  scale_picture="false"  keep_aspect_ratio="true" image_alignment="left,centre_y" />
+            <widget class="picture" file="icons/16px/right" scale_picture="false" keep_aspect_ratio="true" image_alignment="left,centre_y" />
           </container>
 
           <!--overlayed link button-->

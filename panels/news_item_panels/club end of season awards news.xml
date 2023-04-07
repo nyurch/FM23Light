@@ -93,7 +93,7 @@
 									<container embed_in_frame="true">
 										<attachment_group class="title_embedded_panel_right" />
 
-										<widget class="icon_button" id="vwgl" auto_size="all" icon="icons/custom/highlights/highlights" appearance="buttons/subtle/normal/button" embed_in_frame="true" >
+										<widget class="icon_button" id="vwgl" auto_size="all" icon="icons/custom/highlights/highlights" appearance="buttons/subtle/normal/button" embed_in_frame="true">
 											<record id="primary_icon_properties" red_replacement="text" />
 											<translation id="hint" translation_id="232872" type="use" value="View Goal[COMMENT: navigation description for viewing a goal on the match screen]" />
 										</widget>

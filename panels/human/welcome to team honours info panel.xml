@@ -1,4 +1,4 @@
-﻿<panel width="60" show_trophy_name_in_hint="true">	
+﻿<panel width="60" show_trophy_name_in_hint="true">
 
 	<attachment class="test_screen_size_attachment" skip_if_false="true">
 		<list id="properties">
@@ -34,7 +34,7 @@
 
 		<container>
 			<attachment_group class="vertical_arrange" vertical_alignment="bottom" horizontal_alignment="right"/>
-			
+
 			<container class="inner_contrast_box_no_margin" width="22" height="22" red_replacement="bg accent">
 
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>

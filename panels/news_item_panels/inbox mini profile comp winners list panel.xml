@@ -14,7 +14,7 @@
 			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
 		</widget>
 
-			<!-- link to full history -->
+		<!-- link to full history -->
 		<widget class="link_appearance_button" id="pwln">
 			<layout class="stick_to_sides_attachment" alignment="right" inset="0" />
 			<translation id="text" translation_id="319444" type="use" value="View History[COMMENT: club league history graph; button which when clicked takes you to the full club history]" />

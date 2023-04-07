@@ -56,7 +56,7 @@
 				<container id="poPI">
 					<translation id="title" translation_id="492033" type="use" value="Strengths and Weaknesses[COMMENT: AREA: Inbox; SUB-AREA: Opposition Scouting; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: opposition report tactical style label]" />
 					<attachment_group class="vertical_arrange" vertical_alignment="top,extend" />
-					<widget class="team_pro_con_summary_panel" id="pcPA" auto_size="vertical" >
+					<widget class="team_pro_con_summary_panel" id="pcPA" auto_size="vertical">
 						<integer id="num_pro_cons_to_show" value="5" />
 					</widget>
 				</container>

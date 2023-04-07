@@ -8,7 +8,8 @@
 			<translation id="name" translation_id="293754" type="use" value="Cash" />
 			<record id="widget_info">
 				<symbol id="class" value="value_label" />
-				<string id="colour" value="alt text" />	<!-- added to recolour for IGE -->
+				<string id="colour" value="alt text" />
+				<!-- added to recolour for IGE -->
 			</record>
 
 			<integer id="default_value" value="500000" />

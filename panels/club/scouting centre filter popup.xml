@@ -39,7 +39,7 @@
 							</record>
 						</widget>
 
-						<container>                   
+						<container>
 							<attachment_group class="vertical_arrange_autosize" vertical_inset="5" />
 
 							<widget class="text" auto_size="vertical" alignment="left" font="label" colour="faded text">
@@ -52,7 +52,7 @@
 								<record id="widget_properties" class="property_list_viewer_xml_panel" file="widgets/player minimum scout recommendation button" />
 							</widget>
 						</container>
-						
+
 					</container>
 
 					<widget class="horizontal_divider" />
@@ -61,7 +61,7 @@
 				<!--Recruitment Meeting-->
 				<container navigation_container="true">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_inset="0" />
-					
+
 					<container>
 						<attachment_group class="vertical_arrange_autosize" horizontal_inset="4" />
 
@@ -109,7 +109,7 @@
 				<!--Analysts-->
 				<container navigation_container="true" id="anac">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_inset="0" />
-					
+
 					<container>
 						<attachment_group class="vertical_arrange_autosize" horizontal_inset="4" />
 
@@ -132,7 +132,7 @@
 				<!--Transfer Targets-->
 				<container navigation_container="true" id="trac">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_inset="0" />
-					
+
 					<container>
 						<attachment_group class="vertical_arrange_autosize" horizontal_inset="4" />
 
@@ -156,7 +156,7 @@
 				<!--Agents Suggestions-->
 				<container navigation_container="true">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_inset="0" />
-					
+
 					<container>
 						<attachment_group class="vertical_arrange_autosize" horizontal_inset="4" />
 
@@ -226,7 +226,7 @@
 				<!--Free Agent-->
 				<container navigation_container="true">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_inset="0" />
-					
+
 					<container>
 						<attachment_group class="vertical_arrange_autosize" horizontal_inset="4" />
 
@@ -244,7 +244,7 @@
 
 						<container>
 							<attachment_group class="vertical_arrange_autosize_all" vertical_inset="8" />
-	
+
 							<record id="default_properties" auto_size="all" />
 
 							<widget class="text" font="label" colour="faded text">
@@ -253,7 +253,7 @@
 
 							<container>
 								<attachment_group class="horizontal_arrange_autosize_all" horizontal_gap="10" />
-								
+
 								<widget class="selection_list" id="mina" use_menu_for_plus_minus="false" select_event="mias" width="140" />
 
 								<widget class="text">
@@ -273,28 +273,28 @@
 
 				<!--Other-->
 				<container navigation_container="true" id="othc">
-				  <attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_inset="0" />
-				  
-				  <container>
-					<attachment_group class="vertical_arrange_autosize" horizontal_inset="4" />
+					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="8" horizontal_inset="0" />
 
-					<widget class="scouting_centre_delivery_widget" id="othw" height="30" npdC="7">
-					  <record id="object_property">
-						<list id="get_properties">
-						  <record>
-							<integer id="get_property" value="AGis" />
-							<integer id="set_property" value="npdY" />
-						  </record>
+					<container>
+						<attachment_group class="vertical_arrange_autosize" horizontal_inset="4" />
 
-						</list>
-					  </record>
-					</widget>
-				  </container>
+						<widget class="scouting_centre_delivery_widget" id="othw" height="30" npdC="7">
+							<record id="object_property">
+								<list id="get_properties">
+									<record>
+										<integer id="get_property" value="AGis" />
+										<integer id="set_property" value="npdY" />
+									</record>
 
-				  <widget class="horizontal_divider" />
+								</list>
+							</record>
+						</widget>
+					</container>
+
+					<widget class="horizontal_divider" />
 
 				</container>
-				
+
 				<container navigation_container="true">
 					<attachment_group class="horizontal_arrange_vertical_autosize" vertical_inset="6" horizontal_gap="10" />
 
@@ -305,7 +305,7 @@
 					<widget class="button" auto_size="all" id="adfb" click_event="advf">
 						<translation id="text" translation_id="466397" type="use" value="Advanced filters...[COMMENT: FR 22700, scouting centre filter type]" />
 					</widget>
-					
+
 				</container>
 
 			</container>

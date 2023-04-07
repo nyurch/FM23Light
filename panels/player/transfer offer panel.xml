@@ -8,7 +8,7 @@
     <widget class="transfer_offer_impossible_transfer_panel" id="impo"/>
     <container file="player/transfer offer board taken over panel" id="bord"/>
 
-    <container id="main" class="horizontal_arrange_container" layout="-6,-12" offset="0" inset="0" >
+    <container id="main" class="horizontal_arrange_container" layout="-6,-12" offset="0" inset="0">
         <global id="gap" name="ui.main_contrast_box_gap"/>
 
         <container class="main_subtle_box" id="pbio" navigation_container="true">
@@ -28,7 +28,7 @@
                     </widget>
                 </container>
 
-                <container id="cltc" >
+                <container id="cltc">
                     <attachment_group class="vertical_arrange_autosize" vertical_offset="6"/>
 
                     <widget class="text" id="clmt" auto_size="vertical" colour="white"/>
@@ -37,7 +37,7 @@
 
             <!-- Agent feedback -->
             <container class="agent_transfer_feedback_panel" id="AgFb"/>
-            
+
             <widget class="transfer_offer_player_details_panel" id="pldt"/>
             <widget class="transfer_offer_budget_panel" id="tnbu"/>
 
@@ -75,7 +75,7 @@
                 <layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" gap="6"/>
                 <layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 
-                <container class="scrolling_box"  >
+                <container class="scrolling_box">
                     <container>
                         <attachment_group class="vertical_arrange_autosize" />
 

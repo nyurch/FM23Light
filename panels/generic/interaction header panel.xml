@@ -31,7 +31,7 @@
                 <container id="AttB">
                     <attachment_group class="horizontal_arrange_autosize_all"/>
 
-                    <widget class="text" id="AttL" font="title" size="xsmall" colour="faded text"  auto_size="all">
+                    <widget class="text" id="AttL" font="title" size="xsmall" colour="faded text" auto_size="all">
                         <translation id="text" translation_id="515043" type="use" value="Attendance[COMMENT: AREA: Press Conference Panel; SUB-AREA: Header section; FR-BN: 32571; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title of section indicating number of journalists in attendance]"/>
                     </widget>
                     <widget class="text" id="Matt" size="xsmall" font="title" auto_size="all" colour="fg">
@@ -55,7 +55,7 @@
             <widget class="text" id="QuRT" font="label" colour="faded text" alignment="left, centre_y" width="80" size="small" multiline="true"/>
 
             <widget class="spacer" width="5"/>
-            
+
             <!-- featured object -->
             <widget class="icon_button" id="FBib" click_event="ToVs" font="title" size="large" colour="text" width="220" height="50" alignment="centre_x, centre_y" show_button_appearance="false" icon_enabled="false" secondary_icon_enabled="true" secondary_icon="icons/16px/minus" secondary_icon_alignment="centre_x, centre_y" hidden="true"/>
 

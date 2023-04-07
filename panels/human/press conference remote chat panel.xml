@@ -38,7 +38,7 @@
         <container class="main_transparent_box" red_replacement="bg darker" navigation_container="true">
             <attachment_group class="vertical_arrange" vertical_alignment="top" vertical_offset="0"/>
 
-            <widget class="interaction_person_info_panel" id="SJrn" interaction_person_type="journo_detailed" width="200" >
+            <widget class="interaction_person_info_panel" id="SJrn" interaction_person_type="journo_detailed" width="200">
                 <layout class="centre_in_parent_attachment" alignment="horizontal"/>
             </widget>
         </container>
@@ -61,7 +61,7 @@
 
                 <!-- interactee question -->
                 <container class="interaction_speech_bubble_panel" id="queb" show_minimise_icon="false" speech_bubble_appearance_override="boxes/custom/quick chat/ai_quick_chat_speech">
-					<flags id="colour" value="white" />
+                    <flags id="colour" value="white" />
                     <layout class="stick_to_sides_attachment" alignment="horizontal"/>
                 </container>
 

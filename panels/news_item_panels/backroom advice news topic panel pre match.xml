@@ -1,4 +1,5 @@
-﻿<!-- A panel used on the inbox backroom advice panel to show a summary of backroom advice on a particular topic --><panel navigation_container="true" width="465" height="240">
+﻿<!-- A panel used on the inbox backroom advice panel to show a summary of backroom advice on a particular topic -->
+<panel navigation_container="true" width="465" height="240">
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 	<container class="inner_subtle_box" background_colour="bg darker">
@@ -34,8 +35,8 @@
 					</container>
 
 					<container class="scrolling_box">
-					<widget class="text" id="rWIG" alignment="centre" colour="faded text" auto_size="vertical" />
-				</container>
+						<widget class="text" id="rWIG" alignment="centre" colour="faded text" auto_size="vertical" />
+					</container>
 				</container>
 
 				<container height="30">

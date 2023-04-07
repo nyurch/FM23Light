@@ -70,7 +70,7 @@
 
 			<string id="player_icon_file" value="tactics/tactics icon info panel news item"/>
 
-      <boolean id="pitch_is_read_only" value="true"/>
+			<boolean id="pitch_is_read_only" value="true"/>
 
 			<real id="pitch_perspective" value="0"/>
 
@@ -150,9 +150,9 @@
 
 			<string id="default_view" value="sltn"/>
 
-      <list id="default_sort_column">
-        <integer value="pCSp" />
-      </list>
+			<list id="default_sort_column">
+				<integer value="pCSp" />
+			</list>
 
 			<list id="views">
 

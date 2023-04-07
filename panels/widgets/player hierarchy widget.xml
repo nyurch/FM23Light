@@ -39,14 +39,14 @@
 
 		<!--Name and age/player type-->
 		<container class="vertical_adaptive_container" gap="0" offset="4" default_width="-3" minimum_width="120" priority="1">
-			<widget class="person_button" id="perp"  priority="2" default_height="22" alignment="left,centre_y" info_popup_enabled="true" Pipl="true" colour="black"/>
+			<widget class="person_button" id="perp" priority="2" default_height="22" alignment="left,centre_y" info_popup_enabled="true" Pipl="true" colour="black"/>
 
-			<widget class="player_age_and_description_widget" id="pltx" colour="faded text"  spec="text" size="xsmall" default_height="18" alignment="left,centre_y" priority="2"  file="none">
-                    <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-  
-                  <widget class="text" id="mtxt" auto_size="none">
-                    <translation id="text" translation_id="347559" type="use" value="[%number#1] year-old [%player_description#1][COMMENT: inbox person information panel; person description]" />
-                  </widget>
+			<widget class="player_age_and_description_widget" id="pltx" colour="faded text" spec="text" size="xsmall" default_height="18" alignment="left,centre_y" priority="2" file="none">
+				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+				<widget class="text" id="mtxt" auto_size="none">
+					<translation id="text" translation_id="347559" type="use" value="[%number#1] year-old [%player_description#1][COMMENT: inbox person information panel; person description]" />
+				</widget>
 
 			</widget>
 

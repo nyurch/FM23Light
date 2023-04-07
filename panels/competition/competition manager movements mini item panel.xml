@@ -1,5 +1,6 @@
-<!-- A panel showing a single manager movement (in or out) for use in the manager movements mini panel --><!-- Displays the properties set up by PROP_COMP_MANAGER_MOVEMENTS_SPLIT and should be used with a PROPERTY_LIST_VIEWER_XML_PANEL --><panel>
-<string id="skin_style" value="person_button" />
+<!-- A panel showing a single manager movement (in or out) for use in the manager movements mini panel --><!-- Displays the properties set up by PROP_COMP_MANAGER_MOVEMENTS_SPLIT and should be used with a PROPERTY_LIST_VIEWER_XML_PANEL -->
+<panel>
+	<string id="skin_style" value="person_button" />
 	<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" gap="8" />
 	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
@@ -28,9 +29,9 @@
 				<boolean id="dont_set_object" value="true" />
 			</record>
 
-      <widget class="picture" file="icons/16px/sub on" auto_size="horizontal" image_alignment="centre">
-        <translation id="hint" translation_id="260359" type="use" value="In[COMMENT: transfers section; title for box showing players in]" />
-      </widget>
+			<widget class="picture" file="icons/16px/sub on" auto_size="horizontal" image_alignment="centre">
+				<translation id="hint" translation_id="260359" type="use" value="In[COMMENT: transfers section; title for box showing players in]" />
+			</widget>
 			<container>
 				<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
@@ -76,9 +77,9 @@
           <boolean id="dont_set_object" value="true"/>
         </record>-->
 
-      <widget class="picture" file="icons/16px/sub off" auto_size="horizontal" image_alignment="centre">
-        <translation id="hint" translation_id="260360" type="use" value="Out[COMMENT: transfers section; title for box showing players out]" />
-      </widget>
+			<widget class="picture" file="icons/16px/sub off" auto_size="horizontal" image_alignment="centre">
+				<translation id="hint" translation_id="260360" type="use" value="Out[COMMENT: transfers section; title for box showing players out]" />
+			</widget>
 			<container>
 				<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />

@@ -4,7 +4,7 @@
 	<string id="skin_style" value="subtle box"/>
 
 	<widget class="inbox_body_text" id="bdtx" />
-	
+
 	<container height="180">
 		<attachment_group class="horizontal_arrange" horizontal_layout="-2,-3"/>
 

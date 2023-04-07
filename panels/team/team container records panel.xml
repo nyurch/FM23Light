@@ -7,7 +7,7 @@
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
 
 		<!-- buttons area -->
-		<container embed_in_frame="true" >
+		<container embed_in_frame="true">
 			<attachment_group class="title_embedded_panel_left"/>
 
 			<widget class="view_menu_label" id="labl"/>

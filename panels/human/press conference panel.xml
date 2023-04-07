@@ -130,7 +130,7 @@
                 </container>
             </container>
         </container>
-		
+
         <container class="main_transparent_box_no_margin" height="70" appearance="boxes/custom/solid/paper" red_replacement="bg darker" navigation_container="true">
             <attachment_group class="horizontal_arrange" horizontal_layout="-1, 200, -1" vertical_inset="2" />
             <animation class="translate_animation" start_value="0, 1" end_value="0, 0" duration="0.3" delay="0" end_mode="hold_end" tween="ease_out_4" coord_mode="relative_to_target" trigger_id="hidden" trigger_start="false" trigger_end="true" no_clipping="true" />

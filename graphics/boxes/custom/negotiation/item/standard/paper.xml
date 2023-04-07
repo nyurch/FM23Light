@@ -14,6 +14,6 @@
 	<colour id="green_replacement" name="box_shadow"/>
 	<colour id="blue_replacement" name="box_border"/>
 
-    <!-- colour to set on all the embedded widgets in negotiation_widget: text, icons, etc.. -->
-    <colour id="foreground_colour" name="text"/>
+	<!-- colour to set on all the embedded widgets in negotiation_widget: text, icons, etc.. -->
+	<colour id="foreground_colour" name="text"/>
 </properties>

@@ -19,7 +19,7 @@
 
 			<!--Duration labels-->
 			<container class="vertical_label_value_pair" label_widget="labl" value_widget="cond">
-				
+
 				<widget class="label" alignment="left" id="labl">
 					<translation id="text" translation_id="230113" type="use" value="Duration"/>
 				</widget>
@@ -31,7 +31,7 @@
 		<container class="transfer_offer_additional_fees_panel" id="fees" file="">
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0"/>
 
-			<widget class="table" layout="-4, -1" id="adft" sort_disabled="true" mode="fill_rows, stripe_rows, printable"  auto_size="vertical" fixed_size_rows="true" auto_size_rows="true" row_spacing="0">
+			<widget class="table" layout="-4, -1" id="adft" sort_disabled="true" mode="fill_rows, stripe_rows, printable" auto_size="vertical" fixed_size_rows="true" auto_size_rows="true" row_spacing="0">
 				<list id="column_table_properties">
 					<record index="0" alignment="left,centre_y"/>
 					<record index="1" alignment="left,centre_y"/>

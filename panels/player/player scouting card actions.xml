@@ -31,10 +31,10 @@
 
 		<widget class="icon_button" id="ksco" icon="icons/16px/search" icon_colour="white" red_replacement="purple 700" blue_replacement="purple 700" disabled_colour="faded white">
 			<translation id="text" translation_id="539033" type="use" value="Fully Scout Player[COMMENT: AREA: Scouting; SUB-AREA: Scouting card report action; FR-BN: 36081; TONE: Informal]" />
-      		<attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1700" set_property="ldis" true_value="true" false_value="false" />
-      		<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false" />
+			<attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1700" set_property="ldis" true_value="true" false_value="false" />
+			<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false" />
 		</widget>
-		
+
 		<widget class="client_action_icon_button" id="AskA" icon="icons/custom/scouting/agent" red_replacement="teal 700" blue_replacement="teal 700" disabled_colour="faded white">
 			<attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1700" set_property="ldis" true_value="true" false_value="false" />
 			<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false" />
@@ -43,7 +43,7 @@
 			<string id="action_id" value="apaa" />
 			<string id="remove_if" value="is_fmt" />
 		</widget>
-		
+
 		<widget class="client_action_icon_button" id="RspA" icon="icons/custom/scouting/agent" red_replacement="teal 700" blue_replacement="teal 700" disabled_colour="faded white">
 			<attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1700" set_property="ldis" true_value="true" false_value="false" id="smh3" />
 			<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false" />
@@ -72,7 +72,7 @@
 				<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false" />
 			</widget>
 		</container>
-		
+
 		<widget class="icon_tick_button" id="call" red_replacement="solid_button" icon_colour="black" colour="black" blue_replacement="solid_button">
 			<!--call up to national squad-->
 		</widget>
@@ -91,7 +91,7 @@
 
 		<widget class="primary_icon_button" icon="icons/16px/tick" controller_button="y_button" id="ackn" red_replacement="deep purple 700" blue_replacement="deep purple 700" disabled_colour="faded white">
 			<attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1950" set_property="ldis" true_value="true" false_value="false" />
-      		<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false" />
+			<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false" />
 		</widget>
 
 

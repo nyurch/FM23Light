@@ -1,5 +1,5 @@
 ﻿<panel>
-<string id="skin_style" value="person_button" />
+	<string id="skin_style" value="person_button" />
 	<list id="draw_order">
 		<record entity_layout_id="atab" />
 		<record entity_layout_id="at07" />
@@ -162,7 +162,7 @@
 			</container>
 		</container>
 	</container>
-	<container  entity_layout_id="at24" id="at24" navigation_container="true">
+	<container entity_layout_id="at24" id="at24" navigation_container="true">
 		<layout class="stick_to_object_attachment" id="alPt" get_side="bottom" set_side="top" target="atab">
 			<global id="offset" name="ui.main_contrast_box_gap"/>
 		</layout>
@@ -186,7 +186,7 @@
 		<container entity_layout_id="at23" id="at23">
 			<layout class="stick_to_object_attachment" id="alPt" get_side="bottom" set_side="top" target="atas">
 				<global id="offset" name="ui.main_contrast_box_gap"/>
-		    </layout>
+			</layout>
 			<layout class="stick_to_object_attachment" id="alPb" get_side="bottom" set_side="bottom" target="main" />
 			<layout class="stick_to_object_attachment" id="alPl" get_side="left" set_side="left" target="main" />
 			<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right" target="main" />
@@ -285,7 +285,7 @@
 				<layout class="stick_to_object_attachment" id="alPb" offset="-2" get_side="bottom" set_side="bottom" target="main" />
 				<layout class="stick_to_object_attachment" id="alPl" get_side="right" set_side="left" target="at17">
 					<global id="offset" name="ui.main_box_gap"/>
-		        </layout>
+				</layout>
 			</widget>
 			<container class="main_box" entity_layout_id="at22" id="at22">
 				<translation id="title" translation_id="450797" type="use" value="Issues[COMMENT:Team Dynamics: Team player issues]" />
@@ -293,7 +293,7 @@
 				<layout class="stick_to_object_attachment" id="alPb" offset="0" get_side="bottom" set_side="bottom" target="main" />
 				<layout class="stick_to_object_attachment" id="alPl" get_side="right" set_side="left" target="hod1">
 					<global id="offset" name="ui.main_box_gap"/>
-		        </layout>
+				</layout>
 				<layout class="stick_to_object_attachment" id="alPr" get_side="right" set_side="right" target="main" />
 				<widget class="spacer" id="main">
 					<boolean id="exclude_from_find" value="true" />

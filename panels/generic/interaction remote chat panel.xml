@@ -4,7 +4,7 @@
 
     <string id="speaking_box_appearance" value="icons/custom/quick chat/quick_chat_speaking_mask_square_remote" />
     <flags id="speaking_box_colour" value="accent" />
-    
+
     <!-- title area -->
     <container navigation_container="true">
         <attachment_group class="horizontal_arrange_vertical_centre" horizontal_layout="-1, 20, 180" />
@@ -116,12 +116,12 @@
                 <layout class="centre_in_parent_attachment" alignment="horizontal" />
             </widget>
 
-			<container class="scrolling_box">
-				<container id="plai" hidden="true">
-					<attachment_group class="vertical_arrange_autosize" vertical_alignment="bottom, fill"/>
+            <container class="scrolling_box">
+                <container id="plai" hidden="true">
+                    <attachment_group class="vertical_arrange_autosize" vertical_alignment="bottom, fill"/>
 
-				</container>
-			</container>
+                </container>
+            </container>
         </container>
     </container>
 </panel>

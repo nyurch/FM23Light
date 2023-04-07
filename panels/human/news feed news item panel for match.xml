@@ -2,7 +2,7 @@
 	<list id="properties_to_forward">
 		<record get_property="hIti" set_property="hidn" target="imgc" />
 	</list>
-	
+
 	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 	<flags id="should_force_refresh" value="true"/>
@@ -32,9 +32,9 @@
 
 			<attachment_group class="horizontal_arrange_vertical_autosize" />
 
-		<widget class="button" appearance="none" auto_size="horizontal" font_colour="blue 400" size="large" bold="true" height="22" click_event="shnp" alignment="left,centre_y" default_focus="true">
-			<translation id="text" translation_id="412454" type="use" value="Read more...[COMMENT: FR 16824; news feed panel; link text to display news item popup]"/>
-		</widget>
+			<widget class="button" appearance="none" auto_size="horizontal" font_colour="blue 400" size="large" bold="true" height="22" click_event="shnp" alignment="left,centre_y" default_focus="true">
+				<translation id="text" translation_id="412454" type="use" value="Read more...[COMMENT: FR 16824; news feed panel; link text to display news item popup]"/>
+			</widget>
 
 		</container>
 		<widget class="horizontal_divider" height="4"/>

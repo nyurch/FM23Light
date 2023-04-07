@@ -1,7 +1,7 @@
 <panel>
 	<layout class="vertical_arrange" vertical_alignment="top,extend"/>
 
-	
+
 
 	<flags id="required_attribute_row_appearance" value="tables/custom/attributes/required/row"/>
 	<flags id="preferred_attribute_row_appearance" value="tables/custom/attributes/preferred/row"/>

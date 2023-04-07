@@ -2,7 +2,7 @@
 	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top, extend" vertical_offset="0" />
 	<!-- main continental cup -->
 	<flags id="topC" value="tables/custom/league/main continental/row" />
-	
+
 	<string id="skin_style" value="subtle box" />
 
 	<widget class="inbox_body_text" id="bdtx" colour="inbox_text" />
@@ -13,7 +13,7 @@
 		<widget class="text" id="alTT" font="title" size="12" colour="black" auto_size="vertical" />
 
 		<widget class="table" mode="fill_rows, stripe_rows, fill_custom_rows, keyboard, printable, dont_ask_for_focus" id="teAT" layout="40, -1, 100" auto_size_rows="false" fixed_size_rows="true" fixed_row_height="30" row_height="50" auto_size="vertical">
-			
+
 			<list id="column_table_properties">
 				<record index="0">
 					<record id="widget_info">

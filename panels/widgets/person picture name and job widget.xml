@@ -45,7 +45,7 @@
 			<boolean id="exclude_from_find" value="true"/>
 			<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0"/>
 		</widget>
-		<widget class="job_label" entity_layout_id="at03" id="at03" auto_size="vertical" height="20" >
+		<widget class="job_label" entity_layout_id="at03" id="at03" auto_size="vertical" height="20">
 			<string id="size" value="small"/>
 			<string id="font" value="title"/>
 			<string id="colour" value="faded text"/>

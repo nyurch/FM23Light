@@ -5,7 +5,7 @@
 	<container>
 		<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" />
 		<widget class="chalkboard_pitch" id="Cpit" select_event="slic" vertical="true" hide_linked_events="true" pitch_draw_arrows="true" pitch_keep_selected_icons="false" pitch_draw_grass="true" pitch_player_icon_text_font="match pitch players" wants_mouse_events="true" pitch_draw_dugout="false" enable_popup="true" line_width="1" pitch_line_colour="faded white" pitch_touchline_width_percentage="60" />
-		<container class="horizontal_arrange_container" id="horC" height="80" alignment="middle" wrap="true" gap="8" >
+		<container class="horizontal_arrange_container" id="horC" height="80" alignment="middle" wrap="true" gap="8">
 			<record id="default_properties" spec="text" colour="black" />
 		</container>
 	</container>
@@ -35,8 +35,8 @@
 			</list>
 			<list id="column_widget_properties">
 				<record>
-				<integer id="index" value="1" />
-				<string id="colour" value="text" />
+					<integer id="index" value="1" />
+					<string id="colour" value="text" />
 				</record>
 			</list>
 		</widget>

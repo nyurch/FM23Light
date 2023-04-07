@@ -1,11 +1,11 @@
 ﻿<!-- header panel to be used during the end of season review -->
 <panel height="50">
-	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"  />
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 	<boolean id="should_force_refresh" value="true" />
 
 	<container>
-		<attachment_group class="vertical_arrange" vertical_gap="5" vertical_alignment="bottom,extend"  />
+		<attachment_group class="vertical_arrange" vertical_gap="5" vertical_alignment="bottom,extend" />
 
 		<container class="main_box" appearance="boxes/titled/full screen header/paper" background_colour="faded white" navigation_container="true">
 			<layout class="arrange_horizontal_attachment" alignment="left, extend" offset="0" gap="10" />
@@ -17,7 +17,7 @@
 				<record id="click_event" event_id="pvCK" event_target="PesR"/>
 			</widget>
 
-			<container height="50" >
+			<container height="50">
 				<layout class="arrange_horizontal_attachment" alignment="right, extend" offset="10" gap="0" />
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
 
@@ -49,22 +49,22 @@
 				</container>
 			</container>
 		</container>
-	
+
 		<!-- skip end of season review  -->
 		<container>
 
 
 		</container>
-		
+
 	</container>
 
 	<!-- skip end of season review  -->
 	<container id="debg" hidden="true">
-	<layout class="stick_to_sides_attachment" alignment="top" inset="10" apply_to_children="true"  />
-	<layout class="stick_to_sides_attachment" alignment="left" inset="80" apply_to_children="true"  />
-			<widget class="subtle_button" auto_size="all">
-				<string id="text" value="Skip Review"/>
-				<record id="click_event" event_id="skip" event_target="PesR" />
-			</widget>
+		<layout class="stick_to_sides_attachment" alignment="top" inset="10" apply_to_children="true" />
+		<layout class="stick_to_sides_attachment" alignment="left" inset="80" apply_to_children="true" />
+		<widget class="subtle_button" auto_size="all">
+			<string id="text" value="Skip Review"/>
+			<record id="click_event" event_id="skip" event_target="PesR" />
+		</widget>
 	</container>
 </panel>

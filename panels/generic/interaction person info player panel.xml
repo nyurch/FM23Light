@@ -47,7 +47,7 @@
                 <!-- hierarchy -->
                 <widget class="client_object_property_panel" id="THic" property="THic" alignment="left, centre_y" auto_size="none" height="18">
                     <record id="object_property" get_property="objt" set_property="objt"/>
-                    <record id="widget_properties" colour="faded text" alignment="left, centre_y" show_category_colour="false" size="xsmall" hiwd="139" hiat="none"  />
+                    <record id="widget_properties" colour="faded text" alignment="left, centre_y" show_category_colour="false" size="xsmall" hiwd="139" hiat="none" />
                 </widget>
             </container>
         </container>

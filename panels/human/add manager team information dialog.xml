@@ -1,5 +1,5 @@
 <panel id="dlog" width="400" height="160">
-<string id="skin_style" value="edit_box" />
+	<string id="skin_style" value="edit_box" />
 
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
@@ -17,7 +17,7 @@
 				<translation id="text" translation_id="361248" type="use" value="Other Favourite Teams[COMMENT: add manager; selection for user to choose multiple favourite teams]" />
 			</widget>
 			<container height="30">
-				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" >
+				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend">
 					<global id="horizontal_gap" name="ui.split_button_row_gap"/>
 				</attachment_group>
 
@@ -29,9 +29,9 @@
 
 				<widget class="icon_button" click_event="f1pu" id="f1pu" appearance="buttons/standard/split/right/button" icon="icons/16px/down" auto_size="horizontal"/>
 			</container>
-			
+
 			<container height="30">
-				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" >
+				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend">
 					<global id="horizontal_gap" name="ui.split_button_row_gap"/>
 				</attachment_group>
 
@@ -43,9 +43,9 @@
 
 				<widget class="icon_button" click_event="f2pu" id="f2pu" appearance="buttons/standard/split/right/button" icon="icons/16px/down" auto_size="horizontal"/>
 			</container>
-			
+
 			<container height="30">
-				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" >
+				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend">
 					<global id="horizontal_gap" name="ui.split_button_row_gap"/>
 				</attachment_group>
 

@@ -1,5 +1,5 @@
 ﻿<panel backroom_advice_meeting_ui_mode="summary">
-<string id="skin_style" value="simple_data_list" />
+	<string id="skin_style" value="simple_data_list" />
 	<attachment_group class="vertical_arrange" vertical_layout="-7,-80,-13" />
 
 	<container />
@@ -39,7 +39,7 @@
 						<translation id="text" translation_id="538963" type="use" value="These items will be compiled into an inbox item:[COMMENT: FR-35392 AREA: Staff Meeting; SUB-AREA: Staff Meeting Summary; FR-BN: 35392; TONE: Informal;]" />
 					</widget>
 
-					<widget class="simple_data_list" id="actp" gap="6" set_property="valu" auto_size="vertical" icon_colour="text" colour="text" red_replacement="text" >
+					<widget class="simple_data_list" id="actp" gap="6" set_property="valu" auto_size="vertical" icon_colour="text" colour="text" red_replacement="text">
 						<record id="widget_properties" class="icon_button" icon_spacing="10" size="large" icon_colour="text" colour="text" red_replacement="text" height="22" icon="icons/26px/inbox" appearance="" />
 						<record id="widget_properties" class="text" icon_spacing="10" size="large" icon_colour="text" colour="text" red_replacement="text" height="22" icon="icons/26px/inbox" appearance="" />
 					</widget>

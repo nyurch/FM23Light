@@ -5,7 +5,7 @@
 		<record get_property="ottm" set_property="objt" target="log2"/>
 	</list>
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
-	
+
 	<!-- overlay -->
 	<widget class="picture" id="ssha" file="photos/dynamic/comp summary/bg" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"/>
 
@@ -36,7 +36,7 @@
 			</widget>
 			<widget class="spacer" />
 		</container>
-		
+
 		<widget class="text" id="bldT" alignment="centre" colour="white" style="bold" size="xlarge" font="title"/>
 		<widget class="spacer"/>
 

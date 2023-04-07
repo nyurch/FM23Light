@@ -107,7 +107,7 @@
 
 							<!--second row-->
 							<container class="main_subtle_box" id="conb" navigation_container="true">
-								<layout class="arrange_vertical_attachment" layout="-2,-5"  offset="0" gap="5" />
+								<layout class="arrange_vertical_attachment" layout="-2,-5" offset="0" gap="5" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 								<widget class="text" height="25" alignment="left,centre_y" font="title" colour="text">
@@ -142,9 +142,9 @@
 
 					</container>
 
-          <container id="advc" file="person/person search filter advanced">
+					<container id="advc" file="person/person search filter advanced">
 
-          </container>
+					</container>
 				</container>
 
 				<container height="30" navigation_container="true">
@@ -165,7 +165,7 @@
 							<translation id="text" translation_id="229717" type="use" value="Clear" />
 						</widget>
 
-						<widget class="widget_popup_button" id="plsf" widget_type="person_search_filter_popup_panel" auto_size="horizontal" height="30" appearance="buttons/subtle/normal/button"  popup_alignment="right,top">
+						<widget class="widget_popup_button" id="plsf" widget_type="person_search_filter_popup_panel" auto_size="horizontal" height="30" appearance="buttons/subtle/normal/button" popup_alignment="right,top">
 							<record id="widget_properties" file="filter_panels/person search filter popup" width="350"/>
 							<translation id="text" translation_id="394450" type="use" value="Include[COMMENT: tickbox option to include a stat on a custom chalkboard]" />
 						</widget>

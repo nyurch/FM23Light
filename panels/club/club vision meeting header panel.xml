@@ -1,4 +1,5 @@
-﻿<!-- header panel to be used during the welcome to the club briefing --><panel>
+﻿<!-- header panel to be used during the welcome to the club briefing -->
+<panel>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 	<boolean id="should_force_refresh" value="true" />

@@ -1,23 +1,24 @@
-﻿<!-- panel to be used during the welcome to the club briefing --><panel>
-<string id="skin_style" value="person_button" />
+﻿<!-- panel to be used during the welcome to the club briefing -->
+<panel>
+	<string id="skin_style" value="person_button" />
 
-		<attachment class="test_screen_size_attachment" skip_if_false="true">
-			<list id="properties">
-				<record>
-					<flags id="alignment" value="vertical" />
-					<integer id="min_value" value="0" />
-					<integer id="max_value" value="601" />
-					<!-- This is a very large value as we want our widget to show if > the min_value.  The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
-					<symbol id="set_property" value="height" />
-					<integer id="true_value" value="420" />
-					<integer id="false_value" value="420" />
-				</record>
-				<record min_value="601" max_value="720" true_value="460"/>
-				<record min_value="720" max_value="868" true_value="525"/>
-				<record min_value="868" max_value="968" true_value="630"/>
-				<record min_value="968" max_value="10000" true_value="730"/>
-			</list>
-		</attachment>
+	<attachment class="test_screen_size_attachment" skip_if_false="true">
+		<list id="properties">
+			<record>
+				<flags id="alignment" value="vertical" />
+				<integer id="min_value" value="0" />
+				<integer id="max_value" value="601" />
+				<!-- This is a very large value as we want our widget to show if > the min_value.  The attachmen itself only does values between a range so we set the max arbitrarily high to make this work -->
+				<symbol id="set_property" value="height" />
+				<integer id="true_value" value="420" />
+				<integer id="false_value" value="420" />
+			</record>
+			<record min_value="601" max_value="720" true_value="460"/>
+			<record min_value="720" max_value="868" true_value="525"/>
+			<record min_value="868" max_value="968" true_value="630"/>
+			<record min_value="968" max_value="10000" true_value="730"/>
+		</list>
+	</attachment>
 
 	<attachment_group class="horizontal_arrange" horizontal_layout="-12, -11">
 		<global id="horizontal_gap" name="ui.main_contrast_box_gap" />
@@ -30,7 +31,7 @@
 	<string id="key_player_icon" value="icons/custom/player stats/average rating" />
 	<string id="hot_prospect_icon" value="icons/custom/player stats/prospect" />
 	<string id="squad_personality_icon" value="icons/custom/player stats/personality" />
-	
+
 	<boolean id="should_force_refresh" value="true" />
 
 	<container class="main_transparent_box">
@@ -89,7 +90,7 @@
 
 		<container class="scrolling_box" navigation_container="true">
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
-			
+
 			<container>
 				<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
 

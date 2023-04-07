@@ -12,9 +12,9 @@
 			</record>
 		</widget>
 		<!-- trophy logo -->
-			<widget class="object_portrait_picture" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
-				<record id="object_property" get_property="objt" set_property="objt" />
-			</widget>
+		<widget class="object_portrait_picture" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
+			<record id="object_property" get_property="objt" set_property="objt" />
+		</widget>
 	</container>
 
 </panel>

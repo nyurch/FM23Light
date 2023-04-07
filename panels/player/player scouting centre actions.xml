@@ -49,25 +49,25 @@
 		</record>
 
 		<widget class="icon_button" id="disc" icon="icons/16px/cross" controller_button="x_button" red_replacement="red 800" blue_replacement="red 800" disabled_colour="faded text">
-      <attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1700" set_property="ldis" true_value="true" false_value="false" id="smh1" disabled="true" />
-      <attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false">
-        <event id="action_event" event_id="set_attachment_property_event" attachment_id="smh1" />
-      </attachment>
+			<attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1700" set_property="ldis" true_value="true" false_value="false" id="smh1" disabled="true" />
+			<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false">
+				<event id="action_event" event_id="set_attachment_property_event" attachment_id="smh1" />
+			</attachment>
 		</widget>
 
 		<widget class="primary_icon_button" icon="icons/16px/tick" controller_button="y_button" id="ackn" red_replacement="blue 700" blue_replacement="blue 700" disabled_colour="faded text">
 			<attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1500" set_property="ldis" true_value="true" false_value="false" id="smh1" disabled="true" />
-      		<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false">
-        <event id="action_event" event_id="set_attachment_property_event" attachment_id="smh1" />
-     		 </attachment>
+			<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false">
+				<event id="action_event" event_id="set_attachment_property_event" attachment_id="smh1" />
+			</attachment>
 		</widget>
 
 		<widget class="icon_button" id="ksco" icon="icons/16px/search" red_replacement="teal 700" blue_replacement="teal 700" disabled_colour="faded text">
 			<translation id="text" translation_id="447616" type="use" value="Keep Scouting[COMMENT: Scouting centre action to continue scouting a recommended player]" />
-      		<attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1200" set_property="ldis" true_value="true" false_value="false" id="smh1" disabled="true" />
-      		<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false">
+			<attachment class="test_screen_size_attachment" alignment="horizontal" min_value="0" max_value="1200" set_property="ldis" true_value="true" false_value="false" id="smh1" disabled="true" />
+			<attachment class="test_global_attachment" mode="equal" get_property="section" value="tssc" set_property="disabled" skip_if_false="false">
 				<event id="action_event" event_id="set_attachment_property_event" attachment_id="smh1" />
-      		</attachment>
+			</attachment>
 		</widget>
 
 
@@ -79,7 +79,7 @@
 		<widget class="icon_button" id="otri" red_replacement="green 700" blue_replacement="green 800" disabled_colour="faded text">
 			<translation id="text" translation_id="243344" type="use" value="Offer Trial" />
 		</widget>
-		
+
 
 		<widget class="client_action_icon_button" id="AskA" red_replacement="green 700" blue_replacement="green 800" disabled_colour="faded text">
 			<translation id="text" translation_id="513325" type="use" value="Agent Availability[COMMENT: AREA: Scouting; SUB-AREA: scouting centre; FR: 32767; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: scouting centre action button]" />

@@ -48,7 +48,7 @@
 				</widget>
 
 				<!--position legend-->
-				<widget class="picture" file="icons/custom/player instruction/large/position" id="poPI" width="32" image_alignment="centre" hidden="true" >
+				<widget class="picture" file="icons/custom/player instruction/large/position" id="poPI" width="32" image_alignment="centre" hidden="true">
 				</widget>
 
 				<!--no position legend-->
@@ -62,7 +62,7 @@
 					<layout class="arrange_vertical_attachment" alignment="middle" offset="5" gap="0" />
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
-					<widget class="position_label" id="psLB" size="large" style="bold" alignment="left,top" auto_size="vertical" display_format="0" pUac="true" >
+					<widget class="position_label" id="psLB" size="large" style="bold" alignment="left,top" auto_size="vertical" display_format="0" pUac="true">
 					</widget>
 
 					<widget class="position_label" id="ppOT" alignment="left,top" auto_size="vertical" display_format="0" pUac="true">
@@ -224,7 +224,7 @@
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 					<!-- Attributes Container -->
-					<container class="main_subtle_box" >
+					<container class="main_subtle_box">
 						<translation id="title" translation_id="316628" type="use" value="Important Attributes[COMMENT:title for attributes panel showing which attributes are important for a tactical role]" />
 
 						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
@@ -235,7 +235,7 @@
 					<!--player PPMs-->
 					<container class="main_subtle_box" id="ppmc">
 
-    					<string id="remove_if" value="ui.is_fmt_controller_skin" />
+						<string id="remove_if" value="ui.is_fmt_controller_skin" />
 
 						<translation id="title" translation_id="402385" type="use" value="Player Traits[COMMENT: label for the previously named 'Preferred Moves' section (ID 229993), changed to Player Traits because it fits all potential options more suitably]" />
 

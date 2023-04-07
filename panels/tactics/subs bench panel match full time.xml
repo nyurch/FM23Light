@@ -1,9 +1,9 @@
 ﻿<panel>
 	<layout class="stick_to_sides_attachment" alignment="all" inset="20,0,0,0" apply_to_children="true" />
 
-	<container class="main_subtle_box"  background_colour="grey 300" alignment="centre">
+	<container class="main_subtle_box" background_colour="grey 300" alignment="centre">
 
-        <translation id="title" type="use" translation_id="230321" value="Subs:" />
+		<translation id="title" type="use" translation_id="230321" value="Subs:" />
 
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 

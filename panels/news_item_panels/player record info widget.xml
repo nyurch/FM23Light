@@ -84,7 +84,7 @@
 					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main"/>
 				</widget>
-				<widget class="picture" id="at0E" entity_layout_id="newS"  file="photos/dynamic/post match/shading" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true">
+				<widget class="picture" id="at0E" entity_layout_id="newS" file="photos/dynamic/post match/shading" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true">
 					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main"/>
 					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main"/>
@@ -178,7 +178,7 @@
 				<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main"/>
 			</widget>
-			<container entity_layout_id="at0;" id="at0;" name="number and date" >
+			<container entity_layout_id="at0;" id="at0;" name="number and date">
 				<layout class="stick_to_object_attachment" id="align_top" offset="10" get_side="bottom" set_side="top" target="at08"/>
 				<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_left" offset="2" get_side="left" set_side="left" target="main"/>
@@ -191,7 +191,7 @@
 					<boolean id="exclude_from_find" value="true"/>
 					<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0"/>
 				</widget>
-				<widget class="text" entity_layout_id="at0=" id="RecS" auto_size="horizontal"  needs_width="true" name="record num">
+				<widget class="text" entity_layout_id="at0=" id="RecS" auto_size="horizontal" needs_width="true" name="record num">
 					<string id="value" value="31"/>
 					<string id="size" value="Large"/>
 					<string id="font" value="title"/>

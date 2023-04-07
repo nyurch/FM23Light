@@ -22,7 +22,7 @@
 			</container>
 
 			<container>
-				<attachment_group class="horizontal_arrange_vertical_autosize_centre"  horizontal_alignment="fill" horizontal_offset="0" vertical_offset="0" />
+				<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="fill" horizontal_offset="0" vertical_offset="0" />
 
 				<record id="default_properties" font="label" auto_size="vertical" alignment="centre"/>
 

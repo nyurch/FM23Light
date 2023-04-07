@@ -4,12 +4,12 @@
 	<!--description text (FMT version)-->
 	<container create_if="is_fmt" height="40">
 		<attachment_group class="vertical_arrange" />
-		<widget class="text" auto_size="vertical" alignment="left" >
+		<widget class="text" auto_size="vertical" alignment="left">
 			<translation id="text" translation_id="558785" type="use" value="Here is an update on how the recruitment team is getting on with their active recruitment focus assignments.[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Updates; FR-BN: FM-4056; TONE: FORMAL; CHARLIMIT: None; REF-ID: XXXXXX; NOTE: News item sent regularly to update the user on all of their active recruitment focuses]" />
 		</widget>
 
 	</container>
-	
+
 	<!--title area (FMT version)-->
 	<widget class="client_object_viewer_xml_panel" id="ChSc" height="50" create_if="is_fmt">
 		<attachment_group class="horizontal_arrange" horizontal_layout="-1,380" />

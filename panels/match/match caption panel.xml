@@ -1,6 +1,6 @@
 <panel>
-	
-		<!--default text colour-->
+
+	<!--default text colour-->
 	<flags id="dTXc" value="black"/>
 	<!--alternative text colour-->
 	<flags id="aTXc" value="white"/>
@@ -18,7 +18,7 @@
 	<string id="ycIM" value="icons/26px/yellow card"/>
 	<!--red card image-->
 	<string id="rcIM" value="icons/26px/red card"/>
-	
+
 	<!--used for debug reasons-->
 	<list id="properties_to_forward">
 		<record get_property="hiVA" set_property="hidn" target="lgCP" />
@@ -26,31 +26,31 @@
 		<record get_property="hiVD" set_property="hidn" target="DeVR" />
 		<record get_property="hiCA" set_property="hidn" target="smCP" />
 	</list>
-	
+
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 
 	<container id="lgCP" hidden="true">
 
 		<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="middle"/>
-		
+
 		<animation class="fade_animation" start_value="0" end_value="1" duration="0.5" end_mode="hold_end" trigger_id="hidden" trigger_value="false"/>
 		<animation class="fade_animation" start_value="1" end_value="0" duration="0.5" end_mode="hold_end" trigger_id="hidden" trigger_value="true"/>
 
-		<container  class="contrast_box_no_margin" red_replacement="bg" height="300" width="575">
+		<container class="contrast_box_no_margin" red_replacement="bg" height="300" width="575">
 
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 			<widget class="picture" file="backgrounds/animated pattern 3" red_replacement="fg accent" scale_picture="false"/>
 
 			<!--Checking VAR-->
-			<container id="chVR" >
+			<container id="chVR">
 				<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_gap="0"/>
 
 				<widget class="picture" auto_size="vertical" file="icons/custom/match/logos/VAR" red_replacement="fg" image_alignment="centre">
 				</widget>
 
 				<widget class="spacer" height="20"/>
-				
+
 				<widget class="text" id="vrST" text="CHECKING title" auto_size="vertical" alignment="centre" size="32" font="title" colour="fg">
 					<animation class="fade_animation" trigger_id="hidden" trigger_value="false" start_value="0.1" end_value="1.0" duration="0.7" end_mode="cycle" />
 				</widget>
@@ -70,7 +70,7 @@
 				<widget class="spacer" height="20"/>
 
 				<widget class="text" id="vrDT" text="DECISION title" auto_size="vertical" alignment="centre" size="18" font="title" colour="fg">
-					<animation class="translate_animation" trigger_id="hidden" trigger_value="false" start_value="0.0,2.0" end_value="0.0,0.0" duration="0.8" >
+					<animation class="translate_animation" trigger_id="hidden" trigger_value="false" start_value="0.0,2.0" end_value="0.0,0.0" duration="0.8">
 						<record id="finished_event">
 							<flags id="event_target" value="vrDD" />
 							<flags id="event_id" value="FMMH" />
@@ -96,7 +96,7 @@
 
 				<widget class="spacer" height="20"/>
 
-			<widget class="text" id="vrDS" text="DECISION subtitle" auto_size="vertical" alignment="centre" size="18" font="title" colour="fg accent"/>
+				<widget class="text" id="vrDS" text="DECISION subtitle" auto_size="vertical" alignment="centre" size="18" font="title" colour="fg accent"/>
 			</container>
 
 		</container>
@@ -106,7 +106,7 @@
 	<container>
 
 		<attachment_group class="horizontal_arrange" horizontal_alignment="middle" vertical_alignment="bottom" vertical_offset="30"/>
-	
+
 		<container id="smCP" file="match/match caption panel small" height="100" width="500"/>
 
 	</container>

@@ -17,27 +17,27 @@
 		<container class="main_box_no_margin" id="plti" alignment="left" force_title_borders="false">
 			<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="0"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" />
-			
+
 			<!-- buttons area -->
 			<container navigation_container="true">
 				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right, extend" />
-				
-				<!-- left side buttons -->		
+
+				<!-- left side buttons -->
 				<container>
-					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" />		
-					
+					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left" />
+
 					<widget class="view_menu_label" id="TitL" embed_in_frame="false" auto_size="horizontal">
 						<translation id="text" translation_id="242258" type="use" value="Fixtures" />
 					</widget>
-				
+
 					<!-- view button -->
 					<widget class="view_menu_popup" id="plvi" sele="hofi" embed_in_frame="false" auto_size="all"/>
 				</container>
-				
-				<!-- right side buttons -->		
+
+				<!-- right side buttons -->
 				<container id="btna" height="31">
 					<attachment_group class="horizontal_arrange_autosize"/>
-					
+
 					<!-- seasons popup -->
 					<widget class="embedded_season_selection_list" id="fxyr" auto_size="horizontal" embed_in_frame="false">
 						<global id="gap_adjustment" name="ui.split_button_row_gap"/>

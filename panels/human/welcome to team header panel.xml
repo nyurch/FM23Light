@@ -20,7 +20,7 @@
 
 			<widget class="vertical_divider"/>
 
-			<container height="50" >
+			<container height="50">
 				<layout class="arrange_horizontal_attachment" alignment="right, extend" offset="0" gap="0"/>
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true"/>
 
@@ -65,9 +65,9 @@
 						<translation id="text" translation_id="255268" type="use" value="Next[COMMENT: wizard dialog: default next button text]" />
 					</widget>
 				</container>
-			</container> 
+			</container>
 		</container>
-		
+
 
 	</container>
 </panel>

@@ -1,5 +1,5 @@
 <panel height="44" width="130">
-  <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 
 	<container>
 		<layout class="arrange_vertical_attachment" alignment="middle" gap="0"/>
@@ -10,7 +10,7 @@
 
 	</container>
 
-  <widget class="button" appearance="chrome/buttons/date/fm23/button" id="actn" click_event="opcl" height="42"  focus_appearance="chrome/buttons/date/button_controller"/>
+	<widget class="button" appearance="chrome/buttons/date/fm23/button" id="actn" click_event="opcl" height="42" focus_appearance="chrome/buttons/date/button_controller"/>
 
 
 

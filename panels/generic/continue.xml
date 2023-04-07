@@ -8,7 +8,7 @@
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
 
 		<record id="click_event" event_id="CONT" event_target="glob" />
-		
+
 		<!-- We adjust the continue colour in code in some scenarios, the default colour is defined as 'continue colour' and can be adjusted in the global colour definitions
 		<attachment class="get_global_attachment" get_property="ctcl" set_property="colour" />
 		 -->
@@ -40,7 +40,7 @@
 	</widget>
 
 	<!-- Must do stuff Button -->
-	<widget class="icon_button" id="MDSB" appearance="chrome/buttons/continue/button" alignment="centre" font="title" secondary_icon_enabled="true" secondary_icon="icons/16px/urgent" secondary_icon_alignment="centre_right, centre_y" colour="bg" red_replacement="red 900"  controller_button="right_trigger">
+	<widget class="icon_button" id="MDSB" appearance="chrome/buttons/continue/button" alignment="centre" font="title" secondary_icon_enabled="true" secondary_icon="icons/16px/urgent" secondary_icon_alignment="centre_right, centre_y" colour="bg" red_replacement="red 900" controller_button="right_trigger">
 		<record id="secondary_icon_properties" red_replacement="bg"/>
 		<translation id="text" translation_id="295226" type="use" value="Must Respond[COMMENT: text to indicate that there is a news item the user must respond to before continuing the game]" />
 
@@ -64,7 +64,7 @@
 	</widget>
 
 	<!-- back to match Button -->
-	<widget class="icon_button" id="BTMB" appearance="chrome/buttons/continue/button" alignment="centre" font="title" controller_button="right_trigger" secondary_icon_enabled="true" secondary_icon="icons/16px/ball" secondary_icon_alignment="centre_right, centre_y" red_replacement="bg" colour="fg" >
+	<widget class="icon_button" id="BTMB" appearance="chrome/buttons/continue/button" alignment="centre" font="title" controller_button="right_trigger" secondary_icon_enabled="true" secondary_icon="icons/16px/ball" secondary_icon_alignment="centre_right, centre_y" red_replacement="bg" colour="fg">
 		<record id="secondary_icon_properties" red_replacement="fg"/>
 		<translation id="text" translation_id="258584" type="use" value="Match[COMMENT - continue button text when match screen is next screen to appear]" />
 

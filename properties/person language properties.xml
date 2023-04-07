@@ -15,7 +15,8 @@
 
 			<record id="widget_edit_info">
 				<symbol id="class" value="number_edit_box" />
-				<string id="colour" value="alt text" />	<!-- added to recolour for IGE -->
+				<string id="colour" value="alt text" />
+				<!-- added to recolour for IGE -->
 				<record id="edit_event" event_id="CDBd" event_flags="2" />
 				<integer id="min_value" value="0" />
 				<integer id="max_value" value="10" />
@@ -32,39 +33,39 @@
 			</record>
 		</record>
 
-    <!-- Proficiency enum -->
-    <record>
-      <integer id="id" value="proe" />
-      <integer id="width" value="90" />
-      <translation id="name" translation_id="374200" type="use" value="Proficiency Description[COMMENT: editor, Language proficiency description title text]" />
-      <record id="widget_info">
-        <symbol id="class" value="formatted_label" />
-        <list id="format">
-          <record value="2">
-            <translation id="format" translation_id="374065" type="use" value="Fluent[COMMENT: editor, Language proficiency description]" />
-          </record>
-          <record value="3">
-            <translation id="format" translation_id="374080" type="use" value="Good[COMMENT: editor, Language proficiency description]" />
-          </record>
-          <record value="4">
-            <translation id="format" translation_id="374005" type="use" value="Basic[COMMENT: editor, Language proficiency description]" />
-          </record>
-          <record value="5">
-            <translation id="format" translation_id="249830" type="use" value="Is Not[COMMENT - filter rule type]" />
-          </record>
-        </list>
-      </record>
+		<!-- Proficiency enum -->
+		<record>
+			<integer id="id" value="proe" />
+			<integer id="width" value="90" />
+			<translation id="name" translation_id="374200" type="use" value="Proficiency Description[COMMENT: editor, Language proficiency description title text]" />
+			<record id="widget_info">
+				<symbol id="class" value="formatted_label" />
+				<list id="format">
+					<record value="2">
+						<translation id="format" translation_id="374065" type="use" value="Fluent[COMMENT: editor, Language proficiency description]" />
+					</record>
+					<record value="3">
+						<translation id="format" translation_id="374080" type="use" value="Good[COMMENT: editor, Language proficiency description]" />
+					</record>
+					<record value="4">
+						<translation id="format" translation_id="374005" type="use" value="Basic[COMMENT: editor, Language proficiency description]" />
+					</record>
+					<record value="5">
+						<translation id="format" translation_id="249830" type="use" value="Is Not[COMMENT - filter rule type]" />
+					</record>
+				</list>
+			</record>
 
-      <list id="use_field_if">
-        <!-- Cannot speak language -->
-        <record id="csln" equals="false" />
-      </list>
+			<list id="use_field_if">
+				<!-- Cannot speak language -->
+				<record id="csln" equals="false" />
+			</list>
 
-      <record id="column_heading">
-        <flags id="alignment" value="left,centre_y" />
-        <translation id="name" translation_id="374200" type="use" value="Proficiency Description[COMMENT: editor, Language proficiency description title text]" />
-      </record>
-    </record>
+			<record id="column_heading">
+				<flags id="alignment" value="left,centre_y" />
+				<translation id="name" translation_id="374200" type="use" value="Proficiency Description[COMMENT: editor, Language proficiency description title text]" />
+			</record>
+		</record>
 
 		<!-- Language -->
 		<record>
@@ -119,7 +120,7 @@
 				<translation id="text" translation_id="376431" type="use" value="Cannot Speak[COMMENT: in game editor; short for cannot speak Language]" />
 			</record>
 		</record>
-    
+
 	</list>
 	<!-- column display properties -->
 </record>

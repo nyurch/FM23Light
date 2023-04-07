@@ -69,7 +69,7 @@
 		<container class="main_box" appearance="boxes/main/contrast/bottom/paper">
 			<layout class="arrange_horizontal_attachment" layout="62,-1" offset="0" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
-			
+
 			<record id="object_property">
 				<list id="get_properties">
 					<record>

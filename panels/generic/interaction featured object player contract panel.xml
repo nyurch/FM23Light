@@ -7,7 +7,7 @@
 	<container id="PCdi" height="117" width="160">
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 	</container>
-	
+
 	<widget class="object_portrait_picture" id="PCpt" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="117" width="160" hidden="true" />
 
 	<container>

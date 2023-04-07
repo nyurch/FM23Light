@@ -33,20 +33,20 @@
 		<!-- top bit - role/duty etc-->
 		<container class="inner_subtle_box_no_margin" navigation_container="true">
 
-	        <attachment class="test_screen_size_attachment" skip_if_false="true">
-	          <list id="properties">
-	            <!-- Each entry uses the previous entry as it's default/starting value so we only need to set some properties once -->
-	            <record>
-	              <flags id="alignment" value="vertical" />
-	              <integer id="min_value" value="0" />
-	              <integer id="max_value" value="601" />
-	              <symbol id="set_property" value="hidden" />
-	              <integer id="true_value" value="true" />
-	              <integer id="false_value" value="true" />
-	            </record>
-	            <record min_value="601" max_value="10000" true_value="false" />
-	          </list>
-	        </attachment>
+			<attachment class="test_screen_size_attachment" skip_if_false="true">
+				<list id="properties">
+					<!-- Each entry uses the previous entry as it's default/starting value so we only need to set some properties once -->
+					<record>
+						<flags id="alignment" value="vertical" />
+						<integer id="min_value" value="0" />
+						<integer id="max_value" value="601" />
+						<symbol id="set_property" value="hidden" />
+						<integer id="true_value" value="true" />
+						<integer id="false_value" value="true" />
+					</record>
+					<record min_value="601" max_value="10000" true_value="false" />
+				</list>
+			</attachment>
 
 			<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
 
@@ -83,7 +83,7 @@
 					<layout class="arrange_vertical_attachment" alignment="top" offset="4" gap="1" />
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-					<widget class="text" id="ment" auto_size="vertical" font="value" size="normal"> 
+					<widget class="text" id="ment" auto_size="vertical" font="value" size="normal">
 						<translation id="hint" translation_id="396533" type="use" value="A player's Mentality affects their attitude on the pitch in relation to balancing their attacking and defensive duties within the overall framework of the Team Mentality. Players are afforded a more attacking approach with a Mentality closer to the maximum, whilst a more defensive outlook is taken when it is set closer to the minimum end of the scale.[COMMENT: bug 130007]" />
 					</widget>
 
@@ -105,7 +105,7 @@
 
 			<!--role/duty description-->
 			<container class="scrolling_box" height="60">
-		        <global id="hidden" name="ui.is_fmt_controller_skin" />
+				<global id="hidden" name="ui.is_fmt_controller_skin" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="8" />
 				<widget class="text" id="rolD" alignment="centre" colour="faded text" size="small" auto_size="vertical">
 				</widget>
@@ -223,9 +223,9 @@
 						<container class="inner_subtle_box_no_margin" id="imcn" height="200">
 
 							<widget class="value_based_picture" id="psbk">
-                <layout class="stick_to_sides_attachment" alignment="all" inset="7,5,5,5" />
+								<layout class="stick_to_sides_attachment" alignment="all" inset="7,5,5,5" />
 
-                <list id="value_list">
+								<list id="value_list">
 									<!--SW-->
 									<record value="2" file="icons/custom/player instructions/pitch/sw" />
 									<!--DR-->
@@ -258,16 +258,16 @@
 							</widget>
 
 							<container class="pie_chart" id="pspi" mode="2" draw_instant_hint="true" highlight_value="5">
-                <layout class="stick_to_sides_attachment" alignment="all" inset="10,2,5,2" />
+								<layout class="stick_to_sides_attachment" alignment="all" inset="10,2,5,2" />
 
-                <!--text overlays-->
+								<!--text overlays-->
 								<!--get forward-->
 								<widget class="text" id="gfTX" width="68" height="50" alignment="centre" itID="PI_GET_FORWARD_OFTEN" size="xsmall">
 									<string id="remove_if" value="ui.is_fmt_controller_skin"/>
 									<layout class="stick_to_sides_attachment" alignment="top" inset="18" />
 									<layout class="centre_in_parent_attachment" alignment="horizontal" />
 								</widget>
-								<widget class="button" id="gfTX" width="68" height="50" alignment="centre" itID="PI_GET_FORWARD_OFTEN" size="xsmall" appearance="buttons/text/button" navigation_focus_target="true" multiline="true" click_event="sele"> 
+								<widget class="button" id="gfTX" width="68" height="50" alignment="centre" itID="PI_GET_FORWARD_OFTEN" size="xsmall" appearance="buttons/text/button" navigation_focus_target="true" multiline="true" click_event="sele">
 									<string id="create_if" value="ui.is_fmt_controller_skin"/>
 									<layout class="stick_to_sides_attachment" alignment="top" inset="18" />
 									<layout class="centre_in_parent_attachment" alignment="horizontal" />
@@ -353,9 +353,9 @@
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="5" />
 
 							<widget class="value_based_picture" id="mvbk">
-              				  <layout class="stick_to_sides_attachment" alignment="all" inset="7,5,5,5" />
+								<layout class="stick_to_sides_attachment" alignment="all" inset="7,5,5,5" />
 
-               					 <list id="value_list">
+								<list id="value_list">
 									<!--SW-->
 									<record value="2" file="icons/custom/player instructions/pitch/sw" />
 									<!--DR-->
@@ -388,16 +388,16 @@
 							</widget>
 
 							<widget class="pie_chart" id="mvpi" mode="2" draw_instant_hint="true" highlight_value="5">
-                				<layout class="stick_to_sides_attachment" alignment="all" inset="10,2,5,2" />
+								<layout class="stick_to_sides_attachment" alignment="all" inset="10,2,5,2" />
 
-              					  <!--text overlays-->
+								<!--text overlays-->
 								<!--run wide-->
 								<widget class="text" id="mlTX" width="68" height="50" alignment="centre" size="xsmall">
 									<string id="remove_if" value="ui.is_fmt_controller_skin"/>
 									<layout class="stick_to_sides_attachment" alignment="top" inset="43" />
 									<layout class="stick_to_sides_attachment" alignment="left" inset="42" />
 								</widget>
-								<widget class="button" id="mlTX" width="68" height="50" alignment="centre" size="xsmall" navigation_focus_target="true"  appearance="buttons/text/button" click_event="sele" multiline="true">
+								<widget class="button" id="mlTX" width="68" height="50" alignment="centre" size="xsmall" navigation_focus_target="true" appearance="buttons/text/button" click_event="sele" multiline="true">
 									<string id="create_if" value="ui.is_fmt_controller_skin"/>
 									<layout class="stick_to_sides_attachment" alignment="top" inset="43" />
 									<layout class="stick_to_sides_attachment" alignment="left" inset="42" />
@@ -409,7 +409,7 @@
 									<layout class="stick_to_sides_attachment" alignment="top" inset="43" />
 									<layout class="stick_to_sides_attachment" alignment="right" inset="42" />
 								</widget>
-								<widget class="button" id="mrTX" width="68" height="50" alignment="centre" size="xsmall" navigation_focus_target="true"  appearance="buttons/text/button" click_event="sele" multiline="true">
+								<widget class="button" id="mrTX" width="68" height="50" alignment="centre" size="xsmall" navigation_focus_target="true" appearance="buttons/text/button" click_event="sele" multiline="true">
 									<string id="create_if" value="ui.is_fmt_controller_skin"/>
 									<layout class="stick_to_sides_attachment" alignment="top" inset="43" />
 									<layout class="stick_to_sides_attachment" alignment="right" inset="42" />
@@ -421,7 +421,7 @@
 									<layout class="stick_to_sides_attachment" alignment="bottom" inset="45" />
 									<layout class="centre_in_parent_attachment" alignment="horizontal" />
 								</widget>
-								<widget class="button" id="huTX" width="140" alignment="centre,can_scale" auto_size="vertical" itID="PI_HOLD_UP_BALL" size="xsmall" navigation_focus_target="true"  appearance="buttons/text/button" click_event="sele" multiline="true">
+								<widget class="button" id="huTX" width="140" alignment="centre,can_scale" auto_size="vertical" itID="PI_HOLD_UP_BALL" size="xsmall" navigation_focus_target="true" appearance="buttons/text/button" click_event="sele" multiline="true">
 									<string id="create_if" value="ui.is_fmt_controller_skin"/>
 									<layout class="stick_to_sides_attachment" alignment="bottom" inset="45" />
 									<layout class="centre_in_parent_attachment" alignment="horizontal" />
@@ -666,46 +666,46 @@
 						<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="4" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-						<!--distribution type--><!--
-						<container class="inner_box" >
+						<!--distribution type-->						<!--
+						<container class="inner_box">
 							<translation id="title" translation_id="394393" type="use" value="Distribution Type[COMMENT: FR 10778 - title for player instructions to do with a goalkeeper's behaviour when distributing the ball]" />
 
 							<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="2" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-							--><!--roll it out--><!--
+							-->						<!--roll it out-->						<!--
 							<widget class="button" id="tkhd" auto_size="vertical" itID="29">
 								<record id="click_event" event_id="sele" itID="29" />
 							</widget>
 
-							--><!--throw it long--><!--
+							-->						<!--throw it long-->						<!--
 							<widget class="button" id="twIL" auto_size="vertical" itID="30">
 								<record id="click_event" event_id="sele" itID="30" />
 							</widget>
 
-							--><!--take short kicks--><!--
+							-->						<!--take short kicks-->						<!--
 							<widget class="button" id="tkSK" auto_size="vertical" itID="31">
 								<record id="click_event" event_id="sele" itID="31" />
 							</widget>
 
-							--><!--take long kicks--><!--
+							-->						<!--take long kicks-->						<!--
 							<widget class="button" id="tkLk" auto_size="vertical" itID="32">
 								<record id="click_event" event_id="sele" itID="32" />
 							</widget>
 
 						</container>
 
-						--><!--distribution speed--><!--
-						<container class="inner_box" >
+						-->						<!--distribution speed-->						<!--
+						<container class="inner_box">
 							<translation id="title" translation_id="394392" type="use" value="Distribution Speed[COMMENT: FR 10778 - title for player instructions to do with a goalkeeper's speed of action when distributing the ball]" />
 
 							<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="2" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-							--><!--distribute quickly--><!--
+							-->						<!--distribute quickly-->						<!--
 							<widget class="button" id="tkhd" auto_size="vertical" itID="40">
 								<record id="click_event" event_id="sele" itID="40" />
 							</widget>
 
-							--><!--slow it down--><!--
+							-->						<!--slow it down-->						<!--
 							<widget class="button" id="sLOW" auto_size="vertical" itID="41">
 								<record id="click_event" event_id="sele" itID="41" />
 							</widget>
@@ -762,23 +762,23 @@
 								<record id="click_event" event_id="sele" itID="PI_DRIBBLE_LESS" />
 							</widget>
 						</container>
-						
+
 					</container>
 
 					<!--<container>
 						<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="4" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-						--><!--distribute to area--><!--
-						<container class="inner_box"  height="230">
+						-->					<!--distribute to area-->					<!--
+						<container class="inner_box" height="230">
 							<translation id="title" translation_id="394389" type="use" value="Distribute To Area[COMMENT: FR 10778 - title for player instructions to do with a goalkeeper's behaviour when distributing the ball]" />
 
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-							--><!--background--><!--
+							-->					<!--background-->					<!--
 							<widget class="picture" file="icons/custom/player instructions/pitch/gk distribution" image_alignment="left,centre_y" />
 
-							--><!--buttons--><!--
+							-->					<!--buttons-->					<!--
 							<container>
 								<layout class="arrange_horizontal_attachment" layout="27,85,110,85" offset="1" gap="1" />
 								<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="4" />
@@ -789,20 +789,20 @@
 									<layout class="arrange_vertical_attachment" layout="-1,-2,-1" offset="0" gap="1" />
 									<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-									--><!--to full backs--><!--
+									-->					<!--to full backs-->					<!--
 									<widget class="button" id="2fbL" auto_size="vertical" itID="34" multiline="true" size="xxsmall" appearance="buttons/custom/tactics/pitch area/button" alignment="centre,can_scale">
 										<translation id="text" translation_id="394647" type="use" value="To Full Backs[COMMENT: FR 10778 - title for player instructions button to do with where a goalkeeper will distribute the ball]" />
 										<record id="click_event" event_id="sele" itID="34" />
 									</widget>
 
-									--><!--to centre backs--><!--
+									-->					<!--to centre backs-->					<!--
 									<widget class="button" id="TOcB" auto_size="vertical" itID="33" multiline="true" size="xxsmall" appearance="buttons/custom/tactics/pitch area/button" alignment="centre,can_scale">
 										<translation id="text" translation_id="394645" type="use" value="To Centre Backs[COMMENT: FR 10778 - title for player instructions button to do with where a goalkeeper will distribute the ball]" />
 										<record id="click_event" event_id="sele" itID="33" />
 									</widget>
 
 
-									--><!--to full backs--><!--
+									-->					<!--to full backs-->					<!--
 									<widget class="button" id="2fbR" auto_size="vertical" itID="33" multiline="true" size="xxsmall" appearance="buttons/custom/tactics/pitch area/button" alignment="centre,can_scale">
 										<translation id="text" translation_id="394647" type="use" value="To Full Backs[COMMENT: FR 10778 - title for player instructions button to do with where a goalkeeper will distribute the ball]" />
 										<record id="click_event" event_id="sele" itID="33" />
@@ -814,7 +814,7 @@
 									<layout class="arrange_vertical_attachment" layout="-1,-2,-1" offset="0" gap="1" />
 									<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
 
-									--><!--to flanks--><!--
+									-->					<!--to flanks-->					<!--
 									<widget class="button" id="toFL" auto_size="vertical" itID="35" multiline="true" size="xxsmall" appearance="buttons/custom/tactics/pitch area/button" alignment="centre,can_scale">
 										<translation id="text" translation_id="394646" type="use" value="To Flanks[COMMENT: FR 10778 - title for player instructions button to do with where a goalkeeper will distribute the ball]" />
 										<record id="click_event" event_id="sele" itID="35" />
@@ -822,7 +822,7 @@
 
 									<widget class="spacer" />
 
-									--><!--to flanks--><!--
+									-->					<!--to flanks-->					<!--
 									<widget class="button" id="toFR" auto_size="vertical" itID="35" multiline="true" size="xxsmall" appearance="buttons/custom/tactics/pitch area/button" alignment="centre,can_scale">
 										<translation id="text" translation_id="394646" type="use" value="To Flanks[COMMENT: FR 10778 - title for player instructions button to do with where a goalkeeper will distribute the ball]" />
 										<record id="click_event" event_id="sele" itID="35" />
@@ -830,7 +830,7 @@
 
 								</container>
 
-								--><!--over opposition defence--><!--
+								-->					<!--over opposition defence-->					<!--
 								<widget class="button" id="ovOD" auto_size="vertical" itID="36" multiline="true" size="xxsmall" appearance="buttons/custom/tactics/pitch area/button" alignment="centre,can_scale">
 									<translation id="text" translation_id="394522" type="use" value="Over Opposition Defence[COMMENT: FR 10778 - title for player instructions button to do with where a goalkeeper will distribute the ball]" />
 									<record id="click_event" event_id="sele" itID="36" />
@@ -840,8 +840,8 @@
 
 						</container>
 
-						--><!--distribute to position--><!--
-						<container class="inner_box"  height="185">
+						-->					<!--distribute to position-->					<!--
+						<container class="inner_box" height="185">
 							<translation id="title" translation_id="395583" type="use" value="Distribute To Position[COMMENT: FR 10778 - title for player instructions to do with a goalkeeper's behaviour when distributing the ball - slight change to old string, use top 10 matches]" />
 
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
@@ -852,18 +852,18 @@
 
 						</container>
 
-						--><!--distribute to player--><!--
-						<container class="inner_box" >
+						-->					<!--distribute to player-->					<!--
+						<container class="inner_box">
 							<translation id="title" translation_id="394390" type="use" value="Distribute To Player[COMMENT: FR 10778 - title for player instructions to do with a goalkeeper's behaviour when distributing the ball]" />
 
 							<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="2" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-							--><!--playmaker--><!--
+							-->					<!--playmaker-->					<!--
 							<widget class="button" id="tkhd" auto_size="vertical" itID="37">
 								<record id="click_event" event_id="sele" itID="37" />
 							</widget>
 
-							--><!--target man--><!--
+							-->					<!--target man-->					<!--
 							<widget class="button" id="taMN" auto_size="vertical" itID="38">
 								<record id="click_event" event_id="sele" itID="38" />
 							</widget>
@@ -898,32 +898,32 @@
 			<translation id="text" translation_id="247303" type="use" value="Unavailable" />
 		</widget>
 
-    <container navigation_container="true">
-      <attachment_group class="button_arrangement_right" />
-     
-      <widget class="primary_icon_tick_button" id="ok">
-        <translation id="text" translation_id="229829" type="use" value="Ok" />
-      </widget>
-      <widget class="icon_button" id="canc" auto_size="all" height="30">
-        	<translation id="text" translation_id="229828" type="use" value="Cancel" />
-        </widget>
-      <container>
-        <attachment_group class="horizontal_arrange_autosize_all">
-        <global id="horizontal_gap" name="ui.split_button_row_gap" />
-        </attachment_group>
-        <widget class="subtle_button" id="undo" auto_size="all" click_event="UNDO" appearance="buttons/subtle/split/left/button">
-          <translation id="text" translation_id="230251" type="use" value="Undo" />
-        </widget>
-        <widget class="subtle_button" id="revt" auto_size="all" click_event="revt" appearance="buttons/subtle/split/middle/button">
-          <translation id="text" translation_id="344717" type="use" value="Revert" />
-        </widget>
-        <widget class="subtle_button" id="clea" auto_size="all" click_event="clse" appearance="buttons/subtle/split/right/button">
-          <translation id="text" translation_id="229717" type="use" value="Clear" />
-        </widget>
-      </container>
-      <widget class="subtle_popup_button" id="pres" auto_size="all" fixed="true">
-        <translation id="text" translation_id="346803" type="use" value="Presets...[COMMENT: item selection dialog popup button text]" />
-      </widget>
-    </container>
+		<container navigation_container="true">
+			<attachment_group class="button_arrangement_right" />
+
+			<widget class="primary_icon_tick_button" id="ok">
+				<translation id="text" translation_id="229829" type="use" value="Ok" />
+			</widget>
+			<widget class="icon_button" id="canc" auto_size="all" height="30">
+				<translation id="text" translation_id="229828" type="use" value="Cancel" />
+			</widget>
+			<container>
+				<attachment_group class="horizontal_arrange_autosize_all">
+					<global id="horizontal_gap" name="ui.split_button_row_gap" />
+				</attachment_group>
+				<widget class="subtle_button" id="undo" auto_size="all" click_event="UNDO" appearance="buttons/subtle/split/left/button">
+					<translation id="text" translation_id="230251" type="use" value="Undo" />
+				</widget>
+				<widget class="subtle_button" id="revt" auto_size="all" click_event="revt" appearance="buttons/subtle/split/middle/button">
+					<translation id="text" translation_id="344717" type="use" value="Revert" />
+				</widget>
+				<widget class="subtle_button" id="clea" auto_size="all" click_event="clse" appearance="buttons/subtle/split/right/button">
+					<translation id="text" translation_id="229717" type="use" value="Clear" />
+				</widget>
+			</container>
+			<widget class="subtle_popup_button" id="pres" auto_size="all" fixed="true">
+				<translation id="text" translation_id="346803" type="use" value="Presets...[COMMENT: item selection dialog popup button text]" />
+			</widget>
+		</container>
 	</container>
 </panel>

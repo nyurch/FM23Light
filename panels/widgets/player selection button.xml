@@ -18,7 +18,7 @@
 		<layout class="arrange_horizontal_attachment" alignment="left, extend" offset="3" gap="0" />
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
 
-		<container class="kit_icon" file="generic/kit icon tactics" kit_path="default" kit_number_path="default" id="kIIC" width="20" height="20" keep_aspect_ratio="true" scale_picture="true" >
+		<container class="kit_icon" file="generic/kit icon tactics" kit_path="default" kit_number_path="default" id="kIIC" width="20" height="20" keep_aspect_ratio="true" scale_picture="true">
 			<layout class="centre_in_parent_attachment" alignment="vertical" />
 		</container>
 
@@ -37,7 +37,7 @@
 
 
 
-	<widget class="text" id="emTx" alignment="left,centre_y,can_scale" hidden="true" wants_mouse_events="false" >
+	<widget class="text" id="emTx" alignment="left,centre_y,can_scale" hidden="true" wants_mouse_events="false">
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0,26,0,20" />
 	</widget>
 </panel>

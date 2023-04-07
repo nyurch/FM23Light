@@ -93,7 +93,7 @@
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-      <widget class="label" height="22" font="label">
+			<widget class="label" height="22" font="label">
 				<translation id="text" translation_id="492002" type="use" value="Agreed Playing Time[COMMENT: AREA: Player Happiness; SUB-AREA: Contract Promises; FR-BN: 14013; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: contract promise type]" />
 			</widget>
 
@@ -104,7 +104,7 @@
 			</widget>
 
 			<widget class="cash_selection_list" id="mwcs" auto_size="vertical">
-					<record id="default_properties" alignment="right,centre_y" colour="black"/>
+				<record id="default_properties" alignment="right,centre_y" colour="black"/>
 			</widget>
 
 		</container>

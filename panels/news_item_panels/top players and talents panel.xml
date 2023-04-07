@@ -7,12 +7,12 @@
 
             <!-- news item text-->
             <widget class="inbox_body_text" id="bdtx" auto_size="vertical"/>
-            
+
             <!-- tabs -->
             <container class="tabbed_container" id="Tabb" default_item="Pl01" navigation_container="true">
                 <attachment_group class="vertical_arrange_autosize"/>
 
-                <container id="winT" >
+                <container id="winT">
                     <translation id="title" translation_id="229712" type="use" value="Winner"/>
                     <attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="210, 300" horizontal_gap="8"/>
 

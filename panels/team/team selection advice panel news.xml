@@ -88,9 +88,9 @@
 			</list>
 
 			<list id="column_widget_properties">]
-			<record index="0" navigation_focus_target="false"/>
-			<record index="1" navigation_focus_target="false"/>
-			<record index="3" navigation_focus_target="false"/>
+				<record index="0" navigation_focus_target="false"/>
+				<record index="1" navigation_focus_target="false"/>
+				<record index="3" navigation_focus_target="false"/>
 			</list>
 			<layout class="stick_to_object_attachment" id="align_top" offset="8" get_side="top" set_side="top" target="main"/>
 			<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main"/>

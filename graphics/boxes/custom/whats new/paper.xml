@@ -9,5 +9,5 @@
 	<record id="image_slices" left="335" right="360" />
 
 	<boolean id="blurred" value="false"/>
-	
+
 </properties>

@@ -6,7 +6,7 @@
 
 		<!--Header Panel-->
 		<container>
-			<layout class="stick_to_sides_attachment" alignment="all" inset="0"  apply_to_children="true" />
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 			<widget class="button" appearance="" id="Clop" click_event="edpd" />
 
@@ -37,7 +37,7 @@
 				</container>
 
 				<container id="cbxC">
-					<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0"  horizontal_alignment="right" horizontal_inset="0" />
+					<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_alignment="right" horizontal_inset="0" />
 
 					<container class="main_box" id="clbx" appearance="boxes/custom/warning/paper" height="20" width="36">
 						<attachment_group class="horizontal_arrange" horizontal_alignment="middle" horizontal_offset="0" horizontal_gap="0" vertical_inset="0" />

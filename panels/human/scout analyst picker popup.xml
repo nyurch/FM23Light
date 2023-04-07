@@ -2,14 +2,14 @@
 	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 	<container class="standard_popup_box">
-		
+
 		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="6" vertical_gap="12" />
 
 		<container class="inner_subtle_box" id="hinC" height="60">
 			<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="left,extend" horizontal_offset="0" vertical_inset="0" horizontal_gap="10" />
 
 			<widget class="picture" width="26" height="26" file="icons/custom/scouting/focus" image_alignment="centre" keep_aspect_ratio="true" scale_picture="true" wants_mouse_events="false" red_replacement="bg yellow lighter" blue_replacement="black" />
-			
+
 			<widget class="formatted_label" id="hinT" auto_size="vertical">
 				<translation id="format" translation_id="557801" type="use" value="Top Priorities require a minimum of [%number#1] scouts. If fewer are chosen, additional scouts will be automatically chosen.[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Dialog; FR-BN: FM-4458; NOTE: Hint text at top of scout picker popup, explaining how the new scout assignment system works]" />
 			</widget>
@@ -25,7 +25,7 @@
 			<widget class="client_object_list_table" id="saTB" database_table_type="1" customisation_context="staf" mode="fill_rows, stripe_rows, store_sort_state, show_bullets, select_rows, select_multiple" auto_size_rows="true" fixed_size_rows="false" navigation_container="true">
 				<flags id="default_view" value="sctV" />
 
-				<list id="viws">					
+				<list id="viws">
 					<!--view for scouts-->
 					<record id="sctV">
 						<translation id="text" translation_id="230163" type="use" value="Contract" />
@@ -43,7 +43,7 @@
 							<!-- adaptability -->
 						</record>
 					</record>
-					
+
 					<!--view for analysts-->
 					<record id="anaV">
 						<translation id="text" translation_id="230163" type="use" value="Contract" />
@@ -79,5 +79,5 @@
 		</container>
 
 	</container>
-	
+
 </panel>

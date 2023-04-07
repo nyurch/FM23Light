@@ -13,10 +13,10 @@
 		<layout class="arrange_horizontal_attachment" layout="50,50, -1, 40" offset="0" gap="4" />
 		<container>
 			<widget class="picture" file="icons/48px/bullet" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" red_replacement="primary_button">
-			<layout class="stick_to_sides_attachment" alignment="all" inset="8"/>
+				<layout class="stick_to_sides_attachment" alignment="all" inset="8"/>
 			</widget>
 			<widget class="text" id="numT" size="xlarge" colour="white" font="title" alignment="centre" auto_size="all">
-			<layout class="centre_in_parent_attachment" alignment="all"/>
+				<layout class="centre_in_parent_attachment" alignment="all"/>
 			</widget>
 		</container>
 		<container >
@@ -29,9 +29,9 @@
 			<layout class="stick_to_sides_attachment" apply_to_children="true" alignment="horizontal" inset="4"/>
 
 			<widget class="text" id="titl" font="title" size="large" alignment="left, centre_y" auto_size="vertical" colour="fg"/>
-			<widget class="text" id="desc" size="small" alignment="left, top"  auto_size="vertical"/>
+			<widget class="text" id="desc" size="small" alignment="left, top" auto_size="vertical"/>
 		</container>
-		<widget class="icon_button" show_button_appearance="false"  icon="icons/16px/maximise" icon_alignment="centre_x,centre_y" navigation_focus_target="false"/>
+		<widget class="icon_button" show_button_appearance="false" icon="icons/16px/maximise" icon_alignment="centre_x,centre_y" navigation_focus_target="false"/>
 
 	</container>
 	<container class="data_analyst_visualisation_widget" id="datB" file="" can_pin_visualisation="false" can_display_without_data="true">

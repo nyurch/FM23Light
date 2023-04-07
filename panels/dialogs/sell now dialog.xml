@@ -17,7 +17,7 @@
 	<widget class="text" id="text" auto_size="vertical"/>
 
 	<container>
-		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal"  />
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" />
 
 		<container>
 			<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true"/>

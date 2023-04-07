@@ -23,8 +23,8 @@
 	<string id="reject_button_icon" value="icons/16px/cross"/>
 	<string id="reject_button_single_appearance" value="buttons/subtle/flex/button"/>
 	<string id="reject_button_single_icon" value="icons/16px/cross"/>
-    <string id="contract_decision_date_button_appearance" value="buttons/subtle/flex/button"/>
-    <string id="contract_decision_date_button_icon" value="icons/16px/speech bubble"/>
+	<string id="contract_decision_date_button_appearance" value="buttons/subtle/flex/button"/>
+	<string id="contract_decision_date_button_icon" value="icons/16px/speech bubble"/>
 
 
 	<flags id="multiple_offers_row_colour" value="subtle_box_background"/>
@@ -33,7 +33,7 @@
 	<widget class="person_search_info_panel" id="psip">
 		<string id="remove_if" value="use_simplified_scouting"/>
 	</widget>
-	
+
 	<!--FMT top bar-->
 	<widget class="scouting_top_panel" id="fmtT">
 		<string id="create_if" value="use_simplified_scouting"/>
@@ -91,8 +91,8 @@
 					<!-- embedded filter button -->
 					<container embed_in_frame="true">
 						<attachment_group class="title_embedded_panel_right"/>
-						
-            			<widget class="check_box" id="HdIn" auto_size="all" click_event="HdIn" alignment="left,centre_y" embed_in_frame="true">
+
+						<widget class="check_box" id="HdIn" auto_size="all" click_event="HdIn" alignment="left,centre_y" embed_in_frame="true">
 							<translation id="text" translation_id="441047" type="use" value="Hide Inactive Deals[COMMENT: FR 19770; transfer centre panel; checkbox label for hiding finished transfer offers]"/>
 						</widget>
 
@@ -111,7 +111,7 @@
 
 							<!-- table containing transfer offer details -->
 							<widget class="table" id="trat" layout="16, 55, -14, -12, -13, -9, 135, 30, 32, 32, 32, 35" mode="select_rows, fill_rows, show_bullets, dont_allow_click_unselect_single" select_event="XrwT" auto_size_rows="true" all_content_same_height="false" fixed_size_rows="false" column_spacing="0" row_spacing="2" save_session_state="true" save_default_state="true" navigation_container="true">
-                                <global id="override_select_row_flags" name="ui.is_fmt_controller_skin"/>
+								<global id="override_select_row_flags" name="ui.is_fmt_controller_skin"/>
 								<list id="headings">
 									<record index="0"/>
 									<record index="1"/>
@@ -134,7 +134,7 @@
 									<record index="8"/>
 									<record index="9"/>
 									<record index="10"/>
-                                    <record index="11"/>
+									<record index="11"/>
 								</list>
 
 								<list id="column_table_properties">
@@ -146,7 +146,7 @@
 									<record index="7" alignment="centre" left="3"/>
 									<record index="8" alignment="right, centre_y" sort_disabled="true" left="2"/>
 									<record index="9" alignment="centre" sort_disabled="true" left="2"/>
-                                    <record index="10" alignment="centre" sort_disabled="true" left="2"/>
+									<record index="10" alignment="centre" sort_disabled="true" left="2"/>
 									<record index="11" sort_disabled="true"/>
 								</list>
 							</widget>
@@ -158,7 +158,7 @@
 
 							<!-- table containing transfer offer details -->
 							<widget class="table" id="trit" layout="16, 55, -14, -12, -13, -9, 193, 32, 32, 1, 1, 35" mode="select_rows, select_multiple, fill_rows, show_bullets" auto_size_rows="true" all_content_same_height="false" fixed_size_rows="false" column_spacing="0" row_spacing="2" save_session_state="true" save_default_state="true" navigation_container="true">
-                                <global id="override_select_row_flags" name="ui.is_fmt_controller_skin"/>
+								<global id="override_select_row_flags" name="ui.is_fmt_controller_skin"/>
 								<list id="headings">
 									<record index="0"/>
 									<record index="1"/>
@@ -179,7 +179,7 @@
 									</record>
 									<record index="7"/>
 									<record index="8"/>
-                                    <record index="9"/>
+									<record index="9"/>
 									<record index="10"/>
 									<record index="11"/>
 								</list>
@@ -191,7 +191,7 @@
 									<record index="3" alignment="left, centre_y" right="4"/>
 									<record index="5" sort_ascending="false"/>
 									<record index="7" alignment="centre" sort_disabled="true" left="2"/>
-                                    <record index="8" alignment="centre" sort_disabled="true" left="2"/>
+									<record index="8" alignment="centre" sort_disabled="true" left="2"/>
 									<record index="9" hidden="true"/>
 									<record index="10" hidden="true"/>
 									<record index="11" sort_disabled="true"/>
@@ -205,7 +205,7 @@
 
 							<!-- table containing transfer offer details -->
 							<widget class="table" id="trot" layout="16, 55, -14, -12, -13, -9, 135, 30, 32, 32, 32, 35" mode="select_rows, fill_rows, show_bullets, dont_allow_click_unselect_single" select_event="XrwT" auto_size_rows="true" all_content_same_height="false" fixed_size_rows="false" column_spacing="0" row_spacing="2" save_session_state="true" save_default_state="true" navigation_container="true">
-                                <global id="override_select_row_flags" name="ui.is_fmt_controller_skin"/>
+								<global id="override_select_row_flags" name="ui.is_fmt_controller_skin"/>
 								<list id="headings">
 									<record index="0"/>
 									<record index="1"/>
@@ -228,7 +228,7 @@
 									<record index="8"/>
 									<record index="9"/>
 									<record index="10"/>
-                                    <record index="11"/>
+									<record index="11"/>
 								</list>
 
 								<list id="column_table_properties">
@@ -293,7 +293,7 @@
 					<!-- buttons area -->
 					<container embed_in_frame="true">
 						<attachment_group class="title_embedded_panel_right"/>
-						
+
 						<widget class="subtle_button" id="hdfl" click_event="hdfl" auto_size="all" embed_in_frame="true" save_session_state="true">
 							<translation id="text" translation_id="247168" type="use" value="Hide Filters"/>
 						</widget>
@@ -308,7 +308,7 @@
 					<flags id="auto_size" value="all"/>
 					<boolean id="hidden" value="true"/>
 				</record>
-				
+
 				<widget class="label" id="TWcl">
 					<translation id="text" translation_id="441049" type="use" value="Potential Cost of Wages Offered:[COMMENT: FR 19770; transfer centre panel; label to describe total cost of wages for all incoming transfer offers]"/>
 				</widget>

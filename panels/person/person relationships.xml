@@ -14,16 +14,17 @@
     <!-- We have two tables -->
     <!-- LIked people -->
     <widget class="table" id="favL" mode="fill_rows,stripe_rows" layout="-1" auto_size="vertical" sort_disabled="true">
-	<record id="default_properties" colour="black"/>
+      <record id="default_properties" colour="black"/>
       <list id="headings">
         <record>
-          <translation id="text" translation_id="293060" type="use" value="Favourite People" /><flags id="colour" value="text" />
+          <translation id="text" translation_id="293060" type="use" value="Favourite People" />
+          <flags id="colour" value="text" />
         </record>
       </list>
     </widget>
     <!-- Disliked people -->
     <widget class="table" id="disL" mode="fill_rows,stripe_rows" layout="-1" auto_size="vertical" sort_disabled="true">
-	<record id="default_properties" colour="black"/>
+      <record id="default_properties" colour="black"/>
       <list id="headings">
         <record>
           <translation id="text" translation_id="293061" type="use" value="Disliked People" />

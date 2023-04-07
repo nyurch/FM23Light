@@ -26,15 +26,15 @@
 
 						<!--Name and age-->
 						<container>
-								<attachment_group class="vertical_arrange_autosize" vertical_alignment="top"/>
+							<attachment_group class="vertical_arrange_autosize" vertical_alignment="top"/>
 
-								<!--Name-->
-								<widget class="person_button" id="namv" auto_size="vertical" colour="black" alignment="left,centre_y" style="semi_bold">
-									<record id="object_property" dont_set_hint="true" get_property="Pnms" />
-								</widget>
+							<!--Name-->
+							<widget class="person_button" id="namv" auto_size="vertical" colour="black" alignment="left,centre_y" style="semi_bold">
+								<record id="object_property" dont_set_hint="true" get_property="Pnms" />
+							</widget>
 
-								<!-- Age & job-->
-								<widget class="label" id="agjl" alignment="left,centre_y" auto_size="vertical" />
+							<!-- Age & job-->
+							<widget class="label" id="agjl" alignment="left,centre_y" auto_size="vertical" />
 						</container>
 
 						<widget class="horizontal_divider"/>
@@ -78,7 +78,7 @@
 
 				<!--link to manager history-->
 				<widget class="link_button_title" id="hLnk" font="title" section="Pmhr" size="small" colour="text" red_replacement="text">
-					<layout class="stick_to_sides_attachment" alignment="left"  inset="0"/>
+					<layout class="stick_to_sides_attachment" alignment="left" inset="0"/>
 				</widget>
 
 				<!--Manager current record-->

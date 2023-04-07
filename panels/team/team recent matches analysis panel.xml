@@ -16,7 +16,7 @@
 				<!--item 1-->
 				<container id="cnt1">
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" />
-					<widget class="check_box" id="chk1" auto_size="horizontal" >
+					<widget class="check_box" id="chk1" auto_size="horizontal">
 						<record id="clke">
 							<string id="event_id" value="eUcs" />
 							<integer id="index" value="0" />
@@ -27,7 +27,7 @@
 				<!--item 2-->
 				<container id="cnt2">
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" />
-					<widget class="check_box" id="chk2" auto_size="horizontal" >
+					<widget class="check_box" id="chk2" auto_size="horizontal">
 						<record id="clke">
 							<string id="event_id" value="eUcs" />
 							<integer id="index" value="1" />
@@ -38,7 +38,7 @@
 				<!--item 3-->
 				<container id="cnt3">
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" />
-					<widget class="check_box" id="chk3" auto_size="horizontal" >
+					<widget class="check_box" id="chk3" auto_size="horizontal">
 						<record id="clke">
 							<string id="event_id" value="eUcs" />
 							<integer id="index" value="2" />
@@ -49,7 +49,7 @@
 				<!--item 4-->
 				<container id="cnt4">
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" />
-					<widget class="check_box" id="chk4" auto_size="horizontal" >
+					<widget class="check_box" id="chk4" auto_size="horizontal">
 						<record id="clke">
 							<string id="event_id" value="eUcs" />
 							<integer id="index" value="3" />
@@ -60,7 +60,7 @@
 				<!--item 5-->
 				<container id="cnt5">
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" />
-					<widget class="check_box" id="chk5" auto_size="horizontal" >
+					<widget class="check_box" id="chk5" auto_size="horizontal">
 						<record id="clke">
 							<string id="event_id" value="eUcs" />
 							<integer id="index" value="4" />
@@ -72,7 +72,7 @@
 			<widget class="horizontal_divider" height="4" />
 		</container>
 	</container>
-	
+
 	<!--pitch container-->
 	<container>
 		<attachment_group class="horizontal_arrange" horizontal_layout="-3,-4,-3" horizontal_gap="6"/>
@@ -83,7 +83,7 @@
 				<container class="vertical_arrange_container" id="posC" auto_size="vertical" vertical_gap="4" gap="8" />
 			</container>
 		</container>
-		<container class="inner_subtle_box" entity_layout_id="at24" id="at24" >
+		<container class="inner_subtle_box" entity_layout_id="at24" id="at24">
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 			<container class="chalkboard_pitch" entity_layout_id="at23" id="CSit" wants_mouse_events="true">
 				<string id="select_event" value="slic" />

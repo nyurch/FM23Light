@@ -159,7 +159,7 @@
 				<container class="vertical_arrange_container" auto_size="vertical">
 
 					<record id="default_properties" alignment="left,centre_y" />
-					
+
 					<widget class="person_button" id="plnm" auto_size="all" style="bold" size="large" colour="black"/>
 					<widget class="nation_button" id="ntfl" auto_size="all"/>
 					<widget class="dob_label" id="agtx" display_format="2" auto_size="horizontal" height="16" colour="faded text"/>
@@ -176,21 +176,7 @@
 				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true"/>
 
 				<!-- Pitch -->
-				<widget class="pitch_with_player_positions" id="ppip"
-						pitch_allow_player_selection="false"
-						pitch_alignment="centre_x,top"
-						pitch_draw_goals="false"
-						pitch_draw_markings="false"
-						show_position_strength="false"
-						pitch_show_names="false"
-						pitch_show_names_as_hint="true"
-						pitch_draw_grass="false"
-						pitch_line_colour="disabled"
-						pitch_touchline_width_percentage="1"
-						pitch_perspective="0"
-						pitch_override_icon_size="2"
-						line_width="1.4"
-						pitch_vertical_padding="10">
+				<widget class="pitch_with_player_positions" id="ppip" pitch_allow_player_selection="false" pitch_alignment="centre_x,top" pitch_draw_goals="false" pitch_draw_markings="false" show_position_strength="false" pitch_show_names="false" pitch_show_names_as_hint="true" pitch_draw_grass="false" pitch_line_colour="disabled" pitch_touchline_width_percentage="1" pitch_perspective="0" pitch_override_icon_size="2" line_width="1.4" pitch_vertical_padding="10">
 
 					<!-- Set the icon to use for people on the pitch. The icon will first look for a size that matches the pitch's size, for instance 'pitch/icons/kit/tiny/kit' or 'pitch/icons/kit/medium/kit'.
           If an icon for the size category is not found it will try the base path: pitch/icons/kit/kit. This means that if you want to use an icon on a pitch that will only ever be one size you 
@@ -295,7 +281,7 @@
 					<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true"/>
 
 					<!-- Pros icons -->
-					<container class="inner_subtle_box_no_margin" >
+					<container class="inner_subtle_box_no_margin">
 						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="1"/>
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 
@@ -321,7 +307,7 @@
 					</container>
 
 					<!-- Cons icons -->
-					<container class="inner_subtle_box_no_margin" >
+					<container class="inner_subtle_box_no_margin">
 						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="1"/>
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
 

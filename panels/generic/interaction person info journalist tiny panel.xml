@@ -7,7 +7,7 @@
     <!-- portrait -->
     <container width="30" height="30">
         <attachment_group class="horizontal_arrange" vertical_inset="0" vertical_offset="0" horizontal_inset="0" horizontal_offset="0"/>
-        
+
         <widget class="object_portrait_picture" width="30" height="30" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre">
             <record id="object_property">
                 <integer id="get_property" value="Pers"/>
@@ -16,7 +16,7 @@
             </record>
             <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
         </widget>
-        
+
         <widget class="picture" file="icons/custom/quick chat/quick_chat_speaking_mask_square_small" scale_picture="true" keep_aspect_ratio="true" width="30" height="30" image_alignment="centre" red_replacement="red">
             <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
         </widget>

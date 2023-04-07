@@ -14,5 +14,5 @@
 	<colour id="colour" red="55" green="55" blue="55"/>
 
 	<colour id="red_replacement" name="status_warning"/>
-	
+
 </properties>

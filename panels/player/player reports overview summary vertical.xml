@@ -7,7 +7,7 @@
 		<record get_property="recommendation_widget_mode" set_property="recommendation_mode" target="sriW" />
 		<record get_property="showing_in_list" set_property="showing_in_list" target="sriW" />
 	</list>
-	<container class="main_subtle_box">		
+	<container class="main_subtle_box">
 		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="10" />
 
 		<container id="stBX" class="main_contrast_box_no_margin">
@@ -44,7 +44,7 @@
 				<widget class="label" font="title" alignment="left,centre_y" auto_size="vertical">
 					<translation id="text" translation_id="539029" type="use" value="Key Information[COMMENT: AREA: Scouting; SUB-AREA: Scouting card/report header; FR-BN: 36081; NOTES: title for area showing scout's opinion on player ability]" />
 				</widget>
-				
+
 				<container>
 
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="6" />
@@ -56,15 +56,15 @@
 
 					<container>
 						<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="80, -1" />
-						
+
 						<!--CA-->
 						<widget class="scout_stars_label" id="cast" height="18" alignment="left, centre_y" mode="1">
 							<record id="object_property" get_property="Pcab" />
 						</widget>
-						
+
 						<!--CA label-->
 						<widget class="text" id="caTX" auto_size="vertical" alignment="left" colour="faded text" />
-						
+
 					</container>
 
 				</container>
@@ -76,15 +76,15 @@
 					<widget class="text" auto_size="vertical" spec="text" font="label" colour="text" alignment="left,centre_y">
 						<translation id="text" translation_id="251894" type="use" value="Potential Ability[COMMENT: scout report panel box heading]" />
 					</widget>
-					
+
 					<container>
 						<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="80, -1" />
-						
+
 						<!--PA-->
 						<widget class="scout_stars_label" id="past" height="18" alignment="left" mode="2">
 							<record id="object_property" get_property="Ppab" />
 						</widget>
-						
+
 						<!--PA label-->
 						<widget class="text" id="paTX" auto_size="vertical" alignment="left" colour="faded text" />
 					</container>
@@ -95,14 +95,14 @@
 
 			<container>
 				<attachment_group class="vertical_arrange" vertical_layout="-5, 30" vertical_gap="6" />
-				
+
 				<container>
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="12" />
 
 					<widget class="label" font="title" alignment="left,centre_y" auto_size="vertical">
 						<translation id="text" translation_id="539030" type="use" value="Other Information[COMMENT: AREA: Scouting; SUB-AREA: Scouting card/report header; FR-BN: 36081; NOTES: title for area showing player transfer info]" />
 					</widget>
-								 
+
 					<container>
 						<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="3" />
 
@@ -122,7 +122,7 @@
 
 						<container>
 							<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" />
-							
+
 							<widget class="text" id="ewaw" style="semi_bold" auto_size="vertical" multiline="false" />
 							<widget class="text" id="wagw" auto_size="vertical" colour="faded text" />
 						</container>
@@ -150,7 +150,7 @@
 					</container>
 
 				</container>
-			
+
 				<container>
 					<attachment_group class="horizontal_arrange" horizontal_alignment="right" vertical_alignment="bottom" horizontal_offset="0" horizontal_gap="0"/>
 

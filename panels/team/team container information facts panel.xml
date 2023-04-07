@@ -13,7 +13,7 @@
 
 
 		<!-- the contents of the following container should change depending on the option selected in the embedded popup button -->
-		<widget class="table" id="sftb" name="General Info"  navigation_container="true" default_focus="true">
+		<widget class="table" id="sftb" name="General Info" navigation_container="true" default_focus="true">
 			<flags id="layout" value="-4, -6, -6" />
 			<record id="object_property">
 				<integer id="set_property" value="objt" />

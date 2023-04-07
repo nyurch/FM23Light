@@ -15,7 +15,8 @@
 
 			<record id="widget_edit_info">
 				<symbol id="class" value="max_edit_box" />
-				<string id="colour" value="alt text" />	<!-- added to recolour for IGE -->
+				<string id="colour" value="alt text" />
+				<!-- added to recolour for IGE -->
 				<record id="edit_event" event_id="CDBd" event_flags="2" />
 				<integer id="min_value" value="1" />
 				<integer id="max_value" value="100" />
@@ -41,7 +42,8 @@
 
 			<record id="widget_edit_info">
 				<symbol id="class" value="edit_person_button" />
-				<string id="colour" value="alt text" />	<!-- added to recolour for IGE -->
+				<string id="colour" value="alt text" />
+				<!-- added to recolour for IGE -->
 				<list id="attachments">
 					<record class="pick_database_record_attachment">
 						<record id="properties">
@@ -97,7 +99,8 @@
 
 			<record id="widget_edit_info">
 				<symbol id="class" value="edit_nation_button" />
-				<string id="colour" value="alt text" />	<!-- added to recolour for IGE -->
+				<string id="colour" value="alt text" />
+				<!-- added to recolour for IGE -->
 				<list id="attachments">
 					<record class="pick_database_record_attachment">
 						<record id="properties">
@@ -218,16 +221,16 @@
 					<record id="2">
 						<translation id="text" translation_id="312898" type="use" value="3 Years Before 21[COMMENT: editor; player home grown type]" />
 					</record>
-          <record id="3">
-            <translation id="text" translation_id="469746" type="use" value="3 Years Between 0 and 23[COMMENT: editor; player home grown type]" />
-          </record>
-          <record id="4">
-            <translation id="text" translation_id="457696" type="use" value="3 Years Before 17[COMMENT: editor; player home grown type]" />
-          </record>
-          <record id="5">
-            <translation id="text" translation_id="457694" type="use" value="3 Years Between 15 and 21 Ignoring Loans[COMMENT: editor; player home grown type]" />
-          </record>
-        </list>
+					<record id="3">
+						<translation id="text" translation_id="469746" type="use" value="3 Years Between 0 and 23[COMMENT: editor; player home grown type]" />
+					</record>
+					<record id="4">
+						<translation id="text" translation_id="457696" type="use" value="3 Years Before 17[COMMENT: editor; player home grown type]" />
+					</record>
+					<record id="5">
+						<translation id="text" translation_id="457694" type="use" value="3 Years Between 15 and 21 Ignoring Loans[COMMENT: editor; player home grown type]" />
+					</record>
+				</list>
 			</record>
 
 			<record id="column_heading">
@@ -294,7 +297,7 @@
 			<integer id="id" value="caps" />
 			<integer id="width" value="50" />
 			<translation id="name" translation_id="227819" type="use" value="Caps" />
-			
+
 			<record id="widget_info">
 				<symbol id="class" value="number_label" />
 				<flags id="alignment" value="left,centre_y" />

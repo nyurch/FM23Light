@@ -1,7 +1,7 @@
 <!-- image properties -->
 <properties>
-	
+
 	<colour id="red_replacement" name="orange"/>
 	<colour id="blue_replacement" name="white"/>
-	
+
 </properties>

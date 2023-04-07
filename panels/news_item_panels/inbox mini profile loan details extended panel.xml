@@ -40,7 +40,7 @@
 
 		<container>
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="0" vertical_alignment="top" vertical_inset="0" />
-			
+
 			<container class="vertical_label_value_pair" label_widget="Plwp" value_widget="wage">
 
 				<widget class="text" id="Plwp" alignment="left">
@@ -48,7 +48,7 @@
 				</widget>
 				<widget class="text" id="wage" alignment="left" />
 			</container>
-			
+
 			<container class="vertical_label_value_pair" label_widget="uwgL" value_widget="uwgs">
 				<global id="hidden" name="is_fmt" />
 
@@ -70,7 +70,7 @@
 				<widget class="text" auto_size="vertical" alignment="left" font="label">
 					<translation id="text" translation_id="380141" type="use" value="Bonuses and Clauses[COMMENT: title for help bubble; describing bonuses and clauses in a contract]" />
 				</widget>
-				
+
 				<widget class="table" layout="-3, -1, -2" id="adft" sort_disabled="true" mode="fill_rows, stripe_rows, printable" auto_size="vertical" auto_size_rows="true" fixed_size_rows="false" row_spacing="4">
 					<record id="default_properties" alignment="left,centre_y" auto_size="vertical" multiline="true" auto_size_minimum_height="22" />
 

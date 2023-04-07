@@ -372,7 +372,7 @@
             </container>
 
             <!-- right hand side column of players - substitutes -->
-			<!-- this side needs to be wider than the left to account for the width of the scrolling_box -->
+            <!-- this side needs to be wider than the left to account for the width of the scrolling_box -->
             <container class="scrolling_box">
                 <attachment class="test_screen_size_attachment" skip_if_false="true">
                     <list id="properties">
@@ -434,10 +434,10 @@
 
         <container>
             <attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="left" vertical_alignment="vertical" horizontal_gap="6"/>
-            
+
             <!-- back to 1st half/full time review -->
             <widget class="icon_button" id="HaRv" auto_size="all" click_event="HaRv" appearance="buttons/subtle/normal/button" icon="icons/26px/back" hidden="true"/>
-                
+
             <!-- tactics link -->
             <widget class="icon_button" id="TcLk" auto_size="all" click_event="ShTD" appearance="buttons/subtle/normal/button" icon="icons/16px/tactics" secondary_icon_enabled="true" secondary_icon="icons/16px/maximise">
                 <translation id="text" translation_id="230056" type="use" value="Tactics"/>

@@ -10,8 +10,8 @@
 				<translation id="text" translation_id="376427" type="use" value="Bonus[COMMENT: competition bonus panel; column header]" />
 			</record>
 			<record alignment="left,centre_y">
-        <translation id="text" translation_id="466472" type="use" value="For Player[COMMENT: FR24405 - competition bonus panel; column header, if a transfer clause or bonus has been paid, this competition screen lists them, and this is the column for the affected player]" />
-      </record>
+				<translation id="text" translation_id="466472" type="use" value="For Player[COMMENT: FR24405 - competition bonus panel; column header, if a transfer clause or bonus has been paid, this competition screen lists them, and this is the column for the affected player]" />
+			</record>
 			<record alignment="left,centre_y">
 				<translation id="text" translation_id="242854" type="use" value="From" />
 			</record>

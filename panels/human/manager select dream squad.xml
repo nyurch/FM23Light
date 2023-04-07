@@ -43,7 +43,7 @@
 				<layout class="arrange_vertical_attachment" layout="-1,-1" gap="5" offset="0" />
 				<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="5" />
 
-				<container id="BDSc" class="inner_subtle_box_no_margin" appearance="boxes/custom/darken/rounded/no margin/paper"  >
+				<container id="BDSc" class="inner_subtle_box_no_margin" appearance="boxes/custom/darken/rounded/no margin/paper">
 					<layout class="arrange_vertical_attachment" layout="-5,-4" gap="0" offset="4" />
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="5" />
 					<widget class="cash_cell" format="[%cash#1-short-roundtiny]" font="value" colour="text" alignment="centre_x,bottom" id="csTt" />
@@ -52,7 +52,7 @@
 					</widget>
 				</container>
 
-				<container id="SSSc" class="inner_subtle_box_no_margin" appearance="boxes/custom/darken/rounded/no margin/paper"  >
+				<container id="SSSc" class="inner_subtle_box_no_margin" appearance="boxes/custom/darken/rounded/no margin/paper">
 					<layout class="arrange_vertical_attachment" layout="-5,-4" gap="0" offset="4" />
 					<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="5" />
 					<widget class="label" id="sqCH" font="value" colour="text" alignment="centre_x,bottom" />

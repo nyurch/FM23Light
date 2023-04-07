@@ -59,7 +59,7 @@
 						<string id="red_replacement" value="green a700" />
 
 					</container>
-					<container class="client_object_property_panel" entity_layout_id="at99" id="tsFM" appearance="boxes/custom/darken/rounded/no margin/paper" height="45"  name="new team signed from widget 2">
+					<container class="client_object_property_panel" entity_layout_id="at99" id="tsFM" appearance="boxes/custom/darken/rounded/no margin/paper" height="45" name="new team signed from widget 2">
 						<string id="property" value="ptoT" />
 						<string id="red_replacement" value="red 500" />
 
@@ -111,7 +111,7 @@
 				<widget class="horizontal_divider" entity_layout_id="at0&lt;" id="at0&lt;" height="5">
 					<global id="hidden" name="ui.is_fmt_controller_skin"/>
 				</widget>
-				<container id="at0=" entity_layout_id="at0=" >
+				<container id="at0=" entity_layout_id="at0=">
 					<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" />
 					<widget class="label" id="at0&gt;" entity_layout_id="at0&gt;" auto_size="vertical" alignment="centre">
 						<translation id="text" translation_id="423750" type="use" value="Board Transfer Reactions[COMMENT - team screen section containing board opinions on club transfer activity]" />

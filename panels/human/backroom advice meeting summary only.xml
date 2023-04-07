@@ -39,11 +39,11 @@
 							</widget>
 
 							<container class="scrolling_box" height="100">
-							<widget class="simple_data_list" id="apex" gap="8" auto_size="vertical" set_property="prop">
-								<record id="widget_properties" class="icon_button" icon_spacing="10" size="large" icon_colour="text" colour="text" auto_size="vertical" multiline="true" icon="icons/26px/inbox" appearance=""/>
-							</widget>
+								<widget class="simple_data_list" id="apex" gap="8" auto_size="vertical" set_property="prop">
+									<record id="widget_properties" class="icon_button" icon_spacing="10" size="large" icon_colour="text" colour="text" auto_size="vertical" multiline="true" icon="icons/26px/inbox" appearance=""/>
+								</widget>
 
-						</container>
+							</container>
 						</container>
 						<container class="inner_subtle_box">
 							<string id="colour" value="text" />

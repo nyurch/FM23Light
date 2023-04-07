@@ -1,6 +1,6 @@
 ﻿<panel height="630">
-	
-<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
 	<container id="PreM">
 		<attachment_group class="horizontal_arrange" horizontal_layout="220,-1" horizontal_gap="8"/>
 

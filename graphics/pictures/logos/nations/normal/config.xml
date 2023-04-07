@@ -6,11 +6,11 @@
 		 place in the graphics folder and still have the game pick up the graphics
 		 files from the correct places
 	-->
-	
+
 	<list id="maps">
-	
+
 		<record from="gib" to="graphics/pictures/team/214394/logo"/>
 		<record from="ned" to="graphics/pictures/team/784/logo"/>
-				
+
 	</list>
 </record>

@@ -395,15 +395,15 @@
 					<layout class="stick_to_object_attachment" id="align_left" get_side="left" set_side="left" target="main" />
 					<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" target="main" />
 				</container>
-			
 
-			<container class="club_overview_details_panel" entity_layout_id="at22" id="cluI0" file="club/club overview details panel affiliate">
-				<string id="navigation_container" value="true" />
-				<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
-				<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
-				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" move_side="true" target="main" />
-			</container>
-			
+
+				<container class="club_overview_details_panel" entity_layout_id="at22" id="cluI0" file="club/club overview details panel affiliate">
+					<string id="navigation_container" value="true" />
+					<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="main" />
+					<layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="main" />
+					<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" move_side="true" target="main" />
+				</container>
+
 
 			</container>
 		</container>

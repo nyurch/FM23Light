@@ -26,9 +26,9 @@
 
 	<!-- title properties -->
 	<record id="font_spec">
-		<flags id="font" value="title"/> 
-		<colour id="colr" name="title"/> 
-		<flags id="size" value="normal"/> 
+		<flags id="font" value="title"/>
+		<colour id="colr" name="title"/>
+		<flags id="size" value="normal"/>
 	</record>
-	
+
 </properties>

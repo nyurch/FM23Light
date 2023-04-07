@@ -5,7 +5,7 @@
 	<container>
 		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-		<widget class="text" id="prcn" alignment="left,centre_y" colour="white" >
+		<widget class="text" id="prcn" alignment="left,centre_y" colour="white">
 			<record id="object_property" get_property="comp" set_property="text"/>
 		</widget>
 	</container>

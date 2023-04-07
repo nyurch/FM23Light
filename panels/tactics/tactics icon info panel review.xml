@@ -1,4 +1,4 @@
-﻿<panel  use_hit_mask="true">
+﻿<panel use_hit_mask="true">
 	<flags id="selected_appearance" value=""/>
 
 	<attachment_group class="vertical_arrange_autosize" vertical_gap="0" vertical_inset="0"/>
@@ -17,7 +17,7 @@
 		<widget class="body_language_widget" id="Pmtc" label_disabled="true" width="16" icon_alignment="centre" appearance="" navigation_focus_target="false">
 
 		</widget>
-		
+
 	</container>
 
 	<container height="1"/>

@@ -29,7 +29,7 @@
 			<boolean id="should_force_refresh" value="true" />
 
 			<list id="column_table_properties">
-				<record id="TApp" width="80" >
+				<record id="TApp" width="80">
 					<translation id="name" translation_id="227884" type="use" value="Position" />
 					<record id="widget_info">
 						<symbol id="class" value="position_label" />

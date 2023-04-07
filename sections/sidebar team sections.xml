@@ -70,8 +70,8 @@ this file contains a list of all of the sections in the game
 				<record id="TtSh" />
 				<!--Units-->
 				<record id="TeUn" />
-        <!--Mentoring-->
-        <record id="TeMn" />
+				<!--Mentoring-->
+				<record id="TeMn" />
 				<!--individual-->
 				<record id="TeTi" />
 				<!--rest-->
@@ -102,8 +102,8 @@ this file contains a list of all of the sections in the game
 			<list id="items">
 				<!--team meeting-->
 				<record id="TeMt" />
-                <!-- team meeting summary -->
-                <record id="TeMS"/>
+				<!-- team meeting summary -->
+				<record id="TeMS"/>
 				<record id="----" />
 				<!--actions-->
 				<!--talk to squad-->
@@ -121,7 +121,7 @@ this file contains a list of all of the sections in the game
 				<!--analyst report-->
 				<record id="TrAr" />
 				<!--assistant manager report-->
-				<record id="TrAM"  />
+				<record id="TrAM" />
 				<!--squad depth-->
 				<record id="sddh" />
 				<!--tactics-->

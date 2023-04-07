@@ -104,7 +104,7 @@
 			<container id="fopc" width="120" height="200" hidden="true">
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 
-				<widget class="pitch_with_tactics" id="ofpi" vertical="true" pitch_draw_grass="true" pitch_line_colour="white" player_icon_file="tactics/tactics info panel team report icon only" icon_flags="dont_colour_names,dont_fade_icons" >
+				<widget class="pitch_with_tactics" id="ofpi" vertical="true" pitch_draw_grass="true" pitch_line_colour="white" player_icon_file="tactics/tactics info panel team report icon only" icon_flags="dont_colour_names,dont_fade_icons">
 
 				</widget>
 			</container>
@@ -117,12 +117,12 @@
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 					<widget class="preselected_match_chalkboard_panel" id="pitc" height="140" />
-					<widget class="data_analyst_visualisation_widget" id="visW"  height="200" file="widgets/data analyst visualisation mini" show_mini_visualisation_text="false"/>
+					<widget class="data_analyst_visualisation_widget" id="visW" height="200" file="widgets/data analyst visualisation mini" show_mini_visualisation_text="false"/>
 
 				</container>
 
 				<!--subs-->
-				<widget class="simple_data_list" set_property="objt" id="subC" auto_size="vertical" >
+				<widget class="simple_data_list" set_property="objt" id="subC" auto_size="vertical">
 					<record id="widget_properties" class="property_list_viewer_xml_panel" file="match/match feed item panel subs widget"/>
 				</widget>
 
@@ -172,7 +172,7 @@
 			</container>
 
 		</container>
-		
+
 		<!--advice-->
 		<widget class="text" id="avtx" size="normal" auto_size="vertical" alignment="centre" colour="fg alert"/>
 
@@ -218,7 +218,7 @@
 		<widget class="text" id="Pers" font="title" size="small" auto_size="all" colour="text"/>
 
 		<widget class="text" id="time" alignment="right" size="small" colour="faded text" auto_size="vertical" />
-	
+
 	</container>
 
 </panel>

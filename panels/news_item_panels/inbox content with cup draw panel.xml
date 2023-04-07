@@ -1,5 +1,5 @@
 <panel navigation_container="true">
-	
+
 	<container class="scrolling_box">
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
 		<container>
@@ -42,9 +42,9 @@
 								<integer id="get_property" value="crps"/>
 							</record>
 						</widget>
-						
+
 					</container>
-					
+
 
 					<!-- comp dates -->
 					<container class="inner_subtle_box" height="60">

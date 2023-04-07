@@ -78,9 +78,9 @@
 			</widget>
 
 			<container class="spacer">
-            </container>
+			</container>
 
-            <widget class="horizontal_divider"/>
+			<widget class="horizontal_divider"/>
 		</container>
 	</container>
 

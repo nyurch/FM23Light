@@ -1,5 +1,5 @@
 <panel save_session_state="true">
-<string id="skin_style" value="person_button" />
+  <string id="skin_style" value="person_button" />
   <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
   <container class="main_box" id="Titl">
@@ -54,7 +54,7 @@
 
         <widget class="client_object_list_table" id="all ">
           <flags id="mode" value="select_rows, stripe_rows, show_bullets, select_multiple" />
-		  <boolean id="navigation_container" value="true" />
+          <boolean id="navigation_container" value="true" />
           <record id="default_properties">
             <integer id="default_sort_column" value="dref" />
           </record>
@@ -78,7 +78,7 @@
 
         <widget class="client_object_list_table" id="pers" database_table_type="1">
           <flags id="mode" value="select_rows, stripe_rows, show_bullets, select_multiple" />
-		  <boolean id="navigation_container" value="true" />
+          <boolean id="navigation_container" value="true" />
           <integer id="contextual_handler_column_id" value="Pnms" />
           <record id="viewed_property_ids">
             <record id="Pnms" />
@@ -104,8 +104,8 @@
 
         <widget class="client_object_list_table" id="club" database_table_type="3">
           <flags id="mode" value="select_rows, stripe_rows, show_bullets, select_multiple" />
-   		  <boolean id="navigation_container" value="true" />
-       	  <integer id="contextual_handler_column_id" value="Cnam" />
+          <boolean id="navigation_container" value="true" />
+          <integer id="contextual_handler_column_id" value="Cnam" />
           <record id="viewed_property_ids">
             <record id="Cref" />
             <record id="Cnam" />
@@ -148,7 +148,7 @@
 
         <widget class="client_object_list_table" id="comp" database_table_type="25">
           <flags id="mode" value="select_rows, stripe_rows, show_bullets, select_multiple" />
-   		  <boolean id="navigation_container" value="true" />
+          <boolean id="navigation_container" value="true" />
           <integer id="contextual_handler_column_id" value="comp" />
           <record id="viewed_property_ids">
             <record id="comp">
@@ -158,7 +158,7 @@
             <record id="cnat" />
             <record id="nsss" />
           </record>
-          
+
           <widget class="label" id="nrtl" hidden="true" alignment="left,top">
             <translation id="text" translation_id="316649" type="use" value="No results found[COMMENT: search panel; no matches were found for the search conducted]" />
           </widget>
@@ -172,7 +172,7 @@
 
         <widget class="client_object_list_table" id="awar" database_table_type="0">
           <flags id="mode" value="select_rows, stripe_rows, show_bullets, select_multiple" />
-		  <boolean id="navigation_container" value="true" />
+          <boolean id="navigation_container" value="true" />
           <record id="viewed_property_ids">
             <record id="awrd" />
             <record id="nsss" />
@@ -180,7 +180,7 @@
 
           <widget class="label" id="nrtl" hidden="true" alignment="left,top">
             <translation id="text" translation_id="316649" type="use" value="No results found[COMMENT: search panel; no matches were found for the search conducted]" />
-          </widget>          
+          </widget>
         </widget>
       </container>
 
@@ -210,7 +210,7 @@
 
         <widget class="client_object_list_table" id="stad" database_table_type="21">
           <flags id="mode" value="select_rows, stripe_rows, show_bullets, select_multiple" />
-		  <boolean id="navigation_container" value="true" />
+          <boolean id="navigation_container" value="true" />
           <record id="viewed_property_ids">
             <record id="stad" />
             <record id="Snat" />

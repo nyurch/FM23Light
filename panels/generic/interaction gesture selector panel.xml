@@ -10,10 +10,10 @@
         <layout class="arrange_horizontal_attachment" alignment="middle" offset="0" gap="4" wrap="true"/>
 
         <record id="default_properties" auto_size="horizontal" height="35" green_replacement="bg tertiary">
-		
-		</record>
-		
-		
+
+        </record>
+
+
         <!-- gesture widgets added here -->
     </container>
 </panel>

@@ -8,7 +8,7 @@
 
 	<container class="inner_box_no_margin" force_title_borders="true" id="root">
 
-		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0"  />
+		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 		<!-- Top section displaying personal details side-by side -->
@@ -38,7 +38,7 @@
 						<!-- Person 1 details -->
 						<widget class="label" id="nam1" alignment="left" auto_size="vertical" font="title" colour="black" size="11" />
 
-						<widget class="table" id="dts1"  layout="-1" auto_size="vertical" row_height="22" row_spacing="0">
+						<widget class="table" id="dts1" layout="-1" auto_size="vertical" row_height="22" row_spacing="0">
 							<list id="column_table_properties">
 								<record indx="0" colour="fg" sort_disabled="true" alignment="left,centre_y" />
 							</list>
@@ -79,7 +79,7 @@
 							<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
 
 							<container height="100">
-								<layout class="arrange_vertical_attachment" alignment="middle"  />
+								<layout class="arrange_vertical_attachment" alignment="middle" />
 								<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" />
 
 								<!--Job-->
@@ -145,7 +145,7 @@
 
 
 					<container>
-						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0"  />
+						<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" />
 						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 
 						<widget class="horizontal_divider" />
@@ -199,7 +199,7 @@
 									<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
 									<widget class="label" id="cBTC" colour="comp person bar 1" alignment="right, centre_y"/>
-									<widget class="label" alignment="centre" >
+									<widget class="label" alignment="centre">
 										<translation id="text" translation_id="233089" type="use" value="-" />
 									</widget>
 									<widget class="label" id="cTC2" colour="comp person bar 2" alignment="left, centre_y"/>

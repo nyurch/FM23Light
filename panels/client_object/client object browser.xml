@@ -22,7 +22,7 @@
     </widget>
 
     <!-- background support overlay needed as the sidebar is now transparent, to adjust strength alter transparency 0.0 is transparent, 1 is solid, 0.5 is 50% etc... -->
-        <widget class="picture" file="boxes/bordered/solid/paper" red_replacement="bg"  transparency="0.0">
+    <widget class="picture" file="boxes/bordered/solid/paper" red_replacement="bg" transparency="0.0">
         <layout class="stick_to_sides_attachment" alignment="all" inset="0" />
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
@@ -47,7 +47,7 @@
         </attachment>
     </widget>
 
-<!-- For Background support adjust transparency value. 0.0 is transparent, 1 is solid, 0.5 is 50% etc... This covers the main content area but not sidebar -->
+    <!-- For Background support adjust transparency value. 0.0 is transparent, 1 is solid, 0.5 is 50% etc... This covers the main content area but not sidebar -->
     <widget class="inner_contrast_box" appearance="boxes/custom/interface/content/paper" transparency="0.95">
         <layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" target="mai1"/>
         <layout class="stick_to_object_attachment" id="align_bottom" get_side="bottom" set_side="bottom" target="mai1"/>
@@ -116,7 +116,7 @@
                 <record get_property="sect" test_mode="0" value="mpPh" skip_if_null="false"/>
                 <record get_property="sect" test_mode="0" comparison_mode="1" value="mpPa" skip_if_null="true" />
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
@@ -126,7 +126,7 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="mpst" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
@@ -136,7 +136,7 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="PprC" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
@@ -146,7 +146,7 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="mptn" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
@@ -156,7 +156,7 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="TeMt" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
     <widget class="picture" file="backgrounds/preseason" scale_picture="true" keep_aspect_ratio="false">
@@ -164,7 +164,7 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="TeMS" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
@@ -174,36 +174,36 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="lvCD" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
     <!-- Boardroom scenes -->
-	<!-- Welcome to team scenes -->
+    <!-- Welcome to team scenes -->
     <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="Twtc" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
-	<!-- Club vision meeting scenes -->
+    <!-- Club vision meeting scenes -->
     <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="Cvim" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
-	<!-- Board meeting scenes -->
+    <!-- Board meeting scenes -->
     <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="breq" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
     <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
@@ -211,29 +211,29 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="brqS" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
-	<!-- Staff meeting scenes -->
+    <!-- Staff meeting scenes -->
     <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="PBAm" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
-	<!-- Recruitment meeting scenes -->
+    <!-- Recruitment meeting scenes -->
     <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="PrMD" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
- <!--   <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
+    <!--   <widget class="picture" file="backgrounds/boardroom" scale_picture="true" keep_aspect_ratio="false">
         <attachment class="test_multiple_globals_attachment" default_value="false">
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="vPRO" skip_if_null="false"/>
@@ -248,7 +248,7 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="ConV" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
     <widget class="picture" file="backgrounds/office" scale_picture="true" keep_aspect_ratio="false">
@@ -256,7 +256,7 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="ConS" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
@@ -266,7 +266,7 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="PctO" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
@@ -276,7 +276,7 @@
             <list id="get_properties">
                 <record get_property="sect" test_mode="0" value="PrMD" skip_if_null="false"/>
             </list>
-           <integer id="set_property" value="Shwn"/>
+            <integer id="set_property" value="Shwn"/>
         </attachment>
     </widget>
 
@@ -287,7 +287,7 @@
         <!--widgets added in code here-->
     </container>
 
-  <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+    <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
     <!-- Match background picture -->
     <widget class="picture" id="Mbkg" scale_picture="true" keep_aspect_ratio="false">
@@ -349,7 +349,7 @@
                     <!-- header area at top of screen - with title, menus, etc -->
                     <container id="head" class="header_panel">
                         <attachment class="get_global_attachment" get_property="hide_header" set_property="hidn" />
-                        <record id="object_property" get_property="objt"  set_property="objt"/>
+                        <record id="object_property" get_property="objt" set_property="objt"/>
                     </container>
                     <container id="main">
                         <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
@@ -392,7 +392,7 @@
                                     <layout class="stick_to_sides_attachment" alignment="vertical" inset="1" apply_to_children="true" />
                                     <!-- actions and sections bar -->
                                     <!-- please dont change the ID of this bar, if you really need to please notify Isaac as it will effect gamepad stuff :) -->
-                                    <container navigation_container="true" id="tBAR" >
+                                    <container navigation_container="true" id="tBAR">
                                         <layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
                                         <container class="sections_menu_strip" id="acse" />
                                     </container>

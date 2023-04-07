@@ -47,7 +47,7 @@
 				</record>
 			</widget>
 			<widget class="picture" height="30" scale_picture="false" image_alignment="centre" file="icons/custom/facilities/stadium" red_replacement="yellow 900" />
-			<widget class="yes_no_label" id="ScoV" >
+			<widget class="yes_no_label" id="ScoV">
 				<record id="object_property">
 					<integer id="get_property" value="Scov"/>
 				</record>
@@ -59,7 +59,7 @@
 				<translation id="text" translation_id="284339" type="use" value="Surface[COMMENT: heading; team_information_panel; pitch surface type]"/>
 			</widget>
 			<widget class="picture" height="30" scale_picture="false" image_alignment="centre" file="icons/custom/facilities/pitch" red_replacement="green 900" />
-			<widget class="pitch_surface_type_label" id="SsfL" >
+			<widget class="pitch_surface_type_label" id="SsfL">
 				<record id="object_property">
 					<integer id="get_property" value="SsfT"/>
 				</record>
@@ -74,7 +74,7 @@
 				</record>
 			</widget>
 			<widget class="picture" height="30" scale_picture="false" image_alignment="centre" file="icons/custom/facilities/undersoil" red_replacement="orange 900" />
-			<widget class="yes_no_label" id="SusV" >
+			<widget class="yes_no_label" id="SusV">
 				<record id="object_property">
 					<integer id="get_property" value="Sush"/>
 				</record>
@@ -141,30 +141,31 @@
 		<container class="main_subtle_box">
 			<layout class="arrange_vertical_attachment" alignment="middle,extend" offset="0" gap="4"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
-				<container>
-					<layout class="arrange_horizontal_attachment" offset="0" gap="4"/>
-					<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
-						<widget class="stadium_picture" id="STAp" image_alignment="top" priority="1" >
-							<layout class="stick_to_sides_attachment" alignment="all" inset="-58"/>
-								<record id="object_property">
-									<integer id="get_property" value="objt"/>
-									<integer id="set_property" value="objt"/>
-								</record>
-						</widget>
-					</container>
+			<container>
+				<layout class="arrange_horizontal_attachment" offset="0" gap="4"/>
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0"/>
+				<widget class="stadium_picture" id="STAp" image_alignment="top" priority="1">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="-58"/>
+					<record id="object_property">
+						<integer id="get_property" value="objt"/>
+						<integer id="set_property" value="objt"/>
+					</record>
+				</widget>
+			</container>
 		</container>
 		<!-- STADIUM PITCH -->
 		<container class="main_subtle_box">
 			<layout class="arrange_vertical_attachment" alignment="middle,extend" offset="0" gap="4"/>
 			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0"/>
 			<!--pitch-->
-				<widget class="pitch_with_dimensions" id="Pitc">
-					<flags id="colour" value="white" /> <!-- add colour -->
-					<record id="object_property">
-						<integer id="get_property" value="objt"/>
-						<integer id="set_property" value="objt"/>
-					</record>
-				</widget>
+			<widget class="pitch_with_dimensions" id="Pitc">
+				<flags id="colour" value="white" />
+				<!-- add colour -->
+				<record id="object_property">
+					<integer id="get_property" value="objt"/>
+					<integer id="set_property" value="objt"/>
+				</record>
+			</widget>
 		</container>
 	</container>
 	<!-- FOOTER CONTAINER -->
@@ -174,49 +175,49 @@
 		<container class="main_subtle_box">
 			<translation id="title" translation_id="229362" type="use" value="Teams"/>
 			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="0"/>
-				<container class="simple_data_list" id="tems" set_property="objt">
-					<record id="object_property">
-						<integer id="get_property" value="Susr"/>
-					</record>
-					<record id="widget_properties" class="client_object_viewer_xml_panel" file="team/team item panel" height="70"/>
-				</container>
+			<container class="simple_data_list" id="tems" set_property="objt">
+				<record id="object_property">
+					<integer id="get_property" value="Susr"/>
+				</record>
+				<record id="widget_properties" class="client_object_viewer_xml_panel" file="team/team item panel" height="70"/>
+			</container>
 		</container>
 		<!-- COMPETITIONS -->
 		<container class="main_subtle_box">
 			<translation id="title" translation_id="227741" type="use" value="Competitions"/>
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
-				<widget class="client_object_list_table" id="CmPs" database_table_type="57" fixed_size_rows="false" auto_size_rows="true" mode="fill_rows, stripe_rows, printable, store_sort_state">
-					<record id="object_property">
-						<integer id="get_property" value="Scom"/>
-						<integer id="set_property" value="objt"/>
-					</record>
-					<record id="viewed_property_ids">
-						<record id="dref"/>
-					</record>
-				</widget>
-		</container>  
+			<widget class="client_object_list_table" id="CmPs" database_table_type="57" fixed_size_rows="false" auto_size_rows="true" mode="fill_rows, stripe_rows, printable, store_sort_state">
+				<record id="object_property">
+					<integer id="get_property" value="Scom"/>
+					<integer id="set_property" value="objt"/>
+				</record>
+				<record id="viewed_property_ids">
+					<record id="dref"/>
+				</record>
+			</widget>
+		</container>
 		<!-- MATCHES -->
 		<container class="main_subtle_box">
 			<translation id="title" translation_id="257238" type="use" value="Matches"/>
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
-				<widget class="client_object_list_table" id="FixL" database_table_type="53" fixed_size_rows="false" auto_size_rows="true" mode="fill_rows, stripe_rows, printable, store_sort_state">
-					<record id="object_property">
-						<integer id="get_property" value="Slym"/>
-						<integer id="set_property" value="objt"/>
-					</record>
-					<!-- default sort -->
-					<list id="default_sort_column">
-						<integer value="fxdt"/>
-					</list>
-					<!--default view from the view list-->
-					<flags id="default_view" value="gene"/>
-					<!--list of all available views-->
-					<record id="viewed_property_ids">
-						<flags id="home"/>
-						<flags id="FxRs"/>
-						<flags id="away"/>
-					</record>
-				</widget>
-		</container> 
+			<widget class="client_object_list_table" id="FixL" database_table_type="53" fixed_size_rows="false" auto_size_rows="true" mode="fill_rows, stripe_rows, printable, store_sort_state">
+				<record id="object_property">
+					<integer id="get_property" value="Slym"/>
+					<integer id="set_property" value="objt"/>
+				</record>
+				<!-- default sort -->
+				<list id="default_sort_column">
+					<integer value="fxdt"/>
+				</list>
+				<!--default view from the view list-->
+				<flags id="default_view" value="gene"/>
+				<!--list of all available views-->
+				<record id="viewed_property_ids">
+					<flags id="home"/>
+					<flags id="FxRs"/>
+					<flags id="away"/>
+				</record>
+			</widget>
+		</container>
 	</container>
 </panel>

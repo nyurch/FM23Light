@@ -1,5 +1,6 @@
 ﻿<panel save_session_state="true">
-<flags id="disabled_bg_colour" value="grey 600"/>	<!-- see if works to alter the non-talking staff member box colour -->
+	<flags id="disabled_bg_colour" value="grey 600"/>
+	<!-- see if works to alter the non-talking staff member box colour -->
 	<animation class="fade_animation" start_value="0" end_value="1" duration="0.3" end_mode="hold_end" trigger_id="hidden" trigger_start="false" trigger_end="true"/>
 
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
@@ -110,7 +111,7 @@
 								<translation id="text" translation_id="534799" type="use" value="Ask Another Staff Member[COMMENT: AREA: backroom advice; SUB-AREA: staff advice; NOTE: change the staff member giving the advice]" />
 								<string id="popup_alignment" value="left, bottom" />
 								<string id="widget_type" value="client_object_viewer_xml_panel" />
-								<record id="mopp" file="modal popup panel auto sized" />								
+								<record id="mopp" file="modal popup panel auto sized" />
 							</widget>
 						</container>
 
@@ -120,7 +121,7 @@
 
 							<container class="scrolling_box">
 
-								<!--<container  id="sudC" draw_horizontal_dividers="true">
+								<!--<container id="sudC" draw_horizontal_dividers="true">
 								<attachment_group class="vertical_arrange_autosize" vertical_gap="30"/>
 								-->
 								<!--widgets created in code go here-->

@@ -1,7 +1,7 @@
 ﻿<panel>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
-	<container class="main_box" >
+	<container class="main_box">
 		<attachment_group class="vertical_arrange" vertical_gap="10" vertical_alignment="top,extend"/>
 
 		<container height="30">
@@ -17,9 +17,9 @@
 				<string id="colour" value="text"/>
 			</widget>
 		</container>
-		
+
 		<container height="3">
-			<layout class="stick_to_sides_attachment" alignment="vertical, left"  inset="0" apply_to_children="true" />
+			<layout class="stick_to_sides_attachment" alignment="vertical, left" inset="0" apply_to_children="true" />
 			<widget class="horizontal_solid_intro_divider" colour="fg" id="ttlD" width="50"/>
 		</container>
 
@@ -30,7 +30,7 @@
 		</widget>
 
 
-		<container class="main_subtle_box" id="con1" >
+		<container class="main_subtle_box" id="con1">
 			<layout class="arrange_horizontal_attachment" layout="-4,-6,-2"/>
 			<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" />
 
@@ -149,7 +149,7 @@
 						<widget class="text" alignment="centre_y,left" height="20" name="title" font="title" colour="text">
 							<translation id="text" translation_id="466531" type="use" value="Tactical Style[COMMENT: FR 23334; tactics panel; title for a button to allow the user to choose a tactical style]" />
 						</widget>
-						<widget class="tactics_tactical_style_popup_button" disabled="true" disabled_colour="fg purple" id="stT2"  appearance="" font="title" size="medium" alignment="centre_y,left" height="16" name="title" colour="fg purple" secondary_icon="" />
+						<widget class="tactics_tactical_style_popup_button" disabled="true" disabled_colour="fg purple" id="stT2" appearance="" font="title" size="medium" alignment="centre_y,left" height="16" name="title" colour="fg purple" secondary_icon="" />
 
 					</container>
 

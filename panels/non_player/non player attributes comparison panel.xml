@@ -5,7 +5,7 @@
 	<!-- Coaching Table -->
 	<widget class="table" id="npct" mode="fill_rows, stripe_rows, printable" layout="-1, 30, -1, 30" row_height="24" row_spacing="0">
 		<list id="headings">
-			<record alignment="left,centre_y" column_span="4" hide_sorting="true" disabled="true" >
+			<record alignment="left,centre_y" column_span="4" hide_sorting="true" disabled="true">
 				<translation id="text" translation_id="230043" type="use" value="Coaching" />
 			</record>
 		</list>
@@ -17,7 +17,7 @@
 			<!-- Attribute value -->
 			<record index="1" id="val " sort_disabled="true" column_alignment="centre" right="8">
 				<record id="widget_info" class="attribute_label" alignment="right,centre_y" style="semi_bold" multiline="false"/>
-                <record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
 			</record>
 			<!-- Attribute comparison as a bar -->
 			<record index="2" id="cbar" sort_disabled="true" left="2" right="2" top="2" bottom="2">
@@ -27,7 +27,7 @@
 			<!-- Attribute value -->
 			<record index="3" id="val2" sort_disabled="true" column_alignment="centre" right="8">
 				<record id="widget_info" class="attribute_label" alignment="right,centre_y" style="semi_bold" multiline="false"/>
-                <record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
 			</record>
 		</list>
 		<!-- columns should be left and right aligned respectively -->
@@ -40,9 +40,9 @@
 	</widget>
 
 	<!-- Mental Table -->
-	<widget class="table" id="npmt" mode="fill_rows, stripe_rows, printable" layout="-1, 30, -1, 30" row_height="24" row_spacing="0"  default_sort_column="name">
+	<widget class="table" id="npmt" mode="fill_rows, stripe_rows, printable" layout="-1, 30, -1, 30" row_height="24" row_spacing="0" default_sort_column="name">
 		<list id="headings">
-			<record alignment="left,centre_y" column_span="4" auto_size="" hide_sorting="true" disabled="true" >
+			<record alignment="left,centre_y" column_span="4" auto_size="" hide_sorting="true" disabled="true">
 				<translation id="text" translation_id="230106" type="use" value="Mental" />
 			</record>
 		</list>
@@ -54,7 +54,7 @@
 			<!-- Attribute value -->
 			<record index="1" id="val " sort_disabled="true" column_alignment="centre" right="8">
 				<record id="widget_info" class="attribute_label" alignment="right,centre_y" style="semi_bold" multiline="false"/>
-                <record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
 			</record>
 			<!-- Attribute comparison as a bar -->
 			<record index="2" id="cbar" sort_disabled="true" left="2" right="2" top="2" bottom="2">
@@ -64,7 +64,7 @@
 			<!-- Attribute value -->
 			<record index="3" id="val2" sort_disabled="true" column_alignment="centre" right="8">
 				<record id="widget_info" class="attribute_label" alignment="right,centre_y" style="semi_bold" multiline="false"/>
-                <record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
+				<record id="widget_info" class="attribute_label" alignment="centre,can_scale" colour="white" font="label" size="12" use_attribute_colour_as_bg="true" appearance="boxes/custom/attributes/paper"/>
 			</record>
 		</list>
 		<!-- columns should be left and right aligned respectively -->

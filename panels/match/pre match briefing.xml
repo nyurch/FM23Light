@@ -64,7 +64,7 @@
 
 			<widget class="text" id="cbtx" colour="faded black" auto_size="all">
 			</widget>
-			
+
 		</container>
 
 		<container>
@@ -74,7 +74,7 @@
 
 			<container class="inner_subtle_box" appearance="boxes/custom/speech bubble/left/paper" red_replacement="bg accent">
 				<attachment_group class="vertical_arrange_autosize" />
-				
+
 				<widget class="text" colour="white" id="btxt" auto_size="vertical">
 					<translation id="text" translation_id="509182" type="use" value="The chosen matchday squad has been informed of the team and tactical plan for the upcoming match[COMMENT: AREA: Pre-match briefing; SUB-AREA: description for the panel; FR-BN: 30879; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: ]" />
 				</widget>
@@ -82,17 +82,17 @@
 
 
 		</container>
-		
-		
+
+
 
 
 		<widget class="horizontal_divider" height="1" />
 
-		
+
 		<widget class="text" colour="black" font="title" auto_size="all">
 			<translation id="text" translation_id="509183" type="use" value="Notable Reactions[COMMENT: AREA: Pre-match briefing; SUB-AREA: title for a section; FR-BN: 30879; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: The section is showing noteable reactions to the confirmed tactics for the match]" />
 		</widget>
-		
+
 		<widget class="simple_data_list" id="reac" wrap="true" alignment="left" set_property="objt" gap="10">
 			<record id="widget_properties" class="property_list_viewer_xml_panel" file="widgets/pre match topic reaction widget" width="300" height="170" />
 		</widget>
