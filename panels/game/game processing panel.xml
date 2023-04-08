@@ -147,7 +147,6 @@
 			<!-- prozone -->
 			<container>
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-				<!-- TODO:: Matt W 26/09/2019 - Bug 13328 removed prozone branding, revisit when known what replacement is-->
 				<widget class="picture" width="90" image_alignment="centre" file="icons/custom/prozone/logo" scale_picture="false"/>
 			</container>
 

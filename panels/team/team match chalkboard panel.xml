@@ -429,8 +429,7 @@
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 			<layout class="stick_to_sides_attachment" alignment="top" inset="0" />
 			<layout class="stick_to_sides_attachment" alignment="right" inset="0" />
-			<!-- TODO:: Matt W 26/09/2019 - Bug 13328 removed prozone branding, revisit when known what replacement is-->
-			<widget class="picture" image_alignment="right,centre_y" file="" scale_picture="true" keep_aspect_ratio="true" />
+			<widget class="picture" image_alignment="right,centre_y" file="icons/custom/prozone/logo" scale_picture="true" keep_aspect_ratio="true" />
 		</container>
 	</container>
 </panel>

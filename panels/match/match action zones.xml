@@ -45,8 +45,7 @@
 			<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true" embed_in_frame="true" />
 			<layout class="stick_to_sides_attachment" alignment="right,top" embed_in_frame="true" inset="4" />
 			<layout class="fit_children_attachment" alignment="horizontal,fill" embed_in_frame="true" offset="0" />
-			<!-- TODO:: Matt W 26/09/2019 - Bug 13328 removed prozone branding, revisit when known what replacement is-->
-			<widget class="picture" width="90" height="30" image_alignment="right,top" file="" scale_picture="true" keep_aspect_ratio="true" embed_in_frame="true" />
+			<widget class="picture" width="90" height="30" image_alignment="right,top" file="icons/custom/prozone/logo" scale_picture="true" keep_aspect_ratio="true" embed_in_frame="true" />
 		</container>
 
 		<widget class="pitch_action_zones" id="azpt" vertical="false" fixed="true" auto_tick_exclusive="true" font_colour="black" pitch_line_colour="faded white" alignment="centre" pitch_draw_grass="true" hide_team_names="true" />

@@ -89,8 +89,7 @@
 		<!-- Prozone-->
 		<container class="inner_subtle_box" id="proC" height="50">
 			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left,extend" horizontal_offset="0" horizontal_gap="12" vertical_offset="0" />
-			<!-- TODO:: Matt W 26/09/2019 - Bug 13328 removed prozone branding, revisit when known what replacement is-->
-			<widget class="picture" file="" image_alignment="centre" scale_picture="false" height="30" width="90" />
+			<widget class="picture" file="icons/custom/prozone/logo" image_alignment="centre" scale_picture="false" height="30" width="90" />
 			<widget class="text" id="pros" colour="faded text" multiline="true" auto_size="vertical" alignment="left,centre_y">
 				<record id="auto_size_restrictions">
 					<string id="type" value="property"/>
