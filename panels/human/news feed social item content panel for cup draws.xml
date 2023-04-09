@@ -13,7 +13,7 @@
 
 	</container>
 
-	<container id="main" background_colour="bg darker">
+	<container id="main" background_colour="card bg lighter">
 		<attachment_group class="vertical_arrange_autosize" vertical_offset="4" horizontal_alignment="horizontal" horizontal_inset="8" vertical_gap="6"/>
 
 		<container>

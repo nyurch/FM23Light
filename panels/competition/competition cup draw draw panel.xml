@@ -69,15 +69,13 @@
 					</record>
 				</widget>
 
-				<container class="main_subtle_box">
+				<container class="main_contrast_box" red_replacement="card bg darker">
 					<animation class="translate_animation" start_value="0,50" end_value="0,0" coord_mode="absolute_to_target" duration=".7" tween="ease_out" />
 					<animation class="fade_animation" start_value="0" end_value="1" duration=".6" tween="linear" />
 					<string id="remove_if" value="ui.is_fmt_controller_skin, is_fmt" />
 					<attachment_group class="vertical_arrange_autosize" />
-					<attachment class="get_global_attachment" get_property="cdlr" set_property="appearance" />
 
-					<widget class="text" auto_size="all" size="large" colour="black">
-						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
+					<widget class="text" auto_size="all" size="large" style="bold" font="title" colour="fg magenta">
 						<translation id="text" translation_id="557721" type="use" value="Live Reaction[COMMENT: AREA: Cup Draw; SUB-AREA: Splash screen; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the commentary section of the live cup draw]" />
 					</widget>
 

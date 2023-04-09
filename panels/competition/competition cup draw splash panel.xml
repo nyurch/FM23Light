@@ -38,16 +38,12 @@
 					<record id="object_property" get_property="objt" set_property="var1" />
 				</widget>
 				<widget class="spacer" height="12" />
-				<widget class="text" id="gsLB" auto_size="all" font="title">
-					<attachment class="get_global_attachment" get_property="CDtc" set_property="colour" />
-					<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
+				<widget class="text" id="gsLB" auto_size="all" colour="white" font="title">
 				</widget>
 				<widget class="spacer" height="8" />
 				<container navigation_container="true" width="230" height="68">
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="10"/>
-					<widget class="icon_button" appearance="chrome/buttons/continue/button" alignment="centre" secondary_icon_enabled="true" secondary_icon="icons/16px/continue" secondary_icon_alignment="centre_right, centre_y" colour="white" width="210" height="48" multiline="true">
-						<attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
-						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
+					<widget class="icon_button" appearance="chrome/buttons/continue/button" red_replacement="fg magenta" alignment="centre" secondary_icon_enabled="true" secondary_icon="icons/16px/continue" secondary_icon_alignment="centre_right, centre_y" font="title" style="bold" colour="white" width="210" height="48" multiline="true">
 						<record id="secondary_icon_properties" red_replacement="white" />
 						<record id="click_event" event_id="nxCK" />
 						<translation id="text" translation_id="555203" type="use" value="Start Draw[COMMENT: AREA: Live Cup Draw; SUB-AREA: Live Cup Draw Splash Screen FR-BN:; NOTE: Panel title for Cup Draws]" />
@@ -57,13 +53,12 @@
 
 		</container>
 
-		<container class="main_subtle_box" height="230">
+		<container class="main_contrast_box" height="230" red_replacement="card bg darker">
 			<animation class="translate_animation" start_value="0,50" end_value="0,0" coord_mode="absolute_to_target" duration=".7" tween="ease_out" />
 			<animation class="fade_animation" start_value="0" end_value="1" duration=".6" tween="linear" />
 			<attachment_group class="vertical_arrange" vertical_alignment="top, extend" horizontal_alignment="horizontal"/>
-			<attachment class="get_global_attachment" get_property="cdlr" set_property="appearance" />
 
-			<widget class="text" auto_size="all" size="large" colour="black">
+			<widget class="text" auto_size="all" size="large" style="bold" font="title" colour="fg magenta">
 				<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
 				<translation id="text" translation_id="557721" type="use" value="Live Reaction[COMMENT: AREA: Cup Draw; SUB-AREA: Splash screen; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Title string for the commentary section of the live cup draw]" />
 			</widget>

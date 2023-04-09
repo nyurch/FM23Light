@@ -71,22 +71,19 @@
 					<widget class="spacer" width="5" />
 
 					<!-- continue button -->
-					<widget class="icon_button" id="nxbt" appearance="chrome/buttons/continue/button" controller_button="right_trigger" alignment="centre" secondary_icon_enabled="true" secondary_icon="icons/16px/reduce" secondary_icon_alignment="centre_right, centre_y" font="title" colour="white" width="210" height="48" default_focus="true" multiline="true">
-						<attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
+					<widget class="icon_button" id="nxbt" appearance="chrome/buttons/continue/button" red_replacement="fg magenta" controller_button="right_trigger" alignment="centre" secondary_icon_enabled="true" secondary_icon="icons/16px/reduce" secondary_icon_alignment="centre_right, centre_y" font="title" colour="white" width="210" height="48" default_focus="true" multiline="true">
 						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
 						<record id="secondary_icon_properties" red_replacement="white" />
 						<record id="click_event" event_id="nxCK" event_target="lvCD" />
 						<translation id="text" translation_id="555203" type="use" value="Start Draw[COMMENT: AREA: Live Cup Draw; SUB-AREA: Live Cup Draw Splash Screen FR-BN:; NOTE: Panel title for Cup Draws]" />
 					</widget>
 
-					<widget class="icon_button" id="nxPB" width="170" height="48" controller_button="right_trigger" hidden="true" alignment="centre" appearance="buttons/custom/cup draws/advance/left/button" colour="white">
-						<attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
+					<widget class="icon_button" id="nxPB" width="170" height="48" controller_button="right_trigger" hidden="true" alignment="centre" appearance="buttons/custom/cup draws/advance/left/button" red_replacement="fg magenta" colour="white">
 						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
 						<translation id="text" translation_id="561144" type="use" value="Advance[COMMENT: AREA: Cup Draw; SUB-AREA: header panel; FR-BN: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Popup button options]" />
 						<record id="click_event" event_id="nxCK" event_target="lvCD" />
 					</widget>
-					<widget class="popup_button" id="Adbt" appearance="buttons/custom/cup draws/advance/right/button" selection="0" controller_button="x_button" width="40" height="48" default_focus="true" hidden="true" fixed="true" fixed_icon="true" colour="white">
-						<attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
+					<widget class="popup_button" id="Adbt" appearance="buttons/custom/cup draws/advance/right/button" red_replacement="fg magenta" selection="0" controller_button="x_button" width="40" height="48" default_focus="true" hidden="true" fixed="true" fixed_icon="true" colour="white">
 						<attachment class="get_global_attachment" get_property="CDfn" set_property="font" />
 						<record id="icon_properties" red_replacement="white" />
 						<record id="secondary_icon_properties" red_replacement="white" />

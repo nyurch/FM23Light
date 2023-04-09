@@ -5,9 +5,8 @@
 	<boolean id="show_label_instead_of_portrait" value="true"/>
 
 	<!-- background -->
-	<widget class="picture" id="obbk" file="boxes/custom/feed/profiles/default/paper" scale_picture="true" keep_aspect_ratio="true">
+	<widget class="picture" id="obbk" file="boxes/custom/feed/profiles/default/paper" red_replacement="fg magenta" scale_picture="true" keep_aspect_ratio="true">
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
-		<attachment class="get_global_attachment" get_property="CDbc" set_property="red_replacement" />
 	</widget>
 
 	<container>
