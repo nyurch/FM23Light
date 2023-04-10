@@ -1,0 +1,115 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_gap="0" vertical_offset="0" />
+
+	<container id="step" background_colour="tutorial bg" >
+
+		<animation class="slide_in_top_animation" duration="0.6" tween="ease_out" />
+
+		<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" vertical_gap="0" vertical_offset="0" />
+		<container navigation_container="true">
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,200" horizontal_offset="0" vertical_inset="0" horizontal_gap="0" />
+			<container>
+				<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left, extend" horizontal_offset="2" vertical_inset="0" />
+				<widget class="object_portrait_picture" id="TGpr" width="62" height="68" no_object_picture="pictures/players/normal/default/male/staff" image_alignment="centre_x, bottom" scale_picture="true" keep_aspect_ratio="true" clickable="false"/>
+				<container class="inner_subtle_box" appearance="boxes/custom/speech bubble/induction/paper" red_replacement="tutorial header">
+					<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="right,extend"/>
+					<widget class="scrolling_box" alignment="left,centre_y" id="txtS" hidden="true">
+						<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" />
+						<widget class="text" id="sttx" alignment="left, centre_y" colour="white" font="title" style="bold" auto_size="vertical"/>
+					</widget>
+					<!-- Tell Me More Button -->
+					<widget class="icon_button" id="ddbu" icon="icons/16px/info" icon_enabled="true" click_event="ddtu" appearance="buttons/subtle/normal/button" icon_colour="white" colour="white" auto_size="all"/>
+
+				</container>
+			</container>
+
+
+			<container height="68">
+
+				<attachment_group class="horizontal_arrange" horizontal_layout="-1,-2" horizontal_offset="4" vertical_inset="0" horizontal_gap="8" />
+
+				<!-- Back Button -->
+				<widget class="icon_button" id="back" appearance="chrome/buttons/items/button" icon="icons/26px/back" width="50" icon_alignment="centre_left" red_replacement="tutorial header"  click_event="rewi" alignment="centre" controller_button="b_button" gamepad_icon_alignment="centre_right">
+				</widget>
+
+				<!-- Next Button -->
+				<widget class="icon_button" controller_button="right_trigger" hidden="true" id="nexI" appearance="chrome/buttons/continue/button" icon="icons/26px/forward" icon_alignment="centre_right, centre_y" click_event="adtu" alignment="centre" font="title" icon_colour="white" colour="white">
+					<translation id="text" translation_id="255268" type="use" value="Next[COMMENT: wizard dialog: default next button text]" />
+				</widget>
+
+				<!-- Finish Button -->
+				<widget class="icon_button" hidden="true" id="finI" appearance="chrome/buttons/continue/button" icon="icons/16px/tick" icon_alignment="centre_left, centre_y" click_event="fitu" alignment="centre" font="title" icon_colour="white" colour="white" controller_button="right_trigger" >
+					<translation id="text" translation_id="297549" type="use" value="Finish[COMMENT: tactic creator wizard: confirmation button text]" />
+				</widget>
+
+				<!-- Controller Hint -->
+				<widget class="icon_button" auto_size="all" hidden="true" id="CntI" show_button_appearance="false" alignment="centre" gamepad_icon_alignment="centre_left" font="text"/>
+
+			</container>
+
+		</container>
+		<container id="actC" hidden="true" navigation_container="true">
+			<layout class="fit_children_attachment" alignment="vertical" gap="0" offset="4" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal, top" apply_to_children="true" inset="4" />
+
+			<container class="main_box" id="opts" >
+				<layout class="fit_children_attachment" alignment="vertical,extend" offset="6" gap="20"/>
+				<layout class="arrange_items_attachment" alignment="left" gap="20" offset="6" />
+				<!-- We will programatically add decisions here e.g scouting control: head coach or manager-->
+			</container>
+		</container>
+	</container>
+	<container height="35">
+		<attachment_group class="horizontal_arrange" horizontal_layout="-1,350,50" />
+
+		<container>
+			<attachment_group class="horizontal_arrange" horizontal_layout="35,-1,35" />
+			<!-- Debug Button -->
+			<widget class="icon_button" id="DbBu" click_event="ToDe" hidden="true" icon="icons/16px/show left bar" appearance="buttons/custom/tutorial/induction skip/button" red_replacement="background" icon_alignment="centre" icon_enabled="true" />
+
+			<!-- Debug Container -->
+			<container class="contrast_box" id="DbCo" hidden="true" red_replacement="bg darker">
+				<attachment_group class="horizontal_arrange" horizontal_layout="-1"/>
+				<container id="dbit">
+					<attachment_group class="horizontal_arrange" horizontal_gap="5" horizontal_layout="250,250,125,100,200,-1,125" />
+					<container class="inner_box">
+						<attachment_group class="horizontal_arrange" horizontal_layout="50,-1" />
+						<widget class="text" text="Step" />
+						<container>
+							<attachment_group class="horizontal_arrange" horizontal_layout="25,25,50,25,25" horizontal_gap="0" />
+							<widget class="icon_button" icon="icons/16px/expand" id="SFrs" appearance="" icon_alignment="centre"  disabled="true" />
+							<widget class="icon_button" icon="icons/16px/minus" id="StpB" appearance="" icon_alignment="centre" click_event="previous_step" />
+							<widget class="text" id="SteN" alignment="centre" />
+							<widget class="icon_button" icon="icons/16px/plus" id="StpF" appearance="" icon_alignment="centre"  click_event="next_step"/>
+							<widget class="icon_button" icon="icons/16px/reduce" id="SLst" appearance="" icon_alignment="centre"  disabled="true"  />
+						</container>
+					</container>
+					<container>
+						<attachment_group class="horizontal_arrange" horizontal_layout="50,-1" />
+						<widget class="text" text="Stage" />
+						<container>
+							<attachment_group class="horizontal_arrange" horizontal_layout="25,25,50,25,25" horizontal_gap="0"/>
+							<widget class="icon_button" id="StFr" icon="icons/16px/expand" appearance="" icon_alignment="centre"  disabled="true" />
+							<widget class="icon_button" id="StgB" icon="icons/16px/minus" appearance="" icon_alignment="centre" click_event="previous_stage" />
+							<widget class="text" id="StaN"  alignment="centre" />
+							<widget class="icon_button" id="StgF" icon="icons/16px/plus" appearance="" icon_alignment="centre" click_event="next_stage"/>
+							<widget class="icon_button" id="StLs" icon="icons/16px/reduce" appearance="" icon_alignment="centre" disabled="true" />
+						</container>
+					</container>
+					<widget class="text" value="Current Step Type:" />
+					<widget class="text" font="title" id="StTy" alignment="centre_y,left" />
+					<widget class="text" value="Current Highlighted Widgets:" />
+					<widget class="text" font="title" id="Wids" alignment="centre_y,left" />
+					<widget class="icon_button" id="Auti" click_event="Auti" icon="icons/16px/settings" red_replacement="background" icon_alignment="centre_y,right" icon_enabled="true" icon_colour="white" text="Auto Test" />
+				</container>
+			</container>
+		</container>
+
+		<container/>
+
+		<!-- Skip Button -->
+		<widget class="icon_button" id="skip" icon="icons/16px/exit_meeting" appearance="buttons/custom/tutorial/induction skip/button" red_replacement="tutorial bg" icon_alignment="centre_left" icon_enabled="true" width="50" click_event="sktu" icon_colour="white" controller_button="x_button">
+			<layout class="stick_to_sides_attachment" alignment="right" inset="0" />
+		</widget>
+	</container>
+</panel>
