@@ -51,7 +51,7 @@
 			</container>
 
 			<!-- Match Timeline -->
-			<container id="mtSL">
+			<container class="main_contrast_box" id="mtSL">
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 				<!-- debug container with old time slider panel created in code-->
 			</container>
