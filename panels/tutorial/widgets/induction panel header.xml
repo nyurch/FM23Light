@@ -5,7 +5,7 @@
 
 		<attachment_group class="horizontal_arrange" horizontal_layout="49,-1" horizontal_offset="10" vertical_inset="6" horizontal_gap="12"/>
 		<widget class="picture" id="inic" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre"/>
-		<widget class="text" id="inte" alignment="left, centre_y" colour="white"/>
+		<widget class="text" id="inte" alignment="left, centre_y" font="title" style="bold" colour="white"/>
 
 	</container>
 
