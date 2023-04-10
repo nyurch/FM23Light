@@ -15,7 +15,7 @@
 		</attachment_group>
 
 		<!-- Skip Button -->
-		<widget class="icon_button" id="skip" auto_size="horizontal" height="30" controller_button="x_button" font="title" colour="white" click_event="SkTo" alignment="centre">
+		<widget class="primary_icon_button" id="skip" auto_size="horizontal" height="30" controller_button="x_button" font="title" colour="white" click_event="SkTo" alignment="centre">
 			<translation id="text" translation_id="332276" type="use" value="Skip[COMMENT: match_time_slider; instruction to skip the replay]" />
 		</widget>
 		<!-- Start Button Button -->
