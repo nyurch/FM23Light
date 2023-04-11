@@ -1,0 +1,74 @@
+﻿<panel>
+
+	<string id="skin_style" value="subtle box"/>
+
+	<layout class="fit_children_attachment" alignment="vertical"/>
+	<layout class="stick_to_sides_attachment" alignment="horizontal,top" apply_to_children="true" />
+
+	<container class="inner_subtle_box" id="titl">
+		<attachment_group class="vertical_arrange_autosize" horizontal_inset="7" vertical_offset="7"/>
+
+		<!--dynamic image here please-->
+		<container id="ICdi" height="160">
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+		</container>
+
+		<widget class="spacer" height="7"/>
+
+		<!-- person name -->
+		<widget class="person_button" id="pnam" auto_size="vertical" spec="text" style="bold" alignment="centre" size="11" info_popup_alignment="centre_left" />
+
+		<!-- person description -->
+		<widget class="text" id="ppos" auto_size="vertical" colour="faded text" alignment="centre" size="10" multiline="true" />
+
+
+		<container class="inner_box_no_margin" draw_vertical_dividers="true" height="20">
+			<attachment_group class="horizontal_arrange" horizontal_alignment="middle" horizontal_gap="20"/>
+
+			<!--nationality-->
+			<widget class="nation_button" auto_size="horizontal" display_format="3" colour="faded text" icon_alignment="left" >
+				<record id="object_property" get_property="Pnat"/>
+			</widget>
+
+			<!--club-->
+			<widget class="team_button" auto_size="horizontal" mode="1" display_format="1" format="[%team#1-six_letter]" colour="faded text" icon_alignment="left">
+				<record id="object_property" get_property="Pcte"/>
+			</widget>
+		</container>
+
+		<widget class="spacer" height="10"/>
+		<widget class="horizontal_divider" />
+		<widget class="spacer" height="6"/>
+
+		<container class="client_object_viewer_xml_panel" height="50">
+			<record id="object_property" get_property="Pagn" set_property="objt" />
+			<attachment_group class="horizontal_arrange" horizontal_alignment="middle" horizontal_gap="8"/>
+
+			<widget class="picture" width="47" scale_picture="true" keep_aspect_ratio="true" image_alignment="top,centre_x">
+				<record id="object_property" get_property="prpc" set_property="valu" />
+			</widget>
+
+			<container class="inner_box_no_margin">
+				<attachment_group class="vertical_arrange_horizontal_autosize" vertical_gap="0" vertical_alignment="fill"/>
+
+				<widget class="person_button" auto_size="horizontal" size="11" >
+					<record id="object_property" get_property="objt" set_property="valu" />
+				</widget>
+
+			<widget class="icon_button" id="scop" auto_size="horizontal" size="11" show_button_appearance="false" alignment="right,centre_y" icon_alignment="left" icon="icons/16px/recommended nation" colour="text" navigation_focus_target="false"/>
+
+			</container>
+		</container>
+
+		<widget class="spacer" height="4"/>
+
+		<widget class="agent_attributes_panel" file="">
+			<record id="object_property" get_property="Pagn" set_property="objt" />
+			<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" horizontal_inset="10" />
+
+			<widget class="text" id="char" auto_size="vertical" enable_text_links="false" colour="faded black" alignment="centre" />
+
+		</widget>
+	</container>
+
+</panel>
