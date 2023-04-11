@@ -29,7 +29,7 @@
 		<container id="vsbx">
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-			<widget class="comp_button" id="CmpB" icon_enabled="false" size="8" font="title" colour="grey 400" alignment="centre_x,centre_y" auto_size="vertical" multiline="true"/>
+			<widget class="comp_button" id="CmpB" icon_enabled="false" size="8" font="title" colour="black" alignment="centre_x,centre_y" auto_size="vertical" multiline="true"/>
 
 			<container>
 				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1, 20, -1" horizontal_offset="0" vertical_offset="0" />
@@ -135,8 +135,8 @@
 			<translation id="text" translation_id="466486" type="use" value="Likely Talking Points[COMMENT: FR 22941; press conference invite news; title for box containing number of journalists expected to attend]" />
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
-			<widget class="table" id="Tapt" layout="20,-1" mode="fill_rows" row_spacing="2" auto_size_rows="true" fixed_size_rows="false" height="140">
-			</widget>
+			<widget class="table" id="Tapt" layout="20,-1" mode="fill_rows" row_spacing="2" auto_size_rows="true" fixed_size_rows="false" height="140"/>
+
 		</container>
 	</container>
 
