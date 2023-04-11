@@ -1,0 +1,14 @@
+<properties>
+<!-- enforce white text color -->
+<!--
+<list id="skin_style">
+
+		<record>
+		<string id="class_name" value="label" />
+		<colour id="colour" name="white" />
+		<boolean id="enforce_style" value="true" />
+    </record>
+
+</list>
+-->
+</properties>
