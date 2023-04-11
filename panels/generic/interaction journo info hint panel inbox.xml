@@ -1,0 +1,47 @@
+﻿<panel width="300">
+	<attachment_group class="vertical_arrange_autosize" vertical_alignment="top, extend"/>
+
+	<container class="main_contrast_box" red_replacement="card bg lighter">
+		<attachment_group class="vertical_arrange_autosize" vertical_alignment="top, extend"/>
+
+		<widget class="interaction_person_info_panel" id="SJrn" is_in_inbox="true" interaction_person_type="journo" width="175" hide_info_hint="true">
+			<record id="object_property" get_property="objt" set_property="objt" />
+		</widget>
+
+		<widget class="horizontal_divider"/>
+
+		<container>
+			<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="left" horizontal_gap="7"/>
+
+			<widget class="text" size="8" colour="faded text" font="capitals_bold" alignment="left, centre" height="20" auto_size="horizontal">
+				<translation id="text" translation_id="306507" type="use" value="Scope"/>
+			</widget>
+			<widget class="journalist_scope_label_with_icon" alignment="centre" size="9" height="20" width="180">
+				<record id="object_property" get_property="objt" set_property="objt"/>
+			</widget>
+		</container>
+
+		<container>
+			<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="left"/>
+
+			<widget class="text" size="8" colour="faded text" font="capitals_bold" alignment="left, centre"  height="20" auto_size="horizontal">
+				<translation id="text" translation_id="308637" type="use" value="Relationship[COMMENT: Relationship towards the human player]"/>
+			</widget>
+			<widget class="relationship_label_with_icon"  dspf="2" colour="text" size="9"  alignment="centre" height="20" width="180">
+				<record id="object_property" get_property="JRel" set_property="valu"/>
+			</widget>
+		</container>
+
+		<container>
+			<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="left"/>
+
+			<widget class="text" size="8" colour="faded text" font="capitals_bold" alignment="left, centre"  height="20" auto_size="horizontal">
+				<translation id="text" translation_id="247713" type="use" value="Personality"/>
+			</widget>
+			<widget class="journalist_label" display_format="0" colour="text" size="9" alignment="left, centre"  height="20" auto_size="horizontal">
+				<record id="object_property" get_property="JCha" set_property="valu"/>
+			</widget>
+		</container>
+
+	</container>
+</panel>
