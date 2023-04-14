@@ -1,7 +1,7 @@
 <record>
 	<string id="file_name" value="button.xml"/>
 	<real id="boldness" value="0.8"/>
-	
+
 	<list id="shadows">
 		<record>
 			<integer id="x_offset" value="0"/>
@@ -13,5 +13,5 @@
 			<integer id="colour_alpha" value="100"/>
 		</record>
 	</list>
-	
+
 </record>

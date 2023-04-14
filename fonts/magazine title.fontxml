@@ -1,10 +1,10 @@
 <record>
 	<string id="file_name" value="GT-America-Standard-Bold.ttf"/>
-		
+
 	<integer id="extra_spacing" value="-0.7"/>
-	
+
 	<real id="boldness" value="0.6" />
-	
+
 	<list id="shadows">
 		<record>
 			<integer id="x_offset" value="1"/>
@@ -20,15 +20,15 @@
 
 	<integer id="gradient_lower_margin" value="0"/>
 	<integer id="gradient_curve" value="0"/>
-	
+
 	<integer id="gradient_upper_colour_red" value="255"/>
 	<integer id="gradient_upper_colour_green" value="255"/>
 	<integer id="gradient_upper_colour_blue" value="255"/>
 	<integer id="gradient_upper_colour_alpha" value="255"/>
-	
+
 	<integer id="gradient_lower_colour_red" value="255"/>
 	<integer id="gradient_lower_colour_green" value="255"/>
 	<integer id="gradient_lower_colour_blue" value="255"/>
 	<integer id="gradient_lower_colour_alpha" value="255"/>
-	
+
 </record>

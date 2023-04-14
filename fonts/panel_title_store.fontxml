@@ -4,9 +4,9 @@
 	<integer id="gradient_upper_margin" value="30" />
 	<integer id="gradient_lower_margin" value="0" />
 	<integer id="gradient_curve" value="0" />
-	
+
 	<integer id="extra_spacing" value="0.75" />
-	
+
 	<list id="shadows">
 		<record>
 			<integer id="x_offset" value="1" />
@@ -18,7 +18,7 @@
 			<integer id="colour_alpha" value="25" />
 		</record>
 	</list>
-	
+
 	<string id="capitalisation" value="upper case" />
 
 </record>

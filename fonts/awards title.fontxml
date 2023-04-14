@@ -4,7 +4,7 @@
 	<string id="capitalisation" value="upper case" />
 		
 	<integer id="extra_spacing" value="4"/>
-	
+
 	<list id="shadows">
 		<record>
 			<integer id="x_offset" value="1"/>

@@ -20,10 +20,10 @@
 	<integer id="gradient_upper_colour_green" value="255"/>
 	<integer id="gradient_upper_colour_blue" value="255"/>
 	<integer id="gradient_upper_colour_alpha" value="255"/>
-	
+
 	<integer id="gradient_lower_colour_red" value="200"/>
 	<integer id="gradient_lower_colour_green" value="205"/>
 	<integer id="gradient_lower_colour_blue" value="210"/>
 	<integer id="gradient_lower_colour_alpha" value="255"/>
-	
+
 </record>

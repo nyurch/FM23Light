@@ -1,12 +1,12 @@
 <record>
 	<string id="file_name" value="GT-America-Standard-Bold.ttf"/>
-	
+
 	<string id="capitalisation" value="upper case" />
-	
+
 	<real id="extra_height" value="5.0"/>
-		
+
 	<integer id="extra_spacing" value="3"/>
-	
+
 	<list id="shadows">
 						<record>
 			<integer id="x_offset" value="1"/>
@@ -27,7 +27,7 @@
 			<integer id="colour_alpha" value="255"/>
 		</record>
 	</list>
-	
+
 	<colour id="fill_colour" name="grey 700"/>
-	
+
 </record>

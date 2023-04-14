@@ -1,7 +1,7 @@
 <record>
 	<string id="file_name" value="GT-America-Standard-Regular.ttf"/>
 	<real id="boldness" value="1.0"/>
-	
+
 	<list id="shadows">
 		<record>
 			<integer id="x_offset" value="0"/>
@@ -21,10 +21,10 @@
 	<integer id="gradient_upper_colour_green" value="255"/>
 	<integer id="gradient_upper_colour_blue" value="255"/>
 	<integer id="gradient_upper_colour_alpha" value="150"/>
-	
+
 	<integer id="gradient_lower_colour_red" value="177"/>
 	<integer id="gradient_lower_colour_green" value="187"/>
 	<integer id="gradient_lower_colour_blue" value="198"/>
 	<integer id="gradient_lower_colour_alpha" value="150"/>
-	
+
 </record>

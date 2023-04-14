@@ -1,7 +1,7 @@
 <record>
 	<string id="file_name" value="GT-America-Standard-Regular.ttf"/>
 	<real id="boldness" value="0.9"/>
-	
+
 	<list id="shadows">
 		<record>
 			<integer id="x_offset" value="0"/>
@@ -18,5 +18,5 @@
 	<integer id="fill_colour_green" value="255"/>
 	<integer id="fill_colour_blue" value="255"/>
 	<integer id="fill_colour_alpha" value="255"/>
-	
+
 </record>

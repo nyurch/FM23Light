@@ -7,7 +7,7 @@
 	<integer id="fill_colour_green" value="40"/>
 	<integer id="fill_colour_blue" value="40"/>
 	<integer id="fill_colour_alpha" value="255"/> -->
-	
+
 	<!-- <list id="shadows">
 		<record>
 			<integer id="x_offset" value="0"/>
@@ -27,10 +27,10 @@
 	<integer id="gradient_upper_colour_green" value="35"/>
 	<integer id="gradient_upper_colour_blue" value="35"/>
 	<integer id="gradient_upper_colour_alpha" value="255"/>
-	
+
 	<integer id="gradient_lower_colour_red" value="45"/>
 	<integer id="gradient_lower_colour_green" value="45"/>
 	<integer id="gradient_lower_colour_blue" value="45"/>
 	<integer id="gradient_lower_colour_alpha" value="255"/>
-	
+
 </record>

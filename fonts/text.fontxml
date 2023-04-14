@@ -8,7 +8,7 @@
 	<real id="font_size_xlarge" value="13.7" /> <!-- 18px -->
 	<real id="font_size_xxlarge" value="16.6" /> <!-- 22px -->
 
-	<real id="extra_height" value="2" /> 
+	<real id="extra_height" value="2" />
 
 	<integer id="fill_colour_red" value="10" />
 	<integer id="fill_colour_green" value="10" />

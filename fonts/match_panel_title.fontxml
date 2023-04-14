@@ -1,7 +1,7 @@
 <record>
 	<string id="file_name" value="title.xml"/>
 	<real id="boldness" value="0.0"/>
-	
+
 	<list id="shadows">
 		<record>
 			<integer id="x_offset" value="0"/>
@@ -18,8 +18,8 @@
 	<integer id="fill_colour_green" value="174"/>
 	<integer id="fill_colour_blue" value="246"/>
 	<integer id="fill_colour_alpha" value="255"/>
-	
+
 	<record id="font_spec">
-		<flags id="font" value="fonts/panel_title"/> 
+		<flags id="font" value="fonts/panel_title"/>
 	</record>
 </record>
