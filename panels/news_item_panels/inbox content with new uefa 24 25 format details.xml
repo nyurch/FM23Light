@@ -1,0 +1,18 @@
+﻿<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+	<container class="scrolling_box">
+		<container>
+			<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_gap="10" />
+
+			<widget class="inbox_body_text" id="bdtx" colour="inbox_text" />
+
+			<container class="inner_subtle_box">
+				<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" vertical_gap="10" />
+
+				<widget class="text" id="deTT" font="title" size="12" colour="accent" auto_size="vertical"/>
+
+				<container class="vertical_arrange_container" auto_size="vertical" gap="15" offset="0" inset="15" id="rule" draw_horizontal_dividers="true"/>
+			</container>
+		</container>
+	</container>
+</panel>
