@@ -1,0 +1,49 @@
+﻿<panel>
+	<list id="properties_to_forward">
+		<record get_property="Tl5f" set_property="objL" target="tabl"/>
+		<record get_property="Tfrm" set_property="valu" target="form"/>
+	</list>
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="10" horizontal_alignment="horizontal" horizontal_inset="0" />
+	<container class="inner_subtle_box">
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="6" vertical_gap="12" horizontal_alignment="horizontal" horizontal_inset="6" />
+		<container>
+			<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_offset="0" horizontal_gap="6" vertical_offset="0" />
+			<widget class="label" auto_size="all" colour="black" font="title">
+				<translation id="text" translation_id="535397" type="use" value="Last 5 Matches[COMMENT: AREA: Visualisation Header; SUB-AREA: visualisation scope FR: 32932; TONE: Formal; CHARLIMIT: None; NOTE: Last 5 matches only time frame scope]" />
+			</widget>
+			<widget class="team_recent_form_widget" id="form" width="80" height="16">
+				<record id="object_property">
+					<list id="get_properties">
+						<record>
+							<integer id="get_property" value="objt"/>
+							<integer id="set_property" value="objt"/>
+						</record>
+					</list>
+				</record>
+			</widget>
+			</container>
+
+			<widget class="client_object_list_table" id="tabl" auto_size="vertical">
+				<string id="default_sort_column" value="fxdt"/>
+				<string id="navigation_container" value="true"/>
+				<string id="default_focus" value="true"/>
+				<integer id="database_table_type" value="53"/>
+				<string id="fixed_size_rows" value="true"/>
+				<string id="auto_size_rows" value="false"/>
+				<string id="mode" value="fill_rows, stripe_rows, printable, store_sort_state, keyboard"/>
+				<integer id="row_height" value="28"/>
+				<list id="save_default_state">
+					<integer value="crvi" />
+				</list>
+
+				<record id="viewed_property_ids">
+					<record id="fxdt"/>
+					<record id="fopt"/>
+					<record id="FxVn"/>
+					<record id="FxRT"/>
+					<record id="FxRs"/>
+					<record id="FxNm"/>
+				</record>
+			</widget>
+		</container>
+</panel>
