@@ -1,0 +1,15 @@
+﻿<panel width="400" height="400">
+    <attachment_group class="vertical_arrange" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0"/>
+
+    <list id="properties_to_forward">
+        <record get_property="icon" set_property="file" target="FbIc"/>
+        <record get_property="hint" set_property="text" target="FbTx"/>
+    </list>
+
+    <container class="standard_popup_box">
+        <attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="left, extend" horizontal_offset="4" vertical_inset="4"/>
+
+        <widget class="picture" id="FbIc" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" auto_size="horizontal" height="16" default_width="16" minimum_width="16" priority="0"/>
+        <widget class="text" id="FbTx" alignment="left, top" auto_size="vertical"/>
+    </container>
+</panel>
