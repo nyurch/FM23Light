@@ -265,7 +265,7 @@
 
 				<container class="vertical_adaptive_container" id="ocmp" inset="0" offset="0" mode="distribute_equally" draw_horizontal_dividers="true">
 					<global id="gap" name="ui.main_box_gap"/>
-					<record id="default_properties" news="false" minimum_height="250"/>
+					<record id="default_properties" news="false" minimum_height="150"/>
 
 					<container class="competition_news_league_overview_selector_panel" id="lif1" index="0" priority="1" navigation_container="true"/>
 					<container class="competition_news_league_overview_selector_panel" id="lif2" index="1" priority="2" navigation_container="true"/>
