@@ -1,6 +1,6 @@
 <panel>
 
-	<layout class="arrange_horizontal_attachment" layout="400,-1,600,-1,400" offset="0" gap="0" />
+	<layout class="arrange_horizontal_attachment" layout="-2,50,-3,50,-2" offset="0" gap="0" />
 	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
 	<!-- Future fixtures list -->
@@ -26,14 +26,12 @@
 	<container class="bordered_box">
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
-		<!---480-->
 		<widget class="client_object_viewer_xml_panel" file="game/processing upcoming fixture badges" id="tmbp" default_width="200" minimum_width="200" height="-1" priority="1"/>
 
 	</container>
 
 	<container/>
 
-	<!---600-->
 	<container class="bordered_box">
 		<layout class="arrange_vertical_attachment" layout="40,40,40,40,40,-1" offset="0" gap="0" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
@@ -46,22 +44,22 @@
 				<record class="fade_animation" duration="1" trigger_id="hidden" trigger_value="true" start_value="1.0" end_value="0.0" end_mode="hold_end" />
 			</list>
 
-			<record id="widget_properties" class="text" colour="red 900" alignment="centre, centre_y" style="bold" size="15" multiline="false" />
+			<record id="widget_properties" class="text" colour="red 900" alignment="left, centre_y" style="bold" size="15" multiline="false" />
 		</container>
 		<!-- This label may be hidden if the days to match is 'Today', 'Tomorrow' etc -->
-		<widget class="text" id="dayE" colour="red" alignment="centre, top" style="bold" size="15">
+		<widget class="text" id="dayE" colour="red" alignment="left, top" style="bold" size="15">
 			<translation id="text" translation_id="348442" type="use" value="To Next Match[COMMENT: Game processing panel; label for number of days until the next match]" />
 		</widget>
 		<!--fixture "home" vs "away"-->
-		<widget class="text" id="fixt" colour="accent" alignment="centre, bottom" style="bold" size="15" />
+		<widget class="text" id="fixt" colour="accent" alignment="left, bottom" style="bold" size="15" />
 		<!--stadium-->
-		<widget class="client_object_label" spec="text,bold" id="stad" style="bold" size="14" alignment="centre_x,centre_y">
+		<widget class="client_object_label" spec="text,bold" id="stad" style="bold" size="14" alignment="left,centre_y">
 			<record id="object_property">
 				<integer id="get_property" value="objt" />
 			</record>
 		</widget>
 		<!--competition-->
-		<widget class="text" id="comp" colour="grey" alignment="centre, top" style="bold" size="13" />
+		<widget class="text" id="comp" colour="grey" alignment="left, top" style="bold" size="13" />
 
 	</container>
 
