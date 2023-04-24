@@ -49,12 +49,12 @@
 					<layout class="arrange_horizontal_attachment" layout="-1,-1" gap="0" offset="0" />
 					<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-					<container class="available_jobs_summary_panel" id="ajsn" file="game/processing available jobs summary" IgnA="true"/>
+					<container class="available_jobs_summary_panel" id="ajsn" file="game/processing available jobs summary"  IgnA="true"/>
 					<container class="insecure_jobs_summary_panel" id="ijsn" file="game/processing insecure jobs summary" />
 				</container>
 
 				<!-- Title for loading game etc. -->
-				<widget class="text" id="tiTl" colour="red" alignment="left,centre_y" style="semi_bold" size="14" hidden="true">
+				<widget class="text" id="tiTl" colour="title" alignment="left,centre_y" style="semi_bold" size="12" hidden="true">
 					<translation id="text" translation_id="243215" type="use" value="Processing" />
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="20" />
 				</widget>
@@ -62,13 +62,11 @@
 		</container>
 
 		<!-- Main calendar panel (Only used when there is a human) -->
-		<container id="cale" height="500">
-			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
-			<layout class="stick_to_sides_attachment" alignment="left" apply_to_children="true" inset="0" />
+		<container id="cale" height="530">
+			<layout class="stick_to_sides_attachment" alignment="vertical,left" apply_to_children="true" inset="0" />
 
 			<container width="3200" ignore_error_detection="true">
-				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
-				<layout class="arrange_horizontal_attachment" alignment="right" gap="0" offset="0" />
+				<attachment_group class="horizontal_arrange" horizontal_alignment="right" horizontal_gap="0" horizontal_offset="0" vertical_inset="0"/>
 
 				<record id="default_properties" width="200" />
 
@@ -97,10 +95,7 @@
 			<container class="animated_horizontal_stack_container" id="cald" width="3200" alignment="right" duration="0.4" tween="ease_out" gap="0" offset="0" inset="0" ignore_error_detection="true">
 				<!-- Panels are added and removed dynamically in code using the widget properties defined below -->
 				<!-- Any extra widgets in the xml will cause this to break -->
-				<record id="widget_properties" class="calendar_popup_day_panel" file="game/processing calendar day panel" show_no_events_label="false" width="200">
-					<colour id="normal_fixture_colour" red="97" green="167" blue="130" alpha="255"/>
-					<colour id="youth_fixture_colour" red="255" green="255" blue="225" alpha="0"/>
-				</record>
+				<record id="widget_properties" class="calendar_popup_day_panel" file="game/processing calendar day panel" width="200"/>
 			</container>
 
 			<!-- An overlay with date and progress indicator that sits over today's day (this is a bit hacky but the only solution) -->
@@ -109,11 +104,11 @@
 				<layout class="arrange_horizontal_attachment" alignment="left" gap="0" offset="0" />
 
 				<container width="210" height="10" />
-				<container width="200" height="48">
+				<container width="200" height="42">
 
 					<!-- Month and year -->
-					<widget class="date_cell" id="toda" format="[%date#1-month_year]" size="small" colour="processing_date" style="semi_bold" alignment="left,centre_y">
-						<layout class="stick_to_sides_attachment" alignment="all" inset="0,37,0,54" />
+					<widget class="date_cell" id="toda" format="[%date#1-month_year]" size="small" colour="text" font="title" alignment="left,centre_y">
+						<layout class="stick_to_sides_attachment" alignment="all" inset="0,40,0,56" />
 					</widget>
 
 					<!-- Progress indicator -->
@@ -125,11 +120,7 @@
 
 						<!-- The loading animation - GPU rendering -->
 						<widget class="picture" id="anmG" auto_size="all" file="progress/circular/spinner">
-							<animation class="rotate_animation" end_mode="repeat" start_value="0" end_value="360" tween="linear" apply_to_mouse="false" />
-
-							<attachment class="test_setting_attachment" get_setting="ui_rendering_mode" default_value="true" set_property="hidn">
-								<integer id="value" value="1" />
-							</attachment>
+							<animation class="rotate_animation" end_mode="repeat" start_value="0" end_value="360" tween="linear" apply_to_mouse="false" limit_frame_rate="true" />
 						</widget>
 					</container>
 				</container>
@@ -141,7 +132,7 @@
 
 		<!-- Ticker with stats -->
 		<container class="main_box" id="tikC" appearance="boxes/custom/prozone/paper" height="50">
-			<layout class="arrange_horizontal_attachment" layout="140, -1" offset="0" gap="40" />
+			<layout class="arrange_horizontal_attachment" layout="180, 2,-1" offset="4" gap="10" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
 			<!-- prozone -->
@@ -150,37 +141,40 @@
 				<widget class="picture" width="90" image_alignment="centre" file="icons/custom/prozone/logo" scale_picture="false"/>
 			</container>
 
-			<widget class="animated_wipe_fade_container" id="tick" wipe_data_trigger_id="objt">
+			<widget class="vertical_divider" red_replacement="text">
+				<layout class="stick_to_sides_attachment" alignment="vertical" inset="15" />
+			</widget>
+
+			<widget class="animated_wipe_fade_container" id="tick" wipe_data_trigger_id="objt" >
 				<record id="widget_info" class="property_list_viewer_xml_panel" file="game/processing prozone panel" alignment="left,centre_y" colour="text"/>
 			</widget>
 		</container>
 
 		<!-- Footer with hints -->
 		<container background_colour="processing_hints_background" height="85">
-			<layout class="arrange_horizontal_attachment" layout="180, 2, -1, 200" offset="0" gap="10" />
-			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
-			<widget class="text" colour="gold" style="semi_bold" size="14" alignment="right,centre_y">
-				<translation id="text" translation_id="254534" type="use" value="Hints and Tips[COMMENT: Progress bar panel - Title of the panel containing the hints and tips, that are displayed while loading and saving.]" />
-			</widget>
-			<widget class="vertical_divider" red_replacement="gold">
-				<layout class="stick_to_sides_attachment" alignment="vertical" inset="15" />
-			</widget>
-			<!--<container class="animated_wipe_fade_container" duration="0.5" id="hnt1" wipe_data_target_id="text" skip_first_wipe_in="true">
-		<record id="widget_properties" class="text" size="10" multiline="true" style="bold, shadowed" alignment="left,centre_y" colour="grey"/>
-		</container>-->
-			<widget class="text" id="hnt1" size="12" multiline="true" alignment="left,centre_y" colour="gold" />
+			<attachment_group class="horizontal_arrange_vertical_centre" horizontal_alignment="right,extend" horizontal_offset="4"/>
 
-			<!-- Browse/cancel -->
-			<container width="175">
-				<!-- Note: Don't make this fit children as the button text changes and it causes unwanted movement of other items on the panel -->
-				<layout class="stick_to_sides_attachment" alignment="right" apply_to_children="true" inset="10" />
+			<container height="80">
 
-				<widget class="primary_button" colour="white" id="canc" auto_size="all">
-					<layout class="centre_in_parent_attachment" alignment="vertical"/>
-					<translation id="text" translation_id="229828" type="use" value="Cancel" />
+				<layout class="arrange_horizontal_attachment" layout="180, 2, -1" offset="0" gap="10" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
+
+				<widget class="text" colour="gold" size="xlarge" font="title" alignment="right,centre_y">
+					<translation id="text" translation_id="254534" type="use" value="Hints and Tips[COMMENT: Progress bar panel - Title of the panel containing the hints and tips, that are displayed while loading and saving.]" />
 				</widget>
+				<widget class="vertical_divider" red_replacement="white">
+					<layout class="stick_to_sides_attachment" alignment="vertical" inset="15" />
+				</widget>
+
+				<widget class="text" id="hnt1" size="large" font="title" multiline="true" alignment="left,centre_y" colour="white"/>
+
 			</container>
+
+			<widget class="primary_icon_button" id="canc" auto_size="all" controller_button="b_button">
+				<translation id="text" translation_id="229828" type="use" value="Cancel" />
+			</widget>
+
 		</container>
 	</container>
 
