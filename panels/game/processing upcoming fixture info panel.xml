@@ -1,9 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
 <panel>
 
 	<layout class="arrange_horizontal_attachment" layout="400,-1,600,-1,400" offset="0" gap="0" />
 	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
-	<!---1-->
+
 	<!-- Future fixtures list -->
 	<container class="bordered_box" minimum_width="250" priority="2" default_width="250">
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4" />
@@ -22,11 +21,7 @@
 		<container class="manager_upcoming_fixtures_panel" id="mufp" />
 	</container>
 
-
-
 	<container/>
-
-
 
 	<container class="bordered_box">
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4" />
@@ -69,12 +64,5 @@
 		<widget class="text" id="comp" colour="grey" alignment="centre, top" style="bold" size="13" />
 
 	</container>
-
-
-
-
-
-
-
 
 </panel>
