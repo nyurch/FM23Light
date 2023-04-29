@@ -1,6 +1,6 @@
 <panel>
 
-	<layout class="arrange_horizontal_attachment" layout="-2,50,-3,50,-2" offset="0" gap="0" />
+	<layout class="arrange_horizontal_attachment" layout="-1,50,700,50,-1" offset="0" gap="0" />
 	<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 
 	<!-- Future fixtures list -->
