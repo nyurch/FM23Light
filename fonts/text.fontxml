@@ -1,5 +1,5 @@
 <record>
-	<string id="file_name" value="GT-America-Standard-Regular.ttf"/>
+	<string id="file_name" value="Lato-Regular.ttf"/>
 	<real id="font_size_xxsmall" value="6.7" /> <!-- 9px -->
 	<real id="font_size_xsmall" value="8.1" /> <!-- 11px -->
 	<real id="font_size_small" value="8.8" /> <!-- 12px -->
@@ -22,8 +22,8 @@
 		<!-- bold styles -->
 		<record style="very_light_bold" boldness="0.4"/>
 		<record style="light_bold" boldness="0.6"/>
-		<record style="semi_bold" file_name="GT-America-Standard-Bold.ttf" boldness="0"/>
-		<record style="bold" file_name="GT-America-Standard-Bold.ttf" boldness="0"/>
+		<record style="semi_bold" file_name="Lato-Bold.ttf" boldness="0"/>
+		<record style="bold" file_name="Lato-Bold.ttf" boldness="0"/>
 		<!-- italic styles -->
 		<record style="semi_italic" obliqueness="0.15"/>
 		<record style="italic" obliqueness="0.25"/>

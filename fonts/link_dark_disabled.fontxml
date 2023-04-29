@@ -1,5 +1,5 @@
 <record>
-	<string id="file_name" value="GT-America-Standard-Regular.ttf" />
+	<string id="file_name" value="Lato-Regular.ttf" />
 	<real id="boldness" value="1" />
 
 	<integer id="extra_spacing" value="0.5" />
