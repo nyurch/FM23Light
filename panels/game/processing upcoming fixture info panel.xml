@@ -23,10 +23,10 @@
 
 	<container/>
 
-	<container class="bordered_box">
+	<container class="main_subtle_box">
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
-		<widget class="client_object_viewer_xml_panel" file="game/processing upcoming fixture badges" id="tmbp" default_width="200" minimum_width="200" height="-1" priority="1"/>
+		<widget class="client_object_viewer_xml_panel" file="game/processing upcoming fixture badges" id="tmbp" height="-1" priority="1"/>
 
 	</container>
 
