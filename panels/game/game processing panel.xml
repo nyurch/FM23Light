@@ -34,7 +34,7 @@
 		<animation class="slide_in_top_animation" duration="0.6" tween="ease_out" />
 
 		<!-- Header with next match info and browse button -->
-		<container background_colour="card bg darker" height="180">
+		<container background_colour="card bg darker" height="250">
 			<layout class="arrange_horizontal_attachment" alignment="left,extend" gap="0" offset="8" />
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="10" />
 
