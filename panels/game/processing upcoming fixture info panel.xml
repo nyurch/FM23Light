@@ -23,7 +23,7 @@
 
 	<container/>
 
-	<container class="main_subtle_box">
+	<container class="main_contrast_box" red_replacement="topbar menu">
 		<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0" gap="4" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
 		<widget class="client_object_viewer_xml_panel" file="game/processing upcoming fixture badges" id="tmbp" height="-1" priority="1"/>
