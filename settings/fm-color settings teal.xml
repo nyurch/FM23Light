@@ -1739,7 +1739,7 @@
 	<colour name="news_category_colour_tutorial"						value="fg blue"/>
 
 	<!--Performance (formerly confidence)-->
-	<colour name="performance board tag"												value="teal"/>
+	<colour name="performance board tag"												value="rgb(3, 83, 148)"/>
 	<colour name="performance fans tag"													value="teal"/>
 	<colour name="performance A plus grade"												value="teal 900"/>
 	<colour name="performance A grade"													value="teal 600"/>
