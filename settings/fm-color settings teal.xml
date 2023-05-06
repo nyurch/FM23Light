@@ -166,7 +166,7 @@
 	<colour name="alt text"															value="fg"/>
 	<colour name="faded alt text"													value="fg alpha"/>
 	<colour name="darkened text"													value="fg darker"/>
-	<colour name="selection"														value="fg darker"/><!--fg accent 2023-->>
+	<colour name="selection"														value="fg accent"/>
 	<colour name="disabled"															value="fg alpha"/>
 	<colour name="disabled light"													value="rgba(255,255,255,0.5)"/>
 	<colour name="transparent"														value="rgba(255,255,255,0.0)" />
