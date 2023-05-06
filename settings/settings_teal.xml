@@ -224,7 +224,7 @@
 	<!-- or light?-->
 	<colour name="match_box_background" value="bg"/>
 	<colour name="match_background" value="bg"/>
-	<colour name="subtle_box_background" value="rgb(55,71,79)"/>
+	<colour name="subtle_box_background" value="fg"/>
 	<colour name="hint_background" value="rgb(20,141,154)"/>
 	<colour name="hint_border" value="rgb(20,141,154)"/>
 	<colour name="calendar_cell_border" value="fg"/>
