@@ -41,7 +41,7 @@
 	<colour name="fg range20"														value="rgb(0,168,63)" />
 
 	<colour name="fg positive"														value="fg range20"/>
-	<colour name="fg alert"															value="fg range10"/>
+	<colour name="fg alert"															value="fg range1"/>
 	<colour name="fg negative"														value="fg range1"/>
 
 	<colour name="fg red lighter"													value="red 600" />
@@ -87,7 +87,7 @@
 	<colour name="bg large alpha"													value="rgba(240,245,248,0.5)"/>
 	<colour name="bg info"															value="rgb(39,103,192)"/>
 	<colour name="bg positive"														value="rgb(16,165,68)"/>
-	<colour name="bg alert"															value="rgb(223,126,0)"/>
+	<colour name="bg alert"															value="rgb(202,7,49)"/>
 	<colour name="bg accent"														value="rgb(0,129,138)"/>
 	<colour name="bg tertiary"														value="rgb(235,240,243)"/>
 	<colour name="bg negative"														value="rgb(182,40,40)"/>
