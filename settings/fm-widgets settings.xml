@@ -1,5 +1,5 @@
 <properties version="1.0">
-	<!--	
+	<!--
 	 ============================================================
 	 Default Settings Modified By This Skin
 	 The definitions below will override the defaults contained
@@ -28,7 +28,7 @@
 		<integer value="1"/>
 	</set_global>
 
-	<!-- This allows us to set a global font adjustment value for given languages this 
+	<!-- This allows us to set a global font adjustment value for given languages this
 		 is required because we map to a different font set for russian and greek which
 		 ends up with a larger vertical size then the base font which causes cut offs, so now we
 		 can adjust it to fit closer to the original size -->
