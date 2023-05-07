@@ -44,15 +44,13 @@
 				</record>
 			</widget>
 			<!--spacer-->
-			<container height="5" />
+			<widget class="horizontal_subtle_divider" />
 			<!--comp-->
-			<widget class="fixture_name_text" id="FxNm" font="title" colour="accent" size="12" alignment="centre" auto_size="all">
+			<widget class="fixture_name_text" id="FxNm" font="title" colour="accent" size="large" height="60" multiline="true" alignment="centre">
 				<record id="object_property">
 					<integer id="get_property" value="FxNm" />
 				</record>
 			</widget>
-			<!--spacer-->
-			<container height="5" />
 			<!--date-->
 			<widget class="date_cell" id="fxdt" alignment="centre_x" auto_size="vertical" size="10">
 				<translation id="format" value="[%date#1-long]" />
