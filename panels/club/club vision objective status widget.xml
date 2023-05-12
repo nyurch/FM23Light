@@ -30,22 +30,22 @@
 	<colour id="progress_very_disappointed_box_colour" name="fg range4"/>
 	<colour id="progress_devastated_box_colour" name="fg range1"/>
 
-	<colour id="progress_failed_text_icon_colour" name="white"/>
-	<colour id="progress_struggling_text_icon_colour" name="white"/>
-	<colour id="progress_struggling_but_positive_text_icon_colour" name="white"/>
-	<colour id="progress_on_course_but_negative_text_icon_colour" name="white"/>
-	<colour id="progress_on_course_text_icon_colour" name="white"/>
-	<colour id="progress_passed_text_icon_colour" name="white"/>
-	<colour id="progress_not_judging_text_icon_colour" name="white"/>
-	<colour id="progress_not_started_text_icon_colour" name="white"/>
-	<colour id="progress_reserving_judgement_text_icon_colour" name="white"/>
-	<colour id="progress_delighted_text_icon_colour" name="white"/>
-	<colour id="progress_very_pleased_text_icon_colour" name="white"/>
-	<colour id="progress_pleased_text_icon_colour" name="white"/>
-	<colour id="progress_satisfied_text_icon_colour" name="white"/>
-	<colour id="progress_disappointed_text_icon_colour" name="white"/>
-	<colour id="progress_very_disappointed_text_icon_colour" name="white"/>
-	<colour id="progress_devastated_text_icon_colour" name="white"/>
+	<colour id="progress_failed_text_icon_colour" name="fg range1"/>
+	<colour id="progress_struggling_text_icon_colour" name="fg range3"/>
+	<colour id="progress_struggling_but_positive_text_icon_colour" name="fg range6"/>
+	<colour id="progress_on_course_but_negative_text_icon_colour" name="fg range14"/>
+	<colour id="progress_on_course_text_icon_colour" name="fg range16"/>
+	<colour id="progress_passed_text_icon_colour" name="fg range20"/>
+	<colour id="progress_not_judging_text_icon_colour" name="purple 900"/>
+	<colour id="progress_not_started_text_icon_colour" name="purple 900"/>
+	<colour id="progress_reserving_judgement_text_icon_colour" name="purple 900"/>
+	<colour id="progress_delighted_text_icon_colour" name="fg range20"/>
+	<colour id="progress_very_pleased_text_icon_colour" name="fg range17"/>
+	<colour id="progress_pleased_text_icon_colour" name="fg range14"/>
+	<colour id="progress_satisfied_text_icon_colour" name="fg blue"/>
+	<colour id="progress_disappointed_text_icon_colour" name="fg range6"/>
+	<colour id="progress_very_disappointed_text_icon_colour" name="fg range4"/>
+	<colour id="progress_devastated_text_icon_colour" name="fg range1"/>
 
 	<string id="progress_failed_icon" value="icons/16px/thumbs down"/>
 	<string id="progress_struggling_icon" value="icons/16px/thumbs down"/>
@@ -69,7 +69,7 @@
 
 		<container class="horizontal_adaptive_container" inset="0" gap="4" offset="0" height="24" alignment="left, extend">
 			<widget class="picture" id="stic" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" auto_size="horizontal" height="16" default_width="16" minimum_width="16" priority="0"/>
-			<widget class="text" id="stat" auto_size="none" alignment="left, centre_y" colour="text" style="bold" size="small" multiline="false" default_width="80" minimum_width="40" priority="1"/>
+			<widget class="text" id="stat" auto_size="none" alignment="left, centre_y" style="bold" size="small" multiline="false" default_width="80" minimum_width="40" priority="1"/>
 		</container>
 
 		<widget class="button" id="stai" appearance="icons/custom/more/button" width="16" height="16" red_replacement="white" navigation_focus_target="true">
