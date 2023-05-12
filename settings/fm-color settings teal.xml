@@ -14,7 +14,7 @@
 	<colour name="fg lighter"														value="rgb(10,20,20)"/>
 	<colour name="fg"																value="rgb(1,2,20)"/>
 	<colour name="fg darker"														value="rgb(0,0,0)"/>
-	<colour name="fg alpha"															value="rgba(1,2,20,0.6)"/>
+	<colour name="fg alpha"															value="rgba(1,2,20,0.7)"/>
 	<colour name="fg info"															value="rgb(239,242,244)"/>
 	<colour name="fg accent"														value="rgb(20,141,154)"/>
 	<colour name="fg tertiary"														value="rgb(20,141,154)"/>
@@ -170,8 +170,8 @@
 	<colour name="disabled"															value="fg alpha"/>
 	<colour name="disabled light"													value="rgba(255,255,255,0.5)"/>
 	<colour name="transparent"														value="rgba(255,255,255,0.0)" />
-	<colour name="faded white"														value="rgba(255,255,255,0.5)"/>
-	<colour name="faded black"														value="rgba(0,0,0,0.5)"/>
+	<colour name="faded white"														value="rgba(255,255,255,0.7)"/>
+	<colour name="faded black"														value="rgba(0,0,0,0.7)"/>
 	<colour name="dark text"														value="rgb(55,64,71)"/>
 	<colour name="hint"																value="white"/>
 	<colour name="title"															value="fg tertiary" />
