@@ -1,11 +1,11 @@
 ﻿<panel>
 	<attachment_group class="vertical_arrange" vertical_alignment="middle" horizontal_gap="0" horizontal_offset="0"/>
 
-	<colour id="status_in_progress_box_colour" name="fg"/>
+	<colour id="status_in_progress_box_colour" name="fg range10"/>
 	<colour id="status_passed_box_colour" name="fg range20"/>
 	<colour id="status_failed_box_colour" name="fg range1"/>
 
-	<colour id="status_in_progress_text_icon_colour" name="white"/>
+	<colour id="status_in_progress_text_icon_colour" name="fg range10"/>
 	<colour id="status_passed_text_icon_colour" name="fg range20"/>
 	<colour id="status_failed_text_icon_colour" name="fg range1"/>
 
