@@ -10,6 +10,4 @@
 	<!-- the image will only slice in the directions slicing values are provided for-->
 	<record id="image_slices" left="16" right="16" />
 
-	<colour id="red_replacement" name="accent"/>
-
 </properties>
