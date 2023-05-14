@@ -26,9 +26,9 @@
 
 		<list id="column_widget_properties">
 			<record indx="0" alignment="left,centre_y" colour="black"/>
-			<record indx="1" alignment="left,centre_y" />
-			<record indx="2" alignment="left,centre_y" />
-			<record indx="3" alignment="left,centre_y" />
+			<record indx="1" alignment="left,centre_y" colour="black"/>
+			<record indx="2" alignment="left,centre_y" colour="black"/>
+			<record indx="3" alignment="left,centre_y" colour="black"/>
 		</list>
 	</widget>
 
