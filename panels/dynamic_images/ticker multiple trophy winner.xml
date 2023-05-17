@@ -10,7 +10,7 @@
 	</container>
 
 	<container>
-		<attachment_group class="vertical_arrange" vertical_layout="-1, 50" horizontal_alignment="horizontal" vertical_offset="20" vertical_gap="5" horizontal_inset="5"/>
+		<attachment_group class="vertical_arrange" vertical_layout="-1, 50" horizontal_alignment="horizontal" vertical_offset="15" vertical_gap="5" horizontal_inset="5"/>
 
 		<!-- competition(s) won -->
 		<widget class="simple_data_list" alignment="horizontal, fill" set_property="objt">
@@ -24,7 +24,7 @@
 
 			<container>
 				<attachment_group class="horizontal_arrange_autosize" alignment="left, extend" vertical_inset="0"/>
-				<layout class="centre_in_parent_attachment" alignment="horizontal"/>
+				<layout class="centre_in_parent_attachment" alignment="all"/>
 
 				<!-- team logo -->
 				<widget class="object_portrait_picture" id="logo" width="50" image_alignment="top, centre" scale_picture="true" keep_aspect_ratio="true" wants_mouse_events="false">
@@ -32,7 +32,7 @@
 					<record id="object_property" get_property="Ttea" set_property="objt"/>
 				</widget>
 
-				<widget class="text" font="title" colour="fg" style="bold" size="xxlarge" alignment="left, centre_y" auto_size="horizontal">
+				<widget class="text" font="title" colour="fg" style="bold" size="xlarge" alignment="left, centre_y" auto_size="all">
 					<record id="object_property" get_property="text" set_property="text"/>
 				</widget>
 			</container>
