@@ -1,0 +1,42 @@
+﻿<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+
+	<!-- Background image layer -->
+	<container class="client_object_viewer_xml_panel">
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+
+		<!-- Background image -->
+		<widget class="picture" id="bgim" file="photos/dynamic/ticker trophy/multiple winner bg" image_alignment="top" scale_picture="true" keep_aspect_ratio="false"/>
+	</container>
+
+	<container>
+		<attachment_group class="vertical_arrange" vertical_layout="-1, 50" horizontal_alignment="horizontal" vertical_offset="20" vertical_gap="5" horizontal_inset="5"/>
+
+		<!-- competition(s) won -->
+		<widget class="simple_data_list" alignment="horizontal, fill" set_property="objt">
+			<!-- PROP_COMPETITIONS -->
+			<record id="object_property" get_property="cmps" set_property="valu"/>
+			<record id="widget_properties" class="object_portrait_picture" auto_size="horizontal" comp_use_trophy_icon="true" scale_picture="true" image_alignment="centre" keep_aspect_ratio="true" wants_mouse_events="false"/>
+		</widget>
+
+		<container>
+			<attachment_group class="horizontal_arrange" vertical_inset="0"/>
+
+			<container>
+				<attachment_group class="horizontal_arrange_autosize" alignment="left, extend" vertical_inset="0"/>
+				<layout class="centre_in_parent_attachment" alignment="horizontal"/>
+
+				<!-- team logo -->
+				<widget class="object_portrait_picture" id="logo" width="50" image_alignment="top, centre" scale_picture="true" keep_aspect_ratio="true" wants_mouse_events="false">
+					<!-- PROP_CLUB -->
+					<record id="object_property" get_property="Ttea" set_property="objt"/>
+				</widget>
+
+				<widget class="text" font="title" colour="fg" style="bold" size="xxlarge" alignment="left, centre_y" auto_size="horizontal">
+					<record id="object_property" get_property="text" set_property="text"/>
+				</widget>
+			</container>
+		</container>
+	</container>
+
+</panel>
