@@ -2,7 +2,7 @@
 	<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,105,-1"/>
 
 	<!-- home incidents panel -->
-	<widget class="home_match_incidents_panel" id="hmip" small_version="true" file="match/match incidents overview popup left 90" height="90">
+	<widget class="home_match_incidents_panel" id="hmip" small_version="true" file="match/extra_panels/match incidents overview popup left 90" height="90">
 	</widget>
 	<!--score stuff-->
 	<widget class="match_titlebar_panel" id="titb" file="match/match title bar popup" mode="1">
@@ -12,6 +12,6 @@
 		</record>
 	</widget>
 	<!-- away incidents panel -->
-	<widget class="away_match_incidents_panel" id="amip" small_version="true" file="match/match incidents overview popup right 90" height="90">
+	<widget class="away_match_incidents_panel" id="amip" small_version="true" file="match/extra_panels/match incidents overview popup right 90" height="90">
 	</widget>
 </panel>

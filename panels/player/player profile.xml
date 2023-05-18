@@ -16,7 +16,7 @@
 			</layout>
 			<layout class="stick_to_sides_attachment" alignment="vertical" apply_to_children="true" inset="0" />
 			<!-- PERSONAL DETAILS -->
-			<container class="player_personal_details_panel" file="player/player profile personal details custom">
+			<container class="player_personal_details_panel" file="player/extra_panels/player profile personal details custom">
 				<record id="object_property" get_property="object" set_property="object"/>
 			</container>
 			<widget class="vertical_subtle_divider"/>

@@ -67,7 +67,7 @@
 						<translation id="title" type="use" value="xG Table" />
 					</widget>
 					<!-- individual match -->
-					<widget class="team_opposition_report_previous_match_analysis_panel" id="eeff" hidden="true" file="team/team opposition report general performance">
+					<widget class="team_opposition_report_previous_match_analysis_panel" id="eeff" hidden="true" file="team/extra_panels/team opposition report general performance">
 						<translation id="title" translation_id="450807" type="use" value="Individual Match Analysis[COMMENT: Match Analysis Tab Title - Single Match analysis]" />
 						<record id="object_property" get_property="objt" set_property="objt" />
 					</widget>

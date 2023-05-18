@@ -654,7 +654,7 @@
 						<integer id="set_property" value="objt" />
 					</record>
 				</record>
-				<widget class="non_player_knowledge_panel" file="non_player/non player knowledge custom" id="know">
+				<widget class="non_player_knowledge_panel" file="non_player/extra_panels/non player knowledge custom" id="know">
 					<translation id="title" translation_id="327250" type="use" value="Scouting Knowledge"/>
 				</widget>
 				<widget class="manager_promises_panel" file="human/manager promises panel" id="mngp">

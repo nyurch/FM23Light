@@ -139,11 +139,11 @@
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 			<!-- HORIZONTAL LEFT -->
-			<container class="client_object_viewer_selector_panel" id="tab11" file="human/manager home selector tabs panel" default_width="-1" minimum_width="300" priority="1" default_focus="true">
+			<container class="client_object_viewer_selector_panel" id="tab11" file="human/extra_panels/manager home selector tabs panel" default_width="-1" minimum_width="300" priority="1" default_focus="true">
 				<integer id="default_for_club_teams" value="tosr"/>
 			</container>
 			<!-- HORIZONTAL RIGHT -->
-			<container class="client_object_viewer_selector_panel" id="tab22" file="human/manager home selector tabs panel" default_width="-1" minimum_width="300" priority="1" default_focus="true">
+			<container class="client_object_viewer_selector_panel" id="tab22" file="human/extra_panels/manager home selector tabs panel" default_width="-1" minimum_width="300" priority="1" default_focus="true">
 				<integer id="default_for_club_teams" value="awet"/>
 			</container>
 

@@ -35,7 +35,7 @@
 			<container class="main_subtle_box">
 				<translation id="title" translation_id="318287" type="use" value="Match Detail[COMMENT: competition detail panel; column heading label]" />
 				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="4" vertical_gap="10" />
-				<container class="tactics_recent_match_analysis_panel" id="anLy" file="match/tactics recent match analysis extend" navigation_container="true" />
+				<container class="tactics_recent_match_analysis_panel" id="anLy" file="match/extra_panels/tactics recent match analysis extend" navigation_container="true" />
 			</container>
 
 			<widget class="vertical_divider">

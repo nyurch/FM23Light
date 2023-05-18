@@ -215,7 +215,7 @@
 
 		<container id="fifc" default_height="-1" minimum_height="200">
 			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
-			<widget class="team_container_honours_panel" honour_subpanel_filename="nation/trophy info" file="nation/trophies" default_width="-2" priority="4">
+			<widget class="team_container_honours_panel" honour_subpanel_filename="nation/extra_panels/trophy info" file="nation/extra_panels/trophies" default_width="-2" priority="4">
 				<record id="object_property" get_property="objt" set_property="objt" />
 			</widget>
 		</container>

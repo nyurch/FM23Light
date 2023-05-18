@@ -5,7 +5,7 @@
 
 	<container>
 		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-		<widget class="team_opposition_report_previous_match_analysis_panel" id="eeff" file="team/team opposition report general performance last match">
+		<widget class="team_opposition_report_previous_match_analysis_panel" id="eeff" file="team/extra_panels/team opposition report general performance last match">
 			<record id="object_property" get_property="objt" set_property="objt" />
 		</widget>
 	</container>

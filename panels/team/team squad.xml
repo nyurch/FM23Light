@@ -79,7 +79,7 @@
 			<!-- squad personality widget -->
 			<container class="main_box_no_margin">
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-				<container class="club_overview_panel" file="club/facts">
+				<container class="club_overview_panel" file="club/extra_panels/facts">
 					<record id="object_property" get_property="Csca" set_property="Csca"/>
 				</container>
 			</container>

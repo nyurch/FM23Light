@@ -284,7 +284,7 @@
 			<container id="tab3">
 				<translation id="title" translation_id="538889" type="use" value="Headline Stories[COMMENT: AREA: UI; SUB-AREA: deadline day transfer news panel; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: section title for list of deadline day headline transfer stories]" />
 				<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
-				<container class="transfer_window_news_panel" file="competition/transfer window news inbox panel">
+				<container class="transfer_window_news_panel" file="competition/extra_panels/transfer window news inbox panel">
 					<record id="object_property">
 						<integer id="get_property" value="objt" />
 						<integer id="set_property" value="objt" />

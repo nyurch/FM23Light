@@ -7,7 +7,7 @@
 
 		<widget class="team_staff_subteam_overview_panel" id="ovvw" link="true"/>
 		<widget class="team_staff_attributes_comparison_panel" id="tsac"/>
-		<widget class="team_container_staff_details_panel" file="team/team container staff details panel custom" id="deta" />
+		<widget class="team_container_staff_details_panel" file="team/extra_panels/team container staff details panel custom" id="deta" />
 	</container>
 
 </panel>

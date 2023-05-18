@@ -13,7 +13,7 @@
 	</widget>
 	-->
 
-	<widget class="team_opposition_scout_report_panel" file="team/team opposition manager for human home" id="tosr">
+	<widget class="team_opposition_scout_report_panel" file="team/extra_panels/team opposition manager for human home" id="tosr">
 		<translation id="title" type="use" value="Opposition Manager" />
 	</widget>
 
