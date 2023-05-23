@@ -169,6 +169,7 @@
 	<colour name="selection"														value="fg accent"/>
 	<colour name="disabled"															value="fg alpha"/>
 	<colour name="disabled light"													value="rgba(255,255,255,0.5)"/>
+	<colour name="onboarding sidebar disabled"										value="rgba(130,130,130,0.5)"/>
 	<colour name="transparent"														value="rgba(255,255,255,0.0)" />
 	<colour name="faded white"														value="rgba(255,255,255,0.7)"/>
 	<colour name="faded black"														value="rgba(0,0,0,0.7)"/>
@@ -270,12 +271,6 @@
 	<colour name="switch_on"													value="fg accent"/>
 	<colour name="switch_off"													value="fg"/>
 
-	<!-- Table row colours -->
-	<colour name="table_heading"												value="bg"/>
-	<colour name="table_row_alternate"											value="fg"/>
-	<colour name="table_row_over"												value="fg"/>
-	<colour name="table_row_selected"											value="fg accent"/>
-
 	<colour name="xg01"															value="fg range1"/>
 	<colour name="xg02"															value="fg range3"/>
 	<colour name="xg03"															value="fg range5"/>
@@ -287,6 +282,10 @@
 	<colour name="xg09"															value="fg range17"/>
 
 	<!-- Table row colours -->
+	<colour name="table_heading"											value="bg"/>
+	<colour name="table_row_alternate"										value="fg"/>
+	<colour name="table_row_over"											value="fg"/>
+	<colour name="table_row_selected"										value="fg accent"/>
 	<colour name="squad_outside"											value="bg grey"/>
 	<colour name="squad_substitute"											value="bg grey darker"/>
 	<colour name="object_explorer_normal"									value="fg"/>
@@ -1083,6 +1082,8 @@
 	<colour name="key tackles colour"													value="rgb(242,46,41)"/>
 	<colour name="normal tackles colour"												value="rgba(50,50,50)"/>
 	<colour name="stats filler colour"													value="rgb(150,150,150)"/>
+	<colour name="chances created colour"												value="rgb(187,38,73)"/>
+	<colour name="crosses completed colour"												value="fg orange"/>
 
 	<!-- match shot analysis colours -->
 	<colour name="shot analysis goal"												value="rgb(65,128,62)"/>
