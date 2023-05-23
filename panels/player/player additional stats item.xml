@@ -1,0 +1,15 @@
+<panel>
+	<list id="properties_to_forward">
+		<record get_property="size" set_property="size" target="PCVL"/>
+		<record get_property="size" set_property="size" target="stVL"/>
+	</list>
+
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="2" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+	<widget class="text" id="sttx" colour="disabled" font="title" style="semi_bold" size="normal" alignment="left" auto_size="vertical"/>
+	<container>
+		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_offset="0" vertical_inset="0" />
+		<widget class="formatted_label" format="[%fraction#1-1.0]" size="14" id="stVL" auto_size="all" alignment="left,centre_y"/>
+		<widget class="formatted_label" format="([%fraction#1-1.0]%)" size="14" id="PCVL" auto_size="all" alignment="left,centre_y"/>
+	</container>
+</panel>
