@@ -52,13 +52,22 @@
 							<string id="remove_if" value="ui.is_fmt_touchscreen_skin"/>
 							<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" />
 							<widget class="quick_flick_button" id="flkl" auto_size="all" appearance="icons/16px/up" icon_enabled="true" cached="true" step="-1" red_replacement="white">
-								<layout class="stick_to_sides_attachment" alignment="left,top" inset="12,0,0,0" />
+								<layout class="stick_to_sides_attachment" alignment="left,top" inset="27,0,0,0" />
 								<attachment class="get_global_attachment" get_property="stPQ" set_property="click_event" />
 							</widget>
 							<widget class="quick_flick_button" id="flkr" auto_size="all" appearance="icons/16px/down" cached="true" step="1" red_replacement="white">
-								<layout class="stick_to_sides_attachment" alignment="left,top" inset="26,0,0,0" />
+								<layout class="stick_to_sides_attachment" alignment="left,top" inset="41,0,0,0" />
 								<attachment class="get_global_attachment" get_property="stNQ" set_property="click_event" />
 							</widget>
+							<widget class="popup_button" appearance="buttons/custom/customise panel/button" icon="icons/16px/menu" secondary_icon_enabled="false" fixed="true" cached="true" red_replacement="white" icon_colour="white" width="16">
+							<layout class="stick_to_sides_attachment" alignment="left,top" inset="55,0,0,0" />
+							<attachment class="get_global_attachment" get_property="lnks" set_property="itms"/>
+							<attachment class="test_global_attachment" get_property="lnks" set_property="hidn">
+								<list id="value">
+									<integer value="0"/>
+								</list>
+							</attachment>
+						</widget>
 						</container>
 					</container>
 					<!--object name and search bar-->
