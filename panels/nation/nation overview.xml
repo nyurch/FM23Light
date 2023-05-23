@@ -130,7 +130,7 @@
 					<translation id="hint" translation_id="323322" type="use" value="View Fixtures" />
 
 					<!--upcoming fixtures-->
-					<widget class="team_upcoming_fixture_info_panel" id="tmip" file="nation/team upcoming fixture info nation profile">
+					<widget class="team_upcoming_fixture_info_panel" id="tmip" file="nation/extra_panels/team upcoming fixture info nation profile">
 						<record id="object_property">
 							<integer id="get_property" value="NnfP" />
 							<integer id="set_property" value="valu" />
