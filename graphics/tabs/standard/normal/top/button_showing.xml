@@ -11,13 +11,13 @@
 	<record id="image_slices" left="10" right="10"/>
 
 	<record id="font_spec">
-		<colour id="colour" name="fg"/>
+		<colour id="colour" name="fg magenta"/>
 	</record>
 
-	<colour id="red_replacement" name="orange"/>
+	<colour id="red_replacement" name="fg magenta"/>
 	<colour id="blue_replacement" name="card bg"/>
 
-	<record id="primary_icon_properties" red_replacement="fg" />
-	<record id="secondary_icon_properties" red_replacement="fg"/>
+	<record id="primary_icon_properties" red_replacement="fg magenta" />
+	<record id="secondary_icon_properties" red_replacement="fg magenta"/>
 
 </properties>
