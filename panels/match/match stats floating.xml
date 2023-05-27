@@ -11,6 +11,19 @@
 		<widget class="weather_indicator_panel_centred" id="FxWe">
 			<record id="object_property" get_property="FxWe" />
 		</widget>
+		<!--competition-->
+		<container>
+			<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="middle" />
+			<widget class="label" auto_size="all">
+				<translation id="text" translation_id="227740" type="use" value="Competition" />
+			</widget>
+			<widget class="label" auto_size="all">
+				<translation id="text" type="use" value="-" />
+			</widget>
+			<widget class="fixture_name_text" auto_size="all">
+				<record id="object_property" get_property="FxNm" />
+			</widget>
+		</container>
 		<!--referee-->
 		<container>
 			<global id="hidden" name="game_mode_is_console_mode" />
@@ -18,19 +31,12 @@
 			<widget class="label" auto_size="all">
 				<translation id="text" translation_id="227993" type="use" value="Referee" />
 			</widget>
+			<widget class="label" auto_size="all">
+				<translation id="text" type="use" value="-" />
+			</widget>
 			<widget class="person_button" auto_size="all">
 				<flags id="colour" value="text" />
 				<record id="object_property" get_property="FRef" dont_set_hint="true" />
-			</widget>
-		</container>
-		<!--competition-->
-		<container>
-			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
-			<widget class="label" auto_size="all">
-				<translation id="text" translation_id="227740" type="use" value="Competition" />
-			</widget>
-			<widget class="fixture_name_text" auto_size="all">
-				<record id="object_property" get_property="FxNm" />
 			</widget>
 		</container>
 		<!--attendance-->
@@ -38,6 +44,9 @@
 			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
 			<widget class="label" auto_size="all">
 				<translation id="text" translation_id="247242" type="use" value="Attendance" />
+			</widget>
+			<widget class="label" auto_size="all">
+				<translation id="text" type="use" value="-" />
 			</widget>
 			<widget class="number_label" auto_size="all">
 				<record id="object_property" get_property="FxEA" dont_set_hint="true" />
