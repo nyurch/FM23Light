@@ -1,0 +1,542 @@
+<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+		<container class="vertical_adaptive_container" gap="2" mode="distribute_equally" default_width="-1">
+
+			<!-- shooting -->
+			<container class="horizontal_adaptive_container" gap="2" mode="distribute_equally" default_height="-1">
+
+				<record id="default_properties" red_replacement="fg magenta" default_width="-1"/>
+
+				<container class="contrast_box_no_margin" default_width="80">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+					<widget class="label" font="title" multiline="true" size="xsmall" style="bold" alignment="centre_x,centre_y" colour="gold">
+						<translation id="text" type="use" translation_id="229306" />
+					</widget>
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="291479" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POsg"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="247334" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POgg"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="514224" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="PxG9"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="552418" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="PNx9"/>
+					</widget>
+
+				</container>
+
+			</container>
+
+			<!-- assists -->
+			<container class="horizontal_adaptive_container" gap="2" mode="distribute_equally" default_height="-1">
+
+				<record id="default_properties" red_replacement="green 900" default_width="-1"/>
+
+				<container class="contrast_box_no_margin" default_width="80">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+					<widget class="label" font="title" multiline="true" size="xsmall" style="bold" alignment="centre_x,centre_y" colour="gold">
+						<translation id="text" type="use" translation_id="227847" value="Assists" />
+					</widget>
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="249456" value="Assists per 90 minutes"/>
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POag"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="551844" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="PxA9"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="513427" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POcG"/>
+					</widget>
+
+				</container>
+
+			</container>
+
+			<!-- passing -->
+			<container class="horizontal_adaptive_container" gap="2" mode="distribute_equally" default_height="-1">
+
+				<record id="default_properties" red_replacement="green 800" default_width="-1"/>
+
+				<container class="contrast_box_no_margin" default_width="80">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+					<widget class="label" font="title" multiline="true" size="xsmall" style="bold" alignment="centre_x,centre_y" colour="gold">
+						<translation id="text" type="use" translation_id="242528" />
+					</widget>
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="248755" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POpg"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="249083" />
+					</widget>
+
+					<widget class="dashed_record_percentage_label" colour="white" size="small" alignment="centre_x,top" style="semi_bold">
+						<record id="object_property" get_property="Popa"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="552423" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="PGR9"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="318355" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POkG"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="554502" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="Pop9"/>
+					</widget>
+
+				</container>
+
+			</container>
+
+			<!-- wing play -->
+			<container class="horizontal_adaptive_container" gap="2" mode="distribute_equally" default_height="-1">
+				<record id="default_properties" red_replacement="green 700" default_width="-1"/>
+
+				<container class="contrast_box_no_margin" default_width="80">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+					<widget class="label" font="title" multiline="true" size="xsmall" style="bold" alignment="centre_x,centre_y" colour="gold">
+						<translation id="text" type="use" translation_id="319530" />
+					</widget>
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="542444" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="Podr"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="297348" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="Poa9"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="317303" />
+					</widget>
+
+					<widget class="dashed_record_percentage_label" colour="white" size="small" alignment="centre_x,top" style="semi_bold">
+						<record id="object_property" get_property="POcr"/>
+					</widget>
+
+				</container>
+
+			</container>
+
+			<!-- aerial -->
+			<container class="horizontal_adaptive_container" gap="2" mode="distribute_equally" default_height="-1">
+
+				<record id="default_properties" red_replacement="blue 900" default_width="-1"/>
+				<container class="contrast_box_no_margin" default_width="80">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+					<widget class="label" font="title" multiline="true" size="xsmall" style="bold" alignment="centre_x,centre_y" colour="gold">
+						<translation id="text" type="use" translation_id="492252" />
+					</widget>
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="513455" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POhg"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="388157" />
+					</widget>
+
+					<widget class="dashed_record_percentage_label" colour="white" size="small" alignment="centre_x,top" style="semi_bold">
+						<record id="object_property" get_property="POhr"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="388191" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POH9"/>
+					</widget>
+
+				</container>
+
+			</container>
+
+			<!-- tackling -->
+			<container class="horizontal_adaptive_container" gap="2" mode="distribute_equally" default_height="-1">
+				<record id="default_properties" red_replacement="blue 800" default_width="-1"/>
+
+				<container class="contrast_box_no_margin" default_width="80">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+					<widget class="label" font="title" multiline="true" size="xsmall" style="bold" alignment="centre_x,centre_y" colour="gold">
+						<translation id="text" type="use" translation_id="436129" />
+					</widget>
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="554494" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="PRS9"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="554496" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="Prs9"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="248757" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="Pota"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="388933" />
+					</widget>
+
+					<widget class="dashed_record_percentage_label" colour="white" size="small" alignment="centre_x,top" style="semi_bold">
+						<record id="object_property" get_property="POtr"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="248758" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POt9"/>
+					</widget>
+
+				</container>
+
+			</container>
+
+			<!-- reading -->
+			<container class="horizontal_adaptive_container" gap="2" mode="distribute_equally" default_height="-1">
+				<record id="default_properties" red_replacement="blue 700" default_width="-1"/>
+
+				<container class="contrast_box_no_margin" default_width="80">
+					<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+					<widget class="label" font="title" multiline="true" size="xsmall" style="bold" alignment="centre_x,centre_y" colour="gold">
+						<translation id="text" type="use" translation_id="252485" />
+					</widget>
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="291486" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POiG"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="513438" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="POc9"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="513435" />
+					</widget>
+
+					<widget class="dashed_number_label" style="semi_bold"  colour="white" size="small" alignment="centre_x,top">
+						<record id="object_property" get_property="PObg"/>
+					</widget>
+
+				</container>
+
+				<container class="contrast_box" >
+					<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+					<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+						<translation id="text" type="use" translation_id="289453" />
+					</widget>
+
+					<widget class="distance_label" colour="white" size="small" alignment="centre_x,top" style="semi_bold">
+						<record id="object_property" get_property="PODr"/>
+					</widget>
+
+				</container>
+
+			</container>
+
+			<!-- goalkeeper -->
+			<container default_height="-1">
+				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+				<!-- hides the row if not a goalkeeper -->
+				<!-- pigo is a predefined boolean. hidn tells the game to hide it -->
+				<container>
+					<attachment_group class="vertical_arrange_autosize" />
+					<record id="object_property" get_property="Pigo" set_property="hidn"/>
+				</container>
+
+				<container class="horizontal_adaptive_container" gap="2" mode="distribute_equally" >
+					<!-- shows the row if a goalkeeper -->
+					<!-- pigo is a predefined boolean. shwn tells the game to hide it -->
+					<!-- basically says if player is goalkeeper, show -->
+					<record id="object_property" get_property="Pigo" set_property="Shwn"/>
+
+					<record id="default_properties" red_replacement="purple 900" default_width="-1"/>
+
+					<container class="contrast_box_no_margin" red_replacement="purple 900" default_width="80">
+						<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+						<widget class="label" font="title" multiline="true" size="xsmall" style="bold" alignment="centre_x,centre_y" colour="gold">
+							<translation id="text" type="use" translation_id="258722" />
+						</widget>
+					</container>
+
+					<container class="contrast_box" >
+						<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+						<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+							<translation id="text" type="use" translation_id="513486" />
+						</widget>
+
+						<widget class="dashed_record_percentage_label" colour="white" size="small" alignment="centre_x,top" style="semi_bold">
+							<record id="object_property" get_property="POs%"/>
+						</widget>
+
+					</container>
+
+					<container class="contrast_box" >
+						<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+						<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+							<translation id="text" type="use" translation_id="317291" />
+						</widget>
+
+						<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+							<record id="object_property" get_property="POg9"/>
+						</widget>
+
+					</container>
+
+					<container class="contrast_box" >
+						<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+						<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+							<translation id="text" type="use" translation_id="534930" />
+						</widget>
+
+						<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+							<record id="object_property" get_property="Pxg9"/>
+						</widget>
+
+					</container>
+
+					<container class="contrast_box" >
+						<layout class="vertical_arrange" vertical_layout="-1,-1" offset="0" inset="0" gap="0" draw_horizontal_dividers="false"/>
+
+						<widget class="label" font="title" size="small" style="bold" multiline="true" alignment="centre_x,top" colour="white">
+							<translation id="text" type="use" translation_id="247734" />
+						</widget>
+
+						<widget class="dashed_number_label" style="semi_bold" colour="white" size="small" alignment="centre_x,top">
+							<record id="object_property" get_property="POcg"/>
+						</widget>
+
+					</container>
+
+				</container>
+			</container>
+
+		</container>
+
+</panel>

@@ -415,6 +415,14 @@
 					<record id="object_property" get_property="objt" set_property="objt"/>
 				</widget>
 			</container>
+			<!-- 90min Stats -->
+			<container id="po33">
+				<translation id="title" translation_id="382745" type="use" value="Per 90 Minutes[COMMENT: section title; displayed stats that the units are based per 90 minutes]" />
+				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+				<widget class="client_object_viewer_xml_panel" file="player/extra_panels/player overview tabs/90min/90min stats panel">
+					<record id="object_property" get_property="objt" set_property="objt"/>
+				</widget>
+			</container>
 			<!-- Training -->
 			<container id="po07">
 				<translation id="title" translation_id="242773" type="use" value="Training"/>
