@@ -9,7 +9,7 @@
 	<!-- panel for no data available-->
 	<container class="empty_state" id="nost" header_widget="BShe" hidden="true">
 		<widget class="text" id="BShe">
-			<translation id="text" translation_id="260962" type="use" value="No matches played yet[COMMENT comp player stats panel: no matches: title]" />
+			<translation id="text" translation_id="562633" type="use" value="No match stats available[COMMENT: AREA: Scouting; SUB-AREA: Player stats panel/widget; FR-BN: FM-11536; NOTE: Fallback string, when the stats widget is hidden due to stats not being available - either player has not played any games yet, or has only played friendlies, where stats are not tracked]" />
 		</widget>
 	</container>
 
