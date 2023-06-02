@@ -1,0 +1,321 @@
+<panel width="1020">
+	<flags id="cancel_mouse_hide" value="true" />
+
+	<attachment_group class="vertical_arrange_autosize">
+		<global id="horizontal_inset" name="ui.safe_area_right"/>
+	</attachment_group>
+
+	<container class="standard_popup_box" draw_horizontal_dividers="true">
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
+
+		<widget class="match_playback_control_container" id="mpcc">
+			<string id="create_if" value="is_fmt" />
+		</widget>
+
+		<container>
+
+			<attachment_group class="vertical_arrange_autosize" vertical_gap="0" />
+
+			<container draw_vertical_dividers="true">
+				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="8" vertical_inset="8" horizontal_gap="20" />
+
+				<!--camera-->
+				<container class="inner_box" id="CSCT" navigation_container="true">
+					<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
+
+					<container>
+
+						<attachment_group class="vertical_arrange_autosize" />
+
+						<widget class="text" font="title" auto_size="vertical" colour="accent">
+							<translation id="text" translation_id="306797" type="use" value="Camera[COMMENT: button which offers the user options to change the camera angle]" />
+						</widget>
+
+						<!--camera-->
+						<widget class="left_right_list" id="cams" select_event="chcm" value="2" height="30">
+							<translation id="text" translation_id="284289" type="use" value="Camera[COMMENT - view selection popup for match screen]" />
+						</widget>
+
+					</container>
+
+					<container>
+
+						<attachment_group class="vertical_arrange_autosize" />
+
+						<!--camera height-->
+						<widget class="text" font="title" colour="faded text" alignment="left,centre_y" auto_size="vertical">
+							<translation id="text" translation_id="441072" type="use" value="Camera Height[COMMENT: button which offers the user options to change the camera height]" />
+						</widget>
+
+						<widget class="slider_horizontal" id="CaHe" height="22" width="160" max_value="5" min_value="1" value="1" notch_frequency="1" draw_notches="false" draw_middle_notch="true" final_changed_event="CaHe" />
+
+					</container>
+
+					<container>
+
+						<attachment_group class="vertical_arrange_autosize" />
+
+						<!--camera zoom-->
+						<widget class="text" font="title" colour="faded text" alignment="left,centre_y" auto_size="vertical">
+							<translation id="text" translation_id="441073" type="use" value="Camera Zoom[COMMENT: button which offers the user options to change the camera zoom]" />
+						</widget>
+						<widget class="slider_horizontal" id="CaZo" height="22" width="160" max_value="5" min_value="1" value="1" notch_frequency="1" draw_notches="false" draw_middle_notch="true" final_changed_event="CaZo" />
+
+					</container>
+
+					<!--camera mirror-->
+					<widget class="check_box" id="CaMi" click_event="CaMi" colour="black" auto_size="all">
+						<translation id="text" translation_id="321098" type="use" value="Reversed[COMMENT - camera type]" />
+					</widget>
+
+					<container>
+						<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" />
+
+						<container>
+							<attachment_group class="vertical_arrange_autosize" />
+
+							<!--sound options-->
+							<widget class="text" auto_size="all" font="title" colour="faded text">
+								<translation id="text" translation_id="332277" type="use" value="Sounds[COMMENT:Label for selecting whether sound is on or off]" />
+							</widget>
+
+							<container>
+								<attachment_group class="horizontal_arrange_autosize_all">
+									<global id="horizontal_gap" name="ui.split_button_row_gap" />
+								</attachment_group>
+
+								<widget class="radio_button" id="SoOn" select_event="SoOn" auto_size="horizontal" appearance="switches/toggle/left/button">
+									<translation id="text" translation_id="332255" type="use" value="On[COMMENT: label for a radio button to turn sound on]" />
+									<string id="icon" value="" />
+									<string id="show_button_appearance" value="true" />
+								</widget>
+
+								<widget class="radio_button" id="SoOf" select_event="SoOf" auto_size="horizontal" appearance="switches/toggle/right/button">
+									<translation id="text" translation_id="332254" type="use" value="Off[COMMENT: label for a radio button to turn sound off]" />
+									<string id="icon" value="" />
+									<string id="show_button_appearance" value="true" />
+								</widget>
+
+							</container>
+
+						</container>
+
+						<container>
+							<attachment_group class="vertical_arrange_autosize" />
+
+							<!--music options-->
+							<widget class="text" auto_size="all" font="title" colour="faded text">
+								<translation id="text" translation_id="557970" type="use" value="Music[COMMENT: AREA: Preferences; SUB-AREA: Game Settings; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: n/a; NOTE: music setting]" />
+							</widget>
+
+							<container>
+								<attachment_group class="horizontal_arrange_autosize_all">
+									<global id="horizontal_gap" name="ui.split_button_row_gap" />
+								</attachment_group>
+
+								<widget class="radio_button" id="MuOn" select_event="MuOn" auto_size="horizontal" appearance="switches/toggle/left/button">
+									<translation id="text" translation_id="332255" type="use" value="On[COMMENT: label for a radio button to turn sound on]" />
+									<string id="icon" value="" />
+									<string id="show_button_appearance" value="true" />
+								</widget>
+
+								<widget class="radio_button" id="MuOf" select_event="MuOf" auto_size="horizontal" appearance="switches/toggle/right/button">
+									<translation id="text" translation_id="332254" type="use" value="Off[COMMENT: label for a radio button to turn sound off]" />
+									<string id="icon" value="" />
+									<string id="show_button_appearance" value="true" />
+								</widget>
+
+							</container>
+
+
+
+						</container>
+
+					</container>
+
+				</container>
+
+				<!--highlights-->
+				<container class="inner_box" navigation_container="true">
+					<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
+
+					<container id="hlmC">
+						<attachment_group class="vertical_arrange_autosize" />
+
+							<widget class="text" font="title" auto_size="vertical" colour="accent">
+								<translation id="text" translation_id="247164" type="use" value="Highlights" />
+							</widget>
+
+							<widget class="selection_list" id="hlmf" select_event="hmsl" fixed="false" auto_tick_exclusive="true" value="0" auto_size="vertical" hide_alternative_widget="true" hide_plus_minus_buttons="true">
+								<list id="items">
+									<record id="HMfm" tkex="true">
+										<translation id="name" translation_id="247337" type="use" value="Full Match" />
+									</record>
+									<record id="HMex" tkex="true">
+										<translation id="name" translation_id="441075" type="use" value="Comprehensive Highlights[COMMENT: match highlights type]" />
+									</record>
+									<record id="HMky" tkex="true">
+										<translation id="name" translation_id="441076" type="use" value="Extended Highlights[COMMENT: match highlights type]" />
+									</record>
+									<record id="HMga" tkex="true">
+										<translation id="text" translation_id="441077" type="use" value="Key Highlights[COMMENT: match highlights type]" />
+									</record>
+									<record id="HMoc" tkex="true">
+										<translation id="name" translation_id="247340" type="use" value="Only Commentary" />
+									</record>
+								</list>
+							</widget>
+
+					</container>
+
+					<container id="vlmC">
+						<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="4" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+						<widget class="text" font="title" colour="faded text" alignment="left,centre_y" auto_size="vertical" multiline="false">
+							<translation id="text" translation_id="227629" type="use" value="View Highlights" />
+						</widget>
+
+						<widget class="popup_button" id="vlmf" select_event="hmsl" fixed="false" auto_tick_exclusive="true" value="0" height="30">
+							<translation id="text" translation_id="242438" value="Choose..." type="use" />
+							<list id="items">
+								<record id="vgls" event_id="vgls" type="5">
+									<translation id="name" translation_id="227857" type="use" value="Goals" />
+								</record>
+								<record id="vkey" event_id="vkey" type="3">
+									<translation id="name" translation_id="330180" type="use" value="Key[COMMENT: match highlights type]" />
+								</record>
+								<record id="vext" event_id="vext" type="2">
+									<translation id="name" translation_id="329930" type="use" value="Extended[COMMENT: match highlights type]" />
+								</record>
+								<record id="vcom" event_id="vcom" type="1">
+									<translation id="name" translation_id="329863" type="use" value="Comprehensive[COMMENT: match highlights type]" />
+								</record>
+								<record id="----" />
+								<record id="exit" event_id="exit">
+									<translation id="text" translation_id="247354" type="use" value="Exit Highlights" />
+								</record>
+							</list>
+						</widget>
+
+					</container>
+
+					<container id="HlSS">
+						<attachment_group class="vertical_arrange_autosize" vertical_gap="5" vertical_offset="0" horizontal_alignment="horizontal" horizontal_inset="0" />
+
+						<container>
+
+							<attachment_group class="vertical_arrange_autosize" />
+
+							<!--during 3d highlights-->
+							<widget class="text" auto_size="vertical" font="title" colour="faded text" multiline="false">
+								<translation id="text" translation_id="348200" type="use" value="Match Speed During Highlights[COMMENT:highlights speed control on match screen]" />
+							</widget>
+
+							<widget class="delayed_slider_horizontal" id="fhsp" height="22" max_value="15" min_value="1" value="1" notch_frequency="1" draw_notches="false" draw_middle_notch="true" final_changed_event="sped" disable_animations="true" />
+
+						</container>
+
+						<container>
+
+							<attachment_group class="vertical_arrange_autosize" />
+
+							<!--during text-only highlights-->
+							<widget class="text" id="ftTi" auto_size="vertical" font="title" colour="faded text" multiline="false">
+								<translation id="text" translation_id="491930" type="use" value="Match Speed During Text-Only Highlights[COMMENT: AREA: Preferences; SUB-AREA: In-Game Preferences; FR-BN: n/a; TONE: Informal; CHARLIMIT: None; REF-ID: 348200; NOTE: preference strings and explanations]" />
+							</widget>
+
+							<widget class="delayed_slider_horizontal" id="ftsp" height="22" max_value="15" min_value="1" value="1" notch_frequency="1" draw_notches="false" draw_middle_notch="true" final_changed_event="tspe" disable_animations="true" />
+
+						</container>
+
+						<container>
+
+							<attachment_group class="vertical_arrange_autosize" />
+
+							<!--between highlights-->
+							<widget class="text" id="BtwH" auto_size="vertical" font="title" colour="faded text" multiline="false">
+								<translation id="text" translation_id="348199" type="use" value="Match Speed Between Highlights[COMMENT:match text speed control on match screen for when no highlights are being shown]" />
+							</widget>
+
+							<widget class="delayed_slider_horizontal" id="fmsp" height="22" max_value="5" min_value="1" value="1" notch_frequency="1" draw_notches="false" draw_middle_notch="true" final_changed_event="mspd" animation_file="true" />
+
+						</container>
+					</container>
+				</container>
+
+
+				<container class="inner_box" navigation_container="true" id="repl">
+					<attachment_group class="vertical_arrange_autosize" vertical_gap="8" />
+
+					<widget class="text" font="title" auto_size="vertical" colour="accent">
+						<translation id="text" translation_id="334019" type="use" value="Replays[Label for selecting highlights mode]" />
+					</widget>
+
+					<container>
+						<layout class="fit_children_attachment" alignment="vertical,extend" gap="5" offset="0" />
+						<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" gap="5" auto_size="vertical" />
+						<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" inset="0" />
+
+						<container height="30">
+							<attachment_group class="horizontal_arrange_autosize">
+								<global id="horizontal_gap" name="ui.split_button_row_gap" />
+							</attachment_group>
+
+							<widget class="radio_button" id="rpon" select_event="rpon" auto_size="horizontal" appearance="switches/toggle/left/button">
+								<translation id="text" translation_id="332255" type="use" value="On[COMMENT: label for a radio button to turn sound on]" />
+								<string id="icon" value="" />
+								<string id="show_button_appearance" value="true" />
+							</widget>
+
+							<widget class="radio_button" id="rpof" select_event="rpof" auto_size="horizontal" appearance="switches/toggle/right/button">
+								<translation id="text" translation_id="332254" type="use" value="Off[COMMENT: label for a radio button to turn sound off]" />
+								<string id="icon" value="" />
+								<string id="show_button_appearance" value="true" />
+							</widget>
+
+						</container>
+
+						<container>
+							<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right" />
+
+
+							<widget class="widget_popup_button" id="rpmf" widget_type="match_settings_replay_types_panel" popup_alignment="right,bottom" auto_size="all" appearance="buttons/subtle/normal/button">
+								<translation id="text" translation_id="441079" type="use" value="Replay Events...[COMMENT: FR21688, title for a button to allow the user to choose which events are replayed automatically]" />
+							</widget>
+
+						</container>
+
+					</container>
+
+					<container>
+
+						<attachment_group class="vertical_arrange_autosize" />
+
+						<widget class="text" font="title" colour="faded text" alignment="left,centre_y" auto_size="vertical">
+							<translation id="text" translation_id="441078" type="use" value="Replay Camera[COMMENT: button which offers the user options to change the replay camera angle]" />
+						</widget>
+						<widget class="popup_button" id="camr" fixed="true" select_event="chrc" auto_tick_exclusive="true" value="2" width="150" auto_size="vertical">
+						</widget>
+					</container>
+				</container>
+
+			</container>
+
+			<container height="30" navigation_container="true">
+				<attachment_group class="button_arrangement_right" />
+
+				<widget class="subtle_button" auto_size="horizontal">
+					<translation id="text" translation_id="515072" type="use" value="View All Match Preferences[COMMENT: AREA: Match; SUB-AREA: Match Preferences popup; FR: ; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: Button to open the full preferences dialog]" />
+					<record id="click_event">
+						<flags id="event_id" value="PREF" />
+						<flags id="event_target" value="scrC" />
+						<flags id="view" value="prMp" />
+					</record>
+				</widget>
+			</container>
+
+		</container>
+
+	</container>
+
+</panel>
