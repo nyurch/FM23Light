@@ -109,11 +109,11 @@
 						</container>
 					</container>
 
-					<container class="inner_subtle_box" appearance="boxes/custom/warning/rounded/paper" id="wrnc" hidden="true" red_replacement="negative dark">
+					<container class="contrast_box" id="wrnc" hidden="true" red_replacement="negative dark">
 						<attachment_group class="horizontal_arrange_vertical_autosize" vertical_alignment="bottom" horizontal_alignment="right,extend" vertical_inset="4" horizontal_offset="4"/>
 
-						<widget class="text" auto_size="vertical" alignment="right,centre_y" id="wrnt" colour="white" />
-						<widget class="picture" file="icons/16px/urgent" auto_size="all" image_alignment="centre" red_replacement="white"/>
+						<widget class="text" auto_size="vertical" alignment="right,centre_y" id="wrnt" colour="black" />
+						<widget class="picture" file="icons/16px/urgent" auto_size="all" image_alignment="centre" red_replacement="black"/>
 					</container>
 
 					<!-- buttons row -->
