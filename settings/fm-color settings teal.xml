@@ -1618,9 +1618,9 @@
 	<colour name="team talk addressing"											value="cyan 300"/>
 
 	<!--dynamics-->
-	<colour name="dynamics team leader"										value="fg green"/>
-	<colour name="dynamics leading player"									value="fg yellow"/>
-	<colour name="dynamics influential player"								value="fg orange"/>
+	<colour name="dynamics team leader"										value="green 500"/>
+	<colour name="dynamics leading player"									value="green 300"/>
+	<colour name="dynamics influential player"								value="green 100"/>
 	<colour name="dynamics squad player"									value="fg blue"/>
 
 	<colour name="squad highlight"											value="blue 500"/>
