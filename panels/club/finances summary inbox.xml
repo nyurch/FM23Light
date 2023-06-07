@@ -292,7 +292,7 @@
 				<container>
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_offset="0" vertical_inset="8" />
 
-					<widget class="picture" id="f1ic" height="16" width="16" image_alignment="left,top" />
+					<widget class="picture" id="f1ic" background_colour="white" height="16" width="16" image_alignment="left,top" />
 
 					<widget class="text" auto_size="none" id="f1sl" colour="white" style="bold" font="text" size="small" />
 
