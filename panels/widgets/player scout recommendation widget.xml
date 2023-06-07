@@ -1,7 +1,7 @@
 ﻿<panel>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
-	<widget class="text" alignment="centre" id="norp" multiline="true" colour="text" font="bold">
+	<widget class="text" alignment="centre" id="norp" multiline="true" colour="white" font="bold">
 		<string id="text" value="-" />
 	</widget>
 
