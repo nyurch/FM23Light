@@ -1,0 +1,20 @@
+<record>
+<!-- custom font for the white text in contrast boxes -->
+
+	<string id="file_name" value="text.fontxml"/>
+
+	<integer id="gradient_upper_margin" value="20"/>
+	<integer id="gradient_lower_margin" value="0"/>
+	<integer id="gradient_curve" value="0"/>
+
+	<integer id="gradient_upper_colour_red" value="253"/>
+	<integer id="gradient_upper_colour_green" value="253"/>
+	<integer id="gradient_upper_colour_blue" value="253"/>
+	<integer id="gradient_upper_colour_alpha" value="255"/>
+
+	<integer id="gradient_lower_colour_red" value="254"/>
+	<integer id="gradient_lower_colour_green" value="254"/>
+	<integer id="gradient_lower_colour_blue" value="254"/>
+	<integer id="gradient_lower_colour_alpha" value="255"/>
+
+</record>
