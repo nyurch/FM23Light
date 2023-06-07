@@ -27,7 +27,7 @@
 				</container>
 			</container>
 
-			<widget class="text" id="recw" alignment="left,centre_y" multiline="true" style="bold" auto_size="vertical" colour="white" />
+			<widget class="text_white" id="recw" alignment="left,centre_y" multiline="true" style="bold" auto_size="vertical" colour="white" />
 
 		</container>
 
