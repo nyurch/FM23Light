@@ -123,13 +123,11 @@
 				<widget class="text" id="trvl" alignment="right,centre_y" colour="selection" style="bold" auto_size="horizontal"/>
 			</container>
 
-			<container class="inner_box" appearance="boxes/custom/warning/rounded/paper" id="wrnc" hidden="true" red_replacement="negative dark">
-				<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0"/>
-				<layout class="arrange_horizontal_attachment" alignment="right,extend" offset="2" gap="10"/>
-				<layout class="stick_to_sides_attachment" alignment="top" inset="0" apply_to_children="true"/>
+			<container class="contrast_box" id="wrnc" hidden="true" red_replacement="negative dark">
+				<attachment_group class="horizontal_arrange_vertical_autosize" vertical_alignment="top" horizontal_alignment="left,extend" vertical_inset="4" horizontal_offset="4"/>
 
-				<widget class="text" alignment="right,centre_y" id="wrnt" auto_size="vertical" colour="white"/>
-				<widget class="picture" file="icons/16px/urgent" auto_size="horizontal" image_alignment="centre" red_replacement="white"/>
+				<widget class="picture" file="icons/16px/urgent" auto_size="all" image_alignment="centre" red_replacement="black"/>
+				<widget class="text" auto_size="vertical" alignment="right,centre_y" id="wrnt" colour="black" />
 			</container>
 
 			<!-- buttons row -->
