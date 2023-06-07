@@ -17,13 +17,13 @@
 			</attachment_group>
 
 			<!-- messages from selling clubs -->
-			<container id="clmc" class="main_subtle_box">
-				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="30,-1" />
+			<container id="clmc" class="contrast_box">
+				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="60,-1" />
 
-				<container height="30">
+				<container class="main_contrast_box_no_margin" red_replacement="white" height="60">
 					<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="3"/>
 
-					<widget class="object_portrait_picture" id="clmb" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="24" width="24">
+					<widget class="object_portrait_picture" id="clmb" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="54" width="54">
 						<layout class="centre_in_parent_attachment" alignment="vertical"/>
 					</widget>
 				</container>
@@ -31,7 +31,7 @@
 				<container id="cltc">
 					<attachment_group class="vertical_arrange_autosize" vertical_offset="6"/>
 
-					<widget class="text" id="clmt" auto_size="vertical" colour="white"/>
+					<widget class="text_white" id="clmt" auto_size="vertical" colour="white"/>
 				</container>
 			</container>
 
