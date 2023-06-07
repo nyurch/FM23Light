@@ -110,10 +110,10 @@
 					</container>
 
 					<container class="contrast_box" id="wrnc" hidden="true" red_replacement="negative dark">
-						<attachment_group class="horizontal_arrange_vertical_autosize" vertical_alignment="bottom" horizontal_alignment="right,extend" vertical_inset="4" horizontal_offset="4"/>
+						<attachment_group class="horizontal_arrange_vertical_autosize" vertical_alignment="top" horizontal_alignment="left,extend" vertical_inset="4" horizontal_offset="4"/>
 
-						<widget class="text" auto_size="vertical" alignment="right,centre_y" id="wrnt" colour="black" />
 						<widget class="picture" file="icons/16px/urgent" auto_size="all" image_alignment="centre" red_replacement="black"/>
+						<widget class="text" auto_size="vertical" alignment="right,centre_y" id="wrnt" colour="black" />
 					</container>
 
 					<!-- buttons row -->
