@@ -200,7 +200,7 @@
 						<boolean id="exclude_from_find" value="true" />
 						<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 					</widget>
-					<widget class="label" entity_layout_id="at67" colour="gold" id="f1cn" height="25">
+					<widget class="label" entity_layout_id="at67" style="bold" colour="gold" id="f1cn" height="25">
 						<string id="font" value="value" />
 						<layout class="stick_to_object_attachment" id="alPt" get_side="top" set_side="top" move_side="true" target="main" />
 						<layout class="stick_to_object_attachment" id="alPl" offset="6" get_side="left" set_side="left" target="main" />
@@ -226,7 +226,7 @@
 						</widget>
 						<widget class="text" entity_layout_id="at69" auto_size="vertical" id="f1sl" needs_height="true">
 							<string id="font" value="text" />
-							<string id="size" value="small" />
+							<string id="size" value="normal" />
 							<flags id="colour" value="white" />
 							<layout class="stick_to_object_attachment" id="alPt" get_side="top" set_side="top" move_side="true" target="main" />
 							<layout class="stick_to_object_attachment" id="alPl" offset="6" get_side="right" set_side="left" target="at68" />
