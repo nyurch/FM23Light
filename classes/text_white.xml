@@ -1,0 +1,4 @@
+<class class="text_white" parent="text" alignment="left,centre_y" wants_mouse_events="false" multiline="true">
+  <flags id="font" value="text_white" />
+</class>
+
