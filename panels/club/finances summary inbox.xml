@@ -287,14 +287,14 @@
 			<container default_width="-1" minimum_width="320" id="ffp1">
 				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" vertical_gap="0" horizontal_inset="8" />
 
-				<widget class="label" height="25" id="f1cn" colour="gold" font="value" />
+				<widget class="label" height="25" id="f1cn" style="bold" colour="gold" font="value" />
 
 				<container>
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_offset="0" vertical_inset="8" />
 
 					<widget class="picture" id="f1ic" background_colour="white" height="16" width="16" image_alignment="left,top" />
 
-					<widget class="text" auto_size="none" id="f1sl" colour="white" style="bold" font="text" size="small" />
+					<widget class="text" auto_size="none" id="f1sl" colour="white" style="bold" font="text" size="normal" />
 
 				</container>
 
@@ -304,14 +304,14 @@
 			<container default_width="-1" minimum_width="320" id="ffp2">
 				<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" vertical_gap="0" horizontal_inset="8" />
 
-				<widget class="label" height="25" colour="gold" id="f2cn" font="value" />
+				<widget class="label" height="25" style="bold" colour="gold" id="f2cn" font="value" />
 
 				<container>
 					<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_offset="0" vertical_inset="8" />
 
-					<widget class="picture" id="f2ic" height="16" width="16" image_alignment="left,top" />
+					<widget class="picture" id="f2ic" background_colour="white" height="16" width="16" image_alignment="left,top" />
 
-					<widget class="text" auto_size="none" id="f2sl" colour="white" style="bold" font="text" size="small" />
+					<widget class="text" auto_size="none" id="f2sl" colour="white" style="bold" font="text" size="normal" />
 
 				</container>
 
