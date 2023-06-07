@@ -219,7 +219,7 @@
 							<boolean id="exclude_from_find" value="true" />
 							<layout class="stick_to_sides_attachment" embed_in_frame="true" alignment="all" inset="0" />
 						</widget>
-						<widget class="picture" entity_layout_id="at68" id="f1ic" auto_size="all" needs_width="true" needs_height="true">
+						<widget class="picture" entity_layout_id="at68" id="f1ic" background_colour="white" auto_size="all" needs_width="true" needs_height="true">
 							<string id="image_alignment" value="left,top" />
 							<layout class="stick_to_object_attachment" id="alPt" offset="2" get_side="top" set_side="top" move_side="true" target="main" />
 							<layout class="stick_to_object_attachment" id="alPl" offset="6" get_side="left" set_side="left" move_side="true" target="main" />
