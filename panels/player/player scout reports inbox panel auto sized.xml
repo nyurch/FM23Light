@@ -1,4 +1,4 @@
-<panel save_session_state="true">
+<panel display_grade_colour_in_text="true">
 	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" />
 
 	<boolean id="is_in_inbox" value="true" />
@@ -432,7 +432,7 @@
 			</container>
 
 			<!-- recommendation box-->
-			<container class="main_subtle_box" id="SMbx" height="60">
+			<container class="main_contrast_box" id="SMbx" height="60">
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 				<widget class="text" id="SMtx" spec="text" size="large" font="bold" alignment="centre" colour="white" multiline="true" />
