@@ -8,7 +8,7 @@
 	<container class="bordered_box" appearance="boxes/custom/inbox attachment/personal/paper">
 		<attachment_group class="vertical_arrange_autosize" vertical_alignment="middle, extend" horizontal_inset="0" vertical_gap="10" />
 
-		<widget class="text" id="cmTT" font="title" size="12" colour="white" auto_size="vertical" />
+		<widget class="text" id="cmTT" font="title" size="12" colour="accent" auto_size="vertical" />
 
 		<widget class="table" id="lfxT" layout="80, 50, 50, -1, 100, 75, 50" auto_size_rows="true" mode="stripe_rows" auto_size="vertical">
 			<list id="column_table_properties">
