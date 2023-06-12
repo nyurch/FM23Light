@@ -35,7 +35,7 @@
 		</widget>
 	</container>
 
-	<widget class="text" auto_size="vertical" font="title" colour="white" size="12">
+	<widget class="text" auto_size="vertical" font="title" colour="accent" size="12">
 		<translation id="text" translation_id="539642" type="use" value="Agent Feedback[COMMENT: AREA: Transfers; SUB-AREA: Loan Back Offer; FR-BN: 32237; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: title for loan back offer news item, the agent's feedback on the player]" />
 	</widget>
 
