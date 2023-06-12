@@ -131,7 +131,7 @@
 		<container>
 			<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" vertical_gap="12" />
 
-			<widget class="text" auto_size="vertical" font="title" colour="white" size="medium">
+			<widget class="text" auto_size="vertical" font="title" colour="accent" size="medium">
 				<translation id="text" translation_id="539642" type="use" value="Agent Feedback[COMMENT: AREA: Transfers; SUB-AREA: Loan Back Offer; FR-BN: 32237; TONE: Formal; CHARLIMIT: Shortish; REF-ID: n/a; NOTE: title for loan back offer news item, the agent's feedback on the player]" />
 			</widget>
 
