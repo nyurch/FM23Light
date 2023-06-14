@@ -649,7 +649,7 @@
 	<colour name="hilight_first_teamers"									value="green 400"/>
 	<!-- used for highlighting first team players in a match report -->
 	<colour name="divider"													value="fg"/>
-	<colour name="hilight"													value="bg"/>
+	<colour name="hilight"													value="bg accent"/>
 	<!-- Used for text highlighting in edit boxes -->
 	<colour name="global_focus_colour"										value="rgb(1,1,1)"/>
 	<colour name="crop_colour"												value="rgb(251,205,1)"/>
