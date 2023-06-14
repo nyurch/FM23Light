@@ -1050,21 +1050,21 @@
 	<colour name="stat_pack_records_lost"													value="rgb(157,120,121)"/>
 
 	<!-- News category colours -->
-	<colour name="news_category_colour_affiliates"											value="rgb(189,196,202)"/>
-	<colour name="news_category_colour_agents"												value="rgb(118,124,130)"/>
+	<colour name="news_category_colour_affiliates"											value="rgb(4,84,130)"/>
+	<colour name="news_category_colour_agents"												value="rgb(153,0,138)"/>
 	<colour name="news_category_colour_awards"												value="rgb(210,119,0)"/>
-	<colour name="news_category_colour_competitions"										value="rgb(139,199,110)"/>
-	<colour name="news_category_colour_contracts"											value="rgb(165,165,165)"/>
+	<colour name="news_category_colour_competitions"										value="rgb(2,120,2)"/>
+	<colour name="news_category_colour_contracts"											value="rgb(130,4,4)"/>
 	<colour name="news_category_colour_discipline"											value="amber 700"/>
-	<colour name="news_category_colour_finances"											value="rgb(77,82,89)"/>
+	<colour name="news_category_colour_finances"											value="rgb(50,50,50)"/>
 	<colour name="news_category_colour_injuries"											value="rgb(205,55,55)"/>
 	<colour name="news_category_colour_jobs"												value="blue grey 400"/>
-	<colour name="news_category_colour_match"												value="rgb(84,175,116)"/>
-	<colour name="news_category_colour_media"												value="rgb(165,131,197)"/>
-	<colour name="news_category_colour_messages"											value="rgb(112,138,224)"/>
+	<colour name="news_category_colour_match"												value="rgb(2,115,80)"/>
+	<colour name="news_category_colour_media"												value="rgb(105,0,120)"/>
+	<colour name="news_category_colour_messages"											value="rgb(40,0,125)"/>
 	<colour name="news_category_colour_records"												value="rgb(230,178,20)"/>
-	<colour name="news_category_colour_scouting"											value="rgb(112,183,165)"/>
-	<colour name="news_category_colour_training"											value="rgb(105,136,79)"/>
+	<colour name="news_category_colour_scouting"											value="rgb(0,115,80)"/>
+	<colour name="news_category_colour_training"											value="rgb(45,100,0)"/>
 	<colour name="news_category_colour_transfers"											value="rgb(61,86,144)"/>
 
 	<colour name="team_form_win"													value="fg range20"/>
