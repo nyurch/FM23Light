@@ -1055,7 +1055,7 @@
 	<colour name="news_category_colour_awards"												value="rgb(210,119,0)"/>
 	<colour name="news_category_colour_competitions"										value="rgb(2,120,2)"/>
 	<colour name="news_category_colour_contracts"											value="rgb(130,4,4)"/>
-	<colour name="news_category_colour_discipline"											value="amber 700"/>
+	<colour name="news_category_colour_discipline"											value="rgb(165,0,10)""/>
 	<colour name="news_category_colour_finances"											value="rgb(50,50,50)"/>
 	<colour name="news_category_colour_injuries"											value="rgb(205,55,55)"/>
 	<colour name="news_category_colour_jobs"												value="blue grey 400"/>
