@@ -13,7 +13,7 @@
 		</widget>
 		<!--competition-->
 		<container>
-			<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="middle" />
+			<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="middle" />
 			<widget class="label" auto_size="all">
 				<translation id="text" translation_id="227740" type="use" value="Competition" />
 			</widget>
