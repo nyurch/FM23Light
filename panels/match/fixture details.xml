@@ -152,7 +152,23 @@
 						<record indx="0" colour="text" />
 					</list>
 				</widget>
+				<!--spacer-->
+				<container height="15" />
+				<!--odds-->
+				<widget class="label" auto_size="vertical" font="title" size="large" style="bold" alignment="left,top" colour="accent">
+					<translation id="text" translation_id="230320" type="use" value="Odds"/>
+				</widget>
+				<widget id="cot" class="fixture_odds_text">
+					<record id="object_property">
+						<integer id="get_property" value="FxOd" />
+					</record>
+				</widget>
+				<!--spacer-->
+				<container height="15" />
 				<!--rules-->
+				<widget class="label" auto_size="vertical" font="title" size="large" style="bold" colour="accent" alignment="left,top">
+					<translation id="text" translation_id="247256" type="use" value="Match Rules"/>
+				</widget>
 				<widget id="FxRl" class="fixture_rules_text">
 					<record id="object_property">
 						<integer id="get_property" value="FxRl" />
@@ -160,17 +176,8 @@
 				</widget>
 				<!--spacer-->
 				<container height="15" />
-				<!--odds-->
-				<widget class="label" id="FOtl" auto_size="all" font="title"/>
-				<widget id="cot" class="fixture_odds_text" alignment="centre,centre_y" style="bold" colour="accent">
-					<record id="object_property">
-						<integer id="get_property" value="FxOd" />
-					</record>
-				</widget>
-				<!--spacer-->
-				<container height="15" />
 				<!--home team news title-->
-				<widget class="text" id="htnt" auto_size="vertical" font="title" />
+				<widget class="text" id="htnt" auto_size="vertical" size="large" font="title" />
 				<!--home team news-->
 				<widget class="fixture_news_text" id="FxHN" auto_size="vertical" mode="fill_rows" auto_size_rows="true" fixed_size_rows="false">
 					<record id="object_property">
@@ -180,7 +187,7 @@
 				<!--spacer-->
 				<container height="15" />
 				<!--away team news title-->
-				<widget class="text" id="atnt" auto_size="vertical" font="title" />
+				<widget class="text" id="atnt" auto_size="vertical" size="large" font="title" />
 				<!--away team news-->
 				<widget class="fixture_news_text" id="FxAN" auto_size="vertical" mode="fill_rows" auto_size_rows="true" fixed_size_rows="false">
 					<record id="object_property">
