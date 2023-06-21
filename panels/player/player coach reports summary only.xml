@@ -1,0 +1,39 @@
+﻿<panel>
+	<flags id="cham" value="tables/custom/league/champions/row" />
+
+	<attachment_group class="vertical_arrange_autosize"/>
+
+	<container class="main_transparent_box" id="SMbx">
+		<attachment_group class="vertical_arrange_autosize" vertical_gap="0"/>
+
+		<container>
+			<layout class="arrange_vertical_attachment" alignment="top" offset="0" />
+			<layout class="fit_children_attachment" alignment="vertical,fill" offset="0" />
+
+			<widget class="link_button_title" auto_size="all" id="suml" section="Pccr" colour="white" red_replacement="white" blue_replacement="white">
+				<layout class="stick_to_sides_attachment" alignment="left" inset="0" />
+				<translation id="text" translation_id="378663" type="use" value="Coach Summary[COMMENT: bug 102206, report screen label, Coach Report summary section]" />
+			</widget>
+		</container>
+
+		<container height="30">
+			<layout class="arrange_horizontal_attachment" alignment="left" offset="0" gap="4" />
+			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+
+			<!-- Recommendation -->
+			<widget class="player_scout_recommendation_widget" id="RCic" alignment="left,centre_y" auto_size="none" click_event="ltms" show_knowledge_bar="false" width="50">
+			</widget>
+
+			<widget class="scout_stars_label" id="CAic" alignment="centre" auto_size="horizontal" mode="1">
+			</widget>
+
+			<!--summary of number of pros/cons-->
+			<widget class="text" id="pcSm" alignment="left,centre_y" auto_size="horizontal" colour="faded white"/>
+		</container>
+
+		<widget class="text" id="SMtx" spec="text" font="text_white" style="bold" auto_size="vertical" multiline="false">
+		</widget>
+
+	</container>
+
+</panel>
