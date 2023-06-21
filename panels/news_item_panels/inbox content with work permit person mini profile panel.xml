@@ -1,0 +1,21 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize"/>
+
+	<container>
+		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_layout="-1,-2,-2" horizontal_offset="0" vertical_alignment="top" vertical_offset="0" />
+		<!-- mini profile -->
+		<container class="inbox_mini_profile_player_details_panel" id="psdt" file="news_item_panels/inbox mini profile player details horizontal panel with nationality" ignore_colour_override="true">
+			<record id="object_property" get_property="objt" set_property="objt" />
+		</container>
+		<!-- positions indicator -->
+		<widget class="player_positions_indicator_panel" id="ppos" height="70" file="player/player positions indicator panel selector">
+			<string id="remove_if" value="use_simplified_scouting"/>
+			<record id="object_property" get_property="objt" set_property="objt" />
+		</widget>
+		<!-- scout report -->
+		<widget class="player_scout_reports_panel" id="pcrp" file="player/player coach reports summary only">
+			<record id="object_property" get_property="objt" set_property="objt" />
+		</widget>
+	</container>
+
+</panel>
