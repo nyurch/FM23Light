@@ -1,4 +1,5 @@
-<!-- This is the xml for the MLS trade offer panel. It is divided into 2 vertical halves with offered items on the left and wanted items on the right --><!-- Original mockup can be found in feature 3139 -->
+<!-- This is the xml for the MLS trade offer panel. It is divided into 2 vertical halves with offered items on the left and wanted items on the right -->
+<!-- Original mockup can be found in feature 3139 -->
 <panel>
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
@@ -93,7 +94,9 @@
 				<container>
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="right, extend" horizontal_offset="0" horizontal_gap="4" vertical_inset="0" />
 
-					<widget class="cash_selection_list" id="dofM" spec="text" cash_round_style="4" cash_min_value="0" cash_max_value="100000000" auto_size="vertical" />
+					<widget class="cash_selection_list" id="dofM" spec="text" cash_round_style="4" cash_min_value="0" cash_max_value="100000000" auto_size="vertical">
+						<record id="default_properties" alignment="right,centre_y" colour="black"/>
+					</widget>
 
 					<widget class="icon_button" click_event="tpDS" auto_size="all" icon="icons/16px/tick" appearance="buttons/primary/normal/button" default_focus="true">
 						<translation id="text" translation_id="515093" type="use" value="Do it[COMMENT: AREA: Pre-match tactical advice; SUB-AREA: sub section showing adviced team selection changes; FR: 30872; TONE: Formal; CHARLIMIT: None;]" />
@@ -138,6 +141,8 @@
 								</widget>
 							</container>
 						</container>
+
+						<widget class="text" id="dTx1" height ="170" alignment="left,top" hidden="true" />
 
 						<!-- Items -->
 						<container class="main_box">
@@ -228,6 +233,8 @@
 							</container>
 						</container>
 
+						<widget class="text" id="dTx2" height ="170" alignment="left,top" hidden="true" />
+
 						<!-- Items -->
 						<container class="main_box">
 							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
@@ -280,7 +287,9 @@
 							<widget class="text" auto_size="vertical">
 								<translation id="text" translation_id="395273" type="use" value="Minimum value of offers from other clubs[COMMENT: FR 9738; label for widget for choosing how much the user wants in return for what they are offering]" />
 							</widget>
-							<widget class="cash_selection_list" id="askp" cash_round_style="4" cash_min_value="0" cash_max_value="100000000" select_event="cask" />
+							<widget class="cash_selection_list" id="askp" spec="text" cash_round_style="4" cash_min_value="0" cash_max_value="100000000" select_event="cask">
+								<record id="default_properties" alignment="right,centre_y" colour="black"/>
+							</widget>
 						</container>
 					</container>
 
