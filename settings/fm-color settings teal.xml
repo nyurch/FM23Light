@@ -194,7 +194,7 @@
 	<!-- Alerts -->
 	<colour name="attention"														value="fg alert"/>
 	<colour name="warning"															value="fg alert"/>
-	<colour name="neutral"															value="fg info"/>
+	<colour name="neutral"															value="bg info"/>
 	<colour name="positive"															value="fg positive"/>
 	<colour name="positive dark"													value="rgb(0,110,58)"/> <!-- Used when white text on top, so needs to be dark(ish) -->
 	<colour name="positive bg"														value="bg positive"/> <!-- Used for panel recolouring, so text should stand out -->
