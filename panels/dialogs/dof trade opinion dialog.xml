@@ -82,7 +82,7 @@
 	<container>
 		<attachment_group class="button_arrangement_right" />
 
-		<widget class="icon_button" id="no" event_id="no" auto_size="all" controller_button="x_button"> >
+		<widget class="icon_button" id="no" event_id="no" auto_size="all" controller_button="x_button">
 			<translation id="text" translation_id="247672" type="use" value="Back" />
 		</widget>
 
