@@ -1,0 +1,92 @@
+﻿<panel navigation_container="true">
+
+	<list id="properties_to_forward">
+		<!-- DoF -->
+		<record get_property="valu" set_property="objt" target="dofc" />
+		<!-- Speech bubble colour -->
+		<record get_property="rrep" set_property="rrep" target="spbu" />
+		<!-- DoF text -->
+		<record get_property="STex" set_property="text" target="yes" />
+		<!-- Appearance, no dialog title -->
+		<record get_property="aprn" set_property="aprn" target="dttW" />
+	</list>
+
+	<!-- make dialog moveable -->
+	<attachment class="moveable_attachment" />
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="15" vertical_gap="4" horizontal_alignment="horizontal" horizontal_inset="15" />
+	<layout class="centre_in_parent_attachment" alignment="all" />
+
+	<!-- DoF container -->
+	<container class="client_object_viewer_xml_panel" id="dofc" height="80">
+		<attachment_group class="horizontal_arrange" horizontal_alignment="left, extend" horizontal_offset="0" horizontal_gap="8" vertical_inset="0" />
+
+		<!-- DoF portrait -->
+		<widget class="object_portrait_picture" width="60" id="dofp" image_alignment="centre" scale_picture="true">
+			<record id="object_property">
+				<list id="get_properties">
+					<record>
+						<integer id="get_property" value="objt" />
+						<integer id="set_property" value="objt" />
+					</record>
+				</list>
+			</record>
+		</widget>
+
+		<!-- DoF Info -->
+		<container width="200">
+			<attachment_group class="vertical_arrange" vertical_alignment="middle" vertical_offset="0" vertical_gap="0" horizontal_inset="0" horizontal_alignment="horizontal" />
+
+			<widget class="job_label" alignment="left,centre_y" colour="faded text" auto_size="vertical">
+				<record id="object_property">
+					<list id="get_properties">
+						<record>
+							<integer id="get_property" value="Pcjo" />
+							<integer id="set_property" value="valu" />
+						</record>
+					</list>
+				</record>
+			</widget>
+
+			<widget class="person_button" colour="text" auto_size="vertical">
+				<record id="object_property">
+					<list id="get_properties">
+						<record>
+							<integer id="get_property" value="objt" />
+							<integer id="set_property" value="valu" />
+						</record>
+					</list>
+				</record>
+			</widget>
+
+			<widget class="global_reputation_stars_label" alignment="left" auto_size="vertical" navigation_focus_target="false">
+				<record id="object_property">
+					<list id="get_properties">
+						<record>
+							<integer id="get_property" value="NrSr" />
+							<integer id="set_property" value="valu" />
+						</record>
+					</list>
+				</record>
+			</widget>
+		</container>
+	</container>
+
+	<!-- Speech bubble -->
+	<container class="inner_box" id="spbu" appearance="boxes/custom/speech bubble/top/paper" height="80">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
+
+		<widget class="text" id="text" auto_size="vertical" />
+	</container>
+
+	<!-- Buttons -->
+	<container>
+		<attachment_group class="button_arrangement_right" />
+
+		<widget class="icon_button" id="no" event_id="no" auto_size="all" controller_button="x_button"> >
+			<translation id="text" translation_id="247672" type="use" value="Back" />
+		</widget>
+
+		<widget class="primary_icon_tick_button" id="yes" event_id="yes" auto_size="all" controller_button="y_button">
+		</widget>
+	</container>
+</panel>
