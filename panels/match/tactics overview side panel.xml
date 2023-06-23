@@ -70,7 +70,7 @@
 
 				<container class="container" id="conG"/>
 
-				<container class="tactics_player_instructions_panel" file="tactics/extra_panels/player instructions" wants_mouse_events="true" id="tPli" hidden="true"/>
+				<container class="tactics_player_instructions_panel" file="match/extra_panels/player instructions" wants_mouse_events="true" id="tPli" hidden="true"/>
 
 			</container>
 
