@@ -154,17 +154,6 @@
 					</widget>
 				</container>
 
-				<!-- partnerships -->
-				<container class="scrolling_box" id="pPtT">
-					<translation id="title" translation_id="450771" type="use" value="Partnerships[COMMENT: Tactical analysis email; showing strong and weak partnerships between players on the pitch]" />
-					<container id="prTn">
-						<layout class="arrange_vertical_attachment" alignment="top" offset="6" gap="4" />
-						<layout class="fit_children_attachment" alignment="vertical,fill" offset="6" gap="4" />
-						<layout class="stick_to_sides_attachment" alignment="horizontal" inset="6" apply_to_children="true" />
-						<record id="default_properties" colour="black"/>
-					</container>
-				</container>
-
 				<!-- attributes container -->
 				<container class="main_box" >
 					<translation id="title" translation_id="316628" type="use" value="Important Attributes[COMMENT:title for attributes panel showing which attributes are important for a tactical role]" />
