@@ -1704,9 +1704,9 @@
 	<colour name="preselected instruction"										value="fg range16"/>
 
 	<!-- Player Instructions -->
-	<colour name="positional instructions"									value="rgb(94,162,255)"/>
-	<colour name="personalised instructions"								value="rgb(99,245,163)"/>
-	<colour name="personalised instructions pitch"							value="rgb(99,245,163)"/>
+	<colour name="positional instructions"									value="rgb(26,121,255)"/>
+	<colour name="personalised instructions"								value="rgb(24,245,120)"/>
+	<colour name="personalised instructions pitch"							value="rgb(24,245,120)"/>
 
 	<!-- Alert colours for player instructions panel -->
 	<colour name="player starting"											value="bg positive"/>

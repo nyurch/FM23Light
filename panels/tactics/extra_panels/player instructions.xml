@@ -1,0 +1,23 @@
+<panel>
+	<boolean id='AUsp' value='false'/>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="0,0,0,0" apply_to_children="true" />
+
+	<container class="contrast_box_no_margin" red_replacement="bg darker" transparency="0.5">
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
+
+		<container class="horizontal_adaptive_container" gap="0" mode="distribute_equally">
+
+			<container default_width="-1" minimum_width="1" priority="2"/>
+
+			<container class="main_contrast_box" red_replacement="bg lighter" default_width="600" priority="1">
+				<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+				<!--main instructions area-->
+				<widget class="position_instructions_panel" id="poin" file="tactics/extra_panels/position instructions"/>
+
+			</container>
+		</container>
+	</container>
+
+</panel>

@@ -1,0 +1,14 @@
+﻿<!-- image properties -->
+<properties>
+
+	<!-- image borders -->
+	<!-- these determine how many pixels any content is inset from each side of the image -->
+	<!-- (for example, in the case of a button, the content would be the text label) -->
+	<record id="image_borders" left="0" right="0" top="0" bottom="0"/>
+
+	<colour id="red_replacement" name="teal 900"/>
+	<colour id="blue_replacement" name="teal 900"/>
+	<colour id="green_replacement" name="teal 900"/>
+
+
+</properties>
