@@ -1,0 +1,29 @@
+﻿<panel>
+
+
+	<list id="properties_to_forward">
+		<record get_property="titl" set_property="valu" target="Titl"/>
+		<record get_property="pAny" set_property="valu" target="locT"/>
+
+		<record get_property="hint" set_property="hint" target="Titl"/>
+		<record get_property="hint" set_property="hint" target="locT"/>
+	</list>
+	<!--icon, Title and Location -->
+	<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" inset="0" />
+	<layout class="fit_children_attachment" alignment="vertical" offset="0" gap="0"/>
+	<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" gap="4" />
+
+  <widget class="picture" width="22" id="pict" height="22" file="icons/16px/thumbs up" image_alignment="centre" red_replacement="positive" keep_aspect_ratio="true">
+  </widget>
+
+	<container>
+		<layout class="arrange_vertical_attachment" alignment="top" offset="0" gap="0" />
+		<layout class="fit_children_attachment" alignment="vertical,fill" offset="0" gap="0"/>
+		<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
+
+		<widget class="text" id="Titl" colour="black" alignment="left,centre_y" auto_size="vertical"/>
+		<widget class="text" id="locT" colour="faded black" alignment="left,centre_y" auto_size="vertical"/>
+	</container>
+
+
+</panel>
