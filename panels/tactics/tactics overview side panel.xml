@@ -83,6 +83,7 @@
 			</container>
 
 			<container class="main_subtle_box" default_width="550">
+				<layout class="arrange_vertical_attachment" layout="700,-1" offset="0" gap="2" />
 				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
 
 				<list id="disallowed_view_property_ids">
@@ -118,6 +119,8 @@
 						<layout class="stick_to_sides_attachment" alignment="top,left" inset="15,55" />
 					</container>
 				</container>
+
+				<container class="tactics_recent_match_analysis_panel" entity_layout_id="it22" id="anLy" name="analysis"/>
 
 			</container>
 
