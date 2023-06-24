@@ -6,7 +6,7 @@
 	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0" />
 
 	<container>
-		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" horizontal_inset="0" vertical_gap="0"/>
+		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" horizontal_inset="10" vertical_gap="0"/>
 
 		<container height="35">
 			<layout class="arrange_horizontal_attachment" layout="150,-1,-1,-1,-1,75" offset="0" gap="8" />
