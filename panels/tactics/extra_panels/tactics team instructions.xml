@@ -18,7 +18,7 @@
 				<widget class="text" font="title" colour="teal 900" alignment="left,centre_y" size="small">
 					<translation id="text" translation_id="466531" type="use" value="Tactical Style[COMMENT: FR 23334; tactics panel; title for a button to allow the user to choose a tactical style]" />
 				</widget>
-				<widget class="tactics_tactical_style_popup_button" id="TcSt" widget_type="tactics_tactical_style_popup_panel" popup_alignment="left, bottom" appearance="" font="title" size="normal" alignment="left,centre_y" colour="teal 900" disabled_colour="faded white">
+				<widget class="tactics_tactical_style_popup_button" id="TcSt" widget_type="tactics_tactical_style_popup_panel" popup_alignment="left, bottom" appearance="" font="title" size="normal" alignment="left,centre_y" colour="teal 900" disabled_colour="faded black">
 					<translation id="text" translation_id="466531" type="use" value="Tactical Style[COMMENT: FR 23334; tactics panel; title for a button to allow the user to choose a tactical style]" />
 				</widget>
 			</container>
@@ -35,14 +35,14 @@
 						<flags id="alignment" value="centre" />
 						<flags id="icon_alignment" value="near_right" />
 						<flags id="colour" value="teal 900" />
-						<flags id="disabled_colour" value="faded white" />
+						<flags id="disabled_colour" value="faded black" />
 					</widget>
 					<widget class="popup_button" id="menP" hidden="true" select_event="SeMe" height="20" alignment="centre" vertical_offset="0" focus_appearance="buttons/subtle/flex/button_controller">
 						<flags id="appearance" value="buttons/custom/tactics/style bar/button" />
 						<flags id="alignment" value="centre" />
 						<flags id="icon_alignment" value="near_right" />
 						<flags id="colour" value="teal 900" />
-						<flags id="disabled_colour" value="faded white" />
+						<flags id="disabled_colour" value="faded black" />
 					</widget>
 				</container>
 			</container>
