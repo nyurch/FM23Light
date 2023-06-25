@@ -1594,12 +1594,12 @@
 	<colour name="diff negative low"												value="rgb(255,80,80)"/>
 	<colour name="diff negative high"												value="rgb(255,0,0)"/>
 
-	<colour name="positive partnership"												value="rgb(21,252,80)"/>
-	<colour name="negative partnership"												value="rgb(211,68,68)"/>
-	<colour name="mid partnership"													value="orange 500"/>
-	<colour name="mid partnership highlighted"										value="orange 100"/>
-	<colour name="positive partnership highlighted"									value="rgb(92,255,134)"/>
-	<colour name="negative partnership highlighted"									value="rgb(232,107,107)"/>
+	<colour name="positive partnership"												value="rgb(10,90,30)"/>
+	<colour name="negative partnership"												value="rgb(140,10,10)"/>
+	<colour name="mid partnership"													value="rgb(80,0,140)"/>
+	<colour name="mid partnership highlighted"										value="rgb(80,0,140)"/>
+	<colour name="positive partnership highlighted"									value="rgb(10,90,30)"/>
+	<colour name="negative partnership highlighted"									value="rgb(140,10,10)"/>
 
 	<!-- Tactics Grid -->
 	<colour name="pitch good area"												value="rgba(0,211,88,0.7)"/>
