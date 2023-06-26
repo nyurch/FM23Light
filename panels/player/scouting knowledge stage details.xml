@@ -1,0 +1,24 @@
+﻿<panel>
+	<attachment_group class="vertical_arrange_autosize" horizontal_alignment="horizontal" vertical_offset="8" vertical_gap="4" />
+
+	<list id="properties_to_forward">
+		<record get_property="ssst" set_property="text" target="sksd" />
+		<record get_property="ssps" set_property="text" target="sksp" />
+		<record get_property="Pers" set_property="valu" target="sksm" />
+	</list>
+
+	<!-- scouting knowledge stage description -->
+	<widget class="text" id="sksd" font="title" size="medium" colour="fg" auto_size="all" />
+
+	<container>
+		<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_offset="0" horizontal_gap="2" />
+
+		<!-- scouting knowledge staff member prefix -->
+		<widget class="text" id="sksp" colour="faded text" auto_size="all" />
+
+		<!-- scouting knowledge staff member -->
+		<widget class="person_button" colour="black" id="sksm" auto_size="all" />
+
+	</container>
+
+</panel>
