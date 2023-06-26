@@ -231,21 +231,21 @@
 				<container class="client_object_viewer_xml_panel" height="54">
 					<record id="object_property" get_property="Pers" set_property="objt" />
 
-					<attachment_group class="vertical_arrange_autosize_all_centre" horizontal_alignment="right"/>
-					<layout class="stick_to_sides_attachment" alignment="right" inset="10" />
+					<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="right" horizontal_offset="10" horizontal_gap="5"/>
 					<layout class="centre_in_parent_attachment" alignment="vertical"/>
+					<layout class="stick_to_sides_attachment" alignment="top, right" inset="0"/>
+
+					<widget class="popup_button" id="slPP" fixed="true" auto_size="all" alignment="left, centre_y" hidden="true">
+						<translation id="text" translation_id="516730" type="use" value="Suggest player[COMMENT: AREA: Recruitment meeting; SUB-AREA: Recruitment meeting scouting cards panel; FR-BN: 32765; NOTE: Scouting card popup title for suggesting shortlisted players to scout]" />
+					</widget>
 
 					<container>
-						<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="right" horizontal_inset="0" horizontal_gap="10"/>
-						<layout class="stick_to_sides_attachment" alignment="right" inset="0" />
-
-						<widget class="popup_button" id="slPP" fixed="true" auto_size="all" alignment="left, centre_y" hidden="true">
-							<translation id="text" translation_id="516730" type="use" value="Suggest player[COMMENT: AREA: Recruitment meeting; SUB-AREA: Recruitment meeting scouting cards panel; FR-BN: 32765; NOTE: Scouting card popup title for suggesting shortlisted players to scout]" />
-						</widget>
+						<attachment_group class="vertical_arrange_autosize_all" horizontal_alignment="right" horizontal_inset="4"/>
+						<layout class="stick_to_sides_attachment" alignment="right" inset="2" />
 
 						<widget class="link_button" appearance="buttons/link/title/button" section="Pssr" alignment="right,centre_y" auto_size="all">
 							<translation id="text" translation_id="317219" type="use" value="View Report[COMMENT - view scout report card screen]"/>
-
+							<string id="create_if" value="is_fmt"/>
 							<record id="object_property">
 								<list id="get_properties">
 									<record>
@@ -254,27 +254,38 @@
 									</record>
 								</list>
 							</record>
-
 						</widget>
 
-						<container class="inner_subtle_box" id="klba" appearance="boxes/custom/scouting knowledge/paper" width="55" height="12">
-							<layout class="centre_in_parent_attachment" alignment="vertical" offset="0" apply_to_children="true" />
-							<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" inset="0" />
-							<global id="hidden" name="is_fmt"/>
+						<container height="20">
+							<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="horizontal" horizontal_inset="0" horizontal_gap="10" horizontal_offset="6"/>
 
-							<widget class="horizontal_percentage_bar" id="kbar" height="4" bar_value_colour="knowledge level" show_label_on_bar="false" label_width="0" appearance="charts/bar/custom/knowledge"/>
-
+							<widget class="link_button" appearance="buttons/link/title/button" section="Prov" alignment="right,centre_y" auto_size="all">
+								<translation id="text" translation_id="317219" type="use" value="View Report[COMMENT - view scout report card screen]"/>
+								<string id="remove_if" value="is_fmt"/>
+								<record id="object_property">
+									<list id="get_properties">
+										<record>
+											<integer id="get_property" value="objt" />
+											<integer id="set_property" value="objt" />
+										</record>
+									</list>
+								</record>
+							</widget>
 						</container>
 
+						<container height="20">
+							<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="horizontal" horizontal_inset="0" horizontal_gap="10" horizontal_offset="6"/>
+							<string id="remove_if" value="is_fmt"/>
+
+							<widget class="scouting_knowledge_widget" id="kwid" auto_size="all" font="title"/>
+						</container>
+
+						<container id="sRTX" height="20">
+							<attachment_group class="horizontal_arrange_autosize_all" horizontal_alignment="horizontal" horizontal_inset="0" horizontal_gap="10" horizontal_offset="6"/>
+
+							<widget class="text" id="srTX" colour="faded text" auto_size="all" size="small"/>
+						</container>
 					</container>
-
-					<container id="sRTX" height="20">
-						<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left" horizontal_inset="0" horizontal_gap="10"/>
-
-						<widget class="text" id="srTX" colour="faded text" auto_size="all"/>
-
-					</container>
-
 				</container>
 
 			</container>
