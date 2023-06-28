@@ -1520,13 +1520,13 @@
 
 	<!-- Transfer Inbox Item Colours-->
 	<colour name="transfer_item_failed"												value="bg negative"/>
-	<colour name="transfer_item_failed_string"										value="fg"/>
+	<colour name="transfer_item_failed_string"										value="white"/>
 
 	<colour name="transfer_item_pending"											value="bg range15"/>
-	<colour name="transfer_item_pending_string"										value="fg"/>
+	<colour name="transfer_item_pending_string"										value="white"/>
 
 	<colour name="transfer_item_complete"											value="bg positive"/>
-	<colour name="transfer_item_complete_string"									value="fg"/>
+	<colour name="transfer_item_complete_string"									value="white"/>
 
 	<!--Scout Report Assist Pitch colours-->
 	<colour name="assist_pitch_top"													value="bg positive"/>
