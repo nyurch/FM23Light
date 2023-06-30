@@ -27,7 +27,7 @@
 		<container id="RtBx" height="35">
 			<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="right, extend" horizontal_offset="8" />
 
-			<widget class="button" id="TkPa" click_event="TkPa" colour="deadline day bg" show_button_appearance="false" height="30" style="bold" auto_size="horizontal" hidden="true">
+			<widget class="button" id="TkPa" click_event="TkPa" colour="deadline day bg" show_button_appearance="false" height="30" font="title" style="bold" auto_size="horizontal" hidden="true">
 				<translation id="text" translation_id="538881" type="use" value="Take part in Deadline Day[COMMENT: AREA: UI; SUB-AREA: Transfer Deadline Day News Panel; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: Button label for user to activate deadline day mode]" />
 			</widget>
 
