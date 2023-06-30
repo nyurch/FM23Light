@@ -1,0 +1,44 @@
+<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" />
+
+	<animation class="slide_in_bottom_animation" duration="0.6" end_mode="hold_auto_reverse" />
+
+	<container class="main_contrast_box_no_margin" id="MnBx" appearance="boxes/custom/transfer deadline day/ticker/normal/paper">
+		<attachment_group class="horizontal_arrange" horizontal_alignment="right, fill" />
+
+		<container>
+			<attachment_group class="horizontal_arrange" horizontal_alignment="left, fill" />
+
+			<container class="plain_box" appearance="boxes/custom/transfer deadline day/ticker/title/paper">
+				<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="left, extend" horizontal_offset="20" />
+
+				<widget class="text" alignment="left, centre_y" font="title" size="large" colour="deadline day fg" auto_size="horizontal">
+					<translation id="text" translation_id="538880" type="use" value="Transfer News[COMMENT: AREA: UI; SUB-AREA: Transfer Deadline Day; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: Section name for transfer related news on transfer deadline day]" />
+				</widget>
+			</container>
+
+			<container class="animated_wipe_fade_container" id="hdln" wipe_data_trigger_id="valu" remove_widget_after_wipe="true">
+				<layout class="stick_to_sides_attachment" alignment="all" />
+
+				<record id="widget_properties" class="transfer_deadline_day_news_ticker_story_panel" auto_size="horizontal" />
+			</container>
+		</container>
+
+		<container id="RtBx" height="35">
+			<attachment_group class="horizontal_arrange_autosize" horizontal_alignment="right, extend" horizontal_offset="8" />
+
+			<widget class="button" id="TkPa" click_event="TkPa" colour="deadline day bg" show_button_appearance="false" height="30" style="bold" auto_size="horizontal" hidden="true">
+				<translation id="text" translation_id="538881" type="use" value="Take part in Deadline Day[COMMENT: AREA: UI; SUB-AREA: Transfer Deadline Day News Panel; FR: 34747; TONE: Formal; CHARLIMIT: None; REF-ID: ; NOTE: Button label for user to activate deadline day mode]" />
+			</widget>
+
+			<widget class="icon_button" id="psto" click_event="PrvN" icon="icons/16px/left" show_button_appearance="false" icon_colour="deadline day bg" height="16" width="16" disabled="false">
+				<layout class="centre_in_parent_attachment" alignment="vertical" />
+			</widget>
+
+			<widget class="icon_button" id="nsto" click_event="NxtN" icon="icons/16px/right" show_button_appearance="false" icon_colour="deadline day bg" height="16" width="16" disabled="false">
+				<layout class="centre_in_parent_attachment" alignment="vertical" />
+			</widget>
+		</container>
+	</container>
+
+</panel>
