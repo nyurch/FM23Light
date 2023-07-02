@@ -1,0 +1,58 @@
+﻿<panel navigation_container="true">
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" />
+
+	<container class="main_contrast_box" red_replacement="indigo 900" height="120">
+		<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+		<layout class="arrange_horizontal_attachment" layout="-1, -1" offset="0" />
+
+		<container class="main_box">
+			<layout class="arrange_vertical_attachment" layout="25, 25, 20" gap="2" offset="0" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" />
+
+			<container>
+				<layout class="arrange_vertical_attachment" alignment="top" />
+				<layout class="stick_to_sides_attachment" alignment="left" inset="0" apply_to_children="true" />
+
+				<widget class="link_button_title" section="TeFi" colour="yellow" red_replacement="yellow">
+					<translation id="text" translation_id="242258" type="use" value="Fixtures" />
+				</widget>
+			</container>
+
+			<widget class="label" id="FxIn" size="large" style="bold" colour="white"/>
+			<widget class="label" id="FxBr" size="small" colour="white"/>
+		</container>
+
+		<container class="main_box">
+			<layout class="arrange_vertical_attachment" layout="25, 25, 20, 20" gap="2"  offset="0" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+
+			<container>
+				<layout class="arrange_vertical_attachment" alignment="top" />
+				<layout class="stick_to_sides_attachment" alignment="left" inset="0" apply_to_children="true" />
+
+				<widget class="link_button_title" section="TeOv" colour="yellow" red_replacement="yellow">
+					<translation id="text" translation_id="447654" type="use" value="Team Training Workload[COMMENT: FR20159; team injuries panel; link button label to team training panel]" />
+				</widget>
+			</container>
+
+			<!-- workload -->
+			<widget class="label" id="TrWl" size="large" style="bold" colour="white"/>
+
+			<!-- focus -->
+			<widget class="label" id="TrFc" size="small" colour="white"/>
+
+			<!-- intensity -->
+			<widget class="label" id="TrIn" size="small" colour="white"/>
+		</container>
+	</container>
+
+	<container class="main_box">
+		<attachment_group class="vertical_arrange_autosize" vertical_offset="0" horizontal_inset="0" />
+
+		<widget class="link_button_title" section="InRA" colour="accent">
+			<translation id="text" translation_id="447655" type="use" value="Risk Assessment[COMMENT: FR20159; team injuries panel; panel title for assessing player injury risk]" />
+		</widget>
+		<widget class="team_injuries_risk_assessment_table_panel" id="RAtb" file="team/team injuries risk assessment table inbox panel" />
+	</container>
+
+</panel>
