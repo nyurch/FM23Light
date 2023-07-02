@@ -1406,7 +1406,7 @@
 	<colour name="tactical_familiarity_colour_2"													value="rgb(24,62,48)"/>
 
 	<colour name="team_report_games_won_colour"												value="fg range20"/>
-	<colour name="team_report_games_drawn_colour"											value="fg range10"/>
+	<colour name="team_report_games_drawn_colour"											value="fg"/>
 	<colour name="team_report_games_lost_colour"											value="fg range1"/>
 
 	<!-- Team Talk Reactions -->
