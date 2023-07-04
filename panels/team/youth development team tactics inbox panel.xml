@@ -94,7 +94,7 @@
 							</widget>
 						</container>
 					</container>
-					<container height="60">
+					<container height="140">
 						<attachment_group class="vertical_arrange" vertical_alignment="top,extend" horizontal_alignment="left" horizontal_inset="8" />
 
 						<widget class="link_button_title" id="lnkR" auto_size="all">
@@ -122,7 +122,7 @@
 				</container>
 			</container>
 		</container>
-		<container id="mnBx" height="550">
+		<container id="mnBx" height="480">
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 
 			<container class="contrast_box" id="pitv" hidden="true" navigation_container="true" red_replacement="pitch_box_background">
