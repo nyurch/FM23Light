@@ -16,18 +16,18 @@
 
 			<container class="horizontal_arrange_container" layout="-1,-1,-1" gap="10" entity_layout_id="at02" id="at02" auto_size="vertical">
 
-				<container class="titled_box" colour="faded white" alignment="top" entity_layout_id="at06" hidden="true" id="hed1">
+				<container class="titled_box" colour="faded black" alignment="top" entity_layout_id="at06" hidden="true" id="hed1">
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="0" vertical_offset="0"/>
 					<widget class="label" size="large" alignment="centre" entity_layout_id="at09" id="dta1" auto_size="vertical" />
 				</container>
 
-				<container class="titled_box" colour="faded white" alignment="top" entity_layout_id="at07" hidden="true" id="hed2">
+				<container class="titled_box" colour="faded black" alignment="top" entity_layout_id="at07" hidden="true" id="hed2">
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="0" vertical_offset="0"/>
-					<widget class="label" size="large" alignment="centre" colour="white" entity_layout_id="at0:" id="dta2" auto_size="vertical" needs_height="true"/>
+					<widget class="label" size="large" alignment="centre" colour="black" entity_layout_id="at0:" id="dta2" auto_size="vertical" needs_height="true"/>
 				</container>
 
 
-				<container class="titled_box" colour="faded white" alignment="top" entity_layout_id="at08" hidden="true" id="hed3">
+				<container class="titled_box" colour="faded black" alignment="top" entity_layout_id="at08" hidden="true" id="hed3">
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_alignment="fill" horizontal_offset="0" vertical_offset="0"/>
 					<widget class="label" entity_layout_id="at0;" size="large" alignment="centre" id="dta3" auto_size="vertical" needs_height="true"/>
 				</container>
