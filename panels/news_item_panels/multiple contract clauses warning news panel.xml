@@ -1,0 +1,29 @@
+<panel>
+
+	<attachment_group class="vertical_arrange_autosize" vertical_offset="4" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="10" />
+
+	<widget class="table" id="tabl" mode="fill_rows,stripe_rows" auto_size_rows="true" auto_size="vertical" layout="-4,-12,130">
+		<list id="headings">
+			<record alignment="left,centre_y">
+				<translation id="text" translation_id="348241" type="use" value="Person[COMMENT: contract clause news panel; column header]" />
+			</record>
+			<record alignment="left,centre_y">
+				<translation id="text" translation_id="395173" type="use" value="Criteria[COMMENT: FR 3502; contract clause warning news panel; column header]" />
+			</record>
+			<record/>
+		</list>
+
+		<list id="column_table_properties">
+			<record indx="0" sort_disabled="true" />
+			<record indx="1" sort_disabled="true" />
+			<record indx="2" sort_disabled="true" top="2" bottom="2"/>
+		</list>
+
+		<list id="column_widget_properties">
+			<record indx="0" alignment="left,centre_y" colour="black"/>
+			<record indx="1" alignment="left,centre_y" />
+			<record indx="2" alignment="left,centre_y" />
+		</list>
+	</widget>
+
+</panel>
