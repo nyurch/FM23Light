@@ -6,7 +6,6 @@
 	<flags id="appearance" value="boxes/main/contrast/paper"/>
 	<boolean id="should_force_refresh" value="true"/>
 
-
 	<container>
 		<layout class="stick_to_sides_attachment" alignment="top,right" inset="0" apply_to_children="true"/>
 
