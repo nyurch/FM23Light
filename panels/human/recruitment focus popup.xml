@@ -775,17 +775,21 @@
 			<widget class="popup_button" entity_layout_id="at0v" id="addc" appearance="buttons/custom/tactics/style bar/button" width="80" height="30">
 				<string id="fixed" value="true"/>
 				<string id="icon" value="icons/16px/plus"/>
+				<string id="font" value="title"/>
+				<string id="colour" value="black"/>
+				<string id="icon_colour" value="black"/>
+				<string id="secondary_icon_colour" value="black"/>
 				<translation id="text" translation_id="251402" type="use" value="Add[COMMENT: Add button on dialogs]" />
-				<layout class="stick_to_object_attachment" id="align_top" get_side="top" set_side="top" move_side="true" target="main"/>
+				<layout class="stick_to_object_attachment" id="align_top" offset="8" get_side="top" set_side="top" move_side="true" target="main"/>
 				<layout class="stick_to_object_attachment" id="align_right" get_side="right" set_side="right" move_side="true" target="main"/>
 			</widget>
 		</container>
 		<widget class="text" entity_layout_id="at0W" alignment="centre_x,centre_y" id="fLTC" width="24" height="24">
 			<string id="font" value="title"/>
-			<string id="colour" value="bg"/>
+			<string id="colour" value="white"/>
 			<string id="size" value="large"/>
 			<layout class="stick_to_object_attachment" id="align_top" offset="94" get_side="top" set_side="top" move_side="true" target="main"/>
-			<layout class="stick_to_object_attachment" id="align_left" offset="162" get_side="right" set_side="left" move_side="true" target="at0&gt;"/>
+			<layout class="stick_to_object_attachment" id="align_left" offset="152" get_side="right" set_side="left" move_side="true" target="at0&gt;"/>
 		</widget>
 		<widget class="text" entity_layout_id="at0w" alignment="centre_y,left" id="fpHT" auto_size="horizontal" height="20">
 			<translation id="text" type="new" value="*Find players who can play all selected positions[COMMENT: AREA: Scouting; SUB-AREA: Recruitment Focus Dialog; FN: FM-12287; NOTE: Hint subtitle explaining how the recruitment focus selected positions work]"/>
