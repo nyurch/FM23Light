@@ -52,7 +52,7 @@
 	<colour name="fg pink darker"													value="pink 800" />
 	<colour name="fg purple lighter"												value="purple 600" />
 	<colour name="fg purple"														value="purple 700" />
-	<colour name="fg purple darker"												value="purple 800" />
+	<colour name="fg purple darker"													value="purple 800" />
 	<colour name="fg blue lighter"													value="blue 600" />
 	<colour name="fg blue"															value="blue 700" />
 	<colour name="fg blue darker"													value="blue 800" />
@@ -62,18 +62,18 @@
 	<colour name="fg teal lighter"													value="teal 600" />
 	<colour name="fg teal"															value="teal 700" />
 	<colour name="fg teal darker"													value="teal 900" />
-	<colour name="fg green lighter"												value="green 600" />
-	<colour name="fg green"														value="green 800" />
+	<colour name="fg green lighter"													value="green 600" />
+	<colour name="fg green"															value="green 800" />
 	<colour name="fg green darker"													value="green 900" />
 	<colour name="fg lime lighter"													value="lime 600" />
 	<colour name="fg lime"															value="lime 700" />
 	<colour name="fg lime darker"													value="lime 800" />
 	<colour name="fg yellow lighter"												value="yellow 600" />
 	<colour name="fg yellow"														value="yellow 700" />
-	<colour name="fg yellow darker"												value="yellow 800" />
+	<colour name="fg yellow darker"													value="yellow 800" />
 	<colour name="fg orange lighter"												value="orange 600" />
 	<colour name="fg orange"														value="orange 700" />
-	<colour name="fg orange darker"												value="orange 800" />
+	<colour name="fg orange darker"													value="orange 800" />
 	<colour name="fg grey lighter"													value="grey 600" />
 	<colour name="fg grey"															value="grey 700" />
 	<colour name="fg grey darker"													value="grey 900" />
@@ -123,7 +123,7 @@
 	<colour name="bg pink darker"													value="pink 400" />
 	<colour name="bg purple lighter"												value="purple 200" />
 	<colour name="bg purple"														value="purple 300" />
-	<colour name="bg purple darker"												value="purple 400" />
+	<colour name="bg purple darker"													value="purple 400" />
 	<colour name="bg blue lighter"													value="blue 200" />
 	<colour name="bg blue"															value="blue 300" />
 	<colour name="bg blue darker"													value="blue 400" />
@@ -133,18 +133,18 @@
 	<colour name="bg teal lighter"													value="teal 200" />
 	<colour name="bg teal"															value="teal 300" />
 	<colour name="bg teal darker"													value="teal 400" />
-	<colour name="bg green lighter"												value="green 200" />
-	<colour name="bg green"														value="green 300" />
+	<colour name="bg green lighter"													value="green 200" />
+	<colour name="bg green"															value="green 300" />
 	<colour name="bg green darker"													value="green 400" />
 	<colour name="bg lime lighter"													value="lime 200" />
 	<colour name="bg lime"															value="lime 300" />
 	<colour name="bg lime darker"													value="lime 400" />
 	<colour name="bg yellow lighter"												value="yellow 200" />
 	<colour name="bg yellow"														value="yellow 300" />
-	<colour name="bg yellow darker"												value="yellow 400" />
+	<colour name="bg yellow darker"													value="yellow 400" />
 	<colour name="bg orange lighter"												value="orange 200" />
 	<colour name="bg orange"														value="orange 300" />
-	<colour name="bg orange darker"												value="orange 400" />
+	<colour name="bg orange darker"													value="orange 400" />
 	<colour name="bg grey lighter"													value="grey 200" />
 	<colour name="bg grey"															value="grey 300" />
 	<colour name="bg grey darker"													value="grey 500" />
@@ -544,7 +544,7 @@
 
 	<!-- Statistic colours -->
 	<colour name="yellow card"										value="fg yellow"/>
-	<colour name="red card"										value="fg red"/>
+	<colour name="red card"											value="fg red"/>
 	<colour name="average rating"									value="fg"/>
 
 	<!-- Team fixtures panel colours -->
@@ -560,7 +560,7 @@
 	<!-- row on table showing an available friendly date -->
 	<colour name="fixture continental row"										value="fg blue"/>
 	<colour name="fixture cup row"												value="fg blue lighter"/>
-	<colour name="fixture friendly row"												value="fg purple"/>
+	<colour name="fixture friendly row"											value="fg purple"/>
 
 	<!-- Fixture colours -->
 	<colour name="result score"											value="fg"/>
@@ -1001,7 +1001,6 @@
 	<colour name="goals_scored_71_80_colour" red="20" green="140" blue="55" alpha="180"/>
 	<colour name="goals_scored_81_90_colour" red="20" green="140" blue="55" alpha="195"/>
 	<colour name="goals_scored_91_100_colour" red="20" green="140" blue="55" alpha="210"/>
-	<colour name="goals_scored_76_100_colour" red="20" green="140" blue="55" alpha="210"/>
 	<colour name="goals_conceded_0_colour" red="150" green="15" blue="15" alpha="60"/>
 	<colour name="goals_conceded_1_10_colour" red="150" green="15" blue="15" alpha="75"/>
 	<colour name="goals_conceded_11_20_colour" red="150" green="15" blue="15" alpha="90"/>
