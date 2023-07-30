@@ -12,7 +12,7 @@
 				<attachment_group class="vertical_arrange_autosize" vertical_offset="0" vertical_gap="0" horizontal_alignment="horizontal" horizontal_inset="0" />
 
 				<!-- match score -->
-				<widget class="text" id="scor" auto_size="vertical" spec="text" colour="text" font="fonts/inbox_body" alignment="top" size="small">
+				<widget class="text" id="scor" auto_size="vertical" spec="text" colour="accent" font="title" alignment="top" size="xlarge">
 					<layout class="stick_to_sides_attachment" alignment="horizontal"/>
 				</widget>
 
