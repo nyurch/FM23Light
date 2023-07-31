@@ -6,7 +6,7 @@
 
 	<container id="mnCn" auto_size="vertical">
 		<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
-		<container class="client_object_viewer_xml_panel" id="ydld" height="200" navigation_container="true">
+		<container class="client_object_viewer_xml_panel" id="ydld" navigation_container="true">
 			<record id="object_property">
 				<string id="get_property" value="objt" />
 				<string id="set_property" value="objt" />
@@ -14,7 +14,7 @@
 			<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
 
 			<container>
-				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-1" />
+				<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_layout="-1,-2" />
 
 				<container>
 					<attachment_group class="vertical_arrange_autosize" vertical_alignment="bottom" />
@@ -53,12 +53,6 @@
 							<record id="modal_popup_properties" file="modal popup panel auto sized" />
 						</widget>
 					</container>
-
-				</container>
-
-				<container>
-					<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" />
-
 					<container class="inner_subtle_box" height="120">
 						<translation id="text" value="Availability" translation_id="247455" type="use" />
 						<attachment_group class="vertical_arrange_autosize" vertical_alignment="top" horizontal_inset="4" />
@@ -93,8 +87,14 @@
 								<translation id="text" translation_id="376571" type="use" value="Set All[COMMENT: FR 8157; Player availability news item; text for button for changing all player's availabilities at once]" />
 							</widget>
 						</container>
+						<container class="team_squad_panel" entity_layout_id="ffdf" id="filt" file="">
+							<layout class="stick_to_sides_attachment" alignment="bottom,right" apply_to_children="true" inset="0" />
+							<layout class="fit_children_attachment" alignment="vertical" offset="0" />
+							<layout class="fit_children_attachment" alignment="right" offset="0" />
+								<widget class="embedded_filter_button" entity_layout_id="adad" allow_pin="false" id="plsf" target="mnCn" auto_size="all"/>
+						</container>
 					</container>
-					<container height="140">
+					<container class="main_subtle_box" height="200">
 						<attachment_group class="vertical_arrange" vertical_alignment="top,extend" horizontal_alignment="left" horizontal_inset="8" />
 
 						<widget class="link_button_title" id="lnkR" auto_size="all">
@@ -110,19 +110,11 @@
 									<string id="set_property" value="objt" />
 								</widget>
 							</container>
-							<container class="team_squad_panel" entity_layout_id="ffdf" id="filt" file="">
-								<layout class="stick_to_sides_attachment" alignment="bottom,right" apply_to_children="true" inset="0" />
-								<layout class="fit_children_attachment" alignment="vertical" offset="0" />
-								<layout class="fit_children_attachment" alignment="horizontal" offset="0" />
-
-								<widget class="embedded_filter_button" entity_layout_id="adad" allow_pin="false" id="plsf" target="mnCn" auto_size="all"/>
-							</container>
 						</container>
 					</container>
 				</container>
-			</container>
-		</container>
-		<container id="mnBx" height="480">
+
+		<container id="mnBx" height="550">
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 
 			<container class="contrast_box" id="pitv" hidden="true" navigation_container="true" red_replacement="pitch_box_background">
@@ -210,12 +202,15 @@
 					<layout class="stick_to_sides_attachment" alignment="all" inset="30,0,5,0" />
 				</container>
 
-				<widget class="subtle_popup" id="plvi" auto_size="vertical" width="200" needs_height="true">
+				<widget class="subtle_popup" id="plvi" auto_size="vertical" width="180" needs_height="true">
 					<layout class="stick_to_sides_attachment" alignment="top,left" inset="10,5" />
 				</widget>
 			</container>
 		</container>
+			</container>
+		</container>
 	</container>
+
 	<container class="text" alignment="centre" colour="faded text" id="noTT" height="350" hidden="true">
 		<translation id="text" value="This report is no longer available.[COMMENT: scout_next_opposition; scout delivers report on next opposition club]" translation_id="470396" type="use" />
 		<layout class="stick_to_sides_attachment" alignment="top,horizontal" inset="0" />
