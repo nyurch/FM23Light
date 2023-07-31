@@ -118,12 +118,12 @@
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 
 			<container class="contrast_box" id="pitv" hidden="true" navigation_container="true" red_replacement="pitch_box_background">
-				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="8" horizontal_gap="12" />
+				<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_offset="8" horizontal_gap="5" />
 
 				<container class="pitch_with_tactics" id="ypwt">
 					<string id="player_icon_file" value="tactics/tactics icon info panel overview" />
 					<string id="icon_flags" value="show_name,show_extra_details,use_overview_icons,drop_initial_if_possible,show_position_role_duty_suitability,disable_role_duty_popup,show_selection_image,show_role_duty_labels,show_familiarity,dont_fade_icons,show_reserves_playing_time" />
-					<integer id="pitch_vertical_padding" value="0" />
+					<integer id="pitch_horizontal_padding" value="50" />
 					<string id="horizontal" value="true" />
 					<string id="pitch_line_colour" value="white" />
 					<real id="maximum_player_size" value="0.220000" />
@@ -139,7 +139,7 @@
 					<integer id="line_width" value="1" />
 					<string id="image_alignment" value="centre" />
 				</container>
-				<container class="subs_bench_panel" id="Subs" file="tactics/subs bench panel reserve playing time" width="200">
+				<container class="subs_bench_panel" id="Subs" file="tactics/subs bench panel reserve playing time" width="170">
 					<widget class="subs_bench_icon_panel" id="subs" iche="50" ichx="54" icon_flags="show_name,show_number, show_injury_indicator,drop_initial_if_possible,show_extra_details,show_reserves_playing_time" player_icon_file="tactics/tactics icon info panel with reserve playing time no kit"/>
 				</container>
 			</container>
