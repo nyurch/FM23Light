@@ -132,7 +132,7 @@
 					<string id="dcol" value="tactics darkened run" />
 					<string id="gcol" value="tactics dragged run" />
 					<string id="pitch_kit_height" value="20" />
-					<string id="pitch_draw_grass" value="false" />
+					<string id="pitch_draw_grass" value="true" />
 					<string id="pitch_base_appearance" value="" />
 					<string id="pitch_pattern" value="ui circles" />
 					<integer id="pitch_touchline_width_percentage" value="20" />
