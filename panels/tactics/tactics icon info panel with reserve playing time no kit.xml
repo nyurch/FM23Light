@@ -1,0 +1,36 @@
+﻿<panel width="75" height="50" use_hit_mask="true">
+	<flags id="selected_appearance" value=""/>
+
+	<attachment_group class="vertical_arrange" vertical_alignment="top" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+
+	
+	<container class="main_contrast_box_no_margin" height="50" red_replacement="teal 900">
+		<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="0" vertical_gap="0" horizontal_inset="0" />
+
+		<!-- recommended playing time-->
+		<widget class="reserves_recommended_playing_time_popup" id="ptBR" select_event="eRSP" appearance="buttons/custom/tactics/role picker mini/button" colour="white" secondary_icon_colour="white" red_replacement="black" alignment="centre" auto_size="vertical" />
+
+		<container class="bordered_box" id="bcIM" red_replacement="teal 900">
+			<attachment_group class="vertical_arrange" vertical_alignment="top" vertical_offset="0" vertical_gap="0" horizontal_inset="1" />
+
+			<!--name-->
+			<widget class="player_picker_button" id="plPB" file="widgets/player selection button tactics" draggable="false" format="[%person#1-surname]" auto_size="vertical">
+			</widget>
+
+		</container>
+
+	</container>
+
+	<!--containers for the indicators-->
+	<!--injury/red/yellow card -->
+	<container class="plain_box" id="inji" width="20" height="20" icon_alignment="left,top">
+		<layout class="stick_to_sides_attachment" alignment="top,right" inset="6,0,0,0"/>
+	</container>
+
+	<!--captain icon-->
+	<widget class="picture" id="capi" scale_picture="true" file="icons/16px/captain" width="14" height="14">
+		<layout class="stick_to_sides_attachment" alignment="top,right" inset="6,0,0,0"/>
+	</widget>
+
+
+</panel>
