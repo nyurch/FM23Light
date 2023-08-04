@@ -1,0 +1,60 @@
+﻿<panel height="112" width="112">
+	<boolean id="should_force_refresh" value="true"/>
+
+	<widget class="button" id="hglP" appearance="" click_event="hglP">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+	</widget>
+  
+  <!--highlight box-->
+  <container class="main_box" id="hghl" hidden="true" appearance="boxes/custom/dynamics/player widget social/container selected/paper" green_replacement="attention">
+    <layout class="stick_to_sides_attachment" alignment="all" inset="1" />
+  </container>
+  
+	<container class="main_box" id="plbx" appearance="boxes/custom/dynamics/player widget social/container/paper" red_replacement="card bg darker">
+		<layout class="arrange_vertical_attachment" alignment="bottom,extend" offset="0" gap="0" />
+		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+		
+		<container>
+			<layout class="arrange_horizontal_attachment" layout="-1,-1" offset="5" gap="0" />
+			<layout class="stick_to_sides_attachment" alignment="vertical" inset="0" apply_to_children="true" />
+			<!-- Profile picture -->
+			<widget class="squad_number_label" spec="text" size="xxlarge" style="bold" colour="secondary" alignment="centre" wants_mouse_events="false">
+				<record id="object_property">
+					<list id="get_properties">
+						<record get_property="Psnu" set_property="valu" />
+					</list>
+				</record>
+			</widget>
+			<widget class="picture" id="prop" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre_x">
+				<record id="object_property">
+					<list id="get_properties">
+						<!--Facegen data request-->
+						<record get_property="fcgn" />
+						<!--Fake name request-->
+						<record get_property="Pfke" />
+						<record get_property="prpc" set_property="valu" />
+					</list>
+				</record>
+			</widget>
+		</container>
+
+		<container class="main_box" id="sgPb" appearance="boxes/custom/dynamics/player widget social/name/paper" height="30">
+			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+
+			<widget class="text" id="pLab" spec="text" size="small"  alignment="centre,can_scale"  />
+		</container>
+	</container>
+
+  <container width="25" height="25">
+    <layout class="stick_to_sides_attachment" alignment="right,top" inset="0" />
+    <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
+    <widget class="picture" id="cptP" image_alignment="right,centre_y" file="icons/custom/promises/captain" red_replacement="yellow" blue_replacement="black" scale_picture="true" keep_aspect_ratio="true" wants_mouse_events="false">
+      <translation id="hint" translation_id="300013" type="use" value="Captain" />
+    </widget>
+
+    <widget class="picture" id="vcpP" image_alignment="right,centre_y" file="icons/custom/promises/vice captain" red_replacement="white" blue_replacement="black" scale_picture="true" keep_aspect_ratio="true" wants_mouse_events="false">
+      <translation id="hint" translation_id="300014" type="use" value="Vice Captain" />
+    </widget>
+  </container>
+</panel>
