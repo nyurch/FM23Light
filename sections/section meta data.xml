@@ -2182,7 +2182,7 @@ this file contains a list of all of the sections in the game
 		<record id="tctp" section="tctp" help_page="transfers">
 			<translation id="text" translation_id="351069" type="use" value="Transfer History[COMMENT: team screen section; panel for showing completed transfers]" />
 			<record id="widget_info">
-				<symbol id="class" value="transfer_history_panel" />
+				<symbol id="class" value="transfer_panel_club" />
 			</record>
 		</record>
 		<record id="tarl" section="tarl">
