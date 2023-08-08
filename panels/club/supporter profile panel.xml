@@ -4,21 +4,21 @@
 	<!-- Logo, Title, Report Compiled By -->
 	<container>
 		<attachment_group class="horizontal_arrange_vertical_autosize_centre" horizontal_alignment="left,extend" vertical_inset="0" horizontal_offset="0" />
-
-		<widget class="object_portrait_picture" id="sglo" height="40" width="40" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" />
-
+		<layout class="horizontal_arrange" horizontal_layout="-1,206.300,-1" />
+		<container/>
+		<widget class="picture" file="pictures/custom/supporters_banner" height="90" width="206" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" />
 		<container>
-			<attachment_group class="vertical_arrange_autosize" horizontal_inset="4" />
-
-			<widget class="text" id="sgtt" auto_size="all" font="title" size="large" colour="text" />
-			<widget class="text" id="sgct" display_format="1" size="medium" height="18" colour="faded text" />
+			<attachment_group class="vertical_arrange_autosize" horizontal_inset="0" />
+			<widget class="text" id="sgtt" auto_size="all" font="title" size="xxlarge" colour="text" />
+			<widget class="text" id="sgct" display_format="1" size="medium" height="36" colour="faded text" />
 		</container>
+		<container/>
 	</container>
 
 	<container>
 		<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" />
 
-		<container>
+		<container class="main_subtle_box">
 			<!-- Main content always shown -->
 			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_offset="6" horizontal_inset="0" />
 
@@ -82,16 +82,16 @@
 		<container width="400">
 			<attachment class="show_medium_horizontal" />
 			<!-- Additional info (hidden in low res) -->
-			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="20" horizontal_inset="10" />
+			<attachment_group class="vertical_arrange" vertical_alignment="top,extend" vertical_gap="5" horizontal_inset="5" />
 
 			<!-- Last Match -->
-			<container>
+			<container class="main_subtle_box">
 				<attachment_group class="vertical_arrange_autosize" />
 
 				<container>
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="8" />
 
-					<widget class="picture" file="icons/custom/analysis/pitch" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="20" width="20" red_replacement="text" blue_replacement="bg">
+					<widget class="picture" file="icons/custom/analysis/pitch" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="20" width="20" red_replacement="fg orange" blue_replacement="bg">
 						<layout class="centre_in_parent_attachment" alignment="vertical" />
 					</widget>
 
@@ -160,13 +160,13 @@
 			</container>
 
 			<!-- Rivals -->
-			<container>
+			<container class="main_subtle_box">
 				<attachment_group class="vertical_arrange_autosize" />
 
 				<container>
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="8" />
 
-					<widget class="picture" file="icons/custom/start screen/create a club" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="20" width="20" red_replacement="text" blue_replacement="bg">
+					<widget class="picture" file="icons/custom/start screen/create a club" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="20" width="20" red_replacement="fg magenta" blue_replacement="bg">
 						<layout class="centre_in_parent_attachment" alignment="vertical" />
 					</widget>
 
@@ -175,7 +175,7 @@
 					</widget>
 				</container>
 
-				<widget class="table" id="ritb" layout="-2, -1, -1" mode="fill_rows, stripe_rows" auto_size_rows="false" fixed_size_rows="true" default_sort_column="1" row_height="26" height="108">
+				<widget class="table" id="ritb" layout="-2, -1, -1" mode="fill_rows, stripe_rows" auto_size_rows="false" fixed_size_rows="true" default_sort_column="1" row_height="26" height="200">
 					<list id="headings">
 						<record>
 							<integer id="index" value="0" />
@@ -219,13 +219,13 @@
 			</container>
 
 			<!-- Current Favoured Personnel -->
-			<container id="cfpc">
+			<container class="main_subtle_box" id="cfpc">
 				<attachment_group class="vertical_arrange_autosize" />
 
 				<container>
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="8" />
 
-					<widget class="picture" file="icons/custom/icon box/squad" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="20" width="20" red_replacement="text" blue_replacement="bg">
+					<widget class="picture" file="icons/custom/icon box/squad" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="20" width="20" red_replacement="fg green" blue_replacement="bg">
 						<layout class="centre_in_parent_attachment" alignment="vertical" />
 					</widget>
 
@@ -234,7 +234,7 @@
 					</widget>
 				</container>
 
-				<widget class="table" id="fptb" layout="-2, -2, -1" mode="fill_rows, stripe_rows" auto_size_rows="false" fixed_size_rows="true" row_height="26" height="108">
+				<widget class="table" id="fptb" layout="-2, -2, -1" mode="fill_rows, stripe_rows" auto_size_rows="false" fixed_size_rows="true" row_height="26" height="200">
 					<list id="headings">
 						<record>
 							<integer id="index" value="0" />
@@ -287,13 +287,13 @@
 			</container>
 
 			<!-- Finances -->
-			<container>
+			<container class="main_subtle_box">
 				<attachment_group class="vertical_arrange" vertical_alignment="top, extend" />
 
 				<container>
 					<attachment_group class="horizontal_arrange_vertical_autosize" horizontal_gap="8" />
 
-					<widget class="picture" file="icons/custom/vision/objectives/finance" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="20" width="20" red_replacement="text" blue_replacement="bg">
+					<widget class="picture" file="icons/custom/vision/objectives/finance" scale_picture="true" keep_aspect_ratio="true" image_alignment="centre" height="20" width="20" red_replacement="accent" blue_replacement="bg">
 						<layout class="centre_in_parent_attachment" alignment="vertical" />
 					</widget>
 
