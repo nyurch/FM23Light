@@ -1742,15 +1742,15 @@
 	<colour name="performance board tag"												value="rgb(3, 83, 148)"/>
 	<colour name="performance fans tag"													value="teal"/>
 	<colour name="performance A plus grade"												value="teal 900"/>
-	<colour name="performance A grade"													value="teal 600"/>
-	<colour name="performance A minus grade"											value="teal 500"/>
+	<colour name="performance A grade"													value="teal 900"/>
+	<colour name="performance A minus grade"											value="teal 900"/>
 	<colour name="performance B plus grade"												value="green 900"/>
-	<colour name="performance B grade"													value="green 600"/>
-	<colour name="performance B minus grade"											value="green 500"/>
-	<colour name="performance C plus grade"												value="orange 500"/>
-	<colour name="performance C grade"													value="orange 600"/>
-	<colour name="performance C minus grade"											value="orange 900"/>
-	<colour name="performance D grade"													value="red 500"/>
+	<colour name="performance B grade"													value="green 900"/>
+	<colour name="performance B minus grade"											value="green 900"/>
+	<colour name="performance C plus grade"												value="green 700"/>
+	<colour name="performance C grade"													value="green 700"/>
+	<colour name="performance C minus grade"											value="green 600"/>
+	<colour name="performance D grade"													value="orange 700"/>
 	<colour name="performance E grade"													value="red 500"/>
 	<colour name="performance F grade"													value="red 600"/>
 	<colour name="performance G grade"													value="red 900"/>
