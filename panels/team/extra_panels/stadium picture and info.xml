@@ -1,0 +1,100 @@
+<panel>
+	<layout class="stick_to_sides_attachment" alignment="all" inset="1" apply_to_children="true" />
+
+	<container>
+		<attachment class="vertical_arrange" vertical_layout="40,-1,40" vertical_gap="0"/>
+
+		<container class="plain_box">
+			<layout class="arrange_vertical_attachment" alignment="top" offset="5" gap="0" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" />
+			<container class="plain_box" appearance="boxes/contrast/no margin/top/paper" red_replacement="secondary" height="40" priority="1">
+				<layout class="arrange_horizontal_attachment" layout="-1" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" inset="4" apply_to_children="true" />
+				<container>
+					<layout class="arrange_vertical_attachment" layout="-1,-1" offset="0" gap="0" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+					<widget class="client_object_label" size="9" id="Tsre" priority="1" alignment="centre_x, centre_y" colour="primary" font="title">
+						<record id="object_property">
+							<integer id="get_property" value="objt" />
+						</record>
+					</widget>
+					<widget class="city_label" spec="text,small" id="SctI" priority="1" alignment="centre_x, centre_y" show_nation="true" auto_size="vertical" colour="primary">
+						<record id="object_property">
+							<integer id="get_property" value="SctI" />
+						</record>
+					</widget>
+				</container>
+			</container>
+		</container>
+
+		<container class="plain_box" >
+			<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true"/>
+			<widget class="stadium_picture" id="STAp" file="none">
+				<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="-111"/>
+				<record id="object_property" get_property="objt" set_property="objt"/>
+				<record id="default_properties" image_alignment="centre" scale_picture="true" keep_aspect_ratio="true"/>
+				<widget class="picture" file="pictures/stadiums/stadium_bg" />
+				<widget class="picture" id="bkgd" file="pictures/stadiums/none_base" hidden="true"/>
+				<widget class="picture" id="STPC"/>
+			</widget>
+		</container>
+
+		<container class="plain_box">
+			<layout class="arrange_vertical_attachment" alignment="bottom" offset="4" gap="0" />
+			<layout class="stick_to_sides_attachment" alignment="horizontal" apply_to_children="true" />
+			<container class="plain_box" appearance="boxes/contrast/no margin/bottom/paper" red_replacement="secondary" height="40" priority="1">
+				<layout class="arrange_horizontal_attachment" layout="-1,-1,-1" offset="0" />
+				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" />
+				<layout class="stick_to_sides_attachment" alignment="vertical" inset="4" apply_to_children="true" />
+				<container>
+					<layout class="arrange_vertical_attachment" layout="-4,-3" offset="0" gap="0" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+					<widget class="dashed_number_label" spec="text, small" size="10" id="SbdV" NumF="0" colour="primary" alignment="centre_x,bottom" font="title">
+						<record id="object_property">
+							<integer id="get_property" value="Sbdy" />
+						</record>
+					</widget>
+					<widget class="label" id="SbdL" spec="text,small" colour="primary" alignment="centre_x,top" auto_size="vertical">
+						<record id="object_property">
+							<integer id="get_property" value="Sbdy" />
+							<boolean id="name" value="true" />
+						</record>
+					</widget>
+				</container>
+				<container>
+					<layout class="arrange_vertical_attachment" layout="-4,-3" offset="0" gap="0" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+					<widget class="stadium_condition_label" spec="text, small" size="9" id="SroG" colour="primary" alignment="centre_x,bottom" font="title">
+						<record id="object_property">
+							<integer id="get_property" value="Sdcy" />
+						</record>
+					</widget>
+					<widget class="label" id="SroD" spec="text,small" colour="primary" alignment="centre_x,top" auto_size="vertical">
+						<record id="object_property">
+							<integer id="get_property" value="Sdcy" />
+							<boolean id="name" value="true" />
+						</record>
+					</widget>
+				</container>
+				<container>
+					<layout class="arrange_vertical_attachment" layout="-4,-3" offset="0" gap="0" />
+					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
+					<widget class="dashed_number_label" spec="text, small" size="10" id="ScpV" colour="primary" alignment="centre_x,bottom" font="title">
+						<record id="object_property">
+							<integer id="get_property" value="Scpy" />
+						</record>
+					</widget>
+					<widget class="label" id="ScpL" spec="text,small" colour="primary" alignment="centre_x,top" auto_size="vertical">
+						<record id="object_property">
+							<integer id="get_property" value="Scpy" />
+							<boolean id="name" value="true" />
+						</record>
+					</widget>
+				</container>
+			</container>
+		</container>
+
+	</container>
+
+</panel>
