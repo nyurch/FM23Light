@@ -542,7 +542,7 @@
 	</container>
 	<!-- FOOTER CONTAINER -->
 	<container>
-		<layout class="horizontal_arrange" horizontal_layout="450,330,200,-1" />
+		<layout class="horizontal_arrange" horizontal_layout="350,330,300,-1" />
 		<container>
 			<layout class="vertical_arrange" vertical_layout="-1,-1" />
 			<!-- BANS -->
@@ -620,7 +620,7 @@
 						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
 							<translation id="text" type="use" translation_id="227884" value="Position" />
 						</widget>
-						<widget class="position_label" size="large" id="Pdes" colour="fg" alignment="left,centre_y">
+						<widget class="position_label" size="large" id="Pdes" colour="fg" alignment="right,centre_y">
 							<record id="object_property" get_property="PCps" />
 						</widget>
 					</container>
@@ -633,7 +633,7 @@
 						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
 							<translation id="text" type="use" translation_id="249451" value="Minutes" />
 						</widget>
-						<widget class="number_label" id="Pghm" size="large" colour="fg" alignment="left,centre_y">
+						<widget class="number_label" id="Pghm" size="large" colour="fg" alignment="right,centre_y">
 							<record id="object_property" get_property="PCmp" />
 						</widget>
 					</container>
@@ -647,7 +647,7 @@
 						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
 							<translation id="text" type="use" translation_id="227851" value="Goals" />
 						</widget>
-						<widget class="number_label" id="Pghm" size="large" colour="fg" alignment="left,centre_y">
+						<widget class="number_label" id="Pghm" size="large" colour="fg" alignment="right,centre_y">
 							<record id="object_property" get_property="PCgo" />
 						</widget>
 					</container>
@@ -660,7 +660,7 @@
 						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
 							<translation id="text" type="use" translation_id="227847" value="Assists" />
 						</widget>
-						<widget class="number_label" id="Pghm" size="large" colour="fg" alignment="left,centre_y">
+						<widget class="number_label" id="Pghm" size="large" colour="fg" alignment="right,centre_y">
 							<record id="object_property" get_property="PCas" />
 						</widget>
 					</container>
@@ -673,7 +673,7 @@
 						<widget class="label" font="title" size="large" colour="faded black" alignment="left,centre_y">
 							<translation id="text" type="use" translation_id="227849" value="Rating" />
 						</widget>
-						<widget class="dashed_number_label" size="large" colour="fg" format="[%fraction#1-3.2]" id="Pghm" alignment="left,centre_y">
+						<widget class="dashed_number_label" size="large" colour="fg" format="[%fraction#1-3.2]" id="Pghm" alignment="right,centre_y">
 							<record id="object_property" get_property="PCra" />
 						</widget>
 					</container>
